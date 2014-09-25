@@ -240,7 +240,7 @@ edited by K. Ito ({\textit John Wiley $\&$ Sons}, ??CITY??, ??2014??); in prepar
 
 With the increasing of energy consumption, more and more energy or power is needed. According to the statistical review of world energy on 2012 (2014?????) (\textbf{Fig. \ref{wpec}}),
 the required energy is mainly satisfied by the fossil fuels (mainly coal, petroleum and 
-natural gas), with a market share of around 87\%. The total energy consumming is around 12000 million tonnes oil equivalent (METO), which is equivalent with around 15 terawatts. 
+natural gas), with a market share of around 87\%. The total energy consumption is around 12000 million tonnes oil equivalent (METO), which is equivalent with around 15 terawatts. 
 Normally lightbulbs in our homes consume around 100 watts of energy, 1 terawatt means is 10 billion of the lightbulbs is lighted at the same time. 
 Unfortunately, the fossil fuels is very limited energy and non-renewable resources, one day which is not far from  now it will be dissipated due to the energy consumption growth.
 
@@ -261,7 +261,7 @@ and the AM1.5 and AM0 are important. AM1.5 is the air mass at a solar zenith ang
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.6]{spectrum.pdf}
+\includegraphics[scale=0.4]{spectrum.pdf}
 \caption{Solar irradiance spectrum (Y-axis ??).}
 \label{spectrumsun}
 \end{figure}
@@ -282,19 +282,20 @@ From \textbf{Fig. \ref{nrel}}, one can notice that the highest efficiency for mu
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.4]{efficiency_chart.jpg}
+\includegraphics[scale=0.3]{efficiency_chart.jpg}
 \caption{Best research-cell efficiencies. Figure is from National Renewable Energy Laboratory (NREL), Golden, Colorado.}
 \label{nrel}
 \end{figure}
 
-For the multijunction cells, the conversion efficiency is relatively higher compared with others, however, the price is much more expensive as well due to the materials used for production.
+For the multijunction cells, the conversion efficiency is relatively higher compared with others, however, the price is much more expensive as well due to more amount of materials used for production.
 Compared with multijunction cells, the crystalline silicon has lower conversion efficiency, but lower price as well. The price for thin film is cheaper than crystalline silicon, however,
 the efficiency is little lower than crystalline silicon. The new emerging cells are cheapest compared with all the others type of cells, however, the conversion efficiency is 
 relatively lower.
 
 
 \subsection{Single-junction solar cells}
-The p-n junction is the fundamental building block of solar cells. The principle behind the p-n junction needs to be demonstrated in order to better understand the principle of solar cells. The single p-n junction will be explored in this section.
+The p-n junction is the fundamental building block of solar cells. The principle behind the p-n junction needs to be demonstrated in order to better understand the principle of solar cells. 
+The single p-n homojunction will be explored in this section.
 
 We will start from the seperate n-type material and p-type material. In the \textbf{Fig. \ref{dopedmaterials}}, the left one is the n-type, where the material has many free negatively charged electrons which can move around the material, and there are numbers of positively 
 charged immobile donor ions as well. Similarily, the right one is the p-type, and it has many free positively charged holes which can move through the material, and there are numbers of negatively charged immobile acceptor ions as well. However,
@@ -310,10 +311,10 @@ the material is still neutral in both n-type and p-type.
 
 \begin{figure}[H]
     \begin{center}
-            \includegraphics[width=0.46\textwidth,clip]{sepratepn.jpg}
-            \includegraphics[width=0.46\textwidth,clip]{sepratepn1.jpg}
+            \includegraphics[width=0.4\textwidth,clip]{sepratepn.jpg}
+            \includegraphics[width=0.4\textwidth,clip]{sepratepn1.jpg}
      \end{center}
-    \caption{Doped material (n-type and p-type)}      
+    \caption{Left: Doped material (n-type and p-type). Right: Fermi level of n-type and p-type materials}      
     \label{dopedmaterials}
 \end{figure}
 
@@ -324,12 +325,25 @@ p-type materials, the fixed donor and acceptor ions establish a "build in" elect
 point, the whole material will reach a stable equilibrium. Formation of the "build in" electric field is rather important for the solar cells, even though there is no currect in the material so far. In the following text, the region which establishes
 the "build in" electric field is also called space charge region (SCR).
 
+%\begin{figure}[H]
+%\centering
+%\includegraphics[scale=0.4]{pnjunction.jpg}
+%\caption{p-n junction}
+%\label{pnjunction}
+%\end{figure}
+
+
 \begin{figure}[H]
-\centering
-\includegraphics[scale=0.4]{pnjunction.jpg}
-\caption{p-n junction}
-\label{pnjunction}
+    \begin{center}
+            \includegraphics[width=0.4\textwidth,clip]{pnjunction.jpg}
+            \includegraphics[width=0.4\textwidth,clip]{pnjunction1.jpg}
+     \end{center}
+    \caption{Left: The p-n homojunction. Right: Fermi level of the p-n homejunction at the equilibrium. }      
+    \label{pnjunction}
 \end{figure}
+
+
+
 
 Before discussing further the p-n junction in the solar cells, the forward and reverse bias will be introduced in the \textbf{Fig. \ref{frb}}. The forward bias means that a negative voltage is applied on the n-type side, and a positive voltage is applied 
 on the p-type side. In this case, the SCR will be shrinked. With the increasing of the voltage, the SCR will rather small and the current will flow freely. Conversely, the reverse bias means that a negative voltage is applied on the p-type
@@ -337,8 +351,8 @@ side, and a positive voltage is applied on the n-type side. The SCR will become 
 
 \begin{figure}[H]
     \begin{center}
-            \includegraphics[width=0.46\textwidth,clip]{forwardbias.jpg}
-            \includegraphics[width=0.46\textwidth,clip]{reversebias.jpg}
+            \includegraphics[width=0.4\textwidth,clip]{forwardbias.jpg}
+            \includegraphics[width=0.4\textwidth,clip]{reversebias.jpg}
      \end{center}
     \caption{Forward and reverse bias}      
     \label{frb}
@@ -346,17 +360,28 @@ side, and a positive voltage is applied on the n-type side. The SCR will become 
 
 
 The p-n junction material with and without the illumination is discussed in the \textbf{Fig. \ref{illu}}. If there was a wire with certain resistance connecting the n-type and p-type, there is no current in the wire under the condition of no illumination. However, if the light shines on the whole material, the current will be generated from the 
-p-type to the n-type side. Because the bond inside the material will be broken under the illumination, which will generate one pair of electron hole. Apparently, there are three regions in the whole junction material where the bonds are possible to be broken, the n-type region, the p-n junction, and
+p-type to the n-type side (conventional current). Because the bond inside the material will be broken under the illumination, which will generate one pair of electron hole. Apparently, there are three regions in the whole junction material where the bonds are possible to be broken, the n-type region, the p-n junction, and
 the p-type region. In the either n-type or p-type region, the electron–hole pair will not remain long time,  it is most probable that they will back into the bonded positions again since the pair electron-hole is rather close each other. However, the pair
 electron-hole pair will be seperated in the p-n junction region due to the "build in" electric field, therefore, the current will be generated. Actually, the electron-hole pair in the either n-type and p-type also have the chance to diffuse into 
 the SCR, it will also contribute the generation of current in this case.
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.7]{illumination.jpg}
-\caption{illumination}
+\includegraphics[scale=0.5]{illumination.jpg}
+\caption{The p-n junction under illumination}
 \label{illu}
 \end{figure}
+
+The band-profile of ...
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.45]{illumination1.jpg}
+\caption{Band profile and fermi level of the p-n junction under illumination}
+\label{illu1}
+\end{figure}
+
 
 The I-V characteristics is defined in the \textbf{Fig. \ref{ivcharac}} with some important parameters in the solar cells.
 The $V_{oc}$ and $I_{sc}$ are the open circuit voltage and short circuit current, respectively. They are the maximum voltage and current when the solar cells are with the illumination conditions.
@@ -365,7 +390,7 @@ And $V_{mp}$ and $I_{mp}$ are the voltage and current which will yield the maxim
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.6]{IV.jpg}
+\includegraphics[scale=0.5]{IV.jpg}
 \caption{I-V characteristics}
 \label{ivcharac}
 \end{figure}
@@ -388,11 +413,11 @@ the $V_{oc}$ will be reduced in this case. On the material surface, the photons 
 
 \section{Solar cell materials}
 
-In 1839,  French physicist A. E. Becquerel revealed the photovoltaic effect for the first time, then Charles Fritts built the first solid state photovoltaic (PV) cell using semiconductor selenium in 1883,
-it is not until 1941 that the first silicon-based solar cell is demonstrated, until now, there are many different solar cell materials. The reason why 
+In 1839,  French physicist A. E. Becquerel revealed the photovoltaic effect for the first time, later Charles Fritts built the first solid state photovoltaic (PV) cell using semiconductor selenium in 1883.
+It is not until 1941 that the first silicon-based solar cell is demonstrated. Until now, there are many different solar cell materials. The reason why 
 best solar cell material do not come out yet is that it is expected to be not only high efficiency but also environmentally friendly and 
 low cost. It means that it requires not only that the process of growth and manufacturing solar cell materials should be cheapter, but also that it has longer application life, and the raw material should be abundant and non-toxic as well. In this section,
-five main solar cell materials are discussed briefly, that is, silicon (Si), gallium arsenide (GaAs), cadmium telluride (CdTe), $\mathbf {Cu(In, Ga)Se_2}$ (CIGS),  and $\mathbf {Cu_{2}ZnSn(S,Se)_{4}}$ (CZTSSe).
+five main solar cell materials are discussed briefly, that is, silicon (Si), gallium arsenide (GaAs), cadmium telluride (CdTe), Copper indium gallium selenide (Cu(In, Ga)Se\textsubscript{2}).
 
 Potential solar cell materials need to fullfil several properties, such as large absorption coefficient and the range of band gap is around 1 to 1.6 eV. Under these conditions, there 
 are quite many materials satisfying the requirements. However, some other properties are needed to be considered as well, such as cost, enviromental safety
@@ -400,7 +425,7 @@ and many others. Thereby, only some of them is suitable to produce in reality. I
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.8]{compoundsemicondctor1} 
+\includegraphics[scale=0.5]{tree.jpg} 
 \caption{Tree of tetragonal bonded semiconductor, the roman numerals means the group numbers in the chemical element periodic table, the subscript means the number of elements.}
 \label{lscm}
 \end{figure}
@@ -451,32 +476,15 @@ CIGS are direct band gap seciconductor with high optical absorption coefficients
 n-type cadmium sulfide layer. The conversion efficiency of CIGS reached up to 20\% in the laboratory cell. The intersting part is that it can be alloyed with Gallium (Ga), and the band gap can be tuned along with that. The band gap 
 is between 1 eV to 1.7 eV for this alloy. CIGS does not contain any toxic element. However, the cost and scarcity of Indium (In) will become the major problem for the CIGS.
 
-CZTSSe is also a promising solar cell material due to the low cost and non-toxicity (\textbf{Fig. \ref{lscm}}). It has many similarities with CIGS, such as similar device structure, fabrication techniques and tunable band gap. 
-More importantly, it contains abundant, cheap and non-toxic elements, therefore, it has huge potential for the future to reduce the cost of solar cells. Since the intensive reseach on this material is not long time ago, therefore the 
-conversion efficiency is only around 10\% in the laboratory. Apparently, the quaternary chalcogenide semiconductor is more complicated compared with other thin film materials, more reseaches are needed to imporve the conversion efficiency.
 
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.8]{price.jpg} 
-\caption{}
-\label{lscm}
-\end{figure}
-
-
-\section{CIGS and CZTSSe materials}
-
-CIGS and CZTSSe are very important and promising solar cell materils. CIGS is relatively mature material, however, more details are needed to be investigated in order to get the optimum conversion efficiency. CZTSSe is relatively young
-material, but have a huge potential considering a long term. More studies are essential to deeply understand this material. In this thesis, the CIGS and CZTSSe are the main topic. Certainly, the search and optimisation of alternatively
-thin film materials is still an ongoing and active area today.
-
-\subsection{CIGS material}
+\section{CIGS materials}
 CIGS material is a chalcopyrite-type material, which is considered to be the most promising thin film solar cell material. It has a direct band gap between 1 ev and 1.7 eV,  and the conversion efficiency in laboratory already surpassed 20\%. 
 $\mathbf {CuInSe_{2}}$ was first synthesized by Hahn in 1953. It was first used as an absorber material in a single crystal solar cell in 1974, which is based on $\mathbf {CuInSe_{2}}$ and CdS. The conversion efficiency is around 
 5\%. The first thin film solar cells based on $\mathbf {CuInSe_{2}}$ and CdS was invented by Kazmerski. During 1980s, Boeing Corporation did much reseach on the thin film polycrystalline CIGS solar cells. 
 To date, the highest conversion efficiency in lab situation for the solar cells based on CIGS is between 20\% and 21\% by alloying Ga.
 
 
-\subsubsection{Crystal structure}
+\subsection{Crystal structure}
 From the \textbf{Fig. \ref{lscm}}, the crystal structure of CIGS can be derived from the zinc blende crystal structure of ZnSe. In the \textbf{Fig. \ref{crystal_cigs}}, the crystal structure of ZnSe and CIGS is presented. 
 The elements Zn are replaced by Cu and In or Ga elements in the zinc blende of ZnSe. It requires to double the unice cell in the z-direction. Because the different bond strength and lengths between
 Cu-Se and In-Se or Ga-Se, therefore, the lattice parameter c is not exact 2a normally.
@@ -491,13 +499,17 @@ this is the most probable local atomic configuration in a random alloy structure
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.8]{structureciise.jpg} 
+\includegraphics[scale=0.4]{structureciise1.jpg} 
 \caption{}
 \label{crystal_cigs}
 \end{figure}
 
 
-\subsubsection{Optical properties and doping in the CIGS}
+
+
+
+
+\subsection{Optical properties and doping in the CIGS}
 $\mathbf {CuInSe_{2}}$ has a direct band gap around 1 eV, and the absorption coefficient is above $1 \times 10^{4} cm^{-1}$. The quaternary CIGS alloy will be available by alloying Ga element, while the band gap is tuned as well from 
 1.0 eV to 1.7 eV. The high absorption coefficient makes the CIGS material possible to be an absorber for the thin film solar cells. The band gap can be approximated by the function of Ga content (x):
 
@@ -521,13 +533,13 @@ CIS can be grown n-type under the condition Se-poor or In-rich. However, CGS is 
 It is maybe also explained that the Ga-rich CIGS is not suitable for high efficiency solar cells. 
 
 
-\subsubsection{CIGS solar cell structure}
+\subsection{CIGS solar cell structure}
 
 The solar cells device based on CIGS is a heterojunction device, which has several thin film layers with different functional properties. A schematic of a conventional device structure is shown in  \textbf{Fig. \ref{device}}
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.8]{devicestruc.jpg} 
+\includegraphics[scale=0.5]{devicestruc.jpg} 
 \caption{}
 \label{device}
 \end{figure}
@@ -538,48 +550,7 @@ The intrinsic zinc oxide (i-ZnO) and n-type ZnO layer are followed, and it works
 
 
 
-\subsection{CZTSSe material}
-CZT(S,Se) is a quaternary semiconductor, which has the potential to be the next generation promising candidate material for the thin film solar cell. It has a direct band gap between ?? and ??, and the converstion efficiency in laboratory 
-is around ?? currently. The CZTS mineral is found in nature, and the possibility of forming quaternary-like CZT(S,Se)-type compounds with diamond-like covalent bonds was discussed by Goodman and later by Pamplin over half a century ago. However, 
-the theoretical studies of CZT(S,Se) began as late as 2005 when Raulot et al. modeled the crystal structures of semiconductors with Cu-(S,Se) bonds and calculated the electronic structures. 
 
-
-\subsubsection{Crystal structure}
-Cu2ZnSnS4 (CZTS) and Cu2ZnSnSe4 (CZTSe) belong to a very interesting type of materials. These two group-I2-II-IV-VI4 compounds have a similar tetrahedral bonds geometry as traditional group-IV, III-V, and II-VI semiconductors;
-see \ref{cztsse}. The compounds obey Lewis’ octet rule with eight electrons around each anion atom (S or Se); the four bonds of each anion therefore form together a close valence shell.
-CZT(S,Se) can be constructed from the binary Zn(S,Se) by replacing two of the four Zn atoms with Cu, and one of the four Zn atom by Sn, whereupon the number of valence electrons is preserved. 
-However, the cubic or hexagonal crystal symmetry of ZnS is thereby lowered to a tetragonal body-centered symmetry with either kesterite  or stannite  crystalline phase, respectively (a third primitive-mixed CuAu-like phase has been
-modeled, but this phase is not discussed in this thesis). 
-
-
-In Figure \ref{cztsse}, the kesterite and stannite crystalline structures are presented for CZTS. Kesterite phase with space group ??? (space group no. 82) has in its conventional unit cell four copper atoms on the Wyckoff positions 2a and 2c,
-two zinc atoms on position 2d , two tin atoms on position 2b (all four cation positions have S4 point-group symmetry), and eight sulfur atoms on the 8g position (point group C1). The anion 8g position
-is fully defined with the position (x, y, z), and each anion S-atom therefore has four inequivalent bonds ?X–S to the cations X = Cu(1), Cu(2), Zn, and Sn. The cation positions all have S4 point-group symmetry, 
-and S have C1 symmetry. The stannite phase with space group ??? (no. 121) has four equivalent Cu atoms on the Wyckoff 4d position (with S4 point-group symmetry), two Zn atoms on 2a, two Sn atoms on 2b (both Zn and Sn
-have D2d symmetry) and eight S atoms on the 8i position (point group Cs). In this structure, the anion 8i position is defined by the position (x, y = x, z), and each S-atom therefore has three inequivalent bonds ??X–S to 
-the cations X = Cu, Zn, and Sn. The kesterite and stannite phases differ only by the positions of the Zn atoms and half of the Cu atoms, but the bond characters are the same where each S is surrounded by
-two Cu, one Zn, and one Sn. The ideal structures of both kesterite and stannite (i.e. when all bond lengths are equal as in binary analogue) are obtained for a ratio c/a = 2 of the lattice constants, and 
-with an anion atom positioned at (x, y, z) = (3/4, 3/4, 7/8). The discussion above also holds for the crystalline structure of CZTSe. (compared with book chapter)
-
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.8]{devicestruc.jpg} 
-\caption{}
-\label{cztsse}
-\end{figure}
-
-Since CZT(S,Se) have a similar bond geometry as traditional semiconductors, similar material properties as, for instance, Ge, GaAs, and ZnS may be expected.
-This is true to some extent; however, there are fundamental differences between the Cu-based quaternaries and the group-IV, III-V, and II-VI binary semiconductors. First, while the traditional semiconductors have pure 
-sp3 bonds, the bonds in CZT(S,Se) also involve Cu-d–anion-p hybridized antibonding states. This weakens the bonds in CZT(S,Se). Second, while the group III-V (group II-VI) semiconductors have three (two) valence
-s-like electrons for their cations, Cu in CZTS and CZTZe has only one valence s-like electron. These two properties imply that the formation energy of Cu vacancies $V_Cu$ is small compared with corresponding cation vacancies
-in traditional semiconductors. It is therefore relatively easy to grow highly off-stoichiometry materials with Cu-related native defects. 
-
-
-
-\subsubsection{Optical properties and doping in the CIGS}
-
-
-\subsubsection{CIGS solar cell structure}
 
 
 
@@ -1872,9 +1843,7 @@ corresponding to the  $v_4 \longrightarrow c_1$ at the $N$ point. The $E_7$ is f
 \label{ccccc}
 \end{figure}
 
-\subsection{Copper zinc tin sulfide/selenide}
 
-This project is undergoing.
 
 
 \begin{comment}
