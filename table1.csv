@@ -1,0 +1,7 @@
+Table 1.
+        Parameters to describe the parabolic energy dispersions of the lowest CB and the three uppermost VBs in the vicinity of the $\Gamma$-point. Ev1(0) is the VBM and Ec1(0) is the fundamental band-gap energy Eg.
+CuIn1−xGaxSe2,x = 0.0,x = 0.5,x = 1.0
+,c1,v1,v2,v3,c1,v1,v2,v3,c1,v1,v2,v3
+Ej(0) [eV],0.97,0.00,0.01,0.19,1.20,0.00,0.02,0.20,1.47,0.00,0.08,0.26
+mj⊥ [m0],0.08,0.14,0.25,0.27,0.10,0.40,0.17,0.29,0.13,0.47,0.20,0.29
+mj|| [m0],0.09,0.66,0.12,0.28,0.11,0.14,0.61,0.40,0.13,0.15,0.61,0.49
