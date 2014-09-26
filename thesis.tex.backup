@@ -238,21 +238,21 @@ edited by K. Ito ({\textit John Wiley $\&$ Sons}, ??CITY??, ??2014??); in prepar
 \pagenumbering{arabic}
 \chapter{Introduction}
 
-With the increasing of energy consumption, more and more energy or power is needed. According to the statistical review of world energy on 2012 (2014?????) (\textbf{Fig. \ref{wpec}}),
+With the increasing of energy consumption, more and more energy or power is needed. According to the statistical review of world energy on 2013 (\textbf{Fig. \ref{wpec}}),
 the required energy is mainly satisfied by the fossil fuels (mainly coal, petroleum and 
-natural gas), with a market share of around 87\%. The total energy consumming is around 12000 million tonnes oil equivalent (METO), which is equivalent with around 15 terawatts. 
+natural gas), with a market share of around 87\%. The total energy consumption is around 12000 million tonnes oil equivalent (METO), which is equivalent with around 15 terawatts. 
 Normally lightbulbs in our homes consume around 100 watts of energy, 1 terawatt means is 10 billion of the lightbulbs is lighted at the same time. 
 Unfortunately, the fossil fuels is very limited energy and non-renewable resources, one day which is not far from  now it will be dissipated due to the energy consumption growth.
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.4]{world_Consumption.pdf}
-\caption{Data is from BP statistical review of world energy 2012, METO means million tonnes oil equivalent.}
+\includegraphics[scale=0.4]{energy.jpg}
+\caption{Data is from BP statistical review of world energy 2013, METO means million tonnes oil equivalent.}
 \label{wpec}
 \end{figure}
 
 By the year of 2050, the total world energy consumption will around double. Therefore, it is urgent to explore more sustainable and healthy energy sources. From \textbf{Fig. \ref{wpec}}, one will notice that renewable energy (mainly solar energy, wind power, hydropower and 
-geothermal energy) in 2012 (2014?????) accounts for around 2\% of energy consumption globally. It is important to focus on the renewable energy research from a long term point of view.
+geothermal energy) in 2013 accounts for around 2\% of energy consumption globally. It is important to focus on the renewable energy research from a long term point of view.
 The solar energy technologies are one of the hot topic among the renewable energy research considering the point of CO\textsubscript{2} free, reliable energy supply, no cooling water requirement and operation in silence.
 
 The solar energy technologies are the way to produce electricity from the light of the sun. Sunlight is a portion of the radiation by the sun, like infrared, visible,
@@ -261,7 +261,7 @@ and the AM1.5 and AM0 are important. AM1.5 is the air mass at a solar zenith ang
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.6]{spectrum.pdf}
+\includegraphics[scale=0.4]{spectrum.pdf}
 \caption{Solar irradiance spectrum (Y-axis ??).}
 \label{spectrumsun}
 \end{figure}
@@ -282,19 +282,20 @@ From \textbf{Fig. \ref{nrel}}, one can notice that the highest efficiency for mu
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.4]{efficiency_chart.jpg}
+\includegraphics[scale=0.3]{efficiency_chart.jpg}
 \caption{Best research-cell efficiencies. Figure is from National Renewable Energy Laboratory (NREL), Golden, Colorado.}
 \label{nrel}
 \end{figure}
 
-For the multijunction cells, the conversion efficiency is relatively higher compared with others, however, the price is much more expensive as well due to the materials used for production.
+For the multijunction cells, the conversion efficiency is relatively higher compared with others, however, the price is much more expensive as well due to more amount of materials used for production.
 Compared with multijunction cells, the crystalline silicon has lower conversion efficiency, but lower price as well. The price for thin film is cheaper than crystalline silicon, however,
 the efficiency is little lower than crystalline silicon. The new emerging cells are cheapest compared with all the others type of cells, however, the conversion efficiency is 
 relatively lower.
 
 
 \subsection{Single-junction solar cells}
-The p-n junction is the fundamental building block of solar cells. The principle behind the p-n junction needs to be demonstrated in order to better understand the principle of solar cells. The single p-n junction will be explored in this section.
+The p-n junction is the fundamental building block of solar cells. The principle behind the p-n junction needs to be demonstrated in order to better understand the principle of solar cells. 
+The single p-n homojunction will be explored in this section.
 
 We will start from the seperate n-type material and p-type material. In the \textbf{Fig. \ref{dopedmaterials}}, the left one is the n-type, where the material has many free negatively charged electrons which can move around the material, and there are numbers of positively 
 charged immobile donor ions as well. Similarily, the right one is the p-type, and it has many free positively charged holes which can move through the material, and there are numbers of negatively charged immobile acceptor ions as well. However,
@@ -310,10 +311,10 @@ the material is still neutral in both n-type and p-type.
 
 \begin{figure}[H]
     \begin{center}
-            \includegraphics[width=0.46\textwidth,clip]{sepratepn.jpg}
-            \includegraphics[width=0.46\textwidth,clip]{sepratepn1.jpg}
+            \includegraphics[width=0.4\textwidth,clip]{sepratepn.jpg}
+            \includegraphics[width=0.4\textwidth,clip]{sepratepn1.jpg}
      \end{center}
-    \caption{Doped material (n-type and p-type)}      
+    \caption{Left: Doped material (n-type and p-type). Right: Fermi level of n-type and p-type materials}      
     \label{dopedmaterials}
 \end{figure}
 
@@ -334,10 +335,10 @@ the "build in" electric field is also called space charge region (SCR).
 
 \begin{figure}[H]
     \begin{center}
-            \includegraphics[width=0.46\textwidth,clip]{pnjunction.jpg}
-            \includegraphics[width=0.46\textwidth,clip]{pnjunction1.jpg}
+            \includegraphics[width=0.4\textwidth,clip]{pnjunction.jpg}
+            \includegraphics[width=0.4\textwidth,clip]{pnjunction1.jpg}
      \end{center}
-    \caption{p-n junction}      
+    \caption{Left: The p-n homojunction. Right: Fermi level of the p-n homejunction at the equilibrium. }      
     \label{pnjunction}
 \end{figure}
 
@@ -350,8 +351,8 @@ side, and a positive voltage is applied on the n-type side. The SCR will become 
 
 \begin{figure}[H]
     \begin{center}
-            \includegraphics[width=0.46\textwidth,clip]{forwardbias.jpg}
-            \includegraphics[width=0.46\textwidth,clip]{reversebias.jpg}
+            \includegraphics[width=0.4\textwidth,clip]{forwardbias.jpg}
+            \includegraphics[width=0.4\textwidth,clip]{reversebias.jpg}
      \end{center}
     \caption{Forward and reverse bias}      
     \label{frb}
@@ -359,27 +360,27 @@ side, and a positive voltage is applied on the n-type side. The SCR will become 
 
 
 The p-n junction material with and without the illumination is discussed in the \textbf{Fig. \ref{illu}}. If there was a wire with certain resistance connecting the n-type and p-type, there is no current in the wire under the condition of no illumination. However, if the light shines on the whole material, the current will be generated from the 
-p-type to the n-type side. Because the bond inside the material will be broken under the illumination, which will generate one pair of electron hole. Apparently, there are three regions in the whole junction material where the bonds are possible to be broken, the n-type region, the p-n junction, and
+p-type to the n-type side (conventional current). Because the bond inside the material will be broken under the illumination, which will generate one pair of electron hole. Apparently, there are three regions in the whole junction material where the bonds are possible to be broken, the n-type region, the p-n junction, and
 the p-type region. In the either n-type or p-type region, the electron–hole pair will not remain long time,  it is most probable that they will back into the bonded positions again since the pair electron-hole is rather close each other. However, the pair
 electron-hole pair will be seperated in the p-n junction region due to the "build in" electric field, therefore, the current will be generated. Actually, the electron-hole pair in the either n-type and p-type also have the chance to diffuse into 
 the SCR, it will also contribute the generation of current in this case.
 
-%\begin{figure}[H]
-%\centering
-%\includegraphics[scale=0.7]{illumination.jpg}
-%\caption{illumination}
-%\label{illu}
-%\end{figure}
-
 \begin{figure}[H]
-    \begin{center}
-            \includegraphics[width=0.46\textwidth,clip]{illumination.jpg}
-            \includegraphics[width=0.46\textwidth,clip]{illumination1.jpg}
-     \end{center}
-    \caption{illumination}      
-    \label{illu}
+\centering
+\includegraphics[scale=0.5]{illumination.jpg}
+\caption{The p-n junction under illumination}
+\label{illu}
 \end{figure}
 
+The band-profile of ...
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.45]{illumination1.jpg}
+\caption{Band profile and fermi level of the p-n junction under illumination}
+\label{illu1}
+\end{figure}
 
 
 The I-V characteristics is defined in the \textbf{Fig. \ref{ivcharac}} with some important parameters in the solar cells.
@@ -389,7 +390,7 @@ And $V_{mp}$ and $I_{mp}$ are the voltage and current which will yield the maxim
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.6]{IV.jpg}
+\includegraphics[scale=0.5]{IV.jpg}
 \caption{I-V characteristics}
 \label{ivcharac}
 \end{figure}
@@ -412,11 +413,11 @@ the $V_{oc}$ will be reduced in this case. On the material surface, the photons 
 
 \section{Solar cell materials}
 
-In 1839,  French physicist A. E. Becquerel revealed the photovoltaic effect for the first time, then Charles Fritts built the first solid state photovoltaic (PV) cell using semiconductor selenium in 1883,
-it is not until 1941 that the first silicon-based solar cell is demonstrated, until now, there are many different solar cell materials. The reason why 
+In 1839,  French physicist A. E. Becquerel revealed the photovoltaic effect for the first time, later Charles Fritts built the first solid state photovoltaic (PV) cell using semiconductor selenium in 1883.
+It is not until 1941 that the first silicon-based solar cell is demonstrated. Until now, there are many different solar cell materials. The reason why 
 best solar cell material do not come out yet is that it is expected to be not only high efficiency but also environmentally friendly and 
 low cost. It means that it requires not only that the process of growth and manufacturing solar cell materials should be cheapter, but also that it has longer application life, and the raw material should be abundant and non-toxic as well. In this section,
-five main solar cell materials are discussed briefly, that is, silicon (Si), gallium arsenide (GaAs), cadmium telluride (CdTe), $\mathbf {Cu(In, Ga)Se_2}$ (CIGS),  and $\mathbf {Cu_{2}ZnSn(S,Se)_{4}}$ (CZTSSe).
+five main solar cell materials are discussed briefly, that is, silicon (Si), gallium arsenide (GaAs), cadmium telluride (CdTe), Copper indium gallium selenide (Cu(In, Ga)Se\textsubscript{2}).
 
 Potential solar cell materials need to fullfil several properties, such as large absorption coefficient and the range of band gap is around 1 to 1.6 eV. Under these conditions, there 
 are quite many materials satisfying the requirements. However, some other properties are needed to be considered as well, such as cost, enviromental safety
@@ -424,7 +425,7 @@ and many others. Thereby, only some of them is suitable to produce in reality. I
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.8]{tree.jpg} 
+\includegraphics[scale=0.5]{tree.jpg} 
 \caption{Tree of tetragonal bonded semiconductor, the roman numerals means the group numbers in the chemical element periodic table, the subscript means the number of elements.}
 \label{lscm}
 \end{figure}
@@ -475,26 +476,15 @@ CIGS are direct band gap seciconductor with high optical absorption coefficients
 n-type cadmium sulfide layer. The conversion efficiency of CIGS reached up to 20\% in the laboratory cell. The intersting part is that it can be alloyed with Gallium (Ga), and the band gap can be tuned along with that. The band gap 
 is between 1 eV to 1.7 eV for this alloy. CIGS does not contain any toxic element. However, the cost and scarcity of Indium (In) will become the major problem for the CIGS.
 
-CZTSSe is also a promising solar cell material due to the low cost and non-toxicity (\textbf{Fig. \ref{lscm}}). It has many similarities with CIGS, such as similar device structure, fabrication techniques and tunable band gap. 
-More importantly, it contains abundant, cheap and non-toxic elements, therefore, it has huge potential for the future to reduce the cost of solar cells. Since the intensive reseach on this material is not long time ago, therefore the 
-conversion efficiency is only around 10\% in the laboratory. Apparently, the quaternary chalcogenide semiconductor is more complicated compared with other thin film materials, more reseaches are needed to imporve the conversion efficiency.
 
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.8]{price.jpg} 
-\caption{}
-\label{lscm}
-\end{figure}
-
-
-\section{CIGS and CZTSSe materials}
+\section{CIGS materials}
 CIGS material is a chalcopyrite-type material, which is considered to be the most promising thin film solar cell material. It has a direct band gap between 1 ev and 1.7 eV,  and the conversion efficiency in laboratory already surpassed 20\%. 
 $\mathbf {CuInSe_{2}}$ was first synthesized by Hahn in 1953. It was first used as an absorber material in a single crystal solar cell in 1974, which is based on $\mathbf {CuInSe_{2}}$ and CdS. The conversion efficiency is around 
 5\%. The first thin film solar cells based on $\mathbf {CuInSe_{2}}$ and CdS was invented by Kazmerski. During 1980s, Boeing Corporation did much reseach on the thin film polycrystalline CIGS solar cells. 
 To date, the highest conversion efficiency in lab situation for the solar cells based on CIGS is between 20\% and 21\% by alloying Ga.
 
 
-\subsubsection{Crystal structure}
+\subsection{Crystal structure}
 From the \textbf{Fig. \ref{lscm}}, the crystal structure of CIGS can be derived from the zinc blende crystal structure of ZnSe. In the \textbf{Fig. \ref{crystal_cigs}}, the crystal structure of ZnSe and CIGS is presented. 
 The elements Zn are replaced by Cu and In or Ga elements in the zinc blende of ZnSe. It requires to double the unice cell in the z-direction. Because the different bond strength and lengths between
 Cu-Se and In-Se or Ga-Se, therefore, the lattice parameter c is not exact 2a normally.
@@ -507,26 +497,19 @@ For the alloy of CIGS (in this work, x = 0.5 with 50\% In and 50\% Ga), the stru
 this is the most probable local atomic configuration in a random alloy structure.
 
 
-%\begin{figure}[H]
-%\centering
-%\includegraphics[scale=0.8]{structureciise.jpg} 
-%\caption{}
-%\label{crystal_cigs}
-%\end{figure}
-
-
 \begin{figure}[H]
-    \begin{center}
-            \includegraphics[width=0.46\textwidth,clip]{structureciise.jpg}
-            \includegraphics[width=0.46\textwidth,clip]{structureciise1.jpg}
-     \end{center}
-    \caption{dfasdfsafs}      
-    \label{crystal_cigs}
+\centering
+\includegraphics[scale=0.4]{structureciise1.jpg} 
+\caption{}
+\label{crystal_cigs}
 \end{figure}
 
 
 
-\subsubsection{Optical properties and doping in the CIGS}
+
+
+
+\subsection{Optical properties and doping in the CIGS}
 $\mathbf {CuInSe_{2}}$ has a direct band gap around 1 eV, and the absorption coefficient is above $1 \times 10^{4} cm^{-1}$. The quaternary CIGS alloy will be available by alloying Ga element, while the band gap is tuned as well from 
 1.0 eV to 1.7 eV. The high absorption coefficient makes the CIGS material possible to be an absorber for the thin film solar cells. The band gap can be approximated by the function of Ga content (x):
 
@@ -550,13 +533,13 @@ CIS can be grown n-type under the condition Se-poor or In-rich. However, CGS is 
 It is maybe also explained that the Ga-rich CIGS is not suitable for high efficiency solar cells. 
 
 
-\subsubsection{CIGS solar cell structure}
+\subsection{CIGS solar cell structure}
 
 The solar cells device based on CIGS is a heterojunction device, which has several thin film layers with different functional properties. A schematic of a conventional device structure is shown in  \textbf{Fig. \ref{device}}
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.8]{devicestruc.jpg} 
+\includegraphics[scale=0.5]{devicestruc.jpg} 
 \caption{}
 \label{device}
 \end{figure}

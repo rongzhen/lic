@@ -4,39 +4,39 @@
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Solar cells}{3}
 \contentsline {subsection}{\numberline {1.1.1}Single-junction solar cells}{3}
-\contentsline {section}{\numberline {1.2}Solar cell materials}{8}
-\contentsline {subsection}{\numberline {1.2.1}Crystalline silicon solar cells}{9}
+\contentsline {section}{\numberline {1.2}Solar cell materials}{7}
+\contentsline {subsection}{\numberline {1.2.1}Crystalline silicon solar cells}{8}
 \contentsline {subsection}{\numberline {1.2.2}Gallium arsenide}{9}
-\contentsline {subsection}{\numberline {1.2.3}Thin film materials}{10}
+\contentsline {subsection}{\numberline {1.2.3}Thin film materials}{9}
 \contentsline {section}{\numberline {1.3}CIGS materials}{10}
-\contentsline {subsection}{\numberline {1.3.1}Crystal structure}{11}
-\contentsline {subsection}{\numberline {1.3.2}Optical properties and doping in the CIGS}{12}
+\contentsline {subsection}{\numberline {1.3.1}Crystal structure}{10}
+\contentsline {subsection}{\numberline {1.3.2}Optical properties and doping in the CIGS}{11}
 \contentsline {subsection}{\numberline {1.3.3}CIGS solar cell structure}{12}
-\contentsline {chapter}{\chapternumberline {2}Theory}{14}
-\contentsline {section}{\numberline {2.1}Electronic structure calculations }{14}
-\contentsline {subsection}{\numberline {2.1.1}The quantum many-body problem}{14}
-\contentsline {subsection}{\numberline {2.1.2}The Born-Oppenheimer approximation}{15}
-\contentsline {subsection}{\numberline {2.1.3}Hartree, Hartree-Fock approximation and density functional theory}{17}
-\contentsline {subsubsection}{\numberline {2.1.3.1}Hartree approximation}{18}
-\contentsline {subsubsection}{\numberline {2.1.3.2}Hartree-Fock approximation}{20}
-\contentsline {subsubsection}{\numberline {2.1.3.3}Density functional theory}{22}
-\contentsline {subsubsection}{\numberline {2.1.3.4}Kohn-Sham equation}{24}
-\contentsline {subsubsection}{\numberline {2.1.3.5}The exchange-correlation energy}{26}
-\contentsline {subsection}{\numberline {2.1.4}Solving the secular equation}{27}
-\contentsline {subsection}{\numberline {2.1.5}Eigenvalue problem}{28}
-\contentsline {section}{\numberline {2.2}Full-potential linearised augmented plane wave method}{29}
-\contentsline {subsection}{\numberline {2.2.1}Introduction}{29}
-\contentsline {subsection}{\numberline {2.2.2}Wavefunction}{30}
-\contentsline {subsubsection}{\numberline {2.2.2.1}Augmented plane wave method}{30}
-\contentsline {subsubsection}{\numberline {2.2.2.2}Linearized augmented plane wave method}{31}
-\contentsline {subsubsection}{\numberline {2.2.2.3}Linearized augmented plane wave method plus local orbitals}{32}
-\contentsline {subsubsection}{\numberline {2.2.2.4}Augmented plane wave method plus local orbitals}{32}
-\contentsline {subsection}{\numberline {2.2.3}Effective potential}{32}
-\contentsline {section}{\numberline {2.3}Dielectric function}{33}
-\contentsline {chapter}{\chapternumberline {3}Results and discussion}{34}
-\contentsline {section}{\numberline {3.1}Modeling and calculations}{34}
-\contentsline {subsection}{\numberline {3.1.1}Copper indium gallium diselenide}{34}
-\contentsline {subsubsection}{\numberline {3.1.1.1}Parameterization of energy bands}{34}
-\contentsline {subsubsection}{\numberline {3.1.1.2}Dielectric function spectra}{44}
-\contentsline {chapter}{\chapternumberline {4}Concluding remarks and future work}{48}
-\contentsline {chapter}{Acknowledgements}{49}
+\contentsline {chapter}{\chapternumberline {2}Theory}{13}
+\contentsline {section}{\numberline {2.1}Electronic structure calculations }{13}
+\contentsline {subsection}{\numberline {2.1.1}The quantum many-body problem}{13}
+\contentsline {subsection}{\numberline {2.1.2}The Born-Oppenheimer approximation}{14}
+\contentsline {subsection}{\numberline {2.1.3}Hartree, Hartree-Fock approximation and density functional theory}{16}
+\contentsline {subsubsection}{\numberline {2.1.3.1}Hartree approximation}{17}
+\contentsline {subsubsection}{\numberline {2.1.3.2}Hartree-Fock approximation}{19}
+\contentsline {subsubsection}{\numberline {2.1.3.3}Density functional theory}{21}
+\contentsline {subsubsection}{\numberline {2.1.3.4}Kohn-Sham equation}{23}
+\contentsline {subsubsection}{\numberline {2.1.3.5}The exchange-correlation energy}{25}
+\contentsline {subsection}{\numberline {2.1.4}Solving the secular equation}{26}
+\contentsline {subsection}{\numberline {2.1.5}Eigenvalue problem}{27}
+\contentsline {section}{\numberline {2.2}Full-potential linearised augmented plane wave method}{28}
+\contentsline {subsection}{\numberline {2.2.1}Introduction}{28}
+\contentsline {subsection}{\numberline {2.2.2}Wavefunction}{29}
+\contentsline {subsubsection}{\numberline {2.2.2.1}Augmented plane wave method}{29}
+\contentsline {subsubsection}{\numberline {2.2.2.2}Linearized augmented plane wave method}{30}
+\contentsline {subsubsection}{\numberline {2.2.2.3}Linearized augmented plane wave method plus local orbitals}{31}
+\contentsline {subsubsection}{\numberline {2.2.2.4}Augmented plane wave method plus local orbitals}{31}
+\contentsline {subsection}{\numberline {2.2.3}Effective potential}{31}
+\contentsline {section}{\numberline {2.3}Dielectric function}{32}
+\contentsline {chapter}{\chapternumberline {3}Results and discussion}{33}
+\contentsline {section}{\numberline {3.1}Modeling and calculations}{33}
+\contentsline {subsection}{\numberline {3.1.1}Copper indium gallium diselenide}{33}
+\contentsline {subsubsection}{\numberline {3.1.1.1}Parameterization of energy bands}{33}
+\contentsline {subsubsection}{\numberline {3.1.1.2}Dielectric function spectra}{43}
+\contentsline {chapter}{\chapternumberline {4}Concluding remarks and future work}{47}
+\contentsline {chapter}{Acknowledgements}{48}
