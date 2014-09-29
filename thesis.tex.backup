@@ -257,7 +257,8 @@ The solar energy technologies are one of the hot topic among the renewable energ
 
 The solar energy technologies are the way to produce electricity from the light of the sun. Sunlight is a portion of the radiation by the sun, like infrared, visible,
 and ultraviolet light. The spectrum of the sun is more or less a black body with a temperature of about 6000 K (\textbf{Fig. \ref{spectrumsun}}). In photovoltaic field, solar spectrum is represented by Air Mass (AM), 
-and the AM1.5 and AM0 are important. AM1.5 is the air mass at a solar zenith angle of 48.19 degree, and AM0 mean the solar spectrum outside of the atmosphere. Generally, the AM1.5 is seen as the reference spectrum in PV field.
+and the AM1.5 and AM0 are important. AM1.5 is the air mass at a solar zenith angle of 48.19 degree, and AM0 mean the solar spectrum outside of the atmosphere. Generally, the AM1.5 is seen as the reference spectrum in PV field. In 
+the (\textbf{Fig. \ref{spectrumsun}}), the absorption in the atmosphere is quite stronge by gasses, dust and aerosols abosorbing the sunlight, as well as the scattering of light from air molecules and dust. 
 
 \begin{figure}[H]
 \centering
@@ -290,16 +291,17 @@ From \textbf{Fig. \ref{nrel}}, one can notice that the highest efficiency for mu
 For the multijunction cells, the conversion efficiency is relatively higher compared with others, however, the price is much more expensive as well due to more amount of materials used for production.
 Compared with multijunction cells, the crystalline silicon has lower conversion efficiency, but lower price as well. The price for thin film is cheaper than crystalline silicon, however,
 the efficiency is little lower than crystalline silicon. The new emerging cells are cheapest compared with all the others type of cells, however, the conversion efficiency is 
-relatively lower.
+relatively lower currently.
 
 
 \subsection{Single-junction solar cells}
 The p-n junction is the fundamental building block of solar cells. The principle behind the p-n junction needs to be demonstrated in order to better understand the principle of solar cells. 
 The single p-n homojunction will be explored in this section.
 
-We will start from the seperate n-type material and p-type material. In the \textbf{Fig. \ref{dopedmaterials}}, the left one is the n-type, where the material has many free negatively charged electrons which can move around the material, and there are numbers of positively 
-charged immobile donor ions as well. Similarily, the right one is the p-type, and it has many free positively charged holes which can move through the material, and there are numbers of negatively charged immobile acceptor ions as well. However,
-the material is still neutral in both n-type and p-type. 
+We will start from the seperate n-type material and p-type material. In the \textbf{Fig. \ref{dopedmaterials}}, the left one is the n-type and p-type materials. The n-type of material has many free negatively charged electrons which can move around the material, and there are numbers of positively 
+charged immobile donor ions as well. Similarily, the p-type material has many free positively charged holes which can move through the material, and there are numbers of negatively charged immobile acceptor ions as well. However,
+the material is still neutral in both n-type and p-type. On the right, the corresponding fermi levels are shown. The fermi level (E\textsubscript{nf}) is closer to conduction band for n-type material due to many free negatively charged electrons. Conversely, the fermi level
+of p-type material (E\textsubscript{pf}) is closer to valence band due to the free positively charged holes.
 
 %\begin{figure}[H]
 %\centering
@@ -323,7 +325,8 @@ the material is still neutral in both n-type and p-type.
 If the n-type and p-type materials are joined, the free electrons (holes) in the n-type (p-type) material will diffuse into p-type (n-type) material due to the concentration difference (\textbf{Fig. \ref{pnjunction}}). In the region which is near the interface between n-type and
 p-type materials, the fixed donor and acceptor ions establish a "build in" electric field which points from n-type material to p-type material. The "build in" electric field will force the electrons (holes) back into the n-type (p-type), at certain
 point, the whole material will reach a stable equilibrium. Formation of the "build in" electric field is rather important for the solar cells, even though there is no currect in the material so far. In the following text, the region which establishes
-the "build in" electric field is also called space charge region (SCR).
+the "build in" electric field is also called space charge region (SCR) (Left in \textbf{Fig. \ref{pnjunction}}). The different fermi level for n-type and p-type materials will be equal at the stable equilibrium. Therefore, the energy bands bend over and establish 
+a potential barrier near the junction (Right in \textbf{Fig. \ref{pnjunction}}). 
 
 %\begin{figure}[H]
 %\centering
@@ -344,7 +347,7 @@ the "build in" electric field is also called space charge region (SCR).
 
 
 
-
+\begin{comment}
 Before discussing further the p-n junction in the solar cells, the forward and reverse bias will be introduced in the \textbf{Fig. \ref{frb}}. The forward bias means that a negative voltage is applied on the n-type side, and a positive voltage is applied 
 on the p-type side. In this case, the SCR will be shrinked. With the increasing of the voltage, the SCR will rather small and the current will flow freely. Conversely, the reverse bias means that a negative voltage is applied on the p-type
 side, and a positive voltage is applied on the n-type side. The SCR will become thicker, if the voltage is large enough,  then the whole junction will breakdown and current will flow.
@@ -357,6 +360,8 @@ side, and a positive voltage is applied on the n-type side. The SCR will become 
     \caption{Forward and reverse bias}      
     \label{frb}
 \end{figure}
+
+\end{comment}
 
 
 The p-n junction material with and without the illumination is discussed in the \textbf{Fig. \ref{illu}}. If there was a wire with certain resistance connecting the n-type and p-type, there is no current in the wire under the condition of no illumination. However, if the light shines on the whole material, the current will be generated from the 
@@ -372,19 +377,19 @@ the SCR, it will also contribute the generation of current in this case.
 \label{illu}
 \end{figure}
 
-The band-profile of ...
+In the following \textbf{Fig. \ref{illu1}}, the stablized fermi level at the stable equilibrium split under illumination.  The chemical potential $\bigtriangledown \mu = E_{nf} - E_{vf}$ is created, which is considered as the driving force of charge separation.
 
 
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.45]{illumination1.jpg}
-\caption{Band profile and fermi level of the p-n junction under illumination}
+\caption{Energy band diagram of a p-n homojunction under illumination}
 \label{illu1}
 \end{figure}
 
 
 The I-V characteristics is defined in the \textbf{Fig. \ref{ivcharac}} with some important parameters in the solar cells.
-The $V_{oc}$ and $I_{sc}$ are the open circuit voltage and short circuit current, respectively. They are the maximum voltage and current when the solar cells are with the illumination conditions.
+The $V_{oc}$ and $I_{sc}$ are the open circuit voltage and short circuit current, respectively. They are the maximum voltage and current when the solar cells are under the illumination conditions.
 And $V_{mp}$ and $I_{mp}$ are the voltage and current which will yield the maximum power. The maximum power generated by the solar cells is $P_{out}=V_{mp} I_{mp}$, that is the rectangle bounded by the dashed lines in the 
 \textbf{Fig. \ref{ivcharac}}. 
 
