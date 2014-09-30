@@ -313,8 +313,9 @@ of p-type material (E\textsubscript{pf}) is closer to valence band due to the fr
 
 \begin{figure}[H]
     \begin{center}
-            \includegraphics[width=0.4\textwidth,clip]{sepratepn.jpg}
-            \includegraphics[width=0.4\textwidth,clip]{sepratepn1.jpg}
+           % \includegraphics[width=0.4\textwidth,clip]{sepratepn.jpg}
+           % \includegraphics[width=0.4\textwidth,clip]{sepratepn1.jpg}
+            \includegraphics[width=0.7\textwidth,clip]{sepratepn2.jpg}
      \end{center}
     \caption{Left: Doped material (n-type and p-type). Right: Fermi level of n-type and p-type materials}      
     \label{dopedmaterials}
@@ -322,11 +323,14 @@ of p-type material (E\textsubscript{pf}) is closer to valence band due to the fr
 
 
 
-If the n-type and p-type materials are joined, the free electrons (holes) in the n-type (p-type) material will diffuse into p-type (n-type) material due to the concentration difference (\textbf{Fig. \ref{pnjunction}}). In the region which is near the interface between n-type and
-p-type materials, the fixed donor and acceptor ions establish a "build in" electric field which points from n-type material to p-type material. The "build in" electric field will force the electrons (holes) back into the n-type (p-type), at certain
-point, the whole material will reach a stable equilibrium. Formation of the "build in" electric field is rather important for the solar cells, even though there is no currect in the material so far. In the following text, the region which establishes
-the "build in" electric field is also called space charge region (SCR) (Left in \textbf{Fig. \ref{pnjunction}}). The different fermi level for n-type and p-type materials will be equal at the stable equilibrium. Therefore, the energy bands bend over and establish 
-a potential barrier near the junction (Right in \textbf{Fig. \ref{pnjunction}}). 
+If the n-type and p-type materials are joined, the free electrons (holes) in the n-type (p-type) material will diffuse into p-type (n-type) material due to the concentration difference (\textbf{Fig. \ref{pnjunction}}). 
+In the region which is near the interface between n-type and p-type materials, the fixed donor and acceptor ions establish a "build in" electric field which points from n-type material to p-type material, which causes the drift of 
+carriers in the opposite direction. The "build in" electric field will force the electrons (holes) back into the n-type (p-type). At certain point, the whole material will reach a stable equilibrium due to the achived balance 
+between diffusion and drift. Formation of the "build in" electric field is rather important for the solar cells, even though there is no currect in the material so far. In the following text, the region which establishes the "build in" electric field is also called space charge region (SCR) 
+(Left in \textbf{Fig. \ref{pnjunction}}). The different fermi level for n-type and p-type materials will be equal at the stable equilibrium. Therefore, the energy bands bend over and establish a potential barrier near the 
+junction (Right in \textbf{Fig. \ref{pnjunction}}). Finally, there is a internal potential V\textsubscript{bi} in the junction, which will block the diffusion and take responsibility for drawing the electrons and holes under constant illumination considition. 
+
+
 
 %\begin{figure}[H]
 %\centering
@@ -338,8 +342,9 @@ a potential barrier near the junction (Right in \textbf{Fig. \ref{pnjunction}}).
 
 \begin{figure}[H]
     \begin{center}
-            \includegraphics[width=0.4\textwidth,clip]{pnjunction.jpg}
-            \includegraphics[width=0.4\textwidth,clip]{pnjunction1.jpg}
+           % \includegraphics[width=0.4\textwidth,clip]{pnjunction.jpg}
+           % \includegraphics[width=0.5\textwidth,clip]{pnjunction1.jpg}
+            \includegraphics[width=0.7\textwidth]{pnjunction2.jpg}
      \end{center}
     \caption{Left: The p-n homojunction. Right: Fermi level of the p-n homejunction at the equilibrium. }      
     \label{pnjunction}
@@ -364,11 +369,13 @@ side, and a positive voltage is applied on the n-type side. The SCR will become 
 \end{comment}
 
 
-The p-n junction material with and without the illumination is discussed in the \textbf{Fig. \ref{illu}}. If there was a wire with certain resistance connecting the n-type and p-type, there is no current in the wire under the condition of no illumination. However, if the light shines on the whole material, the current will be generated from the 
-p-type to the n-type side (conventional current). Because the bond inside the material will be broken under the illumination, which will generate one pair of electron hole. Apparently, there are three regions in the whole junction material where the bonds are possible to be broken, the n-type region, the p-n junction, and
-the p-type region. In the either n-type or p-type region, the electron–hole pair will not remain long time,  it is most probable that they will back into the bonded positions again since the pair electron-hole is rather close each other. However, the pair
-electron-hole pair will be seperated in the p-n junction region due to the "build in" electric field, therefore, the current will be generated. Actually, the electron-hole pair in the either n-type and p-type also have the chance to diffuse into 
-the SCR, it will also contribute the generation of current in this case.
+The p-n junction material with and without the illumination is discussed in the \textbf{Fig. \ref{illu}}. If there was a wire with certain resistance connecting the n-type and p-type, there is no current in the wire under the 
+condition of dark (no illumination). However, if the light shines on the whole material, the current will be generated from the p-type to the n-type side (conventional current). Because the bond inside the material will be broken
+under the illumination, which will generate pairs of electron-hole. At the same time, the recombination of paired electron-hole ocurrs. Actually, the rate of generation is over that of recombination, therefore, net generation occurs.
+Apparently, there are three regions in the whole junction material where the bonds are possible to be broken, the n-type region, the p-n junction, and
+the p-type region. In the either n-type or p-type region (especially, region which is far away SCR), the electron–hole pairs will not remain long time,  it is most probable that they will back into the bonded positions again
+since the paired electron-hole are rather close each other. However, the electron-hole pairs will be seperated in the p-n junction region due to the "build in" electric field, therefore, the current will be generated. 
+Actually, the electron-hole pairs in the either n-type and p-type (especially, for them which is near SCR) also have the chance to diffuse into the SCR, it will also contribute the generation of current in this case.
 
 \begin{figure}[H]
 \centering
@@ -377,7 +384,8 @@ the SCR, it will also contribute the generation of current in this case.
 \label{illu}
 \end{figure}
 
-In the following \textbf{Fig. \ref{illu1}}, the stablized fermi level at the stable equilibrium split under illumination.  The chemical potential $\bigtriangledown \mu = E_{nf} - E_{vf}$ is created, which is considered as the driving force of charge separation.
+In the following \textbf{Fig. \ref{illu1}}, the SCR becomes more "smooth" due to the extra load, and the stablized fermi level at the stable equilibrium split under illumination.  The chemical potential $\bigtriangledown \mu = E_{nf} - E_{vf}$ is created, 
+which is considered as electron charge times the voltage across the device as well. 
 
 
 \begin{figure}[H]
