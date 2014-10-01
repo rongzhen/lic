@@ -28,6 +28,11 @@
 \usepackage{palatino}
 \usepackage{fixltx2e}
 \usepackage{siunitx}
+
+
+ 
+ 
+ 
 \setlength{\parskip}{6pt}  % 12 pt = hopp mellan stycken
 \setlength{\parindent}{0pt} % 0 pt  = indrag
 \makeatletter
@@ -236,9 +241,12 @@ edited by K. Ito ({\textit John Wiley $\&$ Sons}, ??CITY??, ??2014??); in prepar
 
 \newpage
 \pagenumbering{arabic}
+
+
+
 \chapter{Introduction}
 
-With the increasing of energy consumption, more and more energy or power is needed. According to the statistical review of world energy on 2013 (\textbf{Fig. \ref{wpec}}),
+With the increasing of energy consumption, more and more energy or power is needed. According to the statistical review of world energy on 2014 (\textbf{Fig. \ref{wpec}}),
 the required energy is mainly satisfied by the fossil fuels (mainly coal, petroleum and 
 natural gas), with a market share of around 87\%. The total energy consumption is around 12000 million tonnes oil equivalent (METO), which is equivalent with around 15 terawatts. 
 Normally lightbulbs in our homes consume around 100 watts of energy, 1 terawatt means is 10 billion of the lightbulbs is lighted at the same time. 
@@ -247,12 +255,12 @@ Unfortunately, the fossil fuels is very limited energy and non-renewable resourc
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.4]{energy.jpg}
-\caption{Data is from BP statistical review of world energy 2013, METO means million tonnes oil equivalent.}
+\caption{Data is from BP statistical review of world energy 2014, METO means million tonnes oil equivalent.}
 \label{wpec}
 \end{figure}
 
 By the year of 2050, the total world energy consumption will around double. Therefore, it is urgent to explore more sustainable and healthy energy sources. From \textbf{Fig. \ref{wpec}}, one will notice that renewable energy (mainly solar energy, wind power, hydropower and 
-geothermal energy) in 2013 accounts for around 2\% of energy consumption globally. It is important to focus on the renewable energy research from a long term point of view.
+geothermal energy) in 2014 accounts for around 2\% of energy consumption globally. It is important to focus on the renewable energy research from a long term point of view.
 The solar energy technologies are one of the hot topic among the renewable energy research considering the point of CO\textsubscript{2} free, reliable energy supply, no cooling water requirement and operation in silence.
 
 The solar energy technologies are the way to produce electricity from the light of the sun. Sunlight is a portion of the radiation by the sun, like infrared, visible,
@@ -263,7 +271,7 @@ the (\textbf{Fig. \ref{spectrumsun}}), the absorption in the atmosphere is quite
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.4]{spectrum.pdf}
-\caption{Solar irradiance spectrum (Y-axis ??).}
+\caption{Solar irradiance spectrum (raw data in stockholm, and I will modify the figure the unit in Y-axis and add something more, such as UV, infrared...).}
 \label{spectrumsun}
 \end{figure}
 
@@ -526,11 +534,12 @@ The crystal structure of CIGS can be derived from the zinc blende crystal struct
 The elements Zn are replaced by Cu and In or Ga elements in the zinc blende of ZnS. It requires to double the unice cell in the z-direction. Because the bond strength and lengths between
 Cu-Se and In-Se or Ga-Se are different, therefore, the lattice parameter c is not exact 2a normally.
 
-Chalcopyrite CIGS (with x = 0.0 and 1.0) has the space group XYZ (XYZ; space group no. XYZ).
-The conventional unit cell has four copper atoms on the Wyckoff positions XYZ, four indium/gallium atoms on position XYZ, and eight selenium atoms on the XYZ position. 
-The cation positions have all XYZxyz point-group symmetry, and Se have XYZxyz symmetry. 
-The Se XYZxyz position is fully defined with the position (x, y, z), and each anion Se-atom has two inequivalent bonds $\delta$X–Se to the cations X = Cu and In/Ga. 
-For the alloy of CIGS (in this work, x = 0.5 with 50\% In and 50\% Ga), the structure is chosen so that each Se atom bonds to two Cu atoms, one In and one Ga atom.
+Chalcopyrite CIGS (with x = 0.0 and 1.0) has the space group $D_{2d}^{12}$ ($I\overline{4}2d$; space group no. 122).
+The conventional unit cell has four copper atoms on the Wyckoff positions 4a, four indium/gallium atoms on position 4b, and eight selenium atoms on the 8d position. 
+The cation positions have all $S_4$ point-group symmetry, and Se have $C_2$ symmetry. 
+The Se 8d position is fully defined with the position (x, y, z), and each anion Se-atom has two inequivalent bonds $\delta$X–Se to the cations X = Cu and In/Ga. 
+For the alloy of CIGS (in this work, x = 0.5 with 50\% In and 50\% Ga), the structure is chosen so that each Se atom bonds to two Cu atoms, one In and one Ga atom. The space group is $S_{4}^{2}$ ($I\overline{4}$; space 
+group no. 82).
 
 
 \begin{figure}[H]
@@ -545,17 +554,84 @@ For the alloy of CIGS (in this work, x = 0.5 with 50\% In and 50\% Ga), the stru
 
 
 
-\subsection{Optical properties and doping in the CIGS}
-$\mathbf {CuInSe_{2}}$ has a direct band gap around 1 eV, and the absorption coefficient is above $1 \times 10^{4} cm^{-1}$. The quaternary CIGS alloy will be available by alloying Ga element, while the band gap is tuned as well from 
+\subsection{Optical properties and defects in the CIGS}
+CuInSe\textsubscript{2} has a direct band gap around 1 eV, and the absorption coefficient is above  10\textsuperscript{-4} \SI{} {\per\centi\meter}. The quaternary CIGS alloy will be available by alloying Ga element, while the band gap is tuned as well from 
 1.0 eV to 1.7 eV. The high absorption coefficient makes the CIGS material possible to be an absorber for the thin film solar cells. The band gap can be approximated by the function of Ga content (x):
 
 \begin{equation}
-E_g(x) = 1.0 + 0.564x+0.116x^2 ??
+E_g(x) = 1.0 + 0.564x+0.116x^2
 \end{equation}
 
 Alloying the Ga element will decrease the electron affinity of CIGS, which will make the conduction band upward shift, however, the valence band remain the same postion. This also explains the reason why the band gap increases with 
-more Ga element in the CIGS materail. The best solar cell is with the Ga content of 30\% (x=0.3), however, the band gap energy of the CIGS suggests that the optimum solar cell conversion efficiency is obtained with between x=0.5 
-and x=0.7. The reason will be discussed in the next paragraph. At last, the overview properties of CIGS material is described in the table ???
+more Ga element in the CIGS materail. At last, the overview properties of CIGS material is described in the \textbf{Table. \ref{properties}} 
+
+
+\begin{comment}
+\begin{tabular}{ |l|l|l| }
+\hline
+\multicolumn{3}{ |c| }{Team sheet} \\
+\hline
+Goalkeeper & GK & Paul Robinson \\ \hline
+\multirow{4}{*}{Defenders} & LB & Lucus Radebe \\
+ & DC & Michael Duburry \\
+ & DC & Dominic Matteo \\
+ & RB & Didier Domi \\ \hline
+\multirow{3}{*}{Midfielders} & MC & David Batty \\
+ & MC & Eirik Bakke \\
+ & MC & Jody Morris \\ \hline
+Forward & FW & Jamie McMaster \\ \hline
+\multirow{2}{*}{Strikers} & ST & Alan Smith \\
+ & ST & Mark Viduka \\
+\hline
+\end{tabular}
+
+
+
+\vspace{10cm}
+
+\begin{table}{}
+\begin{center}
+\begin{tabular}{|c|c|c|}
+  \hline
+  \multicolumn{3}{ | c |}{Properties of CuInSe\textsubscript{2} and CuGaSe\textsubscript{2}} \\
+  \hline
+  Properties & CuInSe\textsubscript{2} & CuGaSe\textsubscript{2} \\
+   \hline
+   Space group & $D_{2d}^{12}$(I-42d) no.122 & chalcopyrite $D_{2d}^{12}$(I-42d) space group no. \\
+   \hline
+   0 & 1/2 & 1/2 \\
+   \hline
+   0 & 1/2 & 0 \\
+   \hline
+   1/2 & 1/2 & 1/2 \\
+  \hline
+\end{tabular}
+\end{center}
+\label{properties}
+\end{table}
+\end{comment}
+
+\begin{tabular}{|l|l|l|}  
+\hline  
+\multicolumn{3}{|c|}{Properties of CuInSe\textsubscript{2} and CuGaSe\textsubscript{2}} \\  
+\hline  
+Goalkeeper & GK & Paul Robinson \\ \hline  
+Defenders & LB & Lucus Radebe \\  
+ & DC & Michael Duberry \\  
+ & DC & Dominic Matteo \\  
+ & RB & Didier Domi \\ \hline  
+Midfielders & MC & David Batty \\  
+ & MC & Eirik Bakke \\  
+ & MC & Jody Morris \\ \hline  
+Forward & FW & Jamie McMaster \\ \hline  
+Strikers & ST & Alan Smith \\  
+ & ST & Mark Viduka \\  
+\hline  
+\end{tabular}
+
+
+
+
 
 
 CIGS is a nonstoichiometric compound with the deviations from stoichiometry in several pencentage range. The high quality thin film solar cells mainly use Cu-poor (Cu: 22.5-24.5\%) high offstoichiometric CIGS absorber.
@@ -563,10 +639,12 @@ The main native defects in CIGS include <2V\textsubscript{Cu}, In\textsubscript{
 and Ga\textsubscript{Cu}. V\textsubscript{Cu} and III\textsubscript{Cu} are important native defects in CIGS due to
 their low formation energies. Therefore, CIGS can be grown p-type easily with the condition of Cu-poor (V\textsubscript{Cu}).
 
-There are some extrinsic divalent cation donors as well, such as Zn\textsubscript{Cu}, Cd\textsubscript{Cu} and Cl\textsubscript{Se}. And the formation energy is relatively low for CIS and CGS. Therefore, it is possible to grow n-type for them.
+There are some extrinsic divalent cation donors as well, such as Zn\textsubscript{Cu}, Cd\textsubscript{Cu} and Cl\textsubscript{Se}. And the formation energy is relatively low for CIS and CGS. 
+Therefore, it is possible to grow n-type for them as well.
 
 CIS can be grown n-type under the condition Se-poor or In-rich. However, CGS is not possible to be n-type under equilibrium conditions, because the low formation energy of V\textsubscript{Cu} limits the possibility of achieving electronic n-type character, especially in Ga-rich CIGS.
-It is maybe also explained that the Ga-rich CIGS is not suitable for high efficiency solar cells. 
+It is maybe also explained that the best solar cell is with the Ga content of 30\% (x=0.3), however, the band gap energy of the CIGS suggests that the optimum solar cell conversion efficiency is obtained with between x=0.5 
+and x=0.7.
 
 
 \subsection{CIGS solar cell structure}
@@ -580,9 +658,11 @@ The solar cells device based on CIGS is a heterojunction device, which has sever
 \label{device}
 \end{figure}
 
-Substract is on the bottom, and there are mainly three kinds of substract: soda-lime glass, metal and polyimide. The most common substrate is the one based on soda-lime glass with thickness \SI{1} {\mm} to \SI{3} {\mm}. The molybdenum works as back contact due to its low resistivity and stability at high 
+Substract is on the bottom, and there are mainly three kinds of substract: soda-lime glass, metal and polyimide. The most common substrate is the one based on soda-lime glass containing sodium (Na) with thickness \SI{1} {\mm} to \SI{3} {\mm}. The Na will improve the efficiency and reliablity of the solar cells
+as well as process tolerance. The molybdenum works as back contact due to its low resistivity and stability at high 
 temperature with thickness around \SI{500} {\nm}. The most important part of the device is the p-type absorber layer: CIGS, and it is dopped by intrinsic defects. The n-type buffer layer cadmium sulfide (CdS) is on the top of CIGS.
-The intrinsic zinc oxide (i-ZnO) and n-type ZnO layer are followed, and it works as window layer. The n-type ZnO is dopped by the aluminum (Al). This CIGS/CdS/ZnO strucutrure was found to improve the cell performance.
+The intrinsic zinc oxide (i-ZnO) and n-type ZnO layer are followed, and it works as window layer. The i-ZnO is to avoid the damage of the CIGS and CdS from sputtering damage when depositing the ZnO:Al window layer,
+and the n-type ZnO is dopped by the aluminum (Al). This CIGS/CdS/ZnO strucutrure was found to improve the cell performance.
 
 
 

@@ -28,6 +28,11 @@
 \usepackage{palatino}
 \usepackage{fixltx2e}
 \usepackage{siunitx}
+
+
+ 
+ 
+ 
 \setlength{\parskip}{6pt}  % 12 pt = hopp mellan stycken
 \setlength{\parindent}{0pt} % 0 pt  = indrag
 \makeatletter
@@ -236,9 +241,12 @@ edited by K. Ito ({\textit John Wiley $\&$ Sons}, ??CITY??, ??2014??); in prepar
 
 \newpage
 \pagenumbering{arabic}
+
+
+
 \chapter{Introduction}
 
-With the increasing of energy consumption, more and more energy or power is needed. According to the statistical review of world energy on 2013 (\textbf{Fig. \ref{wpec}}),
+With the increasing of energy consumption, more and more energy or power is needed. According to the statistical review of world energy on 2014 (\textbf{Fig. \ref{wpec}}),
 the required energy is mainly satisfied by the fossil fuels (mainly coal, petroleum and 
 natural gas), with a market share of around 87\%. The total energy consumption is around 12000 million tonnes oil equivalent (METO), which is equivalent with around 15 terawatts. 
 Normally lightbulbs in our homes consume around 100 watts of energy, 1 terawatt means is 10 billion of the lightbulbs is lighted at the same time. 
@@ -247,12 +255,12 @@ Unfortunately, the fossil fuels is very limited energy and non-renewable resourc
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.4]{energy.jpg}
-\caption{Data is from BP statistical review of world energy 2013, METO means million tonnes oil equivalent.}
+\caption{Data is from BP statistical review of world energy 2014, METO means million tonnes oil equivalent.}
 \label{wpec}
 \end{figure}
 
 By the year of 2050, the total world energy consumption will around double. Therefore, it is urgent to explore more sustainable and healthy energy sources. From \textbf{Fig. \ref{wpec}}, one will notice that renewable energy (mainly solar energy, wind power, hydropower and 
-geothermal energy) in 2013 accounts for around 2\% of energy consumption globally. It is important to focus on the renewable energy research from a long term point of view.
+geothermal energy) in 2014 accounts for around 2\% of energy consumption globally. It is important to focus on the renewable energy research from a long term point of view.
 The solar energy technologies are one of the hot topic among the renewable energy research considering the point of CO\textsubscript{2} free, reliable energy supply, no cooling water requirement and operation in silence.
 
 The solar energy technologies are the way to produce electricity from the light of the sun. Sunlight is a portion of the radiation by the sun, like infrared, visible,
@@ -263,7 +271,7 @@ the (\textbf{Fig. \ref{spectrumsun}}), the absorption in the atmosphere is quite
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.4]{spectrum.pdf}
-\caption{Solar irradiance spectrum (Y-axis ??).}
+\caption{Solar irradiance spectrum (raw data in stockholm, and I will modify the figure the unit in Y-axis and add something more, such as UV, infrared...).}
 \label{spectrumsun}
 \end{figure}
 
@@ -555,7 +563,40 @@ E_g(x) = 1.0 + 0.564x+0.116x^2
 \end{equation}
 
 Alloying the Ga element will decrease the electron affinity of CIGS, which will make the conduction band upward shift, however, the valence band remain the same postion. This also explains the reason why the band gap increases with 
-more Ga element in the CIGS materail. At last, the overview properties of CIGS material is described in the table ???
+more Ga element in the CIGS materail. At last, the overview properties of CIGS material is described in the \textbf{Table. \ref{kth518}} 
+
+
+\vspace{10cm}
+
+\begin {table}[!htb]
+\centering
+\begin{tabular}{|l|l|l|}  
+\hline  
+\multicolumn{3}{|c|}{Properties of CuInSe\textsubscript{2} and CuGaSe\textsubscript{2}} \\  
+\hline  
+Properties & CuInSe\textsubscript{2} & CuGaSe\textsubscript{2} \\ \hline  
+Space group & $D_{2d}^{12}$(I-42d), no. 122 & $D_{2d}^{12}$(I-42d), no. 122 \\ \hline  
+Static dielectric constants $\varepsilon(\infty)$ & $\varepsilon^{\bot}(\infty)$=9.5, $\varepsilon^{||}(\infty)$=8.5 & $\varepsilon^{\bot}(\infty)$=?, $\varepsilon^{||}(\infty)$=? \\  
+& $\varepsilon^{\bot}(\infty)$=?, $\varepsilon^{||}(\infty)$=? & $\varepsilon^{\bot}(\infty)$=?, $\varepsilon^{||}(\infty)$=? \\  \hline  
+High-frequency dielectric constants $\varepsilon(0)$ & $\varepsilon^{\bot}(0)$=16.0, $\varepsilon^{||}(0)$=15.2 & $\varepsilon^{\bot}(0)$=?, $\varepsilon^{||}(0)$=? \\  
+& $\varepsilon^{\bot}(0)$=?, $\varepsilon^{||}(0)$=? & $\varepsilon^{\bot}(0)$=?, $\varepsilon^{||}(0)$=? \\  \hline  
+Lattice constants (Å) & a=b=5.78, c=11.55 & a=b=5.61, c=11.00 \\ 
+                      & a=b=5.78, c=11.55 & a=b=5.61, c=11.00 \\ \hline  
+Wyckoff positions & Cu:4a, In:4b, Se:8d & Cu:4a, Ga:4b, Se:8d \\ \hline 
+Direct Band gap (eV)& 1.04,1.06* & 1.68, 1.70* \\ \hline 
+Effective masses on $\Gamma$ point (m0) & mn=0.09, mp=0.09 & mn=0.09, mp=0.09 \\  \hline
+Main intrinsic defects & n-type: VCu, p-type:VSe & n-type: VCu, p-type:VSe \\   \hline
+Crystal field splitting $\Delta_{cf}$ (300K) & 0.006,0.007* & -0.09,-0.08* \\  \hline
+Spin-orbit splitting $\Delta_{so}$ (77K) & 0.23,0.24* & 0.231, 0.232* \\  \hline 
+Absorption coefficients  & a & a \\  \hline 
+Refractive index n(0) & a & a \\  \hline 
+\end{tabular}
+\caption {most of the data from Semiconductor Basic data;\textsuperscript{a}Chene et al.[4]}
+\label{kth518}
+\end{table}
+
+
+
 
 
 CIGS is a nonstoichiometric compound with the deviations from stoichiometry in several pencentage range. The high quality thin film solar cells mainly use Cu-poor (Cu: 22.5-24.5\%) high offstoichiometric CIGS absorber.
@@ -582,7 +623,8 @@ The solar cells device based on CIGS is a heterojunction device, which has sever
 \label{device}
 \end{figure}
 
-Substract is on the bottom, and there are mainly three kinds of substract: soda-lime glass, metal and polyimide. The most common substrate is the one based on soda-lime glass with thickness \SI{1} {\mm} to \SI{3} {\mm}. The molybdenum works as back contact due to its low resistivity and stability at high 
+Substract is on the bottom, and there are mainly three kinds of substract: soda-lime glass, metal and polyimide. The most common substrate is the one based on soda-lime glass containing sodium (Na) with thickness \SI{1} {\mm} to \SI{3} {\mm}. The Na will improve the efficiency and reliablity of the solar cells
+as well as process tolerance. The molybdenum works as back contact due to its low resistivity and stability at high 
 temperature with thickness around \SI{500} {\nm}. The most important part of the device is the p-type absorber layer: CIGS, and it is dopped by intrinsic defects. The n-type buffer layer cadmium sulfide (CdS) is on the top of CIGS.
 The intrinsic zinc oxide (i-ZnO) and n-type ZnO layer are followed, and it works as window layer. The i-ZnO is to avoid the damage of the CIGS and CdS from sputtering damage when depositing the ZnO:Al window layer,
 and the n-type ZnO is dopped by the aluminum (Al). This CIGS/CdS/ZnO strucutrure was found to improve the cell performance.
