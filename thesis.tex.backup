@@ -166,6 +166,30 @@ Tryck: Universitetsservice US AB
 
 
 \begin{abstract}
+\noindent In order to reduce the high dependence on fossil fuels and oil, solar energy is one of the alternatives.
+There are several very important absorber materials in the thin film photovlotaic technology, such as, the chalcopyrite $\cigs$ (CIGS), $\czts$ (CZTS) and $\cztse$ (CZTSe),
+the efficiency of CIGS has been reached up to around 20\%, so the accurate information for this kind of absorber materials is of great importance in order to
+design the photovlotaic (PV) materials. 
+
+\noindent In this licenciate, the parameterization of the band dispersion for the uppermost three valence bands (VBs) and the lowest conduction
+band (CB) in CIGS with $x=0, 0.5$, and $1$ is explored, which is based on the $k \cdot p$ method, but extended it up to high order. It demonstates that the VBs and CB
+are quite non-parabolic away from the $\Gamma$ point, which means that the effecive mass on $\Gamma$ point is not suitable to discribe the materials properties like 
+band filling and strong excitation effects. At last, the $\varepsilon$ spectra of $CuIn_{0.5}Ga_{0.5}Se_2$ is calculated, and compared with the
+experiment result from $CuIn_{0.7}Ga_{0.3}Se_2$ at 40 K, which demonstates that the overall shape of $\varepsilon$ spectra both of calculated and experimented 
+is in good agreement.
+
+\noindent The lowest CB and three uppermost VBs of CIGS is parameterized in order to better understand and discribe the anisotropy and non-parabolic of the energy dispersion.
+In order to illustrate the non-parabolic of the band dispersion, the effective electron and hole mass tensors are abtained in four symmetry directions, to futher illustrate
+the non-parabolic, the constant energy surface are calculated for the three topmost VBs as well as the lowest CB. Based on the non-parabolic parameterization and compared
+with parabolic band energy approximation, the density-of-states (DOS), Fermi energy and the carrier concentrations are calculated and analyzed. To summarize, one can better
+understand and analyze the electrical properties in the CIGS alloys.
+
+
+\noindent The $\varepsilon$ spectra of $CuIn_{0.5}Ga_{0.5}Se_2$ is determined by the full-potential linearized augmented plane wave calculations (FP-LAPW), which shows a good 
+agreement with the result from Spectroscopic ellipsometry, which illustrates the result of $CuIn_{0.7}Ga_{0.3}Se_2$ at 40 K, furthermore, the probable electronic origins of 
+observed interband critical points (CP) is discussed, and the electronic origins of each CP are examined based on the results from the FP-LAPW calculations. At 
+last, the band to band analysis of the contribution to the total ${\varepsilon_2}$ spectrum is explored.
+
 
 \newpage
 
@@ -220,7 +244,7 @@ edited by K. Ito ({\textit John Wiley $\&$ Sons}, ??CITY??, ??2014??); in prepar
 \renewcommand{\labelenumi}{\Roman{enumi}}
 \setcounter{enumi}{4}
 
-\item{} \textbf{Band structure and optical properties of $\mathbf {CuInSe_2}$}
+\item{} \textbf{Band structure and optical properties of CuInSe\textsubscript{2}}
 \\ \textbf{R. Chen} and C. Persson, 
 \textit{Advanced Materials Research Journal} {\textbf 894}, 254 (2014). \\
 \textit{4th Int. Conf. on Adv. Mater. Res (ICAMR-4), Macao, China, 23-24 Jan. 2014.}
@@ -563,72 +587,40 @@ E_g(x) = 1.0 + 0.564x+0.116x^2
 \end{equation}
 
 Alloying the Ga element will decrease the electron affinity of CIGS, which will make the conduction band upward shift, however, the valence band remain the same postion. This also explains the reason why the band gap increases with 
-more Ga element in the CIGS materail. At last, the overview properties of CIGS material is described in the \textbf{Table. \ref{properties}} 
-
-
-\begin{comment}
-\begin{tabular}{ |l|l|l| }
-\hline
-\multicolumn{3}{ |c| }{Team sheet} \\
-\hline
-Goalkeeper & GK & Paul Robinson \\ \hline
-\multirow{4}{*}{Defenders} & LB & Lucus Radebe \\
- & DC & Michael Duburry \\
- & DC & Dominic Matteo \\
- & RB & Didier Domi \\ \hline
-\multirow{3}{*}{Midfielders} & MC & David Batty \\
- & MC & Eirik Bakke \\
- & MC & Jody Morris \\ \hline
-Forward & FW & Jamie McMaster \\ \hline
-\multirow{2}{*}{Strikers} & ST & Alan Smith \\
- & ST & Mark Viduka \\
-\hline
-\end{tabular}
-
+more Ga element in the CIGS materail. At last, the overview properties of CIGS material is described in the \textbf{Table. \ref{kth518}} 
 
 
 \vspace{10cm}
 
-\begin{table}{}
-\begin{center}
-\begin{tabular}{|c|c|c|}
-  \hline
-  \multicolumn{3}{ | c |}{Properties of CuInSe\textsubscript{2} and CuGaSe\textsubscript{2}} \\
-  \hline
-  Properties & CuInSe\textsubscript{2} & CuGaSe\textsubscript{2} \\
-   \hline
-   Space group & $D_{2d}^{12}$(I-42d) no.122 & chalcopyrite $D_{2d}^{12}$(I-42d) space group no. \\
-   \hline
-   0 & 1/2 & 1/2 \\
-   \hline
-   0 & 1/2 & 0 \\
-   \hline
-   1/2 & 1/2 & 1/2 \\
-  \hline
-\end{tabular}
-\end{center}
-\label{properties}
-\end{table}
-\end{comment}
-
+\begin {table}[!htb]
+\centering
 \begin{tabular}{|l|l|l|}  
 \hline  
 \multicolumn{3}{|c|}{Properties of CuInSe\textsubscript{2} and CuGaSe\textsubscript{2}} \\  
 \hline  
-Goalkeeper & GK & Paul Robinson \\ \hline  
-Defenders & LB & Lucus Radebe \\  
- & DC & Michael Duberry \\  
- & DC & Dominic Matteo \\  
- & RB & Didier Domi \\ \hline  
-Midfielders & MC & David Batty \\  
- & MC & Eirik Bakke \\  
- & MC & Jody Morris \\ \hline  
-Forward & FW & Jamie McMaster \\ \hline  
-Strikers & ST & Alan Smith \\  
- & ST & Mark Viduka \\  
-\hline  
+Properties & CuInSe\textsubscript{2} & CuGaSe\textsubscript{2} \\ \hline  
+Space group & $D_{2d}^{12}$(I-42d), no. 122 & $D_{2d}^{12}$(I-42d), no. 122 \\ \hline   
+Dielectric constants $\varepsilon(0)$ & 13.6\textsuperscript{d},15.7\textsuperscript{d} & 11.0\textsuperscript{d}, 8.5\textsuperscript{d}\\ \hline  
+Lattice constants (Å) & a=b=5.78, c=11.55 & a=b=5.61, c=11.00 \\ 
+                      & a=b=5.78\textsuperscript{d}, c=11.64\textsuperscript{d} & a=b=5.61\textsuperscript{e}, c=11.02\textsuperscript{e} \\ \hline  
+Wyckoff positions & Cu:4a, In:4b, Se:8d & Cu:4a, Ga:4b, Se:8d \\ \hline 
+Direct Band gap (eV)& 1.04 & 1.68 \\ \hline 
+Effective masses on $\Gamma$ point (m0) & Electrons: 0.08& Electrons: 0.14\textsuperscript{b} \\ 
+                                        & Holes(heavy): 0.72& Holes(heavy): 1.2\textsuperscript{c} \\ 
+                                        & Electrons: 0.08\textsuperscript{a} & Electrons: 0.13\textsuperscript{a}\\
+                                        & Holes(heavy): 0.23\textsuperscript{a} & Holes(heavy): 0.32\textsuperscript{a} \\  \hline
+Main intrinsic defects & n-type: V\textsubscript{Cu}&  n-type: V\textsubscript{Cu} \\
+& p-type: V\textsubscript{Se} & p-type: V\textsubscript{Se}  \\   \hline
+Crystal field splitting $\Delta_{cf}$ (eV) [300K] & 0.006, 0.007\textsuperscript{a} & -0.09, -0.104\textsuperscript{a} \\  \hline
+Spin-orbit splitting $\Delta_{so}$ (eV) [77K] & 0.23, 0.193\textsuperscript{a} & 0.231, 0.210\textsuperscript{a} \\  \hline 
+Melting temperature (K)& 1259 & 1310-1340\\  \hline 
+Thermal expansion coefficients [300K] 1/K & a axis: 11.23$\times$10\textsuperscript{-6}& a axis: 13.1$\times$10\textsuperscript{-6}(landolt)\\
+& c axis: 7.90$\times$10\textsuperscript{-6}&c axis: 5.2$\times$10\textsuperscript{-6} (landolt)\\  \hline 
+Thermal conductivity [273K] W/(cm*K)& 0.086 & 0.129 \\  \hline 
 \end{tabular}
-
+\caption {most of the data from Semiconductor Basic data [?];\textsuperscript{a}Clas Persson [4]}
+\label{kth518}
+\end{table}
 
 
 
