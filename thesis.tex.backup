@@ -166,12 +166,13 @@ Tryck: Universitetsservice US AB
 
 
 \begin{abstract}
-\noindent In order to reduce the high dependence on fossil fuels and oil, solar energy is one of the alternatives.
-There are several very important absorber materials in the thin film photovlotaic technology, such as, the chalcopyrite $\cigs$ (CIGS), $\czts$ (CZTS) and $\cztse$ (CZTSe),
-the efficiency of CIGS has been reached up to around 20\%, so the accurate information for this kind of absorber materials is of great importance in order to
+
+\begin{comment}
+In order to reduce the high dependence on fossil fuels and oil, solar energy is one of the alternatives. There are several rather important absorber materials in the thin film photovlotaic technology, such as the cadmium
+telluride (CdTe) and chalcopyrite $\cigs$ (CIGS). The efficiency of CIGS has been reached up to around 20\%. Therefore, the accurate information for this kind of absorber materials is of great importance in order to
 design the photovlotaic (PV) materials. 
 
-\noindent In this licenciate, the parameterization of the band dispersion for the uppermost three valence bands (VBs) and the lowest conduction
+In this licenciate thesis, the parameterization of the band dispersion for the uppermost three valence bands (VBs) and the lowest conduction
 band (CB) in CIGS with $x=0, 0.5$, and $1$ is explored, which is based on the $k \cdot p$ method, but extended it up to high order. It demonstates that the VBs and CB
 are quite non-parabolic away from the $\Gamma$ point, which means that the effecive mass on $\Gamma$ point is not suitable to discribe the materials properties like 
 band filling and strong excitation effects. At last, the $\varepsilon$ spectra of $CuIn_{0.5}Ga_{0.5}Se_2$ is calculated, and compared with the
@@ -190,6 +191,7 @@ agreement with the result from Spectroscopic ellipsometry, which illustrates the
 observed interband critical points (CP) is discussed, and the electronic origins of each CP are examined based on the results from the FP-LAPW calculations. At 
 last, the band to band analysis of the contribution to the total ${\varepsilon_2}$ spectrum is explored.
 
+\end{comment}
 
 \newpage
 
@@ -234,7 +236,7 @@ the manuscript was written jointly.\\
 
 \item{}\textbf{Electronic structure and optical properties from first-principles modeling} \\
 C. Persson, \textbf{R. Chen}, H. Zhao, M. Kumar, and D. Huang, Chapter in “Copper zinc tin sulphide-based thin film solar cells”,
-edited by K. Ito ({\textit John Wiley $\&$ Sons}, ??CITY??, ??2014??); in preparation.
+edited by K. Ito ({\textit John Wiley $\&$ Sons}, ??CITY??, 2014??); in preparation.
 
 
 \end{enumerate}
@@ -250,7 +252,7 @@ edited by K. Ito ({\textit John Wiley $\&$ Sons}, ??CITY??, ??2014??); in prepar
 \textit{4th Int. Conf. on Adv. Mater. Res (ICAMR-4), Macao, China, 23-24 Jan. 2014.}
 
 
-\item{} \textbf{Electronic modeling and optical properties of $\mathbf{CuIn_{0.5}Ga_{0.5}Se_2}$ thin film solar cell}
+\item{} \textbf{Electronic modeling and optical properties of CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2} thin film solar cell}
 \\ \textbf{R. Chen} and C. Persson,
 \textit{J. Appl. Math. \& Phys.} {\textbf 2}, 41 (2014). \\
 \textit{Conf. on New Adv. Cond, Matter Phys. (NACMP 2014), Shenzhen, 14-16 Jan 2014.}
@@ -272,30 +274,30 @@ edited by K. Ito ({\textit John Wiley $\&$ Sons}, ??CITY??, ??2014??); in prepar
 
 With the increasing of energy consumption, more and more energy or power is needed. According to the statistical review of world energy on 2014 (\textbf{Fig. \ref{wpec}}),
 the required energy is mainly satisfied by the fossil fuels (mainly coal, petroleum and 
-natural gas), with a market share of around 87\%. The total energy consumption is around 12000 million tonnes oil equivalent (METO), which is equivalent with around 15 terawatts. 
+natural gas), with a market share of around 87\%. The total energy consumption is between 12000 and 13000 million tonnes oil equivalent (METO), which is equivalent with around 15 terawatts. 
 Normally lightbulbs in our homes consume around 100 watts of energy, 1 terawatt means is 10 billion of the lightbulbs is lighted at the same time. 
 Unfortunately, the fossil fuels is very limited energy and non-renewable resources, one day which is not far from  now it will be dissipated due to the energy consumption growth.
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.4]{energy.jpg}
-\caption{Data is from BP statistical review of world energy 2014, METO means million tonnes oil equivalent.}
+\includegraphics[scale=0.4]{energy.eps}
+\caption{Data is from BP statistical review of world energy 2014.}
 \label{wpec}
 \end{figure}
 
-By the year of 2050, the total world energy consumption will around double. Therefore, it is urgent to explore more sustainable and healthy energy sources. From \textbf{Fig. \ref{wpec}}, one will notice that renewable energy (mainly solar energy, wind power, hydropower and 
+By the year of 2050, the total world energy consumption will double. Therefore, it is urgent to explore more sustainable and healthy energy sources. From \textbf{Fig. \ref{wpec}}, one will notice that renewable energy (mainly solar energy, wind power, and 
 geothermal energy) in 2014 accounts for around 2\% of energy consumption globally. It is important to focus on the renewable energy research from a long term point of view.
 The solar energy technologies are one of the hot topic among the renewable energy research considering the point of CO\textsubscript{2} free, reliable energy supply, no cooling water requirement and operation in silence.
 
 The solar energy technologies are the way to produce electricity from the light of the sun. Sunlight is a portion of the radiation by the sun, like infrared, visible,
 and ultraviolet light. The spectrum of the sun is more or less a black body with a temperature of about 6000 K (\textbf{Fig. \ref{spectrumsun}}). In photovoltaic field, solar spectrum is represented by Air Mass (AM), 
 and the AM1.5 and AM0 are important. AM1.5 is the air mass at a solar zenith angle of 48.19 degree, and AM0 mean the solar spectrum outside of the atmosphere. Generally, the AM1.5 is seen as the reference spectrum in PV field. In 
-the (\textbf{Fig. \ref{spectrumsun}}), the absorption in the atmosphere is quite stronge by gasses, dust and aerosols abosorbing the sunlight, as well as the scattering of light from air molecules and dust. 
+the \textbf{Fig. \ref{spectrumsun}}, the absorption in the atmosphere is quite stronge by gasses, dust and aerosols, as well as the scattering of light from air molecules and dust. 
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.4]{spectrum.pdf}
-\caption{Solar irradiance spectrum (raw data in stockholm, and I will modify the figure the unit in Y-axis and add something more, such as UV, infrared...).}
+\includegraphics[scale=0.6]{spectrum.eps}
+\caption{Solar irradiance spectrum}
 \label{spectrumsun}
 \end{figure}
 
@@ -315,7 +317,7 @@ From \textbf{Fig. \ref{nrel}}, one can notice that the highest efficiency for mu
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.3]{efficiency_chart.jpg}
+\includegraphics[scale=0.5]{efficiency_chart.jpg}
 \caption{Best research-cell efficiencies. Figure is from National Renewable Energy Laboratory (NREL), Golden, Colorado.}
 \label{nrel}
 \end{figure}
@@ -347,9 +349,9 @@ of p-type material (E\textsubscript{pf}) is closer to valence band due to the fr
     \begin{center}
            % \includegraphics[width=0.4\textwidth,clip]{sepratepn.jpg}
            % \includegraphics[width=0.4\textwidth,clip]{sepratepn1.jpg}
-            \includegraphics[width=0.7\textwidth,clip]{sepratepn2.jpg}
+            \includegraphics[width=0.7\textwidth,clip]{sepratepn.eps}
      \end{center}
-    \caption{Left: Doped material (n-type and p-type). Right: Fermi level of n-type and p-type materials}      
+    \caption{Left: Doped material (n-type and p-type). Right: Energy band diagram of seperated p-n homojunction.}      
     \label{dopedmaterials}
 \end{figure}
 
@@ -358,8 +360,7 @@ of p-type material (E\textsubscript{pf}) is closer to valence band due to the fr
 If the n-type and p-type materials are joined, the free electrons (holes) in the n-type (p-type) material will diffuse into p-type (n-type) material due to the concentration difference (\textbf{Fig. \ref{pnjunction}}). 
 In the region which is near the interface between n-type and p-type materials, the fixed donor and acceptor ions establish a "build in" electric field which points from n-type material to p-type material, which causes the drift of 
 carriers in the opposite direction. The "build in" electric field will force the electrons (holes) back into the n-type (p-type). At certain point, the whole material will reach a stable equilibrium due to the achived balance 
-between diffusion and drift. Formation of the "build in" electric field is rather important for the solar cells, even though there is no currect in the material so far. In the following text, the region which establishes the "build in" electric field is also called space charge region (SCR) 
-(Left in \textbf{Fig. \ref{pnjunction}}). The different fermi level for n-type and p-type materials will be equal at the stable equilibrium. Therefore, the energy bands bend over and establish a potential barrier near the 
+between diffusion and drift. Formation of the "build in" electric field is rather important for the solar cells, even though there is no currect in the material so far. In the following text, the region which establishes the "build in" electric field is also called space charge region (SCR). The different fermi level for n-type and p-type materials will be equal at the stable equilibrium. Therefore, the energy bands bend over and establish a potential barrier near the 
 junction (Right in \textbf{Fig. \ref{pnjunction}}). Finally, there is a internal potential V\textsubscript{bi} in the junction, which will block the diffusion and take responsibility for drawing the electrons and holes under constant illumination considition. 
 
 
@@ -376,9 +377,9 @@ junction (Right in \textbf{Fig. \ref{pnjunction}}). Finally, there is a internal
     \begin{center}
            % \includegraphics[width=0.4\textwidth,clip]{pnjunction.jpg}
            % \includegraphics[width=0.5\textwidth,clip]{pnjunction1.jpg}
-            \includegraphics[width=0.7\textwidth]{pnjunction2.jpg}
+            \includegraphics[width=0.7\textwidth]{pnjunction.eps}
      \end{center}
-    \caption{Left: The p-n homojunction. Right: Fermi level of the p-n homejunction at the equilibrium. }      
+    \caption{Left: The p-n homojunction. Right: Energy band diagram of a p-n homejunction at the equilibrium. }      
     \label{pnjunction}
 \end{figure}
 
@@ -401,67 +402,41 @@ side, and a positive voltage is applied on the n-type side. The SCR will become 
 \end{comment}
 
 
-The p-n junction material with and without the illumination is discussed in the \textbf{Fig. \ref{illu}}. If there was a wire with certain resistance connecting the n-type and p-type, there is no current in the wire under the 
+The p-n junction material with and without the illumination is discussed in the \textbf{Fig. \ref{illu}} and \textbf{Fig. \ref{illu1}}. If there was a wire with certain resistance connecting the n-type and p-type, there is no current in the wire under the 
 condition of dark (no illumination). However, if the light shines on the whole material, the current will be generated from the p-type to the n-type side (conventional current). Because the bond inside the material will be broken
 under the illumination, which will generate pairs of electron-hole. At the same time, the recombination of paired electron-hole ocurrs. Actually, the rate of generation is over that of recombination, therefore, net generation occurs.
 Apparently, there are three regions in the whole junction material where the bonds are possible to be broken, the n-type region, the p-n junction, and
 the p-type region. In the either n-type or p-type region (especially, region which is far away SCR), the electron–hole pairs will not remain long time,  it is most probable that they will back into the bonded positions again
 since the paired electron-hole are rather close each other. However, the electron-hole pairs will be seperated in the p-n junction region due to the "build in" electric field, therefore, the current will be generated. 
-Actually, the electron-hole pairs in the either n-type and p-type (especially, for them which is near SCR) also have the chance to diffuse into the SCR, it will also contribute the generation of current in this case.
+Actually, the electron-hole pairs in the either n-type and p-type (especially, for them which are near SCR) also have the chance to diffuse into the SCR, it will also contribute the generation of current in this case.
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.5]{illumination.jpg}
-\caption{The p-n junction under illumination}
+\includegraphics[scale=0.5]{illumination.eps}
+\caption{The p-n junction under illumination.}
 \label{illu}
 \end{figure}
 
-In the following \textbf{Fig. \ref{illu1}}, the SCR becomes more "smooth"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-due to the extra load, and the stablized fermi level at the stable equilibrium split under illumination.  The chemical potential $\bigtriangledown \mu = E_{nf} - E_{vf}$ is created, 
+In the following \textbf{Fig. \ref{illu1}}, the SCR becomes more "smooth" due to the extra load, and the stablized fermi level at the stable equilibrium split under illumination.  The chemical potential $\bigtriangledown \mu = E_{nf} - E_{vf}$ is created, 
 which is considered as electron charge times the voltage across the device as well. 
 
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.45]{illumination1.jpg}
-\caption{Energy band diagram of a p-n homojunction under illumination}
+\includegraphics[scale=0.45]{illumination1.eps}
+\caption{Energy band diagram of a p-n homojunction under dark and illumination.}
 \label{illu1}
 \end{figure}
 
 
 The I-V characteristics is defined in the \textbf{Fig. \ref{ivcharac}} with some important parameters in the solar cells.
 The $V_{oc}$ and $I_{sc}$ are the open circuit voltage and short circuit current, respectively. They are the maximum voltage and current when the solar cells are under the illumination conditions.
-And $V_{mp}$ and $I_{mp}$ are the voltage and current which will yield the maximum power. The maximum power generated by the solar cells is $P_{out}=V_{mp} I_{mp}$, that is the rectangle bounded by the dashed lines in the 
+The $V_{mp}$ and $I_{mp}$ are the voltage and current which will yield the maximum power. The maximum power generated by the solar cells is $P_{out}=V_{mp} \times I_{mp}$, that is the rectangle bounded by the dashed lines in the 
 \textbf{Fig. \ref{ivcharac}}. 
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.5]{IV.jpg}
+\includegraphics[scale=0.5]{IV.eps}
 \caption{I-V characteristics}
 \label{ivcharac}
 \end{figure}
@@ -477,7 +452,7 @@ FF=\frac{P_{out}}{V_{oc} \cdot I_{sc}} = \frac{V_{mp} \cdot I_{mp}}{V_{oc} \cdot
 \eta =\frac{P_{out}}{P_{in}} = \frac{FF \cdot V_{oc} \cdot I_{sc}}{P_{in}}
 \end{equation}
 
-where $P_{in}$ is the incident photon energy per second. The conversion efficiency of the solar cells is proportional to fill factor, $V_{oc}$, and $I_{sc}$. There are several aspects which will affect
+where $P_{in}$ is the incident photon energy per second. The conversion efficiency of the solar cells is proportional to FF, $V_{oc}$, and $I_{sc}$. There are several aspects which will affect
 the conversion efficiency. $V_{oc}$ is directly proportional to the band gap of the material, $I_{sc}$ is proportional to the number of absorbed photons. When the band gap is decreased, the more of the spectrum is absorbed, however, 
 the $V_{oc}$ will be reduced in this case. On the material surface, the photons are absorbed and recombined, this is severely reduce the efficiency. There is more detailed analysis of conversion efficiency in the Ref[?? Principles of solar energy conversion].
 
@@ -496,7 +471,7 @@ and many others. Thereby, only some of them is suitable to produce in reality. I
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.5]{tree1.jpg} 
+\includegraphics[scale=0.5]{tree.eps} 
 \caption{Tree of tetragonal bonded semiconductor, the roman numerals means the group numbers in the chemical element periodic table, the subscript means the number of elements.}
 \label{lscm}
 \end{figure}
@@ -568,7 +543,7 @@ group no. 82).
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.4]{structureciise1.jpg} 
+\includegraphics[scale=0.3]{structureciise.eps} 
 \caption{}
 \label{crystal_cigs}
 \end{figure}
@@ -645,7 +620,7 @@ The solar cells device based on CIGS is a heterojunction device, which has sever
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.5]{devicestruc.jpg} 
+\includegraphics[scale=0.5]{devicestruc.eps} 
 \caption{}
 \label{device}
 \end{figure}

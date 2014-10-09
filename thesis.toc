@@ -3,10 +3,10 @@
 \contentsline {chapter}{Contents}{vii}
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Solar cells}{3}
-\contentsline {subsection}{\numberline {1.1.1}Single-junction solar cells}{3}
+\contentsline {subsection}{\numberline {1.1.1}Single-junction solar cells}{4}
 \contentsline {section}{\numberline {1.2}Solar cell materials}{7}
 \contentsline {subsection}{\numberline {1.2.1}Crystalline silicon solar cells}{8}
-\contentsline {subsection}{\numberline {1.2.2}Gallium arsenide}{8}
+\contentsline {subsection}{\numberline {1.2.2}Gallium arsenide}{9}
 \contentsline {subsection}{\numberline {1.2.3}Thin film materials}{9}
 \contentsline {section}{\numberline {1.3}CIGS materials}{10}
 \contentsline {subsection}{\numberline {1.3.1}Crystal structure}{10}
