@@ -5,7 +5,7 @@
 \usepackage[utf8]{inputenc}    
 \usepackage[swedish,english]{babel}
 \usepackage{cite}
-\usepackage[pdftex]{graphicx}
+\usepackage[pdftex]{rotating,graphicx}
 \usepackage{epstopdf}
 \usepackage{graphicx}   % For eps figures
 \usepackage{csvsimple}
@@ -304,23 +304,42 @@ In \textbf{Fig. \ref{spectrumsun}}, the absorption in the atmosphere is quite st
 There are mainly three kinds of solar energy technologies. The first one is solar thermal,
 which utilizes the flat sunlight collector plates to harness the energy from sunlight to heat water for use in industries, homes, and pools.
 Therefore, the solar thermal collectors do not convert sunlight to electricity directly, but transfer the energy to heat up the water instead. The advangtage is the conversion efficiency 
-is relatively higher, however, the price is higher as well and it needs huge amount of cherished water resources. The second one is solar chemical, which takes advantage of solar 
+is relatively higher. The second one is solar chemical, which takes advantage of solar 
 energy by absorbing sunlight in a chemical reaction. However, the conversion efficiency is quite low. The last one is solar photovoltaics (solar cell), which is the way
-to use solar panels to convert sunlight into electricity. The price is relatively lower compared with solar thermal, and the conversion efficiency is higher than solar chemical. More importantly, it is
-environmentally friendly.
+to use solar panels to convert sunlight into electricity. The installation is easier, occupy less space and less maintenance compared with solar thermal. The conversion efficiency is higher than solar chemical. However, all the three solar energy 
+technologies are environmentally friendly.
 
 
 \section{Solar cells}
-In the worldwide, many reseachers are working on the field of solar cell. Therefore, the conversion efficiency in all different types of solar cell is improved remarkably. 
+In the worldwide, the conversion efficiency in all different types of solar cell is improved remarkably. 
 From \textbf{Fig. \ref{nrel}}, one can notice that the highest efficiency for multijunction cells, crystalline silion cells, thin-film technologies and new emerging cells are around 
 44.4\%, 27.6\%, 22.8\% and 16.2\%, respectively. Therefore, the solar cell is a very important and promising way to produce the renewable energy.
 
+\begin{comment}
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.5]{efficiency_chart.jpg}
 \caption{Best research-cell efficiencies. Figure is from National Renewable Energy Laboratory (NREL), Golden, Colorado.}
 \label{nrel}
 \end{figure}
+\end{comment}
+
+
+\begin{sidewaysfigure}
+\centering
+\includegraphics[scale=0.7]{efficiency_chart.jpg}
+\caption{Best research-cell efficiencies. Figure is from National Renewable Energy Laboratory (NREL), Golden, Colorado.}
+\label{nrel}
+\end{sidewaysfigure}
+
+
+Multijunction cells are the cells which contain multi \textit{p}--\textit{n} junctions (or subcells) which have different band gap for each \textit{p}--\textit{n} junction.
+Therefore, different wavelengths of light from the Sun are absorbed for each of junction. For example, wider band gap junction is at the front of the cell, which can absorb the photons with high energy; the junction with low band gap
+can absorb the photos with lower energy. Therefore, the conversion efficiency is higher than singe \textit{p}--\textit{n} junction, for example, the maximum of conversion efficiency is 44.7\% by Soitec using four-junction or more in the \textbf{Fig. \ref{nrel}}. 
+Crystalline silicon cells are the most widely utilized in the photovoltaic industries, which built the solar cells using crystalline silicon (c-Si). It has two types in the crystalline silicon photovoltaics:
+mono-crystalline silicon and multi-crystalline silicon. The crystalline silicon cells have high efficiency, for example, the maximum of conversion efficiency is 27.6\% with concentrator by Amonix and maxium 25.6\% without concentrator by Panasonic in  the \textbf{Fig. \ref{nrel}}.
+
+
 
 For the multijunction cells, the conversion efficiency is relatively higher compared with others, however, the price is much more expensive as well due to more amount of materials used for production.
 Compared with multijunction cells, the crystalline silicon has lower conversion efficiency, but lower price as well. The price for thin film is cheaper than crystalline silicon, however,
@@ -354,6 +373,10 @@ of p-type material (E\textsubscript{pf}) is closer to valence band due to the fr
     \caption{Left: Doped material (n-type and p-type). Right: Energy band diagram of seperated p-n homojunction.}      
     \label{dopedmaterials}
 \end{figure}
+
+
+
+
 
 
 

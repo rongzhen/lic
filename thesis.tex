@@ -5,7 +5,7 @@
 \usepackage[utf8]{inputenc}    
 \usepackage[swedish,english]{babel}
 \usepackage{cite}
-\usepackage[pdftex]{graphicx}
+\usepackage[pdftex]{rotating,graphicx}
 \usepackage{epstopdf}
 \usepackage{graphicx}   % For eps figures
 \usepackage{csvsimple}
@@ -315,17 +315,32 @@ In the worldwide, the conversion efficiency in all different types of solar cell
 From \textbf{Fig. \ref{nrel}}, one can notice that the highest efficiency for multijunction cells, crystalline silion cells, thin-film technologies and new emerging cells are around 
 44.4\%, 27.6\%, 22.8\% and 16.2\%, respectively. Therefore, the solar cell is a very important and promising way to produce the renewable energy.
 
+\begin{comment}
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.5]{efficiency_chart.jpg}
 \caption{Best research-cell efficiencies. Figure is from National Renewable Energy Laboratory (NREL), Golden, Colorado.}
 \label{nrel}
 \end{figure}
+\end{comment}
 
-For the multijunction cells, the conversion efficiency is relatively higher compared with others, however, the price is much more expensive as well due to more amount of materials used for production.
-Compared with multijunction cells, the crystalline silicon has lower conversion efficiency, but lower price as well. The price for thin film is cheaper than crystalline silicon, however,
-the efficiency is little lower than crystalline silicon. The new emerging cells are cheapest compared with all the others type of cells, however, the conversion efficiency is 
-relatively lower currently.
+
+\begin{sidewaysfigure}
+\centering
+\includegraphics[scale=0.7]{efficiency_chart.jpg}
+\caption{Best research-cell efficiencies. Figure is from National Renewable Energy Laboratory (NREL), Golden, Colorado.}
+\label{nrel}
+\end{sidewaysfigure}
+
+
+Multijunction cells are the cells which contain multi \textit{p}--\textit{n} junctions (or subcells) which have different band gap for each \textit{p}--\textit{n} junction.
+Therefore, different wavelengths of light from the Sun are absorbed for each of junction. For example, wider band gap junction is at the front of the cell, which can absorb the photons with high energy; the junction with low band gap
+can absorb the photos with lower energy. Therefore, the conversion efficiency is higher than singe \textit{p}--\textit{n} junction, for example, the maximum conversion efficiency is 44.7\% by Soitec using four-junction or more in the \textbf{Fig. \ref{nrel}}. 
+Crystalline silicon cells are the most widely utilized in the photovoltaic industries, which built the solar cells using crystalline silicon (c-Si). It has two types in the crystalline silicon photovoltaics:
+mono-crystalline silicon and multi-crystalline silicon. The crystalline silicon cells have high efficiency, for example, the maximum conversion efficiency is 27.6\% with concentrator by Amonix and maxium 25.6\% without concentrator by Panasonic in  the \textbf{Fig. \ref{nrel}}.
+Thin-Film solar cells are the cells which are made by depositing one or several thin layers, which allows the cells to be rather flexible and resulting in lower weight. The maximum conversion efficiency is lower than crystalline silicon
+today, which has the maximum conversion efficiency 23.3\% using CIGS with concentrator by NREL and 21.7\% without concentrator by the center for solar energy and hydrogen research (ZSW) in Stuttgart in the \textbf{Fig. \ref{nrel}}. The Emerging PV in 
+the \textbf{Fig. \ref{nrel}} represents the newest ways to create electricity from sunlight, such as perovskite cells, for which the maximum conversion efficiency is 17.9\% by the korean research institute of chemical technology (KRICT). ?????add more text about his new technologies???
 
 
 \subsection{Single-junction solar cells}
@@ -354,6 +369,10 @@ of p-type material (E\textsubscript{pf}) is closer to valence band due to the fr
     \caption{Left: Doped material (n-type and p-type). Right: Energy band diagram of seperated p-n homojunction.}      
     \label{dopedmaterials}
 \end{figure}
+
+
+
+
 
 
 
