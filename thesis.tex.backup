@@ -335,16 +335,12 @@ From \textbf{Fig. \ref{nrel}}, one can notice that the highest efficiency for mu
 
 Multijunction cells are the cells which contain multi \textit{p}--\textit{n} junctions (or subcells) which have different band gap for each \textit{p}--\textit{n} junction.
 Therefore, different wavelengths of light from the Sun are absorbed for each of junction. For example, wider band gap junction is at the front of the cell, which can absorb the photons with high energy; the junction with low band gap
-can absorb the photos with lower energy. Therefore, the conversion efficiency is higher than singe \textit{p}--\textit{n} junction, for example, the maximum of conversion efficiency is 44.7\% by Soitec using four-junction or more in the \textbf{Fig. \ref{nrel}}. 
+can absorb the photos with lower energy. Therefore, the conversion efficiency is higher than singe \textit{p}--\textit{n} junction, for example, the maximum conversion efficiency is 44.7\% by Soitec using four-junction or more in the \textbf{Fig. \ref{nrel}}. 
 Crystalline silicon cells are the most widely utilized in the photovoltaic industries, which built the solar cells using crystalline silicon (c-Si). It has two types in the crystalline silicon photovoltaics:
-mono-crystalline silicon and multi-crystalline silicon. The crystalline silicon cells have high efficiency, for example, the maximum of conversion efficiency is 27.6\% with concentrator by Amonix and maxium 25.6\% without concentrator by Panasonic in  the \textbf{Fig. \ref{nrel}}.
-
-
-
-For the multijunction cells, the conversion efficiency is relatively higher compared with others, however, the price is much more expensive as well due to more amount of materials used for production.
-Compared with multijunction cells, the crystalline silicon has lower conversion efficiency, but lower price as well. The price for thin film is cheaper than crystalline silicon, however,
-the efficiency is little lower than crystalline silicon. The new emerging cells are cheapest compared with all the others type of cells, however, the conversion efficiency is 
-relatively lower currently.
+mono-crystalline silicon and multi-crystalline silicon. The crystalline silicon cells have high efficiency, for example, the maximum conversion efficiency is 27.6\% with concentrator by Amonix and maxium 25.6\% without concentrator by Panasonic in  the \textbf{Fig. \ref{nrel}}.
+Thin-Film solar cells are the cells which are made by depositing one or several thin layers, which allows the cells to be rather flexible and resulting in lower weight. The maximum conversion efficiency is lower than crystalline silicon
+today, which has the maximum conversion efficiency 23.3\% using CIGS with concentrator by NREL and 21.7\% without concentrator by the center for solar energy and hydrogen research (ZSW) in Stuttgart in the \textbf{Fig. \ref{nrel}}. The Emerging PV in 
+the \textbf{Fig. \ref{nrel}} represents the newest ways to create electricity from sunlight and potentially with higher conversion efficiency, such as perovskite cells, for which the maximum conversion efficiency is 19.3\% by the group Yang Yang at the University of California, Los Angeles. (update the above figure until May, 2014)
 
 
 \subsection{Single-junction solar cells}
