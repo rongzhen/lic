@@ -6,7 +6,7 @@
 \contentsline {subsection}{\numberline {1.1.1}Single-junction solar cells}{3}
 \contentsline {section}{\numberline {1.2}Solar cell materials}{8}
 \contentsline {subsection}{\numberline {1.2.1}Crystalline silicon solar cells}{9}
-\contentsline {subsection}{\numberline {1.2.2}Gallium arsenide}{9}
+\contentsline {subsection}{\numberline {1.2.2}Gallium arsenide}{10}
 \contentsline {subsection}{\numberline {1.2.3}Thin film materials}{10}
 \contentsline {section}{\numberline {1.3}$\mathrm { CuIn_{1-\textit {x}}Ga_{x}Se_2}$(CIGS) materials}{11}
 \contentsline {subsection}{\numberline {1.3.1}Crystal structure}{11}
