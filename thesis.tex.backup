@@ -17,6 +17,7 @@
 \usepackage{amssymb}
 \usepackage{amsbsy}
 \pagestyle{headings}
+\usepackage[table]{xcolor}% http://ctan.org/pkg/xcolor
 \usepackage{color}
 \usepackage{graphicx}
 \usepackage{epsfig}
@@ -28,6 +29,7 @@
 \usepackage{palatino}
 \usepackage{fixltx2e}
 \usepackage{siunitx}
+\usepackage{booktabs}
 
 
  
@@ -545,7 +547,7 @@ CIGS are direct band gap seciconductors with high optical absorption coefficient
 n-type CdS layer. The conversion efficiency of CIGS reached up to 20\% in the laboratory cell. The intersting part is that it can be alloyed by the ratio of Ga/(Ga+In), and the band gap can be tuned along with that. The band gap 
 is between 1.0 eV to 1.7 eV for this alloy. CIGS does not contain any toxic element.
 
-\section{$\cigs$(CIGS) materials}
+\section{CuIn\textsubscript{1-\textit{x}}Ga\textsubscript{\textit{x}}Se\textsubscript{2}(CIGS) materials}
 CIGS material is a chalcopyrite-type material, which is considered to be one of the most promising thin film solar cell material. The direct band gap is from around 1.0 ev to 1.7 eV by alloying Ga in the CuInSe\textsubscript{2},  and the conversion efficiency in laboratory already surpassed 20\%. 
 CuInSe\textsubscript{2} was first synthesized by Hahn in 1953. It was first used as an absorber material in a single crystal solar cell in 1974, which is based on CuInSe\textsubscript{2} and CdS. The conversion efficiency is around 
 5\%. The first thin film solar cells based on CuInSe\textsubscript{2} and CdS was invented by Kazmerski. During 1980s, Boeing Corporation did much reseach on the thin film polycrystalline CIGS solar cells. 
@@ -593,29 +595,51 @@ more Ga element in the CIGS materail. An overview properties of CIGS material is
 
 \begin {table}[!htb]
 \centering
-\begin{tabular}{|l|l|l|}  
-\hline  
-\multicolumn{3}{|c|}{Properties of CuInSe\textsubscript{2} and CuGaSe\textsubscript{2}} \\  
-\hline  
-Properties & CuInSe\textsubscript{2} & CuGaSe\textsubscript{2} \\ \hline  
-Space group & $D_{2d}^{12}$(I-42d), no. 122 & $D_{2d}^{12}$(I-42d), no. 122 \\ \hline   
-Dielectric constants $\varepsilon(0)$ & 13.6\textsuperscript{d},15.7\textsuperscript{d} & 11.0\textsuperscript{d}, 8.5\textsuperscript{d}\\ \hline  
-Lattice constants (Å) & a = b = 5.78, c=11.55 & a=b=5.61, c=11.00 \\ 
-                      & a=b=5.78\textsuperscript{d}, c=11.64\textsuperscript{d} & a=b=5.61\textsuperscript{e}, c=11.02\textsuperscript{e} \\ \hline  
-Wyckoff positions & Cu:4a, In:4b, Se:8d & Cu:4a, Ga:4b, Se:8d \\ \hline 
-Direct band gap (eV)& Eg=1.04 & Eg=1.68 \\ \hline 
+\begin{tabular}{l l l}  
+\toprule
+\toprule
+\rowcolor[gray]{0.7}
+\multicolumn{3}{c}{\large Properties of CuInSe\textsubscript{2} and CuGaSe\textsubscript{2}} \\  
+%\midrule
+\large Properties & \large CuInSe\textsubscript{2} & \large CuGaSe\textsubscript{2} \\ 
+& &  \\ 
+%\midrule
+\rowcolor[gray]{0.9}
+Space group & $D_{2d}^{12}$(I-42d), no. 122 & $D_{2d}^{12}$(I-42d), no. 122 \\ 
+%\midrule
+Lattice constants (Å) & \textit{a} = \textit{b} = 5.78, \textit{c} = 11.55 & \textit{a} = \textit{b} = 5.61, \textit{c} = 11.00 \\ 
+                      & \textit{a} = \textit{b} = 5.78\textsuperscript{d}, \textit{c} = 11.64\textsuperscript{d} & \textit{a} = \textit{b} = 5.61\textsuperscript{e}, \textit{c} = 11.02\textsuperscript{e} \\ 
+%\midrule
+\rowcolor[gray]{0.9}
+Wyckoff positions & Cu:4a, In:4b, Se:8d & Cu:4a, Ga:4b, Se:8d \\ 
+%\midrule
+Direct band gap (eV) & Eg = 1.04 & Eg = 1.68 \\ 
+%\midrule
+\rowcolor[gray]{0.9}
 Effective masses on $\Gamma$ point (m\textsubscript{0}) & Electrons: 0.08& Electrons: 0.14\textsuperscript{b} \\ 
-                                        & Holes(heavy): 0.72& Holes(heavy): 1.2\textsuperscript{c} \\ 
-                                        & Electrons: 0.08\textsuperscript{a} & Electrons: 0.13\textsuperscript{a}\\
-                                        & Holes(heavy): 0.23\textsuperscript{a} & Holes(heavy): 0.32\textsuperscript{a} \\  \hline
-Main intrinsic defects & n-type: V\textsubscript{Se} In\textsubscript{Cu}&  n-type: V\textsubscript{Se} Ga\textsubscript{Cu}\\
-& p-type:  V\textsubscript{Cu} Cu\textsubscript{In} & p-type: V\textsubscript{Cu} Cu\textsubscript{Ga}  \\   \hline
-Crystal field splitting $\Delta_{cf}$ (eV) [300K] & 0.006, 0.007\textsuperscript{a} & -0.09, -0.104\textsuperscript{a} \\  \hline
-Spin-orbit splitting $\Delta_{so}$ (eV) [77K] & 0.23, 0.193\textsuperscript{a} & 0.231, 0.210\textsuperscript{a} \\  \hline 
-Melting temperature (K)& 1259 & 1310-1340\\  \hline 
+\rowcolor[gray]{0.9}                                       & Holes(heavy): 0.72& Holes(heavy): 1.2\textsuperscript{c} \\ 
+ \rowcolor[gray]{0.9}                                       & Electrons: 0.08\textsuperscript{a} & Electrons: 0.13\textsuperscript{a}\\
+\rowcolor[gray]{0.9}                                        & Holes(heavy): 0.23\textsuperscript{a} & Holes(heavy): 0.32\textsuperscript{a} \\ 
+%\midrule
+Main intrinsic defects & \textit{p}--type: V\textsubscript{Se}; In\textsubscript{Cu}&  \textit{n}--type: V\textsubscript{Se}; Ga\textsubscript{Cu}\\
+& \textit{p}--type:  V\textsubscript{Cu}; Cu\textsubscript{In} & \textit{p}--type: V\textsubscript{Cu}; Cu\textsubscript{Ga}  \\  
+%\midrule
+\rowcolor[gray]{0.9}
+Crystal field splitting $\Delta_{cf}$ (eV) [300K] & 0.006, 0.007\textsuperscript{a} & -0.09, -0.104\textsuperscript{a} \\ 
+%\midrule
+Spin-orbit splitting $\Delta_{so}$ (eV) [77K] & 0.23, 0.193\textsuperscript{a} & 0.231, 0.210\textsuperscript{a} \\ 
+%\midrule
+\rowcolor[gray]{0.9}
+Dielectric constants $\varepsilon(0)$ & 13.6\textsuperscript{d},15.7\textsuperscript{d} & 11.0\textsuperscript{d}, 8.5\textsuperscript{d}\\
+%\midrule
+Melting temperature (K)& 1259 & 1310 -- 1340\\
+%\midrule
+\rowcolor[gray]{0.9}
 Thermal expansion coefficients [300K] 1/K & a axis: 11.23$\times$10\textsuperscript{-6}& a axis: 13.1$\times$10\textsuperscript{-6}(landolt)\\
-& c axis: 7.90$\times$10\textsuperscript{-6}&c axis: 5.2$\times$10\textsuperscript{-6} (landolt)\\  \hline 
-Thermal conductivity [273K] W/(cm*K)& 0.086 & 0.129 \\  \hline 
+\rowcolor[gray]{0.9} & c axis: 7.90$\times$10\textsuperscript{-6}&c axis: 5.2$\times$10\textsuperscript{-6} (landolt)\\ 
+%\midrule
+Thermal conductivity [273K] W/(cm*K)& 0.086 & 0.129 \\ 
+\bottomrule
 \end{tabular}
 \caption {most of the data from Semiconductor Basic data [?];\textsuperscript{a}Clas Persson [4]}
 \label{kth518}
@@ -624,36 +648,32 @@ Thermal conductivity [273K] W/(cm*K)& 0.086 & 0.129 \\  \hline
 
 
 
-
 CIGS is a nonstoichiometric compound with the deviations from stoichiometry in several pencentage range. The high quality thin film solar cells mainly use Cu-poor (Cu: 22.5-24.5\%) high offstoichiometric CIGS absorber.
 The main native defects in CIGS include <2V\textsubscript{Cu}, In\textsubscript{Cu}>, <Cu\textsubscript{In}, In\textsubscript{Cu}>, V\textsubscript{Cu}, In\textsubscript{Cu}, Cu\textsubscript{In} V\textsubscript{Se}
-and Ga\textsubscript{Cu}. V\textsubscript{Cu} is the most important native defects in CIGS due to
-their low formation energies. Therefore, CIGS can be grown p-type easily with the condition of Cu-poor (V\textsubscript{Cu}).
-
-There are some extrinsic divalent cation donors as well, such as Zn\textsubscript{Cu}, Cd\textsubscript{Cu} and Cl\textsubscript{Se}. And the formation energy is relatively low for CIS and CGS. 
-Therefore, it is possible to grow n-type for them as well.
-
-CIS can be grown n-type under the condition Se-poor or In-rich. However, CGS is not possible to be n-type under equilibrium conditions, because the low formation energy of V\textsubscript{Cu} limits the possibility of achieving electronic n-type character, especially in Ga-rich CIGS.
-It is maybe also explained why the best solar cell is with the Ga content of 30\% (x=0.3), however, the band gap energy of the CIGS suggests that the optimum solar cell conversion efficiency is obtained with between x=0.5 
-and x=0.7.
+and Ga\textsubscript{Cu}. V\textsubscript{Cu} is the most important native defects in CIGS due to their low formation energies. Therefore, CIGS can be grown \textit{p}--type easily with the condition of Cu-poor (V\textsubscript{Cu}),
+which can be grown \textit{n}--type under the condition Se-poor or In-rich. There are some extrinsic divalent cation donors as well, such as Zn\textsubscript{Cu}, Cd\textsubscript{Cu} and Cl\textsubscript{Se}. The formation energy 
+for them is relatively low for CIS and CGS. Therefore, CIS is possbile to be\textit{n}--type material. However, CGS is not possible to be n-type under equilibrium conditions, because the low formation energy of V\textsubscript{Cu} limits the possibility of achieving electronic n-type character,
+especially in Ga-rich CIGS. It is maybe also explained why the best solar cell is with the Ga content of 30\% (x = 0.3), however, the band gap energy of the CIGS suggests that the optimum solar cell conversion efficiency is obtained 
+with between x = 0.5 and x = 0.7.
 
 
 \subsection{CIGS solar cell structure}
 
-The solar cells device based on CIGS is a heterojunction device, which has several thin film layers with different functional properties. A schematic of a conventional device structure is shown in  \textbf{Fig. \ref{device}}
+The solar cells device based on CIGS is a heterojunction device, which normally has five thin film layers with different functional properties. A schematic of a conventional device structure is shown in  \textbf{Fig. \ref{device}}
 
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.5]{devicestruc.eps} 
-\caption{}
+\caption{Structure of CIGS solar cell device.}
 \label{device}
 \end{figure}
 
-Substract is on the bottom, and there are mainly three kinds of substract: soda-lime glass, metal and polyimide. The most common substrate is the one based on soda-lime glass containing sodium (Na) with thickness \SI{1} {\mm} to \SI{3} {\mm}. The Na will improve the efficiency and reliablity of the solar cells
-as well as process tolerance. The molybdenum works as back contact due to its low resistivity and stability at high 
-temperature with thickness around \SI{500} {\nm}. The most important part of the device is the p-type absorber layer: CIGS, which is dopped by intrinsic defects. The n-type buffer layer cadmium sulfide (CdS) is on the top of CIGS.
-The intrinsic zinc oxide (i-ZnO) and n-type ZnO layer are followed, and it works as window layer. The i-ZnO is to avoid the damage of the CIGS and CdS from sputtering damage when depositing the ZnO:Al window layer,
-and the n-type ZnO is dopped by the aluminum (Al) in order to get higher conductivity. This CIGS/CdS/ZnO strucutrure was found to improve the cell performance.
+Substract is on the bottom, and there are mainly three kinds of substract: soda-lime glass, metal and polyimide. The most common substrate is the one based on soda-lime glass containing sodium (Na) with thickness 
+\SI{1} {\mm} to \SI{3} {\mm}. The Na will improve the efficiency and reliablity of the solar cells as well as process tolerance. The molybdenum works as back contact due to its low resistivity and stability at high 
+temperature with thickness around \SI{500} {\nm}. The most important part of the device is the \textit{p}--type absorber layer: CIGS, which is dopped by intrinsic defects and around \SI{1500} - \SI{2000} {\nm}. 
+The \textit{n}--type buffer layer CdS is on the top of CIGS, which is around \SI{60} {\nm}. The intrinsic zinc oxide (\textit{i}-ZnO) and \textit{n}--type ZnO layer are followed, and it works as window layer. The \textit{i}-ZnO is to 
+avoid the damage of the CIGS and CdS from sputtering damage when depositing the ZnO:Al window layer, and the \textit{n}--type ZnO is dopped by the aluminum (Al) in order to get higher conductivity. 
+This CIGS/CdS/ZnO strucutrure was optimized to improve the cell performance.
 
 
 
@@ -694,7 +714,7 @@ $\textit{M}_I$ denotes the nuclear mass, $m_e$ is the electron mass, $\varepsilo
 
 In atomic units, the reduced Planck constant $\hbar$, the electron mass $m$, the Bohr radius $a_0$, and the electron charge
 $e$ are equal to 1. The Bohr radius is given by the formula $a_0$ = ${\hbar} / {(mc\alpha)}$, where $\alpha$ is the fine structure
-constant ($\alpha$ = ${e^2}/{(4 \pi \varepsilon_0 c \hbar)}$) , so the velocity of light in atomic units is $c$ = $1/{\alpha}$ and ${e^2}/{(4 \pi \varepsilon_0)}$= 1. The Schrödinger \textbf{Eq. \ref{th}} in atomic units is given as
+constant ($\alpha$ = ${e^2}/{(4 \pi \varepsilon_0 c \hbar)}$) , so the velocity of light in atomic units is $c$ = $1/{\alpha}$ and ${e^2}/{(4 \pi \varepsilon_0)}$ = 1. The Schrödinger \textbf{Eq. \ref{th}} in atomic units is given as
 
 \begin{equation}\label{sth}\begin{split}
 &\hath = - \sumi<i>   \frac{{{\nabla}_{\textit{i}}^{2}}}{2} - \sumi<I> \frac{{{\nabla}_{\textit{I}}^{2}}}{2 M_\textit{I}}  - \sumij<i><I> \frac{Z_\textit{I}}{|\textbf{r}_\textit{i}-\textbf{R}_\textit{I}|} \\
@@ -967,7 +987,7 @@ problem. In order to know that there are two very basic theorems introduced by H
 \end{thm}
 
 The above theorem also indicate that all the ground state properties are determined by the true ground state density $\rho$,
-for example, the total energy E=E[$\rho$]. 
+for example, the total energy E = E[$\rho$]. 
 
 The above theorem also explains the equivalence relation between the electron density and wavefunction, because Hamiltonian is obtained from external potential,
 then the wavefunction is obtained, therefore the corresponding electron density is determined. Moreover, from the theorem, the external potential is unique decided by electron
@@ -1017,7 +1037,7 @@ and the exact ground state density is gained when the ground state total energy 
 
 The proof of theorem is given. Because of the first theorem, the total energy can be expressed in the following way (ignoring the interaction between nuclei):
 \begin{equation}\label{hkpf5}\begin{split}
-& E[\rho] \ =\langle \Psi  | \ \hat{T} \ + \ \hat{V}_\textit{int}  \ + \ \hat{V}_\textit{ext} \ | \Psi \rangle \\
+& E[\rho] \ = \langle \Psi  | \ \hat{T} \ + \ \hat{V}_\textit{int}  \ + \ \hat{V}_\textit{ext} \ | \Psi \rangle \\
 &     = \langle \Psi  | \ \hat{V}_\textit{ext} \ | \Psi \rangle  + \underbrace{\langle \Psi  | \ \hat{T} \ + \ \hat{V}_\textit{int}  \ \ | \Psi \rangle}  \\
 &     =   \ \int \rho(\textbf{r}) V_\textit{ext} \qquad +  \qquad F[\rho]. 
 \end{split}
@@ -1247,7 +1267,7 @@ If the \textbf{Eq. \ref{ep1}} is plugged into the \textbf{Eq. \ref{ep2}}, and th
     \vdots               & \vdots               &        & \vdots               \\
     \Phi_N \hath \Phi_1 & \Phi_N \hath \Phi_2 & \cdots & \Phi_N \hath \Phi_N \\
 \end{matrix} \right] \left[ \begin{array}{c} C_1 \\ C_2 \\ \vdots \\ C_N\end{array} \right] \\
-=E \left[
+= E \left[
 \begin{matrix}
     \Phi_1 \Phi_1 & \Phi_1 \Phi_2 & \cdots & \Phi_1 \Phi_N \\
    \Phi_2 \Phi_1 & \Phi_2 \Phi_2 & \cdots & \Phi_2 \Phi_N \\
@@ -1266,7 +1286,7 @@ If $H_{ij} = \Phi_i \hath \Phi_j$ and $S_{ij} = \Phi_i \Phi_j$ are defined, then
     \vdots               & \vdots               &        & \vdots               \\
      H_{N1} & H_{N2} & \cdots & H_{NN} \\
 \end{matrix} \right] \left[ \begin{array}{c} C_1 \\ C_2 \\ \vdots \\ C_N\end{array} \right] \\
-=E \left[
+= E \left[
 \begin{matrix}
     S_{11} & S_{12} & \cdots & S_{1N} \\
     S_{21} & S_{22} & \cdots & S_{2N} \\
@@ -1285,10 +1305,10 @@ There are left part and right part in the \textbf{Eq. \ref{ep467}}. If the left 
     \vdots               & \vdots               &        & \vdots               \\
   H_{N1} - E S_{N1} & H_{N2} - E S_{N2} & \cdots & H_{NN} - E S_{NN} \\
 \end{matrix} \right] \left[ \begin{array}{c} C_1 \\ C_2 \\ \vdots \\ C_N\end{array} \right]
-=\left[ \begin{array}{c} 0 \\ 0 \\ \vdots \\ 0 \end{array} \right].
+= \left[ \begin{array}{c} 0 \\ 0 \\ \vdots \\ 0 \end{array} \right].
 \end{equation}
 
-Apparently, the \textbf{Eq. \ref{ep44}} is an eigenvale problem. In order to get the $C_{i} (i=1 \cdots N)$, one needs to solve the eigenvale problem
+Apparently, the \textbf{Eq. \ref{ep44}} is an eigenvale problem. In order to get the $C_{i} (i = 1 \cdots N)$, one needs to solve the eigenvale problem
 
 \begin{equation}\label{ep4}
 \left|
@@ -1298,7 +1318,7 @@ Apparently, the \textbf{Eq. \ref{ep44}} is an eigenvale problem. In order to get
     \vdots               & \vdots               &        & \vdots               \\
   H_{N1} - E S_{N1} & H_{N2} - E S_{N2} & \cdots & H_{NN} - E S_{NN} \\
 \end{matrix} \right|
-=0.
+ = 0.
 \end{equation}
 
 \section{Full-potential linearized augmented plane wave method}
@@ -1330,7 +1350,7 @@ Sjöstedt, Nordström and Singh also give an efficient way to linearize Slater's
 The basis set is defined by Slater
 
 \begin{equation}\label{ap111}
-\phi^{APW}_{\textbf {k}+\textbf{G}} ({\textbf r})= 
+\phi^{APW}_{\textbf {k}+\textbf{G}} ({\textbf r}) = 
 \begin{cases} \frac {1}{\sqrt{\Omega}} e^{i({ \textbf {k}+\textbf{G}}) {\textbf r}} & \quad \mbox{if ${\textbf r} \in IR $} 
 \\
 \sumg<\alpha>\sum\limits_{{\ell}m} f_{{\ell}{m}} (r_{\alpha},{\textbf {k}+\textbf{G}}, E) Y_{{\ell}m}(\widehat{{\textbf r}}_{\alpha})  & \quad \mbox{if $ {\textbf r} \in MT, $}\\ 
@@ -1358,16 +1378,16 @@ of the dual representation.
 \end{figure}
 
 From the \textbf{Fig. \ref{ucuc}}, one notices that the unit cell is divided into muffin-tin spheres ($\alpha$, $\beta$) and an
-interstitial region (IR), and ${\textbf r={\textbf R^{\alpha}}+{\textbf r_{\alpha}}}$ is guaranteed. One can take use of the Rayleigh expansion formula
+interstitial region (IR), and ${\textbf r = {\textbf R^{\alpha}}+{\textbf r_{\alpha}}}$ is guaranteed. One can take use of the Rayleigh expansion formula
 
 \begin{equation}
-\expg<(\textbf {k}+\textbf{G})>= e^{i (\textbf {k}+\textbf{G}) \textbf{R}^{\alpha} } 4 \pi \sumlm<\ell><m> i^{\ell} \bessf< |\textbf{k}+\textbf{G}|> \sphfr<\ell{m}><r><> \sphfq<\ell{m}><\textbf{k}+\textbf{G}><*> .
+\expg<(\textbf {k}+\textbf{G})> = e^{i (\textbf {k}+\textbf{G}) \textbf{R}^{\alpha} } 4 \pi \sumlm<\ell><m> i^{\ell} \bessf< |\textbf{k}+\textbf{G}|> \sphfr<\ell{m}><r><> \sphfq<\ell{m}><\textbf{k}+\textbf{G}><*> .
 \end{equation}
   
 After matching those two representation, the following equation is satisfied for each ${\ell}m$
 
 \begin{equation}
-A _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G})= \frac{ e^{i (\textbf {k}+\textbf{G}) \textbf{R}^{\alpha} } 4 \pi \sumlm<\ell><m> i^{\ell} \bessf< |\textbf{k}+\textbf{G}|> \sphfq<\ell{m}><\textbf{k}+\textbf{G}><*> }{\sqrt{\Omega} u_{{\ell}}^{\alpha}(r_{\alpha}, E)}.
+A _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G}) = \frac{ e^{i (\textbf {k}+\textbf{G}) \textbf{R}^{\alpha} } 4 \pi \sumlm<\ell><m> i^{\ell} \bessf< |\textbf{k}+\textbf{G}|> \sphfq<\ell{m}><\textbf{k}+\textbf{G}><*> }{\sqrt{\Omega} u_{{\ell}}^{\alpha}(r_{\alpha}, E)}.
 \end{equation}
 
 There are one main drawbacks about the APW method. The wavefuntion is energy dependent, which means that
@@ -1406,7 +1426,7 @@ Comparing with LAPW method, Linearized augmented plane wave method plus local or
 
 
 \begin{equation}\label{lap5}
-\phi^{LO}_\textbf{k}+\textbf{G} (\textbf{r})= 
+\phi^{LO}_\textbf{k}+\textbf{G} (\textbf{r}) = 
 \begin{cases} 0 & \quad \mbox{if $\textbf{r} \in IR $}
 \\
 (A _{{\ell}m}^{\alpha}  u_{{\ell}}^{\alpha}(r_{\alpha}, E_{\ell}) + B _{{\ell}m}^{\alpha}  \dot{u}_{{\ell}}^{\alpha}(r_{\alpha}, E_{\ell}) + C _{{\ell}m}^{\alpha}  u_{{\ell}}^{\alpha}(r_{\alpha}, E^{\prime}_{\ell})){Y_{{\ell}m}(\hat{\textbf{r}}_{\alpha})} & \quad \mbox{if $\textbf{r} \in MT, $}\\ 
@@ -1422,7 +1442,7 @@ Actually, there is one more method which will deal with the energy-denpendent ca
 basis function has two kinds, one is similar with APW method, but only without the derivative terms, e.g., $f_{{\ell}{m}} (r_{\alpha},\textbf{k+G} ,E_{\ell}) =  A _{{\ell}m}^{\alpha} \textbf(k+G) u_{{\ell}}^{\alpha}(r_{\alpha}, E_{\ell})$.
 Another basis function is:
 \begin{equation}\label{lap6}
-\phi^{lo}_\textbf{k+G} (\textbf{r})= 
+\phi^{lo}_\textbf{k+G} (\textbf{r}) = 
 \begin{cases} 0 & \quad \mbox{if $\textbf{r} \in IR $}
 \\
 (A _{{\ell}m,lo}^{\alpha}  u_{{\ell}}^{\alpha}(r_{\alpha}, E_{\ell}) + B _{{\ell}m,lo}^{\alpha}  \dot{u}_{{\ell}}^{\alpha}(r_{\alpha}, E_{\ell}) ){Y_{{\ell}m}(\hat{\textbf{r}}_{\alpha})} & \quad \mbox{if $\textbf{r} \in MT. $}\\ 
@@ -1437,7 +1457,7 @@ however, it does increase the efficiency to linearize Slater's APW method.
 \label{epote}
 The potential in the FP-LAPW method is also divided into two regions, the MT region and the interstitial region.
 \begin{equation*}\label{lap7}
-V(\textbf{r})= 
+V(\textbf{r}) = 
 \begin{cases} \sumg<{\textbf G}> V_{\textbf G} e^{i {\textbf G} {\textbf {r}  }} & \quad \mbox{if $\textbf{r} \in IR $}
 \\
  \sum\limits_{{\ell}m} V_{{\ell}m}^{\alpha} (r_{\alpha}) Y_{{\ell}m}(\hat{{\textbf r}}_{\alpha})  & \quad \mbox{if $\textbf{r} \in MT. $}\\ 
