@@ -598,46 +598,46 @@ more Ga element in the CIGS materail. An overview properties of CIGS material is
 \begin{tabular}{l l l}  
 \toprule
 \toprule
-\rowcolor[gray]{0.7}
+%\rowcolor[gray]{0.7}
 \multicolumn{3}{c}{\large Properties of CuInSe\textsubscript{2} and CuGaSe\textsubscript{2}} \\  
 %\midrule
-\large Properties & \large CuInSe\textsubscript{2} & \large CuGaSe\textsubscript{2} \\ 
-& &  \\ 
+\cellcolor{blue!25} Properties & \cellcolor{blue!25} CuInSe\textsubscript{2} & \cellcolor{blue!25} CuGaSe\textsubscript{2} \\ 
 %\midrule
-\rowcolor[gray]{0.9}
+
 Space group & $D_{2d}^{12}$(I-42d), no. 122 & $D_{2d}^{12}$(I-42d), no. 122 \\ 
 %\midrule
+\rowcolor[gray]{0.9}
 Lattice constants (Å) & \textit{a} = \textit{b} = 5.78, \textit{c} = 11.55 & \textit{a} = \textit{b} = 5.61, \textit{c} = 11.00 \\ 
                       & \textit{a} = \textit{b} = 5.78\textsuperscript{d}, \textit{c} = 11.64\textsuperscript{d} & \textit{a} = \textit{b} = 5.61\textsuperscript{e}, \textit{c} = 11.02\textsuperscript{e} \\ 
 %\midrule
-\rowcolor[gray]{0.9}
 Wyckoff positions & Cu:4a, In:4b, Se:8d & Cu:4a, Ga:4b, Se:8d \\ 
 %\midrule
+\rowcolor[gray]{0.9}
 Direct band gap (eV) & Eg = 1.04 & Eg = 1.68 \\ 
 %\midrule
-\rowcolor[gray]{0.9}
 Effective masses on $\Gamma$ point (m\textsubscript{0}) & Electrons: 0.08& Electrons: 0.14\textsuperscript{b} \\ 
-\rowcolor[gray]{0.9}                                       & Holes(heavy): 0.72& Holes(heavy): 1.2\textsuperscript{c} \\ 
- \rowcolor[gray]{0.9}                                       & Electrons: 0.08\textsuperscript{a} & Electrons: 0.13\textsuperscript{a}\\
-\rowcolor[gray]{0.9}                                        & Holes(heavy): 0.23\textsuperscript{a} & Holes(heavy): 0.32\textsuperscript{a} \\ 
-%\midrule
-Main intrinsic defects & \textit{p}--type: V\textsubscript{Se}; In\textsubscript{Cu}&  \textit{n}--type: V\textsubscript{Se}; Ga\textsubscript{Cu}\\
-& \textit{p}--type:  V\textsubscript{Cu}; Cu\textsubscript{In} & \textit{p}--type: V\textsubscript{Cu}; Cu\textsubscript{Ga}  \\  
+                                      & Holes(heavy): 0.72& Holes(heavy): 1.2\textsuperscript{c} \\ 
+                                      & Electrons: 0.08\textsuperscript{a} & Electrons: 0.13\textsuperscript{a}\\
+                                     & Holes(heavy): 0.23\textsuperscript{a} & Holes(heavy): 0.32\textsuperscript{a} \\ 
 %\midrule
 \rowcolor[gray]{0.9}
+Main intrinsic defects & \textit{p}--type: V\textsubscript{Se}; In\textsubscript{Cu}&  \textit{n}--type: V\textsubscript{Se}; Ga\textsubscript{Cu}\\
+\rowcolor[gray]{0.9} & \textit{p}--type:  V\textsubscript{Cu}; Cu\textsubscript{In} & \textit{p}--type: V\textsubscript{Cu}; Cu\textsubscript{Ga}  \\  
+%\midrule
 Crystal field splitting $\Delta_{cf}$ (eV) [300K] & 0.006, 0.007\textsuperscript{a} & -0.09, -0.104\textsuperscript{a} \\ 
 %\midrule
+\rowcolor[gray]{0.9}
 Spin-orbit splitting $\Delta_{so}$ (eV) [77K] & 0.23, 0.193\textsuperscript{a} & 0.231, 0.210\textsuperscript{a} \\ 
 %\midrule
-\rowcolor[gray]{0.9}
 Dielectric constants $\varepsilon(0)$ & 13.6\textsuperscript{d},15.7\textsuperscript{d} & 11.0\textsuperscript{d}, 8.5\textsuperscript{d}\\
 %\midrule
+\rowcolor[gray]{0.9}
 Melting temperature (K)& 1259 & 1310 -- 1340\\
 %\midrule
-\rowcolor[gray]{0.9}
 Thermal expansion coefficients [300K] 1/K & a axis: 11.23$\times$10\textsuperscript{-6}& a axis: 13.1$\times$10\textsuperscript{-6}(landolt)\\
-\rowcolor[gray]{0.9} & c axis: 7.90$\times$10\textsuperscript{-6}&c axis: 5.2$\times$10\textsuperscript{-6} (landolt)\\ 
+& c axis: 7.90$\times$10\textsuperscript{-6}&c axis: 5.2$\times$10\textsuperscript{-6} (landolt)\\ 
 %\midrule
+\rowcolor[gray]{0.9}
 Thermal conductivity [273K] W/(cm*K)& 0.086 & 0.129 \\ 
 \bottomrule
 \end{tabular}
@@ -886,7 +886,7 @@ Before getting the final result, there is one more identity
 \end{split}\end{equation}
 
 
-Taking use of the above two \textbf{Eq. \ref{hartree1}}, \textbf{\ref{hartree3}} and variation in the term of  $\delta \phi^{*}_{i}(\textbf{r}{}) $, the \textbf{Eq. \ref{haa}} becomes
+Taking use of the above two \textbf{Eq. \ref{hartree1}}, and \textbf{Eq. \ref{hartree3}}, as well as variation in the term of  $\delta \phi^{*}_{i}(\textbf{r}{}) $, the \textbf{Eq. \ref{haa}} becomes
 
 \begin{equation}
 \begin{split}\label{hha}
@@ -897,7 +897,8 @@ Taking use of the above two \textbf{Eq. \ref{hartree1}}, \textbf{\ref{hartree3}}
 \end{split}
 \end{equation}
 
-Therefore,
+Therefore
+
 \begin{equation}\label{hha1}
 (-\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r})+ \suminj<j><i> <\bwfn<j><'>\ | \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwfn<j><'>>) \bwf<i><> = E^{i}_{H} \bwf<i><>,
 \end{equation}
@@ -915,7 +916,7 @@ antisymmetry of the wavefunction. It means that if the positions of two electron
 
 Slater introduced an way to construct the wavefunction due to the \textbf{Eq. \ref{hfwf}} based on the Hartree approximation, 
 the wavefunction of the many-electron Schrödinger equation is described in a matrix determinant for the N number of electrons 
-(without spin):
+(without spin)
 
 \begin{equation}\label{hfwfm}
 \Psi_{HF}(\mathbf{r}_1, \mathbf{r}_2, \ldots, \mathbf{r}_N) =
@@ -930,7 +931,7 @@ the wavefunction of the many-electron Schrödinger equation is described in a ma
 \noindent where $i$ goes through all the electron, and $\bwf<i><i>$ means state of the ($i$)-th electron in the position of $\textbf{r}_\textit{i}$. If two columns in the \textbf{Eq. \ref{hfwfm}} are exchanged, 
 the result is satisfied with the \textbf{Eq. \ref{hfwf}}.
 
-Repeating all the processes already done through the Hartree approximation, the total energy of Hartree-Fock is:
+Repeating all the processes already done through the Hartree approximation, the total energy of Hartree-Fock is
 
 \begin{equation}\begin{split}
 &E_\textit{HF} = \sumi<i> <\bwf<i><> |\ -\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r})  \ | \bwf<i><> > \\
@@ -996,7 +997,7 @@ density, therefore the electron density contains the same information as the wav
 The proof of the theorem is given. Let us assume that there exsits two external potentials named $V^{1}_\textit{ext}(\textbf{r})$ and $V^{2}_\textit{ext}(\textbf{r})$ leading to the same ground state 
 electron density $\rho$. Obviously, this will lead to two different Hamiltonians, that is, $\hat{H}_{1}$ and $\hat{H}_{2}$, and as well as two different corresponding
 wavefunctions named $\Psi_1$ and $\Psi_2$. Since $\Psi_1$ are not the ground state wavefunction of $\hat{H}_{2}$, the same rules to $\Psi_2$ and $\hat{H}_{1}$, two following
-inequality equations will be satisfied:
+inequality equations will be satisfied
 
 \begin{equation}\label{hkpf1}\begin{split}
 &  E_1 = \langle \Psi_1\ |\hat{H}_{1}|\ \Psi_1 \rangle  \ < \  \langle \Psi_2\ |\hat{H}_{1}|\ \Psi_2 \rangle.\\
@@ -1035,7 +1036,7 @@ Thereby, The external potential $V_\textit{ext}(\textbf{r})$ is unique.
 and the exact ground state density is gained when the ground state total energy functional reaches its minimal value, that is, E[$\rho'$]>E[$\rho$], where $\rho$ is the exact ground state density.
 \end{thm}
 
-The proof of theorem is given. Because of the first theorem, the total energy can be expressed in the following way (ignoring the interaction between nuclei):
+The proof of theorem is given. Because of the first theorem, the total energy can be expressed in the following way (ignoring the interaction between nuclei)
 \begin{equation}\label{hkpf5}\begin{split}
 & E[\rho] \ = \langle \Psi  | \ \hat{T} \ + \ \hat{V}_\textit{int}  \ + \ \hat{V}_\textit{ext} \ | \Psi \rangle \\
 &     = \langle \Psi  | \ \hat{V}_\textit{ext} \ | \Psi \rangle  + \underbrace{\langle \Psi  | \ \hat{T} \ + \ \hat{V}_\textit{int}  \ \ | \Psi \rangle}  \\
@@ -1045,7 +1046,7 @@ The proof of theorem is given. Because of the first theorem, the total energy ca
 
 In the above \textbf{Eq. \ref{hkpf5}}, the term of $F[\rho]$ is the universal functional for all the system of electrons.
 
-The functional of total energy $E[\rho']$ reach the minimum at the exact ground state electron density $\rho$:
+The functional of total energy $E[\rho']$ reach the minimum at the exact ground state electron density $\rho$
 \begin{equation}\begin{split}
  & E[\rho'] \ =   \ \int \rho'(\textbf{r}) V_\textit{ext}  + \  F[\rho'] > E[\rho]. 
 \end{split}
@@ -1069,13 +1070,13 @@ Therefore, is it possbile to combine these two ideas together? the answer is yes
 which is constructed in the following text (ignoring the interaction between nuclei).
 
 Assume that the exact ground-state density is obtained by the wavefunction $\wfks = \bwf<1><1> \bwf<2><2> \cdots \bwf<M><M>$, where M is a number which is 
-less than $10^{23}$ a lot and $\bwf<i><i>$ is auxiliary independent single-electron wavefuntion:
+less than $10^{23}$ a lot and $\bwf<i><i>$ is auxiliary independent single-electron wavefuntion
 
 \begin{equation}\label{ks1}
  \rho(\textbf{r}) = \sumi<i> {\phi^{*}_{i}(\textbf{r})} {\phi_{i}(\textbf{r})}.
 \end{equation}
 
-If the density is exact, thereby, the total energy is defined exactly, which can be expressed by the following:
+If the density is exact, thereby, the total energy is defined exactly, which can be expressed by the following
 
 \begin{equation}\label{kse}
 \begin{split}
@@ -1089,7 +1090,7 @@ where $E[\rho]$  is the total energy, $\rho$ is the ground state density. $T[\rh
 and the exact electron-electron potential energy. $T_{0}[\rho]$ is the kinetic energy of independent electrons, $V_\textit{HF}[\rho]$ is the potential from the Hartree-Fock approximation and $V_\textit{C}[\rho]$
 denotes correlation energy.
 
-From the Hartree-Fock approximation, one can further know that:
+From the Hartree-Fock approximation, one can further know that
 \begin{equation}
  V_\textit{HF}[\rho] \ = \ V_\textit{H}[\rho] \ + \ V_\textit{X}[\rho], 
 \end{equation}
@@ -1139,7 +1140,7 @@ There is no total energy equation expression yet, however, if one can change the
 \sumi<i> \phi^{*}_{\textit{i}}(\textbf{r})(-\frac{\nabla^{2}_{i}}{2}\ + \ V_\textit{KS})(\textbf{r}) \phi_{\textit{i}}(\textbf{r}) = \sumi<i> \phi^{*}_{\textit{i}}E_{\textit{ks}}^{\textit{i}} \phi_{\textit{i}}(\textbf{r}).
 \end{equation}
 
-Based on \textbf{Eq. \ref{ccc}} and \textbf{\ref{bbb}}, the total energy expression is:
+Based on \textbf{Eq. \ref{ccc}} and \textbf{\ref{bbb}}, the total energy expression is
 \begin{equation}\label{totalenergy}
 \begin{split}
 & E= \sumi<i> E_{\textit{ks}}^{\textit{i}} - \ \frac{1}{2} \int \int \mathrm{d} {\textbf{r}} \mathrm{d}{\textbf{r}^{\prime}} \frac{\rho({\textbf{r}})\rho(\textbf{r}^{\prime})}{|{\textbf{r}}-{\textbf{r}}^{\prime}|} \\
@@ -1158,7 +1159,7 @@ $\textbf{The local density approximation}$
 
 The local density approximation is the simplest way to approximate the exchange-correlation part. The idea is that the value 
 of the exchange-correlation energy in the very tiny small volume is equal to the homogeneous electrons with the same density in 
-the volume, the explicit equation is: 
+the volume, the explicit equation is
 
 \begin{equation}
  E^\textit{LDA}_\textit{xc} = \int \rho(\textbf{r}) \varepsilon_\textit{xc}( (\rho(\textbf{r})) ) \mathrm{d} \textbf{r}, 
@@ -1167,7 +1168,7 @@ the volume, the explicit equation is:
 where $ E^\textit{LDA}_\textit{xc} $ is the exchange-correlation energy functional for the $LDA$, $\rho(\textbf{r})$ is the charge density in the position of $\textbf{r}$, $\varepsilon_\textit{xc}$ is homogeneous 
 electrons gas with variable of  $\rho(\textbf{r})$ .
 
-The $\varepsilon_\textit{xc}$ is an ideal state within a solid, which assumes that the charge is homogeneously all over the space:
+The $\varepsilon_\textit{xc}$ is an ideal state within a solid, which assumes that the charge is homogeneously all over the space
 
 \begin{equation}
  \rho(\textbf{r}) = \rho = \frac{N}{V},
@@ -1179,7 +1180,7 @@ where $N$ is number of electrons within the solid, and $V$ is the volume of soli
 $\textbf{The generalized gradient approximation}$
 
 The GGA is the approximation beyond the LDA, which incorporates not only the density within the tiny volume, but also the gradient
- of the density, the explicit equation is:
+ of the density, the explicit equation is
 
 \begin{equation}
 E_{\textit{GGA}}^{\textit{xc}}\ = \ \int \rho(\textbf{r}) \varepsilon_\textit{xc}( (\rho(\textbf{r})), \nabla \rho(\textbf{r}) ) \mathrm{d} \textbf{r}, 
@@ -1325,39 +1326,45 @@ Apparently, the \textbf{Eq. \ref{ep44}} is an eigenvale problem. In order to get
 \subsection{Introduction}
 
 So far, one already know how to solve the Kohn-Sham equation, however, there are still two more questions, what is the exact form of 
-wavefunction and potential in the realistic calculation?  
+wavefunction and potential in the realistic calculations?  
 
-One maybe naturally choose a set of plane waves as the wavefunction because of Bloch theory. There is a drawback about the plane wave 
+One maybe naturally choose a set of plane waves as the wavefunction because of Bloch theory. There is a drawback about the plane waves 
 when describing the atomic core region, because the wavefunction change dramatically in that region, therefore one needs to choose more plane
 waves to define it, which means it will take more time to calculate.
 
-Slater re-considered the way to describe the wavefunction, the unit cell is splitted into two regions, one is the sphere region which is
-defined by the center of atom, but non-overlap each sphere, called muffin tin (MT) region, the remaining region is called interstitial 
-region (IR) (\textbf{Fig. \ref{ucuc}}). An atomic-like function is defined as the wavefunction in the MT region, this is reason why the method is called augmented plane wave (APW).
+Slater re-considered the way to describe the wavefunction (\textbf{Eq. \ref{wavefunctions}}). The unit cell is splitted into two regions: one is the sphere region which is
+defined by the center of atom, but non-overlap each sphere, called muffin tin (MT) region, the remaining region is called interstitial (\textit{I})
+region (\textbf{Fig. \ref{ucuc}}). An atomic-like function is defined as the wavefunction in the MT region, this is reason why the method is called augmented plane wave (APW).
 The dual representation of the wavefunction is reasonable, because the wavefunction approaching atomic core is somehow like inside atom, but far away the atomic core, the electron behaves like free electrons,
 therefore plane wave is suitable (\textbf{Eq. \ref{ap111}}). However, the drawback of APW method is the wavefunction is dependent with the energy, which leads to the 
 nonlinear eigenvalue problem (\textbf{Eq. \ref{ap2}}), in order to get the exact energy, the method has to decide repeatedly until certain condition is satisfied,
 which is really time-consumming.
 
 In order to find a way out, is it possible to let the wavefunction energy-independent? Andesen, Koelling and Arbman proposed a way to describe that,
-they noticed that the taylor expansion of radial function (\textbf{Eq. \ref{ap3}}), and then make use of it to linearize the APW method, thereby the method is called linearized augmented plane wave (LAPW)
+they noticed that the taylor expansion of radial function (\textbf{Eq. \ref{ap3}}), making use of it to linearize the APW method, thereby the method is called linearized augmented plane wave (LAPW)
 method. However, the drawback is that this method does not describe the semicore state well, it is corrected by a method named linearized augmented plane wave plus local orbitals (LAPW+LO) which is proposed by Singh (\textbf{Eq. \ref{lap5}}).
 Sjöstedt, Nordström and Singh also give an efficient way to linearize Slater's APW method, named augmented plane wave plus local orbitals (APW+lo) (\textbf{Eq. \ref{lap6}}). 
 
 \subsection{Wavefunction}
 \subsubsection{Augmented plane wave method}
 
+The KS wavefunction is defined as 
+
+\begin{equation}\label{wavefunctions}
+ \psi_{i,\textbf{k}}(\textbf{r})=\sumg<\textbf{G}> C_{i,\textbf{k}+\textbf{G}}\phi^{APW}_{\textbf {k}+\textbf{G}} ({\textbf r})
+\end{equation}
+
 The basis set is defined by Slater
 
 \begin{equation}\label{ap111}
 \phi^{APW}_{\textbf {k}+\textbf{G}} ({\textbf r}) = 
-\begin{cases} \frac {1}{\sqrt{\Omega}} e^{i({ \textbf {k}+\textbf{G}}) {\textbf r}} & \quad \mbox{if ${\textbf r} \in IR $} 
+\begin{cases} \frac {1}{\sqrt{\Omega}} e^{i({ \textbf {k}+\textbf{G}}) {\textbf r}} & \quad \mbox{if ${\textbf r} \in I $} 
 \\
-\sumg<\alpha>\sum\limits_{{\ell}m} f_{{\ell}{m}} (r_{\alpha},{\textbf {k}+\textbf{G}}, E) Y_{{\ell}m}(\widehat{{\textbf r}}_{\alpha})  & \quad \mbox{if $ {\textbf r} \in MT, $}\\ 
+\sumg<\alpha>\sum\limits_{{\ell}m} f_{{\ell}{m}} (r_{\alpha},{\textbf {k}+\textbf{G}}, E) Y_{{\ell}m}(\widehat{{\textbf r}}_{\alpha})  & \quad \mbox{if $ r_{\alpha} \in MT, $}\\ 
 \end{cases}
 \end{equation}
 
-where $f_{{\ell}{m}} (r_{\alpha},\textbf{k}+\textbf{G} ,E) =  A _{{\ell}m}^{\alpha} ( \textbf {k}+\textbf{G}) u_{{\ell}}^{\alpha}(r_{\alpha}, E)$, and $A _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G}) $ is the expansion coefficients, and $u_{{\ell}}^{\alpha} (r_{\alpha}, E)$  is the radial function, which is dependent with energy $E$, and the
+where $f_{{\ell}{m}} (r_{\alpha},\textbf{k}+\textbf{G} ,E) =  A _{{\ell}m}^{\alpha} ( \textbf {k}+\textbf{G}) u_{{\ell}}(r_{\alpha}, E)$, and $A _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G}) $ is the expansion coefficients, and $u_{{\ell}} (r_{\alpha}, E)$  is the radial function, which is dependent with energy $E$, and the
 radial function could be decided by the following equation
 
 \begin{equation}\label{ap2}
@@ -1377,11 +1384,11 @@ of the dual representation.
 \end{center}
 \end{figure}
 
-From the \textbf{Fig. \ref{ucuc}}, one notices that the unit cell is divided into muffin-tin spheres ($\alpha$, $\beta$) and an
-interstitial region (IR), and ${\textbf r = {\textbf R^{\alpha}}+{\textbf r_{\alpha}}}$ is guaranteed. One can take use of the Rayleigh expansion formula
+From the \textbf{Fig. \ref{ucuc}}, one notices that the unit cell is divided into MT spheres ($\alpha$, $\beta$) and an
+(\textit{I}) region, and ${\textbf r = {\textbf R_{\alpha}}+{\textbf r_{\alpha}}}$ is guaranteed. The Rayleigh expansion formula yields
 
 \begin{equation}
-\expg<(\textbf {k}+\textbf{G})> = e^{i (\textbf {k}+\textbf{G}) \textbf{R}^{\alpha} } 4 \pi \sumlm<\ell><m> i^{\ell} \bessf< |\textbf{k}+\textbf{G}|> \sphfr<\ell{m}><r><> \sphfq<\ell{m}><\textbf{k}+\textbf{G}><*> .
+\expg<(\textbf {k}+\textbf{G})> = e^{i (\textbf {k}+\textbf{G}) \textbf{R}_{\alpha} } 4 \pi \sumlm<\ell><m> i^{\ell} \bessf< |\textbf{k}+\textbf{G}|> \sphfr<\ell{m}><r><> \sphfq<\ell{m}><\textbf{k}+\textbf{G}><*> .
 \end{equation}
   
 After matching those two representation, the following equation is satisfied for each ${\ell}m$
@@ -1390,7 +1397,7 @@ After matching those two representation, the following equation is satisfied for
 A _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G}) = \frac{ e^{i (\textbf {k}+\textbf{G}) \textbf{R}^{\alpha} } 4 \pi \sumlm<\ell><m> i^{\ell} \bessf< |\textbf{k}+\textbf{G}|> \sphfq<\ell{m}><\textbf{k}+\textbf{G}><*> }{\sqrt{\Omega} u_{{\ell}}^{\alpha}(r_{\alpha}, E)}.
 \end{equation}
 
-There are one main drawbacks about the APW method. The wavefuntion is energy dependent, which means that
+The main drawbacks about the APW method is that the wavefuntion is energy dependent. It means that
  the code will search for the energy in order to calculate the exact energy. Therefore it 
 is really time consuming. 
 
@@ -1399,30 +1406,30 @@ is really time consuming.
 on certain energy, which can be given as
 
 \begin{equation}\label{ap3}
- u_{{\ell}}^{\alpha}(r_{\alpha}, E) = u_{{\ell}}^{\alpha}(r_{\alpha}, E_{\ell}) + (E-E_{\ell}) \dot{u}_{{\ell}}^{\alpha}(r_{\alpha}, E_{\ell}) + O((E-E_{\ell})^2).
+ u_{{\ell}}(r_{\alpha}, E) = u_{{\ell}}(r_{\alpha}, E_{\ell}) + (E-E_{\ell}) \dot{u}_{{\ell}}(r_{\alpha}, E_{\ell}) + O((E-E_{\ell})^2).
 \end{equation}
 
 Therefore the wavefuntion is re-defined as 
 
 \begin{equation}\label{lap4}
 \phi^{LAPW}_\textbf{k+G} (\textbf{r})= 
-\begin{cases} \frac {1}{\sqrt{\Omega}} e^{i(\textbf{k+G})\textbf{r}} & \quad \mbox{if $\textbf{r} \in IR $}
+\begin{cases} \frac {1}{\sqrt{\Omega}} e^{i(\textbf{k+G})\textbf{r}} & \quad \mbox{if $\textbf{r} \in \textit{I} $}
 \\
-\sumg<\alpha>\sum\limits_{{\ell}m} f_{{\ell}{m}} (r_{\alpha},\textbf{k+G}, E_{\ell}) Y_{{\ell}m}(\hat{\textbf{r}}_{\alpha})  & \quad \mbox{if $\textbf{r} \in MT, $}\\ 
+\sumg<\alpha>\sum\limits_{{\ell}m} f_{{\ell}{m}} (r_{\alpha},\textbf{k+G}, E_{\ell}) Y_{{\ell}m}(\hat{\textbf{r}}_{\alpha})  & \quad \mbox{if $r_{\alpha} \in MT, $}\\ 
 \end{cases}
 \end{equation}
 
-where $f_{{\ell}{m}} (r_{\alpha},\textbf{k}+\textbf{G} ,E_{\ell}) =  A _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G}) u_{{\ell}}^{\alpha}(r_{\alpha}, E_{\ell}) + B _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G}) \dot{u}_{{\ell}}^{\alpha}(r_{\alpha}, E_{\ell})$
-. $A _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G})$ and $B _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G})$ are the expansion coefficients, and $\dot{u}_{{\ell}}^{\alpha}(r_{\alpha}, E_{\ell} )$ is the derivative of the radial function.
+where $f_{{\ell}{m}} (r_{\alpha},\textbf{k}+\textbf{G} ,E_{\ell}) =  A _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G}) u_{{\ell}}(r_{\alpha}, E_{\ell}) + B _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G}) \dot{u}_{{\ell}}(r_{\alpha}, E_{\ell})$
+. $A _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G})$ and $B _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G})$ are the expansion coefficients, and $\dot{u}_{{\ell}}(r_{\alpha}, E_{\ell} )$ is the derivative of the radial function.
 
-Here energy $E_{\ell}$  is considered as pre-calculated parameter, actually, it is chosen by the middle of  each $\ell$-character band, therefore this method is called linearized augmented plane wave (LAPW) method.
+Energy $E_{\ell}$  is considered as pre-calculated parameter in \textbf{Eq. \ref{lap4}}, actually, it is chosen by the middle of  each $\ell$-character band, therefore this method is called linearized augmented plane wave (LAPW) method.
 
 Apparently, LAPW method is more suitable in reality, because the wavefunction is decoupled with energy, but it has to match for two parameters,
 fortunately, even though, it still use less time comparing with APW method. However, there is one drawback about this method, what if energy difference is bigger enough in the same $ {\ell} $ charater, 
 which $E_{\ell}$ is correct one? Therefore this situation could be a big error, these states are called as semi-core state, for example, it exists in the actinides and the rare earths.
 
 \subsubsection{Linearized augmented plane wave method plus local orbitals}
-Comparing with LAPW method, Linearized augmented plane wave method plus local orbitals (LAPW+LO) method extend the basis set, and add smaller number of basis set, which has the following format:
+Comparing with LAPW method, Linearized augmented plane wave method plus local orbitals (LAPW+LO) method extend the basis set, and add smaller number of basis set, which has the following format
 
 
 \begin{equation}\label{lap5}
@@ -1440,7 +1447,8 @@ the chosen energy from semi-core state.
 
 Actually, there is one more method which will deal with the energy-denpendent case, which is called as augmented plane wave method plus local orbitals (APW+lo), the 
 basis function has two kinds, one is similar with APW method, but only without the derivative terms, e.g., $f_{{\ell}{m}} (r_{\alpha},\textbf{k+G} ,E_{\ell}) =  A _{{\ell}m}^{\alpha} \textbf(k+G) u_{{\ell}}^{\alpha}(r_{\alpha}, E_{\ell})$.
-Another basis function is:
+Another basis function is
+
 \begin{equation}\label{lap6}
 \phi^{lo}_\textbf{k+G} (\textbf{r}) = 
 \begin{cases} 0 & \quad \mbox{if $\textbf{r} \in IR $}
