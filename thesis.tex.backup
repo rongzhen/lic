@@ -48,10 +48,10 @@
 \def\hath{\hat{H}}
 \def\wf {\Psi(\{ {\textbf r}_{\textit i}, {\textbf R}_{\textit I} \})}
 \def\wfbo{\Psi_{{\textit BO}}({{\textbf r}_{{\textit i}}},{\textbf R} )}
-\def\wfh{\Psi_{{\textit H}}(\{ {\textbf r}_{{\textit i}}\})}
-\def\wfks{\Psi_{{\textit KS}}(\{ {\textbf r}_{{\textit i}}\})}
+\def\wfh{\Psi^{{\textit H}}(\{ {\textbf r}_{{\textit i}}\})}
+\def\wfks{\Psi^{{\textit KS}}(\{ {\textbf r}_{{\textit i}}\})}
 \def\wfhit<#1>{\Psi_{{\textit H}}^{#1}({{\textbf r}_{{\textit i}}})}
-\def\bwf<#1><#2>{\phi_{#1}({\textbf r}_{#2})}
+\def\bwf<#1><#2>{\Psi_{#1}^{KS}({\textbf r}_{#2})}
 \def\bwfn<#1><#2>{\phi_{#1}({\textbf r}{#2})}
 \def\wfbloch<#1><#2>{\Psi_{#1,#2}({\textbf r})}
 \def\ubloch<#1><#2>{u_{#1,#2}({\textbf r})}
@@ -748,7 +748,7 @@ some positions and that of the other electrons.
 The separation of motion between electrons and nuclei is called the Born-Oppenheimer approximation. Since the position of nuclei is fixed, wavefunction can be written as
 
 \begin{equation}\label{nwf}
-{\wf}  {\approx}  {\Psi_{ \textit{BO}} ( \{ {\textbf{r}_{\textit{i}}},\textbf{R}_{\textit I} \}) } = {\theta(\{{\textbf R}_{\textit I}\})} {\Psi'(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})},
+{\wf}  {\approx}  {\Psi^{ \textit{BO}} ( \{ {\textbf{r}_{\textit{i}}},\textbf{R}_{\textit I} \}) } = {\theta(\{{\textbf R}_{\textit I}\})} {\Psi'(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})},
 \end{equation}
 
 where ${\Psi'(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})}$  is the electrons wavefunction in the Born-Oppenheimer approximation, the semicolon means that $\textbf R_I$ is only discrete value belonging to the set of atomic positions. 
@@ -756,13 +756,13 @@ where ${\Psi'(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})}$  is the
 The \textbf{Eq. \ref{sth}} can be defined as
 
 \begin{equation}\label{nh}
- {\hath} = - \sumi<I> \frac{{{\nabla}_{\textit{I}}^{2}}}{2 M_\textit{I}} + {\hath}_{BO}.
+ {\hath} = - \sumi<I> \frac{{{\nabla}_{\textit{I}}^{2}}}{2 M_\textit{I}} + {\hath}^{BO}.
 \end{equation}
 
 where 
 
 \begin{equation}\label{both}\begin{split}
-&{\hath}_\textit{BO}\ =\ - \sumi<i>   \frac{{{\nabla}_{\textit{i}}^{2}}}{2}  - \sumi<i> V_{ext}(\textbf{r}_{\textit{i}})  + \frac{1}{2} \suminj<i><j> \frac{1}{ |\textbf{r}_\textit{i}-\textbf{r}_\textit{j}|} + \frac{1}{2} \suminj<I><J> \frac{Z_\textit{I} Z_\textit{J}\ }{|\textbf{R}_\textit{I}-\textbf{R}_\textit{J}|} \\
+&{\hath}^\textit{BO}\ =\ - \sumi<i>   \frac{{{\nabla}_{\textit{i}}^{2}}}{2}  - \sumi<i> V_{ext}(\textbf{r}_{\textit{i}})  + \frac{1}{2} \suminj<i><j> \frac{1}{ |\textbf{r}_\textit{i}-\textbf{r}_\textit{j}|} + \frac{1}{2} \suminj<I><J> \frac{Z_\textit{I} Z_\textit{J}\ }{|\textbf{R}_\textit{I}-\textbf{R}_\textit{J}|} \\
 &\ = \ \hat{T} \ + \ \hat{V}_{ext} \ + \ \hat{V}_\textit{int}\ + \ N_\textit{II},
 \end{split}\end{equation}
 
@@ -772,24 +772,24 @@ and
 V_{ext}(\textbf{r}_{\textit{i}}) =  \sumi<I> \frac{Z_\textit{I}}{|\textbf{r}_\textit{i}-\textbf{R}_\textit{I}|},
 \end{equation}
 
-where ${\hath}_\textit{BO}$  is the Hamitonian for the electrons within the Born-Oppenheimer approximation. The subscript $ext$ means $external$ in \textbf{Eq. \ref{vext}}, this term describes the external potentials interaction. 
+where ${\hath}^\textit{BO}$  is the Hamitonian for the electrons within the Born-Oppenheimer approximation. The subscript $ext$ means $external$ in \textbf{Eq. \ref{vext}}, this term describes the external potentials interaction. 
 
 Thereby, the new Schrödinger equation combined with \textbf{Eq. \ref{nwf}} and \textbf{Eq. \ref{nh}} is 
 
 \begin{equation}
- (- \sumi<I> \frac{{{\nabla}_{\textit{I}}^{2}}}{2 M_\textit{I}} + {\hath}_{BO} ) ({\theta(\{{\textbf R}_{\textit I}\})} {\Psi'(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})}) = E_{m}(\{{\textbf R_I}\}) ({\theta(\{{\textbf R}_{\textit I}\})} {\Psi'(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})}),
+ (- \sumi<I> \frac{{{\nabla}_{\textit{I}}^{2}}}{2 M_\textit{I}} + {\hath}^{BO} ) ({\theta(\{{\textbf R}_{\textit I}\})} {\Psi'(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})}) = E(\{{\textbf R_I}\}) ({\theta(\{{\textbf R}_{\textit I}\})} {\Psi'(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})}),
 \end{equation}
  
-\noindent where, $E_{m}(\{{\textbf R_I}\})$ is the total energy. One can end up with the following equation using \textbf{Eq. \ref{nh}} and \textbf{Eq. \ref{both}}
+\noindent where, $E(\{{\textbf R_I}\})$ is the total energy. One can end up with the following equation using \textbf{Eq. \ref{nh}} and \textbf{Eq. \ref{both}}
 
 \begin{equation}\label{bose}
-{\hath}_{BO} {\Psi'(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})} = E_\textit{BO}{(\{\textbf{R}_{\textit I}\})} {\Psi'(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})},
+{\hath}^{BO} {\Psi'(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})} = E^\textit{BO}{(\{\textbf{R}_{\textit I}\})} {\Psi'(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})},
 \end{equation}
 
-\noindent where $E_\textit{BO}{(\{\textbf{R}_{\textit I}\})}$ is the energy of this electronic system,
+\noindent where $E^\textit{BO}{(\{\textbf{R}_{\textit I}\})}$ is the energy of this electronic system,
 
 \begin{equation}\label{ise}
-( \hat{H}_{I1}+\hat{H}_{I2}+\hat{H}_{I3}+E_{BO}(\{{\textbf R}_{\textit I}\}) ) {\theta(\{\textbf{R}_{\textit I}\})} = E_{m}(\{{\textbf R_I}\}) {\theta(\{\textbf{R}_{\textit I}\})},
+( \hat{H}_{I1}+\hat{H}_{I2}+\hat{H}_{I3}+E^{BO}(\{{\textbf R}_{\textit I}\}) ) {\theta(\{\textbf{R}_{\textit I}\})} = E(\{{\textbf R_I}\}) {\theta(\{\textbf{R}_{\textit I}\})},
 \end{equation}
 
 where
@@ -801,7 +801,7 @@ where
 \end{split}\end{equation}
 
 From \textbf{Eq. \ref{ise}}, one observes that the lattice dynamical properties of certain system within the Born-Oppenheimer approximation can be obtained. To solve this equation,
-the ground state energy $E_{BO}(\{{{\textbf R}_{\textit I}}\})$ of electron system is needed. Here, $\{{\textbf R}_{\textit I}\}$ are the parameterized values from the atom position.
+the ground state energy $E^{BO}(\{{{\textbf R}_{\textit I}}\})$ of electron system is needed. Here, $\{{\textbf R}_{\textit I}\}$ are the parameterized values from the atom position.
  
 In summary, the Schrödinger equation of electron and nucleus is derived seperately within the Born-Oppenheimer approximation. When one refers to calculations of the ground state properties,
 which means to take use of the Schrödinger equation of electron only, e.g., \textbf{Eq. \ref{bose}}, and Schrödinger equation of nucleus is used for the calculation of lattice dynamics.
@@ -833,20 +833,20 @@ from here and following the $\textbf R$ is suppressed in the wavefunction since 
 in the following way
 
 \begin{equation}\label{teh}
-E_{\textit{H}} = <\wfh |\ {\hath}_{\textit{BO}} \ | \wfh  >.
+E^{\textit{H}} = <\wfh |\ {\hath}^{\textit{BO}} \ | \wfh  >.
 \end{equation}
 
 Therefore, making the substitution using \textbf{Eq. \ref{both}} and \textbf{Eq. \ref{wfh}} into \textbf{Eq. \ref{teh}}, the total energy of system is
 \begin{equation}\begin{split}
-&E_\textit{H} = \sumi<i> <\bwf<i><> |\ -\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r})  \ | \bwf<i><> > \\
+&E^\textit{H} = \sumi<i> <\bwf<i><> |\ -\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r})  \ | \bwf<i><> > \\
 & +\frac{1}{2} \suminj<i><j> <\bwf<i><> \bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwf<i><> \bwfn<j><'>>.
 \end{split}\end{equation}
 
 In order to calculate the stationary state with the lowest energy of the system, the variation of the wavefunction should be
-zero variation in the energy, one can set up the following equation with Lagrange multiplier $E^{i}_H$,
+zero variation in the energy, one can set up the following equation with Lagrange multiplier $E_{i}^H$,
 
 \begin{equation}\label{haa}
- \delta [ E_{\textit{H}} - \sumi<i> E^{i}_{H} (<\bwf<i><> | \bwf<i><> > -1)] = 0. 
+ \delta [ E^{\textit{H}} - \sumi<i> E_{i}^{H} (<\bwf<i><> | \bwf<i><> > -1)] = 0. 
 \end{equation}
 
 where $(<\bwf<i><> | \bwf<i><> > -1)$ means that the wavefunction is normalized.
@@ -890,20 +890,20 @@ Taking use of the above two \textbf{Eq. \ref{hartree1}}, and \textbf{Eq. \ref{ha
 
 \begin{equation}
 \begin{split}\label{hha}
-& \frac{1}{\delta  \phi^{*}_{i}(\textbf{r}{})} \delta [ E_{\textit{H}} - \sumi<i> E^{i}_{H} (<\bwf<i><> | \bwf<i><> > -1)] \\
+& \frac{1}{\delta  \phi^{*}_{i}(\textbf{r}{})} \delta [ E^{\textit{H}} - \sumi<i> E_{i}^{H} (<\bwf<i><> | \bwf<i><> > -1)] \\
 &  = \frac{1}{\delta  \phi^{*}_{i}(\textbf{r}{})} \{ \sumi<i> \{ < \delta \bwf<i><> |\ -\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r})  \ | \bwf<i><> > + <  \delta \bwf<i><> |\ -\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r})  \ |  \bwf<i><> >^{\ast} \} \\
-& +  \suminj<i><j> \{  <\delta \bwf<i><> \bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwf<i><> \bwfn<j><'>> + \frac{T_{rem}}{2}\} - \sumi<i> E^{i}_{H} (<\bwf<i><> | \bwf<i><> > -1) \} \\
-& =  { \{-\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r})} \}  \bwf<i><> +  \suminj<j><i> \{  <\bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwf<i><> \bwfn<j><'>> - E^{i}_{H}  \bwf<i><>  \}.
+& +  \suminj<i><j> \{  <\delta \bwf<i><> \bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwf<i><> \bwfn<j><'>> + \frac{T_{rem}}{2}\} - \sumi<i> E_{i}^{H} (<\bwf<i><> | \bwf<i><> > -1) \} \\
+& =  { \{-\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r})} \}  \bwf<i><> +  \suminj<j><i> \{  <\bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwf<i><> \bwfn<j><'>> - E_{i}^{H}  \bwf<i><>  \}.
 \end{split}
 \end{equation}
 
 Therefore
 
 \begin{equation}\label{hha1}
-(-\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r})+ \suminj<j><i> <\bwfn<j><'>\ | \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwfn<j><'>>) \bwf<i><> = E^{i}_{H} \bwf<i><>,
+(-\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r})+ \suminj<j><i> <\bwfn<j><'>\ | \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwfn<j><'>>) \bwf<i><> = E_{i}^{H} \bwf<i><>,
 \end{equation}
 
-where $E^{i}_{H}$  also can be treated as the energy. The \textbf{Eq. \ref{hha1}} is a group of dependent single
+where $E_{i}^{H}$  also can be treated as the energy. The \textbf{Eq. \ref{hha1}} is a group of dependent single
  particle equations. One will find out this equation is self-consistent and can be solved using iteratively.
 
 \subsubsection{Hartree-Fock approximation}
@@ -911,7 +911,7 @@ Hartree approximation is the simplest approximation, and Hartree-Fock approximat
 antisymmetry of the wavefunction. It means that if the positions of two electrons (with same spin) are exchanged, the wavefunction should change the sign, like:
 
 \begin{equation}\label{hfwf}
-\Psi_\textit{HF} ( \cdots \textbf{r}_\textit{i} \cdots  \textbf{r}_\textit{j} ) = - \Psi_\textit{HF} ( \cdots \textbf{r}_\textit{j} \cdots  \textbf{r}_\textit{i} ).
+\Psi^\textit{HF} ( \cdots \textbf{r}_\textit{i} \cdots  \textbf{r}_\textit{j} ) = - \Psi^\textit{HF} ( \cdots \textbf{r}_\textit{j} \cdots  \textbf{r}_\textit{i} ).
 \end{equation}
 
 Slater introduced an way to construct the wavefunction due to the \textbf{Eq. \ref{hfwf}} based on the Hartree approximation, 
@@ -919,7 +919,7 @@ the wavefunction of the many-electron Schrödinger equation is described in a ma
 (without spin)
 
 \begin{equation}\label{hfwfm}
-\Psi_{HF}(\mathbf{r}_1, \mathbf{r}_2, \ldots, \mathbf{r}_N) =
+\Psi^{HF}(\mathbf{r}_1, \mathbf{r}_2, \ldots, \mathbf{r}_N) =
 \frac{1}{\sqrt{N!}} \left|
 \begin{matrix}
     \bwf<1><1> & \bwf<1><2> & \cdots & \bwf<1><N> \\
@@ -934,7 +934,7 @@ the result is satisfied with the \textbf{Eq. \ref{hfwf}}.
 Repeating all the processes already done through the Hartree approximation, the total energy of Hartree-Fock is
 
 \begin{equation}\begin{split}
-&E_\textit{HF} = \sumi<i> <\bwf<i><> |\ -\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r})  \ | \bwf<i><> > \\
+&E^\textit{HF} = \sumi<i> <\bwf<i><> |\ -\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r})  \ | \bwf<i><> > \\
 & + \frac{1}{2} \suminj<i><j> <\bwf<i><> \bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwf<i><> \bwfn<j><'>> \\
 & - \frac{1}{2} \suminj<i><j> <\bwfn<i><'> \bwfn<j><>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwfn<i><> \bwfn<j><'>>.
 \end{split}\end{equation}
@@ -943,13 +943,13 @@ In the same mathematical way as in previous sectrion but somewhat more complicat
 
 \begin{equation}\begin{split}\label{above1}
 & \{ -\frac{\nabla^{2}_{\textit i}}{2} + V_\textit{ext}(\textbf{r})+ \suminj<j><i> <\bwfn<j><'>\ | \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwfn<j><'>> \} \bwf<i><>  \\
-& - \suminj<i><j>  < \bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwfn<i><'> >) \bwfn<j><>  = E^{i}_{HF} \bwf<i><>.
+& - \suminj<i><j>  < \bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwfn<i><'> >) \bwfn<j><>  = E_{i}^{HF} \bwf<i><>.
 \end{split}\end{equation}
 
 Compared with Hartree equation, there is an extra term in the \textbf{eq. \ref{above1}}, which is so called exchange term. In order to organize the equation in a nice and clear way, the \textbf{eq. \ref{above1}} is equivalent to
 
 \begin{equation}\label{aaaaa}\begin{split}
-\{ -\frac{\nabla^{2}_{\textit i}}{2} + V_\textit{ext}(\textbf{r}) +V_\textit{H}(\textbf{r}) \}  \bwf<i><>  = E^{i}_{HF}   \bwf<i><>, 
+\{ -\frac{\nabla^{2}_{\textit i}}{2} + V_\textit{ext}(\textbf{r}) +V_\textit{H}(\textbf{r}) \}  \bwf<i><>  = E_{i}^{HF}   \bwf<i><>, 
 \end{split}\end{equation}
 where
 \begin{equation}
@@ -1073,7 +1073,7 @@ Assume that the exact ground-state density is obtained by the wavefunction $\wfk
 less than $10^{23}$ a lot and $\bwf<i><i>$ is auxiliary independent single-electron wavefuntion
 
 \begin{equation}\label{ks1}
- \rho(\textbf{r}) = \sumi<i> {\phi^{*}_{i}(\textbf{r})} {\phi_{i}(\textbf{r})}.
+ \rho(\textbf{r}) = \sumi<i> {\Psi^{\textit{KS}*}_{i}(\textbf{r})} {\Psi_{i}(\textbf{r})}.
 \end{equation}
 
 If the density is exact, thereby, the total energy is defined exactly, which can be expressed by the following
@@ -1082,32 +1082,32 @@ If the density is exact, thereby, the total energy is defined exactly, which can
 \begin{split}
 &E[\rho] \ =\ T[\rho] \ + \ V_\textit{int}[\rho] \ + \ V_\textit{ext}[\rho]  \\
 &\ \ \   = \ T_{0}[\rho] \ + \ V_\textit{HF}[\rho] \ + V_\textit{ext}[\rho]+\underbrace{\ (T[\rho] \ - \ T_{0}[\rho]) \ + \  (V_\textit{int}[\rho] \ - \ V_\textit{HF}[\rho])\ }       \\
-&\ \ \   = \ T_{0}[\rho] \quad \,  + \quad \,  V_\textit{HF}[\rho] \quad \, + \quad \, V_\textit{ext}[\rho] \quad \, + \quad \, V_\textit{C}[\rho],
+&\ \ \   = \ T_{0}[\rho] \quad \,  + \quad \,  V_\textit{HF}[\rho] \quad \, + \quad \, V_\textit{ext}[\rho] \quad \, + \quad \, V_\textit{c}[\rho],
 \end{split}
 \end{equation}
 
 where $E[\rho]$  is the total energy, $\rho$ is the ground state density. $T[\rho]$, $V_\textit{int}[\rho]$ and $V_\textit{ext}[\rho]$ in order are the energy from external potential, the exact kinetic 
-and the exact electron-electron potential energy. $T_{0}[\rho]$ is the kinetic energy of independent electrons, $V_\textit{HF}[\rho]$ is the potential from the Hartree-Fock approximation and $V_\textit{C}[\rho]$
+and the exact electron-electron potential energy. $T_{0}[\rho]$ is the kinetic energy of independent electrons, $V_\textit{HF}[\rho]$ is the potential from the Hartree-Fock approximation and $V_\textit{c}[\rho]$
 denotes correlation energy.
 
 From the Hartree-Fock approximation, one can further know that
 \begin{equation}
- V_\textit{HF}[\rho] \ = \ V_\textit{H}[\rho] \ + \ V_\textit{X}[\rho], 
+ V_\textit{HF}[\rho] \ = \ V_\textit{H}[\rho] \ + \ V_\textit{x}[\rho], 
 \end{equation}
 
-where $V_\textit{H}[\rho]$ and $ V_\textit{X}[\rho] $ are the Hartree contribution and exchange contribution, respectively. Thereby, the \textbf{Eq. \ref{kse}} can be further defined as
+where $V_\textit{H}[\rho]$ and $ V_\textit{x}[\rho] $ are the Hartree contribution and exchange contribution, respectively. Thereby, the \textbf{Eq. \ref{kse}} can be further defined as
 
 \begin{equation}\label{ccc}
 \begin{split}
-&E[\rho]\ = \ T_{0}[\rho] \ + \ V_\textit{H}[\rho] \ + \ V_\textit{ext}[\rho] \ + \ \underbrace{\ V_\textit{X}[\rho]  \ + \ V_\textit{C}[\rho]}  \\
-&\ \ \ = \ T_{0}[\rho] \quad + \quad V_\textit{H}[\rho] \quad + \quad V_\textit{ext}[\rho] \quad + \quad V_\textit{XC}[\rho],
+&E[\rho]\ = \ T_{0}[\rho] \ + \ V_\textit{H}[\rho] \ + \ V_\textit{ext}[\rho] \ + \ \underbrace{\ V_\textit{x}[\rho]  \ + \ V_\textit{c}[\rho]}  \\
+&\ \ \ = \ T_{0}[\rho] \quad + \quad V_\textit{H}[\rho] \quad + \quad V_\textit{ext}[\rho] \quad + \quad V_\textit{xc}[\rho],
 \end{split}\end{equation}
 
-where $V_\textit{XC}[\rho]$  is the exchange-correlation term. From \textbf{Eq. \ref{kse}}, the explicit expression of $V_\textit{XC}[\rho]$ one does not know. 
+where $V_\textit{xc}[\rho]$  is the exchange-correlation term. From \textbf{Eq. \ref{kse}}, the explicit expression of $V_\textit{xc}[\rho]$ one does not know. 
 The first three terms one already know
 
 \begin{equation}
- T_{0}[\rho]\ = \ < \Psi_{i}(\textbf{r}) \ | -\frac{\nabla^{2}_{r}}{2} \ | \Psi_{i}(\textbf{r}) >
+ T_{0}[\rho]\ = \ < \Psi_{i}^{\textit{KS}}(\textbf{r}) \ | -\frac{\nabla^{2}_{r}}{2} \ | \Psi_{i}^{\textit{KS}}(\textbf{r}) >
 \end{equation}
 
 \begin{equation}
@@ -1122,13 +1122,13 @@ In order to derive the ground state of the above system, one can view this probl
  the wavefunction can be constructed to electron density (\textbf{Eq. \ref{ks1}}), just like the derivation in the section of Hartree, finally one can get the Kohn-Sham equation
 
 \begin{equation}\label{aaa}
- (-\frac{\nabla^{2}_{i}}{2}\ + \ V_\textit{KS}(\textbf{r})) \phi_{\textit{i}}(\textbf{r}) = E_{\textit{KS}}^{\textit{i}} \phi_{\textit{i}}(\textbf{r}),
+ (-\frac{\nabla^{2}_{i}}{2}\ + \ V^\textit{KS}(\textbf{r})) \Psi^{\textit{KS}}_{\textit{i}}(\textbf{r}) = E^{\textit{KS}}_{\textit{i}} \Psi^{\textit{KS}}_{\textit{i}}(\textbf{r}),
 \end{equation}
 
 where
 
 \begin{equation}\begin{split}
-&\ V_\textit{KS}(\textbf{r}) \ = \ V_\textit{ext}(\textbf{r}) + \int \mathrm{d}{\textbf{r}^{\prime}}  \frac{\rho(\textbf{r}^{\prime})}{|{\textbf{r}}-{\textbf{r}}^{\prime}|} \ + \ \frac{\delta{V_\textit{XC}}}{\delta{\rho(\textbf{r})}} \\
+&\ V^\textit{KS}(\textbf{r}) \ = \ V_\textit{ext}(\textbf{r}) + \int \mathrm{d}{\textbf{r}^{\prime}}  \frac{\rho(\textbf{r}^{\prime})}{|{\textbf{r}}-{\textbf{r}}^{\prime}|} \ + \ \frac{\delta{V_\textit{xc}}}{\delta{\rho(\textbf{r})}} \\
 &\ = \ \ V_\textit{ext}(\textbf{r}) + \int \mathrm{d}{\textbf{r}^{\prime}}  \frac{\rho(\textbf{r}^{\prime})}{|{\textbf{r}}-{\textbf{r}}^{\prime}|} \ + \ \upsilon_\textit{xc}(\textbf{r}).
 \end{split}
 \end{equation}
@@ -1137,14 +1137,14 @@ One can think of the Hamiltonian in another point of view, e.g., single particle
 
 There is no total energy equation expression yet, however, if one can change the \textbf{Eq. \ref{aaa}} as 
 \begin{equation}\label{bbb}
-\sumi<i> \phi^{*}_{\textit{i}}(\textbf{r})(-\frac{\nabla^{2}_{i}}{2}\ + \ V_\textit{KS})(\textbf{r}) \phi_{\textit{i}}(\textbf{r}) = \sumi<i> \phi^{*}_{\textit{i}}E_{\textit{ks}}^{\textit{i}} \phi_{\textit{i}}(\textbf{r}).
+\sumi<i> \phi^{*}_{\textit{i}}(\textbf{r})(-\frac{\nabla^{2}_{i}}{2}\ + \ V^\textit{KS})(\textbf{r}) \Psi^{\textit{KS}}_{\textit{i}}(\textbf{r}) = \sumi<i> \phi^{*}_{\textit{i}}E^{\textit{KS}}_{\textit{i}} \phi^{\textit{KS}}_{\textit{i}}(\textbf{r}).
 \end{equation}
 
 Based on \textbf{Eq. \ref{ccc}} and \textbf{\ref{bbb}}, the total energy expression is
 \begin{equation}\label{totalenergy}
 \begin{split}
-& E= \sumi<i> E_{\textit{ks}}^{\textit{i}} - \ \frac{1}{2} \int \int \mathrm{d} {\textbf{r}} \mathrm{d}{\textbf{r}^{\prime}} \frac{\rho({\textbf{r}})\rho(\textbf{r}^{\prime})}{|{\textbf{r}}-{\textbf{r}}^{\prime}|} \\
-&    + \ V_\textit{XC}[\rho] - \int   \upsilon_\textit{xc}(\textbf{r}) \rho({\textbf{r}}).
+& E= \sumi<i> E^{\textit{KS}}_{\textit{i}} - \ \frac{1}{2} \int \int \mathrm{d} {\textbf{r}} \mathrm{d}{\textbf{r}^{\prime}} \frac{\rho({\textbf{r}})\rho(\textbf{r}^{\prime})}{|{\textbf{r}}-{\textbf{r}}^{\prime}|} \\
+&    + \ V_\textit{xc}[\rho] - \int   \upsilon_\textit{xc}(\textbf{r}) \rho({\textbf{r}}).
 \end{split}
 \end{equation}
 
@@ -1165,7 +1165,7 @@ the volume, the explicit equation is
  E^\textit{LDA}_\textit{xc} = \int \rho(\textbf{r}) \varepsilon_\textit{xc}( (\rho(\textbf{r})) ) \mathrm{d} \textbf{r}, 
 \end{equation}
 
-where $ E^\textit{LDA}_\textit{xc} $ is the exchange-correlation energy functional for the $LDA$, $\rho(\textbf{r})$ is the charge density in the position of $\textbf{r}$, $\varepsilon_\textit{xc}$ is homogeneous 
+where $ E^\textit{LDA}_\textit{xc} $ is the exchange-correlation energy functional for the LDA, $\rho(\textbf{r})$ is the charge density in the position of $\textbf{r}$, $\varepsilon_\textit{xc}$ is homogeneous 
 electrons gas with variable of  $\rho(\textbf{r})$ .
 
 The $\varepsilon_\textit{xc}$ is an ideal state within a solid, which assumes that the charge is homogeneously all over the space
@@ -1183,10 +1183,10 @@ The GGA is the approximation beyond the LDA, which incorporates not only the den
  of the density, the explicit equation is
 
 \begin{equation}
-E_{\textit{GGA}}^{\textit{xc}}\ = \ \int \rho(\textbf{r}) \varepsilon_\textit{xc}( (\rho(\textbf{r})), \nabla \rho(\textbf{r}) ) \mathrm{d} \textbf{r}, 
+E^{\textit{GGA}}_{\textit{xc}}\ = \ \int \rho(\textbf{r}) \varepsilon_\textit{xc}( (\rho(\textbf{r})), \nabla \rho(\textbf{r}) ) \mathrm{d} \textbf{r}, 
 \end{equation}
 
-where $E_{\textit{GGA}}^{\textit{xc}}$ is the exchange-correlation energy functional for the GGA, $\nabla \rho(\textbf{r})$ is the gradient  of charge density in the position of r.
+where $E^{\textit{GGA}}_{\textit{xc}}$ is the exchange-correlation energy functional for the GGA, $\nabla \rho(\textbf{r})$ is the gradient  of charge density in the position of r.
 
 Of course, there are more modern methods to approximate the exchange-correlation energy, such as: the optimized effective potential
 (OEP) method and the hybrid functionals and others			.
@@ -1242,17 +1242,17 @@ where $\rho^{i}$ and $\rho^{i+1}$are the charge density of the $\textit{(i)}$:th
 
 \subsection{Eigenvalue problem}
 
-In order to solve the eq (\ref{aaa}), The Kohn-Sham equation will be transformed into the general eigenvalue problem. Now if the Kohn-Sham equation is given as
+In order to solve \textbf{Eq. (\ref{aaa})}, The Kohn-Sham equation will be transformed into the general eigenvalue problem. Now if the Kohn-Sham equation is given as
 
 \begin{equation}\label{ep2}
- \hath \Psi (r) = E \Psi (r).
+ \hath \Psi^{KS} (r) = E \Psi^(KS) (r).
 \end{equation}
  
 
 The wavefunction is defined as
 
 \begin{equation}\label{ep1}
- \Psi (r) = \sum\limits_j^N C_j \Phi_j (r),
+ \Psi^{KS} (r) = \sum\limits_j^N C_j \Phi_j (r),
 \end{equation}
  
 where $C_j$ is a complex number, and $\Phi_j (r)$ is the basis of wavefunction. 
@@ -1309,7 +1309,7 @@ There are left part and right part in the \textbf{Eq. \ref{ep467}}. If the left 
 = \left[ \begin{array}{c} 0 \\ 0 \\ \vdots \\ 0 \end{array} \right].
 \end{equation}
 
-Apparently, the \textbf{Eq. \ref{ep44}} is an eigenvale problem. In order to get the $C_{i} (i = 1 \cdots N)$, one needs to solve the eigenvale problem
+Apparently, the \textbf{Eq. \ref{ep44}} is an eigenvale problem. In order to get the $C_{i} (i = 1 \cdots N)$, one needs to solve the eigenvalue problem
 
 \begin{equation}\label{ep4}
 \left|
@@ -1329,21 +1329,21 @@ So far, one already know how to solve the Kohn-Sham equation, however, there are
 wavefunction and potential in the realistic calculations?  
 
 One maybe naturally choose a set of plane waves as the wavefunction because of Bloch theory. There is a drawback about the plane waves 
-when describing the atomic core region, because the wavefunction change dramatically in that region, therefore one needs to choose more plane
+when describing the atomic core region, because the wavefunction change dramatically in that region. Therefore one needs to choose more plane
 waves to define it, which means it will take more time to calculate.
 
 Slater re-considered the way to describe the wavefunction (\textbf{Eq. \ref{wavefunctions}}). The unit cell is splitted into two regions: one is the sphere region which is
-defined by the center of atom, but non-overlap each sphere, called muffin tin (MT) region, the remaining region is called interstitial (\textit{I})
-region (\textbf{Fig. \ref{ucuc}}). An atomic-like function is defined as the wavefunction in the MT region, this is reason why the method is called augmented plane wave (APW).
-The dual representation of the wavefunction is reasonable, because the wavefunction approaching atomic core is somehow like inside atom, but far away the atomic core, the electron behaves like free electrons,
+defined by the center of atom, but non-overlap each sphere, called muffin tin (MT) region; the remaining region is called interstitial (\textit{I})
+region (\textbf{Fig. \ref{ucuc}}). An atomic-like function is defined as the wavefunction in the MT region, this is reason why this method is called augmented plane wave (APW).
+The dual representation of the wavefunction is reasonable, because the wavefunction approaching atomic core is somehow like inside atom; however far away the atomic core, the electron behaves like free electrons,
 therefore plane wave is suitable (\textbf{Eq. \ref{ap111}}). However, the drawback of APW method is the wavefunction is dependent with the energy, which leads to the 
-nonlinear eigenvalue problem (\textbf{Eq. \ref{ap2}}), in order to get the exact energy, the method has to decide repeatedly until certain condition is satisfied,
-which is really time-consumming.
+nonlinear eigenvalue problem (\textbf{Eq. \ref{ap2}}). This method has to decide repeatedly until certain condition is satisfied to achive the exact energy, which is really time$-$consuming.
 
 In order to find a way out, is it possible to let the wavefunction energy-independent? Andesen, Koelling and Arbman proposed a way to describe that,
-they noticed that the taylor expansion of radial function (\textbf{Eq. \ref{ap3}}), making use of it to linearize the APW method, thereby the method is called linearized augmented plane wave (LAPW)
-method. However, the drawback is that this method does not describe the semicore state well, it is corrected by a method named linearized augmented plane wave plus local orbitals (LAPW+LO) which is proposed by Singh (\textbf{Eq. \ref{lap5}}).
-Sjöstedt, Nordström and Singh also give an efficient way to linearize Slater's APW method, named augmented plane wave plus local orbitals (APW+lo) (\textbf{Eq. \ref{lap6}}). 
+they noticed that the taylor expansion of radial function (\textbf{Eq. \ref{ap3}}). This method is called linearized augmented plane wave (LAPW) method due to make use of the linearized energies in the radial functions. 
+However, the drawback is that it does not describe the semicore state well, it is corrected by a method named linearized augmented plane wave plus local orbitals (LAPW+LO) which is proposed by Singh (\textbf{Eq. \ref{lap5}}).
+Sjöstedt, Nordström and Singh also give an efficient way to linearize Slater's APW method, named augmented plane wave plus local orbitals (APW+lo) (\textbf{Eq. \ref{lap6}}). Both of above methods consider local orbitals, which are only
+written in different way LO and lo. One can read more information about FP$-$LAPW method from [?,?,?].
 
 \subsection{Wavefunction}
 \subsubsection{Augmented plane wave method}
@@ -1351,10 +1351,13 @@ Sjöstedt, Nordström and Singh also give an efficient way to linearize Slater's
 The KS wavefunction is defined as 
 
 \begin{equation}\label{wavefunctions}
- \psi_{i,\textbf{k}}(\textbf{r})=\sumg<\textbf{G}> C_{i,\textbf{k}+\textbf{G}}\phi^{APW}_{\textbf {k}+\textbf{G}} ({\textbf r})
+ \Psi^{KS}_{i\textbf{k}}(\textbf{r})=\sumg<\textbf{G}> C_{i,\textbf{k}+\textbf{G}}\phi_{\textbf {k}+\textbf{G}} ({\textbf r})
 \end{equation}
 
-The basis set is defined by Slater
+where $\phi_{\textbf {k}+\textbf{G}} ({\textbf r})$ is the basis function of wavefunction. It is written in slightly different format in order to distinct the different methods in the following text, for example, 
+$\phi^{APW}$ represents the basis function for the augmented plane wave (APW) method.
+
+The basis set for APW is defined by Slater
 
 \begin{equation}\label{ap111}
 \phi^{APW}_{\textbf {k}+\textbf{G}} ({\textbf r}) = 
@@ -1364,14 +1367,14 @@ The basis set is defined by Slater
 \end{cases}
 \end{equation}
 
-where $f_{{\ell}{m}} (r_{\alpha},\textbf{k}+\textbf{G} ,E) =  A _{{\ell}m}^{\alpha} ( \textbf {k}+\textbf{G}) u_{{\ell}}(r_{\alpha}, E)$, and $A _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G}) $ is the expansion coefficients, and $u_{{\ell}} (r_{\alpha}, E)$  is the radial function, which is dependent with energy $E$, and the
-radial function could be decided by the following equation
+where $f_{{\ell}{m}} (r_{\alpha},\textbf{k}+\textbf{G} ,E) =  A _{{\ell}m}^{\alpha} ( \textbf {k}+\textbf{G}) u_{{\ell}}(r_{\alpha}, E)$, and $A _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G}) $ is the expansion coefficients. 
+Radial function $u_{{\ell}} (r_{\alpha}, E)$ is dependent with energy $E$, and it can be decided by the following equation
 
 \begin{equation}\label{ap2}
--\frac{1}{r^2}  \frac{d}{dr} (r^2 \frac{du_{\ell}}{dr})+ \left(\frac{\ell(\ell+1)}{r^2}+V(r_{\alpha})\right)u_{\ell}(r_{\alpha}) = E u_{\ell}(r_{\alpha}),
+-\frac{1}{r^2}  \frac{d}{dr} (r^2 \frac{du_{\ell}}{dr})+ \left(\frac{\ell(\ell+1)}{r^2}+V(\textbf{r})\right)u_{\ell}(r_{\alpha}) = E u_{\ell}(r_{\alpha}),
 \end{equation}
 
-where $V(r_{\alpha})$ is the spherical potential.
+where $V(\textbf{r})$ is the spherical potential.
 
 Because the wavefunction has dual representation, one has to make sure the continuity on the sphere, which is solved by matching each $\ell m$
 of the dual representation.
@@ -1388,72 +1391,75 @@ From the \textbf{Fig. \ref{ucuc}}, one notices that the unit cell is divided int
 (\textit{I}) region, and ${\textbf r = {\textbf R_{\alpha}}+{\textbf r_{\alpha}}}$ is guaranteed. The Rayleigh expansion formula yields
 
 \begin{equation}
-\expg<(\textbf {k}+\textbf{G})> = e^{i (\textbf {k}+\textbf{G}) \textbf{R}_{\alpha} } 4 \pi \sumlm<\ell><m> i^{\ell} \bessf< |\textbf{k}+\textbf{G}|> \sphfr<\ell{m}><r><> \sphfq<\ell{m}><\textbf{k}+\textbf{G}><*> .
+\expg<(\textbf {k}+\textbf{G})> = e^{i (\textbf {k}+\textbf{G}) \textbf{R}_{\alpha} } 4 \pi \sumlm<\ell><m> i^{\ell} \bessf< |\textbf{k}+\textbf{G}|> \sphfr<\ell{m}><r><> Y_{\ell{m}}(\widehat{\textbf{k}+\textbf{G}}).
 \end{equation}
   
 After matching those two representation, the following equation is satisfied for each ${\ell}m$
 
 \begin{equation}
-A _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G}) = \frac{ e^{i (\textbf {k}+\textbf{G}) \textbf{R}^{\alpha} } 4 \pi \sumlm<\ell><m> i^{\ell} \bessf< |\textbf{k}+\textbf{G}|> \sphfq<\ell{m}><\textbf{k}+\textbf{G}><*> }{\sqrt{\Omega} u_{{\ell}}^{\alpha}(r_{\alpha}, E)}.
+A _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G}) = \frac{ e^{i (\textbf {k}+\textbf{G}) \textbf{R}^{\alpha} } 4 \pi \sumlm<\ell><m> i^{\ell} \bessf< |\textbf{k}+\textbf{G}|> Y^{*}_{\ell{m}}(\widehat{\textbf{k}+\textbf{G}}) }{\sqrt{\Omega} u_{{\ell}}^{\alpha}(r_{\alpha}, E)}.
 \end{equation}
 
 The main drawbacks about the APW method is that the wavefuntion is energy dependent. It means that
  the code will search for the energy in order to calculate the exact energy. Therefore it 
-is really time consuming. 
+is really time$-$consuming. 
 
 \subsubsection{Linearized augmented plane wave method}
-\noindent In order to decouple the energy and wavefunction, Andesen, Koelling and Arbman found out a way to seperate them, they noticed that the taylor expansion of the radial function
+\noindent In order to decouple the energy from the wavefunction, Andesen, Koelling and Arbman found out a way to seperate them, they noticed that the taylor expansion of the radial function
 on certain energy, which can be given as
 
 \begin{equation}\label{ap3}
  u_{{\ell}}(r_{\alpha}, E) = u_{{\ell}}(r_{\alpha}, E_{\ell}) + (E-E_{\ell}) \dot{u}_{{\ell}}(r_{\alpha}, E_{\ell}) + O((E-E_{\ell})^2).
 \end{equation}
 
-Therefore the wavefuntion is re-defined as 
+Therefore the basis fucntion is re-defined as 
 
 \begin{equation}\label{lap4}
-\phi^{LAPW}_\textbf{k+G} (\textbf{r})= 
-\begin{cases} \frac {1}{\sqrt{\Omega}} e^{i(\textbf{k+G})\textbf{r}} & \quad \mbox{if $\textbf{r} \in \textit{I} $}
+\phi^{LAPW}_\textbf{k}+\textbf{G} (\textbf{r})= 
+\begin{cases} \frac {1}{\sqrt{\Omega}} e^{i(\textbf{k}+\textbf{G})\textbf{r}} & \quad \mbox{if $\textbf{r} \in \textit{I} $}
 \\
-\sumg<\alpha>\sum\limits_{{\ell}m} f_{{\ell}{m}} (r_{\alpha},\textbf{k+G}, E_{\ell}) Y_{{\ell}m}(\hat{\textbf{r}}_{\alpha})  & \quad \mbox{if $r_{\alpha} \in MT, $}\\ 
+\sumg<\alpha>\sum\limits_{{\ell}m} f_{{\ell}{m}} (r_{\alpha},\textbf{k}+\textbf{G}, E_{\ell}) Y_{{\ell}m}(\hat{\textbf{r}}_{\alpha})  & \quad \mbox{if $r_{\alpha} \in MT, $}\\ 
 \end{cases}
 \end{equation}
 
 where $f_{{\ell}{m}} (r_{\alpha},\textbf{k}+\textbf{G} ,E_{\ell}) =  A _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G}) u_{{\ell}}(r_{\alpha}, E_{\ell}) + B _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G}) \dot{u}_{{\ell}}(r_{\alpha}, E_{\ell})$
-. $A _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G})$ and $B _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G})$ are the expansion coefficients, and $\dot{u}_{{\ell}}(r_{\alpha}, E_{\ell} )$ is the derivative of the radial function.
+. $A _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G})$ and $B _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G})$ are the expansion coefficients, and $\dot{u}_{{\ell}}(r_{\alpha}, E_{\ell} )$ is the derivative of the radial function. Energy $E_{\ell}$  is considered as pre-calculated parameter in \textbf{Eq. \ref{lap4}}. Actually, it is chosen by the middle of  each $\ell$-character band, therefore this method is called linearized augmented plane wave (LAPW) method.
 
-Energy $E_{\ell}$  is considered as pre-calculated parameter in \textbf{Eq. \ref{lap4}}, actually, it is chosen by the middle of  each $\ell$-character band, therefore this method is called linearized augmented plane wave (LAPW) method.
-
-Apparently, LAPW method is more suitable in reality, because the wavefunction is decoupled with energy, but it has to match for two parameters,
-fortunately, even though, it still use less time comparing with APW method. However, there is one drawback about this method, what if energy difference is bigger enough in the same $ {\ell} $ charater, 
-which $E_{\ell}$ is correct one? Therefore this situation could be a big error, these states are called as semi-core state, for example, it exists in the actinides and the rare earths.
+Apparently, LAPW method is more suitable in reality, because the wavefunction is decoupled with energy. However it has to match for two parameters.
+Fortunately, it still take less time comparing with APW method. However, there is one drawback about this method, what if energy in the same $ {\ell} $ charater is different enough, 
+which $E_{\ell}$ is correct one? These states are called as semi-core states which exist in the actinides and the rare earths.
 
 \subsubsection{Linearized augmented plane wave method plus local orbitals}
-Comparing with LAPW method, Linearized augmented plane wave method plus local orbitals (LAPW+LO) method extend the basis set, and add smaller number of basis set, which has the following format
+Comparing with LAPW method, linearized augmented plane wave method plus local orbitals (LAPW+LO) method extend and add smaller number of basis set, which is defined as
 
 
 \begin{equation}\label{lap5}
-\phi^{LO}_\textbf{k}+\textbf{G} (\textbf{r}) = 
-\begin{cases} 0 & \quad \mbox{if $\textbf{r} \in IR $}
+\phi^{LO}_{\textbf{k}+\textbf{G} }(\textbf{r}) = 
+\begin{cases} 0 & \quad \mbox{if $\textbf{r} \in \textit{I} $}
 \\
-(A _{{\ell}m}^{\alpha}  u_{{\ell}}^{\alpha}(r_{\alpha}, E_{\ell}) + B _{{\ell}m}^{\alpha}  \dot{u}_{{\ell}}^{\alpha}(r_{\alpha}, E_{\ell}) + C _{{\ell}m}^{\alpha}  u_{{\ell}}^{\alpha}(r_{\alpha}, E^{\prime}_{\ell})){Y_{{\ell}m}(\hat{\textbf{r}}_{\alpha})} & \quad \mbox{if $\textbf{r} \in MT, $}\\ 
+(A _{{\ell}m,LO}^{\alpha}  u_{{\ell}}(r_{\alpha}, E_{\ell}) + B _{{\ell}m,LO}^{\alpha}  \dot{u}_{{\ell}}(r_{\alpha}, E_{\ell}) + C _{{\ell}m}^{\alpha}  u_{{\ell}}(r_{\alpha}, E^{\prime}_{\ell})){Y_{{\ell}m}(\hat{\textbf{r}}_{\alpha})} & \quad \mbox{if $r_{\alpha} \in MT, $}\\ 
 \end{cases}
 \end{equation}
  
-where $A _{{\ell}m}^{\alpha}$ and $B _{{\ell}m}^{\alpha}$ is matching value and derivate on the sphere boundary to zero, but not plane wave, and $E^{\prime}_{\ell}$ is
+ 
+  requiring that the LO is normalized, and has zero value
+and zero slope at the muffin tin boundar
+
+
+where $A _{{\ell}m,LO}^{\alpha}$, $B _{{\ell}m,LO}^{\alpha}$, and $C _{{\ell}m,LO}^{\alpha}$ can be obtained by normalization, as well as value and derivation on the sphere boundary to zero. The $E^{\prime}_{\ell}$ is
 the chosen energy from semi-core state.
 
 \subsubsection{Augmented plane wave method plus local orbitals}
 
 Actually, there is one more method which will deal with the energy-denpendent case, which is called as augmented plane wave method plus local orbitals (APW+lo), the 
-basis function has two kinds, one is similar with APW method, but only without the derivative terms, e.g., $f_{{\ell}{m}} (r_{\alpha},\textbf{k+G} ,E_{\ell}) =  A _{{\ell}m}^{\alpha} \textbf(k+G) u_{{\ell}}^{\alpha}(r_{\alpha}, E_{\ell})$.
+basis function has two kinds, one is similar with APW method, but only without the derivative terms, e.g., $f_{{\ell}{m}} (r_{\alpha},\textbf{k}+\textbf{G} ,E_{\ell}) =  A _{{\ell}m}^{\alpha}(\textbf{k}+\textbf{G})u_{{\ell}}(r_{\alpha}, E_{\ell})$.
 Another basis function is
 
 \begin{equation}\label{lap6}
 \phi^{lo}_\textbf{k+G} (\textbf{r}) = 
-\begin{cases} 0 & \quad \mbox{if $\textbf{r} \in IR $}
+\begin{cases} 0 & \quad \mbox{if $\textbf{r} \in \textit{I} $}
 \\
-(A _{{\ell}m,lo}^{\alpha}  u_{{\ell}}^{\alpha}(r_{\alpha}, E_{\ell}) + B _{{\ell}m,lo}^{\alpha}  \dot{u}_{{\ell}}^{\alpha}(r_{\alpha}, E_{\ell}) ){Y_{{\ell}m}(\hat{\textbf{r}}_{\alpha})} & \quad \mbox{if $\textbf{r} \in MT. $}\\ 
+(A _{{\ell}m,lo}^{\alpha}  u_{{\ell}}(r_{\alpha}, E_{\ell}) + B _{{\ell}m,lo}^{\alpha}  \dot{u}_{{\ell}}(r_{\alpha}, E_{\ell}) ){Y_{{\ell}m}(\hat{\textbf{r}}_{\alpha})} & \quad \mbox{if $r_{\alpha} \in MT. $}\\ 
 \end{cases}
 \end{equation}
  
@@ -1466,9 +1472,9 @@ however, it does increase the efficiency to linearize Slater's APW method.
 The potential in the FP-LAPW method is also divided into two regions, the MT region and the interstitial region.
 \begin{equation*}\label{lap7}
 V(\textbf{r}) = 
-\begin{cases} \sumg<{\textbf G}> V_{\textbf G} e^{i {\textbf G} {\textbf {r}  }} & \quad \mbox{if $\textbf{r} \in IR $}
+\begin{cases} \sumg<{\textbf G}> V_{\textbf G} e^{i {\textbf G} {\textbf {r}  }} & \quad \mbox{if $\textbf{r} \in \textit{I} $}
 \\
- \sum\limits_{{\ell}m} V_{{\ell}m}^{\alpha} (r_{\alpha}) Y_{{\ell}m}(\hat{{\textbf r}}_{\alpha})  & \quad \mbox{if $\textbf{r} \in MT. $}\\ 
+ \sum\limits_{{\ell}m} V_{{\ell}m}^{\alpha} (r_{\alpha}) Y_{{\ell}m}(\hat{{\textbf r}}_{\alpha})  & \quad \mbox{if $r_{\alpha} \in MT. $}\\ 
 \end{cases}
 \end{equation*}
 
@@ -1967,7 +1973,7 @@ corresponding to the  $v_4 \longrightarrow c_1$ at the $N$ point. The $E_7$ is f
 \end{figure}
 
 
-
+\chapter{Summary of the publications}
 
 \begin{comment}
 \section{Methodology and implementation}

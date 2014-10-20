@@ -29,7 +29,7 @@
 \contentsline {subsection}{\numberline {2.2.2}Wavefunction}{30}
 \contentsline {subsubsection}{\numberline {2.2.2.1}Augmented plane wave method}{30}
 \contentsline {subsubsection}{\numberline {2.2.2.2}Linearized augmented plane wave method}{32}
-\contentsline {subsubsection}{\numberline {2.2.2.3}Linearized augmented plane wave method plus local orbitals}{32}
+\contentsline {subsubsection}{\numberline {2.2.2.3}Linearized augmented plane wave method plus local orbitals}{33}
 \contentsline {subsubsection}{\numberline {2.2.2.4}Augmented plane wave method plus local orbitals}{33}
 \contentsline {subsection}{\numberline {2.2.3}Effective potential}{33}
 \contentsline {section}{\numberline {2.3}Dielectric function}{33}
