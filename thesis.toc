@@ -33,9 +33,12 @@
 \contentsline {subsubsection}{\numberline {2.2.2.4}Augmented plane wave method plus local orbitals}{33}
 \contentsline {subsection}{\numberline {2.2.3}Effective potential}{33}
 \contentsline {section}{\numberline {2.3}Dielectric function}{33}
-\contentsline {chapter}{\chapternumberline {3}Results and discussion}{35}
-\contentsline {section}{\numberline {3.1}Parameterization of energy bands for CIGS}{35}
-\contentsline {section}{\numberline {3.2}Calculations of dielectric function for CIGS}{45}
-\contentsline {chapter}{\chapternumberline {4}Summary of the publications}{49}
-\contentsline {chapter}{\chapternumberline {5}Concluding remarks and future work}{50}
-\contentsline {chapter}{Acknowledgements}{51}
+\contentsline {section}{\numberline {2.4}Spin-orbit coupling}{34}
+\contentsline {subsection}{\numberline {2.4.1}Dirac equation}{34}
+\contentsline {subsection}{\numberline {2.4.2}Derivation of spin-orbit coupling}{35}
+\contentsline {chapter}{\chapternumberline {3}Results and discussion}{37}
+\contentsline {section}{\numberline {3.1}Parameterization of energy bands for CIGS}{37}
+\contentsline {section}{\numberline {3.2}Calculations of dielectric function for CIGS}{47}
+\contentsline {chapter}{\chapternumberline {4}Summary of the publications}{51}
+\contentsline {chapter}{\chapternumberline {5}Concluding remarks and future work}{52}
+\contentsline {chapter}{Acknowledgements}{53}

@@ -188,9 +188,9 @@ with parabolic band energy approximation, the density-of-states (DOS), Fermi ene
 understand and analyze the electrical properties in the CIGS alloys.
 
 
-\noindent The $\varepsilon$ spectra of $CuIn_{0.5}Ga_{0.5}Se_2$ is determined by the full-potential linearized augmented plane wave calculations (FP-LAPW), which shows a good 
+\noindent The $\varepsilon$ spectra of $CuIn_{0.5}Ga_{0.5}Se_2$ is determined by the full-potential linearized augmented plane wave calculations (FPLAPW), which shows a good 
 agreement with the result from Spectroscopic ellipsometry, which illustrates the result of $CuIn_{0.7}Ga_{0.3}Se_2$ at 40 K, furthermore, the probable electronic origins of 
-observed interband critical points (CP) is discussed, and the electronic origins of each CP are examined based on the results from the FP-LAPW calculations. At 
+observed interband critical points (CP) is discussed, and the electronic origins of each CP are examined based on the results from the FPLAPW calculations. At 
 last, the band to band analysis of the contribution to the total ${\varepsilon_2}$ spectrum is explored.
 
 \end{comment}
@@ -1343,7 +1343,7 @@ In order to find a way out, is it possible to let the wavefunction energy-indepe
 they noticed that the taylor expansion of radial function (\textbf{Eq. \ref{ap3}}). This method is called linearized augmented plane wave (LAPW) method due to make use of the linearized energies in the radial functions. 
 However, the drawback is that it does not describe the semicore state well, it is corrected by a method named linearized augmented plane wave plus local orbitals (LAPW+LO) which is proposed by Singh (\textbf{Eq. \ref{lap5}}).
 Sjöstedt, Nordström and Singh also give an efficient way to linearize Slater's APW method, named augmented plane wave plus local orbitals (APW+lo) (\textbf{Eq. \ref{lap6}}). Both of above methods consider local orbitals, which are only
-written in different way LO and lo. One can read more information about FP$-$LAPW method from [?,?,?].
+written in different way LO and lo. One can read more information about FPLAPW method from [?,?,?].
 
 \subsection{Wavefunction}
 \subsubsection{Augmented plane wave method}
@@ -1465,7 +1465,7 @@ However, it does increase the efficiency to linearize Slater's APW method. Certa
 \subsection{Effective potential}
 
 \label{epote}
-The potential in the FP-LAPW method is also divided into two regions, the MT region and the \textit{I} region.
+The potential in the FPLAPW method is also divided into two regions, the MT region and the \textit{I} region.
 \begin{equation*}\label{lap7}
 V(\textbf{r}) = 
 \begin{cases} \sumg<{\textbf G}> V_{\textbf G} e^{i {\textbf G} {\textbf {r}  }} & \quad \mbox{if $\textbf{r} \in \textit{I} $}
@@ -1481,26 +1481,28 @@ The dielectric function describes the optical property of materials. Normally, i
  \varepsilon = \varepsilon_1 + i \varepsilon_2,
 \end{equation}
 
-where $\varepsilon_1$ denotes how much the material is polarized when an electric field is applied, and $\varepsilon_2$ is related with absorption of the material.
+where $\varepsilon_1$ denotes how much the material is polarized when an electric field is applied, and $\varepsilon_2$ is related with absorption of the material. The imaginary part of interband contribution to the dielectric function is defined as
 
-A summary of the basic derivation of dielectric function is presented using random-phase approximation (RPA). The response to external electric field $E$ in the linear approximation is defined as
-\begin{equation}\label{df1}
-D = \varepsilon E,
-\end{equation}
-where $D$ is electric displacement, and $E$ is the electric field. The imaginary part of $\varepsilon$ given by
 \begin{equation}\label{df2}
-\varepsilon_2 = \frac{4 \pi e^2}{m^2\omega^2} \sum_{cv} \int d \textbf {k} <\Psi_{c{\textbf k}}|p^\alpha|\Psi_{v{\textbf k}}><\Psi_{v{\textbf k}}|p^\beta|\Psi_{c{\textbf k}}>\delta(\varepsilon_{c {\textbf k}}-\varepsilon_{c{\textbf k}}-\omega),
+\varepsilon_2^{\alpha\beta} = \frac{\hbar e^2}{\pi m^2\omega^2} \sum_{cv} \int d \textbf {k} <\Psi_{c{\textbf k}}|p^\alpha|\Psi_{v{\textbf k}}><\Psi_{v{\textbf k}}|p^\beta|\Psi_{c{\textbf k}}> (f(\varepsilon_{c \textbf k})-f(\varepsilon_{v \textbf k}))\delta(\varepsilon_{c {\textbf k}}-\varepsilon_{c{\textbf k}}-\omega),
 \end{equation}
-where $c$ and $v$ run over the conduction bands and valence bands, for example, one can find the figure which is calculated using this equation in the paper of $??$.
 
-The interband contribution of dielectric function is given by
-\begin{equation}\label{df2}
-\varepsilon_2 = \frac{4 \pi e^2}{m^2\omega^2} \sum_{cv} \int d \textbf {k} <\Psi_{c{\textbf k}}|p^\alpha|\Psi_{v{\textbf k}}><\Psi_{v{\textbf k}}|p^\beta|\Psi_{c{\textbf k}}> (f(\varepsilon_{c \textbf k})-f(\varepsilon_{v \textbf k}))\delta(\varepsilon_{c {\textbf k}}-\varepsilon_{c{\textbf k}}-\omega),
+where $c$ and $v$ are the index of conduction band and valence band, respectively. The total imaginary part of dielectric function can be calculated when $c$ and $v$ run over all the conduction bands and valence bands. Similarily, the
+interband contribution can be achived by calculating single conduction band and single valence band.   
+
+The real part of dielectric function can be calculated by Kramers$-$Kronig relations
+
+\begin{equation}
+ \varepsilon_1^{\alpha\beta} = \delta^{\alpha\beta}+\frac{2}{\pi}P\int^{\infty}_{0} \frac{\omega'\varepsilon_2^{\alpha\beta}(\omega')}{\omega'^{2}-\omega^{2}} d\omega'
 \end{equation}
-which is often calculated in the field that is related to optical property, for example, it is calculated in the paper of $??$, which is plotted in the Fig.$??$ of
-that paper.
 
-In this section, only some very basic equations are covered when it is related to calculate the dielectric function. If someone is interested in this topic, one can find more detailed in Ref. $??$.
+
+The absorption coefficient can be obtained by the real part and imaginary part of dielectric function
+\begin{equation}
+ \alpha(\omega) = \frac{\sqrt{2}\omega}{c} \left[ \sqrt{{\varepsilon_1(\omega)}^2+{\varepsilon_2(\omega)}^2}-{\varepsilon_1(\omega)} \right]^{1/2}
+\end{equation}
+
+In this section, only some basic equations are covered when it is related to calculate the dielectric function. If someone is interested in this topic, one can find more detailed in Ref. $??$.
 
 \begin{comment}
 \section{k $\cdot$ p method}
@@ -1568,17 +1570,18 @@ H_{j',j} = \left [  \ebloch<j><\bold {k_0}>  + \frac{{\hbar}^2}{2m} { (\bold{k}^
 \end{equation}
 
 From the above equation, the coefficient $ C_{n,j}^{\bold k}$ and $\ebloch<n><\bold {k}>$ are calculated.
+\end{comment}
 
-\section{Scalar relativistic approximation and spin-orbit coupling}
+\section{Spin-orbit coupling}
 \label{srasoc}
 
 \subsection{Dirac equation}
 
 Non-relativistic quantum mechanics has broad application, but when the speed of electron is near the speed of light, 
-the non-relativistic quantum is not suitable to describe the system of electron. So Dirac introduced an equation which is called
+the non-relativistic quantum is not suitable to describe the system of electron. Therefore, Dirac introduced an equation which is called
 Dirac equation applying for relativistic case.
 
-\noindent Dirac defined the Hamiltonian: 
+\noindent Dirac defined the Hamiltonian as
 
 \begin{equation}\label{dirac}
 \hat{H}_\textit{dirac} = c \boldsymbol{\alpha} \textbf{P} + \boldsymbol{\beta}mc^{2} + V
@@ -1613,7 +1616,7 @@ i & 0\end{array} \right),
 0 & -1\end{array} \right)
 \end{equation}
 
-\subsection{Derivation of ????}
+\subsection{Derivation of spin-orbit coupling}
 
 \noindent  $\Psi$ is the wavefunction of Hamiltonian \ref{dirac}, which has four components, but can be 
 written with only two terms:
@@ -1685,7 +1688,6 @@ angular momentum operator. The terms of ${\textbf{P}^2}/(2m) + V$ is Schrödinge
 and Darwin term, respectively, both of them together is called the scalar relativistic approximation (SRA), the last term is the spin-orbit coupling (SOC) term. One has to
 notice that the Darwin term is not hermitian operator, alternatively, which will be $\nabla^2{V} /(8{m}^2 {c}^2)$ instead in the realistic implementation.
 
-\end{comment}
 
 \chapter{Results and discussion}
 
@@ -1708,7 +1710,7 @@ Unfortunately, these effective masses are only valid around the considered {\tex
 However, the accurate shape of energy bands is important when one simulates and analyzes the electron transport or band filling for some materials.
 
 In this work, we have parameterized the three uppermost valences bands (VBs) and the lowest conduction band (CB) for the materials $\cigs$ where $x$=0, 0.5, and 1, that is,
-$\mathrm{CuInSe_2}$, $\mathrm{CuIn_{0.5}Ga_{0.5}Se_2}$, and $\mathrm{CuGaSe_2}$. This parameterization is based on the all electron and full-potential linearized augemented plane wave (FP-LAPW) calculation.
+$\mathrm{CuInSe_2}$, $\mathrm{CuIn_{0.5}Ga_{0.5}Se_2}$, and $\mathrm{CuGaSe_2}$. This parameterization is based on the all electron and full-potential linearized augemented plane wave (FPLAPW) calculation.
 Normally, the \textbf{k $\cdot$ p} method is utilized to parameterize the energy bands. However, due to the crystal-field interaction and the spin-orbit coupling, 
 the energy dispersions of $\cigs$ are rather complex, therefore, the regular \textbf{k $\cdot$ p} method is not sufficient to describe the energy bands. 
 We manage to extend the \textbf{k $\cdot$ p} expression to higher orders, which is called full band parameterization (fbp) in the following text. Finally, the following equation is used to parameterize the energy bands,
@@ -1750,7 +1752,7 @@ energy dispersions of $\cigs$ requires many fitting parameters. However, the con
 
  \newpage
 
-Firstly, the fbp of $\cigs$ ($x$= 0, 0.5, and 1) are plotted compared with the calculation based on the FP-LAPW method and the pba in 
+Firstly, the fbp of $\cigs$ ($x$= 0, 0.5, and 1) are plotted compared with the calculation based on the FPLAPW method and the pba in 
 Eq. \ref{parabolic}.
 
 \begin{figure}[H]
@@ -1914,7 +1916,7 @@ non-parabolic energy bands is required in order to describe the carrier concentr
 
 
 \section{Calculations of dielectric function for CIGS}
-In this work, the dielectric function ($\varepsilon$) spectra of $CuIn_{0.5}Ga_{0.5}Se_2$ is calculated by the full-potential linearizaed augmented plane wave (FP-LAPW) method using the generalized gradient approximation (GGA)
+In this work, the dielectric function ($\varepsilon$) spectra of $CuIn_{0.5}Ga_{0.5}Se_2$ is calculated by the full-potential linearizaed augmented plane wave (FPLAPW) method using the generalized gradient approximation (GGA)
 plus an onsite Coulomb interaction $U$ of the Cu $d$ states. Afterwards, the different contributions to $\varepsilon_2$ (Im$(\varepsilon)$) in terms of the transitions between the valence bands and the conduction bands are identified. At last, 
 the $\textbf{k}$-dependence of the interband critical points (CPs) along the main symmetry directions is analyzed. The result is compared with experimental work ($CuIn_{0.7}Ga_{0.3}Se_2$) at temperature of 40 K and 300 K,
 and they are in a good agreement.
@@ -1925,7 +1927,7 @@ and they are in a good agreement.
      \end{center}
     \caption{Left panel: The real ($\varepsilon_1$) and imaginary ($\varepsilon_2$) part of dielectric function spectra for $CuIn_{0.7}Ga_{0.3}Se_2$ 
 at 40 K (solid blue line) and 300 K (dashed red lines). Four prominent CP features are shown. Right panel: the dielectric function spectra for  $CuIn_{0.5}Ga_{0.5}Se_2$
-calculated by FP-LAPW method at 0 K. The major CP features are identified. }
+calculated by FPLAPW method at 0 K. The major CP features are identified. }
    \label{df1}
 \end{figure}
 
@@ -1991,7 +1993,7 @@ The Hamitonian matrix can be implemented by:
  H_{jj'} = \left  < \phi_{j} | H_{sra} | \phi_{{j'}} \right >,
 \end{equation}
  
-where $\phi_j$ is the basis function. The basis function will be divided into two types in the Exciting code (FP-LAPW method), one is in the muffin tin (MT) region, the other is in the interstitial region. Especially,
+where $\phi_j$ is the basis function. The basis function will be divided into two types in the Exciting code (FPLAPW method), one is in the muffin tin (MT) region, the other is in the interstitial region. Especially,
 the basis function has two forms in the MT region, one is augemented plane wave, another is local orbitals. 
 
 In the MT region, the basis function is:
