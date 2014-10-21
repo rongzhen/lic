@@ -1493,13 +1493,16 @@ interband contribution can be achived by calculating single conduction band and 
 The real part of dielectric function can be calculated by Kramers$-$Kronig relations
 
 \begin{equation}
- \varepsilon_1^{\alpha\beta} = \delta_{\alpha\beta}+\frac{2}{\pi}P\int^{\infty}_{0} \frac{\omega'\varepsilon_2^{\alpha\beta}(\omega')}{\omega'^{2}-\omega^{2}}
+ \varepsilon_1^{\alpha\beta} = \delta^{\alpha\beta}+\frac{2}{\pi}P\int^{\infty}_{0} \frac{\omega'\varepsilon_2^{\alpha\beta}(\omega')}{\omega'^{2}-\omega^{2}} d\omega'
 \end{equation}
 
 
+The absorption coefficient can be obtained by the real part and imaginary part of dielectric function
+\begin{equation}
+ \alpha(\omega) = \frac{\sqrt{2}\omega}{c} \left[ \sqrt{{\varepsilon_1(\omega)}^2+{\varepsilon_2(\omega)}^2}-{\varepsilon_1(\omega)} \right]^{1/2}
+\end{equation}
 
-
-In this section, only some very basic equations are covered when it is related to calculate the dielectric function. If someone is interested in this topic, one can find more detailed in Ref. $??$.
+In this section, only some basic equations are covered when it is related to calculate the dielectric function. If someone is interested in this topic, one can find more detailed in Ref. $??$.
 
 \begin{comment}
 \section{k $\cdot$ p method}
@@ -1567,17 +1570,18 @@ H_{j',j} = \left [  \ebloch<j><\bold {k_0}>  + \frac{{\hbar}^2}{2m} { (\bold{k}^
 \end{equation}
 
 From the above equation, the coefficient $ C_{n,j}^{\bold k}$ and $\ebloch<n><\bold {k}>$ are calculated.
+\end{comment}
 
-\section{Scalar relativistic approximation and spin-orbit coupling}
+\section{Spin-orbit coupling}
 \label{srasoc}
 
 \subsection{Dirac equation}
 
 Non-relativistic quantum mechanics has broad application, but when the speed of electron is near the speed of light, 
-the non-relativistic quantum is not suitable to describe the system of electron. So Dirac introduced an equation which is called
+the non-relativistic quantum is not suitable to describe the system of electron. Therefore, Dirac introduced an equation which is called
 Dirac equation applying for relativistic case.
 
-\noindent Dirac defined the Hamiltonian: 
+\noindent Dirac defined the Hamiltonian as
 
 \begin{equation}\label{dirac}
 \hat{H}_\textit{dirac} = c \boldsymbol{\alpha} \textbf{P} + \boldsymbol{\beta}mc^{2} + V
@@ -1612,7 +1616,7 @@ i & 0\end{array} \right),
 0 & -1\end{array} \right)
 \end{equation}
 
-\subsection{Derivation of ????}
+\subsection{Derivation of spin-orbit coupling}
 
 \noindent  $\Psi$ is the wavefunction of Hamiltonian \ref{dirac}, which has four components, but can be 
 written with only two terms:
@@ -1684,7 +1688,6 @@ angular momentum operator. The terms of ${\textbf{P}^2}/(2m) + V$ is Schrödinge
 and Darwin term, respectively, both of them together is called the scalar relativistic approximation (SRA), the last term is the spin-orbit coupling (SOC) term. One has to
 notice that the Darwin term is not hermitian operator, alternatively, which will be $\nabla^2{V} /(8{m}^2 {c}^2)$ instead in the realistic implementation.
 
-\end{comment}
 
 \chapter{Results and discussion}
 

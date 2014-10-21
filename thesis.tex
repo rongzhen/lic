@@ -52,6 +52,7 @@
 \def\wfks{\Psi^{{\textit KS}}(\{ {\textbf r}_{{\textit i}}\})}
 \def\wfhit<#1>{\Psi_{{\textit H}}^{#1}({{\textbf r}_{{\textit i}}})}
 \def\bwf<#1><#2>{\Psi_{#1}^{KS}({\textbf r}_{#2})}
+\def\bwff<#1><#2>{\phi_{#1}({\textbf r}_{#2})}
 \def\bwfn<#1><#2>{\phi_{#1}({\textbf r}{#2})}
 \def\wfbloch<#1><#2>{\Psi_{#1,#2}({\textbf r})}
 \def\ubloch<#1><#2>{u_{#1,#2}({\textbf r})}
@@ -825,7 +826,7 @@ The simplest approximation of the wavefunction for the many-electron Schrödinge
 electrons, the wavefunction with N independent electrons has the following expression:
 
 \begin{equation}\label{wfh}
-\wfh = \bwf<1><1> \bwf<2><2> \cdots \bwf<N><N>, 
+\wfh = \bwff<1><1> \bwff<2><2> \cdots \bwff<N><N>, 
 \end{equation}
 
 where $i$ goes through all the electrons, and  means state of the $i$-th electron in the position of ${\textbf{r}}_{\textit{i}}$, 
@@ -838,33 +839,33 @@ E^{\textit{H}} = <\wfh |\ {\hath}^{\textit{BO}} \ | \wfh  >.
 
 Therefore, making the substitution using \textbf{Eq. \ref{both}} and \textbf{Eq. \ref{wfh}} into \textbf{Eq. \ref{teh}}, the total energy of system is
 \begin{equation}\begin{split}
-&E^\textit{H} = \sumi<i> <\bwf<i><> |\ -\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r})  \ | \bwf<i><> > \\
-& +\frac{1}{2} \suminj<i><j> <\bwf<i><> \bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwf<i><> \bwfn<j><'>>.
+&E^\textit{H} = \sumi<i> <\bwff<i><> |\ -\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r})  \ | \bwff<i><> > \\
+& +\frac{1}{2} \suminj<i><j> <\bwff<i><> \bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwff<i><> \bwfn<j><'>>.
 \end{split}\end{equation}
 
 In order to calculate the stationary state with the lowest energy of the system, the variation of the wavefunction should be
 zero variation in the energy, one can set up the following equation with Lagrange multiplier $E_{i}^H$,
 
 \begin{equation}\label{haa}
- \delta [ E^{\textit{H}} - \sumi<i> E_{i}^{H} (<\bwf<i><> | \bwf<i><> > -1)] = 0. 
+ \delta [ E^{\textit{H}} - \sumi<i> E_{i}^{H} (<\bwff<i><> | \bwff<i><> > -1)] = 0. 
 \end{equation}
 
-where $(<\bwf<i><> | \bwf<i><> > -1)$ means that the wavefunction is normalized.
+where $(<\bwff<i><> | \bwff<i><> > -1)$ means that the wavefunction is normalized.
 
 In order to calculate the term $\delta ( E_{\textit{H}} ) $, one has to derive
 
 \begin{equation}\begin{split}\label{hartree1}
-& \delta ( \sumi<i> <\bwf<i><> |\ -\frac{\nabla^{2}_{ i}}{2} + V_\textit{ext}(\textbf{r})  \ | \bwf<i><> > ) \\
-&  = \sumi<i> \{ < \delta \bwf<i><> |\ -\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r})  \ | \bwf<i><> >  \\
-&  + <  \delta \bwf<i><> |\ -\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r})  \ |  \bwf<i><> >^{\ast} \}.
+& \delta ( \sumi<i> <\bwff<i><> |\ -\frac{\nabla^{2}_{ i}}{2} + V_\textit{ext}(\textbf{r})  \ | \bwff<i><> > ) \\
+&  = \sumi<i> \{ < \delta \bwff<i><> |\ -\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r})  \ | \bwff<i><> >  \\
+&  + <  \delta \bwff<i><> |\ -\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r})  \ |  \bwff<i><> >^{\ast} \}.
 \end{split}\end{equation}
 
 and 
 
 \begin{equation}\begin{split}\label{hartree2}
-&  \delta( \frac{1}{2} \suminj<i><j> <\bwf<i><> \bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwf<i><> \bwfn<j><'>>)   \\
-& =   \frac{1}{2} \suminj<i><j> \{  <\delta \bwf<i><> \bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwf<i><> \bwfn<j><'>>  \\
-& +   < \bwf<i><> \delta \bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwf<i><> \bwfn<j><'>> +  T_{rem}\},
+&  \delta( \frac{1}{2} \suminj<i><j> <\bwff<i><> \bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwff<i><> \bwfn<j><'>>)   \\
+& =   \frac{1}{2} \suminj<i><j> \{  <\delta \bwff<i><> \bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwff<i><> \bwfn<j><'>>  \\
+& +   < \bwff<i><> \delta \bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwff<i><> \bwfn<j><'>> +  T_{rem}\},
 \end{split}\end{equation}
 
 where $T_{rem}$ is the remaining terms, actually these remaining terms will not affect the derivation.
@@ -872,17 +873,17 @@ where $T_{rem}$ is the remaining terms, actually these remaining terms will not 
 Before getting the final result, there is one more identity 
 
 \begin{equation}\begin{split}\label{hartreelabel1}
-& < \bwf<i><> \delta \bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwf<i><> \bwfn<j><'>> \\
+& < \bwff<i><> \delta \bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwff<i><> \bwfn<j><'>> \\
 & = \int d \textbf{r} d \textbf{r}{'}  \phi_{i}^{*} (\textbf{r}{}) \delta \phi_{j}^{*} (\textbf{r}{'}) \frac{1}{|\textbf{r} - \textbf{r}^{'} |}  \phi_{i}^{} (\textbf{r}{})  \phi_{j}^{} (\textbf{r}{'})\\
 & = \int d \textbf{r}{'} d \textbf{r}  \phi_{i}^{*} (\textbf{r}{'}) \delta \phi_{j}^{*} (\textbf{r}{}) \frac{1}{|\textbf{r}{'} - \textbf{r} |}  \phi_{i}^{} (\textbf{r}{'})  \phi_{j}^{} (\textbf{r})\\
-& = <\delta \bwf<j><> \bwfn<i><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwf<j><> \bwfn<i><'>>.
+& = <\delta \bwff<j><> \bwfn<i><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwff<j><> \bwfn<i><'>>.
 \end{split}\end{equation}
 
 \noindent Therefore, the \textbf{Eq. \ref{hartree2}} will become 
 
 \begin{equation}\begin{split}\label{hartree3}
-&  \delta( \frac{1}{2} \suminj<i><j> <\bwf<i><> \bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwf<i><> \bwfn<j><'>>)   \\
-& =  \suminj<i><j> \{  <\delta \bwf<i><> \bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwf<i><> \bwfn<j><'>> + \frac{T_{rem}}{2}\}.
+&  \delta( \frac{1}{2} \suminj<i><j> <\bwff<i><> \bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwff<i><> \bwfn<j><'>>)   \\
+& =  \suminj<i><j> \{  <\delta \bwff<i><> \bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwff<i><> \bwfn<j><'>> + \frac{T_{rem}}{2}\}.
 \end{split}\end{equation}
 
 
@@ -890,17 +891,17 @@ Taking use of the above two \textbf{Eq. \ref{hartree1}}, and \textbf{Eq. \ref{ha
 
 \begin{equation}
 \begin{split}\label{hha}
-& \frac{1}{\delta  \phi^{*}_{i}(\textbf{r}{})} \delta [ E^{\textit{H}} - \sumi<i> E_{i}^{H} (<\bwf<i><> | \bwf<i><> > -1)] \\
-&  = \frac{1}{\delta  \phi^{*}_{i}(\textbf{r}{})} \{ \sumi<i> \{ < \delta \bwf<i><> |\ -\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r})  \ | \bwf<i><> > + <  \delta \bwf<i><> |\ -\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r})  \ |  \bwf<i><> >^{\ast} \} \\
-& +  \suminj<i><j> \{  <\delta \bwf<i><> \bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwf<i><> \bwfn<j><'>> + \frac{T_{rem}}{2}\} - \sumi<i> E_{i}^{H} (<\bwf<i><> | \bwf<i><> > -1) \} \\
-& =  { \{-\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r})} \}  \bwf<i><> +  \suminj<j><i> \{  <\bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwf<i><> \bwfn<j><'>> - E_{i}^{H}  \bwf<i><>  \}.
+& \frac{1}{\delta  \phi^{*}_{i}(\textbf{r}{})} \delta [ E^{\textit{H}} - \sumi<i> E_{i}^{H} (<\bwff<i><> | \bwff<i><> > -1)] \\
+&  = \frac{1}{\delta  \phi^{*}_{i}(\textbf{r}{})} \{ \sumi<i> \{ < \delta \bwff<i><> |\ -\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r})  \ | \bwff<i><> > + <  \delta \bwff<i><> |\ -\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r})  \ |  \bwff<i><> >^{\ast} \} \\
+& +  \suminj<i><j> \{  <\delta \bwff<i><> \bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwff<i><> \bwfn<j><'>> + \frac{T_{rem}}{2}\} - \sumi<i> E_{i}^{H} (<\bwff<i><> | \bwff<i><> > -1) \} \\
+& =  { \{-\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r})} \}  \bwff<i><> +  \suminj<j><i> \{  <\bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwff<i><> \bwfn<j><'>> - E_{i}^{H}  \bwff<i><>  \}.
 \end{split}
 \end{equation}
 
 Therefore
 
 \begin{equation}\label{hha1}
-(-\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r})+ \suminj<j><i> <\bwfn<j><'>\ | \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwfn<j><'>>) \bwf<i><> = E_{i}^{H} \bwf<i><>,
+(-\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r})+ \suminj<j><i> <\bwfn<j><'>\ | \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwfn<j><'>>) \bwff<i><> = E_{i}^{H} \bwff<i><>,
 \end{equation}
 
 where $E_{i}^{H}$  also can be treated as the energy. The \textbf{Eq. \ref{hha1}} is a group of dependent single
@@ -922,34 +923,34 @@ the wavefunction of the many-electron Schrödinger equation is described in a ma
 \Psi^{HF}(\mathbf{r}_1, \mathbf{r}_2, \ldots, \mathbf{r}_N) =
 \frac{1}{\sqrt{N!}} \left|
 \begin{matrix}
-    \bwf<1><1> & \bwf<1><2> & \cdots & \bwf<1><N> \\
-    \bwf<2><1> & \bwf<1><2> & \cdots & \bwf<1><N> \\
+    \bwff<1><1> & \bwff<1><2> & \cdots & \bwff<1><N> \\
+    \bwff<2><1> & \bwff<1><2> & \cdots & \bwff<1><N> \\
     \vdots               & \vdots               &        & \vdots               \\
-    \bwf<N><1> & \bwf<N><2> & \cdots & \bwf<N><N>
+    \bwff<N><1> & \bwff<N><2> & \cdots & \bwff<N><N>
 \end{matrix} \right|,
 \end{equation}
-\noindent where $i$ goes through all the electron, and $\bwf<i><i>$ means state of the ($i$)-th electron in the position of $\textbf{r}_\textit{i}$. If two columns in the \textbf{Eq. \ref{hfwfm}} are exchanged, 
+\noindent where $i$ goes through all the electron, and $\bwff<i><i>$ means state of the ($i$)-th electron in the position of $\textbf{r}_\textit{i}$. If two columns in the \textbf{Eq. \ref{hfwfm}} are exchanged, 
 the result is satisfied with the \textbf{Eq. \ref{hfwf}}.
 
 Repeating all the processes already done through the Hartree approximation, the total energy of Hartree-Fock is
 
 \begin{equation}\begin{split}
-&E^\textit{HF} = \sumi<i> <\bwf<i><> |\ -\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r})  \ | \bwf<i><> > \\
-& + \frac{1}{2} \suminj<i><j> <\bwf<i><> \bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwf<i><> \bwfn<j><'>> \\
+&E^\textit{HF} = \sumi<i> <\bwff<i><> |\ -\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r})  \ | \bwff<i><> > \\
+& + \frac{1}{2} \suminj<i><j> <\bwff<i><> \bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwff<i><> \bwfn<j><'>> \\
 & - \frac{1}{2} \suminj<i><j> <\bwfn<i><'> \bwfn<j><>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwfn<i><> \bwfn<j><'>>.
 \end{split}\end{equation}
 
 In the same mathematical way as in previous sectrion but somewhat more complicated, the singe particle Hartree-Fock equation can be obtained
 
 \begin{equation}\begin{split}\label{above1}
-& \{ -\frac{\nabla^{2}_{\textit i}}{2} + V_\textit{ext}(\textbf{r})+ \suminj<j><i> <\bwfn<j><'>\ | \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwfn<j><'>> \} \bwf<i><>  \\
-& - \suminj<i><j>  < \bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwfn<i><'> >) \bwfn<j><>  = E_{i}^{HF} \bwf<i><>.
+& \{ -\frac{\nabla^{2}_{\textit i}}{2} + V_\textit{ext}(\textbf{r})+ \suminj<j><i> <\bwfn<j><'>\ | \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwfn<j><'>> \} \bwff<i><>  \\
+& - \suminj<i><j>  < \bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwfn<i><'> >) \bwfn<j><>  = E_{i}^{HF} \bwff<i><>.
 \end{split}\end{equation}
 
 Compared with Hartree equation, there is an extra term in the \textbf{eq. \ref{above1}}, which is so called exchange term. In order to organize the equation in a nice and clear way, the \textbf{eq. \ref{above1}} is equivalent to
 
 \begin{equation}\label{aaaaa}\begin{split}
-\{ -\frac{\nabla^{2}_{\textit i}}{2} + V_\textit{ext}(\textbf{r}) +V_\textit{H}(\textbf{r}) \}  \bwf<i><>  = E_{i}^{HF}   \bwf<i><>, 
+\{ -\frac{\nabla^{2}_{\textit i}}{2} + V_\textit{ext}(\textbf{r}) +V_\textit{H}(\textbf{r}) \}  \bwff<i><>  = E_{i}^{HF}   \bwff<i><>, 
 \end{split}\end{equation}
 where
 \begin{equation}
@@ -959,7 +960,7 @@ where
 \begin{equation}
 \begin{split}
 & \rho_{\textit{i}}^{\textit{HF}}(\textbf{r},\textbf{r}{'}) = \sumi<j> \frac{\phi_{i}^{}(\textbf{r}{'}) \phi_{i}^{*}(\textbf{r}{}) \phi_{j}^{}(\textbf{r}{}) \phi_{j}^{*}(\textbf{r}{'})} {\phi_{i}^{}(\textbf{r}) \phi_{i}^{*}(\textbf{r})}  \\
-& \rho(\textbf{r}) = \sumi<i>  {|\bwf<i><>|}^{2}.
+& \rho(\textbf{r}) = \sumi<i>  {|\bwff<i><>|}^{2}.
 \end{split}
 \end{equation}
 
@@ -1245,7 +1246,7 @@ where $\rho^{i}$ and $\rho^{i+1}$are the charge density of the $\textit{(i)}$:th
 In order to solve \textbf{Eq. (\ref{aaa})}, The Kohn-Sham equation will be transformed into the general eigenvalue problem. Now if the Kohn-Sham equation is given as
 
 \begin{equation}\label{ep2}
- \hath \Psi^{KS} (r) = E \Psi^(KS) (r).
+ \hath \Psi^{KS} (r) = E \Psi^{KS} (r).
 \end{equation}
  
 
@@ -1355,7 +1356,7 @@ The KS wavefunction is defined as
 \end{equation}
 
 where $\phi_{\textbf {k}+\textbf{G}} ({\textbf r})$ is the basis function of wavefunction. It is written in slightly different format in order to distinct the different methods in the following text, for example, 
-$\phi^{APW}$ represents the basis function for the augmented plane wave (APW) method.
+$\phi^{APW}_{\textbf {k}+\textbf{G}}({\textbf r})$ represents the basis function for the augmented plane wave (APW) method.
 
 The basis set for APW is defined by Slater
 
@@ -1493,13 +1494,13 @@ interband contribution can be achived by calculating single conduction band and 
 The real part of dielectric function can be calculated by Kramers$-$Kronig relations
 
 \begin{equation}
- \varepsilon_1^{\alpha\beta} = \delta^{\alpha\beta}+\frac{2}{\pi}P\int^{\infty}_{0} \frac{\omega'\varepsilon_2^{\alpha\beta}(\omega')}{\omega'^{2}-\omega^{2}} d\omega'
+ \varepsilon_1^{\alpha\beta} = \delta^{\alpha\beta}+\frac{2}{\pi}P\int^{\infty}_{0} \frac{\omega'\varepsilon_2^{\alpha\beta}(\omega')}{\omega'^{2}-\omega^{2}} d\omega'.
 \end{equation}
 
 
 The absorption coefficient can be obtained by the real part and imaginary part of dielectric function
 \begin{equation}
- \alpha(\omega) = \frac{\sqrt{2}\omega}{c} \left[ \sqrt{{\varepsilon_1(\omega)}^2+{\varepsilon_2(\omega)}^2}-{\varepsilon_1(\omega)} \right]^{1/2}
+ \alpha(\omega) = \frac{\sqrt{2}\omega}{c} \left[ \sqrt{{\varepsilon_1(\omega)}^2+{\varepsilon_2(\omega)}^2}-{\varepsilon_1(\omega)} \right]^{1/2}.
 \end{equation}
 
 In this section, only some basic equations are covered when it is related to calculate the dielectric function. If someone is interested in this topic, one can find more detailed in Ref. $??$.
@@ -1577,17 +1578,16 @@ From the above equation, the coefficient $ C_{n,j}^{\bold k}$ and $\ebloch<n><\b
 
 \subsection{Dirac equation}
 
-Non-relativistic quantum mechanics has broad application, but when the speed of electron is near the speed of light, 
-the non-relativistic quantum is not suitable to describe the system of electron. Therefore, Dirac introduced an equation which is called
+Non-relativistic quantum mechanics has broad application. However the non-relativistic quantum is not suitable to describe the system of electron where the speed of electron is near the speed of light. Therefore, Dirac introduced an equation which is called
 Dirac equation applying for relativistic case.
 
 \noindent Dirac defined the Hamiltonian as
 
 \begin{equation}\label{dirac}
-\hat{H}_\textit{dirac} = c \boldsymbol{\alpha} \textbf{P} + \boldsymbol{\beta}mc^{2} + V
+\hat{H}_\textit{dirac} = c \boldsymbol{\alpha} \textbf{P} + \boldsymbol{\beta}mc^{2} + V,
 \end{equation}
 
-\noindent where $\textbf{P} = -i\hbar \nabla $ is the momentum operator,$V$ is the general potential, $m$ is the mass of electron 
+\noindent where $\textbf{P} = -i\hbar \nabla $ is the momentum operator, $V$ is the general potential, $m$ is the mass of electron 
 and $c$ is the speed of light, $\boldsymbol{\alpha}$ and $\boldsymbol{\beta}$ are $4 \times 4$ matrices.
 \begin{equation}
  \boldsymbol{\alpha} = \left( \begin{array}{cc}
@@ -1595,7 +1595,7 @@ and $c$ is the speed of light, $\boldsymbol{\alpha}$ and $\boldsymbol{\beta}$ ar
  \boldsymbol{\sigma} & 0   \end{array} \right),
 \boldsymbol{\beta}= \left( \begin{array}{ccc}
 \boldsymbol{I} & 0\\
-0 & -\boldsymbol{I}\end{array} \right)
+0 & -\boldsymbol{I}\end{array} \right),
 \end{equation}
 
 \noindent where $\boldsymbol{I}$ is unit matrix, and $\boldsymbol{\sigma}$ is Pauli matrix.
@@ -1613,13 +1613,13 @@ and $c$ is the speed of light, $\boldsymbol{\alpha}$ and $\boldsymbol{\beta}$ ar
 i & 0\end{array} \right),
 \boldsymbol{\sigma}_z= \left( \begin{array}{ccc}
 1 & 0\\
-0 & -1\end{array} \right)
+0 & -1\end{array} \right).
 \end{equation}
 
 \subsection{Derivation of spin-orbit coupling}
 
-\noindent  $\Psi$ is the wavefunction of Hamiltonian \ref{dirac}, which has four components, but can be 
-written with only two terms:
+\noindent  Assume that $\Psi$ is the wavefunction of Hamiltonian in \textbf {Eq. \ref{dirac}} which has four components. However, it can be 
+written with only two terms
 \begin{equation}\label{diracwf}
 \Psi= \left( \begin{array}{c}
 \phi^{\uparrow} \\
@@ -1628,65 +1628,64 @@ written with only two terms:
 \chi^{\downarrow} \end{array} \right),
  \Psi = \left(\begin{array}{c}
 \phi \\               
-\chi \end{array} \right)
+\chi \end{array} \right),
 \end{equation}
 
-\noindent where $\phi$ includes the two terms of $\phi^{\uparrow}$ and $\phi^{\downarrow}$, and $\chi$ contains  $\chi^{\uparrow}$ and $\chi^{\downarrow}$;
-under the nonrelativistic limit,$\phi$ is bigger than $\chi$ by the ratio of $v/c$, where $v$ and $c$ are speed of particle and light, respectively,
-so the $\phi$ is the large term and $\chi$ is the small one.
+\noindent where $\phi$ includes the two terms of $\phi^{\uparrow}$ and $\phi^{\downarrow}$, and $\chi$ contains  $\chi^{\uparrow}$ and $\chi^{\downarrow}$.
+Under the nonrelativistic limit, $\phi$ is bigger than $\chi$ by the ratio of $v/c$, where $v$ and $c$ are speed of particle and light, respectively.
+Therefore, the $\phi$ is considered as the large term and $\chi$ is the small one.
 
-\noindent In order to derive the scalar relativistic approximation and the spin-orbit coupling terms, we need to take use of the nonrelativistic limit approximation of the 
-Dirac eigenvalue equation probelm, here nonrelativistic limit means $v^2/c^2 << 1$.
+\noindent In order to derive the spin-orbit coupling term, we need to take use of the nonrelativistic limit approximation ($v^2/c^2 << 1$) of the Dirac eigenvalue equation probelm. The Dirac equation is 
 
 \begin{equation}\label{diracse}
- E \Psi = (c \boldsymbol{\alpha} \textbf{P} + \boldsymbol{\beta}mc^{2} + V) \Psi
+ E \Psi = (c \boldsymbol{\alpha} \textbf{P} + \boldsymbol{\beta}mc^{2} + V) \Psi.
 \end{equation}
 
-\noindent For convenience, we define:
+\noindent For convenience, the following equation is defined
 
 \begin{equation}\label{dirace}
-E^{\prime} = E - mc^2
+E^{\prime} = E - mc^2,
 \end{equation}
 
-\noindent where $E$ is the total energy, $mc^2$ are $E'$ are the rest mass energy and the remaining energy excluding the rest mass energy, under the nonrelativistic limit, 
-$E'$ is far smaller than $mc^2$. Now, putting equation \ref{diracwf} and \ref{dirace} into equation \ref{diracse}:
+\noindent where $E$ is the total energy, $mc^2$ and $E'$ are the rest mass energy and the remaining energy excluding the rest mass energy, respectively. Under the nonrelativistic limit, 
+$E'$ is far smaller than $mc^2$. The following equation is given when \textbf{Eq. \ref{diracwf}} and \textbf{Eq. \ref{dirace}} are put into \textbf{ Eq.\ref{diracse}}
 
 \begin{equation}
 \begin{split}
 &(E^{\prime} - V) \Phi - c \boldsymbol{\sigma} \textbf{P} \chi = 0\\                
-&-c\boldsymbol{\sigma} \textbf{P} \Phi + (E^{\prime}+2mc^2-V)\chi = 0
+&-c\boldsymbol{\sigma} \textbf{P} \Phi + (E^{\prime}+2mc^2-V)\chi = 0.
 \end{split}
 \end{equation}
 
-\noindent To eliminate the $\chi$ (otherwise, it is the antiparticle problem), we can end up with the equation:
+\noindent To eliminate the $\chi$ (otherwise, it is the antiparticle problem), it ends up with the equation
   \begin{equation}
-(V + \frac{1}{2m} (\boldsymbol{\sigma} \textbf{P}) (1+\frac{E^{\prime}-V}{2mc^2})^{-1} (\boldsymbol{\sigma} \textbf{P}) )\phi=E^{\prime}\phi
+(V + \frac{1}{2m} (\boldsymbol{\sigma} \textbf{P}) (1+\frac{E^{\prime}-V}{2mc^2})^{-1} (\boldsymbol{\sigma} \textbf{P}) )\phi=E^{\prime}\phi,
 \end{equation}
 
-\noindent Since ${E^{\prime}-V}$ is far smaller than ${2mc^2}$, so taking advantage of the taylor expansion and the following identites:
+\noindent where ${E^{\prime}-V}$ is far smaller than ${2mc^2}$, therefore taking advantage of the taylor expansion of it,  as well as the following identites
 \begin{equation}
 \begin{split}
 & [\textbf{P}, V ]= -i \hbar \triangledown V \\                
-&(\boldsymbol{\sigma} \textbf{A} )(\boldsymbol{\sigma} \textbf{B}) = \textbf{A} \textbf{B} + i\boldsymbol{\sigma}[\textbf{A} \times \textbf{B}]
+&(\boldsymbol{\sigma} \textbf{A} )(\boldsymbol{\sigma} \textbf{B}) = \textbf{A} \textbf{B} + i\boldsymbol{\sigma}[\textbf{A} \times \textbf{B}].
 \end{split}
 \end{equation}
 
-After some operations, we finally will get the following equation under the nonrelativistic limit:
+The final equation is obtained under the nonrelativistic limit
 
 \begin{equation}
-E^{\prime} \phi = (\frac{\textbf{P}^2}{2m} + V - \frac{\textbf{P}^4}{8 {m}^3 {c}^2}-\frac{i\hbar}{4{m}^2 {c}^2} (\nabla{V})\textbf{P}+\frac{\hbar}{4 m^2 c^2} \boldsymbol{\sigma}[\nabla{V} \times \textbf{P}]) \phi
+E^{\prime} \phi = (\frac{\textbf{P}^2}{2m} + V - \frac{\textbf{P}^4}{8 {m}^3 {c}^2}-\frac{i\hbar}{4{m}^2 {c}^2} (\nabla{V})\textbf{P}+\frac{\hbar}{4 m^2 c^2} \boldsymbol{\sigma}[\nabla{V} \times \textbf{P}]) \phi.
 \end{equation}
 
 Furthermore, we can approximate the above equation to the simpler expression under spherical symmetry potential:
 
 \begin{equation}
- E^{\prime} \phi = (\frac{\textbf{P}^2}{2m} +V - \frac{\textbf{P}^4}{8 {m}^3 {c}^2}-\frac{i\hbar}{4{m}^2 {c}^2} (\nabla{V})\textbf{P}+\frac{1}{2 m^2 c^2} \frac{1}{R} \frac{dV}{dR}\textbf{S}\textbf{L}) \phi
+ E^{\prime} \phi = (\frac{\textbf{P}^2}{2m} +V - \frac{\textbf{P}^4}{8 {m}^3 {c}^2}-\frac{i\hbar}{4{m}^2 {c}^2} (\nabla{V})\textbf{P}+\frac{1}{2 m^2 c^2} \frac{1}{R} \frac{dV}{dR}\textbf{S}\textbf{L}) \phi,
 \end{equation}
 
 \noindent where $\textbf{S}={\hbar}{\boldsymbol{\sigma}}/2$ is the Pauli spinor, and $\textbf{L}=\textbf{R} \times \textbf{P}$ is the orbital
 angular momentum operator. The terms of ${\textbf{P}^2}/(2m) + V$ is Schrödinger term,  ${\textbf{P}^4}/(8 {m}^3 {c}^2)$ and ${i\hbar} (\nabla{V})\textbf{P} /(4{m}^2 {c}^2)$  are the mass enhancement 
-and Darwin term, respectively, both of them together is called the scalar relativistic approximation (SRA), the last term is the spin-orbit coupling (SOC) term. One has to
-notice that the Darwin term is not hermitian operator, alternatively, which will be $\nabla^2{V} /(8{m}^2 {c}^2)$ instead in the realistic implementation.
+and Darwin term, respectively, both of them together is called the scalar relativistic approximation (SRA). The last term is the spin-orbit coupling (SOC) term. One has to
+notice that the Darwin term is not hermitian operator, alternatively, $\nabla^2{V} /(8{m}^2 {c}^2)$ is suggested in the realistic implementation.
 
 
 \chapter{Results and discussion}
