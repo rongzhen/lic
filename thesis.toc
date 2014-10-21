@@ -17,28 +17,29 @@
 \contentsline {subsection}{\numberline {2.1.1}The quantum many-body problem}{15}
 \contentsline {subsection}{\numberline {2.1.2}The Born-Oppenheimer approximation}{16}
 \contentsline {subsection}{\numberline {2.1.3}Hartree, Hartree-Fock approximation and density functional theory}{18}
-\contentsline {subsubsection}{\numberline {2.1.3.1}Hartree approximation}{18}
-\contentsline {subsubsection}{\numberline {2.1.3.2}Hartree-Fock approximation}{21}
-\contentsline {subsubsection}{\numberline {2.1.3.3}Density functional theory}{22}
-\contentsline {subsubsection}{\numberline {2.1.3.4}Kohn-Sham equation}{24}
-\contentsline {subsubsection}{\numberline {2.1.3.5}The exchange-correlation energy}{26}
-\contentsline {subsection}{\numberline {2.1.4}Solving the secular equation}{27}
-\contentsline {subsection}{\numberline {2.1.5}Eigenvalue problem}{28}
-\contentsline {section}{\numberline {2.2}Full-potential linearized augmented plane wave method}{30}
-\contentsline {subsection}{\numberline {2.2.1}Introduction}{30}
-\contentsline {subsection}{\numberline {2.2.2}Wavefunction}{30}
-\contentsline {subsubsection}{\numberline {2.2.2.1}Augmented plane wave method}{30}
-\contentsline {subsubsection}{\numberline {2.2.2.2}Linearized augmented plane wave method}{32}
-\contentsline {subsubsection}{\numberline {2.2.2.3}Linearized augmented plane wave method plus local orbitals}{33}
-\contentsline {subsubsection}{\numberline {2.2.2.4}Augmented plane wave method plus local orbitals}{33}
-\contentsline {subsection}{\numberline {2.2.3}Effective potential}{33}
-\contentsline {section}{\numberline {2.3}Dielectric function}{33}
-\contentsline {section}{\numberline {2.4}Spin-orbit coupling}{34}
-\contentsline {subsection}{\numberline {2.4.1}Dirac equation}{34}
-\contentsline {subsection}{\numberline {2.4.2}Derivation of spin-orbit coupling}{35}
-\contentsline {chapter}{\chapternumberline {3}Results and discussion}{37}
-\contentsline {section}{\numberline {3.1}Parameterization of energy bands for CIGS}{37}
-\contentsline {section}{\numberline {3.2}Calculations of dielectric function for CIGS}{47}
-\contentsline {chapter}{\chapternumberline {4}Summary of the publications}{51}
-\contentsline {chapter}{\chapternumberline {5}Concluding remarks and future work}{52}
-\contentsline {chapter}{Acknowledgements}{53}
+\contentsline {subsubsection}{\numberline {2.1.3.1}Mathematics preparation}{18}
+\contentsline {subsubsection}{\numberline {2.1.3.2}Hartree approximation}{19}
+\contentsline {subsubsection}{\numberline {2.1.3.3}Hartree-Fock approximation}{22}
+\contentsline {subsubsection}{\numberline {2.1.3.4}Density functional theory}{23}
+\contentsline {subsubsection}{\numberline {2.1.3.5}Kohn-Sham equation}{25}
+\contentsline {subsubsection}{\numberline {2.1.3.6}The exchange-correlation energy}{27}
+\contentsline {subsection}{\numberline {2.1.4}Solving the secular equation}{28}
+\contentsline {subsection}{\numberline {2.1.5}Eigenvalue problem}{29}
+\contentsline {section}{\numberline {2.2}Full-potential linearized augmented plane wave method}{31}
+\contentsline {subsection}{\numberline {2.2.1}Introduction}{31}
+\contentsline {subsection}{\numberline {2.2.2}Wavefunction}{31}
+\contentsline {subsubsection}{\numberline {2.2.2.1}Augmented plane wave method}{31}
+\contentsline {subsubsection}{\numberline {2.2.2.2}Linearized augmented plane wave method}{33}
+\contentsline {subsubsection}{\numberline {2.2.2.3}Linearized augmented plane wave method plus local orbitals}{34}
+\contentsline {subsubsection}{\numberline {2.2.2.4}Augmented plane wave method plus local orbitals}{34}
+\contentsline {subsection}{\numberline {2.2.3}Effective potential}{34}
+\contentsline {section}{\numberline {2.3}Dielectric function}{34}
+\contentsline {section}{\numberline {2.4}Spin-orbit coupling}{35}
+\contentsline {subsection}{\numberline {2.4.1}Dirac equation}{35}
+\contentsline {subsection}{\numberline {2.4.2}Derivation of spin-orbit coupling}{36}
+\contentsline {chapter}{\chapternumberline {3}Results and discussion}{38}
+\contentsline {section}{\numberline {3.1}Parameterization of energy bands for CIGS}{38}
+\contentsline {section}{\numberline {3.2}Calculations of dielectric function for CIGS}{48}
+\contentsline {chapter}{\chapternumberline {4}Summary of the publications}{52}
+\contentsline {chapter}{\chapternumberline {5}Concluding remarks and future work}{53}
+\contentsline {chapter}{Acknowledgements}{54}

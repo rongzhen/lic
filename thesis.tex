@@ -817,8 +817,53 @@ Schrödinger problem. There are two major problems from the Born-Oppenheimer app
 However, it is still possible to solve.
 The second one is that the Hamiltonian operator is applied to single electron, however, the wavefunction is not shown how it depends on the single-electron wavefunction. The latter problem 
 could be solved by the following three methods: The first method is to figure out a way to seperate or approximate the wavefunction into single-electron function, like the Hartree and Hartree-Fock (HF) method. The second method is to
-find a Hamiltonian which is possbile to act on wavefunction directly, like density functional theory (DFT). Either of these two methods has "pros and cons". The third one is called Kohn-Sham equation,
-which is a combination of above two methods. It starts from DFT, however takes advantage of single-electron wavefunction. 
+find a Hamiltonian which is possbile to act on wavefunction directly, like density functional theory (DFT). Either of these two methods has "pros and cons". The third one is called Kohn$-$Sham equation,
+which is a combination of above two methods. It starts from DFT, however takes advantage of single$-$electron wavefunction. 
+
+\subsubsection{Mathematics preparation}
+
+In order to solve the Hartree, Hartree-Fock and Kohn$-$Sham equation, some mathematical knowledge are need to be introduction in this section, that is, Lagrange multiplier and functionals.
+
+\textbf{Lagrange multiplier}
+
+Lagrange multiplier is a method which can maximize or minimize functions with the constraint. In order to maximize or minimize a function $f(x,y,z)$ with constraint $g(x,y,z) = c$,  the generalized format of lagrane multiplier
+method is given as
+
+\begin{equation}
+\begin{split}
+& \frac{\partial \left( f(x,y,z) - \lambda g(x,y,z)\right)}{\partial x}=0, \\
+& \frac{\partial \left( f(x,y,z) - \lambda g(x,y,z)\right)}{\partial y}=0, \\
+& \frac{\partial \left( f(x,y,z) - \lambda g(x,y,z)\right)}{\partial z}=0, \\
+& \frac{\partial \left( f(x,y,z) - \lambda g(x,y,z)\right)}{\partial \lambda}=0.
+\end{split}
+\end{equation}
+
+
+For example, assume that the ground state wavefunction is $\Psi_0$, and ground state total energy $E_0$ is give as
+
+\begin{equation}
+ E_0 = \min(E) = \min<\Psi (\textbf{r}) | \widehat{H} | \Psi (\textbf{r})>, \mathrm{and} \  \Psi(\textbf{r}) \longrightarrow \Psi_0(\textbf{0}).
+\end{equation}
+
+The constraint of wavefunction is normalization
+\begin{equation}
+ <\Psi(\textbf{r}) |  \Psi(\textbf{r})> = 1.
+\end{equation}
+
+Therefore, problem of the ground state total energy can be solved by Lagrange multiplier method
+\begin{equation}\label{lagmul}
+\begin{split}
+&  \frac{\partial \left( E - \lambda g \right)}{\partial \Psi(\textbf{r})} = \frac{\partial \left( <\Psi (\textbf{r}) | \widehat{H} | \Psi (\textbf{r})> - \lambda (<\Psi(\textbf{r})|\Psi(\textbf{r})>-1) \right)}{\partial \Psi(\textbf{r})} = 0, \\
+&  \frac{\partial \left( E - \lambda g \right)}{\partial \lambda} = \frac{\partial \left( <\Psi (\textbf{r}) | \widehat{H} | \Psi (\textbf{r})> - \lambda (<\Psi(\textbf{r})|\Psi(\textbf{r})>-1) \right)}{\partial \lambda} = 0.
+\end{split}
+\end{equation}
+
+\textbf{Functional}
+
+A functional takes a function as an input, and output is a number. In above section, the $E$ is the function of wavefunction $\Psi(\textbf{r})$, which is a functional. In order to solve the \textbf{Eq. \ref{lagmul}}, basic properties
+of functionals and their derivatives are needed to introduced.
+
+The 
 
 \subsubsection{Hartree approximation}
 \label{ha}
