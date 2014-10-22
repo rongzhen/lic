@@ -54,6 +54,7 @@
 \def\bwf<#1><#2>{\Psi_{#1}^{KS}({\textbf r}_{#2})}
 \def\bwff<#1><#2>{\phi_{#1}({\textbf r}_{#2})}
 \def\bwfn<#1><#2>{\phi_{#1}({\textbf r}{#2})}
+\def\bwfnn<#1><#2>{\phi_{#1}({\textbf r}_{#2})}
 \def\wfbloch<#1><#2>{\Psi_{#1,#2}({\textbf r})}
 \def\ubloch<#1><#2>{u_{#1,#2}({\textbf r})}
 \def\ebloch<#1><#2>{E_{#1,#2}}
@@ -690,7 +691,7 @@ This CIGS/CdS/ZnO strucutrure was optimized to improve the cell performance.
 \subsection{The quantum many-body problem}
 \label{ch:mb}
 
-\noindent A solid material contains a huge number of atoms (around 10\textsuperscript{23} \si{\per\cubic\centi\metre} ), and the atom is constructed by nuclei and electrons. 
+\noindent A solid material contains a huge number of atoms (around 10\textsuperscript{23} \si{\per\cubic\centi\metre} ), and each atom is constructed by a nucleus and electron(s). 
 According to the quantum mechanics principles, all the properties of any system are known if one can figure out a way to solve 
 the quantum many-body Schrödinger equation exactly. Let us start from the time-independent many-body Schrödinger equation
 
@@ -698,8 +699,8 @@ the quantum many-body Schrödinger equation exactly. Let us start from the time-
  {\hath} {\wf} = {E} {\wf},
 \end{equation}
 
-where $\wf$  is the exact wavefunction, $\textbf{r}_\textit{i}$ and $\textbf{R}_\textit{I}$  stands for electron and
-nucleus coordinators, respectively.
+where $\wf$  is the exact wavefunction, $\textbf{r}_\textit{i}$ and $\textbf{R}_\textit{I}$  stands for coordinators of electron and
+nucleus, respectively.
 
 In the \textbf{Eq. \ref{ssth}}, $E$ is the total energy of the system, and $\hath$ is the Hamiltonian which is defined as
 
@@ -710,7 +711,7 @@ In the \textbf{Eq. \ref{ssth}}, $E$ is the total energy of the system, and $\hat
 \end{split}
 \end{equation}
 
-where the indices $\textit{i}$, $\textit{j}$ are used for electron and $\textit{I}$, $\textit{J}$ are used for atomic nuclei, $Z_\textit{I}$ means the charge of the $\textit{I}$-th nucleus,
+where the indices $\textit{i}$, $\textit{j}$ are used for the electrons and $\textit{I}$, $\textit{J}$ are used for atomic nuclei, $Z_\textit{I}$ means the charge of the $\textit{I}$-th nucleus,
 $\textit{M}_I$ denotes the nuclear mass, $m_e$ is the electron mass, $\varepsilon_0$ is vacuum permittivity.
 
 In atomic units, the reduced Planck constant $\hbar$, the electron mass $m$, the Bohr radius $a_0$, and the electron charge
@@ -722,12 +723,12 @@ constant ($\alpha$ = ${e^2}/{(4 \pi \varepsilon_0 c \hbar)}$) , so the velocity 
 & + \frac{1}{2} \suminj<i><j> \frac{1}{ |\textbf{r}_\textit{i}-\textbf{r}_\textit{j}|} + \frac{1}{2} \suminj<I><J> \frac{Z_\textit{I} Z_\textit{J}\ }{|\textbf{R}_\textit{I}-\textbf{R}_\textit{J}|}.
 \end{split}\end{equation}
 
-In \textbf{Eq. \ref{sth}}, the first and second terms are the kinetic energy operator of the electron and nuclei, respectively.
+In \textbf{Eq. \ref{sth}}, the first and second terms are the kinetic energy operator of the electrons and nuclei, respectively.
 The other terms in order are Coulomb interactions between electrons and nuclei, electrons and electrons and nuclei and nuclei.
 
-One can not solve the \textbf{Eq. \ref{ssth}} exactly at present, since there are enormous amont of atoms to calculate in reality. More importantly, the exactly form of the wavefunction is unknown.
-To approximate the exact solution, generally one can divide it into three different levels, the first level is the Born-Oppenheimer approximation; the second level is Hartree,
-Hartree-Fock (HF), density functional theory (DFT) and Kohn-Sham (KS) equation; the last level is to solve the secular equation, which is an equation that is solved to find the eigenvalue of matrix.
+One can not solve the \textbf{Eq. \ref{ssth}} exactly at present since there are enormous amont of atoms to calculate in reality. More importantly, the exactly form of the wavefunction is unknown.
+To approximate the exact solution, generally one can divide it into three different levels: the first level is the Born-Oppenheimer approximation; the second level is Hartree,
+Hartree-Fock (HF), density functional theory (DFT) and Kohn-Sham (KS) equation; the last level is to solve the secular equation which is an equation that is solved to find the eigenvalue of matrix.
 
 \subsection{The Born-Oppenheimer approximation}
 \label{ch:boa}
@@ -746,54 +747,56 @@ some positions and that of the other electrons.
 \end{figure}
 \end{comment}
 
-The separation of motion between electrons and nuclei is called the Born-Oppenheimer approximation. Since the position of nuclei is fixed, wavefunction can be written as
+The separation of motion between electrons and nuclei is called the Born-Oppenheimer approximation. Since the positions of nuclei are fixed, wavefunction can be written as
 
 \begin{equation}\label{nwf}
 {\wf}  {\approx}  {\Psi^{ \textit{BO}} ( \{ {\textbf{r}_{\textit{i}}},\textbf{R}_{\textit I} \}) } = {\theta(\{{\textbf R}_{\textit I}\})} {\Psi'(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})},
 \end{equation}
 
-where ${\Psi'(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})}$  is the electrons wavefunction in the Born-Oppenheimer approximation, the semicolon means that $\textbf R_I$ is only discrete value belonging to the set of atomic positions. 
+where ${\Psi'(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})}$  is the electrons wavefunction in the Born-Oppenheimer approximation. The semicolon means that $\textbf R_I$ is only discrete value belonging to the set of atomic positions. 
  
-The \textbf{Eq. \ref{sth}} can be defined as
+The \textbf{Eq. \ref{sth}} can be re-defined as
 
-\begin{equation}\label{nh}
- {\hath} = - \sumi<I> \frac{{{\nabla}_{\textit{I}}^{2}}}{2 M_\textit{I}} + {\hath}^{BO}.
+\begin{equation}\begin{split}\label{nh}
+& {\hath} = - \sumi<I> \frac{{{\nabla}_{\textit{I}}^{2}}}{2 M_\textit{I}} + \frac{1}{2} \suminj<I><J> \frac{Z_\textit{I} Z_\textit{J}\ }{|\textbf{R}_\textit{I}-\textbf{R}_\textit{J}|} + {\hath}^{BO} \\
+& = - \sumi<I> \frac{{{\nabla}_{\textit{I}}^{2}}}{2 M_\textit{I}} + {\hat{H}_{I,J}} + {\hath}^{BO}
+ \end{split}
 \end{equation}
 
 where 
 
 \begin{equation}\label{both}\begin{split}
-&{\hath}^\textit{BO}\ =\ - \sumi<i>   \frac{{{\nabla}_{\textit{i}}^{2}}}{2}  - \sumi<i> V_{ext}(\textbf{r}_{\textit{i}})  + \frac{1}{2} \suminj<i><j> \frac{1}{ |\textbf{r}_\textit{i}-\textbf{r}_\textit{j}|} + \frac{1}{2} \suminj<I><J> \frac{Z_\textit{I} Z_\textit{J}\ }{|\textbf{R}_\textit{I}-\textbf{R}_\textit{J}|} \\
-&\ = \ \hat{T} \ + \ \hat{V}_{ext} \ + \ \hat{V}_\textit{int}\ + \ N_\textit{II},
+&{\hath}^\textit{BO}\ =\ - \sumi<i>   \frac{{{\nabla}_{\textit{i}}^{2}}}{2}  - \sumi<i> V_{ext}(\textbf{r}_{\textit{i}})  + \frac{1}{2} \suminj<i><j> \frac{1}{ |\textbf{r}_\textit{i}-\textbf{r}_\textit{j}|} \\
+&\ = \ \hat{T} \ + \ \hat{V}_{ext} \ + \ \hat{V}_\textit{int}\ ,
 \end{split}\end{equation}
 
 and
 
-\begin{equation}\label{vext}
-V_{ext}(\textbf{r}_{\textit{i}}) =  \sumi<I> \frac{Z_\textit{I}}{|\textbf{r}_\textit{i}-\textbf{R}_\textit{I}|},
+\begin{equation}\begin{split}\label{vext}
+& \hat{T} = - \sumi<i>   \frac{{{\nabla}_{\textit{i}}^{2}}}{2}, \\
+& V_{ext}(\textbf{r}_{\textit{i}}) =  \sumi<I> \frac{Z_\textit{I}}{|\textbf{r}_\textit{i}-\textbf{R}_\textit{I}|}, \\
+& \hat{V}_\textit{int} =  \frac{1}{2} \suminj<i><j> \frac{1}{ |\textbf{r}_\textit{i}-\textbf{r}_\textit{j}|}, \\
+& {\hat{H}_{I,J}} = \frac{1}{2} \suminj<I><J> \frac{Z_\textit{I} Z_\textit{J}\ }{|\textbf{R}_\textit{I}-\textbf{R}_\textit{J}|},
+\end{split}
 \end{equation}
 
-where ${\hath}^\textit{BO}$  is the Hamitonian for the electrons within the Born-Oppenheimer approximation. The subscript $ext$ means $external$ in \textbf{Eq. \ref{vext}}, this term describes the external potentials interaction. 
+where ${\hath}^\textit{BO}$  is the Hamitonian for the electrons within the Born-Oppenheimer approximation. The subscript $ext$ means $external$ in \textbf{Eq. \ref{both}}, and $V_{ext}(\textbf{r}_{\textit{i}})$ describes the external potentials interaction. 
 
 Thereby, the new Schrödinger equation combined with \textbf{Eq. \ref{nwf}} and \textbf{Eq. \ref{nh}} is 
 
 \begin{equation}
- (- \sumi<I> \frac{{{\nabla}_{\textit{I}}^{2}}}{2 M_\textit{I}} + {\hath}^{BO} ) ({\theta(\{{\textbf R}_{\textit I}\})} {\Psi'(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})}) = E(\{{\textbf R_I}\}) ({\theta(\{{\textbf R}_{\textit I}\})} {\Psi'(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})}),
+ (- \sumi<I> \frac{{{\nabla}_{\textit{I}}^{2}}}{2 M_\textit{I}} + \hat{H}_{I,J} + {\hath}^{BO} ) ({\theta(\{{\textbf R}_{\textit I}\})} {\Psi'(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})}) = E(\{{\textbf R_I}\}) ({\theta(\{{\textbf R}_{\textit I}\})} {\Psi'(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})}),
 \end{equation}
  
-\noindent where, $E(\{{\textbf R_I}\})$ is the total energy. One can end up with the following equation using \textbf{Eq. \ref{nh}} and \textbf{Eq. \ref{both}}
+\noindent where, $E(\{{\textbf R_I}\})$ is the total energy. One can end up with the following equation using \textbf{Eq. \ref{both}}
 
-\begin{equation}\label{bose}
-{\hath}^{BO} {\Psi'(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})} = E^\textit{BO}{(\{\textbf{R}_{\textit I}\})} {\Psi'(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})},
+\begin{equation}\begin{split}\label{ise}
+& {\hath}^{BO} {\Psi'(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})} = E^\textit{BO}{(\{\textbf{R}_{\textit I}\})} {\Psi'(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})}, \\
+& ( \hat{H}_{I1}+\hat{H}_{I2}+\hat{H}_{I3}+\hat{H}_{I,J}+E^{BO}(\{{\textbf R}_{\textit I}\}) ) {\theta(\{\textbf{R}_{\textit I}\})} = E(\{{\textbf R_I}\}) {\theta(\{\textbf{R}_{\textit I}\})},
+\end{split}
 \end{equation}
 
-\noindent where $E^\textit{BO}{(\{\textbf{R}_{\textit I}\})}$ is the energy of this electronic system,
-
-\begin{equation}\label{ise}
-( \hat{H}_{I1}+\hat{H}_{I2}+\hat{H}_{I3}+E^{BO}(\{{\textbf R}_{\textit I}\}) ) {\theta(\{\textbf{R}_{\textit I}\})} = E(\{{\textbf R_I}\}) {\theta(\{\textbf{R}_{\textit I}\})},
-\end{equation}
-
-where
+\noindent where $E^\textit{BO}{(\{\textbf{R}_{\textit I}\})}$ is the energy of this electronic system, and 
 
 \begin{equation}\begin{split}
  &  \hat{H}_{I1} = - \sumi<I> \frac{{{\nabla}_{\textit{I}}^{2}}}{2 M_\textit{I}}   \\
@@ -804,20 +807,19 @@ where
 From \textbf{Eq. \ref{ise}}, one observes that the lattice dynamical properties of certain system within the Born-Oppenheimer approximation can be obtained. To solve this equation,
 the ground state energy $E^{BO}(\{{{\textbf R}_{\textit I}}\})$ of electron system is needed. Here, $\{{\textbf R}_{\textit I}\}$ are the parameterized values from the atom position.
  
-In summary, the Schrödinger equation of electron and nucleus is derived seperately within the Born-Oppenheimer approximation. When one refers to calculations of the ground state properties,
-which means to take use of the Schrödinger equation of electron only, e.g., \textbf{Eq. \ref{bose}}, and Schrödinger equation of nucleus is used for the calculation of lattice dynamics.
+In summary, the Schrödinger equation of the electrons and nuclei is derived seperately within the Born-Oppenheimer approximation. When one refers to calculations of the ground state properties,
+which means the Schrödinger equation of the electrons is applied, e.g., first line in \textbf{Eq. \ref{ise}}, and Schrödinger equation of nuclei is used for the calculation of lattice dynamics.
 
-The \textbf{Eq. \ref{both}} is much simpler than \textbf{Eq. \ref{sth}}. However, the equation is still not solvable. Further approximations  are needed
+The \textbf{Eq. \ref{ise}} (first line) is much simpler than \textbf{Eq. \ref{nwf}}. However, it is still not solvable. Further approximations  are needed
 to solve this many-body problem.
 
 \subsection{Hartree, Hartree-Fock approximation and density functional theory}
 
-From last section, the seperation of wavefunction is given within Born-Oppenheimer approximation, the quantum many-body Schrödinger problem becomes the many-electron 
-Schrödinger problem. There are two major problems from the Born-Oppenheimer approximation, the first problem is that the number of electron is around 10\textsuperscript{23} \si{\per\cubic\centi\metre}, which is a huge numerical problem.
-However, it is still possible to solve.
-The second one is that the Hamiltonian operator is applied to single electron, however, the wavefunction is not shown how it depends on the single-electron wavefunction. The latter problem 
-could be solved by the following three methods: The first method is to figure out a way to seperate or approximate the wavefunction into single-electron function, like the Hartree and Hartree-Fock (HF) method. The second method is to
-find a Hamiltonian which is possbile to act on wavefunction directly, like density functional theory (DFT). Either of these two methods has "pros and cons". The third one is called Kohn$-$Sham equation,
+From last section, the seperation of wavefunction is given within Born-Oppenheimer approximation. The quantum many-body Schrödinger problem becomes the many-electron 
+Schrödinger problem. There are two major problems from the Born-Oppenheimer approximation: the first problem is that the number of electron is around 10\textsuperscript{23} \si{\per\cubic\centi\metre}, which is a huge numerical 
+problem.However, it is still possible to solve; the second one is that the Hamiltonian operator is applied to single electron, however, the wavefunction is not shown how it depends on the single-electron wavefunction.
+The latter problem can be solved by one of the following three methods: the first method is to figure out a way to seperate or approximate the wavefunction into single-electron function, such as the Hartree and Hartree-Fock (HF) method;
+the second method is to find a Hamiltonian which is possbile to act on wavefunction directly, such as density functional theory (DFT). Either of these two methods has "pros and cons"; the third one is called Kohn$-$Sham equation,
 which is a combination of above two methods. It starts from DFT, however takes advantage of single$-$electron wavefunction. 
 
 \subsubsection{Mathematics preparation}
@@ -860,57 +862,127 @@ Therefore, problem of the ground state total energy can be solved by Lagrange mu
 
 \textbf{Functional}
 
-A functional takes a function as an input, and output is a number. In above section, the $E$ is the function of wavefunction $\Psi(\textbf{r})$, which is a functional. In order to solve the \textbf{Eq. \ref{lagmul}}, basic properties
-of functionals and their derivatives are needed to introduced.
+A functional takes a function as an input, and output is a number. In previous section, the total energy $E$ is the function of wavefunction $\Psi(\textbf{r})$, which is a functional. In order to solve the \textbf{Eq. \ref{lagmul}}, 
+basic properties of functionals and their derivatives are needed to introduced.
+
+Assume that a set of points are defined as $y^0 = (y_1^0, y_2^0, \cdots, y_N^0)$. A function with multivariables is given as $F(y_1, y_2, \cdots, y_N)$, then a small change away from $y^0$ leads to the change of
+function $F(y_1, y_2, \cdots, y_N)$ by 
+
+\begin{equation}\label{functional1}
+\delta F(y_1, y_2, \cdots, y_N) = \sum\limits_{i=1}^N \frac{\partial F(y_1, y_2, \cdots, y_N)}{\partial y_i} {\Big |}_{y_i^0}  \delta {y_i}.
+\end{equation}
+
+A one-to-one map $y_n = g(x_n)$ is defned, where $g(x_n)$ has $N$ finite number of variables. In order to be utilized in physics, the $g(x_n)$ should be allowed all the real numbers in certain interval, such as $[x_0, x_N]$, that is,
+$N$ is allowed to be infinite number ($\infty$). 
+
+Assume that $x_n$ is defined within interval $[x_0, x_N]$, and there are $N$ points in this interval, as well as $x_{n+1}-x_{n} = \varepsilon$. Therefore, $x_N-x_0 = N \varepsilon$, that is, $x_n = n \varepsilon + x_0$, 
+and $y_n = g(x_n) = g (x_0+n \varepsilon)$. Therefore, $g(x_n) = g(x)$ with the limit $\varepsilon \rightarrow 0$ and $N \rightarrow \infty$,  where $x$ can be any real number in the interval. That is, $F(g(x_1), g(x_2), \cdots, g(x_N))
+= F(g(x))$ under the limit of $N \rightarrow \infty$, which is a functional.
+
+The derivative of function can lead to the derivative of functionals. If the $y_n$ is substituted for $g(x_n)$ in \textbf{Eq. \ref{functional1}}, the new equation is given as
 
 
+\begin{equation}\label{functional2}
+\delta F(g(x_1), g(x_2), \cdots, g(x_N)) = \sum\limits_{i=1}^N \frac{\partial F(g(x_1), g(x_2), \cdots, g(x_N))}{\partial g(x_i)} {\Big |}_{g^0(x_i)}  \delta {g(x_i)}.
+\end{equation}
+
+
+Recall the definition of integral for function
+
+\begin{equation}
+ \int_{x0}^{x_N} f(x)dx = \lim\limits_{\varepsilon_{i} \rightarrow 0} \sum\limits_{i=1}^{N} \varepsilon_{i}f(x_i), \mathrm{where}\ N \rightarrow  \infty.
+\end{equation}
+
+
+Therefore, the \textbf{Eq. \ref{functional2}} is equivalence to
+
+\begin{equation}\begin{split}
+& \delta F(g(x_1), g(x_2), \cdots, g(x_N)) \\
+& = \sum\limits_{i=1}^N \frac{\partial F(g(x_1), g(x_2), \cdots, g(x_N))}{\partial g(x_i)} {\Big |}_{g^0(x_i)}  \delta {g(x_i)} \\
+& = \sum\limits_{i=1}^N \varepsilon_i \frac{\partial F(g(x_1), g(x_2), \cdots, g(x_N))}{\varepsilon_i \partial g(x_i)} {\Big |}_{g^0(x_i)}  \delta {g(x_i)} \\
+& =  \int_{x0}^{x_N} \frac{\partial F(g(x))}{\partial g(x)} {\Big |}_{g^0(x)} \delta g(x) dx \\
+& = \int \frac{\partial F(g(x))}{\partial g(x)} \delta g(x) dx \\
+& = F[g(x) + \delta g(x)] - F[g(x)]
+\end{split}
+\end{equation}
+
+In order to calculate the derivative of a functional in reality, first, $F[g(x) + \delta g(x)] - F[g(x)]$ is solved using Taylor expansion; 
+Second, the result from first step is compared with $\int \frac{\partial F(g(x))}{\partial g(x)} \delta g(x) dx $. For example, a funcional $F[g(x)] = \int f(g(x)) dx$  is defined, and  
+
+\begin{equation}
+\begin{split}
+& F[g(x) + \delta g(x)] - F[g(x)] \\
+& = \int f(g(x)+\delta g(x)) dy - \int f(g(x))dy \\
+& = \int ( f(g(x))+ \frac{\partial f(g(x))}{\partial g(x)} \delta g(x) + O(\delta g(x))^2)dx - \int f(g(x))dx \\
+& = \int \frac{\partial f(g(x))}{\partial g(x)} \delta g(x) dx
+\end{split}
+\end{equation}
+
+Therefore, 
+
+\begin{equation}
+\frac{\partial F(g(x))}{\partial g(x)} \delta g(x) = \frac{\partial f(g(x))}{\partial g(x)} \delta g(x)
+\end{equation}
+
+That is, 
+
+\begin{equation} \label{functional3}
+\frac{\partial F(g(x))}{\partial g(x)} = \frac{\partial f(g(x))}{\partial g(x)}
+\end{equation}
+
+The result in \textbf{Eq. \ref{functional3}} is useful to derive the solution in the following sections.
 
 \subsubsection{Hartree approximation}
 \label{ha}
 The simplest approximation of the wavefunction for the many-electron Schrödinger equation is the form of acting like independent
-electrons, the wavefunction with N independent electrons has the following expression:
+electrons. The wavefunction with N independent electrons is given as
 
 \begin{equation}\label{wfh}
 \wfh = \bwff<1><1> \bwff<2><2> \cdots \bwff<N><N>, 
 \end{equation}
 
-where $i$ goes through all the electrons, and  means state of the $i$-th electron in the position of ${\textbf{r}}_{\textit{i}}$, 
-from here and following the $\textbf R$ is suppressed in the wavefunction since they are in fixed position. The total energy of the system can be written down 
-in the following way
+where $i$ goes through all the electrons, and $\bwff<i><i>$ means state of the $i$-th electron in the position of ${\textbf{r}}_{\textit{i}}$.
+From here and following, the $\textbf R$ is suppressed in the wavefunction since they are in fixed position. The total energy of the system can be written as
 
 \begin{equation}\label{teh}
 E^{\textit{H}} = <\wfh |\ {\hath}^{\textit{BO}} \ | \wfh  >.
 \end{equation}
 
-Therefore, making the substitution using \textbf{Eq. \ref{both}} and \textbf{Eq. \ref{wfh}} into \textbf{Eq. \ref{teh}}, the total energy of system is
+Therefore, the total energy of system is given by making the substitution using \textbf{Eq. \ref{both}} and \textbf{Eq. \ref{wfh}} into \textbf{Eq. \ref{teh}}
 \begin{equation}\begin{split}
-&E^\textit{H} = \sumi<i> <\bwff<i><> |\ -\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r})  \ | \bwff<i><> > \\
-& +\frac{1}{2} \suminj<i><j> <\bwff<i><> \bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwff<i><> \bwfn<j><'>>.
+&E^\textit{H} = \sumi<i> <\bwff<i><i> |\ -\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r}_\textbf{i})  \ | \bwff<i><i> > \\
+& +\frac{1}{2} \suminj<i><j> <\bwff<i><i> \bwfnn<j><j>|\ \frac{1}{|\textbf{r}_\textbf{i} - \textbf{r}_\textbf{j} |} \ | \bwff<i><i> \bwfnn<j><j>>.
 \end{split}\end{equation}
 
 In order to calculate the stationary state with the lowest energy of the system, the variation of the wavefunction should be
-zero variation in the energy, one can set up the following equation with Lagrange multiplier $E_{i}^H$,
+zero variation in the energy. One can set up the following equation with Lagrange multiplier $E_{i}^H$,
 
 \begin{equation}\label{haa}
- \delta [ E^{\textit{H}} - \sumi<i> E_{i}^{H} (<\bwff<i><> | \bwff<i><> > -1)] = 0. 
+ \frac{\delta(E^{\textit{H}} - \sumi<i> E_{i}^{H} (<\bwff<i><i> | \bwff<i><i> > -1))}{\delta \phi_{i}^*({\textbf r})}  = 0. 
 \end{equation}
 
-where $(<\bwff<i><> | \bwff<i><> > -1)$ means that the wavefunction is normalized.
+where $(<\bwff<i><i> | \bwff<i><i> > -1)$ means that the wavefunction is normalized, and the minimization is with respect to ${\delta \phi_{i}^*({\textbf r})}$.
 
-In order to calculate the term $\delta ( E_{\textit{H}} ) $, one has to derive
+\textbf{Eq. \ref{haa}} is calculated by derivative of functionals, which is given as
+
+\begin{equation}\label{variation1}
+ \frac{\delta E^{\textit{H}} }{\delta \phi_{i}^*({\textbf r})}  = E_{i}^{H} \bwff<i><i>
+\end{equation}
+
+
+The left term in \textbf{Eq. \ref{variation1}} can be calculated by two parts using \textbf{Eq. \ref{functional3}}. The first part is 
 
 \begin{equation}\begin{split}\label{hartree1}
-& \delta ( \sumi<i> <\bwff<i><> |\ -\frac{\nabla^{2}_{ i}}{2} + V_\textit{ext}(\textbf{r})  \ | \bwff<i><> > ) \\
-&  = \sumi<i> \{ < \delta \bwff<i><> |\ -\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r})  \ | \bwff<i><> >  \\
-&  + <  \delta \bwff<i><> |\ -\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r})  \ |  \bwff<i><> >^{\ast} \}.
+& \frac{\delta ( \sumi<i> <\bwff<i><i> |\ -\frac{\nabla^{2}_{ i}}{2} + V_\textit{ext}(\textbf{r}_\textbf{i}))  \ | \bwff<i><i> > )}{\delta \phi_{i}^*({\textbf r})}  \\
+&  =  (-\frac{\nabla^{2}_{ i}}{2} + V_\textit{ext}(\textbf{r}_\textbf{})) \bwff<i><>
 \end{split}\end{equation}
 
-and 
+The second part is
 
 \begin{equation}\begin{split}\label{hartree2}
-&  \delta( \frac{1}{2} \suminj<i><j> <\bwff<i><> \bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwff<i><> \bwfn<j><'>>)   \\
-& =   \frac{1}{2} \suminj<i><j> \{  <\delta \bwff<i><> \bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwff<i><> \bwfn<j><'>>  \\
-& +   < \bwff<i><> \delta \bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwff<i><> \bwfn<j><'>> +  T_{rem}\},
+& \frac{\delta( \frac{1}{2} \suminj<i><j> <\bwff<i><i> \bwff<j><j>|\ \frac{1}{|\textbf{r}_\textbf{i} - \textbf{r}_\textbf{j} |} \ | \bwff<i><i> \bwff<j><j>>)}{\delta \phi_{i}^*({\textbf r})}   \\
+& = <\bwff<j><j>|\ \frac{1}{|\textbf{r} - \textbf{r}_{j} |} \ |  \bwff<j><j>>) d \textbf{r}_\textbf{j} \phi_\textbf{i} (\textbf{r}) \\
+& = <\bwff<j><j>|\ \frac{1}{|\textbf{r} - \textbf{r'} |} \ |  \bwff<j><j>>) d \textbf{r'} \phi_\textbf{i} (\textbf{r})
 \end{split}\end{equation}
 
 where $T_{rem}$ is the remaining terms, actually these remaining terms will not affect the derivation.
