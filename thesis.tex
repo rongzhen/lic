@@ -822,116 +822,6 @@ The latter problem can be solved by one of the following three methods: the firs
 the second method is to find a Hamiltonian which is possbile to act on wavefunction directly, such as density functional theory (DFT). Either of these two methods has "pros and cons"; the third one is called Kohn$-$Sham equation,
 which is a combination of above two methods. It starts from DFT, however takes advantage of single$-$electron wavefunction. 
 
-\subsubsection{Mathematics preparation}
-
-In order to solve the Hartree, Hartree-Fock and Kohn$-$Sham equation, some mathematical knowledge are need to be introduction in this section, that is, Lagrange multiplier and functionals.
-
-\textbf{Lagrange multiplier}
-
-Lagrange multiplier is a method which can maximize or minimize functions with the constraint. In order to maximize or minimize a function $f(x,y,z)$ with constraint $g(x,y,z) = c$,  the generalized format of lagrane multiplier
-method is given as
-
-\begin{equation}
-\begin{split}
-& \frac{\partial \left( f(x,y,z) - \lambda g(x,y,z)\right)}{\partial x}=0, \\
-& \frac{\partial \left( f(x,y,z) - \lambda g(x,y,z)\right)}{\partial y}=0, \\
-& \frac{\partial \left( f(x,y,z) - \lambda g(x,y,z)\right)}{\partial z}=0, \\
-& \frac{\partial \left( f(x,y,z) - \lambda g(x,y,z)\right)}{\partial \lambda}=0.
-\end{split}
-\end{equation}
-
-
-For example, assume that the ground state wavefunction is $\Psi_0$, and ground state total energy $E_0$ is give as
-
-\begin{equation}
- E_0 = \min(E) = \min<\Psi (\textbf{r}) | \widehat{H} | \Psi (\textbf{r})>, \mathrm{and} \  \Psi(\textbf{r}) \longrightarrow \Psi_0(\textbf{0}).
-\end{equation}
-
-The constraint of wavefunction is normalization
-\begin{equation}
- <\Psi(\textbf{r}) |  \Psi(\textbf{r})> = 1.
-\end{equation}
-
-Therefore, problem of the ground state total energy can be solved by Lagrange multiplier method
-\begin{equation}\label{lagmul}
-\begin{split}
-&  \frac{\partial \left( E - \lambda g \right)}{\partial \Psi(\textbf{r})} = \frac{\partial \left( <\Psi (\textbf{r}) | \widehat{H} | \Psi (\textbf{r})> - \lambda (<\Psi(\textbf{r})|\Psi(\textbf{r})>-1) \right)}{\partial \Psi(\textbf{r})} = 0, \\
-&  \frac{\partial \left( E - \lambda g \right)}{\partial \lambda} = \frac{\partial \left( <\Psi (\textbf{r}) | \widehat{H} | \Psi (\textbf{r})> - \lambda (<\Psi(\textbf{r})|\Psi(\textbf{r})>-1) \right)}{\partial \lambda} = 0.
-\end{split}
-\end{equation}
-
-\textbf{Functional}
-
-A functional takes a function as an input, and output is a number. In previous section, the total energy $E$ is the function of wavefunction $\Psi(\textbf{r})$, which is a functional. In order to solve the \textbf{Eq. \ref{lagmul}}, 
-basic properties of functionals and their derivatives are needed to introduced.
-
-Assume that a set of points are defined as $y^0 = (y_1^0, y_2^0, \cdots, y_N^0)$. A function with multivariables is given as $F(y_1, y_2, \cdots, y_N)$, then a small change away from $y^0$ leads to the change of
-function $F(y_1, y_2, \cdots, y_N)$ by 
-
-\begin{equation}\label{functional1}
-\delta F(y_1, y_2, \cdots, y_N) = \sum\limits_{i=1}^N \frac{\partial F(y_1, y_2, \cdots, y_N)}{\partial y_i} {\Big |}_{y_i^0}  \delta {y_i}.
-\end{equation}
-
-A one-to-one map $y_n = g(x_n)$ is defned, where $g(x_n)$ has $N$ finite number of variables. In order to be utilized in physics, the $g(x_n)$ should be allowed all the real numbers in certain interval, such as $[x_0, x_N]$, that is,
-$N$ is allowed to be infinite number ($\infty$). 
-
-Assume that $x_n$ is defined within interval $[x_0, x_N]$, and there are $N$ points in this interval, as well as $x_{n+1}-x_{n} = \varepsilon$. Therefore, $x_N-x_0 = N \varepsilon$, that is, $x_n = n \varepsilon + x_0$, 
-and $y_n = g(x_n) = g (x_0+n \varepsilon)$. Therefore, $g(x_n) = g(x)$ with the limit $\varepsilon \rightarrow 0$ and $N \rightarrow \infty$,  where $x$ can be any real number in the interval. That is, $F(g(x_1), g(x_2), \cdots, g(x_N))
-= F(g(x))$ under the limit of $N \rightarrow \infty$, which is a functional.
-
-The derivative of function can lead to the derivative of functionals. If the $y_n$ is substituted for $g(x_n)$ in \textbf{Eq. \ref{functional1}}, the new equation is given as
-
-
-\begin{equation}\label{functional2}
-\delta F(g(x_1), g(x_2), \cdots, g(x_N)) = \sum\limits_{i=1}^N \frac{\partial F(g(x_1), g(x_2), \cdots, g(x_N))}{\partial g(x_i)} {\Big |}_{g^0(x_i)}  \delta {g(x_i)}.
-\end{equation}
-
-
-Recall the definition of integral for function
-
-\begin{equation}
- \int_{x0}^{x_N} f(x)dx = \lim\limits_{\varepsilon_{i} \rightarrow 0} \sum\limits_{i=1}^{N} \varepsilon_{i}f(x_i), \mathrm{where}\ N \rightarrow  \infty.
-\end{equation}
-
-
-Therefore, the \textbf{Eq. \ref{functional2}} is equivalence to
-
-\begin{equation}\begin{split}
-& \delta F(g(x_1), g(x_2), \cdots, g(x_N)) \\
-& = \sum\limits_{i=1}^N \frac{\partial F(g(x_1), g(x_2), \cdots, g(x_N))}{\partial g(x_i)} {\Big |}_{g^0(x_i)}  \delta {g(x_i)} \\
-& = \sum\limits_{i=1}^N \varepsilon_i \frac{\partial F(g(x_1), g(x_2), \cdots, g(x_N))}{\varepsilon_i \partial g(x_i)} {\Big |}_{g^0(x_i)}  \delta {g(x_i)} \\
-& =  \int_{x0}^{x_N} \frac{\partial F(g(x))}{\partial g(x)} {\Big |}_{g^0(x)} \delta g(x) dx \\
-& = \int \frac{\partial F(g(x))}{\partial g(x)} \delta g(x) dx \\
-& = F[g(x) + \delta g(x)] - F[g(x)]
-\end{split}
-\end{equation}
-
-In order to calculate the derivative of a functional in reality, first, $F[g(x) + \delta g(x)] - F[g(x)]$ is solved using Taylor expansion; 
-Second, the result from first step is compared with $\int \frac{\partial F(g(x))}{\partial g(x)} \delta g(x) dx $. For example, a funcional $F[g(x)] = \int f(g(x)) dx$  is defined, and  
-
-\begin{equation}
-\begin{split}
-& F[g(x) + \delta g(x)] - F[g(x)] \\
-& = \int f(g(x)+\delta g(x)) dy - \int f(g(x))dy \\
-& = \int ( f(g(x))+ \frac{\partial f(g(x))}{\partial g(x)} \delta g(x) + O(\delta g(x))^2)dx - \int f(g(x))dx \\
-& = \int \frac{\partial f(g(x))}{\partial g(x)} \delta g(x) dx
-\end{split}
-\end{equation}
-
-Therefore, 
-
-\begin{equation}
-\frac{\partial F(g(x))}{\partial g(x)} \delta g(x) = \frac{\partial f(g(x))}{\partial g(x)} \delta g(x)
-\end{equation}
-
-That is, 
-
-\begin{equation} \label{functional3}
-\frac{\partial F(g(x))}{\partial g(x)} = \frac{\partial f(g(x))}{\partial g(x)}
-\end{equation}
-
-The result in \textbf{Eq. \ref{functional3}} is useful to derive the solution in the following sections.
-
 \subsubsection{Hartree approximation}
 \label{ha}
 The simplest approximation of the wavefunction for the many-electron Schrödinger equation is the form of acting like independent
@@ -950,49 +840,62 @@ E^{\textit{H}} = <\wfh |\ {\hath}^{\textit{BO}} \ | \wfh  >.
 
 Therefore, the total energy of system is given by making the substitution using \textbf{Eq. \ref{both}} and \textbf{Eq. \ref{wfh}} into \textbf{Eq. \ref{teh}}
 \begin{equation}\begin{split}
-&E^\textit{H} = \sumi<i> <\bwff<i><i> |\ -\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r}_{i})  \ | \bwff<i><i> > \\
-& +\frac{1}{2} \suminj<i><j> <\bwff<i><i> \bwfnn<j><j>|\ \frac{1}{|\textbf{r}_{i} - \textbf{r}_{j} |} \ | \bwff<i><i> \bwfnn<j><j>>.
+& E^\textit{H} = \sumi<i> <\bwff<i><> |\ -\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r})  \ | \bwff<i><> > \\
+& +\frac{1}{2} \sumij<i><j> <\bwff<i><> \phi_{j}({\textbf r'})|\ \frac{1}{|\textbf{r} - \textbf{r'} |} \ | \bwff<i><> \phi_{j}({\textbf r'})>,  
 \end{split}\end{equation}
 
-In order to calculate the stationary state with the lowest energy of the system, the variation of the wavefunction should be
-zero variation in the energy. One can set up the following equation with Lagrange multiplier $E_{i}^H$,
+where $\textbf{r}_\textbf{i}$ and $\textbf{r}_\textbf{j}$ are written in generalized format $\textbf{r}$ and $\textbf{r'}$, respectively.
+
+In order to calculate the stationary state with the lowest energy of the system, the variation of the wavefunction $\phi_{k}(\textbf{r}'')$ should be
+zero variation in the energy. One can set up the variation with Lagrange multiplier $E_{i}^H$,
 
 \begin{equation}\label{haa}
- \frac{\delta(E^{\textit{H}} - \sumi<i> E_{i}^{H} (<\bwff<i><i> | \bwff<i><i> > -1))}{\delta \phi_{i}^*({\textbf r})}  = 0. 
+ \delta(E^{\textit{H}} - \sumi<i> E_{i}^{H} (<\bwff<i><> | \bwff<i><> > -1))  = 0. 
 \end{equation}
 
-where $(<\bwff<i><i> | \bwff<i><i> > -1)$ means that the wavefunction is normalized, and the minimization is with respect to ${\delta \phi_{i}^*({\textbf r})}$.
+where $(<\bwff<i><> | \bwff<i><> > -1)$ means that the wavefunctions are orthogonal.
 
-\textbf{Eq. \ref{haa}} is calculated by derivative of functionals, which is given as
-
-\begin{equation}\label{variation1}
- \frac{\delta E^{\textit{H}} }{\delta \phi_{i}^*({\textbf r})}  = E_{i}^{H} \bwff<i><i>
-\end{equation}
-
-
-The left term in \textbf{Eq. \ref{variation1}} can be calculated by two parts using \textbf{Eq. \ref{functional3}}. The first part is 
+$\delta E^{\textit{H}}$ in \textbf{Eq. \ref{haa}} can be calculated by two parts. The first part is 
 
 \begin{equation}\begin{split}\label{hartree1}
-& \frac{\delta ( \sumi<i> <\bwff<i><i> |\ -\frac{\nabla^{2}_{ i}}{2} + V_\textit{ext}(\textbf{r}_\textbf{i}))  \ | \bwff<i><i> > )}{\delta \phi_{i}^*({\textbf r})}  \\
-&  =  (-\frac{\nabla^{2}_{ i}}{2} + V_\textit{ext}(\textbf{r}_\textbf{})) \bwff<i><>
+&  \delta ( \sumi<i> <\bwff<i><> |\ -\frac{\nabla^{2}_{ i}}{2} + V_\textit{ext}(\textbf{r}_\textbf{i}))  \ | \bwff<i><> > )  \\
+&  =  < \delta \phi_{k}(\textbf{r}'') |\ -\frac{\nabla^{2}_{ k}}{2} + V_\textit{ext}(\textbf{r}'')  \ |  \phi_{k}(\textbf{r}'') > \\
+& +  < \phi_{k}(\textbf{r}'') |\ -\frac{\nabla^{2}_{ k}}{2} + V_\textit{ext}(\textbf{r}'')  \ | \delta \phi_{k}(\textbf{r}'') > 
 \end{split}\end{equation}
 
 The second part is
 
 \begin{equation}\begin{split}\label{hartree2}
-&  \frac{1}{2} \suminj<j><i> \frac{\delta( <\bwff<i><i> \bwff<j><j>|\ \frac{1}{|\textbf{r}_{i} - \textbf{r}_{j} |} \ | \bwff<i><i> \bwff<j><j>>)}{\delta \phi_{i}^*({\textbf r})}   \\
-& =  \suminj<j><i> <\bwff<j><j>|\ \frac{1}{|\textbf{r} - \textbf{r}_{j} |} \ |  \bwff<j><j>>  \phi_{i} (\textbf{r}) \\
-& = \suminj<j><i> <\phi_{j} (\textbf{r'})|\ \frac{1}{|\textbf{r} - \textbf{r'} |} \ |  \phi_{j} (\textbf{r'}) >)  \phi_{i} (\textbf{r})
+& \frac{1}{2}\delta \sumij<i><j> ( <\bwff<i><> \phi_{j}(\textbf{r}') |\ \frac{1}{|\textbf{r} - \textbf{r}' |} \ | \bwff<i><> \phi_{j}(\textbf{r}')>)  \\
+& =  \frac{1}{2} \sum_{i} ( <\bwff<i><> \delta \phi_{k}(\textbf{r}'') |\ \frac{1}{|\textbf{r} - \textbf{r}'' |} \ | \bwff<i><> \phi_{k}(\textbf{r}'')> \\
+& + <\bwff<i><> \phi_{k}(\textbf{r}'') |\ \frac{1}{|\textbf{r} - \textbf{r}'' |} \ | \bwff<i><> \delta \phi_{k}(\textbf{r}'')>) \\
+& + \frac{1}{2} \sum_{j} ( \delta \phi_{k}(\textbf{r}'') \phi_{j}(\textbf{r}') |\ \frac{1}{|\textbf{r}'' - \textbf{r}' |} \ | \phi_{k}(\textbf{r}'') \phi_{j}(\textbf{r}') \\
+& + \phi_{k}(\textbf{r}'') \phi_{j}(\textbf{r}') |\ \frac{1}{|\textbf{r}'' - \textbf{r}' |} \ | \delta \phi_{k}(\textbf{r}'') \phi_{j}(\textbf{r}') ) \\
+& =  \sum_{i} ( <\bwff<i><> \delta \phi_{k}(\textbf{r}'') |\ \frac{1}{|\textbf{r} - \textbf{r}'' |} \ | \bwff<i><> \phi_{k}(\textbf{r}'')> \\
+& + <\bwff<i><> \phi_{k}(\textbf{r}'') |\ \frac{1}{|\textbf{r} - \textbf{r}'' |} \ | \bwff<i><> \delta \phi_{k}(\textbf{r}'')>), \\
 \end{split}\end{equation}
 
-Therefore, \textbf{Eq. \ref{variation1}} is 
+where factor of $\frac{1}{2}$ cancels because the \textit{2}nd (\textit{3}rd) line is the same with \textit{4}th (\textit{5}th) line in \textbf{Eq. \ref{hartree2}} due to the symmetry of $r$ and $r'$, as well as $i$ and $j$. 
 
-\begin{equation}\label{hha1}
-(-\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r})+ \suminj<j><i>  <\bwfn<j><'>\ | \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwfn<j><'>>) \bwff<i><> = E_{i}^{H} \bwff<i><>,
+To get the final solution, one more calculation is given as 
+
+\begin{equation} \begin{split}\label{xixihaha}
+& \delta \sumi<i> E_{i}^{H} (<\phi_{i}(\textbf{r}) | \phi_{i}(\textbf{r}) > -1) \\
+& =  E_{k}^{H} (<\delta \phi_{k}(\textbf{r}'') | \phi_{k}(\textbf{r}'') > + <\phi_{k}(\textbf{r}'') | \phi_{k}(\textbf{r}'') > )
+\end{split}
 \end{equation}
 
-where $E_{i}^{H}$  also can be treated as the energy. The \textbf{Eq. \ref{hha1}} is a group of dependent single
- particle equations. One will find out this equation is self-consistent and can be solved using iteratively.
+
+Therefore, the variation in \textbf{Eq. \ref{haa}} with respect to $\phi^*_{k}(\textbf{r}'')$ is given as 
+
+\begin{equation}\begin{split}\label{hha1}
+& \frac{\delta(E^{\textit{H}} - \sumi<i> E_{i}^{H} (<\bwff<i><> | \bwff<i><> > -1))}{\delta \phi^*_{k}(\textbf{r}'')}  \\
+& = (-\frac{\nabla^{2}_{k}}{2} + V_\textit{ext}(\textbf{r}'')+ \sum_{i}  <\bwfn<i><>\ | \frac{1}{|\textbf{r} - \textbf{r}^{''} |} \ | \bwfn<i><>>) \phi_{k}(\textbf{r}'') = E_{k}^{H} \phi_{k}(\textbf{r}'') \\
+& = (-\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r})+ \sum_{j}  <\bwfn<j><'>\ | \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwfn<j><'>>) \bwff<i><> = E_{i}^{H} \bwff<i><>,
+\end{split}
+\end{equation}
+
+where $E_{i}^{H}$  also can be treated as the energy. The \textbf{Eq. \ref{hha1}} is a group of dependent single particle equations. One will find out this equation is self-consistent and can be solved using iteratively.
 
 \subsubsection{Hartree-Fock approximation}
 Hartree approximation is the simplest approximation, and Hartree-Fock approximation is the method which considers the 
@@ -1023,15 +926,15 @@ Repeating all the processes already done through the Hartree approximation, the 
 
 \begin{equation}\begin{split}
 &E^\textit{HF} = \sumi<i> <\bwff<i><> |\ -\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r})  \ | \bwff<i><> > \\
-& + \frac{1}{2} \suminj<i><j> <\bwff<i><> \bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwff<i><> \bwfn<j><'>> \\
-& - \frac{1}{2} \suminj<i><j> <\bwfn<i><'> \bwfn<j><>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwfn<i><> \bwfn<j><'>>.
+& + \frac{1}{2} \sumij<i><j> <\bwff<i><> \bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwff<i><> \bwfn<j><'>> \\
+& - \frac{1}{2} \sumij<i><j> <\bwfn<i><'> \bwfn<j><>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwfn<i><> \bwfn<j><'>>.
 \end{split}\end{equation}
 
 In the same mathematical way as in previous sectrion but somewhat more complicated, the singe particle Hartree-Fock equation can be obtained
 
 \begin{equation}\begin{split}\label{above1}
-& \{ -\frac{\nabla^{2}_{\textit i}}{2} + V_\textit{ext}(\textbf{r})+ \suminj<j><i> <\bwfn<j><'>\ | \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwfn<j><'>> \} \bwff<i><>  \\
-& - \suminj<i><j>  < \bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwfn<i><'> >) \bwfn<j><>  = E_{i}^{HF} \bwff<i><>.
+& \{ -\frac{\nabla^{2}_{\textit i}}{2} + V_\textit{ext}(\textbf{r})+ \sum_{j} <\bwfn<j><'>\ | \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwfn<j><'>> \} \bwff<i><>  \\
+& - \sum_{j}  < \bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwfn<i><'> >) \bwfn<j><>  = E_{i}^{HF} \bwff<i><>.
 \end{split}\end{equation}
 
 Compared with Hartree equation, there is an extra term in the \textbf{eq. \ref{above1}}, which is so called exchange term. In order to organize the equation in a nice and clear way, the \textbf{eq. \ref{above1}} is equivalent to
@@ -1054,20 +957,17 @@ where
 The \textbf{Eq. \ref{aaaaa}} can be solved in the same way like Hartree approximation however plus one extra term.
 
 \subsubsection{Density functional theory}
-The Hartree and Hartree-Fock methods are very classic methods to solve the many-electron 
- Schrödinger equation. However, the HF method only includes the exchange term, not the electron correlation term, which are not suitable in the solid.
- Apart from the two methods mentioned before, there is a modern method to deal with
- the more complicated calculation of electrons namely the DFT, which is introduced by Hohenberg and
- Kohn in 1964, Kohn and Pople was awarded Chemistry Nobel Prize in 1998.
+The Hartree and Hartree-Fock (HF) methods are very classic methods to solve the many-electron Schrödinger equation. However, the HF method only includes the exchange term, not the electron correlation term, which is not suitable 
+for the solid materials. Apart from the Hartree and HF method, there is a modern method to solve the more complicated calculation of electrons' system, namely the DFT. It is introduced by Hohenberg and Kohn in 1964, moreover, 
+Kohn and Pople was awarded Chemistry Nobel Prize in 1998.
 
-The idea of the DFT is to treat the electron density of solid instead of using the many-particle wavefunction, so one can
- benefit that the degree of freedom reduces from 3N (N is the number of electrons) to 3, which is apparently less complicate than 
-those of Hartree and Hartree-Fock during calculation. 
+The idea of the DFT is to treat the electron density of solid instead of using the many-particle wavefunction. One can benefit that the degree of freedom reduces from 3N (N is the number of electrons) to 3. It is apparently less 
+complicate than those of Hartree and HF during calculations. 
 
 $\textbf{The density as basic variable}$ 
 
 There are two questions coming out if considering the electron density as the role of wavefunction. The first one is whether it
- is the equivalence relation between the electron density and wavefunction in the system, and the second one is how to solve this 
+ is the equivalence relation between the electron density and wavefunction in the system. The second one is how to solve this 
 problem. In order to know that there are two very basic theorems introduced by Hohenberg and Kohn:
 
 \begin{thm}
@@ -1075,12 +975,12 @@ problem. In order to know that there are two very basic theorems introduced by H
 \noindent The first theorem states that the external potential $V_\textit{ext}(\textbf{r})$  is determined uniquely for any electron system by the ground state electron density $\rho$.
 \end{thm}
 
-The above theorem also indicate that all the ground state properties are determined by the true ground state density $\rho$,
-for example, the total energy E = E[$\rho$]. 
+The above theorem indicates that all the ground state properties are determined by the true ground state density $\rho$ as well,
+such as, the total energy E = E[$\rho$]. 
 
-The above theorem also explains the equivalence relation between the electron density and wavefunction, because Hamiltonian is obtained from external potential,
-then the wavefunction is obtained, therefore the corresponding electron density is determined. Moreover, from the theorem, the external potential is unique decided by electron
-density, therefore the electron density contains the same information as the wavefunction.
+The above theorem also explains the equivalence relation between the electron density and wavefunction. Because Hamiltonian is obtained from external potential,
+then the wavefunction is obtained. Therefore the corresponding electron density is determined. Moreover, from the theorem, the external potential is unique decided by electron
+density. Therefore the electron density contains the same information as the wavefunction.
 
 The proof of the theorem is given. Let us assume that there exsits two external potentials named $V^{1}_\textit{ext}(\textbf{r})$ and $V^{2}_\textit{ext}(\textbf{r})$ leading to the same ground state 
 electron density $\rho$. Obviously, this will lead to two different Hamiltonians, that is, $\hat{H}_{1}$ and $\hat{H}_{2}$, and as well as two different corresponding
@@ -1088,11 +988,11 @@ wavefunctions named $\Psi_1$ and $\Psi_2$. Since $\Psi_1$ are not the ground sta
 inequality equations will be satisfied
 
 \begin{equation}\label{hkpf1}\begin{split}
-&  E_1 = \langle \Psi_1\ |\hat{H}_{1}|\ \Psi_1 \rangle  \ < \  \langle \Psi_2\ |\hat{H}_{1}|\ \Psi_2 \rangle.\\
+&  E_1 = \langle \Psi_1\ |\hat{H}_{1}|\ \Psi_1 \rangle  \ < \  \langle \Psi_2\ |\hat{H}_{1}|\ \Psi_2 \rangle,\\
 &  E_2 = \langle \Psi_2\ |\hat{H}_{2}|\ \Psi_2 \rangle  \ < \  \langle \Psi_1\ |\hat{H}_{2}|\ \Psi_1 \rangle.
 \end{split}\end{equation}
 
-Taking advangtage of the form of Hamitonian from \textbf{Eq. \ref{both}}, one can get
+Taking advangtage of the Hamitonian from \textbf{Eq. \ref{both}}, one can get
 \begin{equation}\label{hkpf2}\begin{split}
 &    \langle \Psi_2\ |\hat{H}_{1}|\ \Psi_2 \rangle \\
 &  = \langle \Psi_2\ |\hat{H}_{2} + \hat{H}_{1} - \hat{H}_{2}|\ \Psi_2 \rangle \\
@@ -1106,7 +1006,7 @@ Using \textbf{Eq. \ref{hkpf1}} and \textbf{Eq. \ref{hkpf2}}, the following relat
  E_1  < \  E_2 + \int d \textbf{r} ( V^{1}_\textit{ext}(\textbf{r}) - V^{2}_\textit{ext}(\textbf{r}) )  \rho.
 \end{equation}
 
-Another similar inequality equation will be gained if one changes the form of equation $\langle \Psi_1\ |\hat{H}_{2}|\ \Psi_1 \rangle$ like \textbf{Eq. \ref{hkpf2}}.
+Another similar inequality equation will be gained if one changes the equation $\langle \Psi_1\ |\hat{H}_{2}|\ \Psi_1 \rangle$ like \textbf{Eq. \ref{hkpf2}}
 \begin{equation}\label{hkpf4}
   E_2  < \  E_1 + \int d \textbf{r} ( V^{2}_\textit{ext}(\textbf{r}) - V^{1}_\textit{ext}(\textbf{r}) )  \rho.
 \end{equation}
@@ -1147,21 +1047,21 @@ the exact ground state electron density by minimizing the total energy.
 
 
 
-From those two theorems, one definitely know how to solve this problem theoretically, but in practice, $E[\rho]$ is unknown. 
-Therefore, one more method is needed to deal with it, which is so called Kohn-Sham (KS) equation.
+From those two theorems, one knows how to solve this problem theoretically. However in practice, $E[\rho]$ is unknown. 
+Therefore, one more method is needed to solve it, which is so called Kohn-Sham (KS) equation.
 
 \subsubsection{Kohn-Sham equation}
 
 The Hartree and Hartree-Fock methods are introduced to solve the many-body problem, both of which are based on the idea of transforming complex 
-many-electron problem to single-electron problem by using different wavefunction. The DFT only consider to take use of information from Hamitonian, however not solvable. 
-Therefore, is it possbile to combine these two ideas together? the answer is yes, the DFT is solved by Kohn-Sham equation introduced by Kohn and Sham in 1965,
+many-electron problem to single-electron problem by using different wavefunctions. The DFT only consider to take use of information from Hamitonian, however not solvable. 
+Therefore, is it possbile to combine these two ideas together? the answer is yes. The DFT is solved by Kohn-Sham equation introduced by Kohn and Sham in 1965,
 which is constructed in the following text (ignoring the interaction between nuclei).
 
 Assume that the exact ground-state density is obtained by the wavefunction $\wfks = \bwf<1><1> \bwf<2><2> \cdots \bwf<M><M>$, where M is a number which is 
 less than $10^{23}$ a lot and $\bwf<i><i>$ is auxiliary independent single-electron wavefuntion
 
 \begin{equation}\label{ks1}
- \rho(\textbf{r}) = \sumi<i> {\Psi^{\textit{KS}*}_{i}(\textbf{r})} {\Psi_{i}(\textbf{r})}.
+ \rho(\textbf{r}) = \sumi<i> {\Psi^{\textit{KS}*}_{i}(\textbf{r})} {\Psi^{\textit{KS}}_{i}(\textbf{r})}.
 \end{equation}
 
 If the density is exact, thereby, the total energy is defined exactly, which can be expressed by the following
@@ -1206,7 +1106,7 @@ V_\textit{H}[\rho] \ = \ \frac{1}{2} \int \int \mathrm{d} {\textbf{r}} \mathrm{d
 V_\textit{ext}[\rho]\ = \ \int \mathrm{d}{\textbf{r}} \rho(\textbf{r}) V_\textit{ext}(\textbf{r}). 
 \end{equation}
 
-In order to derive the ground state of the above system, one can view this problem as the process of minimizing the total energy by varying the wavefunction $\Psi^*$. Since
+In order to derive the ground state properties in the above system, one can view this problem as the process of minimizing the total energy by varying the wavefunction $\Psi^{\textit{KS}*}_{\textit{i}}(\textbf{r})$. Since
  the wavefunction can be constructed to electron density (\textbf{Eq. \ref{ks1}}), just like the derivation in the section of Hartree, finally one can get the Kohn-Sham equation
 
 \begin{equation}\label{aaa}
@@ -1223,9 +1123,9 @@ where
 
 One can think of the Hamiltonian in another point of view, e.g., single particle system with three different potentials. 
 
-There is no total energy equation expression yet, however, if one can change the \textbf{Eq. \ref{aaa}} as 
+There is no total energy equation expression yet. However, if one can change the \textbf{Eq. \ref{aaa}} as 
 \begin{equation}\label{bbb}
-\sumi<i> \phi^{*}_{\textit{i}}(\textbf{r})(-\frac{\nabla^{2}_{i}}{2}\ + \ V^\textit{KS})(\textbf{r}) \Psi^{\textit{KS}}_{\textit{i}}(\textbf{r}) = \sumi<i> \phi^{*}_{\textit{i}}E^{\textit{KS}}_{\textit{i}} \phi^{\textit{KS}}_{\textit{i}}(\textbf{r}).
+\sumi<i> \Psi^{\textit{KS}*}_{\textit{i}}(\textbf{r}) (-\frac{\nabla^{2}_{i}}{2}\ + \ V^\textit{KS}(\textbf{r})) \Psi^{\textit{KS}}_{\textit{i}}(\textbf{r}) = \sumi<i> \Psi^{\textit{KS}*}_{\textit{i}}(\textbf{r}) E^{\textit{KS}}_{\textit{i}} \Psi^{\textit{KS}}_{\textit{i}}(\textbf{r}).
 \end{equation}
 
 Based on \textbf{Eq. \ref{ccc}} and \textbf{\ref{bbb}}, the total energy expression is
@@ -1236,12 +1136,12 @@ Based on \textbf{Eq. \ref{ccc}} and \textbf{\ref{bbb}}, the total energy express
 \end{split}
 \end{equation}
 
-So far there are two problems still in the air, one is the exact format of $\upsilon_\textit{xc}(\textbf{r})$, the other one is how to solve the Kohn-Sham equation.
+So far there are two problems still in the air: one is the exact format of $\upsilon_\textit{xc}(\textbf{r})$; the other one is how to solve the Kohn-Sham equation.
 
 \subsubsection{The exchange-correlation energy}
 
 This part is the most difficult part during the process of solving the Kohn-Sham equation, because it is still unknown yet. Therefore, there
- are varies of approximations about it, like the local density approximation (LDA), generalized-gradient approximation (GGA) and many others.
+ are varies of approximations about it, such as, the local density approximation (LDA), generalized-gradient approximation (GGA) and many others.
 
 $\textbf{The local density approximation}$
 
@@ -1268,22 +1168,22 @@ where $N$ is number of electrons within the solid, and $V$ is the volume of soli
 $\textbf{The generalized gradient approximation}$
 
 The GGA is the approximation beyond the LDA, which incorporates not only the density within the tiny volume, but also the gradient
- of the density, the explicit equation is
+ of the density. The explicit equation is
 
 \begin{equation}
 E^{\textit{GGA}}_{\textit{xc}}\ = \ \int \rho(\textbf{r}) \varepsilon_\textit{xc}( (\rho(\textbf{r})), \nabla \rho(\textbf{r}) ) \mathrm{d} \textbf{r}, 
 \end{equation}
 
-where $E^{\textit{GGA}}_{\textit{xc}}$ is the exchange-correlation energy functional for the GGA, $\nabla \rho(\textbf{r})$ is the gradient  of charge density in the position of r.
+where $E^{\textit{GGA}}_{\textit{xc}}$ is the exchange-correlation energy functional for the GGA, $\nabla \rho(\textbf{r})$ is the gradient  of charge density in the position of \textbf{r}.
 
-Of course, there are more modern methods to approximate the exchange-correlation energy, such as: the optimized effective potential
+There are more modern methods to approximate the exchange-correlation energy, such as: the optimized effective potential
 (OEP) method and the hybrid functionals and others			.
 
 \subsection{Solving the secular equation}
 
-The process for solving Kohn-Sham equation can be solved by iteration as well, but the difference between solving Kohn-Sham 
-equation and Hartree or Hartree-Fock equation is that the wavefunction is replaced by the electron density, thereby first an initial 
-electron density is defined by some way, and later on the equation is solved iteratively until the reasonable solution is obtained.
+The process for solving Kohn-Sham equation can be achived by iteration as well. However, the difference between solving Kohn-Sham 
+equation and Hartree or Hartree-Fock equation is that the wavefunction is replaced by the electron density. Thereby, an initial 
+electron density is defined by some way at the beginning of the calculation.  Afterwareds, the equation is solved iteratively until the reasonable solution is obtained.
 
 %%%%%%%%%%%%%%%%%%%%figure
 \tikzstyle{decision} = [diamond, draw, fill=white!20,
@@ -1324,13 +1224,13 @@ electron density is defined by some way, and later on the equation is solved ite
 
 
 
-where $\rho^{i}$ and $\rho^{i+1}$are the charge density of the $\textit{(i)}$:th and $\textit {(i+1)}$:th iteration solving Kohn-Sham equation respectively.
+where $\rho^{i}$ and $\rho^{i+1}$are the charge density of the $\textit{(i)}$:th and $\textit {(i+1)}$:th iteration solving Kohn-Sham equation, respectively.
 
 \vspace{100cm}
 
 \subsection{Eigenvalue problem}
 
-In order to solve \textbf{Eq. (\ref{aaa})}, The Kohn-Sham equation will be transformed into the general eigenvalue problem. Now if the Kohn-Sham equation is given as
+In order to solve \textbf{Eq. (\ref{aaa})}, The Kohn-Sham equation can be transformed into the general eigenvalue problem. Now if the Kohn-Sham equation is given as (ignore the index compared with \textbf{Eq. \ref{aaa}})
 
 \begin{equation}\label{ep2}
  \hath \Psi^{KS} (r) = E \Psi^{KS} (r).
@@ -2437,6 +2337,116 @@ It is needed to insert more after getting some results.
 \chapter{Concluding remarks and future work}
 
 \chapter*{Acknowledgements} \addcontentsline{toc}{chapter}{Acknowledgements}
+
+\chapter{Appendices}
+
+In order to solve the Hartree, Hartree-Fock and Kohn$-$Sham equation, some mathematical knowledge are need to be introduction in this section, that is, Lagrange multiplier and functionals.
+
+\textbf{Lagrange multiplier}
+
+Lagrange multiplier is a method which can maximize or minimize functions with the constraint. In order to maximize or minimize a function $f(x,y,z)$ with constraint $g(x,y,z) = c$,  the generalized format of lagrane multiplier
+method is given as
+
+\begin{equation}
+\begin{split}
+& \frac{\partial \left( f(x,y,z) - \lambda g(x,y,z)\right)}{\partial x}=0, \\
+& \frac{\partial \left( f(x,y,z) - \lambda g(x,y,z)\right)}{\partial y}=0, \\
+& \frac{\partial \left( f(x,y,z) - \lambda g(x,y,z)\right)}{\partial z}=0, \\
+& \frac{\partial \left( f(x,y,z) - \lambda g(x,y,z)\right)}{\partial \lambda}=0.
+\end{split}
+\end{equation}
+
+
+For example, assume that the ground state wavefunction is $\Psi_0$, and ground state total energy $E_0$ is give as
+
+\begin{equation}
+ E_0 = \min(E) = \min<\Psi (\textbf{r}) | \widehat{H} | \Psi (\textbf{r})>, \mathrm{and} \  \Psi(\textbf{r}) \longrightarrow \Psi_0(\textbf{0}).
+\end{equation}
+
+The constraint of wavefunction is normalization
+\begin{equation}
+ <\Psi(\textbf{r}) |  \Psi(\textbf{r})> = 1.
+\end{equation}
+
+Therefore, problem of the ground state total energy can be solved by Lagrange multiplier method
+\begin{equation}\label{lagmul}
+\begin{split}
+&  \frac{\partial \left( E - \lambda g \right)}{\partial \Psi(\textbf{r})} = \frac{\partial \left( <\Psi (\textbf{r}) | \widehat{H} | \Psi (\textbf{r})> - \lambda (<\Psi(\textbf{r})|\Psi(\textbf{r})>-1) \right)}{\partial \Psi(\textbf{r})} = 0, \\
+&  \frac{\partial \left( E - \lambda g \right)}{\partial \lambda} = \frac{\partial \left( <\Psi (\textbf{r}) | \widehat{H} | \Psi (\textbf{r})> - \lambda (<\Psi(\textbf{r})|\Psi(\textbf{r})>-1) \right)}{\partial \lambda} = 0.
+\end{split}
+\end{equation}
+
+\textbf{Functional}
+
+A functional takes a function as an input, and output is a number. In previous section, the total energy $E$ is the function of wavefunction $\Psi(\textbf{r})$, which is a functional. In order to solve the \textbf{Eq. \ref{lagmul}}, 
+basic properties of functionals and their derivatives are needed to introduced.
+
+Assume that a set of points are defined as $y^0 = (y_1^0, y_2^0, \cdots, y_N^0)$. A function with multivariables is given as $F(y_1, y_2, \cdots, y_N)$, then a small change away from $y^0$ leads to the change of
+function $F(y_1, y_2, \cdots, y_N)$ by 
+
+\begin{equation}\label{functional1}
+\delta F(y_1, y_2, \cdots, y_N) = \sum\limits_{i=1}^N \frac{\partial F(y_1, y_2, \cdots, y_N)}{\partial y_i} {\Big |}_{y_i^0}  \delta {y_i}.
+\end{equation}
+
+A one-to-one map $y_n = g(x_n)$ is defned, where $g(x_n)$ has $N$ finite number of variables. In order to be utilized in physics, the $g(x_n)$ should be allowed all the real numbers in certain interval, such as $[x_0, x_N]$, that is,
+$N$ is allowed to be infinite number ($\infty$). 
+
+Assume that $x_n$ is defined within interval $[x_0, x_N]$, and there are $N$ points in this interval, as well as $x_{n+1}-x_{n} = \varepsilon$. Therefore, $x_N-x_0 = N \varepsilon$, that is, $x_n = n \varepsilon + x_0$, 
+and $y_n = g(x_n) = g (x_0+n \varepsilon)$. Therefore, $g(x_n) = g(x)$ with the limit $\varepsilon \rightarrow 0$ and $N \rightarrow \infty$,  where $x$ can be any real number in the interval. That is, $F(g(x_1), g(x_2), \cdots, g(x_N))
+= F(g(x))$ under the limit of $N \rightarrow \infty$, which is a functional.
+
+The derivative of function can lead to the derivative of functionals. If the $y_n$ is substituted for $g(x_n)$ in \textbf{Eq. \ref{functional1}}, the new equation is given as
+
+
+\begin{equation}\label{functional2}
+\delta F(g(x_1), g(x_2), \cdots, g(x_N)) = \sum\limits_{i=1}^N \frac{\partial F(g(x_1), g(x_2), \cdots, g(x_N))}{\partial g(x_i)} {\Big |}_{g^0(x_i)}  \delta {g(x_i)}.
+\end{equation}
+
+
+Recall the definition of integral for function
+
+\begin{equation}
+ \int_{x0}^{x_N} f(x)dx = \lim\limits_{\varepsilon_{i} \rightarrow 0} \sum\limits_{i=1}^{N} \varepsilon_{i}f(x_i), \mathrm{where}\ N \rightarrow  \infty.
+\end{equation}
+
+
+Therefore, the \textbf{Eq. \ref{functional2}} is equivalence to
+
+\begin{equation}\begin{split}
+& \delta F(g(x_1), g(x_2), \cdots, g(x_N)) \\
+& = \sum\limits_{i=1}^N \frac{\partial F(g(x_1), g(x_2), \cdots, g(x_N))}{\partial g(x_i)} {\Big |}_{g^0(x_i)}  \delta {g(x_i)} \\
+& = \sum\limits_{i=1}^N \varepsilon_i \frac{\partial F(g(x_1), g(x_2), \cdots, g(x_N))}{\varepsilon_i \partial g(x_i)} {\Big |}_{g^0(x_i)}  \delta {g(x_i)} \\
+& =  \int_{x0}^{x_N} \frac{\partial F(g(x))}{\partial g(x)} {\Big |}_{g^0(x)} \delta g(x) dx \\
+& = \int \frac{\partial F(g(x))}{\partial g(x)} \delta g(x) dx \\
+& = F[g(x) + \delta g(x)] - F[g(x)]
+\end{split}
+\end{equation}
+
+In order to calculate the derivative of a functional in reality, first, $F[g(x) + \delta g(x)] - F[g(x)]$ is solved using Taylor expansion; 
+Second, the result from first step is compared with $\int \frac{\partial F(g(x))}{\partial g(x)} \delta g(x) dx $. For example, a funcional $F[g(x)] = \int f(g(x)) dx$  is defined, and  
+
+\begin{equation}
+\begin{split}
+& F[g(x) + \delta g(x)] - F[g(x)] \\
+& = \int f(g(x)+\delta g(x)) dy - \int f(g(x))dy \\
+& = \int ( f(g(x))+ \frac{\partial f(g(x))}{\partial g(x)} \delta g(x) + O(\delta g(x))^2)dx - \int f(g(x))dx \\
+& = \int \frac{\partial f(g(x))}{\partial g(x)} \delta g(x) dx
+\end{split}
+\end{equation}
+
+Therefore, 
+
+\begin{equation}
+\frac{\partial F(g(x))}{\partial g(x)} \delta g(x) = \frac{\partial f(g(x))}{\partial g(x)} \delta g(x)
+\end{equation}
+
+That is, 
+
+\begin{equation} \label{functional3}
+\frac{\partial F(g(x))}{\partial g(x)} = \frac{\partial f(g(x))}{\partial g(x)}
+\end{equation}
+
+The result in \textbf{Eq. \ref{functional3}} is useful to derive the solution in Hartree, Hartree Fock and Kohn$-$Sham equation.
 
 
 \end{document}
