@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.16)  24 OCT 2014 18:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.16)  24 OCT 2014 19:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1792,11 +1792,11 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 271.
  (./thesis.toc [7]) [8]
 Package epstopdf Info: Source file: <energy.eps>
-(epstopdf)                    date: 2014-10-19 12:56:13
-(epstopdf)                    size: 504699 bytes
+(epstopdf)                    date: 2014-10-24 17:14:25
+(epstopdf)                    size: 504530 bytes
 (epstopdf)             Output file: <energy-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-10-19 15:00:55
-(epstopdf)                    size: 60104 bytes
+(epstopdf)                    date: 2014-10-24 19:20:33
+(epstopdf)                    size: 60435 bytes
 (epstopdf)             Command: <repstopdf --outfile=energy-eps-converted-to.pd
 f energy.eps>
 (epstopdf)             \includegraphics on input line 287.
@@ -1812,11 +1812,11 @@ Package pdftex.def Info: energy-eps-converted-to.pdf used on input line 287.
 
  <./energy-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <spectrum.eps>
-(epstopdf)                    date: 2014-10-19 12:47:57
-(epstopdf)                    size: 1007240 bytes
+(epstopdf)                    date: 2014-10-24 17:14:26
+(epstopdf)                    size: 1008689 bytes
 (epstopdf)             Output file: <spectrum-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-10-19 15:00:56
-(epstopdf)                    size: 110410 bytes
+(epstopdf)                    date: 2014-10-24 19:20:34
+(epstopdf)                    size: 110860 bytes
 (epstopdf)             Command: <repstopdf --outfile=spectrum-eps-converted-to.
 pdf spectrum.eps>
 (epstopdf)             \includegraphics on input line 305.
@@ -1842,29 +1842,29 @@ Overfull \hbox (85.5549pt too wide) in paragraph at lines 324--325
 
 [3] [4 <./efficiency_chart.jpg>]
 Package epstopdf Info: Source file: <sepratepn.eps>
-(epstopdf)                    date: 2014-10-19 12:47:55
-(epstopdf)                    size: 1235882 bytes
+(epstopdf)                    date: 2014-10-24 17:14:23
+(epstopdf)                    size: 1232272 bytes
 (epstopdf)             Output file: <sepratepn-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-10-19 15:00:57
-(epstopdf)                    size: 220539 bytes
+(epstopdf)                    date: 2014-10-24 19:20:35
+(epstopdf)                    size: 219532 bytes
 (epstopdf)             Command: <repstopdf --outfile=sepratepn-eps-converted-to
 .pdf sepratepn.eps>
 (epstopdf)             \includegraphics on input line 355.
 Package epstopdf Info: Output file is already uptodate.
 
-<sepratepn-eps-converted-to.pdf, id=78, 626.34pt x 255.95625pt>
+<sepratepn-eps-converted-to.pdf, id=78, 632.3625pt x 261.97874pt>
 File: sepratepn-eps-converted-to.pdf Graphic file (type pdf)
 
 <use sepratepn-eps-converted-to.pdf>
 Package pdftex.def Info: sepratepn-eps-converted-to.pdf used on input line 355.
 
-(pdftex.def)             Requested size: 322.50345pt x 131.79745pt.
+(pdftex.def)             Requested size: 368.57838pt x 152.6993pt.
 Package epstopdf Info: Source file: <pnjunction.eps>
-(epstopdf)                    date: 2014-10-19 12:47:55
-(epstopdf)                    size: 1526977 bytes
+(epstopdf)                    date: 2014-10-24 17:14:24
+(epstopdf)                    size: 1516515 bytes
 (epstopdf)             Output file: <pnjunction-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-10-19 15:00:58
-(epstopdf)                    size: 236609 bytes
+(epstopdf)                    date: 2014-10-24 19:20:36
+(epstopdf)                    size: 235223 bytes
 (epstopdf)             Command: <repstopdf --outfile=pnjunction-eps-converted-t
 o.pdf pnjunction.eps>
 (epstopdf)             \includegraphics on input line 374.
@@ -1879,11 +1879,11 @@ Package pdftex.def Info: pnjunction-eps-converted-to.pdf used on input line 374
 (pdftex.def)             Requested size: 322.50345pt x 124.70502pt.
  [5 <./sepratepn-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <illumination.eps>
-(epstopdf)                    date: 2014-10-19 12:47:56
+(epstopdf)                    date: 2014-10-24 17:14:24
 (epstopdf)                    size: 2430434 bytes
 (epstopdf)             Output file: <illumination-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-10-19 15:00:59
-(epstopdf)                    size: 397471 bytes
+(epstopdf)                    date: 2014-10-24 19:20:38
+(epstopdf)                    size: 397469 bytes
 (epstopdf)             Command: <repstopdf --outfile=illumination-eps-converted
 -to.pdf illumination.eps>
 (epstopdf)             \includegraphics on input line 390.
@@ -1898,11 +1898,11 @@ Package pdftex.def Info: illumination-eps-converted-to.pdf used on input line 3
 (pdftex.def)             Requested size: 293.59616pt x 130.98904pt.
  [6 <./pnjunction-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <illumination1.eps>
-(epstopdf)                    date: 2014-10-19 12:47:56
-(epstopdf)                    size: 657547 bytes
+(epstopdf)                    date: 2014-10-24 17:14:24
+(epstopdf)                    size: 646863 bytes
 (epstopdf)             Output file: <illumination1-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-10-19 15:01:00
-(epstopdf)                    size: 77237 bytes
+(epstopdf)                    date: 2014-10-24 19:20:38
+(epstopdf)                    size: 76054 bytes
 (epstopdf)             Command: <repstopdf --outfile=illumination1-eps-converte
 d-to.pdf illumination1.eps>
 (epstopdf)             \includegraphics on input line 400.
@@ -1913,13 +1913,13 @@ File: illumination1-eps-converted-to.pdf Graphic file (type pdf)
 <use illumination1-eps-converted-to.pdf>
 Package pdftex.def Info: illumination1-eps-converted-to.pdf used on input line 
 400.
-(pdftex.def)             Requested size: 284.5605pt x 121.95448pt.
+(pdftex.def)             Requested size: 316.18048pt x 135.5059pt.
 Package epstopdf Info: Source file: <IV.eps>
-(epstopdf)                    date: 2014-10-19 12:47:56
-(epstopdf)                    size: 411958 bytes
+(epstopdf)                    date: 2014-10-24 17:14:24
+(epstopdf)                    size: 410903 bytes
 (epstopdf)             Output file: <IV-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-10-19 15:01:01
-(epstopdf)                    size: 34849 bytes
+(epstopdf)                    date: 2014-10-24 19:20:39
+(epstopdf)                    size: 34599 bytes
 (epstopdf)             Command: <repstopdf --outfile=IV-eps-converted-to.pdf IV
 .eps>
 (epstopdf)             \includegraphics on input line 412.
@@ -1934,11 +1934,11 @@ Package pdftex.def Info: IV-eps-converted-to.pdf used on input line 412.
  [7 <./illumination-eps-converted-to.pdf> <./illumination1-eps-converted-to.pdf
 >] [8 <./IV-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <tree.eps>
-(epstopdf)                    date: 2014-10-19 12:47:57
-(epstopdf)                    size: 279698 bytes
+(epstopdf)                    date: 2014-10-24 17:14:25
+(epstopdf)                    size: 279695 bytes
 (epstopdf)             Output file: <tree-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-10-19 15:01:01
-(epstopdf)                    size: 18425 bytes
+(epstopdf)                    date: 2014-10-24 19:20:39
+(epstopdf)                    size: 18423 bytes
 (epstopdf)             Command: <repstopdf --outfile=tree-eps-converted-to.pdf 
 tree.eps>
 (epstopdf)             \includegraphics on input line 448.
@@ -1962,11 +1962,11 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 498.
  [11]
 Package epstopdf Info: Source file: <structureciise.eps>
-(epstopdf)                    date: 2014-10-19 12:47:57
-(epstopdf)                    size: 1796610 bytes
+(epstopdf)                    date: 2014-10-24 17:14:25
+(epstopdf)                    size: 1796609 bytes
 (epstopdf)             Output file: <structureciise-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-10-19 15:01:02
-(epstopdf)                    size: 388682 bytes
+(epstopdf)                    date: 2014-10-24 19:20:40
+(epstopdf)                    size: 388680 bytes
 (epstopdf)             Command: <repstopdf --outfile=structureciise-eps-convert
 ed-to.pdf structureciise.eps>
 (epstopdf)             \includegraphics on input line 520.
@@ -1978,7 +1978,7 @@ File: structureciise-eps-converted-to.pdf Graphic file (type pdf)
 <use structureciise-eps-converted-to.pdf>
 Package pdftex.def Info: structureciise-eps-converted-to.pdf used on input line
  520.
-(pdftex.def)             Requested size: 170.73918pt x 154.4783pt.
+(pdftex.def)             Requested size: 227.64647pt x 205.96585pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <14.4> on input line 550.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1994,23 +1994,23 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 592.
 [12 <./structureciise-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <devicestruc.eps>
-(epstopdf)                    date: 2014-10-19 12:47:57
-(epstopdf)                    size: 1366858 bytes
+(epstopdf)                    date: 2014-10-24 17:14:25
+(epstopdf)                    size: 1366857 bytes
 (epstopdf)             Output file: <devicestruc-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-10-19 15:01:03
-(epstopdf)                    size: 223311 bytes
+(epstopdf)                    date: 2014-10-24 19:20:41
+(epstopdf)                    size: 223309 bytes
 (epstopdf)             Command: <repstopdf --outfile=devicestruc-eps-converted-
 to.pdf devicestruc.eps>
 (epstopdf)             \includegraphics on input line 614.
 Package epstopdf Info: Output file is already uptodate.
 
-<devicestruc-eps-converted-to.pdf, id=678, 542.025pt x 352.31625pt>
+<devicestruc-eps-converted-to.pdf, id=678, 532.99126pt x 352.31625pt>
 File: devicestruc-eps-converted-to.pdf Graphic file (type pdf)
 
 <use devicestruc-eps-converted-to.pdf>
 Package pdftex.def Info: devicestruc-eps-converted-to.pdf used on input line 61
 4.
-(pdftex.def)             Requested size: 271.01183pt x 176.15768pt.
+(pdftex.def)             Requested size: 266.49498pt x 176.15768pt.
  [13] [14 <./devicestruc-eps-converted-to.pdf>] [15
 
 ] [16] [17]
@@ -2032,11 +2032,11 @@ changes the equa-tion $\OMS/lmsy/m/n/12 h\OT1/lmr/m/n/12 	[] \OMS/lmsy/m/n/12 j
 
 [23] [24] [25] [26] [27] [28] [29] [30]
 Package epstopdf Info: Source file: <unitcell.eps>
-(epstopdf)                    date: 2014-10-21 11:18:22
-(epstopdf)                    size: 552406 bytes
+(epstopdf)                    date: 2014-10-24 17:14:26
+(epstopdf)                    size: 555568 bytes
 (epstopdf)             Output file: <unitcell-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-10-21 13:21:25
-(epstopdf)                    size: 53064 bytes
+(epstopdf)                    date: 2014-10-24 19:20:42
+(epstopdf)                    size: 53165 bytes
 (epstopdf)             Command: <repstopdf --outfile=unitcell-eps-converted-to.
 pdf unitcell.eps>
 (epstopdf)             \includegraphics on input line 1307.
@@ -2372,7 +2372,7 @@ fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatin
 o/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pf
 b>
-Output written on thesis.pdf (63 pages, 7239906 bytes).
+Output written on thesis.pdf (63 pages, 7236745 bytes).
 PDF statistics:
  1105 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
