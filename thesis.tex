@@ -1612,30 +1612,31 @@ notice that the Darwin term is not hermitian operator, alternatively, $\nabla^2{
 
 \chapter{Results and discussion}
 
-In this section, the major results for the licentiate thesis are demonstrated. The first one is parameterization of energy bands for CIGS, as well as results based on the parameterization. The second one is the calculation of the 
-dielectric function spectra for the CIGS, which is compared with experimental results as well.
+In this section, the major results for the licentiate thesis are demonstrated. The first one is parameterization of energy bands for CuIn{\textsubscript{1-x}}Ga{\textsubscript{x}}Se\textsubscript{2} (CIGS) 
+where $x$ = 0, 0.5, and 1, as well as indirect results based on the parameterization. The second one is the calculation of the dielectric function spectra for the CuIn{\textsubscript{0.5}}Ga{\textsubscript{0.5}}Se\textsubscript{2} by
+all electron and full-potential linearized augemented plane wave (FPLAPW) method, which is compared with experimental results as well. While the probable electronic orginins of the critical point (CP) features are discussed.
 
 \section{Parameterization of energy bands for CIGS}
 
 
-The curvature of energy bands is often demonstrated by the effective electron and hole masses, therefore the parabolic energy dispersion of energy bands, also named parabolic band approximation (pba), is 
-assumed
+The curvature of energy bands is often demonstrated by the effective electron and hole masses, therefore the parabolic energy dispersion of energy bands, also named parabolic band approximation (pba), is given as
 
-\begin{equation}\label{parabolic}
-E_{j}^{pb}(\textbf{k}) = E_{j}(\textbf{0}) \pm \left[ \frac{\widetilde{\textbf{k}}_{x}^{2}+\widetilde{ \textbf{k}}_{y}^{2}}{m_{j}^{\perp}} + \frac{\widetilde{\textbf{k}}_{z}^{2}}{m_{j}^{\parallel}} \right].
+\begin{equation}\begin{split}\label{parabolic}
+& E_{j}^{pb}(\textbf{k}) = E_{j}(\textbf{0}) \pm \left[ \frac{\widetilde{\textbf{k}}_{x}^{2}+\widetilde{ \textbf{k}}_{y}^{2}}{m_{j}^{\perp}} + \frac{\widetilde{\textbf{k}}_{z}^{2}}{m_{j}^{\parallel}} \right] \\
+& \widetilde{\textbf{k}}_{\alpha}^{2} = \frac{\hbar {\textbf{k}}_{\alpha}^{2}}{2e}, \textrm{where}\  \alpha = x, y, \textrm{and}\  z.
+\end{split}
 \end{equation}
 
-Here, $m_{j}^{\perp}$ is transverse electron masses and $m_{j}^{\parallel}$ is longitudinal electron masses.
+Here, $m_{j}^{\perp}$ and $m_{j}^{\parallel}$ are transverse electron masses and longitudinal electron masses, respectively.
  
 Unfortunately, these effective masses are only valid around the considered {\textbf k} point, which is not suitable to describe the non-parabolic away from this {\textbf k} point.
 However, the accurate shape of energy bands is important when one simulates and analyzes the electron transport or band filling for some materials.
 
-In this work, we have parameterized the three uppermost valences bands (VBs) and the lowest conduction band (CB) for the materials $\cigs$ where $x$=0, 0.5, and 1, that is,
-$\mathrm{CuInSe_2}$, $\mathrm{CuIn_{0.5}Ga_{0.5}Se_2}$, and $\mathrm{CuGaSe_2}$. This parameterization is based on the all electron and full-potential linearized augemented plane wave (FPLAPW) calculation.
-Normally, the \textbf{k $\cdot$ p} method is utilized to parameterize the energy bands. However, due to the crystal-field interaction and the spin-orbit coupling, 
-the energy dispersions of $\cigs$ are rather complex, therefore, the regular \textbf{k $\cdot$ p} method is not sufficient to describe the energy bands. 
-We manage to extend the \textbf{k $\cdot$ p} expression to higher orders, which is called full band parameterization (fbp) in the following text. Finally, the following equation is adopted to parameterize the energy bands,
- which is valid around 0.5 eV below VBM and 0.5 eV above CBM.
+In this work, we have parameterized the three uppermost valences bands (VBs) and the lowest conduction band (CB) for the materials $\cigs$ where $x$ = 0, 0.5, and 1, that is, $\mathrm{CuInSe_2}$, $\mathrm{CuIn_{0.5}Ga_{0.5}Se_2}$, 
+and $\mathrm{CuGaSe_2}$. This parameterization is based on the all electron and full-potential linearized augemented plane wave (FPLAPW) calculation. Normally, the \textbf{k $\cdot$ p} method is utilized to parameterize the energy 
+bands. However, the energy dispersions of $\cigs$ are rather complex due to the crystal-field interaction and the spin-orbit coupling. Therefore, the regular \textbf{k $\cdot$ p} method is not sufficient to describe the energy bands. 
+We manage to extend the \textbf{k $\cdot$ p} expression to higher orders, which is called full band parameterization (fbp) in the following text. Thb fbp is valid around 0.5 eV below valence band maximum (VBM) and 0.5 eV above 
+conduction band minimum (CBM). The explicit equation is given as
 
 \begin{equation}\label{nonparabolic}
 \begin{split}

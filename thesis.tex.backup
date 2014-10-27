@@ -342,9 +342,9 @@ of alternatively solar cell materials is still an ongoing and active area today.
 \subsection{Single-junction solar cells}
 The \textit{p}--\textit{n} junction is the fundamental building block of solar cells. The single \textit{p}-\textit{n} homojunction will be explored in this section.
 
-We start from the seperate \textit{n}-type material and \textit{p}-type material. In \textbf{Fig. \ref{dopedmaterials}}, the left one shows the \textit{n}-type and \textit{p}-type materials. The \textit{n}-type material 
-has many free negatively charged electrons which can move almost freely in the material, and there are numbers of positively charged immobile donor ions as well. Similarily, the \textit{p}-type material has many free positively
-charged holes which can move almost freely in the material, and there are numbers of negatively charged immobile acceptor ions as well. However, the material is still neutral in both \textit{n}-type and \textit{p}-type.
+We start from the seperate \textit{n}-type material and \textit{p}-type material at room temperature (assume that all the donor (acceptor) atoms are positively (negatively) ionized at room temperature). In \textbf{Fig. \ref{dopedmaterials}}, the left one shows the \textit{n}-type and \textit{p}-type materials. The \textit{n}-type
+material has many free negatively charged electrons which can move freely in the material, and there are numbers of positively charged immobile donor ions as well. Similarily, the \textit{p}-type material has many free positively
+charged holes which can move freely in the material, and there are numbers of negatively charged immobile acceptor ions as well. However, the material is still neutral in both \textit{n}-type and \textit{p}-type.
 On the right in \textbf{Fig. \ref{dopedmaterials}}, the corresponding fermi levels are shown. The Fermi level (E\textsubscript{nf}) is closer to conduction band minimum for \textit{n}-type material due to the many free 
 negatively charged electrons. Conversely, the Fermi level of \textit{p}-type material (E\textsubscript{pf}) is closer to the valence band maximum to the free positively charged holes.
 
@@ -352,9 +352,10 @@ negatively charged electrons. Conversely, the Fermi level of \textit{p}-type mat
     \begin{center}
            % \includegraphics[width=0.4\textwidth,clip]{sepratepn.jpg}
            % \includegraphics[width=0.4\textwidth,clip]{sepratepn1.jpg}
-            \includegraphics[width=0.7\textwidth,clip]{sepratepn.eps}
+            \includegraphics[width=0.8\textwidth,clip]{sepratepn.eps}
      \end{center}
-    \caption{Left: Doped material (\textit{n}-type and \textit{p}-type). Right: Energy band diagram of seperated \textit{p}-\textit{n} homojunction.}      
+    \caption{Left: Doped (\textit{n}-type and \textit{p}-type) materials in dark at room temperature. Right: Energy band diagram of seperated \textit{p}-\textit{n} homojunction in dark at room temperature for two-level model. Assume that all the donor (acceptor) atoms are 
+    positively (negatively) ionized.}      
     \label{dopedmaterials}
 \end{figure}
 
@@ -362,8 +363,8 @@ If the \textit{n}-type and \textit{p}-type materials are joined, the free electr
 lower concentrations of electrons (holes) (\textbf{Fig. \ref{pnjunction}}). In the region which is near the interface between \textit{n}-type and \textit{p}-type materials, the ionized donor and acceptor ions create a
 "build in" electric field which points from the \textit{n}-type material to the \textit{p}-type material. This can cause the drift of carriers in the opposite direction. The "build-in" electric field will force the electrons (holes) back into the \textit{n}--type (\textit{p}--type). At certain point, 
 the whole material will reach a stable equilibrium due to the achived balance between diffusion and drift. Formation of the "build-in" electric field is rather important for the solar cells, even though there is no currect in 
-the material so far. In the following text, the region which forms the "build-in" electric field is also called space charge region (SCR). The different Fermi level for \textit{n}-type and \textit{p}-type materials will
-be equal at the stable equilibrium. Therefore, the energy bands bend over and create a potential barrier near the junction (Right in \textbf{Fig. \ref{pnjunction}}). Finally, there is a internal potential V\textsubscript{bi}
+the material so far. In the following text, the region which forms the "build-in" electric field is also called space charge region (SCR). The different Fermi levels for \textit{n}-type and \textit{p}-type materials are
+equal at the stable equilibrium. Therefore, the energy bands bend over and create a potential barrier near the junction (Right in \textbf{Fig. \ref{pnjunction}}). Finally, there is a internal potential V\textsubscript{bi}
 in the junction, which will block the diffusion.
 
 \begin{figure}[H]
@@ -372,7 +373,7 @@ in the junction, which will block the diffusion.
            % \includegraphics[width=0.5\textwidth,clip]{pnjunction1.jpg}
             \includegraphics[width=0.7\textwidth]{pnjunction.eps}
      \end{center}
-    \caption{Left: The \textit{p}-\textit{n} homojunction. Right: Energy band diagram of a \textit{p}-\textit{n} homejunction at the equilibrium. }      
+    \caption{Left: The \textit{p}-\textit{n} homojunction in dark at room temperature. Right: Energy band diagram of a \textit{p}-\textit{n} homejunction at the equilibrium in dark at room temperature for two-level model. }      
     \label{pnjunction}
 \end{figure}
 
@@ -387,16 +388,16 @@ will jump down from CBs to VBs again. However, the electron-hole pairs will be s
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.5]{illumination.eps}
-\caption{The \textit{p}-\textit{n} homejunction under illumination with load.}
+\caption{The \textit{p}-\textit{n} homejunction under illumination with load at room temperature for two-level model.}
 \label{illu}
 \end{figure}
 
-In \textbf{Fig. \ref{illu1}}, the SCR becomes more "smooth" due to the extra load, such as lightbulb, which is equivalent to apply external potential. The stablized Fermi level at the stable equilibrium split under illumination.
-The chemical potential $\bigtriangledown \mu = E_{nf} - E_{vf}$ is created, which is considered as the electron charge times the voltage across the device. 
+In \textbf{Fig. \ref{illu1}}, the SCR becomes more "smooth" due to the extra load, such as lightbulb, which is equivalent to apply external potential. The stablized Fermi level at the stable equilibrium splits under illumination.
+The chemical potential $\bigtriangledown \mu = E_{nf} - E_{vf}$ is created, which is considered as the electron charge times the voltage across the device. The generation and recombination by impuriteis are not analyzed in here.
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.45]{illumination1.eps}
+\includegraphics[scale=0.5]{illumination1.eps}
 \caption{Energy band diagram of a \textit{p}-\textit{n} homojunction under illumination with load.}
 \label{illu1}
 \end{figure}
@@ -516,7 +517,7 @@ group no. 82).
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.3]{structureciise.eps} 
+\includegraphics[scale=0.4]{structureciise.eps} 
 \caption{}
 \label{crystal_cigs}
 \end{figure}
@@ -1046,7 +1047,7 @@ In order to derive the ground state properties in the many-electron system, one 
  the wavefunction can be constructed to electron density (\textbf{Eq. \ref{ks1}}), just like the derivation in the section of Hartree approximation, finally one can get the Kohn-Sham equation
 
 \begin{equation}\label{aaa}
- (-\frac{\nabla^{2}_{i}}{2}\ + \ V^\textit{KS}(\textbf{r})) \Psi^{\textit{KS}}_{\textit{i}}(\textbf{r}) = E^{\textit{KS}}_{\textit{i}} \Psi^{\textit{KS}}_{\textit{i}}(\textbf{r}).
+ \Big(-\frac{\nabla^{2}_{i}}{2}\ + \ V^\textit{KS}(\textbf{r})\Big) \Psi^{\textit{KS}}_{\textit{i}}(\textbf{r}) = E^{\textit{KS}}_{\textit{i}} \Psi^{\textit{KS}}_{\textit{i}}(\textbf{r}).
 \end{equation}
 
 Here,
@@ -1061,7 +1062,7 @@ One can think of the Hamiltonian in another point of view, that is, single parti
 
 There is no total energy equation expression yet. However, if one changes the \textbf{Eq. \ref{aaa}} as 
 \begin{equation}\label{bbb}
-\sumi<i> \Psi^{\textit{KS}*}_{\textit{i}}(\textbf{r}) \Big(-\frac{\nabla^{2}_{i}}{2}\ + \ V^\textit{KS}(\textbf{r})) \Psi^{\textit{KS}}_{\textit{i}}(\textbf{r} \Big) = \sumi<i> \Psi^{\textit{KS}*}_{\textit{i}}(\textbf{r}) E^{\textit{KS}}_{\textit{i}} \Psi^{\textit{KS}}_{\textit{i}}(\textbf{r}).
+\sumi<i> \Psi^{\textit{KS}*}_{\textit{i}}(\textbf{r}) \Big(-\frac{\nabla^{2}_{i}}{2}\ + \ V^\textit{KS}(\textbf{r})\Big) \Psi^{\textit{KS}}_{\textit{i}}(\textbf{r}) = \sumi<i> \Psi^{\textit{KS}*}_{\textit{i}}(\textbf{r}) E^{\textit{KS}}_{\textit{i}} \Psi^{\textit{KS}}_{\textit{i}}(\textbf{r}).
 \end{equation}
 
 Based on \textbf{Eq. \ref{ccc}} and \textbf{\ref{bbb}}, the total energy expression is
@@ -1265,7 +1266,7 @@ In order to find a way out, is it possible to let the wavefunction energy-indepe
 they noticed that the taylor expansion of radial function (\textbf{Eq. \ref{ap3}}). This method is called linearized augmented plane wave (LAPW) method due to make use of the linearized energies in the radial functions. 
 However, the drawback is that it does not describe the semicore state well, it is corrected by a method named linearized augmented plane wave plus local orbitals (LAPW+LO) which is proposed by Singh (\textbf{Eq. \ref{lap5}}).
 Sjöstedt, Nordström and Singh also give an efficient way to linearize Slater's APW method, named augmented plane wave plus local orbitals (APW+lo) (\textbf{Eq. \ref{lap6}}). Both of above methods consider local orbitals, 
-it is customary to write in different way as LO and lo, respectively. One can read more information about FPLAPW method from [?,?,?].
+it is customary to write in different ways as LO and lo, respectively. One can read more information about FPLAPW method from [?,?,?].
 
 \subsection{Wavefunction}
 \subsubsection{Augmented plane wave method}
@@ -1298,7 +1299,7 @@ Radial function $u_{{\ell}} (r_{\alpha}, E)$ is dependent with energy $E$, and i
 
 Here, $V(\textbf{r})$ is the spherical potential.
 
-Because the wavefunction has dual representation, one has to make sure the continuity on the sphere, which is solved by matching each $\ell m$
+Because the wavefunction has dual representation, one has to make sure the continuity on the sphere boundary, which is solved by matching each $\ell m$
 of the dual representation.
 
 \begin{figure}[h]
@@ -1309,14 +1310,14 @@ of the dual representation.
 \end{center}
 \end{figure}
 
-From the \textbf{Fig. \ref{ucuc}}, one notices that the unit cell is divided into MT spheres ($\alpha$, $\beta$) and an
-(\textit{I}) region, and ${\textbf r = {\textbf R_{\alpha}}+{\textbf r_{\alpha}}}$ is guaranteed. The Rayleigh expansion formula yields
+From \textbf{Fig. \ref{ucuc}}, one notices that unit cell is divided into MT spheres ($\alpha$, $\beta$) and an
+(\textit{I}) region, where ${\textbf r = {\textbf R_{\alpha}}+{\textbf r_{\alpha}}}$ is guaranteed. The Rayleigh expansion formula yields
 
 \begin{equation}
 \expg<(\textbf {k}+\textbf{G})> = e^{i (\textbf {k}+\textbf{G}) \textbf{R}_{\alpha} } 4 \pi \sumlm<\ell><m> i^{\ell} \bessf< |\textbf{k}+\textbf{G}|> \sphfr<\ell{m}><r><> Y_{\ell{m}}(\widehat{\textbf{k}+\textbf{G}}).
 \end{equation}
   
-After matching those two representation, the following equation is satisfied for each ${\ell}m$
+After matching those two representations, the following equation is satisfied for each ${\ell}m$
 
 \begin{equation}
 A _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G}) = \frac{ e^{i (\textbf {k}+\textbf{G}) \textbf{R}^{\alpha} } 4 \pi \sumlm<\ell><m> i^{\ell} \bessf< |\textbf{k}+\textbf{G}|> Y^{*}_{\ell{m}}(\widehat{\textbf{k}+\textbf{G}}) }{\sqrt{\Omega} u_{{\ell}}^{\alpha}(r_{\alpha}, E)}.
@@ -1349,7 +1350,7 @@ Here, $f_{{\ell}{m}} (r_{\alpha},\textbf{k}+\textbf{G} ,E_{\ell}) =  A _{{\ell}m
 
 Apparently, LAPW method is more suitable in reality, because the wavefunction is decoupled with energy. However it has to match for two parameters.
 Fortunately, it still take less time comparing with APW method. However, there is one drawback about this method, what if energy in the same $ {\ell} $ charater is different enough, 
-which $E_{\ell}$ is correct one? These states are called as semi-core states which exist in the actinides and the rare earths.
+which $E_{\ell}$ is correct? These states are called as semi-core states which exist in the actinides and the rare earths.
 
 \subsubsection{Linearized augmented plane wave method plus local orbitals}
 Comparing with LAPW method, linearized augmented plane wave method plus local orbitals (LAPW+LO) method extend and add smaller number of basis set, which is defined as
@@ -1369,9 +1370,9 @@ the chosen energy from semi-core state.
 
 \subsubsection{Augmented plane wave method plus local orbitals}
 
-There is one more efficient method which can solve the APW method, which is called as augmented plane wave method plus local orbitals (APW+lo). The 
+There is one method which can solve the APW method efficiently, which is called as augmented plane wave method plus local orbitals (APW+lo). The 
 basis function has two types: one is similar with APW method, but only without the derivative terms, that is, $f_{{\ell}{m}} (r_{\alpha},\textbf{k}+\textbf{G} ,E_{\ell}) =  A _{{\ell}m}^{\alpha}(\textbf{k}+\textbf{G})u_{{\ell}}(r_{\alpha}, E_{\ell})$; 
-another basis function is
+the other basis function is
 
 \begin{equation}\label{lap6}
 \phi^{lo}_\textbf{k+G} (\textbf{r}) = 
@@ -1382,7 +1383,7 @@ another basis function is
 \end{equation}
  
 The value of $A _{{\ell}m}^{\alpha,lo}$ and $B _{{\ell}m}^{\alpha,lo}$ are obtained by normalization and local orbital has zero value at the muffin tin boundary. This method can not solve semicore states like LAPW+LO.
-However, it does increase the efficiency to linearize Slater's APW method. Certainly, it exsits some types of basis function which can mix the advantages from mentioned method.
+However, it does increase the efficiency to linearize Slater's APW method. Certainly, it exsits some types of basis function which can mix the advantages from mentioned methods.
 
 \subsection{Effective potential}
 
@@ -1499,8 +1500,8 @@ From the above equation, the coefficient $ C_{n,j}^{\bold k}$ and $\ebloch<n><\b
 
 \subsection{Dirac equation}
 
-Non-relativistic quantum mechanics has broad application. However the non-relativistic quantum is not suitable to describe the system of electron where the speed of electron is near the speed of light. Therefore, Dirac introduced an equation which is called
-Dirac equation applying for relativistic case.
+Non-relativistic quantum mechanics has broad application. However the non-relativistic quantum is not suitable to describe the system where the speed of electron is near the speed of light $c$. 
+Therefore, Dirac introduced an equation which is called Dirac equation applying for relativistic case.
 
 \noindent Dirac defined the Hamiltonian as
 
@@ -1508,8 +1509,8 @@ Dirac equation applying for relativistic case.
 \hat{H}_\textit{dirac} = c \boldsymbol{\alpha} \textbf{P} + \boldsymbol{\beta}mc^{2} + V.
 \end{equation}
 
-\noindent Here, $\textbf{P} = -i\hbar \nabla $ is the momentum operator, $V$ is the general potential, $m$ is the mass of electron 
-and $c$ is the speed of light, $\boldsymbol{\alpha}$ and $\boldsymbol{\beta}$ are $4 \times 4$ matrices.
+\noindent Here, $\textbf{P} = -i\hbar \nabla $ is the momentum operator, $V$ is the general potential, and $m$ is the mass of electron. 
+ $\boldsymbol{\alpha}$ and $\boldsymbol{\beta}$ are $4 \times 4$ matrices, which are defined as
 \begin{equation}
  \boldsymbol{\alpha} = \left( \begin{array}{cc}
  0 & \boldsymbol{\sigma}  \\
@@ -1519,7 +1520,7 @@ and $c$ is the speed of light, $\boldsymbol{\alpha}$ and $\boldsymbol{\beta}$ ar
 0 & -\boldsymbol{I}\end{array} \right).
 \end{equation}
 
-\noindent Here, $\boldsymbol{I}$ is unit matrix, and $\boldsymbol{\sigma}$ is Pauli matrix.
+\noindent Here, $\boldsymbol{I}$ is unit matrix. $\boldsymbol{\sigma}$ is Pauli matrix, which is given as
 
 \begin{equation} 
 \boldsymbol{\sigma} = (\boldsymbol{\sigma}_x \  \boldsymbol{\sigma}_y \  \boldsymbol{\sigma}_z )  
@@ -1556,7 +1557,7 @@ written with only two terms
 Under the nonrelativistic limit, $\phi$ is bigger than $\chi$ by the ratio of $v/c$. Here, $v$ and $c$ are speed of particle and light, respectively.
 Therefore, the $\phi$ is considered as the large term and $\chi$ is the small one.
 
-\noindent In order to derive the spin-orbit coupling term, we need to take use of the nonrelativistic limit approximation ($v^2/c^2 << 1$) of the Dirac eigenvalue equation probelm. The Dirac equation is 
+\noindent In order to derive the spin-orbit coupling term, we need to take use of the nonrelativistic limit approximation ($v^2/c^2 << 1$). The time-independent Dirac equation is give as
 
 \begin{equation}\label{diracse}
  E \Psi = (c \boldsymbol{\alpha} \textbf{P} + \boldsymbol{\beta}mc^{2} + V) \Psi.
@@ -1597,7 +1598,7 @@ The final equation is obtained under the nonrelativistic limit
 E^{\prime} \phi = (\frac{\textbf{P}^2}{2m} + V - \frac{\textbf{P}^4}{8 {m}^3 {c}^2}-\frac{i\hbar}{4{m}^2 {c}^2} (\nabla{V})\textbf{P}+\frac{\hbar}{4 m^2 c^2} \boldsymbol{\sigma}[\nabla{V} \times \textbf{P}]) \phi.
 \end{equation}
 
-Furthermore, we can approximate the above equation to the simpler expression under spherical symmetry potential:
+Furthermore, we can approximate the above equation to the simpler expression under spherical symmetry potential
 
 \begin{equation}
  E^{\prime} \phi = (\frac{\textbf{P}^2}{2m} +V - \frac{\textbf{P}^4}{8 {m}^3 {c}^2}-\frac{i\hbar}{4{m}^2 {c}^2} (\nabla{V})\textbf{P}+\frac{1}{2 m^2 c^2} \frac{1}{R} \frac{dV}{dR}\textbf{S}\textbf{L}) \phi.
@@ -1611,8 +1612,9 @@ notice that the Darwin term is not hermitian operator, alternatively, $\nabla^2{
 
 \chapter{Results and discussion}
 
-In this section, the major results for the licentiate thesis are demonstrated. The first one is parameterization of energy bands for CIGS, as well as results based on the parameterization. The second one is the calculation of the 
-dielectric function spectra for the CIGS, which is compared with experimental results as well.
+In this section, the major results for the licentiate thesis are demonstrated. The first one is parameterization of energy bands for CuIn{\textsubscript{1-x}}Ga{\textsubscript{x}}Se\textsubscript{2} (CIGS) 
+where $x$ = 0, 0.5, and 1, as well as indirect results based on the parameterization. The second one is the calculation of the dielectric function spectra for the CuIn{\textsubscript{0.5}}Ga{\textsubscript{0.5}}Se\textsubscript{2},
+which is compared with experimental results as well. While the probable electronic orginins of the critical point (CP) features are discussed.
 
 \section{Parameterization of energy bands for CIGS}
 
@@ -1629,7 +1631,7 @@ Here, $m_{j}^{\perp}$ is transverse electron masses and $m_{j}^{\parallel}$ is l
 Unfortunately, these effective masses are only valid around the considered {\textbf k} point, which is not suitable to describe the non-parabolic away from this {\textbf k} point.
 However, the accurate shape of energy bands is important when one simulates and analyzes the electron transport or band filling for some materials.
 
-In this work, we have parameterized the three uppermost valences bands (VBs) and the lowest conduction band (CB) for the materials $\cigs$ where $x$=0, 0.5, and 1, that is,
+In this work, we have parameterized the three uppermost valences bands (VBs) and the lowest conduction band (CB) for the materials $\cigs$ where $x$ = 0, 0.5, and 1, that is,
 $\mathrm{CuInSe_2}$, $\mathrm{CuIn_{0.5}Ga_{0.5}Se_2}$, and $\mathrm{CuGaSe_2}$. This parameterization is based on the all electron and full-potential linearized augemented plane wave (FPLAPW) calculation.
 Normally, the \textbf{k $\cdot$ p} method is utilized to parameterize the energy bands. However, due to the crystal-field interaction and the spin-orbit coupling, 
 the energy dispersions of $\cigs$ are rather complex, therefore, the regular \textbf{k $\cdot$ p} method is not sufficient to describe the energy bands. 
