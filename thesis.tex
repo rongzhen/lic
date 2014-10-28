@@ -653,34 +653,35 @@ In \textbf{Eq. \ref{ssth}}, $E$ is the system total energy, and $\hath$ is the H
 
 \begin{equation}\label{th}
 \begin{split}
-& \hath = - \sumi<i> {\frac{\hbar^{2}}{2 m_{\textit e}}}   \nablaia<i> - \sumi<I> {\frac{\hbar^{2}}{2 M_\textit{I}}} \nablaia<I>  - \sumij<i><I> \frac{Z_\textit{I}\ e^2}{4 \pi \varepsilon_0 |\textbf{r}_\textit{i}-\textbf{R}_\textit{I}|} \\
-& + \frac{1}{2} \suminj<i><j> \frac{ e^2}{4 \pi \varepsilon_0 |\textbf{r}_\textit{i}-\textbf{r}_\textit{j}|} + \frac{1}{2} \suminj<I><J> \frac{Z_\textit{I} Z_\textit{J}\  e^2}{4 \pi \varepsilon_0 |\textbf{R}_\textit{I}-\textbf{R}_\textit{J}|}.
+& \hath = - \sumi<i> {\frac{\hbar^{2}}{2 m_{\textit e}}}   \nablaia<i> - \sumi<I> {\frac{\hbar^{2}}{2 m_\textit{I}}} \nablaia<I>  - \sum_i \sum_I \frac{Z_\textit{I}\ e^2}{4 \pi \varepsilon_0 |\textbf{r}_\textit{i}-\textbf{R}_\textit{I}|} \\
+& + \frac{1}{2} \sum_i \sum_{j \neq i} \frac{ e^2}{4 \pi \varepsilon_0 |\textbf{r}_\textit{i}-\textbf{r}_\textit{j}|} + \frac{1}{2} \sum_I \sum_{J \neq I} \frac{Z_\textit{I} Z_\textit{J}\  e^2}{4 \pi \varepsilon_0 |\textbf{R}_\textit{I}-\textbf{R}_\textit{J}|}.
 \end{split}
 \end{equation}
 
-Here, the indices $\textit{i}$, $\textit{j}$ are used for the electrons, and $\textit{I}$, $\textit{J}$ are used for atomic nuclei, $Z_\textit{I}$ implies the charge of the $\textit{I}$-th nucleus,
-$\textit{M}_I$ denotes the nuclear mass, $m_e$ is the electron mass, and $\varepsilon_0$ is vacuum permittivity.
+Here, the indices \textit{i}, \textit{j} are used for the electrons, and \textit{I}, \textit{J} are used for atomic nuclei, $Z_I$ implies the charge of the \textit{I}:th nucleus,
+$\textit{m}_I$ denotes the nuclear mass, $m_e$ is the electron mass, and $\varepsilon_0$ is vacuum permittivity.
 
-In atomic units, the reduced Planck constant $\hbar$, the electron mass $m$, the Bohr radius $a_0$, and the electron charge
+In atomic units, the reduced Planck constant $\hbar$, the electron mass $m_e$, the Bohr radius $a_0$, and the electron charge
 $e$ are equal to 1. The Bohr radius is given by the formula $a_0$ = ${\hbar} / {(mc\alpha)}$. Here, $\alpha$ is the fine structure
-constant ($\alpha$ = ${e^2}/{(4 \pi \varepsilon_0 c \hbar)}$). Therefore, the velocity of light in atomic units is $c$ = $1/{\alpha}$ and ${e^2}/{(4 \pi \varepsilon_0)}$ = 1. The Schrödinger \textbf{Eq. \ref{th}} in atomic units is given as
+constant ($\alpha$ = ${e^2}/{(4 \pi \varepsilon_0 c \hbar)}$). Therefore, the velocity of light in atomic units is $c$ = $1/{\alpha}$ and ${e^2}/{(4 \pi \varepsilon_0)}$ = 1. In atomic units, mass of the \textit{i}:th nucleus is $M_I$.
+Therefore, \textbf{Eq. \ref{th}} is given as
 
 \begin{equation}\label{sth}\begin{split}
-&\hath = - \sumi<i>   \frac{{{\nabla}_{\textit{i}}^{2}}}{2} - \sumi<I> \frac{{{\nabla}_{\textit{I}}^{2}}}{2 M_\textit{I}}  - \sumij<i><I> \frac{Z_\textit{I}}{|\textbf{r}_\textit{i}-\textbf{R}_\textit{I}|} \\
-& + \frac{1}{2} \suminj<i><j> \frac{1}{ |\textbf{r}_\textit{i}-\textbf{r}_\textit{j}|} + \frac{1}{2} \suminj<I><J> \frac{Z_\textit{I} Z_\textit{J}\ }{|\textbf{R}_\textit{I}-\textbf{R}_\textit{J}|}.
+&\hath = - \sumi<i>   \frac{{{\nabla}_{\textit{i}}^{2}}}{2} - \sumi<I> \frac{{{\nabla}_{\textit{I}}^{2}}}{2 M_\textit{I}}  - \sum_i \sum_I \frac{Z_\textit{I}}{|\textbf{r}_\textit{i}-\textbf{R}_\textit{I}|} \\
+& + \frac{1}{2} \sum_i \sum_{j \neq i} \frac{1}{ |\textbf{r}_\textit{i}-\textbf{r}_\textit{j}|} + \frac{1}{2} \sum_I \sum_{J \neq I} \frac{Z_\textit{I} Z_\textit{J}\ }{|\textbf{R}_\textit{I}-\textbf{R}_\textit{J}|}.
 \end{split}\end{equation}
 
 In \textbf{Eq. \ref{sth}}, the first and second terms are the kinetic energy operator of the electrons and nuclei, respectively.
 The other terms in order are Coulomb interactions between electrons and nuclei, electrons and electrons and nuclei and nuclei.
 
-One can not solve \textbf{Eq. \ref{ssth}} exactly at present since there are enormous amont of atoms to calculate in reality. More importantly, the exactly form of the wavefunction is unknown.
+One can not solve \textbf{Eq. \ref{ssth}} exactly at present since there are enormous amount of atoms to calculate in reality. More importantly, the exactly form of the wavefunction is unknown.
 To approximate the exact solution, generally one can divide it into three different levels: the first level is the Born-Oppenheimer approximation; the second level is Hartree,
 Hartree-Fock (HF), density functional theory (DFT) and Kohn-Sham (KS) equation; the last level is to solve the secular equation which is an equation that is solved to find the eigenvalue of matrix.
 
 \subsection{The Born-Oppenheimer approximation}
 \label{ch:boa}
 
-In order to simplify \textbf{Eq. \ref{ssth}}, the first attempt is to seperate the wavefunction of electron and nucleus. Because the Schrödinger Hamiltonian in \textbf{Eq. \ref{sth}} has a couple term between the electron and nucleus, 
+\textbf{Eq. \ref{ssth}} can be approximated in order to solve it. The first attempt is to seperate the wavefunction of electron and nucleus. Because the Schrödinger Hamiltonian in \textbf{Eq. \ref{sth}} has a couple term between the electron and nucleus, 
 thereby one can not do that simply. On the other hand, there exists a small value ${1}/{M_I}$ in \textbf{Eq. \ref{sth}}, which is part of the nucleus kinetic energy
 operator term. The reason is that the mass of nucleus is much larger than that of electron, therefore the nuclei are treated as fixed. This indicates that the electrons are seen as interacting under both the external potential caused by nuclei that are fixed in 
 some positions and that of the other electrons. 
@@ -691,12 +692,13 @@ The separation of motion between electrons and nuclei is called the Born-Oppenhe
 {\wf}  {\approx}  {\Psi^{ \textit{BO}} ( \{ {\textbf{r}_{\textit{i}}},\textbf{R}_{\textit I} \}) } = {\theta(\{{\textbf R}_{\textit I}\})} {\Psi'(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})}.
 \end{equation}
 
-Here, ${\Psi'(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})}$  is the electrons wavefunction in the Born-Oppenheimer approximation. The semicolon implies that $\textbf R_I$ is only discrete value belonging to the set of atomic positions. 
+Here, ${\Psi'(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})}$  is the electrons wavefunction in the Born-Oppenheimer approximation. Since the electrons are under the potential of nuclei, and thus the wavefunction of 
+electrons is related with the nucleus postions. 
  
-\textbf{Eq. \ref{sth}} can be re-defined as
+\textbf{Eq. \ref{sth}} can be rewritten as
 
 \begin{equation}\begin{split}\label{nh}
-& {\hath} = - \sumi<I> \frac{{{\nabla}_{\textit{I}}^{2}}}{2 M_\textit{I}} + {\hat{H}_{I,J}} + {\hath}^{BO} \\
+& {\hath} = - \sumi<I> \frac{{{\nabla}_{\textit{I}}^{2}}}{2 M_\textit{I}} + {\hat{H}_{nn}} + {\hath}^{BO} \\
 & {\hath}^\textit{BO}\ = \ \hat{T} \ + \ \hat{V}_{ext} \ + \ \hat{V}_\textit{int}\ 
  \end{split}
 \end{equation}
@@ -705,13 +707,14 @@ Furthermore, all the unknown terms in \textbf{Eq. \ref{nh}} are defined as
 
 \begin{equation}\begin{split}\label{vext}
 & \hat{T} = - \sumi<i>   \frac{{{\nabla}_{\textit{i}}^{2}}}{2} \\
-& V_{ext}(\textbf{r}_{\textit{i}}) =  \sumi<I> \frac{Z_\textit{I}}{|\textbf{r}_\textit{i}-\textbf{R}_\textit{I}|} \\
-& \hat{V}_\textit{int} =  \frac{1}{2} \suminj<i><j> \frac{1}{ |\textbf{r}_\textit{i}-\textbf{r}_\textit{j}|} \\
-& {\hat{H}_{I,J}} = \frac{1}{2} \suminj<I><J> \frac{Z_\textit{I} Z_\textit{J}\ }{|\textbf{R}_\textit{I}-\textbf{R}_\textit{J}|}.
+& V_{ext} =  \sum_i \sum_J \frac{Z_\textit{I}}{|\textbf{r}_\textit{i}-\textbf{R}_\textit{I}|} \\
+& \hat{V}_\textit{int} =  \frac{1}{2} \sum_i \sum_{j \neq i} \frac{1}{ |\textbf{r}_\textit{i}-\textbf{r}_\textit{j}|} \\
+& {\hat{H}_{nn}} = \frac{1}{2} \sum_I \sum_{J \neq I} \frac{Z_\textit{I} Z_\textit{J}\ }{|\textbf{R}_\textit{I}-\textbf{R}_\textit{J}|}.
 \end{split}
 \end{equation}
 
-Here, ${\hath}^\textit{BO}$  is the Hamiltonian for the electrons within the Born-Oppenheimer approximation. The subscript $ext$ implies $external$ in \textbf{Eq. \ref{nh}}, and $V_{ext}(\textbf{r}_{\textit{i}})$ describes the external potentials interaction. 
+Here, ${\hath}^\textit{BO}$  is the Hamiltonian for the electrons within the Born-Oppenheimer approximation. The subscript $ext$ implies $external$ in \textbf{Eq. \ref{nh}}, and $V_{ext}$ describes
+the external potentials interaction. 
 
 Thereby, the new Schrödinger equation combined with \textbf{Eq. \ref{nwf}} and \textbf{Eq. \ref{nh}} is 
 
@@ -720,27 +723,29 @@ Thereby, the new Schrödinger equation combined with \textbf{Eq. \ref{nwf}} and 
  E(\{{\textbf R_I}\}) \Big({\theta(\{{\textbf R}_{\textit I}\})} {\Psi'(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})}\Big).
 \end{equation}
  
-\noindent Here, $E(\{{\textbf R_I}\})$ is the total energy. One can end up with the following equation using \textbf{Eq. \ref{vext}}
+\noindent Here, $E(\{{\textbf R_I}\})$ is the system total energy, which is ${\textbf R_I}$-dependent because system wavefunction depends on nuclei positions. One ends up with the following equation using \textbf{Eq. \ref{vext}}
 
 \begin{equation}\begin{split}\label{ise}
 & {\hath}^{BO} {\Psi'(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})} = E^\textit{BO}{(\{\textbf{R}_{\textit I}\})} {\Psi'(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})} \\
-& \Big( \hat{H}_{I1}+\hat{H}_{I2}+\hat{H}_{I3}+\hat{H}_{I,J}+E^{BO}(\{{\textbf R}_{\textit I}\}) \Big) {\theta(\{\textbf{R}_{\textit I}\})} = E(\{{\textbf R_I}\}) {\theta(\{\textbf{R}_{\textit I}\})}.
+& \Big( \hat{H}_{nn1}+\hat{H}_{nn2}+\hat{H}_{nn3}+\hat{H}_{nn}+E^{BO}(\{{\textbf R}_{\textit I}\}) \Big) {\theta(\{\textbf{R}_{\textit I}\})} = E(\{{\textbf R_I}\}) {\theta(\{\textbf{R}_{\textit I}\})}.
 \end{split}
 \end{equation}
 
-\noindent Here, $E^\textit{BO}{(\{\textbf{R}_{\textit I}\})}$ is the energy of this electron system, and 
+\noindent Here, $E^\textit{BO}{(\{\textbf{R}_{\textit I}\})}$ is the energy of this electron system, which is also ${\textbf R_I}$-dependent because electrons wavefunction indirectly depends on nuclei positions. The $\hat{H}_{nn1}$,
+$\hat{H}_{nn2}$, and $\hat{H}_{nn3}$ in \textbf{Eq. \ref{ise}} are given as
 
 \begin{equation}\begin{split}
- &  \hat{H}_{I1} = - \sumi<I> \frac{{{\nabla}_{\textit{I}}^{2}}}{2 M_\textit{I}}   \\
- &  \hat{H}_{I2} = - \sumi<I> \frac{1}{M_\textit{I}} {\int {\Psi'(\{\textbf{r}_{\textit{i}}\}; \{\textbf{R}_{\textit I}\})}^{\ast} {{\nabla}_{\textit{I}}} {{\Psi'(\{\textbf{r}_{\textit{i}} \}; \{\textbf{R}_{\textit I}\})}} d {\textbf r }} {{\nabla}_{\textit{I}}}  \\
- &  \hat{H}_{I3} = - \sumi<I> \frac{1}{M_\textit{I}} {\int {{\Psi'(\{\textbf{r}_{\textit{i}}\}; \{\textbf{R}_{\textit I}\})}}^{\ast} {{\nabla}_{\textit{I}}^{2}} {{\Psi'(\{\textbf{r}_{\textit{i}} \}; \{\textbf{R}_{\textit I}\})}} d {\textbf r }}. 
+ &  \hat{H}_{nn1} = - \sumi<I> \frac{{{\nabla}_{\textit{I}}^{2}}}{2 M_\textit{I}}   \\
+ &  \hat{H}_{nn2} = - \sumi<I> \frac{1}{M_\textit{I}} {\int {\Psi'(\{\textbf{r}_{\textit{i}}\}; \{\textbf{R}_{\textit I}\})}^{\ast} {{\nabla}_{\textit{I}}} {{\Psi'(\{\textbf{r}_{\textit{i}} \}; \{\textbf{R}_{\textit I}\})}} d {\textbf r }} {{\nabla}_{\textit{I}}}  \\
+ &  \hat{H}_{nn3} = - \sumi<I> \frac{1}{M_\textit{I}} {\int {{\Psi'(\{\textbf{r}_{\textit{i}}\}; \{\textbf{R}_{\textit I}\})}}^{\ast} {{\nabla}_{\textit{I}}^{2}} {{\Psi'(\{\textbf{r}_{\textit{i}} \}; \{\textbf{R}_{\textit I}\})}} d {\textbf r }}. 
 \end{split}\end{equation}
 
 From \textbf{Eq. \ref{ise}}, one observes that the lattice dynamical properties of certain system within the Born-Oppenheimer approximation can be obtained. To solve this equation,
 the ground state energy $E^{BO}(\{{{\textbf R}_{\textit I}}\})$ of electron system is needed. Here, $\{{\textbf R}_{\textit I}\}$ are the parameterized values from the atom position.
  
 In summary, the Schrödinger equations of the electrons and nuclei are derived seperately within the Born-Oppenheimer approximation. When one refers to calculations of the ground state properties,
-the Schrödinger equation of the electrons is applied (the first line in \textbf{Eq. \ref{ise}}). The Schrödinger equation of nuclei is employed for the calculation of lattice dynamics (the second line in \textbf{Eq. \ref{ise}}).
+the Schrödinger equation of the electrons is applied (the first line in \textbf{Eq. \ref{ise}}). The Schrödinger equation of nuclei is employed for the calculation of lattice dynamics 
+($H_{nn2}$ and $H_{nn3}$ are ignored in the second line in \textbf{Eq. \ref{ise}} normally).
 
 The \textbf{Eq. \ref{ise}} (the first line) is much simpler than \textbf{Eq. \ref{ssth}}. However, it is still not solvable. Further approximations  are needed
 to solve this many-body problem.
@@ -749,43 +754,53 @@ to solve this many-body problem.
 
 In previous section, the seperation of wavefunction is given within Born-Oppenheimer approximation. The quantum many-body Schrödinger problem becomes the many-electron 
 Schrödinger problem. There are two major problems from the Born-Oppenheimer approximation: the first problem is that the number of electron is around 10\textsuperscript{23} \si{\per\cubic\centi\metre}, which is a huge numerical 
-problem. However, it is still possible to solve; the second one is that the Hamiltonian operator is applied to single electron, however, the wavefunction is not shown how it depends on the single-electron wavefunction.
+problem. However, it is still possible to solve; the second one is that the Hamiltonian includes operators which apply to the single electrons. However, how the wavefunction depends on the single-electron wavefunctions is unknown.
 The latter problem can be solved by one of the following three methods: the first method is to figure out a way to seperate or approximate the wavefunction into single-electron function, such as the Hartree and Hartree-Fock (HF) method;
-the second method is to find a Hamiltonian which is possbile to act on wavefunction directly, such as density functional theory (DFT). Either of these two methods has "pros and cons"; the third one is called Kohn-Sham equation,
-which is a combination of above two methods. It starts from DFT, however takes advantage of single-electron wavefunction. 
+the second method is to find the explict relation bewteen total energy and wavefunction, such as density functional theory (DFT). Within DFT, the system total energy is a functional of electron density which can be constructed by 
+wavefunction. Either of these two methods has "pros and cons"; the third one is called Kohn-Sham equation, which is a combination of above two methods. It starts from DFT, however takes advantage of single-electron wavefunctions. 
 
 \subsubsection{Hartree approximation}
 \label{ha}
 The simplest approximation of the wavefunction for the many-electron Schrödinger equation is the form of acting like independent
-electrons. The wavefunction with N independent electrons is given as
+electrons. The wavefunction with \textit{N} independent electrons is given as
 
 \begin{equation}\label{wfh}
 \wfh = \bwff<1><1> \bwff<2><2> \cdots \bwff<N><N>. 
 \end{equation}
 
-Here, $i$ goes through all the electrons, and $\bwff<i><i>$ implies state of the $i$-th electron in the position of ${\textbf{r}}_{\textit{i}}$.
-From here and following text, the $\textbf R$ is suppressed in the wavefunction since they are in fixed positions. The total energy of the system can be written as
+Here, $i$ goes through all the electrons, and $\bwff<i><i>$ implies state of the $i$:th electron in the position of ${\textbf{r}}_{\textit{i}}$.
+From here and following text, the $\textbf R$ is suppressed in the wavefunction since they are in fixed positions. The total energy of the electronic system can be written as
 
 \begin{equation}\label{teh}
 E^{\textit{H}} = <\wfh |\ {\hath}^{\textit{BO}} \ | \wfh  >.
 \end{equation}
 
-Therefore, the total energy of system is given by making the substitution using \textbf{Eq. \ref{nh}} and \textbf{Eq. \ref{wfh}} into \textbf{Eq. \ref{teh}}
+${\hath}^{\textit{BO}}$ can be rewritten as
 \begin{equation}\begin{split}
-& E^\textit{H} = \sumi<i> <\bwff<i><> |\ -\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r})  \ | \bwff<i><> > \\
-& +\frac{1}{2} \sumij<i><j> <\bwff<i><> \phi_{j}({\textbf r'})|\ \frac{1}{|\textbf{r} - \textbf{r'} |} \ | \bwff<i><> \phi_{j}({\textbf r'})>.  
-\end{split}\end{equation}
-
-Here, $\textbf{r}_\textbf{i}$ and $\textbf{r}_\textbf{j}$ are written in generalized format $\textbf{r}$ and $\textbf{r'}$, respectively.
-
-In order to calculate the stationary state with the lowest energy of the system, the variation of the wavefunction $\phi_{k}(\textbf{r}'')$ should be
-zero variation in the energy. One can set up the variation with Lagrange multiplier $E_{i}^H$,
-
-\begin{equation}\label{haa}
- \delta(E^{\textit{H}} - \sumi<i> E_{i}^{H} (<\bwff<i><> | \bwff<i><> > -1))  = 0. 
+&  {\hath}^{\textit{BO}} = \sum_i ( \frac{{{\nabla}_{\textit{i}}^{2}}}{2} + \sum_J \frac{Z_\textit{I}}{|\textbf{r}_\textit{i}-\textbf{R}_\textit{I}|}) +   \frac{1}{2} \sum_i \sum_{j \neq i} \frac{1}{ |\textbf{r}_\textit{i}-\textbf{r}_\textit{j}|} \\
+& = \sum_i h_1(\textbf{r}_\textit{i}) + \frac{1}{2} \sum_i \sum_{j \neq i} h_2(\textbf{r}_\textit{i},\textbf{r}_\textit{j}).
+\end{split}
 \end{equation}
 
-Here, $(<\bwff<i><> | \bwff<i><> > -1)$ provides that the wavefunctions are orthogonal.
+Therefore, the total energy of system is given by making the substitution using \textbf{Eq. \ref{nh}} and \textbf{Eq. \ref{wfh}} into \textbf{Eq. \ref{teh}}
+\begin{equation}\begin{split}
+& E^\textit{H} = \sumi<i> <\bwff<i><i> | \  h_1(\textbf{r}_\textit{i}) \ | \bwff<i><i> > \\
+& +\frac{1}{2} \sum_i \sum_{j \neq i} <\bwff<i><i> \bwff<j><j>|\ h_2(\textbf{r}_\textit{i},\textbf{r}_\textit{j}) \ | \bwff<i><i> \bwff<j><j>>.  
+\end{split}\end{equation}
+
+In order to calculate the stationary state with the lowest energy of the system, the variation of any wavefunction $\phi_{k}(\textbf{r}'')$ should be
+zero variation in the energy. That is, 
+\begin{equation}
+ \phi_{k}(\textbf{r}'') \rightarrow \phi_{k}(\textbf{r}'') + \delta \phi_{k}(\textbf{r}'')  \Rightarrow \delta E^{\textit{H}} = 0.
+\end{equation}
+
+Furthermore, the constraint is that the wavefunctions need to be orthonormalized. According to method of Lagrange multipliers, the variation with  Lagrange multiplier $E_{i,j}^{H}$ is satisfied
+
+\begin{equation}\label{haa}
+ \delta \Big(E^{\textit{H}} - \sum_i \sum_j E_{i,j}^{H} (<\bwff<i><i> | \bwff<j><j>> -\ \delta_{ij})\Big)  = 0. 
+\end{equation}
+
+
 
 $\delta E^{\textit{H}}$ in \textbf{Eq. \ref{haa}} can be calculated by two parts. The first part is 
 
@@ -858,7 +873,7 @@ $N$ number of electrons (without spin)
     \bwff<1><N> & \bwff<2><N> & \cdots & \bwff<N><N>
 \end{matrix} \right|.
 \end{equation}
-\noindent Here, $i$ goes through all the electrons, and $\bwff<i><i>$ implies state of the ($i$)-th electron in the position of $\textbf{r}_\textit{i}$. If two rows in \textbf{Eq. \ref{hfwfm}} are exchanged, 
+\noindent Here, $i$ goes through all the electrons, and $\bwff<i><i>$ implies state of the ($i$):th electron in the position of $\textbf{r}_\textit{i}$. If two rows in \textbf{Eq. \ref{hfwfm}} are exchanged, 
 the result is satisfied with the \textbf{Eq. \ref{hfwf}}.
 
 The total energy of Hartree-Fock approximation, which can be calculated similarly in the previous section of Hartree approximation, is given as
