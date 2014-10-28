@@ -1645,18 +1645,19 @@ $m_j^{\bot}$      &0.08	 &0.14	&0.25	&0.27	&0.1	&0.4	&0.17	&0.29	&0.13	&0.47	&0.
 $m_j^{||}$        &0.09  &0.66	&0.12	&0.28	&0.11	&0.14	&0.61	&0.4	&0.13	&0.15	&0.61	&0.49 \\
 \hline
 \end{tabular}}
-\caption {Parameters of \textbf{Eq. \ref{parabolic}} to describe the parabolic energy dispersions of the lowest CB and the three uppermost VBs in the vicinity of the $\Gamma$-point. $E_{v1}(\textbf{0})$ is the VBM and $E_{c1}(\textbf{0})$ is the fundamental band-gap energy Eg.}
+\caption {Parameters of \textbf{Eq. \ref{parabolic}} to describe the parabolic energy dispersions of the lowest conduction band (CB) and the three uppermost valence bands (VBs) in the vicinity of the $\Gamma$-point. $E_{v1}(\textbf{0})$ is the valence band maximum (VBM) and 
+$E_{c1}(\textbf{0})$ is the fundamental band-gap energy Eg.}\label{pm1}
 \end{table}
 
  
-Unfortunately, these effective masses are only valid around the considered {\textbf k} point, which is not suitable to describe the non-parabolic away from this {\textbf k} point.
-However, the accurate shape of energy bands is important when one simulates and analyzes the electron transport or band filling for some materials.
+Unfortunately, these effective masses are only valid around the considered {\textbf k} point, which is not suitable to describe the non-parabolic away from this {\textbf k} point. However, the accurate shape of energy bands is 
+important when one simulates and analyzes the electron transport or band filling for some materials.
 
-In this work, we have parameterized the three uppermost valences bands (VBs) and the lowest conduction band (CB) for the materials $\cigs$ where $x$ = 0, 0.5, and 1, that is, $\mathrm{CuInSe_2}$, $\mathrm{CuIn_{0.5}Ga_{0.5}Se_2}$, 
-and $\mathrm{CuGaSe_2}$. This parameterization is based on the all electron and full-potential linearized augemented plane wave (FPLAPW) calculation. Normally, the \textbf{k $\cdot$ p} method is utilized to parameterize the energy 
-bands. However, the energy dispersions of $\cigs$ are rather complex due to the crystal-field interaction and the spin-orbit coupling. Therefore, the regular \textbf{k $\cdot$ p} method is not sufficient to describe the energy bands. 
-We manage to extend the \textbf{k $\cdot$ p} expression to higher orders, which is called full band parameterization (fbp) in the following text. Thb fbp is valid around 0.5 eV below valence band maximum (VBM) and 0.5 eV above 
-conduction band minimum (CBM). The explicit equation is given as
+In this work, we have parameterized the three uppermost VBs and the lowest CB for the materials $\cigs$ where $x$ = 0, 0.5, and 1, that is, $\mathrm{CuInSe_2}$, $\mathrm{CuIn_{0.5}Ga_{0.5}Se_2}$, and $\mathrm{CuGaSe_2}$. This 
+parameterization is based on the all electron and full-potential linearized augemented plane wave (FPLAPW) calculation. Normally, the \textbf{k $\cdot$ p} method is utilized to parameterize the energy bands. However, the energy
+dispersions of $\cigs$ are rather complex due to the crystal-field interaction and the spin-orbit coupling. Therefore, the regular \textbf{k $\cdot$ p} method is not sufficient to describe the energy bands. We manage to extend the
+\textbf{k $\cdot$ p} expression to higher orders, which is called full band parameterization (fbp) in the following text. Thb fbp is valid around 0.5 eV below VBM and 0.5 eV above conduction band minimum (CBM). The explicit equation 
+is given as
 
 \begin{equation}\label{nonparabolic}
 \begin{split}
@@ -1667,9 +1668,8 @@ conduction band minimum (CBM). The explicit equation is given as
 & \small + \Delta_{j,6} \left( \delta_{j,8}^3 \left( \frac{\widetilde{\textbf{k}}_{x}^{4}\widetilde{\textbf{k}}_{z}^{2} + \widetilde{\textbf{k}}_{y}^{4}\widetilde{\textbf{k}}_{z}^{2}}{m_{0}^3} \right) + \delta_{j,9}^3 \left( \frac{\widetilde{\textbf{k}}_{x}^{2}\widetilde{\textbf{k}}_{z}^{4} + \widetilde{\textbf{k}}_{y}^{2}\widetilde{\textbf{k}}_{z}^{4}}{m_{0}^3} \right) + \delta_{j,10}^3 \left( \frac{\widetilde{\textbf{k}}_{x}^{2}\widetilde{\textbf{k}}_{y}^{2}\widetilde{\textbf{k}}_{z}^{2}}{m_{0}^3} \right) +1 \right)^{1/3}.
 \end{split}\end{equation}
 
-Here,  $E_j^0$, $\Delta_{j,n}$, and $\delta_{j,m}$ are fitting parameters (\textbf{Table. \ref{nonpara}}), ${m_0}$ is the electron rest mass. In the \textbf{Eq. \ref{nonparabolic}}, each term represents one
-parabolic dispersion, the higher order terms describe the larger wave vectors away from $\Gamma$ point. Unfortunately, the complex
-energy dispersions of $\cigs$ requires many fitting parameters. However, the conduction band need less fitting parameters.
+Here,  $E_j^0$, $\Delta_{j,n}$, and $\delta_{j,m}$ are fitting parameters (\textbf{Table. \ref{nonpara}}), ${m_0}$ is the electron rest mass. In the \textbf{Eq. \ref{nonparabolic}}, each term represents one parabolic dispersion, the
+higher order terms describe the larger wave vectors away from $\Gamma$ point. Unfortunately, the complex energy dispersions of $\cigs$ requires many fitting parameters. However, the conduction band need less fitting parameters.
 
 
  \begin{sidewaystable}
@@ -1700,47 +1700,43 @@ $\delta_{j,9}$         & 0	&61.565	 &33.169  &34.114  &0	    &118.064 &0	      &
 $\delta_{j,10}$        & 0	&46.679	 &31.275  &32.237  &0	    &110.327 &6.074   &153.523 &0	&40.765	  &5.243   &   2.124 \\
 \hline
 \end{tabular}}
-\caption {Parameters of \textbf{Eq. \ref{nonparabolic}} to describe the non-parabolic contribution to the energy dispersions $E\textsubscript{j}(\textbf{k})$ of the lowest CB and the three uppermost VBs.
-The notation of the energy bands ($j$ = $c1$, $v1$, $v2$, and $v3$) refers to a spin-independent band indexing, where $c1$ represents the bottommost CB and $v1$ represents the topmost 
-VB (see \textbf{Fig. \ref{bandstruct}}.}\label{nonpara}
+\caption {Parameters of \textbf{Eq. \ref{nonparabolic}} to describe the non-parabolic contribution to the energy dispersions $E\textsubscript{j}(\textbf{k})$ of the lowest CB and the three uppermost VBs. The notation of the energy 
+bands ($j$ = $c1$, $v1$, $v2$, and $v3$) refers to a spin-independent band indexing, where $c1$ represents the bottommost CB and $v1$ represents the topmost valence band (VB) (see \textbf{Fig. \ref{bandstruct}}.}\label{nonpara}
 \end{sidewaystable}
 
 
 \subsection{Non-parabolicity properties}
 
-The fbp of $\cigs$ ($x$ = 0, 0.5, and 1) are plotted compared with the calculation based on the FPLAPW method and the pba in 
-\textbf{Eq. \ref{parabolic}}.
+The fbp of $\cigs$ ($x$ = 0, 0.5, and 1) are plotted compared with the calculation based on the FPLAPW method and the pba in \textbf{Eq. \ref{parabolic}}.
 
 \begin{figure}[H]
     \begin{center}
             \includegraphics[width=0.45\textwidth,clip]{paper2figure1}
             \includegraphics[width=0.46\textwidth,clip]{paper2figure2}
      \end{center}
-    \caption{ Left panel: Electronic band structure along four directions.
- the circles are the results of the full band parameterization (fbp), 
-and the dotted lines represent the parabolic band approximation (pba). 
-Righ panel: The close-up of left panel for the valence bands close to $\Gamma$ point.}      
+    \caption{ Left panel: Electronic band structure along four directions. The circles are the results of the full band parameterization (fbp), and the dotted lines represent the parabolic band approximation (pba). Righ panel: The 
+              close-up of left panel for the valence bands close to $\Gamma$ point.}      
     \label{bandstruct}
 \end{figure}
 
-From \textbf{Fig. \ref{bandstruct}}, one will observe that the parameterized energy bands can describe the energy below VBM around 0.5 eV accurately, and around 0.5 eV above the CB minimum (CBM) as well.
-However, the pba is only valid below VBM around $-$4, $-$10, and $-$40 meV for $\mathrm{CuInSe_2}$, $\mathrm{CuIn_{0.5}Ga_{0.5}Se_2}$, and $\mathrm{CuGaSe_2}$,
-respectively. Since the lowest conduction band is more parabolic, therefore, the less fitting parameters are expected (\textbf{Table \ref{nonpara}}).
+From \textbf{Fig. \ref{bandstruct}}, one will observe that the parameterized energy bands can describe the energy below VBM around 0.5 eV accurately, and around 0.5 eV above the CB minimum (CBM) as well. However, the pba is only
+valid below VBM around $-$4, $-$10, and $-$40 meV for $\mathrm{CuInSe_2}$, $\mathrm{CuIn_{0.5}Ga_{0.5}Se_2}$, and $\mathrm{CuGaSe_2}$, respectively. Since the lowest conduction band is more parabolic, therefore, the less fitting 
+parameters are expected (\textbf{Table \ref{nonpara}}).
 
-To further test the parameterization method, the energy dispersions of the lowest CB and the three uppermost VBs are parameterized for Kesterite and Stannite Cu\textsubscript{2}ZnSn(S,Se)\textsubscript{4} 
-as well. It works as good as CIGS, therefore, this parameterization method can be ultilized to other materials potentially.
+To further ultilize this parameterization method, the energy dispersions of the lowest CB and the three uppermost VBs are parameterized for Kesterite and Stannite Cu\textsubscript{2}ZnSn(S,Se)\textsubscript{4} as well. It works as 
+good as CIGS, therefore, this parameterization method can be ultilized to other materials potentially.
 
 \begin{figure}[H]
     \begin{center}
             \includegraphics[width=1\textwidth,clip]{bandstr}
      \end{center}
-    \caption{ Electronic band structure of the kesterite and stannite structures of Cu\textsubscript{2}ZnSnS\textsubscript{4} and Cu\textsubscript{2}ZnSnSe\textsubscript{4} along the symmetry directions (kx, ky, kz) 
-    = (010), (112), (110), and (001). }      
+    \caption{ Electronic band structure of the kesterite and stannite structures of Cu\textsubscript{2}ZnSnS\textsubscript{4} and Cu\textsubscript{2}ZnSnSe\textsubscript{4} along the symmetry directions (kx, ky, kz) = (010), (112),
+              (110), and (001). The circles are the results of the full band parameterization (fbp), and the dotted lines represent the parabolic band approximation (pba). }      
     \label{bandstruct1}
 \end{figure}
 
 
-In order to demonstrate the anisotropic and non-parabolic of energy bands further, the constant energy surface $S_j(E)$ is determinded for $CuInSe_2$ and $CuGaSe_2$.
+In order to demonstrate the anisotropic and non-parabolic of energy bands further, the constant energy surface $S_j(E)$ is determinded for CuInSe\textsubscript{2} and CuGaSe\textsubscript{2}.
 
 \begin{figure}[H]
     \begin{center}
@@ -1749,100 +1745,114 @@ In order to demonstrate the anisotropic and non-parabolic of energy bands furthe
             \includegraphics[width=0.4\textwidth,clip]{fermi_sphere_cgg}
      \end{center}
     \caption{Constant energy surfaces for the three uppermost VBs and the lowest CB for the energies E = 1 meV (left column ellipsoidal) and E = 200 meV (right column).  
-The $CuInSe_2$ and $CuGaSe_2$ are demonstrated in this figure.}
+The CuInSe\textsubscript{2} and CuGaSe\textsubscript{2} are demonstrated in this figure.}
     \label{cse}
 \end{figure}
 
 In the \textbf{Fig. \ref{cse}}, 1 meV represents that it is near to $\Gamma$ point ; 200 meV implies that it is far away the $\Gamma$ point.
 One will notice that the pba is proper to describe the energy bands close to the $\Gamma$ point, and it is ellipsoidal shaped sphere. For example,
-for the topest VB ($v_1$) of $\mathrm{CuInSe_2}$, the constant energy surface is ellipsoidal in the vicinity of the $\Gamma$ point since the effective
-masses are anisotropic ($m_{v1}^{\perp}$ = 0.14$m_0$ and $m_{v1}^{\parallel}$ = 0.66$m_0$). However, the constant energy surface becomes non-ellipsoidal when the energies 
-is far away from $\Gamma$ point. For example, for the same band, the constant energy surface is not ellipoidal shape at all when the energies goes up to 200 meV.
+for the topmost VB ($v_1$) of $\mathrm{CuInSe_2}$, the constant energy surface is ellipsoidal in the vicinity of the $\Gamma$ point since the effective
+masses are anisotropic ($m_{v1}^{\perp}$ = 0.14$m_0$ and $m_{v1}^{\parallel}$ = 0.66$m_0$ in \textbf{Table \ref{pm1}}). However, the constant energy surface becomes non-ellipsoidal when the energies 
+is far away from $\Gamma$ point. For example, for the same band, the constant energy surface is not ellipoidal shape at all when the energies goes up to 200 meV. It also implies that it is not correct to consider the constant 
+effective mass for simulation. For the CB, the change is relatively small.
 
+\subsection{Application of the full band parameterization}
 
+The parameterized energy bands can be exploited to reveal the detailed information near the VB and CB edged. In this section, the effective masses, density-of-states (DOS), .... are caluclated based on
+this fbp. In comparison with the results based on pba, most of the results are calculated with the pba as well.  
 
+The effective masses are \textbf{k}-independent for the pba, which is not fully correct due to the non-parabolicity and anisotropy of the energy bands.  The effective masses tensors are calculated numerically by
 
+\begin{equation}\label{inversemasse}
+m_j(\textbf{k}) = \pm \hbar^2/(\partial^2 E_j(\textbf{k})/\partial\textbf{k}^2) \ \textrm{where}\  j = c1, v1, v2, \textrm{and}\  v3.
+\end{equation}
 
-
-\subsection{Application of the non-parabolicity}
-
+The result from \textbf{Fig. \ref{inversemessf}} demonstrates that the energy bands of $\cigs$ are strong non-parabolic, since it should be constant in the pba along each symmetry direction. The effective hole masses of the two 
+topmost VBs are very anisotropy close to the $\Gamma$ point, however, the electron masses of conduction bands are rather isotropic ($m_{c1}^{100}(\textbf{0}) \approx m_{c1}^{110}(\textbf{0}) \approx m_{c1}^{001}(\textbf{0}) 
+\approx m_{c1}^{112}(\textbf{0})$). Hole masses of CuGaSe\textsubscript{2} vary somewhat less compared with those of CuInSe\textsubscript{2} due to CuGaSe\textsubscript{2} has larger split between the VBs. In order to better 
+visibility, therefore, the inverse of the mass are presented.
 
 \begin{figure}[H]
     \begin{center}
-            \includegraphics[width=0.45\textwidth,clip]{paper1figure3}
+            \includegraphics[width=0.43\textwidth,clip]{paper1figure3}
      \end{center}
     \caption{ Inverse of the effective electron and hole masses in the four symmetry directions for the $\cigs$ (x=0, 0.5, and 1).}      
     \label{inversemessf}
 \end{figure}
 
-The effective masses are calculated numerically by:
-
-\begin{equation}\label{inversemasse}
-m_j(\textbf{k}) = \pm \hbar^2/(\partial^2 E_j(\textbf{k})/\partial\textbf{k}^2).
-\end{equation}
- 
-In order to better visibility, therefore, the inverse of the mass are presented. The result from \textbf{Fig. \ref{inversemessf}} demonstrates that the energy bands of $\cigs$
-are strong non-parabolic, since it should be constant in the pba along each symmetry direction. The effective hole masses of the two topmost VBs are very anisotropy close
-to the $\Gamma$ point, however, the electron masses of conduction bands are rather isotropic ($m_{c1}^{100}(\textbf{0}) \approx m_{c1}^{110}(\textbf{0}) \approx m_{c1}^{001}(\textbf{0}) \approx m_{c1}^{112}(\textbf{0})$).
-
-
-
-
-
-In order to analyze the impact of non-parabolicity and anisotropy of the energy bands, several properties are compared in the following text between fbp and pba, respectively, such as density-of-states (DOS),
-DOS mass, carrier concentration in intrinsic and \textit{p}-type of $\cigs$.
-
-The DOS in $j$th band is defined as:
+In order to further analyze the impact of non-parabolicity and anisotropy of the energy bands, the density-of-states (DOS) is calculated based on fba and pba. The DOS in $j$th band is defined as
 
 \begin{equation}\label{dosj}
  g_j(E)=\frac{1}{\Omega} \sum \limits_{\textbf{k}} 2 \delta (E-E_j(\textbf{k})) = \frac{1}{4\pi^3} \int \limits_{E_j(\textbf{k}) = E} \frac{dS(\textbf{k})}{|\bigtriangledown_\textbf{k} E_j(\textbf{k})|}.
 \end{equation}
  
 Here, $E_j(\textbf{k}) = E$ is the $\textbf{k}$ space surface with constant energy $E$, and the $\bigtriangledown_\textbf{k} E_j(\textbf{k})$ is the gradient of the energy dispersion.
-In the case of the pba, the \textbf{Eq. \ref{dosj}} will be written:
+In the case of the pba, the \textbf{Eq. \ref{dosj}} can be written as
 
 \begin{equation}\label{dosjp}
  g_j^{pba}(E) = \frac{1}{2\pi^2} \big(\frac{2m_j^{DOS}}{\hbar^2}\big)^{3/2} \sqrt{|E-E_j(\textbf{0})|}.
 \end{equation}
  
 Here, the DOS mass $m_j^{DOS}$ is equal to $\big( m_j^{\perp}m_j^{\perp}m_j^{\parallel} \big)^{1/3}$, which reprents the extent of filling the specific band with free carriers to certain energy. 
-In order to take advantage of the simple \textbf{Eq. \ref{dosjp}} for the non-parabolic energy bands, the energy-dependent DOS mass ($m_{v/c}^{DOS}$) is defined:
+In order to take advantage of the simple \textbf{Eq. \ref{dosjp}} for the non-parabolic energy bands, the energy-dependent DOS mass ($m_{v/c}^{DOS}$), which contains the non-parabolicity and anisotropy of the band dispersion, 
+is defined as
 
 \begin{equation}\label{dosmass}
  g_{v/c}(E) = \sum \limits_j g_j(E) = \frac{1}{2\pi^2} \big(\frac{2m_{v/c}^{DOS}(E)}{\hbar^2}\big)^{3/2} \sqrt{|E-E_{v1/c1}(\textbf{0})|}.
 \end{equation}
 
-The DOS mass contains the non-parabolicity and anisotropy of the band dispersion.
+Here, the energy-dependent DOS mass $m_{v/c}^{DOS}(E)$ contains the non-parabolicity and anisotropy of the band dispersion.
+
+The \textbf{Fig. \ref{dost}} (left) demonstartes that the non-parabolicity of the bands strongly affect the DOS dispersions. The difference is remarkable. The fbp always generates larger DOS, the reason is that the non-parabolic 
+energy bands is more flat than parabolic bands. The \textbf{Fig. \ref{dost}} (right) demonstrates that the DOS masses of $\cigs$ is strong energy dependence with the VB DOS mass, which proves further the importance of considering 
+non-parabolicity and anisotropy of the energy bands, especially for the VBs in the case of $\cigs$. For example, the effecive mass of topmost VB for $CuInSe_2$ is around 0.23 $m_0$ close to the $\Gamma$ point, which goes up to
+around 1.00 $m_0$ when $E$ is around 0.1 eV. However, the change in the CB DOS mass is subtle, but also goes up to 2$-$3 times with respect to the value around $\Gamma$ point.
+
 
  \begin{figure}[H]
-  \begin{center}
+ \centering
+  %\begin{center}
             \includegraphics[width=0.48\textwidth,clip]{paper2figure4}
             \includegraphics[width=0.46\textwidth,clip]{paper2figure6}
-     \end{center}
-    \caption{Left: Total DOS of the VBs and CB.The solid lines show the full band parameterization (fbp), and the dashed lines represent the parablolic band approximation (pba).
-Right:The DOS mass $m_{v/c}^{DOS}$ is calculated in the equation \ref{dosmass}. }
+  %   \end{center}
+    \caption{Left: Total DOS of the VBs and CB.The solid lines show the full band parameterization (fbp), and the dashed lines represent the parabolic band approximation (pba). Right:The DOS mass $m_{v/c}^{DOS}$ is calculated in the \textbf{Eq. \ref{dosmass}}. }
    \label{dost}
 \end{figure}
 
-The \textbf{Fig. \ref{dost}} (left) demonstartes that the non-parabolicity of the bands strongly affect the DOS dispersions. The difference is remarkable. The fbp always
-generates larger DOS, the reason is that the non-parablic energy bands is more flat than parabolic bands. The \textbf{Fig. \ref{dost}} (right) demonstrates that the DOS masses of $\cigs$ is strong energy dependence with the VB DOS mass, which proves further the importance of considering 
-non-parabolicity and anisotropy of the energy bands, especially for the VBs in the case of $\cigs$. For example, the effecive mass of topmost VB for $CuInSe_2$ is around 
-0.23 $m_0$ close to the $\Gamma$ point, which goes up to around 1.00 $m_0$ when $E$ is around 0.1 eV. However, the change in the CB DOS mass is subtle, but also goes up to 2$-$3 times 
-with respect to the value around $\Gamma$ point.
+The number of states with energies up to $E$ is obtained from the total DOS and the constant energy surfaces in \textbf{Fig. }. It shows that the VBs (CB) in Ga rich compounds will be less (more) populated by holes (electrons) for 
+a given quasi-Fermi energy. It also demonstartes that the pba underestimates the band filling in the VBs and the CB strongly. For example, the number of VB states of CuInSe\textsubscript{2} is increased by a factor of around
+18 at the positive energy $|\triangle E| = E_{v1}( \textbf{0})-E_{F,v}^* = 0.1 eV$ when the fba is included. For the CB, the number is incrased by a factor of around 3. At $|\triangle E| = 0.5 eV$, the incrase is as much as around 41
+and 8 times, respectively.
 
-The concentration of free holes $n_v(T)$ and free electrons $n_c(T)$ is calculated by:
+
+ \begin{figure}[H]
+ \centering
+  %\begin{center}
+            \includegraphics[width=0.48\textwidth,clip]{paper2figure4}
+            \includegraphics[width=0.46\textwidth,clip]{paper2figure6}
+  %   \end{center}
+ %   \caption{Carrier concentration \textit{p} or \textit{n} as functions of the quasi-Fermi energy $E_F^*$ of the VBs $E_{F,v}^*$ and of the CB $E_{F,c}^*$. Left column shows the results for large energy scale up to 0.5 eV, 
+ %   and right column displays a close-up for small Fermi energies. In the figure, $|\delta E|$ is the positive energy difference $E_{v1}({0}) - E_{F,v}^*$ for the VBs and $E_{F,c}^* - E_{c1}({0})$ for the CB.The carrier
+ %   concentrations consider external band filling in intrinsic materials at T = 0 K. The results demonstrate that the parabolic band approximation strongly underestimates the band filling of both the VBs and CB.}
+ 
+ \caption{Carrier concentration \textit{p} or \textit{n} as functions of the quasi-Fermi energy  $E_F^*$ of the VBs  $E_{F,v}^*$ and of the CB $E_{F,c}^*$. Left column shows the results for large energy scale up to 0.5 eV,
+ and right column displays a close-up for small Fermi energies. In the figure, $|\triangle E|$ is the positive energy difference $E_{v1}(\textbf{0})-E_{F,v}^*$ for the VBs and $E_{F,c}^*-E_{c1}(\textbf{0})$ for the CB.The carrier
+ concentrations consider external band filling in intrinsic materials at T = 0 K. The results demonstrate that the parabolic band approximation strongly underestimates the band filling of both the VBs and CB.}
+\end{figure}
+
+The concentration of free holes $n_v(T)$ and free electrons $n_c(T)$ is calculated from the DOS by
 
 \begin{equation}
 \begin{split}
 & n_v(T) = \int \limits_{-\infty}^{E_{v1}(\textbf{0})} g_v(E)(1-f(E))dE,\\
-& n_c(T) = \int \limits_{E_{c1}(0)}^{\infty} g_c(E)f(E)dE, 
+& n_c(T) = \int \limits_{E_{c1}(0)}^{\infty} g_c(E)f(E)dE.
 \end{split}
 \end{equation}
 
-where $f(E) = 1/[1+exp{(E-E_F)/k_BT}]$ is the Fermi disctribution function. The intrinsic carrier concentration can be expressed as:
+Here, $f(E) = 1/[1+exp{(E-E_F)/k_BT}]$ is the Fermi disctribution function. The intrinsic carrier concentration can be expressed as
 
 \begin{equation}\label{cc}
- n_i(T) = \sqrt{n_c(T) \cdot n_v(T)} ,
+ n_i(T) = \sqrt{n_c(T) \cdot n_v(T)}.
 \end{equation}
  
 The extrinsic carrier concentration for \textit{p}-type materials can be derived as:
@@ -1863,6 +1873,15 @@ The results from the pba for silicon (Si) and GaAs are compared with our simulat
 
 Here, parameters $a$ and $b$ are exploited from experimental values.
 
+In \textbf{Fig. \ref{icc}}, the temperature dependent band gap and Fermi level (left panel) and intrinsic carrier concentration (right panel) are shown.  In the left panel of \textbf{Fig. \ref{icc}}, the band gap is 1.04, 1.33, and 1.67 eV for
+CuIn\textsubscript{1-x}Ga\textsubscript{x}Se\textsubscript{2} where $x$ = 0, 0.5, and 1 at temperature around 0 K, respectively. Fermi level is exactly the mid-gap energy. The Fermi level changes only slightly with temperature. However, 
+for CuInSe\textsubscript{2} and CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2}, the Fermi levels increase somewhat more compared with CuGaSe\textsubscript{2}. This is primarily due to the CB of DOS mass for 
+CuGaSe\textsubscript{2} is almost the same, but the VB of DOS mass for CuGaSe\textsubscript{2} change smaller compared with CuInSe\textsubscript{2} and CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2} which will 
+affect the DOS. As a consequence, the Fermi level is closer to the CB minimum in the In rich compounds. At T = 300 K and 600 K, the band-gap energies and Fermi energy are Eg (300) = 1.02, 1.29, and 1.62 eV, Eg (600) = 0.98, 1.24, 
+and 1.55 eV, $E_F$ (300) = 0.55, 0.69, and 0.84 eV, and $E_F$ (600) = 0.59, 0.71, and 0.84 eV for x = 0, 0.5, and 1 respectively. In the right panel of \textbf{Fig. \ref{icc}}, the intrinsic carrier concentration is increased dramatically with the increasing of temperature for the $\cigs$. For example, in the case of $CuInSe_2$, the carrier concentration is
+increased up to around $10^{5}$ times higher from temperture 300 K to 600 K. One also notice that the intrinsic carrier concentribution for the Si and $CuInSe_2$ are very comparable. The free carrier concentration is increased 
+goes up to 2 $-$ 3 times by taking into account the non-parabolicity of the energy bands. 
+
  \begin{figure}[H]
     \begin{center}
             \includegraphics[width=0.5\textwidth,clip]{figure7b_1}
@@ -1871,11 +1890,35 @@ Here, parameters $a$ and $b$ are exploited from experimental values.
    \label{icc}
 \end{figure}
 
-From \textbf{Fig. \ref{icc}}, the free carrier concentration is increased dramatically with the increasing of temperature for the $\cigs$. For example, in the case of $CuInSe_2$, the carrier concentration is
-increased up to around $10^{5}$ times higher from temperture 300 K to 600 K. One also notice that the intrinsic carrier concentribution for the Si and $CuInSe_2$ are very comparable. The free carrier concentration is increased 
-goes up to 2 $-$ 3 times by taking into account the non-parabolicity of the energy bands. 
 
-The p-type carrier concentration (\textbf{Fig. \ref{ptypecc}}) for $\cigs$ is presented using \textbf{Eq. \ref{ecc}}. 
+
+
+Since as-grown CuIn\textsubscript{1-x}Ga\textsubscript{x}Se\textsubscript{2} typically has \textit{p}-type character, the Fermi level and \textit{p}-type carrier concentration of free holes $n_v(T)$ and free electrons $n_c(T)$ is calculated by 
+assuming the presences of the native Cu vacancies as acceptors. 
+
+
+The calculated Fermi level $E_F^P$ in \textit{p}-type materials is presented in \textbf{Fig. \ref{ptypecc1}}, referred to the Fermi level of the intrinsic materials $E_F$ from \textbf{Fig. \ref{icc}}. Only at very high temperatures
+( $T > 400 K$) and for low acceptor concentrations, the Fermi level of \textit{p}-type CuIn\textsubscript{1-x}Ga\textsubscript{x}Se\textsubscript{2} will reach the Fermi level of corresponding intrinsic compounds. Moreover, 
+although the different compounds have comparable acceptor ionization energies, the Ga rich alloy has lower relative Fermi level; this is a direct consequence of the larger band gap of the Ga rich alloy. By comparing the calculations 
+with the parabolic band approximation (dotted lines in \textbf{Fig. \ref{ptypecc1}} ) and the full band approach (solid lines) for each of the three CuIn\textsubscript{1-x}Ga\textsubscript{x}Se\textsubscript{2} alloys, one can notice
+that the Femi level is similar for the two models only at low and at very high temperatures. In the mid-temperature region the difference is however apparent, especially for the high acceptor concentrations. Assuming parabolic bands
+yields always a lower Fermi level. The reason for this effect is that the energy dependent effective mass $m_{v/c}^{DOS}(E)$ in the full band parameterization is always larger that the corresponding $\Gamma$-point mass. Although the
+effect on the absolute value of the Fermi level seems to be small, it has an impact on the free carrier concentrations for highly doped materials. 
+
+ \begin{figure}[H]
+    \begin{center}
+            \includegraphics[width=1\textwidth,clip]{paper2figure9}
+     \end{center}
+    \caption{Fermi level as function of the temperature $20 \leq T \leq 600$ of \textit{p}-type CuInSe\textsubscript{2}, CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2}, and CuGaSe\textsubscript{2} for the effective
+    doping concentration $N_A$ = $10^{13}$, $10^{14}$, $10^{15}$, $\cdot$, and $10^{19}$ acceptors/$cm^3$. The energy scale $E_F^p-E_F$ describes the Fermi energy with respect to the intrinsic $E_F$ (\textbf{Fig. \ref{icc}}).
+    Dashed lines represent the VBM with respect to the intrinsic Fermi level. Solid and dotted lines represents the full band parameterization and the parabolic band approximation, respectively.}
+   \label{ptypecc1}
+\end{figure}
+
+
+
+
+The p-type carrier concentration (\textbf{Fig. \ref{ptypecc}}) for $\cigs$ is presented using \textbf{Eq. \ref{ecc}}
 
  \begin{figure}[H]
     \begin{center}
