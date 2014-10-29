@@ -46,7 +46,7 @@
 %And here the document begins!
 
 \begin{document}
-\def\hath{\hat{H}}
+\def\hath{{H}}
 \def\wf {\Psi(\{ {\textbf r}_{\textit i}, {\textbf R}_{\textit I} \})}
 \def\wfbo{\Psi_{{\textit BO}}({{\textbf r}_{{\textit i}}},{\textbf R} )}
 \def\wfh{\Psi^{{\textit H}}(\{ {\textbf r}_{{\textit i}}\})}
@@ -346,7 +346,7 @@ The \textit{p}--\textit{n} junction is the fundamental building block of solar c
 We start from the seperate \textit{n}-type material and \textit{p}-type material at room temperature (assume that all the donor (acceptor) atoms are positively (negatively) ionized at room temperature). In \textbf{Fig. \ref{dopedmaterials}}, the left one shows the \textit{n}-type and \textit{p}-type materials. The \textit{n}-type
 material has many free negatively charged electrons which can move freely in the material, and there are numbers of positively charged immobile donor ions as well. Similarily, the \textit{p}-type material has many free positively
 charged holes which can move freely in the material, and there are numbers of negatively charged immobile acceptor ions as well. However, the material is still neutral in both \textit{n}-type and \textit{p}-type.
-On the right in \textbf{Fig. \ref{dopedmaterials}}, the corresponding fermi levels are shown. The Fermi level (E\textsubscript{nf}) is closer to conduction band minimum for \textit{n}-type material due to the many free 
+On the right in \textbf{Fig. \ref{dopedmaterials}}, the corresponding Fermi levels are shown. The Fermi level (E\textsubscript{nf}) is closer to conduction band minimum for \textit{n}-type material due to the many free 
 negatively charged electrons. Conversely, the Fermi level of \textit{p}-type material (E\textsubscript{pf}) is closer to the valence band maximum to the free positively charged holes.
 
 \begin{figure}[H]
@@ -640,42 +640,39 @@ This CIGS/CdS/ZnO strucutrure was optimized to improve the cell performance.
 
 \noindent A solid material contains a huge number of atoms (around 10\textsuperscript{23} \si{\per\cubic\centi\metre} ), and each atom is constructed by a nucleus and electron(s). 
 According to the quantum mechanics principles, all the properties of any system are known if one can figure out a way to solve 
-the quantum many-body Schrödinger equation exactly. In this thesis, the time-independent many-body Schrödinger equation is only considered.
+the quantum many-body Schrödinger equation exactly. In this thesis, the time-independent many-body Schrödinger equation is only considered, which is given as
 
 \begin{equation}\label{ssth}
- {\hath} {\wf} = {E} {\wf}.
+ H^{en} {\Psi^{en}(\{ {\textbf r}_{\textit i}, {\textbf R}_{\textit I} \})} = {E^{en}} {\Psi^{en}(\{ {\textbf r}_{\textit i}, {\textbf R}_{\textit I} \})}.
 \end{equation}
 
-Here, $\wf$  is the exact wavefunction, $\textbf{r}_\textit{i}$ and $\textbf{R}_\textit{I}$  stands for coordinators of electron and
-nucleus, respectively.
-
-In \textbf{Eq. \ref{ssth}}, $E$ is the system total energy, and $\hath$ is the Hamiltonian which is defined as
+Here, term with the superscript "\textit{en}" implies that this term is related with electrons and nuclei. ${\Psi^{en}(\{ {\textbf r}_{\textit i}, {\textbf R}_{\textit I} \})}$ is the exact wavefunction, $\textbf{r}_\textit{i}$ 
+and $\textbf{R}_\textit{I}$  stands for coordinators of electron and nucleus, respectively. $E^{en}$ is the system total energy. $H^{en}$ is the Hamiltonian which is defined as
 
 \begin{equation}\label{th}
 \begin{split}
-& \hath = - \sumi<i> {\frac{\hbar^{2}}{2 m_{\textit e}}}   \nablaia<i> - \sumi<I> {\frac{\hbar^{2}}{2 m_\textit{I}}} \nablaia<I>  - \sum_i \sum_I \frac{Z_\textit{I}\ e^2}{4 \pi \varepsilon_0 |\textbf{r}_\textit{i}-\textbf{R}_\textit{I}|} \\
-& + \frac{1}{2} \sum_i \sum_{j \neq i} \frac{ e^2}{4 \pi \varepsilon_0 |\textbf{r}_\textit{i}-\textbf{r}_\textit{j}|} + \frac{1}{2} \sum_I \sum_{J \neq I} \frac{Z_\textit{I} Z_\textit{J}\  e^2}{4 \pi \varepsilon_0 |\textbf{R}_\textit{I}-\textbf{R}_\textit{J}|}.
+& H^{en} = - \sum_i^{Ne} {\frac{\hbar^{2}}{2 m_{\textit e}}}   \nablaia<i> - \sum_I^{Nn} {\frac{\hbar^{2}}{2 m_\textit{I}}} \nablaia<I>  - \sum_i^{Ne} \sum_I^{Nn} \frac{Z_\textit{I}\ e^2}{4 \pi \varepsilon_0 |\textbf{r}_\textit{i}-\textbf{R}_\textit{I}|} \\
+& + \frac{1}{2} \sum_i^{Ne} \sum_{j \neq i}^{Ne} \frac{ e^2}{4 \pi \varepsilon_0 |\textbf{r}_\textit{i}-\textbf{r}_\textit{j}|} + \frac{1}{2} \sum_I^{Nn} \sum_{J \neq I}^{Nn} \frac{Z_\textit{I} Z_\textit{J}\  e^2}{4 \pi \varepsilon_0 |\textbf{R}_\textit{I}-\textbf{R}_\textit{J}|}.
 \end{split}
 \end{equation}
 
-Here, the indices \textit{i}, \textit{j} are used for the electrons, and \textit{I}, \textit{J} are used for atomic nuclei, $Z_I$ implies the charge of the \textit{I}:th nucleus,
+Here, the indices \textit{i}, \textit{j} are used for the electrons, and \textit{I}, \textit{J} are used for atomic nuclei. $Z_I$ implies the charge of the \textit{I}:th nucleus.
 $\textit{m}_I$ denotes the nuclear mass, $m_e$ is the electron mass, and $\varepsilon_0$ is vacuum permittivity.
 
 In atomic units, the reduced Planck constant $\hbar$, the electron mass $m_e$, the Bohr radius $a_0$, and the electron charge
 $e$ are equal to 1. The Bohr radius is given by the formula $a_0$ = ${\hbar} / {(mc\alpha)}$. Here, $\alpha$ is the fine structure
-constant ($\alpha$ = ${e^2}/{(4 \pi \varepsilon_0 c \hbar)}$). Therefore, the velocity of light in atomic units is $c$ = $1/{\alpha}$ and ${e^2}/{(4 \pi \varepsilon_0)}$ = 1. In atomic units, mass of the \textit{i}:th nucleus is $M_I$.
-Therefore, \textbf{Eq. \ref{th}} is given as
+constant ($\alpha$ = ${e^2}/{(4 \pi \varepsilon_0 c \hbar)}$). Therefore, the velocity of light in atomic units is $c$ = $1/{\alpha}$ and ${e^2}/{(4 \pi \varepsilon_0)}$ = 1. In atomic units, \textbf{Eq. \ref{th}} is given as 
 
 \begin{equation}\label{sth}\begin{split}
-&\hath = - \sumi<i>   \frac{{{\nabla}_{\textit{i}}^{2}}}{2} - \sumi<I> \frac{{{\nabla}_{\textit{I}}^{2}}}{2 M_\textit{I}}  - \sum_i \sum_I \frac{Z_\textit{I}}{|\textbf{r}_\textit{i}-\textbf{R}_\textit{I}|} \\
-& + \frac{1}{2} \sum_i \sum_{j \neq i} \frac{1}{ |\textbf{r}_\textit{i}-\textbf{r}_\textit{j}|} + \frac{1}{2} \sum_I \sum_{J \neq I} \frac{Z_\textit{I} Z_\textit{J}\ }{|\textbf{R}_\textit{I}-\textbf{R}_\textit{J}|}.
+&\hath = - \sum_i^{Ne}   \frac{{{\nabla}_{\textit{i}}^{2}}}{2} - \sum_I^{Nn} \frac{{{\nabla}_{\textit{I}}^{2}}}{2 M_\textit{I}}  - \sum_i^{Ne} \sum_I^{Nn} \frac{Z_\textit{I}}{|\textbf{r}_\textit{i}-\textbf{R}_\textit{I}|} \\
+& + \frac{1}{2} \sum_i^{Ne} \sum_{j \neq i}^{Ne} \frac{1}{ |\textbf{r}_\textit{i}-\textbf{r}_\textit{j}|} + \frac{1}{2} \sum_I^{Nn} \sum_{J \neq I}^{Nn} \frac{Z_\textit{I} Z_\textit{J}\ }{|\textbf{R}_\textit{I}-\textbf{R}_\textit{J}|}.
 \end{split}\end{equation}
 
-In \textbf{Eq. \ref{sth}}, the first and second terms are the kinetic energy operator of the electrons and nuclei, respectively.
-The other terms in order are Coulomb interactions between electrons and nuclei, electrons and electrons and nuclei and nuclei.
+Here, $M_I$ is the mass of the \textit{i}:th nucleus in atomic units. The first and second terms are the kinetic energy operator of the electrons and nuclei, respectively.
+The other terms are Coulomb interactions between electrons and nuclei, electrons and electrons and nuclei and nuclei in sequence.
 
 One can not solve \textbf{Eq. \ref{ssth}} exactly at present since there are enormous amount of atoms to calculate in reality. More importantly, the exactly form of the wavefunction is unknown.
-To approximate the exact solution, generally one can divide it into three different levels: the first level is the Born-Oppenheimer approximation; the second level is Hartree,
+To approximate the exact solution, one divides it into three different levels generally: the first level is the Born-Oppenheimer approximation; the second level is Hartree,
 Hartree-Fock (HF), density functional theory (DFT) and Kohn-Sham (KS) equation; the last level is to solve the secular equation which is an equation that is solved to find the eigenvalue of matrix.
 
 \subsection{The Born-Oppenheimer approximation}
@@ -689,63 +686,64 @@ some positions and that of the other electrons.
 The separation of motion between electrons and nuclei is called the Born-Oppenheimer approximation. Since the positions of nuclei are fixed, wavefunction can be written as
 
 \begin{equation}\label{nwf}
-{\wf}  {\approx}  {\Psi^{ \textit{BO}} ( \{ {\textbf{r}_{\textit{i}}},\textbf{R}_{\textit I} \}) } = {\theta(\{{\textbf R}_{\textit I}\})} {\Psi'(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})}.
+{\Psi^{en}(\{ {\textbf r}_{\textit i}, {\textbf R}_{\textit I} \})} \   {\approx} \  {\theta(\{{\textbf R}_{\textit I}\})} {\Psi(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})}.
 \end{equation}
 
-Here, ${\Psi'(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})}$  is the electrons wavefunction in the Born-Oppenheimer approximation. Since the electrons are under the potential of nuclei, and thus the wavefunction of 
+Here, ${\Psi(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})}$  is the electrons wavefunction in the Born-Oppenheimer approximation. Since the electrons are under the potential of nuclei, and thus the wavefunction of 
 electrons is related with the nucleus postions. 
  
 \textbf{Eq. \ref{sth}} can be rewritten as
 
 \begin{equation}\begin{split}\label{nh}
-& {\hath} = - \sumi<I> \frac{{{\nabla}_{\textit{I}}^{2}}}{2 M_\textit{I}} + {\hat{H}_{nn}} + {\hath}^{BO} \\
-& {\hath}^\textit{BO}\ = \ \hat{T} \ + \ \hat{V}_{ext} \ + \ \hat{V}_\textit{int}\ 
+& {H^{en}} = H + H^n \\
+& {H}\ = \ {T} \ + \ {U}_{ext} \ + \ {U}_\textit{int}\  \\
+& {H^n} = - \sumi<I> \frac{{{\nabla}_{\textit{I}}^{2}}}{2 M_\textit{I}} + {{H}_{zz}}
  \end{split}
 \end{equation}
 
 Furthermore, all the unknown terms in \textbf{Eq. \ref{nh}} are defined as
 
 \begin{equation}\begin{split}\label{vext}
-& \hat{T} = - \sumi<i>   \frac{{{\nabla}_{\textit{i}}^{2}}}{2} \\
-& V_{ext} =  \sum_i \sum_J \frac{Z_\textit{I}}{|\textbf{r}_\textit{i}-\textbf{R}_\textit{I}|} \\
-& \hat{V}_\textit{int} =  \frac{1}{2} \sum_i \sum_{j \neq i} \frac{1}{ |\textbf{r}_\textit{i}-\textbf{r}_\textit{j}|} \\
-& {\hat{H}_{nn}} = \frac{1}{2} \sum_I \sum_{J \neq I} \frac{Z_\textit{I} Z_\textit{J}\ }{|\textbf{R}_\textit{I}-\textbf{R}_\textit{J}|}.
+& {T} = - \sum_i^{Ne}   \frac{{{\nabla}_{\textit{i}}^{2}}}{2} \\
+& U_{ext} =  \sum_i^{Ne} \sum_J^{Nn} \frac{Z_\textit{I}}{|\textbf{r}_\textit{i}-\textbf{R}_\textit{I}|} \\
+& {U}_\textit{int} =  \frac{1}{2} \sum_i^{Ne} \sum_{j \neq i}^{Ne} \frac{1}{ |\textbf{r}_\textit{i}-\textbf{r}_\textit{j}|} \\
+& {{H}_{zz}} = \frac{1}{2} \sum_I^{Nn} \sum_{J \neq I}^{Nn} \frac{Z_\textit{I} Z_\textit{J}\ }{|\textbf{R}_\textit{I}-\textbf{R}_\textit{J}|}.
 \end{split}
 \end{equation}
 
-Here, ${\hath}^\textit{BO}$  is the Hamiltonian for the electrons within the Born-Oppenheimer approximation. The subscript $ext$ implies $external$ in \textbf{Eq. \ref{nh}}, and $V_{ext}$ describes
+Here, $H$ is the Hamiltonian for the electronic system within the Born-Oppenheimer approximation. The subscript $ext$ implies $external$ in \textbf{Eq. \ref{nh}}, and $U_{ext}$ describes
 the external potentials interaction. 
 
 Thereby, the new Schrödinger equation combined with \textbf{Eq. \ref{nwf}} and \textbf{Eq. \ref{nh}} is 
 
 \begin{equation}
- \Big( - \sumi<I> \frac{{{\nabla}_{\textit{I}}^{2}}}{2 M_\textit{I}} + \hat{H}_{I,J} + {\hath}^{BO} \Big) \Big({\theta(\{{\textbf R}_{\textit I}\})} {\Psi'(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})} \Big) =
- E(\{{\textbf R_I}\}) \Big({\theta(\{{\textbf R}_{\textit I}\})} {\Psi'(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})}\Big).
+ \Big( - \sum_I^{Nn} \frac{{{\nabla}_{\textit{I}}^{2}}}{2 M_\textit{I}} + {H}_{zz} + {H} \Big) \Big({\theta(\{{\textbf R}_{\textit I}\})} {\Psi(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})} \Big) =
+ E^{en}(\{{\textbf R_I}\}) \Big({\theta(\{{\textbf R}_{\textit I}\})} {\Psi(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})}\Big).
 \end{equation}
  
-\noindent Here, $E(\{{\textbf R_I}\})$ is the system total energy, which is ${\textbf R_I}$-dependent because system wavefunction depends on nuclei positions. One ends up with the following equation using \textbf{Eq. \ref{vext}}
+\noindent Here, $E^{en}(\{{\textbf R_I}\})$ is the system total energy, which is ${\textbf R_I}$-dependent because system wavefunction depends on nuclei positions. One ends up with the following equation using \textbf{Eq. \ref{vext}}
 
 \begin{equation}\begin{split}\label{ise}
-& {\hath}^{BO} {\Psi'(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})} = E^\textit{BO}{(\{\textbf{R}_{\textit I}\})} {\Psi'(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})} \\
-& \Big( \hat{H}_{nn1}+\hat{H}_{nn2}+\hat{H}_{nn3}+\hat{H}_{nn}+E^{BO}(\{{\textbf R}_{\textit I}\}) \Big) {\theta(\{\textbf{R}_{\textit I}\})} = E(\{{\textbf R_I}\}) {\theta(\{\textbf{R}_{\textit I}\})}.
+& {H} {\Psi(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})} = E{(\{\textbf{R}_{\textit I}\})} {\Psi(\{\textbf{r}_{\textit i}\}; \{{\textbf R}_{\textit I}\})} \\
+& \Big( {H}_{zz1}+{H}_{zz2}+{H}_{zz3}+{H}_{zz}+E(\{{\textbf R}_{\textit I}\}) \Big) {\theta(\{\textbf{R}_{\textit I}\})} = E^{en}(\{{\textbf R_I}\}) {\theta(\{\textbf{R}_{\textit I}\})}.
 \end{split}
 \end{equation}
 
-\noindent Here, $E^\textit{BO}{(\{\textbf{R}_{\textit I}\})}$ is the energy of this electron system, which is also ${\textbf R_I}$-dependent because electrons wavefunction indirectly depends on nuclei positions. The $\hat{H}_{nn1}$,
-$\hat{H}_{nn2}$, and $\hat{H}_{nn3}$ in \textbf{Eq. \ref{ise}} are given as
+\noindent Here, $E{(\{\textbf{R}_{\textit I}\})}$ is the total energy of electronic system, which is also ${\textbf R_I}$-dependent because electrons wavefunction indirectly depends on nuclei positions. The ${H}_{zz1}$,
+${H}_{zz2}$, and ${H}_{zz3}$ in \textbf{Eq. \ref{ise}} are derived as
 
 \begin{equation}\begin{split}
- &  \hat{H}_{nn1} = - \sumi<I> \frac{{{\nabla}_{\textit{I}}^{2}}}{2 M_\textit{I}}   \\
- &  \hat{H}_{nn2} = - \sumi<I> \frac{1}{M_\textit{I}} {\int {\Psi'(\{\textbf{r}_{\textit{i}}\}; \{\textbf{R}_{\textit I}\})}^{\ast} {{\nabla}_{\textit{I}}} {{\Psi'(\{\textbf{r}_{\textit{i}} \}; \{\textbf{R}_{\textit I}\})}} d {\textbf r }} {{\nabla}_{\textit{I}}}  \\
- &  \hat{H}_{nn3} = - \sumi<I> \frac{1}{M_\textit{I}} {\int {{\Psi'(\{\textbf{r}_{\textit{i}}\}; \{\textbf{R}_{\textit I}\})}}^{\ast} {{\nabla}_{\textit{I}}^{2}} {{\Psi'(\{\textbf{r}_{\textit{i}} \}; \{\textbf{R}_{\textit I}\})}} d {\textbf r }}. 
+ &  {H}_{zz1} = - \sum_I^{Nn} \frac{{{\nabla}_{\textit{I}}^{2}}}{2 M_\textit{I}}   \\
+ &  {H}_{zz2} = - \sum_I^{Nn} \frac{1}{M_\textit{I}} {\int {\Psi'(\{\textbf{r}_{\textit{i}}\}; \{\textbf{R}_{\textit I}\})}^{\ast} {{\nabla}_{\textit{I}}} {{\Psi'(\{\textbf{r}_{\textit{i}} \}; \{\textbf{R}_{\textit I}\})}} d {\textbf r }} {{\nabla}_{\textit{I}}}  \\
+ &  {H}_{zz3} = - \sum_I^{Nn} \frac{1}{M_\textit{I}} {\int {{\Psi'(\{\textbf{r}_{\textit{i}}\}; \{\textbf{R}_{\textit I}\})}}^{\ast} {{\nabla}_{\textit{I}}^{2}} {{\Psi'(\{\textbf{r}_{\textit{i}} \}; \{\textbf{R}_{\textit I}\})}} d {\textbf r }}. 
 \end{split}\end{equation}
 
 From \textbf{Eq. \ref{ise}}, one observes that the lattice dynamical properties of certain system within the Born-Oppenheimer approximation can be obtained. To solve this equation,
-the ground state energy $E^{BO}(\{{{\textbf R}_{\textit I}}\})$ of electron system is needed. Here, $\{{\textbf R}_{\textit I}\}$ are the parameterized values from the atom position.
+the ground state energy $E(\{{{\textbf R}_{\textit I}}\})$ of electronic system is needed. Here, $\{{\textbf R}_{\textit I}\}$ are the parameterized values from the atom position.
  
 In summary, the Schrödinger equations of the electrons and nuclei are derived seperately within the Born-Oppenheimer approximation. When one refers to calculations of the ground state properties,
 the Schrödinger equation of the electrons is applied (the first line in \textbf{Eq. \ref{ise}}). The Schrödinger equation of nuclei is employed for the calculation of lattice dynamics 
-($H_{nn2}$ and $H_{nn3}$ are ignored in the second line in \textbf{Eq. \ref{ise}} normally).
+($H_{zz2}$ and $H_{zz3}$ are ignored in the second line in \textbf{Eq. \ref{ise}} normally).
 
 The \textbf{Eq. \ref{ise}} (the first line) is much simpler than \textbf{Eq. \ref{ssth}}. However, it is still not solvable. Further approximations  are needed
 to solve this many-body problem.
@@ -768,36 +766,36 @@ electrons. The wavefunction with \textit{N} independent electrons is given as
 \wfh = \bwff<1><1> \bwff<2><2> \cdots \bwff<N><N>. 
 \end{equation}
 
-Here, $i$ goes through all the electrons, and $\bwff<i><i>$ implies state of the $i$:th electron in the position of ${\textbf{r}}_{\textit{i}}$.
+Here, $i$ goes through all the electrons. $\bwff<i><i>$ implies state of the $i$:th electron in the position of ${\textbf{r}}_{\textit{i}}$, where the different states in the same position are orthonormalized.
 From here and following text, the $\textbf R$ is suppressed in the wavefunction since they are in fixed positions. The total energy of the electronic system can be written as
 
 \begin{equation}\label{teh}
-E^{\textit{H}} = <\wfh |\ {\hath}^{\textit{BO}} \ | \wfh  >.
+E^{\textit{H}} = <\wfh |\ {\hath} \ | \wfh  >.
 \end{equation}
 
-${\hath}^{\textit{BO}}$ can be rewritten as
+${\hath}$ can be rewritten as
 \begin{equation}\begin{split}
-&  {\hath}^{\textit{BO}} = \sum_i ( \frac{{{\nabla}_{\textit{i}}^{2}}}{2} + \sum_J \frac{Z_\textit{I}}{|\textbf{r}_\textit{i}-\textbf{R}_\textit{I}|}) +   \frac{1}{2} \sum_i \sum_{j \neq i} \frac{1}{ |\textbf{r}_\textit{i}-\textbf{r}_\textit{j}|} \\
-& = \sum_i h_1(\textbf{r}_\textit{i}) + \frac{1}{2} \sum_i \sum_{j \neq i} h_2(\textbf{r}_\textit{i},\textbf{r}_\textit{j}).
+&  {\hath} = \sum_i^{Ne} \Big( \frac{{{\nabla}_{\textit{i}}^{2}}}{2} + \sum_I^{Nn} \frac{Z_\textit{I}}{|\textbf{r}_\textit{i}-\textbf{R}_\textit{I}|} \Big) +   \frac{1}{2} \sum_i^{Ne} \sum_{j \neq i}^{Ne} \frac{1}{ |\textbf{r}_\textit{i}-\textbf{r}_\textit{j}|} \\
+& = \sum_i^{Ne} h_1(\textbf{r}_\textit{i}) + \frac{1}{2} \sum_i^{Ne} \sum_{j \neq i}^{Ne} h_2(\textbf{r}_\textit{i},\textbf{r}_\textit{j}).
 \end{split}
 \end{equation}
 
 Therefore, the total energy of system is given by making the substitution using \textbf{Eq. \ref{nh}} and \textbf{Eq. \ref{wfh}} into \textbf{Eq. \ref{teh}}
 \begin{equation}\begin{split}
-& E^\textit{H} = \sumi<i> <\bwff<i><i> | \  h_1(\textbf{r}_\textit{i}) \ | \bwff<i><i> > \\
-& +\frac{1}{2} \sum_i \sum_{j \neq i} <\bwff<i><i> \bwff<j><j>|\ h_2(\textbf{r}_\textit{i},\textbf{r}_\textit{j}) \ | \bwff<i><i> \bwff<j><j>>.  
+& E^\textit{H} = \sum_i^{Ne} <\bwff<i><i> | \  h_1(\textbf{r}_\textit{i}) \ | \bwff<i><i> > \\
+& +\frac{1}{2} \sum_i^{Ne} \sum_{j \neq i}^{Ne} <\bwff<i><i> \bwff<j><j>|\ h_2(\textbf{r}_\textit{i},\textbf{r}_\textit{j}) \ | \bwff<i><i> \bwff<j><j>>.  
 \end{split}\end{equation}
 
-In order to calculate the stationary state with the lowest energy of the system, the variation of any wavefunction $\phi_{k}(\textbf{r}'')$ should be
-zero variation in the energy. That is, 
+In order to calculate the stationary state with the lowest energy of the system, the functional differentiation with respect to infinitesimal change of any wavefunction $\phi_{k}(\textbf{r})$ should be
+zero. That is, 
 \begin{equation}
- \phi_{k}(\textbf{r}'') \rightarrow \phi_{k}(\textbf{r}'') + \delta \phi_{k}(\textbf{r}'')  \Rightarrow \delta E^{\textit{H}} = 0.
+ \phi_{k}(\textbf{r}) \rightarrow \phi_{k}(\textbf{r}) + \delta \phi_{k}(\textbf{r})  \Rightarrow \delta E^{\textit{H}} = 0.
 \end{equation}
 
-Furthermore, the constraint is that the wavefunctions need to be orthonormalized. According to method of Lagrange multipliers, the variation with  Lagrange multiplier $E_{i,j}^{H}$ is satisfied
+Furthermore, the constraint is that the different states in the same position are orthonormalized. According to method of Lagrange multipliers, the variation with  Lagrange multiplier $E_{i,j}^{H}$ is satisfied
 
 \begin{equation}\label{haa}
- \delta \Big(E^{\textit{H}} - \sum_i \sum_j E_{i,j}^{H} (<\bwff<i><i> | \bwff<j><j>> -\ \delta_{ij})\Big)  = 0. 
+ \delta \Big(E^{\textit{H}} - \sum_i^{Ne} \sum_j^{Ne} E_{i,j}^{H} (<\bwff<i><i> | \bwff<j><j>> -\ \delta_{ij})\Big)  = 0. 
 \end{equation}
 
 
@@ -805,52 +803,59 @@ Furthermore, the constraint is that the wavefunctions need to be orthonormalized
 $\delta E^{\textit{H}}$ in \textbf{Eq. \ref{haa}} can be calculated by two parts. The first part is 
 
 \begin{equation}\begin{split}\label{hartree1}
-&  \delta ( \sumi<i> <\bwff<i><> |\ -\frac{\nabla^{2}_{ i}}{2} + V_\textit{ext}(\textbf{r}))  \ | \bwff<i><> > )  \\
-&  =  < \delta \phi_{k}(\textbf{r}'') |\ -\frac{\nabla^{2}_{ k}}{2} + V_\textit{ext}(\textbf{r}'')  \ |  \phi_{k}(\textbf{r}'') > \\
-& +  < \phi_{k}(\textbf{r}'') |\ -\frac{\nabla^{2}_{ k}}{2} + V_\textit{ext}(\textbf{r}'')  \ | \delta \phi_{k}(\textbf{r}'') > 
+&  \delta ( \sum_i^{Ne} <\bwff<i><i> |\ h_1(\textbf{r}_\textit{i})  \ | \bwff<i><i> > )  \\
+& =  < \delta \phi_{\textit{k}}(\textbf{r}_\textit{}) |\ h_1(\textbf{r}_\textit{})  \ |  \phi_{\textit{k}}(\textbf{r}_\textit{}) >  +  < \phi_{\textit{k}}(\textbf{r}_\textit{}) |\ h_1(\textbf{r}_\textit{})  \ | \delta \phi_{\textit{k}}(\textbf{r}_\textit{}) > 
 \end{split}\end{equation}
 
 The second part is
 
 \begin{equation}\begin{split}\label{hartree2}
-& \frac{1}{2}\delta \sumij<i><j> ( <\bwff<i><> \phi_{j}(\textbf{r}') |\ \frac{1}{|\textbf{r} - \textbf{r}' |} \ | \bwff<i><> \phi_{j}(\textbf{r}')>)  \\
-& =  \frac{1}{2} \sum_{i} \Big( <\bwff<i><> \delta \phi_{k}(\textbf{r}'') |\ \frac{1}{|\textbf{r} - \textbf{r}'' |} \ | \bwff<i><> \phi_{k}(\textbf{r}'')> \\
-& + <\bwff<i><> \phi_{k}(\textbf{r}'') |\ \frac{1}{|\textbf{r} - \textbf{r}'' |} \ | \bwff<i><> \delta \phi_{k}(\textbf{r}'')>\Big) \\
-& + \frac{1}{2} \sum_{j} \Big( \delta \phi_{k}(\textbf{r}'') \phi_{j}(\textbf{r}') |\ \frac{1}{|\textbf{r}'' - \textbf{r}' |} \ | \phi_{k}(\textbf{r}'') \phi_{j}(\textbf{r}') \\
-& + \phi_{k}(\textbf{r}'') \phi_{j}(\textbf{r}') |\ \frac{1}{|\textbf{r}'' - \textbf{r}' |} \ | \delta \phi_{k}(\textbf{r}'') \phi_{j}(\textbf{r}') \Big) \\
-& =  \sum_{i} \Big( <\bwff<i><> \delta \phi_{k}(\textbf{r}'') |\ \frac{1}{|\textbf{r} - \textbf{r}'' |} \ | \bwff<i><> \phi_{k}(\textbf{r}'')> \\
-& + <\bwff<i><> \phi_{k}(\textbf{r}'') |\ \frac{1}{|\textbf{r} - \textbf{r}'' |} \ | \bwff<i><> \delta \phi_{k}(\textbf{r}'')>\Big). \\
+& \frac{1}{2} \delta \sum_i^{Ne} \sum_{j \neq i}^{Ne} <\bwff<i><i> \bwff<j><j>|\ h_2(\textbf{r}_\textit{i},\textbf{r}_\textit{j}) \ | \bwff<i><i> \bwff<j><j>> \\
+& = \frac{1}{2}  \sum_{i \neq k}^{Ne} \Big( <\bwff<i><i>  \delta \bwff<k><>|\ h_2(\textbf{r}_\textit{i},\textbf{r}_\textit{}) \ | \bwff<i><i> \bwff<k><>> \\
+& + <\bwff<i><i>  \bwff<k><>|\ h_2(\textbf{r}_\textit{i},\textbf{r}_\textit{}) \ | \bwff<i><i> \delta \bwff<k><>> \Big) \\
+& + \frac{1}{2}  \sum_{j \neq k}^{Ne} \Big( <\delta \bwff<k><>  \delta \bwff<j><j>|\ h_2(\textbf{r}_\textit{},\textbf{r}_\textit{j}) \ | \bwff<k><> \bwff<j><j>> \\
+& + < \bwff<k><>  \bwff<j><j>|\ h_2(\textbf{r}_\textit{},\textbf{r}_\textit{j}) \ | \delta \bwff<k><> \bwff<j><j>> \Big) \\
+& =   \sum_{i \neq k}^{Ne} \Big( <\bwff<i><i>  \delta \bwff<k><>|\ h_2(\textbf{r}_\textit{i},\textbf{r}_\textit{}) \ | \bwff<i><i> \bwff<k><>> \\
+& + <\bwff<i><i>  \bwff<k><>|\ h_2(\textbf{r}_\textit{i},\textbf{r}_\textit{}) \ | \bwff<i><i> \delta \bwff<k><>> \Big) 
 \end{split}\end{equation}
 
-Here, the factor of $\frac{1}{2}$ cancels because the \textit{2}nd (\textit{3}rd) line is the same with \textit{4}th (\textit{5}th) line in \textbf{Eq. \ref{hartree2}} due to the exchangeable of $\textbf{r}$ and $\textbf{r}'$,
-as well as the index of $i$ and $j$. 
+Here, the factor of $\frac{1}{2}$ cancels because the \textit{2}nd (\textit{3}rd) line is the same with \textit{4}th (\textit{5}th) line in \textbf{Eq. \ref{hartree2}} due to the exchangeable of the index of $i$ and $j$. 
 
 To get the final solution, one more calculation is given as 
 
 \begin{equation} \begin{split}\label{xixihaha}
-& \delta \sumi<i> E_{i}^{H} \Big(<\phi_{i}(\textbf{r}) | \phi_{i}(\textbf{r}) > -1\Big) \\
-& =  E_{k}^{H} \Big(<\delta \phi_{k}(\textbf{r}'') | \phi_{k}(\textbf{r}'') > + <\phi_{k}(\textbf{r}'') | \phi_{k}(\textbf{r}'') > \Big)
+& \delta \sum_i^{Ne} \sum_j^{Ne} E_{i,j}^{H} \Big(<\phi_{i}(\textbf{r}_\textit{i}) | \phi_{j}(\textbf{r}_\textit{j}) > - \ \delta_{i,j}\Big) \\
+& = \sum_j^{Ne} E_{k,j}^{H} \Big(< \delta \phi_{k}(\textbf{r}) | \phi_{j}(\textbf{r}_\textit{j}) > \Big) + \sum_i^{Ne} E_{i,k}^{H} \Big(<\phi_{i}(\textbf{r}_\textit{i}) | \delta \phi_{k}(\textbf{r}_\textit{}) >\Big) \\
+& = \sum_i^{Ne} E_{k,i}^{H} \Big(< \delta \phi_{k}(\textbf{r}) | \phi_{i}(\textbf{r}_\textit{i}) >  + <\phi_{i}(\textbf{r}_\textit{i}) | \delta \phi_{k}(\textbf{r}_\textit{}) >\Big)
 \end{split}
 \end{equation}
 
 
-Therefore, the variation in \textbf{Eq. \ref{haa}} with respect to any wavefunction $\phi^*_{k}(\textbf{r}'')$ is given as 
+Therefore, the variation in \textbf{Eq. \ref{haa}} with respect to any wavefunction $\phi^*_{k}(\textbf{r})$ is given as 
 
 \begin{equation}\begin{split}\label{hha1}
-& \frac{\delta \Big(E^{\textit{H}} - \sumi<i> E_{i}^{H} (<\bwff<i><> | \bwff<i><> > -1)\Big)}{\delta \phi^*_{k}(\textbf{r}'')}  \\
-& = \Big(-\frac{\nabla^{2}_{k}}{2} + V_\textit{ext}(\textbf{r}'')+ \sum_{i}  <\bwfn<i><>\ | \frac{1}{|\textbf{r} - \textbf{r}^{''} |} \ | \bwfn<i><>>) \phi_{k}(\textbf{r}''\Big) - E_{k}^{H} \phi_{k}(\textbf{r}'') \\
-& = \Big(-\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r})+ \sum_{j}  <\bwfn<j><'>\ | \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwfn<j><'>>\Big) \bwff<i><> - E_{i}^{H} \bwff<i><> \\
-& = 0.
+ \frac{ \delta  \Big(E^{\textit{H}} - \sum_i^{Ne} \sum_j^{Ne} E_{i,j}^{H} (<\bwff<i><i> | \bwff<j><j>> -\ \delta_{ij})\Big)}{\delta \phi^*_{k}(\textbf{r})}  = 0. 
 \end{split}
 \end{equation}
 
-Therefore, the final equation for Hartree approximation is given as 
+Therefore, the \textbf{Eq. \ref{hha1}} can be derived as 
 
 \begin{equation}\label{hartreq}
-\Big(-\frac{\nabla^{2}_{i}}{2} + V_\textit{ext}(\textbf{r})+ \sum_{j}  <\bwfn<j><'>\ | \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwfn<j><'>>\Big) \bwff<i><> = E_{i}^{H} \bwff<i><> 
+\Big(-\frac{\nabla^{2}_{k}}{2} + \sum_I^{Nn} \frac{Z_\textit{I}}{|\textbf{r}_\textit{}-\textbf{R}_\textit{I}|} + \sum_{j \neq k}^{Ne}  <\bwfn<j><'>\ | \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwfn<j><'>>\Big) \bwff<k><> = \sum_i^{Ne} E_{k,i}^{H} \bwff<i><> 
 \end{equation}
 
-Here, $E_{i}^{H}$  also can be considered as the energy. \textbf{Eq. \ref{hha1}} is a group of dependent single particle equations. It is self-consistent and can be solved using iteratively.
+There are many solutions to the \textbf{Eq. \ref{hartreq}}, each corresponding to a different set of $E_{k,i}^{H}$. One can choose to $E_{k,i}^{H}$ which satisfies $E_{k,i}^{H}$ = $\delta_{k,i}\epsilon_k$. The \textbf{Eq. \ref{hartreq}}
+can be rewriteen as
+
+\begin{equation}\begin{split}\label{hartreq}
+& \Big(-\frac{\nabla^{2}_{k}}{2} + \sum_I^{Nn} \frac{Z_\textit{I}}{|\textbf{r}_\textit{}-\textbf{R}_\textit{I}|} + \sum_{j \neq k}^{Ne}  <\bwfn<j><'>\ | \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwfn<j><'>>\Big) \bwff<k><> = \epsilon_k \bwff<k><>  \\
+&  \qquad \qquad \qquad  \qquad \qquad \qquad \qquad \qquad  \Downarrow  \\
+& \Big(-\frac{\nabla^{2}_{i}}{2} + \sum_I^{Nn} \frac{Z_\textit{I}}{|\textbf{r}_\textit{}-\textbf{R}_\textit{I}|} + \sum_{j \neq i}^{Ne}  <\bwfn<j><'>\ | \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwfn<j><'>>\Big) \bwff<i><> = \epsilon_i \bwff<i><>  \\
+\end{split}
+\end{equation}
+
+
+Here, \textbf{Eq. \ref{hha1}} is a group of dependent single particle equations. $\epsilon_k$ is identified as the eigenvalue for this single-electron Hartree equation.
 
 \subsubsection{Hartree-Fock approximation}
 Hartree approximation is the simplest approximation, and Hartree-Fock approximation is the method which considers the 
@@ -937,20 +942,20 @@ then the wavefunction is obtained. Therefore the corresponding electron density 
 density. Therefore the electron density contains the same information as the wavefunction.
 
 The proof of the theorem is given. Let us assume that there exsits two external potentials named $V^{1}_\textit{ext}(\textbf{r})$ and $V^{2}_\textit{ext}(\textbf{r})$ leading to the same ground state 
-electron density $\rho$. Obviously, this will lead to two different Hamiltonians, that is, $\hat{H}_{1}$ and $\hat{H}_{2}$, as well as two different corresponding
-wavefunctions named $\Psi_1$ and $\Psi_2$. Since $\Psi_1$ are not the ground state wavefunction of $\hat{H}_{2}$, the same rules to $\Psi_2$ and $\hat{H}_{1}$, two following
+electron density $\rho$. Obviously, this will lead to two different Hamiltonians, that is, ${H}_{1}$ and ${H}_{2}$, as well as two different corresponding
+wavefunctions named $\Psi_1$ and $\Psi_2$. Since $\Psi_1$ are not the ground state wavefunction of ${H}_{2}$, the same rules to $\Psi_2$ and ${H}_{1}$, two following
 inequality equations are satisfied as
 
 \begin{equation}\label{hkpf1}\begin{split}
-&  E_1 = \langle \Psi_1\ |\hat{H}_{1}|\ \Psi_1 \rangle  \ < \  \langle \Psi_2\ |\hat{H}_{1}|\ \Psi_2 \rangle,\\
-&  E_2 = \langle \Psi_2\ |\hat{H}_{2}|\ \Psi_2 \rangle  \ < \  \langle \Psi_1\ |\hat{H}_{2}|\ \Psi_1 \rangle.
+&  E_1 = \langle \Psi_1\ |{H}_{1}|\ \Psi_1 \rangle  \ < \  \langle \Psi_2\ |{H}_{1}|\ \Psi_2 \rangle,\\
+&  E_2 = \langle \Psi_2\ |{H}_{2}|\ \Psi_2 \rangle  \ < \  \langle \Psi_1\ |{H}_{2}|\ \Psi_1 \rangle.
 \end{split}\end{equation}
 
 Taking advangtage of the Hamiltonian from \textbf{Eq. \ref{both}}, one can get
 \begin{equation}\label{hkpf2}\begin{split}
-&    \langle \Psi_2\ |\hat{H}_{1}|\ \Psi_2 \rangle \\
-&  = \langle \Psi_2\ |\hat{H}_{2} + \hat{H}_{1} - \hat{H}_{2}|\ \Psi_2 \rangle \\
-&  = \langle \Psi_2\ |\hat{H}_{2} |\Psi_2 \rangle + \langle \Psi_2 | \hat{H}_{1} - \hat{H}_{2}|\ \Psi_2 \rangle \\
+&    \langle \Psi_2\ |{H}_{1}|\ \Psi_2 \rangle \\
+&  = \langle \Psi_2\ |{H}_{2} + {H}_{1} - {H}_{2}|\ \Psi_2 \rangle \\
+&  = \langle \Psi_2\ |{H}_{2} |\Psi_2 \rangle + \langle \Psi_2 | {H}_{1} - {H}_{2}|\ \Psi_2 \rangle \\
 &  = E_2 + \int d \textbf{r} ( V^{1}_\textit{ext}(\textbf{r}) - V^{2}_\textit{ext}(\textbf{r}) )  \rho.
 \end{split}\end{equation}
 
@@ -960,7 +965,7 @@ Using \textbf{Eq. \ref{hkpf1}} and \textbf{Eq. \ref{hkpf2}}, the following relat
  E_1  < \  E_2 + \int d \textbf{r} ( V^{1}_\textit{ext}(\textbf{r}) - V^{2}_\textit{ext}(\textbf{r}) )  \rho.
 \end{equation}
 
-Another similar inequality equation can be gained if one changes the equation $\langle \Psi_1\ |\hat{H}_{2}|\ \Psi_1 \rangle$ like \textbf{Eq. \ref{hkpf2}}
+Another similar inequality equation can be gained if one changes the equation $\langle \Psi_1\ |{H}_{2}|\ \Psi_1 \rangle$ like \textbf{Eq. \ref{hkpf2}}
 \begin{equation}\label{hkpf44}
   E_2  < \  E_1 + \int d \textbf{r} ( V^{2}_\textit{ext}(\textbf{r}) - V^{1}_\textit{ext}(\textbf{r}) )  \rho.
 \end{equation}
@@ -980,8 +985,8 @@ and the exact ground-state density is gained when the ground state total energy 
 
 The proof of theorem is given. Because of the first theorem, the total energy can be expressed in the following way (ignoring the interaction between nuclei)
 \begin{equation}\label{hkpf5}\begin{split}
-& E[\rho] \ = \langle \Psi  | \ \hat{T} \ + \ \hat{V}_\textit{int}  \ + \ \hat{V}_\textit{ext} \ | \Psi \rangle \\
-&     = \langle \Psi  | \ \hat{V}_\textit{ext} \ | \Psi \rangle  + \underbrace{\langle \Psi  | \ \hat{T} \ + \ \hat{V}_\textit{int}  \ \ | \Psi \rangle}  \\
+& E[\rho] \ = \langle \Psi  | \ {T} \ + \ {V}_\textit{int}  \ + \ {V}_\textit{ext} \ | \Psi \rangle \\
+&     = \langle \Psi  | \ {V}_\textit{ext} \ | \Psi \rangle  + \underbrace{\langle \Psi  | \ {T} \ + \ {V}_\textit{int}  \ \ | \Psi \rangle}  \\
 &     =   \ \int \rho(\textbf{r}) V_\textit{ext} \qquad +  \qquad F[\rho]. 
 \end{split}
 \end{equation}
@@ -1081,7 +1086,7 @@ There is no total energy equation expression yet. However, if one changes the \t
 \sumi<i> \Psi^{\textit{KS}*}_{\textit{i}}(\textbf{r}) \Big(-\frac{\nabla^{2}_{i}}{2}\ + \ V^\textit{KS}(\textbf{r})\Big) \Psi^{\textit{KS}}_{\textit{i}}(\textbf{r}) = \sumi<i> \Psi^{\textit{KS}*}_{\textit{i}}(\textbf{r}) E^{\textit{KS}}_{\textit{i}} \Psi^{\textit{KS}}_{\textit{i}}(\textbf{r}).
 \end{equation}
 
-Based on \textbf{Eq. \ref{ccc}} and \textbf{\ref{bbb}}, the total energy expression is
+Based on \textbf{Eq. \ref{ccc}} and \textbf{Eq. \ref{bbb}}, the total energy expression is
 \begin{equation}\label{totalenergy}
 \begin{split}
 & E = \sumi<i> E^{\textit{KS}}_{\textit{i}} - \ \frac{1}{2} \int \int \mathrm{d} {\textbf{r}} \mathrm{d}{\textbf{r}^{\prime}} \frac{\rho({\textbf{r}})\rho(\textbf{r}^{\prime})}{|{\textbf{r}}-{\textbf{r}}^{\prime}|} \\
@@ -1152,7 +1157,7 @@ electron density is defined at the beginning of the calculation, then the equati
     \node [block] (init) {Initialize};
     \node [block, below of=init] (potential) {Calculate potential $V( {\textbf r})$};
     \node [block, below of=potential, node distance=2.5cm] (KS) {Solve Kohn-Sham equation};
-    \node [block, below of=KS, node distance=2.5cm] (fermi) {Calculate fermi energy $E_F$};
+    \node [block, below of=KS, node distance=2.5cm] (fermi) {Calculate Fermi energy $E_F$};
     \node [block, below of=fermi, node distance=2.5cm] (density) {Calculate new density $\rho^{new}$};
     \node [block, left of=fermi, node distance=6cm] (update) {Determine the mix density $\rho^{i+1} = F (\rho^{i}, \rho^{new}) $};
     \node [decision, below of=density, node distance=3.8cm] (converge) {Converged?};
@@ -1181,7 +1186,7 @@ Here, $\rho^{i}$ and $\rho^{i+1}$are the charge density of the $\textit{(i)}$:th
 
 \subsection{Eigenvalue problem}
 
-In order to solve \textbf{Eq. (\ref{aaa})}, the Kohn-Sham equation can be transformed into the general eigenvalue problem. If the Kohn-Sham equation is given as (ignore the index  in wavefunction compared with \textbf{Eq. \ref{aaa}})
+In order to solve \textbf{Eq. \ref{aaa}}, the Kohn-Sham equation can be transformed into the general eigenvalue problem. If the Kohn-Sham equation is given as (ignore the index  in wavefunction compared with \textbf{Eq. \ref{aaa}})
 
 \begin{equation}\label{ep2}
  \hath \Psi^{KS} (r) = E \Psi^{KS} (r).
@@ -1522,7 +1527,7 @@ Therefore, Dirac introduced an equation which is called Dirac equation applying 
 \noindent Dirac defined the Hamiltonian as
 
 \begin{equation}\label{dirac}
-\hat{H}_\textit{dirac} = c \boldsymbol{\alpha} \textbf{P} + \boldsymbol{\beta}mc^{2} + V.
+{H}_\textit{dirac} = c \boldsymbol{\alpha} \textbf{P} + \boldsymbol{\beta}mc^{2} + V.
 \end{equation}
 
 \noindent Here, $\textbf{P} = -i\hbar \nabla $ is the momentum operator, $V$ is the general potential, and $m$ is the mass of electron. 
@@ -1586,7 +1591,7 @@ E^{\prime} = E - mc^2.
 \end{equation}
 
 \noindent Here, $E$ is the total energy, $mc^2$ and $E'$ are the rest mass energy and the remaining energy excluding the rest mass energy, respectively. Under the nonrelativistic limit, 
-$E'$ is far smaller than $mc^2$. The following equation is given when \textbf{Eq. \ref{diracwf}} and \textbf{Eq. \ref{dirace}} are put into \textbf{ Eq.\ref{diracse}}
+$E'$ is far smaller than $mc^2$. The following equation is given when \textbf{Eq. \ref{diracwf}} and \textbf{Eq. \ref{dirace}} are put into \textbf{Eq. \ref{diracse}}
 
 \begin{equation}
 \begin{split}
