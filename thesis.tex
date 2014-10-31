@@ -1453,11 +1453,11 @@ Here, $H_0$ can be seen as unpertubation terms, and remaining terms are seen as 
  \epsilon_{n,\textbf{k}} =  \epsilon_{n,\textbf{0}} + \frac{{\hbar^2 {\textbf k}^2}}{2m_e} + \frac{ \hbar^2}{m_{e}^2} \sum\limits_n^{N} \sum\limits_{n' \neq n}^{N} \frac{|<\ubloch<n><\bold 0>|{\textbf {kp}}|\ubloch<n'><\bold  0>>|^2}{\epsilon_{n,\textbf 0} - \epsilon_{n',\textbf 0}}.
 \end{equation}
 
-In the realistic implmentation, the following derivation is exploited. Assume that the wavefunction and eigenvalue are obtained by some procedures on $\bold k_0$ point. $\wfbloch<n><\bold  k_0>$ is the wavefunction and 
-$\epsilon_{n,\textbf{0}}$ is the eigenvalue. Luttinger-Kohn functions are given as
+In the realistic implmentation, the following derivation is exploited. Assume that the wavefunction and eigenvalue are obtained by some procedures on $\textbf{k}_0$ point. $\wfbloch<n><\bold{k}_0>$ is the wavefunction and 
+$\epsilon_{n,\textbf{k}_0}$ is the eigenvalue. Luttinger-Kohn functions are given as
 
 \begin{equation}\label{kp2}
-\chikp<n><\textbf k> = \expg<(\bold k-\bold {k_0})>  \wfbloch<n><\bold {k_0}>.
+\chikp<n><\textbf k> = \expg<(\bold k-\bold {k_0})>  \wfbloch<n><\textbf{k}_0>.
 \end{equation}
 
 The wavefunction on ${ \textbf k}$ point can be expanded by $\chikp<n><\textbf k> $, which is given as
@@ -1465,26 +1465,23 @@ The wavefunction on ${ \textbf k}$ point can be expanded by $\chikp<n><\textbf k
 \wfbloch<n><\bold k> =  {\sum\limits_{j}^{N}} C_{n,j}^{\bold k} \chikp<j><\bold k>. 
 \end{equation}
 
-In \textbf{Eq. \ref{kp3}}, $N$ can be $\infty$. The wavefunction can be obtained if the coefficient $C_{n,j}^{\bold k}$ is obtained. Based on \textbf{Eq. \ref{kp3}} and  \textbf{Eq. \ref{kpse}}, the following equation is derived
-Finally the following equation is obtained:
+In \textbf{Eq. \ref{kp3}}, the wavefunction can be obtained if the coefficient $C_{n,j}^{\bold k}$ is obtained. Based on \textbf{Eq. \ref{kp3}} and  \textbf{Eq. \ref{kpse}}, the following equation is derived
 
-\begin{equation}\label{5}
-{\sum\limits_{j}^{N}}  C_{n,j}^{\bold k} \left \{  \left [  \ebloch<j><\bold {k_0}> -  \ebloch<n><\bold k>  + \frac{{\hbar}^2}{2m} { (\bold {k}^2- \bold {k}_0^2)}    \right ] \delta_{j',j} + \frac{\hbar}{m} {(\bold {k}-\bold{k}_0)} {\overline{\textbf{p}}_{j',j}} \right \} = 0,
+\begin{equation}\begin{split}\label{5}
+& {\sum\limits_{j}^{N}}  C_{n,j}^{\bold k} \left \{  \left [  \epsilon_{n,\textbf{k}_0} -  \epsilon_{n,\textbf{k}}  + \frac{{\hbar}^2}{2m} { (\bold {k}^2- \bold {k}_0^2)}    \right ] \delta_{j',j} + \frac{\hbar}{m} {(\bold {k}-\bold{k}_0)} {\overline{\textbf{p}}_{j',j}} \right \} = 0 \\
+& {\overline{\textbf{p}}_{j',j}} = \langle \ubloch<j'><\textbf{k}_0>| {\textbf p} | \ubloch<j><\textbf{k}_0>  \rangle.
+\end{split}
 \end{equation}
 
-where ${\overline{\textbf{p}}_{j',j}} = \langle \ubloch<j'><\bold {k_0}>| {\textbf p} | \ubloch<j><\bold {k_0}>  \rangle $.
+\textbf{Eq. \ref{5}} can be simplified as
  
-We also can simpify the above equation in the following format:
-\begin{equation}\label{6}
-{\sum\limits_{j}} C_{n,j}^{\bold {k}} \left \{ H_{j',j}- \ebloch<n><\bold {k}> \delta_{j',j} \right \} =0,
+\begin{equation}\begin{split}\label{6}
+& {\sum\limits_{j}} C_{n,j}^{\bold {k}} \left \{ H_{j',j}-  \epsilon_{n,\textbf{k}} \delta_{j',j} \right \} =0 \\
+& H_{j',j} = \left [   \epsilon_{n,\textbf{k}_0}  + \frac{{\hbar}^2}{2m} { (\bold{k}^2-\bold{k}_0^2)}    \right ] \delta_{j',j} + \frac{\hbar}{m} {(\bold{k}-\bold{k}_0)} {\overline{\textbf{p}}_{j',j}}.
+\end{split}
 \end{equation}
 
-where
-\begin{equation} \label{7}
-H_{j',j} = \left [  \ebloch<j><\bold {k_0}>  + \frac{{\hbar}^2}{2m} { (\bold{k}^2-\bold{k}_0^2)}    \right ] \delta_{j',j} + \frac{\hbar}{m} {(\bold{k}-\bold{k}_0)} {\overline{\textbf{p}}_{j',j}}.
-\end{equation}
-
-From the above equation, the coefficient $ C_{n,j}^{\bold k}$ and $\ebloch<n><\bold {k}>$ are calculated.
+Here, the coefficient $ C_{n,j}^{\bold k}$ and $\epsilon_{n,\textbf{k}}$ can be calculated. Therefore, the wavefunction on ${ \textbf k}$ point can be obtained.
 
 
 \section{Spin-orbit coupling}
