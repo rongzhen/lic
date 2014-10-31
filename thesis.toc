@@ -22,7 +22,7 @@
 \contentsline {subsubsection}{\numberline {2.1.3.3}Density functional theory}{22}
 \contentsline {subsubsection}{\numberline {2.1.3.4}Kohn-Sham equation}{25}
 \contentsline {subsubsection}{\numberline {2.1.3.5}The exchange-correlation potential}{27}
-\contentsline {subsection}{\numberline {2.1.4}Solving the secular equation}{27}
+\contentsline {subsection}{\numberline {2.1.4}Solving the secular equation}{28}
 \contentsline {subsection}{\numberline {2.1.5}Eigenvalue problem}{29}
 \contentsline {section}{\numberline {2.2}Full-potential linearized augmented plane wave method}{30}
 \contentsline {subsection}{\numberline {2.2.1}Introduction}{30}
@@ -33,16 +33,17 @@
 \contentsline {subsubsection}{\numberline {2.2.2.4}Augmented plane wave method plus local orbitals}{33}
 \contentsline {subsection}{\numberline {2.2.3}Effective potential}{34}
 \contentsline {section}{\numberline {2.3}Dielectric function}{34}
-\contentsline {section}{\numberline {2.4}Spin-orbit coupling}{35}
-\contentsline {subsection}{\numberline {2.4.1}Dirac equation}{35}
-\contentsline {subsection}{\numberline {2.4.2}Derivation of spin-orbit coupling}{35}
-\contentsline {chapter}{\chapternumberline {3}Results and discussion}{38}
-\contentsline {section}{\numberline {3.1}Parameterization of energy bands for CIGS}{38}
-\contentsline {subsection}{\numberline {3.1.1}Parameterization method}{38}
-\contentsline {subsection}{\numberline {3.1.2}Non-parabolicity properties}{40}
-\contentsline {subsection}{\numberline {3.1.3}Application of the full band parameterization}{44}
-\contentsline {section}{\numberline {3.2}Calculations of dielectric function for CIGS}{52}
-\contentsline {chapter}{\chapternumberline {4}Summary of the publications}{56}
-\contentsline {chapter}{\chapternumberline {5}Concluding remarks and future work}{57}
-\contentsline {chapter}{Acknowledgements}{58}
-\contentsline {chapter}{\chapternumberline {6}Appendices}{59}
+\contentsline {section}{\numberline {2.4}k $\cdot $ p method}{35}
+\contentsline {section}{\numberline {2.5}Spin-orbit coupling}{36}
+\contentsline {subsection}{\numberline {2.5.1}Dirac equation}{36}
+\contentsline {subsection}{\numberline {2.5.2}Derivation of spin-orbit coupling}{37}
+\contentsline {chapter}{\chapternumberline {3}Results and discussion}{39}
+\contentsline {section}{\numberline {3.1}Parameterization of energy bands for CIGS}{39}
+\contentsline {subsection}{\numberline {3.1.1}Parameterization method}{39}
+\contentsline {subsection}{\numberline {3.1.2}Non-parabolicity properties}{41}
+\contentsline {subsection}{\numberline {3.1.3}Application of the full band parameterization}{45}
+\contentsline {section}{\numberline {3.2}Calculations of dielectric function for CIGS}{53}
+\contentsline {chapter}{\chapternumberline {4}Summary of the publications}{57}
+\contentsline {chapter}{\chapternumberline {5}Concluding remarks and future work}{58}
+\contentsline {chapter}{Acknowledgements}{59}
+\contentsline {chapter}{\chapternumberline {6}Appendices}{60}

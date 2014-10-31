@@ -60,8 +60,8 @@
 \def\ubloch<#1><#2>{u_{#1,#2}({\textbf r})}
 \def\ebloch<#1><#2>{E_{#1,#2}}
 \def\bwfc<#1><#2><#3>{\phi_{#1}^{#3}({\textbf r}_{#2})}
-\def\sumi<#1> {\sum\limits_{\textit #1}}
-\def\sumij<#1><#2> {\sum\limits_{\textit #1,#2}}
+\def\sumi<#1> {\sum\limits_{ #1}}
+\def\sumij<#1><#2> {\sum\limits_{ #1,#2}}
 \def\suminj<#1><#2> {\sum\limits_{{#1} \neq {#2}}}
 \def\coefkhe{-\frac{\hbar^2}{2 m_{e}}}
 \def\coefkhn{-\frac{\hbar^2}{2 M_{I}}}
@@ -90,10 +90,10 @@
 \def\chikp<#1><#2>{{\chi_{#1,#2}(\textbf{r})}}  
 \newcommand{\se}{Schrödinger equation}
 \def\hm{Hamiltonian }
-\def\cigs{\mathrm  { CuIn_{1-\textit{x}}Ga_{x}Se_2}}
+\def\cigs{\mathrm  { CuIn_{1-\textit{x}}Ga_\textit{x}Se_2}}
 \def\czts{\mathrm {Cu_2ZnSnS_2} } 
 \def\cztse{\mathrm { Cu_2ZnSnSe_2}}
-\def\cztsse{\mathrm  { CuZnSn(S_{1-\textit{x}}Se_{x})_4}}
+\def\cztsse{\mathrm  { CuZnSn(S_{1-\textit{x}}Se_{\textit{x}})_4}}
 
 
 \pagenumbering{roman}
@@ -217,7 +217,7 @@ last, the band to band analysis of the contribution to the total ${\varepsilon_2
 
 
 
-\item{}\textbf{Band-edge density-of-states and carrier concentrations in intrinsic and \textit{p}-type $\mathbf {CuIn_{1-x}Ga_{x}Se_2}$}
+\item{}\textbf{Band-edge density-of-states and carrier concentrations in intrinsic and $p$-type $\mathbf {CuIn_{1-x}Ga_{x}Se_2}$}
 \\\textbf{R. Chen} and C. Persson, \textit{J. Appl. Phys.} {\textbf {112}}, 103708 (2012).
 
 \item{} \textbf{Dielectric function spectra at 40 K and critical-point energies for $\mathbf {CuIn_{0.7}Ga_{0.3}Se_2}$}
@@ -327,9 +327,9 @@ renewable energy.
 \label{nrel}
 \end{sidewaysfigure}
 
-Multijunction cells are the cells which contain multi \textit{p}-\textit{n} junctions (or subcells) which have different band gap for each \textit{p}-\textit{n} junction.
+Multijunction cells are the cells which contain multi $p$-$n$ junctions (or subcells) which have different band gap for each $p$-$n$ junction.
 Therefore, different wavelengths of light from the Sun are absorbed for each of junction. For example, wider band gap junction is at the front of the cell, which can absorb the photons with high energy; the junction with 
-low band gap can absorb the photos with lower energy. Therefore, the conversion efficiency is higher than singe \textit{p}-\textit{n} junction, for example, the maximum conversion efficiency is 44.7\% by Soitec using 
+low band gap can absorb the photos with lower energy. Therefore, the conversion efficiency is higher than singe $p$-$n$ junction, for example, the maximum conversion efficiency is 44.7\% by Soitec using 
 four-junction or more in \textbf{Fig. \ref{nrel}}. Crystalline silicon cells are the most widely utilized in the photovoltaic industries, which built the solar cells using crystalline silicon (c-Si). It has two types in
 the crystalline silicon photovoltaics: mono-crystalline silicon and multi-crystalline silicon. The crystalline silicon cells have high efficiency, for example, the maximum conversion efficiency is 27.6\% with concentrator 
 by Amonix and maxium 25.6\% without concentrator by Panasonic in  the \textbf{Fig. \ref{nrel}}. Thin-Film solar cells are the cells which are made by depositing one or several thin layers, which allows the cells to be rather 
@@ -341,13 +341,14 @@ of alternatively solar cell materials is still an ongoing and active area today.
 
 
 \subsection{Single-junction solar cells}
-The \textit{p}--\textit{n} junction is the fundamental building block of solar cells. The single \textit{p}-\textit{n} homojunction will be explored in this section.
+The $p$-$n$ junction is the fundamental building block of solar cells. The single $p$-$n$ homojunction will be explored in this section.
 
-We start from the seperate \textit{n}-type material and \textit{p}-type material at room temperature (assume that all the donor (acceptor) atoms are positively (negatively) ionized at room temperature). In \textbf{Fig. \ref{dopedmaterials}}, the left one shows the \textit{n}-type and \textit{p}-type materials. The \textit{n}-type
-material has many free negatively charged electrons which can move freely in the material, and there are numbers of positively charged immobile donor ions as well. Similarily, the \textit{p}-type material has many free positively
-charged holes which can move freely in the material, and there are numbers of negatively charged immobile acceptor ions as well. However, the material is still neutral in both \textit{n}-type and \textit{p}-type.
-On the right in \textbf{Fig. \ref{dopedmaterials}}, the corresponding Fermi levels are shown. The Fermi level (E\textsubscript{nf}) is closer to conduction band minimum for \textit{n}-type material due to the many free 
-negatively charged electrons. Conversely, the Fermi level of \textit{p}-type material (E\textsubscript{pf}) is closer to the valence band maximum to the free positively charged holes.
+We start from the seperate $n$-type material and $p$-type material at room temperature (assume that all the donor (acceptor) atoms are positively (negatively) ionized at room temperature). In \textbf{Fig. \ref{dopedmaterials}},
+the left one shows the $n$-type and $p$-type materials. The $n$-type
+material has many free negatively charged electrons which can move freely in the material, and there are numbers of positively charged immobile donor ions as well. Similarily, the $p$-type material has many free positively
+charged holes which can move freely in the material, and there are numbers of negatively charged immobile acceptor ions as well. However, the material is still neutral in both $n$-type and $p$-type.
+On the right in \textbf{Fig. \ref{dopedmaterials}}, the corresponding Fermi levels are shown. The Fermi level (E\textsubscript{nf}) is closer to conduction band minimum for $n$-type material due to the many free 
+negatively charged electrons. Conversely, the Fermi level of $p$-type material (E\textsubscript{pf}) is closer to the valence band maximum to the free positively charged holes.
 
 \begin{figure}[H]
     \begin{center}
@@ -355,16 +356,17 @@ negatively charged electrons. Conversely, the Fermi level of \textit{p}-type mat
            % \includegraphics[width=0.4\textwidth,clip]{sepratepn1.jpg}
             \includegraphics[width=0.8\textwidth,clip]{sepratepn.eps}
      \end{center}
-    \caption{Left: Doped (\textit{n}-type and \textit{p}-type) materials in dark at room temperature. Right: Energy band diagram of seperated \textit{p}-\textit{n} homojunction in dark at room temperature for two-level model. Assume that all the donor (acceptor) atoms are 
+    \caption{Left: Doped ($n$-type and $p$-type) materials in dark at room temperature. Right: Energy band diagram of seperated $p$-$n$ homojunction in dark at room temperature for two-level model. Assume that all the donor (acceptor) atoms are 
     positively (negatively) ionized.}      
     \label{dopedmaterials}
 \end{figure}
 
-If the \textit{n}-type and \textit{p}-type materials are joined, the free electrons (holes) in \textit{n}-type (\textit{p}-type) material will diffuse into \textit{p}-type (\textit{n}-type) material due to the
-lower concentrations of electrons (holes) (\textbf{Fig. \ref{pnjunction}}). In the region which is near the interface between \textit{n}-type and \textit{p}-type materials, the ionized donor and acceptor ions create a
-"build in" electric field which points from the \textit{n}-type material to the \textit{p}-type material. This can cause the drift of carriers in the opposite direction. The "build-in" electric field will force the electrons (holes) back into the \textit{n}--type (\textit{p}--type). At certain point, 
+If the $n$-type and $p$-type materials are joined, the free electrons (holes) in $n$-type ($p$-type) material will diffuse into $p$-type ($n$-type) material due to the
+lower concentrations of electrons (holes) (\textbf{Fig. \ref{pnjunction}}). In the region which is near the interface between $n$-type and $p$-type materials, the ionized donor and acceptor ions create a
+"build in" electric field which points from the $n$-type material to the $p$-type material. This can cause the drift of carriers in the opposite direction. The "build-in" electric field will force the electrons (holes) back into
+the $n$-type ($p$-type). At certain point, 
 the whole material will reach a stable equilibrium due to the achived balance between diffusion and drift. Formation of the "build-in" electric field is rather important for the solar cells, even though there is no currect in 
-the material so far. In the following text, the region which forms the "build-in" electric field is also called space charge region (SCR). The different Fermi levels for \textit{n}-type and \textit{p}-type materials are
+the material so far. In the following text, the region which forms the "build-in" electric field is also called space charge region (SCR). The different Fermi levels for $n$-type and $p$-type materials are
 equal at the stable equilibrium. Therefore, the energy bands bend over and create a potential barrier near the junction (Right in \textbf{Fig. \ref{pnjunction}}). Finally, there is a internal potential V\textsubscript{bi}
 in the junction, which will block the diffusion.
 
@@ -374,22 +376,22 @@ in the junction, which will block the diffusion.
            % \includegraphics[width=0.5\textwidth,clip]{pnjunction1.jpg}
             \includegraphics[width=0.7\textwidth]{pnjunction.eps}
      \end{center}
-    \caption{Left: The \textit{p}-\textit{n} homojunction in dark at room temperature. Right: Energy band diagram of a \textit{p}-\textit{n} homejunction at the equilibrium in dark at room temperature for two-level model. }      
+    \caption{Left: The $p$-$n$ homojunction in dark at room temperature. Right: Energy band diagram of a $p$-$n$ homejunction at the equilibrium in dark at room temperature for two-level model. }      
     \label{pnjunction}
 \end{figure}
 
-The \textit{p}-\textit{n} junction cell with and without the illumination is discussed in \textbf{Fig. \ref{illu}} and \textbf{Fig. \ref{illu1}}. If there was a wire with certain resistance connecting 
-the \textit{n}-type and \textit{p}-type, there is no current in the wire under the condition of dark (no illumination). However, if the light shines on the cell or component, a current will be generated from the \textit{p}-type
-to the \textit{n}-type side (conventional current). Because the electrons from valence bands (VBs) goes to conduction bands (CBs), which can generate pairs of electron-hole. At the same time, the recombination of paired electron-hole ocurrs. The rate of generation 
-is faster that of recombination, therefore, net generation occurs. Apparently, there are three regions in the whole junction cell where the electrons goes from VBs to CBs, the \textit{n}-type region, the \textit{p}-\textit{n}
-junction, and the \textit{p}-type region. In the either \textit{n}-type or \textit{p}-type region (especially, region which is far away SCR), the electron–hole pairs can not remain long time,  it is most probable that electrons
-will jump down from CBs to VBs again. However, the electron-hole pairs will be seperated in the \textit{p}-\textit{n} junction region due to the "build-in" electric field, therefore, the current will be generated. Actually, the electron-hole pairs in the either n-type and p-type 
+The $p$-$n$ junction cell with and without the illumination is discussed in \textbf{Fig. \ref{illu}} and \textbf{Fig. \ref{illu1}}. If there was a wire with certain resistance connecting 
+the $n$-type and $p$-type, there is no current in the wire under the condition of dark (no illumination). However, if the light shines on the cell or component, a current will be generated from the $p$-type
+to the $n$-type side (conventional current). Because the electrons from valence bands (VBs) goes to conduction bands (CBs), which can generate pairs of electron-hole. At the same time, the recombination of paired electron-hole ocurrs. The rate of generation 
+is faster that of recombination, therefore, net generation occurs. Apparently, there are three regions in the whole junction cell where the electrons goes from VBs to CBs, the $n$-type region, the $p$-$n$
+junction, and the $p$-type region. In the either $n$-type or $p$-type region (especially, region which is far away SCR), the electron–hole pairs can not remain long time,  it is most probable that electrons
+will jump down from CBs to VBs again. However, the electron-hole pairs will be seperated in the $p$-$n$ junction region due to the "build-in" electric field, therefore, the current will be generated. Actually, the electron-hole pairs in the either n-type and p-type 
 (especially, for them which are near SCR) also have the chance to diffuse into the SCR, it will contribute the generation of current or reduce the current.
 
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.5]{illumination.eps}
-\caption{The \textit{p}-\textit{n} homejunction under illumination with load at room temperature for two-level model.}
+\caption{The $p$-$n$ homejunction under illumination with load at room temperature for two-level model.}
 \label{illu}
 \end{figure}
 
@@ -399,7 +401,7 @@ The chemical potential $\bigtriangledown \mu = E_{nf} - E_{vf}$ is created, whic
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.5]{illumination1.eps}
-\caption{Energy band diagram of a \textit{p}-\textit{n} homojunction under illumination with load.}
+\caption{Energy band diagram of a $p$-$n$ homojunction under illumination with load.}
 \label{illu1}
 \end{figure}
 
@@ -493,7 +495,7 @@ is very near the optimum value for single-junction solar cells. Moreover, the ma
 However, an important question is needed to be considered in order to large-scale CdTe manufacturing: cadmium toxicity and tellurium availability. 
 
 CIGS are direct band gap seciconductors with high optical absorption coefficients. It is seen as the most promising solar cell material for the near future. It is always employed in a heterojunction structure, mainly it is with the thinner
-\textit{n}-type CdS layer. The conversion efficiency of CIGS reached up to 20\% in the laboratory cell. The intersting part is that it can be alloyed by the ratio of Ga/(Ga+In), and the band gap can be tuned along with that. The band gap 
+$n$-type CdS layer. The conversion efficiency of CIGS reached up to 20\% in the laboratory cell. The intersting part is that it can be alloyed by the ratio of Ga/(Ga+In), and the band gap can be tuned along with that. The band gap 
 is between 1.0 eV to 1.7 eV for this alloy. CIGS does not contain any toxic element.
 
 \section{CuIn\textsubscript{1-\textit{x}}Ga\textsubscript{\textit{x}}Se\textsubscript{2}(CIGS) materials}
@@ -556,7 +558,7 @@ more Ga element in the CIGS materail. An overview properties of CIGS material is
 Space group & $D_{2d}^{12}$(I$-$42d), no. 122 & $D_{2d}^{12}$(I$-$42d), no. 122 \\ 
 %\midrule
 \rowcolor[gray]{0.9}
-Lattice constants (Å) & \textit{a} = \textit{b} = 5.78, \textit{c} = 11.55 & \textit{a} = \textit{b} = 5.61, \textit{c} = 11.00 \\ 
+Lattice constants (Å) & $a$ = \textit{b} = 5.78, $c$ = 11.55 & \textit{a} = \textit{b} = 5.61, \textit{c} = 11.00 \\ 
                       & \textit{a} = \textit{b} = 5.78\textsuperscript{d}, \textit{c} = 11.64\textsuperscript{d} & \textit{a} = \textit{b} = 5.61\textsuperscript{e}, \textit{c} = 11.02\textsuperscript{e} \\ 
 %\midrule
 Wyckoff positions & Cu:4a, In:4b, Se:8d & Cu:4a, Ga:4b, Se:8d \\ 
@@ -652,7 +654,7 @@ and $\textbf{R}_{I}$  stands for coordinators of electron and nucleus, respectiv
 
 \begin{equation}\label{th}
 \begin{split}
-& H^{en} = - \sum\limits_i^{Ne} {\frac{\hbar^{2}}{2 m_{e}}}   \nablaia<i> - \sum\limits_I^{Nn} {\frac{\hbar^{2}}{2 m_{I}}} \nablaia<I>  - \sum\limits_i^{Ne} \sum\limits_I^{Nn} \frac{Z_{I}\ e^2}{4 \pi \varepsilon_0 |\textbf{r}{i}-\textbf{R}{I}|} \\
+& H^{en} = - \sum\limits_i^{Ne} {\frac{\hbar^{2}}{2 m_{e}}}   \nablaia<i> - \sum\limits_I^{Nn} {\frac{\hbar^{2}}{2 m_{I}}} \nablaia<I>  - \sum\limits_i^{Ne} \sum\limits_I^{Nn} \frac{Z_{I}\ e^2}{4 \pi \varepsilon_0 |\textbf{r}_{i}-\textbf{R}_{I}|} \\
 & + \frac{1}{2} \sum\limits_i^{Ne} \sum\limits_{j \neq i}^{Ne} \frac{ e^2}{4 \pi \varepsilon_0 |\textbf{r}_{i}-\textbf{r}_{j}|} + \frac{1}{2} \sum\limits_I^{Nn} \sum\limits_{J \neq I}^{Nn} \frac{Z_{I} Z_{J}\  e^2}{4 \pi \varepsilon_0 |\textbf{R}_{I}-\textbf{R}_{J}|}.
 \end{split}
 \end{equation}
@@ -1050,6 +1052,10 @@ Here, $\epsilon^{{KS}}_{{i}}$ is identified as eigenvalue for the Kohn-Sham equa
 \end{split}
 \end{equation}
 
+In \textbf{k}-space, Kohn-Sham equation can be written as
+\begin{equation}\label{aaa111}
+ \Big(-\frac{\nabla^{2}}{2}\ + \ V^{KS}(\textbf{r})\Big) \Psi^{{KS}}_{{i,k}}(\textbf{r}) = \epsilon^{{KS}}_{{i,k}} \Psi^{{KS}}_{{i,k}}(\textbf{r}).
+\end{equation}
 
 
 The total energy is not given in \textbf{Eq. \ref{aaa}}. However, if one changes the \textbf{Eq. \ref{aaa}} as 
@@ -1122,12 +1128,12 @@ An initial guess of electron density is defined at the beginning of the calculat
 \begin{tikzpicture}[scale=0.6 , node distance = 2.5cm,transform shape]
     % Place nodes
     \node [block] (init) {Initial guess of $\rho(\textbf{r})$ and atom configuration};
-    \node [block, below of=init] (potential) {Calculate potential $V^{KS}(\textbf{r})$ by guessed $\rho(\textbf{r})$};
+    \node [block, below of=init] (potential) {Calculate potential $V^{KS}(\textbf{r})$ by guessed/calculated electron density};
     \node [block, below of=potential, node distance=2.5cm] (KS) {Solve Kohn-Sham equation};
     \node [block, below of=KS, node distance=2.5cm] (fermi) {Calculate Fermi energy $E_F$};
-    \node [block, below of=fermi, node distance=2.5cm] (density) {Calculate new density $\rho^{new}$};
-    \node [block, left of=fermi, node distance=6cm] (update) {Determine the mix density $\rho^{i+1} = F (\rho^{i}, \rho^{new}) $};
-    \node [decision, below of=density, node distance=3.8cm] (converge) {Converged?};
+    \node [block, below of=fermi, node distance=2.5cm] (density) {Calculate new density $\rho^{new}(\textbf{r})$};
+    \node [block, left of=fermi, node distance=6cm] (update) {Determine the mix density $\rho^{i+1}(\textbf{r}) = F (\rho^{i}(\textbf{r}), \rho^{new}(\textbf{r})) $};
+    \node [decision, below of=density, node distance=3.8cm] (converge) {$E[\rho]$ Converged? \\ $\rho(\textbf{r})$ == $\rho^{new}(\textbf{r})$?};
     \node [block, below of=converge, node distance=3.8cm] (done) {Finished};
     % Draw edges
     \path [line] (init) -- (potential);
@@ -1140,14 +1146,14 @@ An initial guess of electron density is defined at the beginning of the calculat
     \path [line] (converge) -- node [pos=0.2, right, color=black] {Yes}(done);
 
 \end{tikzpicture}
-\caption{Flow chart of the ${{(i+1)}}$:th iterations for solving Kohn-Sham equation.}
+\caption{Flow chart of the $(i+1)$:th iteration for solving Kohn-Sham equation.}
 \label{fig:bo}
 \end{figure}
 
 
 
 
-Here, $\rho^{i}$ and $\rho^{i+1}$are the charge density of the $\textit{(i)}$:th and $\textit {(i+1)}$:th iteration solving Kohn-Sham equation, respectively.
+Here, $\rho^{i}(\textbf{r})$ and $\rho^{i+1}(\textbf{r})$ are the electron density in the $i$:th iteration and $(i+1)$:th iteration during solving Kohn-Sham equation, respectively.
 
 \vspace{100cm}
 
@@ -1156,20 +1162,20 @@ Here, $\rho^{i}$ and $\rho^{i+1}$are the charge density of the $\textit{(i)}$:th
 In order to solve \textbf{Eq. \ref{aaa}}, the Kohn-Sham equation can be transformed into the general eigenvalue problem. If the Kohn-Sham equation is given as (ignore the index  in wavefunction compared with \textbf{Eq. \ref{aaa}})
 
 \begin{equation}\label{ep2}
- \hath \Psi^{KS} (r) = E \Psi^{KS} (r).
+ \hath \Psi^{KS} (\textbf{r}) = E \Psi^{KS} (\textbf{r}).
 \end{equation}
  
 
 The wavefunction is defined as
 
 \begin{equation}\label{ep1}
- \Psi^{KS} (r) = \sum\limits_j^N C_j \Phi_j (r).
+ \Psi^{KS} (\textbf{r}) = \sum\limits_j^N C_j \Phi_j (\textbf{r}).
 \end{equation}
  
-Here, $C_j$ is a complex number, and $\Phi_j (r)$ is the basis function of wavefunction. 
+Here, $C_j$ is a complex number, and $\Phi_j (\textbf{r})$ is the basis function of wavefunction. 
 
 
-If \textbf{Eq. \ref{ep1}} is plugged into \textbf{Eq. \ref{ep2}}, and left multiply $\Phi^*_1, \Phi^*_2, \cdot, \Phi^*_N$ in order, finally it will end up with a set of equations
+If \textbf{Eq. \ref{ep1}} is plugged into \textbf{Eq. \ref{ep2}}, and left multiply $\Phi^*_1, \Phi^*_2, \cdot, \Phi^*_N$ one by one, it ends up with a set of equations
 
 \begin{equation}\begin{split}\label{ep3}
 \left[
@@ -1188,7 +1194,7 @@ If \textbf{Eq. \ref{ep1}} is plugged into \textbf{Eq. \ref{ep2}}, and left multi
 \end{matrix} \right]\left[ \begin{array}{c} C_1 \\ C_2 \\ \vdots \\ C_N\end{array} \right].
 \end{split}\end{equation}
 
-If $H_{ij} = \Phi^*_i \hath \Phi_j$ and $S_{ij} = \Phi^*_i \Phi_j$ are defined, then the \textbf{Eq. \ref{ep3}} becomes
+One defines that $H_{ij} = \Phi^*_i \hath \Phi_j$ and $S_{ij} = \Phi^*_i \Phi_j$. Therefore, \textbf{Eq. \ref{ep3}} becomes
 
 \begin{equation}\begin{split}\label{ep467}
 \left[
@@ -1244,7 +1250,7 @@ when describing the atomic core region. Because the wavefunction change dramatic
 waves to approximate it. It implies it will take more time to calculate.
 
 Slater re-considered the way to describe the wavefunction (\textbf{Eq. \ref{ap111}}). The unit cell is splitted into two regions: one is the sphere region which is
-defined by the center of atom, but non-overlap each sphere, is called muffin tin (MT) region; the remaining region is called interstitial (\textit{I})
+defined by the center of atom, but non-overlap each sphere, is called muffin tin (MT) region; the remaining region is called interstitial ($I$)
 region (\textbf{Fig. \ref{ucuc}}). An atomic-like function is defined as the wavefunction in the MT region, this is reason why this method is called augmented plane wave (APW).
 The dual representation of the wavefunction is reasonable, because the wavefunction approaching atomic core is somehow like inside atom; however far away the atomic core, the electron behaves like free electrons,
 therefore plane waves are suitable (\textbf{Eq. \ref{ap111}}). However, the drawback of APW method is the wavefunction is dependent with the energy, which leads to the 
@@ -1259,10 +1265,10 @@ it is customary to write in different ways as LO and lo, respectively. One can r
 \subsection{Wavefunction}
 \subsubsection{Augmented plane wave method}
 
-The Kohn-Sham wavefunction is defined as 
+The Kohn-Sham wavefunction can be expanded by a set of basis functions 
 
 \begin{equation}\label{wavefunctions}
- \Psi^{KS}_{i\textbf{k}}(\textbf{r}) = \sumg<\textbf{G}> C_{i,\textbf{k}+\textbf{G}}\phi_{\textbf {k}+\textbf{G}} ({\textbf r}).
+ \Psi^{KS}_{i,\textbf{k}}(\textbf{r}) = \sum\limits_{\textbf{G}}^{N_G} C_{i,\textbf{k}+\textbf{G}}\phi_{\textbf {k}+\textbf{G}} ({\textbf r}).
 \end{equation}
 
 Here, $\phi_{\textbf {k}+\textbf{G}} ({\textbf r})$ is the basis function of wavefunction. It is written in slightly different format in order to distinct the different methods in the following text, for example, 
@@ -1274,18 +1280,18 @@ The basis set for APW is defined by Slater
 \phi^{APW}_{\textbf {k}+\textbf{G}} ({\textbf r}) = 
 \begin{cases} \frac {1}{\sqrt{\Omega}} e^{i({ \textbf {k}+\textbf{G}}) {\textbf r}} & \quad \mbox{if ${\textbf r} \in I $} 
 \\
-\sumg<\alpha>\sum\limits_{{\ell}m} f_{{\ell}{m}} (r_{\alpha},{\textbf {k}+\textbf{G}}, E) Y_{{\ell}m}(\widehat{{\textbf r}}_{\alpha})  & \quad \mbox{if $ r_{\alpha} \in MT. $}\\ 
+\sum\limits_{\alpha}^{N_{\alpha}} \sum\limits_{{\ell}}^{N_{\ell}} \sum\limits_{{m}}^{N_{m}} f_{{\ell}{m}} (r_{\alpha},{\textbf {k}+\textbf{G}},\epsilon_{i,k}^{KS}) Y_{{\ell}m}(\widehat{{\textbf r}}_{\alpha})  & \quad \mbox{if $ r_{\alpha} \in MT. $}\\ 
 \end{cases}
 \end{equation}
 
-Here, $f_{{\ell}{m}} (r_{\alpha},\textbf{k}+\textbf{G} ,E) =  A _{{\ell}m}^{\alpha} ( \textbf {k}+\textbf{G}) u_{{\ell}}(r_{\alpha}, E)$, and $A _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G}) $ is the expansion coefficients. 
-Radial function $u_{{\ell}} (r_{\alpha}, E)$ is dependent with energy $E$, and it can be decided by the following equation
+Here, $f_{{\ell}{m}} (r_{\alpha},\textbf{k}+\textbf{G},\epsilon_{i,k}^{KS}) =  A _{{\ell}m}^{\alpha} ( \textbf {k}+\textbf{G}) u_{{\ell}}(r_{\alpha},\epsilon_{i,k}^{KS})$, and $A _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G}) $ is the 
+expansion coefficients. Radial function $u_{{\ell}} (r_{\alpha},\epsilon_{i,k}^{KS})$ is dependent with energy $\epsilon_{i,k}^{KS}$, which is the eigenvalue in \textbf{Eq. \ref{aaa111}}. The radial function can be decided by 
 
 \begin{equation}\label{ap2}
--\frac{1}{r^2}  \frac{d}{dr} (r^2 \frac{du_{\ell}}{dr})+ \left(\frac{\ell(\ell+1)}{r^2}+V(\textbf{r})\right)u_{\ell}(r_{\alpha}) = E u_{\ell}(r_{\alpha}).
+-\frac{1}{r^2}  \frac{d}{dr} (r^2 \frac{du_{\ell}}{dr})+ \left(\frac{\ell(\ell+1)}{r^2}+V^{KS}_0({r})\right)u_{\ell}(r_{\alpha},\epsilon_{i,k}^{KS}) = \epsilon_{i,k}^{KS} u_{\ell}(r_{\alpha},\epsilon_{i,k}^{KS}).
 \end{equation}
 
-Here, $V(\textbf{r})$ is the spherical potential.
+In MT region, $V^{KS}(\textbf{r})$ is assumed to be spherically symmetric, and it can be substituted by its spherical average $V^{KS}_0({r})$.
 
 Because the wavefunction has dual representation, one has to make sure the continuity on the sphere boundary, which is solved by matching each $\ell m$
 of the dual representation.
@@ -1302,16 +1308,16 @@ From \textbf{Fig. \ref{ucuc}}, one notices that unit cell is divided into MT sph
 (\textit{I}) region, where ${\textbf r = {\textbf R_{\alpha}}+{\textbf r_{\alpha}}}$ is guaranteed. The Rayleigh expansion formula yields
 
 \begin{equation}
-\expg<(\textbf {k}+\textbf{G})> = e^{i (\textbf {k}+\textbf{G}) \textbf{R}_{\alpha} } 4 \pi \sumlm<\ell><m> i^{\ell} \bessf< |\textbf{k}+\textbf{G}|> \sphfr<\ell{m}><r><> Y_{\ell{m}}(\widehat{\textbf{k}+\textbf{G}}).
+\expg<(\textbf {k}+\textbf{G})> = e^{i (\textbf {k}+\textbf{G}) \textbf{R}_{\alpha} } 4 \pi \sum\limits_{{\ell}}^{N_{\ell}} \sum\limits_{{m}}^{N_{m}} i^{\ell} \bessf< |\textbf{k}+\textbf{G}|> \sphfr<\ell{m}><r><> Y_{\ell{m}}(\widehat{\textbf{k}+\textbf{G}}).
 \end{equation}
   
 After matching those two representations, the following equation is satisfied for each ${\ell}m$
 
 \begin{equation}
-A _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G}) = \frac{ e^{i (\textbf {k}+\textbf{G}) \textbf{R}^{\alpha} } 4 \pi \sumlm<\ell><m> i^{\ell} \bessf< |\textbf{k}+\textbf{G}|> Y^{*}_{\ell{m}}(\widehat{\textbf{k}+\textbf{G}}) }{\sqrt{\Omega} u_{{\ell}}^{\alpha}(r_{\alpha}, E)}.
+A _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G})  u_{{\ell}}^{\alpha}(r_{\alpha},\epsilon_{i,k}^{KS})=  \frac{4 \pi }{\sqrt{\Omega}} e^{i (\textbf {k}+\textbf{G}) \textbf{R}_{\alpha} }  \sum\limits_{{\ell}}^{N_{\ell}} \sum\limits_{{m}}^{N_{m}} i^{\ell} \bessf< |\textbf{k}+\textbf{G}|> Y^{*}_{\ell{m}}(\widehat{\textbf{k}+\textbf{G}}).
 \end{equation}
 
-The main drawbacks about the APW method is that the wavefuntion is energy dependent. It generates that
+The main drawbacks about the APW method is that the wavefuntion is energy dependent (\textbf{Eq. \ref{ap2}}). It generates that
  the code needs to search for the energy in order to calculate the exact energy. Therefore it 
 is really time-consuming. 
 
@@ -1320,21 +1326,21 @@ is really time-consuming.
 on certain energy, which can be given as
 
 \begin{equation}\label{ap3}
- u_{{\ell}}(r_{\alpha}, E) = u_{{\ell}}(r_{\alpha}, E_{\ell}) + (E-E_{\ell}) \dot{u}_{{\ell}}(r_{\alpha}, E_{\ell}) + O((E-E_{\ell})^2).
+ u_{{\ell}}(r_{\alpha}, \epsilon) = u_{{\ell}}(r_{\alpha}, \epsilon_{\ell,\alpha}) + (\epsilon-\epsilon_{\ell,\alpha}) \dot{u}_{{\ell}}(r_{\alpha}, \epsilon_{\ell,\alpha}) + O((\epsilon-\epsilon_{\ell,\alpha})^2).
 \end{equation}
 
-Therefore the basis fucntion is re-defined as 
+Here, eigenvalue is written without subscript and superscript $\epsilon$. Therefore the basis fucntion is re-defined as 
 
 \begin{equation}\label{lap4}
 \phi^{LAPW}_{\textbf{k}+\textbf{G}} (\textbf{r}) = 
-\begin{cases} \frac {1}{\sqrt{\Omega}} e^{i(\textbf{k}+\textbf{G})\textbf{r}} & \quad \mbox{if $\textbf{r} \in \textit{I} $}
+\begin{cases} \frac {1}{\sqrt{\Omega}} e^{i(\textbf{k}+\textbf{G})\textbf{r}} & \quad \mbox{if $\textbf{r} \in {I} $}
 \\
-\sumg<\alpha>\sum\limits_{{\ell}m} f_{{\ell}{m}} (r_{\alpha},\textbf{k}+\textbf{G}, E_{\ell}) Y_{{\ell}m}(\hat{\textbf{r}}_{\alpha})  & \quad \mbox{if $r_{\alpha} \in MT. $}\\ 
+\sumg<\alpha>\sum\limits_{{\ell}m} f_{{\ell}{m}} (r_{\alpha},\textbf{k}+\textbf{G}, \epsilon_{\ell,\alpha}) Y_{{\ell}m}(\hat{\textbf{r}}_{\alpha})  & \quad \mbox{if $r_{\alpha} \in MT. $}\\ 
 \end{cases}
 \end{equation}
 
-Here, $f_{{\ell}{m}} (r_{\alpha},\textbf{k}+\textbf{G} ,E_{\ell}) =  A _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G}) u_{{\ell}}(r_{\alpha}, E_{\ell}) + B _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G}) \dot{u}_{{\ell}}(r_{\alpha}, E_{\ell})$
-. $A _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G})$ and $B _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G})$ are the expansion coefficients, and $\dot{u}_{{\ell}}(r_{\alpha}, E_{\ell} )$ is the derivative of the radial function. Energy $E_{\ell}$  is considered as pre-calculated parameter in \textbf{Eq. \ref{lap4}}. Actually, it is chosen by the middle of  each $\ell$-character band, therefore this method is called linearized augmented plane wave (LAPW) method.
+Here, $f_{{\ell}{m}} (r_{\alpha},\textbf{k}+\textbf{G}, \epsilon_{\ell,\alpha}) =  A _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G}) u_{{\ell}}(r_{\alpha}, \epsilon_{\ell,\alpha}) + B _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G}) \dot{u}_{{\ell}}(r_{\alpha}, \epsilon_{\ell,\alpha})$
+. $A _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G})$ and $B _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G})$ are the expansion coefficients, and $\dot{u}_{{\ell}}(r_{\alpha}, \epsilon_{\ell,\alpha} )$ is the derivative of the radial function. Energy $\epsilon_{\ell,\alpha}$  is considered as pre-calculated parameter in \textbf{Eq. \ref{lap4}}. Actually, it is chosen by the middle of  each $\ell$-character band, therefore this method is called linearized augmented plane wave (LAPW) method.
 
 Apparently, LAPW method is more suitable in reality, because the wavefunction is decoupled with energy. However it has to match for two parameters.
 Fortunately, it still take less time comparing with APW method. However, there is one drawback about this method, what if energy in the same $ {\ell} $ charater is different enough, 
@@ -1346,27 +1352,27 @@ Comparing with LAPW method, linearized augmented plane wave method plus local or
 
 \begin{equation}\label{lap5}
 \phi^{LO}_{\textbf{k}+\textbf{G}}(\textbf{r}) = 
-\begin{cases} 0 & \quad \mbox{if $\textbf{r} \in \textit{I} $}
+\begin{cases} 0 & \quad \mbox{if $\textbf{r} \in {I} $}
 \\
-(A _{{\ell}m}^{\alpha,LO}  u_{{\ell}}(r_{\alpha}, E_{\ell}) + B _{{\ell}m}^{\alpha,LO}  \dot{u}_{{\ell}}(r_{\alpha}, E_{\ell}) + C _{{\ell}m}^{\alpha,LO}  u_{{\ell}}(r_{\alpha}, E^{\prime}_{\ell})){Y_{{\ell}m}(\hat{\textbf{r}}_{\alpha})} & \quad \mbox{if $r_{\alpha} \in MT. $}\\ 
+(A _{{\ell}m}^{\alpha,LO}  u_{{\ell}}(r_{\alpha}, \epsilon_{\ell,\alpha}) + B _{{\ell}m}^{\alpha,LO}  \dot{u}_{{\ell}}(r_{\alpha}, \epsilon_{\ell,\alpha}) + C _{{\ell}m}^{\alpha,LO}  u_{{\ell}}(r_{\alpha}, \epsilon'_{\ell,\alpha})){Y_{{\ell}m}(\hat{\textbf{r}}_{\alpha})} & \quad \mbox{if $r_{\alpha} \in MT. $}\\ 
 \end{cases}
 \end{equation}
  
 
-Here, $A _{{\ell}m}^{\alpha,LO}$, $B _{{\ell}m}^{\alpha,LO}$, and $C _{{\ell}m}^{\alpha,LO}$ can be obtained by normalization, as well as value and derivation on the sphere boundary to zero. The $E^{\prime}_{\ell}$ is
+Here, $A _{{\ell}m}^{\alpha,LO}$, $B _{{\ell}m}^{\alpha,LO}$, and $C _{{\ell}m}^{\alpha,LO}$ can be obtained by normalization, as well as value and derivation on the sphere boundary to zero. The $\epsilon'_{\ell,\alpha}$ is
 the chosen energy from semi-core state.
 
 \subsubsection{Augmented plane wave method plus local orbitals}
 
 There is one method which can solve the APW method efficiently, which is called as augmented plane wave method plus local orbitals (APW+lo). The 
-basis function has two types: one is similar with APW method, but only without the derivative terms, that is, $f_{{\ell}{m}} (r_{\alpha},\textbf{k}+\textbf{G} ,E_{\ell}) =  A _{{\ell}m}^{\alpha}(\textbf{k}+\textbf{G})u_{{\ell}}(r_{\alpha}, E_{\ell})$; 
+basis function has two types: one is similar with APW method, but only without the derivative terms, that is, $f_{{\ell}{m}} (r_{\alpha},\textbf{k}+\textbf{G}, \epsilon_{\ell,\alpha}) =  A _{{\ell}m}^{\alpha}(\textbf{k}+\textbf{G})u_{{\ell}}(r_{\alpha}, \epsilon_{\ell,\alpha})$; 
 the other basis function is
 
 \begin{equation}\label{lap6}
 \phi^{lo}_\textbf{k+G} (\textbf{r}) = 
-\begin{cases} 0 & \quad \mbox{if $\textbf{r} \in \textit{I} $}
+\begin{cases} 0 & \quad \mbox{if $\textbf{r} \in {I} $}
 \\
-(A _{{\ell}m}^{\alpha,lo}  u_{{\ell}}(r_{\alpha}, E_{\ell}) + B _{{\ell}m}^{\alpha,lo}  \dot{u}_{{\ell}}(r_{\alpha}, E_{\ell}) ){Y_{{\ell}m}(\hat{\textbf{r}}_{\alpha})} & \quad \mbox{if $r_{\alpha} \in MT. $}\\ 
+(A _{{\ell}m}^{\alpha,lo}  u_{{\ell}}(r_{\alpha}, \epsilon_{\ell,\alpha}) + B _{{\ell}m}^{\alpha,lo}  \dot{u}_{{\ell}}(r_{\alpha}, \epsilon_{\ell,\alpha}) ){Y_{{\ell}m}(\hat{\textbf{r}}_{\alpha})} & \quad \mbox{if $r_{\alpha} \in MT. $}\\ 
 \end{cases}
 \end{equation}
  
@@ -1376,10 +1382,10 @@ However, it does increase the efficiency to linearize Slater's APW method. Certa
 \subsection{Effective potential}
 
 \label{epote}
-The potential in the FPLAPW method is also divided into two regions, the MT region and the \textit{I} region.
+The potential in the FPLAPW method is also divided into two regions, the MT region and the $I$ region.
 \begin{equation*}\label{lap7}
 V(\textbf{r}) = 
-\begin{cases} \sumg<{\textbf G}> V_{\textbf G} e^{i {\textbf G} {\textbf {r}  }} & \quad \mbox{if $\textbf{r} \in \textit{I} $}
+\begin{cases} \sumg<{\textbf G}> V_{\textbf G} e^{i {\textbf G} {\textbf {r}  }} & \quad \mbox{if $\textbf{r} \in {I} $}
 \\
  \sum_{{\ell}m} V_{{\ell}m}^{\alpha} (r_{\alpha}) Y_{{\ell}m}(\hat{{\textbf r}}_{\alpha})  & \quad \mbox{if $r_{\alpha} \in MT. $}\\ 
 \end{cases}
@@ -1494,7 +1500,7 @@ Therefore, Dirac introduced an equation which is called Dirac equation applying 
 \noindent Dirac defined the Hamiltonian as
 
 \begin{equation}\label{dirac}
-{H}_\textit{dirac} = c \boldsymbol{\alpha} \textbf{P} + \boldsymbol{\beta}mc^{2} + V.
+{H}_{dirac} = c \boldsymbol{\alpha} \textbf{P} + \boldsymbol{\beta}mc^{2} + V.
 \end{equation}
 
 \noindent Here, $\textbf{P} = -i\hbar \nabla $ is the momentum operator, $V$ is the general potential, and $m$ is the mass of electron. 
@@ -1822,7 +1828,7 @@ and 8 times, respectively.
  %   and right column displays a close-up for small Fermi energies. In the figure, $|\delta E|$ is the positive energy difference $E_{v1}({0}) - E_{F,v}^*$ for the VBs and $E_{F,c}^* - E_{c1}({0})$ for the CB.The carrier
  %   concentrations consider external band filling in intrinsic materials at T = 0 K. The results demonstrate that the parabolic band approximation strongly underestimates the band filling of both the VBs and CB.}
  
- \caption{Carrier concentration \textit{p} or \textit{n} as functions of the quasi-Fermi energy  $E_F^*$ of the VBs  $E_{F,v}^*$ and of the CB $E_{F,c}^*$. Left column shows the results for large energy scale up to 0.5 eV,
+ \caption{Carrier concentration $p$ or $n$ as functions of the quasi-Fermi energy  $E_F^*$ of the VBs  $E_{F,v}^*$ and of the CB $E_{F,c}^*$. Left column shows the results for large energy scale up to 0.5 eV,
  and right column displays a close-up for small Fermi energies. In the figure, $|\triangle E|$ is the positive energy difference $E_{v1}(\textbf{0})-E_{F,v}^*$ for the VBs and $E_{F,c}^*-E_{c1}(\textbf{0})$ for the CB.The carrier
  concentrations consider external band filling in intrinsic materials at T = 0 K. The results demonstrate that the parabolic band approximation strongly underestimates the band filling of both the VBs and CB.}
 \end{figure}
@@ -1842,7 +1848,7 @@ Here, $f(E) = 1/[1+exp{(E-E_F)/k_BT}]$ is the Fermi disctribution function. The 
  n_i(T) = \sqrt{n_c(T) \cdot n_v(T)}.
 \end{equation}
  
-The extrinsic carrier concentration for \textit{p}-type materials can be derived as:
+The extrinsic carrier concentration for $p$-type materials can be derived as:
 
 \begin{equation}\label{ecc}
 n_v(T) = \frac{n_i^2(T)}{n_v(T)} + \sum \limits_{\alpha} \frac{N_{A_{\alpha}}} {1+g_{A_{\alpha}} e^{ (\bigtriangleup_{A_{\alpha}}-E_F)/k_BT }}. 
@@ -1880,12 +1886,12 @@ goes up to 2 $-$ 3 times by taking into account the non-parabolicity of the ener
 
 
 
-Since as-grown CuIn\textsubscript{1-x}Ga\textsubscript{x}Se\textsubscript{2} typically has \textit{p}-type character, the Fermi level and \textit{p}-type carrier concentration of free holes $n_v(T)$ and free electrons $n_c(T)$ is calculated by 
+Since as-grown CuIn\textsubscript{1-x}Ga\textsubscript{x}Se\textsubscript{2} typically has $p$-type character, the Fermi level and $p$-type carrier concentration of free holes $n_v(T)$ and free electrons $n_c(T)$ is calculated by 
 assuming the presences of the native Cu vacancies as acceptors. 
 
 
-The calculated Fermi level $E_F^P$ in \textit{p}-type materials is presented in \textbf{Fig. \ref{ptypecc1}}, referred to the Fermi level of the intrinsic materials $E_F$ from \textbf{Fig. \ref{icc}}. Only at very high temperatures
-( $T > 400 K$) and for low acceptor concentrations, the Fermi level of \textit{p}-type CuIn\textsubscript{1-x}Ga\textsubscript{x}Se\textsubscript{2} will reach the Fermi level of corresponding intrinsic compounds. Moreover, 
+The calculated Fermi level $E_F^P$ in $p$-type materials is presented in \textbf{Fig. \ref{ptypecc1}}, referred to the Fermi level of the intrinsic materials $E_F$ from \textbf{Fig. \ref{icc}}. Only at very high temperatures
+( $T > 400 K$) and for low acceptor concentrations, the Fermi level of $p$-type CuIn\textsubscript{1-x}Ga\textsubscript{x}Se\textsubscript{2} will reach the Fermi level of corresponding intrinsic compounds. Moreover, 
 although the different compounds have comparable acceptor ionization energies, the Ga rich alloy has lower relative Fermi level; this is a direct consequence of the larger band gap of the Ga rich alloy. By comparing the calculations 
 with the parabolic band approximation (dotted lines in \textbf{Fig. \ref{ptypecc1}} ) and the full band approach (solid lines) for each of the three CuIn\textsubscript{1-x}Ga\textsubscript{x}Se\textsubscript{2} alloys, one can notice
 that the Femi level is similar for the two models only at low and at very high temperatures. In the mid-temperature region the difference is however apparent, especially for the high acceptor concentrations. Assuming parabolic bands
@@ -1896,7 +1902,7 @@ effect on the absolute value of the Fermi level seems to be small, it has an imp
     \begin{center}
             \includegraphics[width=1\textwidth,clip]{paper2figure9}
      \end{center}
-    \caption{Fermi level as function of the temperature $20 \leq T \leq 600$ of \textit{p}-type CuInSe\textsubscript{2}, CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2}, and CuGaSe\textsubscript{2} for the effective
+    \caption{Fermi level as function of the temperature $20 \leq T \leq 600$ of $p$-type CuInSe\textsubscript{2}, CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2}, and CuGaSe\textsubscript{2} for the effective
     doping concentration $N_A$ = $10^{13}$, $10^{14}$, $10^{15}$, $\cdot$, and $10^{19}$ acceptors/$cm^3$. The energy scale $E_F^p-E_F$ describes the Fermi energy with respect to the intrinsic $E_F$ (\textbf{Fig. \ref{icc}}).
     Dashed lines represent the VBM with respect to the intrinsic Fermi level. Solid and dotted lines represents the full band parameterization and the parabolic band approximation, respectively.}
    \label{ptypecc1}
@@ -1911,7 +1917,7 @@ The p-type carrier concentration (\textbf{Fig. \ref{ptypecc}}) for $\cigs$ is pr
     \begin{center}
             \includegraphics[width=1\textwidth,clip]{paper2figure9}
      \end{center}
-    \caption{Free carrier concentration as function of the temperature in \textit{p}-type for $\mathrm{CuInSe_2}$, $\mathrm{CuIn_{0.5}Ga_{0.5}Se_2}$, and $\mathrm{CuGaSe_2}$.
+    \caption{Free carrier concentration as function of the temperature in $p$-type for $\mathrm{CuInSe_2}$, $\mathrm{CuIn_{0.5}Ga_{0.5}Se_2}$, and $\mathrm{CuGaSe_2}$.
     The effective doping concentration $N_A = 10^{13}, 10^{14}, 10^{15}$,..., and  $10^{19}$ acceptors/$cm^3$ are considered.}
    \label{ptypecc}
 \end{figure}
