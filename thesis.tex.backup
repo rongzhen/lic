@@ -47,7 +47,7 @@
 
 \begin{document}
 \def\hath{{H}}
-\def\wf {\Psi(\{ {\textbf r}_{\textit i}, {\textbf R}_{I} \})}
+\def\wf {\Psi(\{ {\textbf r}_{i}, {\textbf R}_{I} \})}
 \def\wfbo{\Psi_{{BO}}({{\textbf r}_{{i}}},{\textbf R} )}
 \def\wfh{\Psi^{{H}}(\{ {\textbf r}_{{i}}\})}
 \def\wfks{\Psi^{{KS}}(\{ {\textbf r}_{{i}}\})}
@@ -558,8 +558,8 @@ more Ga element in the CIGS materail. An overview properties of CIGS material is
 Space group & $D_{2d}^{12}$(I$-$42d), no. 122 & $D_{2d}^{12}$(I$-$42d), no. 122 \\ 
 %\midrule
 \rowcolor[gray]{0.9}
-Lattice constants (Å) & $a$ = \textit{b} = 5.78, $c$ = 11.55 & \textit{a} = \textit{b} = 5.61, \textit{c} = 11.00 \\ 
-                      & \textit{a} = \textit{b} = 5.78\textsuperscript{d}, \textit{c} = 11.64\textsuperscript{d} & \textit{a} = \textit{b} = 5.61\textsuperscript{e}, \textit{c} = 11.02\textsuperscript{e} \\ 
+Lattice constants (Å) & $a$ = $b$ = 5.78, $c$ = 11.55 & $a$ = $b$ = 5.61, $c$ = 11.00 \\ 
+                      & $a$ = $b$ = 5.78\textsuperscript{d}, $c$ = 11.64\textsuperscript{d} & $a$ = $b$ = 5.61\textsuperscript{e}, $c$ = 11.02\textsuperscript{e} \\ 
 %\midrule
 Wyckoff positions & Cu:4a, In:4b, Se:8d & Cu:4a, Ga:4b, Se:8d \\ 
 %\midrule
@@ -572,8 +572,8 @@ Effective masses on $\Gamma$ point (m\textsubscript{0}) & Electrons: 0.08& Elect
                                      & Holes(heavy): 0.23\textsuperscript{a} & Holes(heavy): 0.32\textsuperscript{a} \\ 
 %\midrule
 \rowcolor[gray]{0.9}
-Main intrinsic defects & \textit{p}-type: V\textsubscript{Se}; In\textsubscript{Cu}&  \textit{n}-type: V\textsubscript{Se}; Ga\textsubscript{Cu}\\
-\rowcolor[gray]{0.9} & \textit{p}-type:  V\textsubscript{Cu}; Cu\textsubscript{In} & \textit{p}-type: V\textsubscript{Cu}; Cu\textsubscript{Ga}  \\  
+Main intrinsic defects & $p$-type: V\textsubscript{Se}; In\textsubscript{Cu} &  $n$-type: V\textsubscript{Se}; Ga\textsubscript{Cu}\\
+\rowcolor[gray]{0.9}   & $p$-type: V\textsubscript{Cu}; Cu\textsubscript{In} &  $p$-type: V\textsubscript{Cu}; Cu\textsubscript{Ga}  \\  
 %\midrule
 Crystal field splitting $\Delta_{cf}$ (eV) [300K] & 0.006, 0.007\textsuperscript{a} & $-$0.09, $-$0.104\textsuperscript{a} \\ 
 %\midrule
@@ -601,10 +601,10 @@ Thermal conductivity [273K] W/(cm*K)& 0.086 & 0.129 \\
 
 CIGS is a nonstoichiometric compound with the deviations from stoichiometry in several pencentage range. The high quality thin film solar cells mainly employ Cu-poor (Cu: 22.5$-$24.5\%) high offstoichiometric CIGS absorber.
 The main native defects in CIGS include <2V\textsubscript{Cu}, In\textsubscript{Cu}>, <Cu\textsubscript{In}, In\textsubscript{Cu}>, V\textsubscript{Cu}, In\textsubscript{Cu}, Cu\textsubscript{In} V\textsubscript{Se}
-and Ga\textsubscript{Cu}. V\textsubscript{Cu} is the most important native defects in CIGS due to their low formation energies. Therefore, CIGS can be grown \textit{p}-type easily with the condition of Cu-poor (V\textsubscript{Cu}),
-which can be grown \textit{n}-type under the condition Se-poor or In-rich. There are some extrinsic divalent cation donors as well, such as Zn\textsubscript{Cu}, Cd\textsubscript{Cu} and Cl\textsubscript{Se}. The formation energy 
-for them is relatively low for CIS and CGS. Therefore, CIS is possbile to be \textit{n}-type material. However, CGS is not possible to be \textit{n}-type under equilibrium conditions, because the low formation energy of
-V\textsubscript{Cu} limits the possibility of achieving electronic \textit{n}-type character, especially in Ga-rich CIGS. It is maybe also explained why the best solar cell is with the Ga content of 30\% (x = 0.3), however,
+and Ga\textsubscript{Cu}. V\textsubscript{Cu} is the most important native defects in CIGS due to their low formation energies. Therefore, CIGS can be grown $p$-type easily with the condition of Cu-poor (V\textsubscript{Cu}),
+which can be grown $n$-type under the condition Se-poor or In-rich. There are some extrinsic divalent cation donors as well, such as Zn\textsubscript{Cu}, Cd\textsubscript{Cu} and Cl\textsubscript{Se}. The formation energy 
+for them is relatively low for CIS and CGS. Therefore, CIS is possbile to be $n$-type material. However, CGS is not possible to be $n$-type under equilibrium conditions, because the low formation energy of
+V\textsubscript{Cu} limits the possibility of achieving electronic $n$-type character, especially in Ga-rich CIGS. It is maybe also explained why the best solar cell is with the Ga content of 30\% (x = 0.3), however,
 the band gap energy of the CIGS suggests that the optimum solar cell conversion efficiency is obtained with between x = 0.5 and x = 0.7.
 
 
@@ -621,9 +621,9 @@ The solar cells device based on CIGS is a heterojunction device, which normally 
 
 Substract is on the bottom, and there are mainly three kinds of substract: soda-lime glass, metal and polyimide. The most common substrate is the one based on soda-lime glass containing sodium (Na) with thickness 
 \SI{1} {\mm} to \SI{3} {\mm}. The Na will improve the efficiency and reliablity of the solar cells as well as process tolerance. The molybdenum works as back contact due to its low resistivity and stability at high 
-temperature with thickness around \SI{500} {\nm}. The most important part of the device is the \textit{p}-type absorber layer: CIGS, which is dopped by intrinsic defects and around \SI{1500} -- \SI{2000} {\nm}. 
-The \textit{n}-type buffer layer CdS is on the top of CIGS, which is around \SI{60} {\nm}. The intrinsic zinc oxide (\textit{i}-ZnO) and \textit{n}-type ZnO layer are followed, and it works as window layer. The \textit{i}-ZnO is to 
-avoid the damage of the CIGS and CdS from sputtering damage when depositing the ZnO:Al window layer, and the \textit{n}-type ZnO is dopped by the aluminum (Al) in order to get higher conductivity. 
+temperature with thickness around \SI{500} {\nm}. The most important part of the device is the $p$-type absorber layer: CIGS, which is dopped by intrinsic defects and around \SI{1500} -- \SI{2000} {\nm}. 
+The $n$-type buffer layer CdS is on the top of CIGS, which is around \SI{60} {\nm}. The intrinsic zinc oxide ($i$-ZnO) and $n$-type ZnO layer are followed, and it works as window layer. The $i$-ZnO is to 
+avoid the damage of the CIGS and CdS from sputtering damage when depositing the ZnO:Al window layer, and the $n$-type ZnO is dopped by the aluminum (Al) in order to get higher conductivity. 
 This CIGS/CdS/ZnO strucutrure was optimized to improve the cell performance.
 
 
@@ -1226,7 +1226,7 @@ There are left part and right part in \textbf{Eq. \ref{ep467}}. If the right par
 = \left[ \begin{array}{c} 0 \\ 0 \\ \vdots \\ 0 \end{array} \right].
 \end{equation}
 
-Apparently, \textbf{Eq. \ref{ep44}} is an eigenvale problem. In order to get the $C_{i} (i = 1 \cdots N)$, one needs to solve the eigenvalue problem
+Apparently, \textbf{Eq. \ref{ep44}} is an eigenvalue problem. In order to get the $C_{i} (i = 1 \cdots N)$, one needs to solve the eigenvalue problem
 
 \begin{equation}\label{ep4}
 \left|
@@ -1305,7 +1305,7 @@ of the dual representation.
 \end{figure}
 
 From \textbf{Fig. \ref{ucuc}}, one notices that unit cell is divided into MT spheres ($\alpha$, $\beta$) and an
-(\textit{I}) region, where ${\textbf r = {\textbf R_{\alpha}}+{\textbf r_{\alpha}}}$ is guaranteed. The Rayleigh expansion formula yields
+($I$) region, where ${\textbf r = {\textbf R_{\alpha}}+{\textbf r_{\alpha}}}$ is guaranteed. The Rayleigh expansion formula yields
 
 \begin{equation}
 \expg<(\textbf {k}+\textbf{G})> = e^{i (\textbf {k}+\textbf{G}) \textbf{R}_{\alpha} } 4 \pi \sum\limits_{{\ell}}^{N_{\ell}} \sum\limits_{{m}}^{N_{m}} i^{\ell} \bessf< |\textbf{k}+\textbf{G}|> \sphfr<\ell{m}><r><> Y_{\ell{m}}(\widehat{\textbf{k}+\textbf{G}}).
@@ -1392,79 +1392,77 @@ V(\textbf{r}) =
 \end{equation*}
 
 \section{Dielectric function}
-The dielectric function describes the optical property of materials. Normally, it is written as $\varepsilon$, which has two parts
+The dielectric function describes the optical property of materials. Normally, it is written as $\varepsilon(\omega)$, which has two parts
 
 \begin{equation}
- \varepsilon = \varepsilon_1 + i \varepsilon_2.
+ \varepsilon(\omega) = \varepsilon_1(\omega) + i \varepsilon_2(\omega).
 \end{equation}
 
-Here, $\varepsilon_1$ denotes how much the material is polarized when an electric field is applied, and $\varepsilon_2$ is related with absorption of the material. The imaginary part of interband contribution to the dielectric function is defined as
+Here, $\varepsilon_1(\omega)$ denotes how much the material is polarized when an electric field is applied, and $\varepsilon_2(\omega)$ is related with absorption of the material. The imaginary part of interband contribution to the dielectric function is defined as
 
 \begin{equation}\label{df2}
-\varepsilon_2^{\alpha\beta} = \frac{\hbar e^2}{\pi m^2\omega^2} \sum_{cv} \int d \textbf {k} <\Psi_{c{\textbf k}}|p^\alpha|\Psi_{v{\textbf k}}><\Psi_{v{\textbf k}}|p^\beta|\Psi_{c{\textbf k}}> (f(\varepsilon_{c \textbf k})-f(\varepsilon_{v \textbf k}))\delta(\varepsilon_{c {\textbf k}}-\varepsilon_{c{\textbf k}}-\omega).
+\varepsilon_2^{\alpha\beta} (\omega)= \frac{\hbar e^2}{\pi m^2\omega^2} \sum_{cv} \int d \textbf {k} <\Psi_{c{\textbf k}}|p^\alpha|\Psi_{v{\textbf k}}><\Psi_{v{\textbf k}}|p^\beta|\Psi_{c{\textbf k}}> (f(\varepsilon_{c \textbf k})-f(\varepsilon_{v \textbf k}))\delta(\varepsilon_{c {\textbf k}}-\varepsilon_{c{\textbf k}}-\omega).
 \end{equation}
 
-Here, $c$ and $v$ are the index of conduction band and valence band, respectively. The total imaginary part of dielectric function can be calculated when $c$ and $v$ run over all the conduction bands and valence bands. Similarily, the
+Here, $f$ is the Fermi distribution function. $c$ and $v$ are the index of conduction band and valence band, respectively. The total imaginary part of dielectric function can be calculated when $c$ and $v$ run over all the conduction bands and valence bands. Similarily, the
 interband contribution can be achived by calculating single conduction band and single valence band.   
 
 The real part of dielectric function can be calculated by Kramers-Kronig relations
 
 \begin{equation}
- \varepsilon_1^{\alpha\beta} = \delta^{\alpha\beta}+\frac{2}{\pi}P\int^{\infty}_{0} \frac{\omega'\varepsilon_2^{\alpha\beta}(\omega')}{\omega'^{2}-\omega^{2}} d\omega'.
+ \varepsilon_1^{\alpha\beta} (\omega)= \delta_{\alpha\beta}+\frac{2}{\pi}P\int^{\infty}_{0} \frac{\omega'\varepsilon_2^{\alpha\beta}(\omega')}{\omega'^{2}-\omega^{2}} d\omega'.
 \end{equation}
 
-
-The absorption coefficient can be obtained by the real part and imaginary part of dielectric function
+Here, $P$ the Cauchy principal value. The absorption coefficient can be obtained by the real part and imaginary part of dielectric function
 \begin{equation}
- \alpha(\omega) = \frac{\sqrt{2}\omega}{c} \left[ \sqrt{{\varepsilon_1(\omega)}^2+{\varepsilon_2(\omega)}^2}-{\varepsilon_1(\omega)} \right]^{1/2}.
+ \alpha^{ii}(\omega) = \frac{\sqrt{2}\omega}{c} \left[ \sqrt{{\varepsilon^{ii}_1(\omega)}^2+{\varepsilon^{ii}_2(\omega)}^2}-{\varepsilon^{ii}_1(\omega)} \right]^{1/2}.
 \end{equation}
+
+Here, the equation is only valid for the diagonal of the tensor.
 
 In this section, only some basic equations are covered when it is related to calculate the dielectric function. If someone is interested in this topic, one can find more detailed in Ref. $??$.
 
-\begin{comment}
+
 \section{k $\cdot$ p method}
 \label{kpmaa}
 
-The band dispersion can be obtained exactly by using the $\bold k \cdot \bold p$ method in principle, the basic idea will be explained in the following text.
+The energy band dispersion can be obtained exactly by using the $\bold k \cdot \bold p$ method in principle. The basic idea of this method is explained in this section.
 
-First, if the Schrödinger equation is defined as follows:
+The non-relativistic Kohn-Sham equation (not in atomic units) is give as
 
 \begin{equation}\label{kpse}
-\left\{ \frac {{\textbf p}^2} {2m} + V({\textbf r}) \right\} \wfbloch<n>< \bold k> = \ebloch<n><\bold k> \wfbloch<n><\bold k>,
+\Big( \frac {{\textbf p}^2} {2m_e} + V({\textbf r}) \Big) \wfbloch<n>< \bold k> = \epsilon_{n,\textbf{k}} \wfbloch<n><\bold k>.
 \end{equation}
 
-where ${\textbf p} = i \hbar \bigtriangledown $, and the Bloch theory shows:
+Here, $\textbf p$ is momentum operator, and the superscript "$KS$" is ignored compared with \textbf{Eq. \ref{aaa111}}. According to the Bloch theory, the wavefunction can be written as
 
 \begin{equation}\label{1}
- \wfbloch<n><\bold k> = \expg<k> \ubloch<n><\bold k>,
+ \wfbloch<n><\bold k> = \expg<k> \ubloch<n><\bold k>.
 \end{equation}
 
-where $\wfbloch<n><\bold k>$ is the wavefunction on ${\textbf k}$ point for the {$\textit n$}th band, and $\expg<k>$ is plane wave, $\ubloch<n><\bold k>$ is a function which has the same a periodicity as the potential.
+Here, $\ubloch<n><\bold k>$ is a function which has the same a periodicity as the potential. If substituting \textbf{Eq. \ref{1}} to \textbf{Eq. \ref{kpse}}, the new equation is derive as
 
-If substituting the Eq. \ref{1} to Eq. \ref{kpse}, it will end up the following equation:
+\begin{equation}\label{kp1}
+ \Big(  \frac{{\textbf p}^2}{2m_e} + V({\textbf r }) + \frac{{\hbar^2 {\textbf k}^2}}{2m_e} + \frac{{\hbar \textbf {kp}}}{m_e} \Big) \ubloch<n><\bold  k>  =  \epsilon_{n,\textbf{k}} \ubloch<n><\bold  k>.
+\end{equation}
+
+In \textbf{Eq. \ref{kp1}} equation, the Hamiltonian becomes $H_0 = {\textbf p}^2 / {2m_e} + V({\textbf r })$ when $\textbf k = \textbf 0$, the corresponding eigenvalue is $\epsilon_{n,\textbf{0}}$. 
+Here, $H_0$ can be seen as unpertubation terms, and remaining terms are seen as pertubation terms. From the pertubation theory, the following equation can be obtained  
 
 \begin{equation}
- \{  \frac{{\textbf p}^2}{2m} + V({\textbf r }) + \frac{{\hbar^2 {\textbf k}^2}}{2m} + \frac{{\hbar \textbf {kp}}}{m} \} \ubloch<n><\bold  k>  =  \ebloch<n><\bold  k> \ubloch<n><\bold  k>.
+ \epsilon_{n,\textbf{k}} =  \epsilon_{n,\textbf{0}} + \frac{{\hbar^2 {\textbf k}^2}}{2m_e} + \frac{ \hbar^2}{m_{e}^2} \sum\limits_n^{Nb} \sum\limits_{n' \neq n}^{Nb} \frac{|<\ubloch<n><\bold 0>|{\textbf {kp}}|\ubloch<n'><\bold  0>>|^2}{\epsilon_{n,\textbf 0} - \epsilon_{n',\textbf 0}}.
 \end{equation}
 
-In the above equation, if $\textbf k = \textbf 0$, then the Hamiltonian turn out to be $H_0 = {\textbf p}^2 / {2m} + V({\textbf r })$. Here the first two terms are treated as unpertubation term, and pertubation term is seen as
-$W={{\hbar^2 {\textbf k}^2}}/{2m} + {{\hbar \textbf {kp}}}/{m}$, the result will be as follows after treating the equation as pertubation.
-
-\begin{equation}
- \ebloch<n><\bold k> = E_{n,\textbf 0} + \frac{{\hbar^2 {\textbf k}^2}}{2m} + \frac{ \hbar^2}{m^2} \suminj<i><j> \frac{|<\ubloch<n><\bold 0>|{\textbf {kp}}|\ubloch<n'><\bold  0>>|^2}{E_{n,\textbf 0} - E_{n',\textbf 0}}.
-\end{equation}
-
-
-Now let us suppose the wavefunction and energy are obtained by some procedures on $\bold k_0$ point, $\wfbloch<n><\bold  k_0>$ is the wavefunction and $\ebloch<n><\textbf  k_0>$ is the energy.
-Another function is defined as follows:
+In the realistic implmentation, the following derivation is exploited. Assume that the wavefunction and eigenvalue are obtained by some procedures on $\bold k_0$ point. $\wfbloch<n><\bold  k_0>$ is the wavefunction and 
+$\epsilon_{n,\textbf{0}}$ is the eigenvalue. Luttinger-Kohn functions are given as
 
 \begin{equation}\label{2}
 \chikp<n><\textbf k> = \expg<(\bold k-\bold {k_0})>  \wfbloch<n><\bold {k_0}>.
 \end{equation}
 
-The above function $\chikp<n><\textbf k> $ is expanded as wavefunction on ${ \textbf k}$ point, and then the wavefunction on the ${\textbf k}$ point is calculated by:
+The wavefunction on ${ \textbf k}$ point can be expanded by $\chikp<n><\textbf k> $, which is given as
 \begin{equation}\label{3}
-\wfbloch<n><\bold k> =  {\sum\limits_{j}} C_{n,j}^{\bold k} \chikp<j><\bold k>. 
+\wfbloch<n><\bold k> =  {\sum\limits_{j}^{\infty}} C_{n,j}^{\bold k} \chikp<j><\bold k>. 
 \end{equation}
 
 From above equation, the wavefunction is known if the coefficient $C_{n,j}^{\bold k}$ is obtained, let us substitute the Eq. \ref{3} into Kohn-Sham Eq. \ref{kpse}.
@@ -1487,7 +1485,7 @@ H_{j',j} = \left [  \ebloch<j><\bold {k_0}>  + \frac{{\hbar}^2}{2m} { (\bold{k}^
 \end{equation}
 
 From the above equation, the coefficient $ C_{n,j}^{\bold k}$ and $\ebloch<n><\bold {k}>$ are calculated.
-\end{comment}
+
 
 \section{Spin-orbit coupling}
 \label{srasoc}
