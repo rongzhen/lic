@@ -1481,7 +1481,7 @@ In \textbf{Eq. \ref{kp3}}, the wavefunction can be obtained if the coefficient $
 \end{split}
 \end{equation}
 
-Here, the coefficient $ C_{n,j}^{\bold k}$ and $\epsilon_{n,\textbf{k}}$ can be calculated. Therefore, the wavefunction on ${ \textbf k}$ point can be obtained.
+Here, the coefficient $ C_{n,j}^{\bold k}$ and $\epsilon_{n,\textbf{k}}$ can be calculated. Therefore, the wavefunction on ${ \textbf k}$ point can be eobtained.
 
 
 \section{Spin-orbit coupling}
@@ -1569,8 +1569,8 @@ $E'$ is far smaller than $mc^2$. The following equation is given when \textbf{Eq
 \end{equation}
 
 \noindent To eliminate the $\chi$ (otherwise, it is the antiparticle problem), it ends up with the equation
-  \begin{equation}
-(V + \frac{1}{2m} (\boldsymbol{\sigma} \textbf{P}) (1+\frac{E^{\prime}-V}{2mc^2})^{-1} (\boldsymbol{\sigma} \textbf{P}) )\phi=E^{\prime}\phi,
+  \begin{equation}\label{soc1212}
+\Big(V + \frac{1}{2m} (\boldsymbol{\sigma} \textbf{P}) (1+\frac{E^{\prime}-V}{2mc^2})^{-1} (\boldsymbol{\sigma} \textbf{P}) \Big)\phi=E^{\prime}\phi,
 \end{equation}
 
 \noindent where ${E^{\prime}-V}$ is far smaller than ${2mc^2}$, therefore taking advantage of the taylor expansion of it,  as well as the following identites
@@ -1583,20 +1583,43 @@ $E'$ is far smaller than $mc^2$. The following equation is given when \textbf{Eq
 
 The final equation is obtained under the nonrelativistic limit
 
-\begin{equation}
-E^{\prime} \phi = (\frac{\textbf{P}^2}{2m} + V - \frac{\textbf{P}^4}{8 {m}^3 {c}^2}-\frac{i\hbar}{4{m}^2 {c}^2} (\nabla{V})\textbf{P}+\frac{\hbar}{4 m^2 c^2} \boldsymbol{\sigma}[\nabla{V} \times \textbf{P}]) \phi.
+\begin{equation}\label{nonrela1}
+E^{\prime} \phi = \Big(\frac{\textbf{P}^2}{2m} + V - \frac{\textbf{P}^4}{8 {m}^3 {c}^2}-\frac{i\hbar}{4{m}^2 {c}^2} (\nabla{V})\textbf{P}+\frac{\hbar}{4 m^2 c^2} \boldsymbol{\sigma}[\nabla{V} \times \textbf{P}]\Big) \phi.
 \end{equation}
 
 Furthermore, we can approximate the above equation to the simpler expression under spherical symmetry potential
 
 \begin{equation}
- E^{\prime} \phi = (\frac{\textbf{P}^2}{2m} +V - \frac{\textbf{P}^4}{8 {m}^3 {c}^2}-\frac{i\hbar}{4{m}^2 {c}^2} (\nabla{V})\textbf{P}+\frac{1}{2 m^2 c^2} \frac{1}{R} \frac{dV}{dR}\textbf{S}\textbf{L}) \phi.
+ E^{\prime} \phi = \Big(\frac{\textbf{P}^2}{2m} +V - \frac{\textbf{P}^4}{8 {m}^3 {c}^2}-\frac{i\hbar}{4{m}^2 {c}^2} (\nabla{V})\textbf{P}+\frac{1}{2 m^2 c^2} \frac{1}{R} \frac{dV}{dR}\textbf{S}\textbf{L}\Big) \phi.
 \end{equation}
 
 \noindent Here, $\textbf{S} = {\hbar}{\boldsymbol{\sigma}}/2$ is the Pauli spinor, and $\textbf{L} = \textbf{R} \times \textbf{P}$ is the orbital
 angular momentum operator. The terms of ${\textbf{P}^2}/(2m) + V$ is Schrödinger term,  ${\textbf{P}^4}/(8 {m}^3 {c}^2)$ and ${i\hbar} (\nabla{V})\textbf{P} /(4{m}^2 {c}^2)$  are the mass enhancement 
 and Darwin term, respectively, both of them together is called the scalar relativistic approximation (SRA). The last term is the spin-orbit coupling (SOC) term. One has to
 notice that the Darwin term is not hermitian operator, alternatively, $\nabla^2{V} /(8{m}^2 {c}^2)$ is suggested in the realistic implementation.
+
+\textbf{Eq. \ref{nonrela1}} is only valid if the velocity of particles is smaller than the one of light. It is not true in the region which is close to the nucleus, especially for heavy elements, where the relativistic effects
+are relatively strong. Moreover, the Coulomb potential can be arbitrarily large negative energies in realistic situation as well, which has the singularity of the potential at the nucleus. Therefore, there is another way to derive 
+the spin-orbit coupling which can overcome the mentioned disadvantages.
+
+\textbf{Eq. \ref{soc1212}} can be rewritten as
+
+\begin{equation}\begin{split}\label{soc001}
+& \Big(V + (\boldsymbol{\sigma} \textbf{P}) \Big(\frac{c^2}{2mc^2-V}\Big)\Big(1+\frac{E^{\prime}}{2mc^2-V}\Big)^{-1} (\boldsymbol{\sigma} \textbf{P}) \Big)\phi \\
+& \approx \Big( V + (\boldsymbol{\sigma} \textbf{P}) \Big(\frac{c^2}{2mc^2-V}\Big)(\boldsymbol{\sigma} \textbf{P}) \Big)\phi \\
+& - (\boldsymbol{\sigma} \textbf{P}) \Big(\frac{c^2}{2mc^2-V}\Big)\Big(\frac{E^{\prime}}{2mc^2-V}\Big)^{-1} (\boldsymbol{\sigma} \textbf{P}) \Big)\phi + \cdot \\
+& =E^{\prime}\phi.
+\end{split}
+\end{equation}
+
+Here, the Taylor expansion is utilized. The zeroth order regular approxiation (ZORA) hamiltonian is definded as
+\begin{equation}\begin{split}\label{zora1}
+& H^{zora} = V + (\boldsymbol{\sigma} \textbf{P}) \Big(\frac{c^2}{2mc^2-V}\Big)(\boldsymbol{\sigma} \textbf{P}) \\
+& =  V + \textbf{P} \Big(\frac{c^2}{2mc^2-V}\Big)\textbf{P} + \frac{c^2}{(2mc^2-V)^2} \boldsymbol{\sigma}\cdot(\bigtriangledown V\times \textbf{P})
+ \end{split}
+\end{equation}
+
+The last term in \textbf{Eq. \ref{zora1}} is the spin-orbit coupling term.
 
 
 \chapter{Results and discussion}
