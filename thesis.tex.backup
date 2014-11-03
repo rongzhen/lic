@@ -280,7 +280,7 @@ edited by K. Ito ({\textit John Wiley $\&$ Sons}, ??CITY??, 2014??); in preparat
 With the increasing of energy consumption, more and more energy or power is needed. According to the statistical review of world energy on 2014 (\textbf{Fig. \ref{wpec}}),
 the required energy is mainly satisfied by the fossil fuels (mainly coal, petroleum and 
 natural gas), with a market share of around 87\%. The total energy consumption is between 12000 and 13000 million tonnes oil equivalent (MTOE), which is equivalent to around 15 terawatts. 
-Normally lightbulbs in our homes consume around between 50 to 100 watts of energy, 1 terawatt implies 10 billion of the 100 watts lightbulbs are lighted at the same time. 
+Normally light bulbs in our homes consume around between 50 to 100 watts of energy, 1 terawatt implies 10 billion of the 100 watts light bulbs are lighted at the same time. 
 Unfortunately, the fossil fuels is very limited energy and non-renewable resources, one day which is not far from  now it will be dissipated due to the energy consumption growth.
 
 \begin{figure}[H]
@@ -298,7 +298,7 @@ operation in silence.
 The solar energy technologies are the way to produce electricity from the light of the sun. Sunlight is a portion of the radiation by the sun, like infrared, visible,
 and ultraviolet light. The spectrum of the sun is close to the spectrum of black body with a temperature of about 6000 K (\textbf{Fig. \ref{spectrumsun}}). In the field of photovoltaics (PV), solar spectrum is represented
 by air mass (AM) which defines the direct optical path length through the Earth's atmosphere. The AM1.5 and AM0 are important: AM1.5 is the air mass at a solar zenith angle of 48.19 degree, and AM0 mean the solar spectrum 
-outside of the atmosphere. Generally, the AM1.5 is seen as the reference spectrum in PV field. In \textbf{Fig. \ref{spectrumsun}}, the absorption in the atmosphere is quite stronge by gasses, dust and aerosols, as well as
+outside of the atmosphere. Generally, the AM1.5 is seen as the reference spectrum in PV field. In \textbf{Fig. \ref{spectrumsun}}, the absorption in the atmosphere is quite strong by gases, dust and aerosols, as well as
 the scattering of light from air molecules. 
 
 \begin{figure}[H]
@@ -309,14 +309,14 @@ the scattering of light from air molecules.
 \end{figure}
 
 There are mainly three kinds of solar energy technologies. The first one is solar thermal,which utilizes the flat sunlight collector plates to harness the energy from sunlight to heat water for use in industries, homes, and pools.
-Therefore, the solar thermal collectors do not convert sunlight to electricity directly, but transfer the energy to heat up the water instead. The advangtage is the conversion efficiency is relatively higher. The second one is 
+Therefore, the solar thermal collectors do not convert sunlight to electricity directly, but transfer the energy to heat up the water instead. The advantage is the conversion efficiency is relatively higher. The second one is 
 solar chemical, which takes advantage of solar energy by absorbing sunlight in a chemical reaction. However, the conversion efficiency is quite low. The last one is solar photovoltaics (solar cell), which is the way
 to utilize solar panels to convert sunlight into electricity. The installation is easier, occupy less space and less maintenance compared with solar thermal. The conversion efficiency is higher than solar chemical. However, 
 all the three solar energy technologies are environmentally friendly.
 
 
 \section{Solar cells}
-In the worldwide, the conversion efficiency in all different types of solar cell is improved remarkably. From \textbf{Fig. \ref{nrel}}, one can notice that the highest efficiency for multijunction cells, crystalline silion cells,
+In the worldwide, the conversion efficiency in all different types of solar cell is improved remarkably. From \textbf{Fig. \ref{nrel}}, one can notice that the highest efficiency for multijunction cells, crystalline silicon cells,
 thin-film technologies and new emerging cells are around 44.7\%, 27.6\%, 23.3\% and 19.3\%(??by Yang Yang not this figure so far??), respectively. Therefore, the solar cell is a very important and promising way to produce the
 renewable energy.
 
@@ -332,20 +332,20 @@ Therefore, different wavelengths of light from the Sun are absorbed for each of 
 low band gap can absorb the photos with lower energy. Therefore, the conversion efficiency is higher than singe $p$-$n$ junction, for example, the maximum conversion efficiency is 44.7\% by Soitec using 
 four-junction or more in \textbf{Fig. \ref{nrel}}. Crystalline silicon cells are the most widely utilized in the photovoltaic industries, which built the solar cells using crystalline silicon (c-Si). It has two types in
 the crystalline silicon photovoltaics: mono-crystalline silicon and multi-crystalline silicon. The crystalline silicon cells have high efficiency, for example, the maximum conversion efficiency is 27.6\% with concentrator 
-by Amonix and maxium 25.6\% without concentrator by Panasonic in  the \textbf{Fig. \ref{nrel}}. Thin-Film solar cells are the cells which are made by depositing one or several thin layers, which allows the cells to be rather 
+by Amonix and maximum 25.6\% without concentrator by Panasonic in  the \textbf{Fig. \ref{nrel}}. Thin-Film solar cells are the cells which are made by depositing one or several thin layers, which allows the cells to be rather 
 flexible and resulting in lower weight. The maximum conversion efficiency is lower than crystalline silicon today, which has the maximum conversion efficiency 23.3\% using CIGS with concentrator by NREL and 21.7\% without 
 concentrator by the center for solar energy and hydrogen research (ZSW) in Stuttgart in \textbf{Fig. \ref{nrel}}. The Emerging PV in \textbf{Fig. \ref{nrel}} represents the newest ways to create electricity from
 sunlight and potentially with higher conversion efficiency, such as perovskite cells, for which the maximum conversion efficiency is 19.3\% by the group Yang Yang at the University of California, Los Angeles. 
-(update the above figure until May, 2014) Perovskite cells jump into the world of solar cells only in 2009, and the conversion efficiency is improved remarkable within 5 years. Certainly, the search and optimisation 
+(???update the above figure until May, 2014??) Perovskite cells jump into the world of solar cells only in 2009, and the conversion efficiency is improved remarkable within 5 years. Certainly, the search and optimization 
 of alternatively solar cell materials is still an ongoing and active area today.
 
 
 \subsection{Single-junction solar cells}
 The $p$-$n$ junction is the fundamental building block of solar cells. The single $p$-$n$ homojunction will be explored in this section.
 
-We start from the seperate $n$-type material and $p$-type material at room temperature (assume that all the donor (acceptor) atoms are positively (negatively) ionized at room temperature). In \textbf{Fig. \ref{dopedmaterials}},
+We start from the separate $n$-type material and $p$-type material at room temperature (assume that all the donor (acceptor) atoms are positively (negatively) ionized at room temperature). In \textbf{Fig. \ref{dopedmaterials}},
 the left one shows the $n$-type and $p$-type materials. The $n$-type
-material has many free negatively charged electrons which can move freely in the material, and there are numbers of positively charged immobile donor ions as well. Similarily, the $p$-type material has many free positively
+material has many free negatively charged electrons which can move freely in the material, and there are numbers of positively charged immobile donor ions as well. Similarly, the $p$-type material has many free positively
 charged holes which can move freely in the material, and there are numbers of negatively charged immobile acceptor ions as well. However, the material is still neutral in both $n$-type and $p$-type.
 On the right in \textbf{Fig. \ref{dopedmaterials}}, the corresponding Fermi levels are shown. The Fermi level (E\textsubscript{nf}) is closer to conduction band minimum for $n$-type material due to the many free 
 negatively charged electrons. Conversely, the Fermi level of $p$-type material (E\textsubscript{pf}) is closer to the valence band maximum to the free positively charged holes.
@@ -356,7 +356,7 @@ negatively charged electrons. Conversely, the Fermi level of $p$-type material (
            % \includegraphics[width=0.4\textwidth,clip]{sepratepn1.jpg}
             \includegraphics[width=0.8\textwidth,clip]{sepratepn.eps}
      \end{center}
-    \caption{Left: Doped ($n$-type and $p$-type) materials in dark at room temperature. Right: Energy band diagram of seperated $p$-$n$ homojunction in dark at room temperature for two-level model. Assume that all the donor (acceptor) atoms are 
+    \caption{Left: Doped ($n$-type and $p$-type) materials in dark at room temperature. Right: Energy band diagram of separated $p$-$n$ homojunction in dark at room temperature for two-level model. Assume that all the donor (acceptor) atoms are 
     positively (negatively) ionized.}      
     \label{dopedmaterials}
 \end{figure}
@@ -365,7 +365,7 @@ If the $n$-type and $p$-type materials are joined, the free electrons (holes) in
 lower concentrations of electrons (holes) (\textbf{Fig. \ref{pnjunction}}). In the region which is near the interface between $n$-type and $p$-type materials, the ionized donor and acceptor ions create a
 "build in" electric field which points from the $n$-type material to the $p$-type material. This can cause the drift of carriers in the opposite direction. The "build-in" electric field will force the electrons (holes) back into
 the $n$-type ($p$-type). At certain point, 
-the whole material will reach a stable equilibrium due to the achived balance between diffusion and drift. Formation of the "build-in" electric field is rather important for the solar cells, even though there is no currect in 
+the whole material will reach a stable equilibrium due to the achieved balance between diffusion and drift. Formation of the "build-in" electric field is rather important for the solar cells, even though there is no current in 
 the material so far. In the following text, the region which forms the "build-in" electric field is also called space charge region (SCR). The different Fermi levels for $n$-type and $p$-type materials are
 equal at the stable equilibrium. Therefore, the energy bands bend over and create a potential barrier near the junction (Right in \textbf{Fig. \ref{pnjunction}}). Finally, there is a internal potential V\textsubscript{bi}
 in the junction, which will block the diffusion.
@@ -382,10 +382,10 @@ in the junction, which will block the diffusion.
 
 The $p$-$n$ junction cell with and without the illumination is discussed in \textbf{Fig. \ref{illu}} and \textbf{Fig. \ref{illu1}}. If there was a wire with certain resistance connecting 
 the $n$-type and $p$-type, there is no current in the wire under the condition of dark (no illumination). However, if the light shines on the cell or component, a current will be generated from the $p$-type
-to the $n$-type side (conventional current). Because the electrons from valence bands (VBs) goes to conduction bands (CBs), which can generate pairs of electron-hole. At the same time, the recombination of paired electron-hole ocurrs. The rate of generation 
+to the $n$-type side (conventional current). Because the electrons from valence bands (VBs) goes to conduction bands (CBs), which can generate pairs of electron-hole. At the same time, the recombination of paired electron-hole occurs. The rate of generation 
 is faster that of recombination, therefore, net generation occurs. Apparently, there are three regions in the whole junction cell where the electrons goes from VBs to CBs, the $n$-type region, the $p$-$n$
 junction, and the $p$-type region. In the either $n$-type or $p$-type region (especially, region which is far away SCR), the electron–hole pairs can not remain long time,  it is most probable that electrons
-will jump down from CBs to VBs again. However, the electron-hole pairs will be seperated in the $p$-$n$ junction region due to the "build-in" electric field, therefore, the current will be generated. Actually, the electron-hole pairs in the either n-type and p-type 
+will jump down from CBs to VBs again. However, the electron-hole pairs will be separated in the $p$-$n$ junction region due to the "build-in" electric field, therefore, the current will be generated. Actually, the electron-hole pairs in the either n-type and p-type 
 (especially, for them which are near SCR) also have the chance to diffuse into the SCR, it will contribute the generation of current or reduce the current.
 
 \begin{figure}[H]
@@ -395,8 +395,8 @@ will jump down from CBs to VBs again. However, the electron-hole pairs will be s
 \label{illu}
 \end{figure}
 
-In \textbf{Fig. \ref{illu1}}, the SCR becomes more "smooth" due to the extra load, such as lightbulb, which is equivalent to apply external potential. The stablized Fermi level at the stable equilibrium splits under illumination.
-The chemical potential $\bigtriangledown \mu = E_{nf} - E_{vf}$ is created, which is considered as the electron charge times the voltage across the device. The generation and recombination by impuriteis are not analyzed in here.
+In \textbf{Fig. \ref{illu1}}, the SCR becomes more "smooth" due to the extra load, such as light bulb, which is equivalent to apply external potential. The stabilized Fermi level at the stable equilibrium splits under illumination.
+The chemical potential $\bigtriangledown \mu = E_{nf} - E_{vf}$ is created, which is considered as the electron charge times the voltage across the device. The generation and recombination by impurities are not analyzed in here.
 
 \begin{figure}[H]
 \centering
@@ -438,12 +438,12 @@ gap. There is more detailed analysis of conversion efficiency in the Ref[?? Prin
 
 In 1839,  the French physicist A. E. Becquerel revealed the photovoltaic effect for the first time. Charles Fritts built the first solid state photovoltaic (PV) cell using semiconductor selenium in 1883. It is not until 1941 that
 the first silicon-based solar cell was demonstrated. Today, there are many different types of solar cell materials. The reason why the best solar cell material is not realized yet is that it is expected to be not only high efficiency but 
-also environmentally friendly and low cost. It requires not only that the growth and manufacturing prcess of solar cell materials shall be cheapter, but also that the devices shall have longer application life, moreover the raw material
+also environmentally friendly and low cost. It requires not only that the growth and manufacturing process of solar cell materials shall be cheaper, but also that the devices shall have longer application life, moreover the raw material
 should be abundant and non-toxic as well. In this section, four main solar cell materials are discussed briefly: silicon (Si), gallium arsenide (GaAs), cadmium telluride (CdTe), copper indium gallium diselenide (Cu(In,
 Ga)Se\textsubscript{2}).
 
-Potential solar cell materials need to fullfil several properties, such as large absorption coefficient and a band gap energy Eg between 0.7 to 2.0 eV. Under these conditions, there are quite many materials satisfying the 
-requirements. However, some other properties are needed to be considered as well, such as cost and enviromental safety. Thereby, only part of them are suitable to produce in reality. In \textbf{Fig. \ref{lscm}}, several solar cell
+Potential solar cell materials need to fulfill several properties, such as large absorption coefficient and a band gap energy between 0.7 to 2.0 eV. Under these conditions, there are quite many materials satisfying the 
+requirements. However, some other properties are needed to be considered as well, such as cost and environmental safety. Thereby, only part of them are suitable to produce in reality. In \textbf{Fig. \ref{lscm}}, several solar cell
 materials are illustrated. 
 
 \begin{figure}[H]
@@ -454,7 +454,7 @@ materials are illustrated.
 \end{figure}
 
 In \textbf{Fig. \ref{lscm}}, the formation of tetragonal semiconductors is considered as a series of cation mutations where the total number valence electrons is the same and keep the charge neutral. For example, group number
-IV element silicon (level 0) with four 4\textsuperscript{+} ions is equivlant to two 3\textsuperscript{+} ions and two 5\textsuperscript{+} ions, such as GaAs (level 1). It is also equivlant to two 2\textsuperscript{+} ions
+IV element silicon (level 0) with four 4\textsuperscript{+} ions is equivalent to two 3\textsuperscript{+} ions and two 5\textsuperscript{+} ions, such as GaAs (level 1). It is also equivalent to two 2\textsuperscript{+} ions
 and two 6\textsuperscript{+} ions, such as CdTe (level 1). The Cu(In,Ga)(S,Se)\textsubscript{2} can be generated applying the same process on II element on the level 1. This method was suggested by Goodman and Pamplin. 
 
 
@@ -462,10 +462,10 @@ and two 6\textsuperscript{+} ions, such as CdTe (level 1). The Cu(In,Ga)(S,Se)\t
 \subsection{Crystalline silicon solar cells}
 The solar cell based on silicon dominates the solar power world today, which accounts for more than 90\% of the total PV market.
 This kind of solar cell takes advantage of different forms of silicon, that is, monocrystalline silicon and polycrystalline silicon. 
-The success of Si is due to a number of reasons. Over 90\% is composed of silicate minerals in the crust of earth, which also yields huge available amounts of Si. Moreover, it has higher conversion efficiency, and it is also proved that 
+The success of Si is due to a number of reasons. Over 90\% is composed of silicate minerals in the crust of earth, which also yields huge available Si. Moreover, it has higher conversion efficiency, and it is also proved that 
 it has excellent stability and reliability under the outdoor condition. However, Si also have drawbacks. It has an indirect band gap and hence it has a lower optical absorption coefficient. In order to absorb the incident sunlight fully, 
-it requires to thicker Si (around \SI{40} {\micro\meter}) to absorb the sunlight. Crystalline Silicon have to be high quality and defect free in order to avoid losting the carriers before collection. Last but not least, it is costy to purify the Si from silicate minerals, which
-really limits the cost reduction potential of wafer-based silcion technology. 
+it requires to thicker Si (around \SI{40} {\micro\meter}) to absorb the sunlight. Crystalline Silicon have to be high quality and defect free in order to avoid to lost the carriers before collection. Last but not least, it is expensive to purify the Si from silicate minerals, which
+really limits the cost reduction potential of wafer-based silicon technology. 
 
 However, the solar cells based crystalline silicon technology is still leading the market of solar cell since many companies are trying to lower the cost of the whole process.
 
@@ -474,7 +474,7 @@ However, the solar cells based crystalline silicon technology is still leading t
 \subsection{Gallium arsenide}
 Gallium arsenide (GaAs) has a zinc blende crystal structure with a direct band gap around 1.5 eV at room temperature. Some electronic properties of GaAs are superior to Si, such as higher electron 
 mobility, higher saturated electron velocity, absorb sunlight more efficiently due to the direct band gap. The optimum band gap for the single junction solar cell is suggested around 1.3 eV by theoretical calculation 
-from Henry (1980) who modified the originial Shockley-Queisser limit. Therefore one of the most applications of GaAs is solar cells. GaAs has been extensively researched since the 1950s, and the first GaAs solar cells were established in
+from Henry (1980) who modified the original Shockley-Queisser limit. Therefore one of the most applications of GaAs is solar cells. GaAs has been extensively researched since the 1950s, and the first GaAs solar cells were established in
 1970 by the Zhores Alferov's team. Today, the conversion efficiency for single function solar cell based on GaAs is around 28.8\%. However, it is more difficult to grow and the solar cell component has higher price in comparison with Si.
 Many researches are focusing on how to reduce the price, and the main application solar cell based on GaAs is in the space application. At last, the arsenic toxicity should be considered as well. 
 
@@ -486,35 +486,35 @@ Thin film solar cells have several thin films with the total thickness less than
 solar cell was started since 1970s. Currently, the conversion efficiency for the single junction already surpassed 20\%, even though it is still not as high as the solar cells based on crystalline silicon. Three different thin film
 materials are discussed in this section: amorphous silicon (a-Si), cadmium telluride (CdTe), and copper indium gallium diselenide (CIGS).
 
-Amorphous silcion solar cells are the first thin film solar cell material which reach the large-scale production. It has higher absorption coefficient than crystalline silicion, therefore, the thickness can be less than \SI{1} {\micro\meter}. The 
-main disadvantages a-Si solar cells is the lower efficiency, the actual conversion efficiency for the commericial single junction solar cells based on a-Si is between 4\% to 8\%. This limits the development of a-Si thin film solar cells.
+Amorphous silicon solar cells are the first thin film solar cell material which reach the large-scale production. It has higher absorption coefficient than crystalline silicon, therefore, the thickness can be less than \SI{1} {\micro\meter}. The 
+main disadvantages a-Si solar cells is the lower efficiency, the actual conversion efficiency for the commercial single junction solar cells based on a-Si is between 4\% to 8\%. This limits the development of a-Si thin film solar cells.
 A-Si solar cells are suited to the situation which requires low cost over high efficiency. 
 
 CdTe was first reported in the 1960s. However, it is not developed rapidly until in the early 1990s. CdTe has a number of advantages as an absorber. It has higher absorption coefficient. The band gap is around 1.45 eV, which 
 is very near the optimum value for single-junction solar cells. Moreover, the manufacturing process is easier to control, which results in the cost of manufacturing is low. Moreover, the commercial modules already reach the efficiency of 16\%.
 However, an important question is needed to be considered in order to large-scale CdTe manufacturing: cadmium toxicity and tellurium availability. 
 
-CIGS are direct band gap seciconductors with high optical absorption coefficients. It is seen as the most promising solar cell material for the near future. It is always employed in a heterojunction structure, mainly it is with the thinner
-$n$-type CdS layer. The conversion efficiency of CIGS reached up to 20\% in the laboratory cell. The intersting part is that it can be alloyed by the ratio of Ga/(Ga+In), and the band gap can be tuned along with that. The band gap 
+CIGS are direct band gap semiconductors with high optical absorption coefficients. It is seen as the most promising solar cell material for the near future. It is always employed in a heterojunction structure, mainly it is with the thinner
+$n$-type CdS layer. The conversion efficiency of CIGS reached up to 20\% in the laboratory cell. The interesting part is that it can be alloyed by the ratio of Ga/(Ga+In), and the band gap can be tuned along with that. The band gap 
 is between 1.0 eV to 1.7 eV for this alloy. CIGS does not contain any toxic element.
 
 \section{CuIn\textsubscript{1-\textit{x}}Ga\textsubscript{\textit{x}}Se\textsubscript{2}(CIGS) materials}
-CIGS material is a chalcopyrite-type material, which is considered to be one of the most promising thin film solar cell material. The direct band gap is from around 1.0 ev to 1.7 eV by alloying Ga in the CuInSe\textsubscript{2},  and the conversion efficiency in laboratory already surpassed 20\%. 
+CIGS material is a chalcopyrite-type material, which is considered to be one of the most promising thin film solar cell material. The direct band gap is from around 1.0 eV to 1.7 eV by alloying Ga in the CuInSe\textsubscript{2},  and the conversion efficiency in laboratory already surpassed 20\%. 
 CuInSe\textsubscript{2} was first synthesized by Hahn in 1953. It was first exploited as an absorber material in a single crystal solar cell in 1974, which is based on CuInSe\textsubscript{2} and CdS. The conversion efficiency is around 
-5\%. The first thin film solar cells based on CuInSe\textsubscript{2} and CdS was invented by Kazmerski. During 1980s, Boeing Corporation did much reseach on the thin film polycrystalline CIGS solar cells. 
+5\%. The first thin film solar cells based on CuInSe\textsubscript{2} and CdS was invented by Kazmerski. During 1980s, Boeing Corporation did much research on the thin film polycrystalline CIGS solar cells. 
 To date, the highest conversion efficiency in lab situation for the solar cells based on CIGS is between 20\% and 21\% by alloying with Ga.
 
 
 \subsection{Crystal structure}
 The crystal structure of CIGS can be derived from the zinc blende crystal structure of zinc selenide (ZnSe). In the \textbf{Fig. \ref{crystal_cigs}}, the crystal structures of ZnSe and CIGS are presented. 
-The elements Zn are replaced by Cu and In or Ga elements in the zinc blende of ZnSe. It requires to double the unit cell in the z-direction. Because the bond strength and lengths between
-Cu-Se and In-Se or Ga-Se are different, therefore, the lattice parameter c is not exact 2a normally.
+The elements Zn are replaced by Cu and In or Ga elements in the zinc blende of ZnSe. It requires to double the unit cell in the $z$-direction. Because the bond strength and lengths between
+Cu-Se and In-Se or Ga-Se are different, therefore, the lattice parameter $c$ is not exact 2$a$ normally.
 
-Chalcopyrite CIGS (with x = 0.0 and 1.0) has the space group $D_{2d}^{12}$ ($I\overline{4}2d$; space group no. 122).
-The conventional unit cell has four copper atoms on the Wyckoff positions 4a, four indium/gallium atoms on position 4b, and eight selenium atoms on the 8d position. 
+Chalcopyrite CIGS (with $x$ = 0.0 and 1.0) has the space group $D_{2d}^{12}$ ($I\overline{4}2d$; space group no. 122).
+The conventional unit cell has four copper atoms on the Wyckoff positions 4$a$, four indium/gallium atoms on position 4$b$, and eight selenium atoms on the 8$d$ position. 
 The cation positions have all $S_4$ point-group symmetry, and Se have $C_2$ symmetry. 
-The Se 8d position is fully defined with the position (x, y, z), and each anion Se-atom has two inequivalent bonds $\delta$X–Se to the cations X = Cu and In/Ga. 
-For the alloy of CIGS (in this work, x = 0.5 with 50\% In and 50\% Ga), the structure is chosen so that each Se atom bonds to two Cu atoms, one In and one Ga atom. The space group is $S_{4}^{2}$ ($I\overline{4}$; space 
+The Se 8$d$ position is fully defined with the position ($x$, $y$, $z$), and each anion Se-atom has two inequivalent bonds $\delta$X–Se to the cations X = Cu and In/Ga. 
+For the alloy of CIGS (in this work, $x$ = 0.5 with 50\% In and 50\% Ga), the structure is chosen so that each Se atom bonds to two Cu atoms, one In and one Ga atom. The space group is $S_{4}^{2}$ ($I\overline{4}$; space 
 group no. 82).
 
 
@@ -532,14 +532,14 @@ group no. 82).
 
 \subsection{Optical properties and defects in the CIGS}
 CuInSe\textsubscript{2} has a direct band gap around 1.0 eV, and the absorption coefficient is relatively higher than Si due to direct band gap. The quaternary CIGS alloy will be available by alloying Ga element, while the band gap is tuned as well from 
-1.0 eV to 1.7 eV. The high absorption coefficient makes the CIGS material possible to be an absorber for the thin film solar cells. The band gap can be approximated by the function of Ga content (x):
+1.0 eV to 1.7 eV. The high absorption coefficient makes the CIGS material possible to be an absorber for the thin film solar cells. The band gap can be approximated by the function of Ga content ($x$):
 
 \begin{equation}
 E_g(x) = 1.0 + 0.564x+0.116x^2
 \end{equation}
 
-Alloying the Ga element will decrease the electron affinity of CIGS, which will make the conduction band upward shift, however, the valence band remain the same postion. This also explains the reason why the band gap increases with 
-more Ga element in the CIGS materail. An overview properties of CIGS material is described in \textbf{Table. \ref{kth518}} 
+Alloying the Ga element will decrease the electron affinity of CIGS, which will make the conduction band upward shift, however, the valence band remain the same position. This also explains the reason why the band gap increases with 
+more Ga element in the CIGS material. An overview properties of CIGS material is described in \textbf{Table. \ref{kth518}} 
 
 
 \vspace{10cm}
@@ -555,13 +555,13 @@ more Ga element in the CIGS materail. An overview properties of CIGS material is
 \cellcolor{blue!25} Properties & \cellcolor{blue!25} CuInSe\textsubscript{2} & \cellcolor{blue!25} CuGaSe\textsubscript{2} \\ 
 %\midrule
 
-Space group & $D_{2d}^{12}$(I$-$42d), no. 122 & $D_{2d}^{12}$(I$-$42d), no. 122 \\ 
+Space group & $D_{2d}^{12}$(I$-$42$d$), no. 122 & $D_{2d}^{12}$(I$-$42$d$), no. 122 \\ 
 %\midrule
 \rowcolor[gray]{0.9}
 Lattice constants (Å) & $a$ = $b$ = 5.78, $c$ = 11.55 & $a$ = $b$ = 5.61, $c$ = 11.00 \\ 
                       & $a$ = $b$ = 5.78\textsuperscript{d}, $c$ = 11.64\textsuperscript{d} & $a$ = $b$ = 5.61\textsuperscript{e}, $c$ = 11.02\textsuperscript{e} \\ 
 %\midrule
-Wyckoff positions & Cu:4a, In:4b, Se:8d & Cu:4a, Ga:4b, Se:8d \\ 
+Wyckoff positions & Cu:4$a$, In:4$b$, Se:8$d$ & Cu:4$a$, Ga:4$b$, Se:8$d$ \\ 
 %\midrule
 \rowcolor[gray]{0.9}
 Direct band gap (eV) & Eg = 1.04 & Eg = 1.68 \\ 
@@ -599,11 +599,11 @@ Thermal conductivity [273K] W/(cm*K)& 0.086 & 0.129 \\
 
 
 
-CIGS is a nonstoichiometric compound with the deviations from stoichiometry in several pencentage range. The high quality thin film solar cells mainly employ Cu-poor (Cu: 22.5$-$24.5\%) high offstoichiometric CIGS absorber.
+CIGS is a nonstoichiometric compound with the deviations from stoichiometry in several percentage range. The high quality thin film solar cells mainly employ Cu-poor (Cu: 22.5$-$24.5\%) high offstoichiometric CIGS absorber.
 The main native defects in CIGS include <2V\textsubscript{Cu}, In\textsubscript{Cu}>, <Cu\textsubscript{In}, In\textsubscript{Cu}>, V\textsubscript{Cu}, In\textsubscript{Cu}, Cu\textsubscript{In} V\textsubscript{Se}
 and Ga\textsubscript{Cu}. V\textsubscript{Cu} is the most important native defects in CIGS due to their low formation energies. Therefore, CIGS can be grown $p$-type easily with the condition of Cu-poor (V\textsubscript{Cu}),
 which can be grown $n$-type under the condition Se-poor or In-rich. There are some extrinsic divalent cation donors as well, such as Zn\textsubscript{Cu}, Cd\textsubscript{Cu} and Cl\textsubscript{Se}. The formation energy 
-for them is relatively low for CIS and CGS. Therefore, CIS is possbile to be $n$-type material. However, CGS is not possible to be $n$-type under equilibrium conditions, because the low formation energy of
+for them is relatively low for CIS and CGS. Therefore, CIS is possible to be $n$-type material. However, CGS is not possible to be $n$-type under equilibrium conditions, because the low formation energy of
 V\textsubscript{Cu} limits the possibility of achieving electronic $n$-type character, especially in Ga-rich CIGS. It is maybe also explained why the best solar cell is with the Ga content of 30\% (x = 0.3), however,
 the band gap energy of the CIGS suggests that the optimum solar cell conversion efficiency is obtained with between x = 0.5 and x = 0.7.
 
@@ -619,12 +619,12 @@ The solar cells device based on CIGS is a heterojunction device, which normally 
 \label{device}
 \end{figure}
 
-Substract is on the bottom, and there are mainly three kinds of substract: soda-lime glass, metal and polyimide. The most common substrate is the one based on soda-lime glass containing sodium (Na) with thickness 
-\SI{1} {\mm} to \SI{3} {\mm}. The Na will improve the efficiency and reliablity of the solar cells as well as process tolerance. The molybdenum works as back contact due to its low resistivity and stability at high 
-temperature with thickness around \SI{500} {\nm}. The most important part of the device is the $p$-type absorber layer: CIGS, which is dopped by intrinsic defects and around \SI{1500} -- \SI{2000} {\nm}. 
+Substrate is on the bottom, and there are mainly three kinds of substrate: soda-lime glass, metal and polyimide. The most common substrate is the one based on soda-lime glass containing sodium (Na) with thickness 
+\SI{1} {\mm} to \SI{3} {\mm}. The Na will improve the efficiency and reliability of the solar cells as well as process tolerance. The molybdenum works as back contact due to its low resistivity and stability at high 
+temperature with thickness around \SI{500} {\nm}. The most important part of the device is the $p$-type absorber layer: CIGS, which is doped by intrinsic defects and around \SI{1500} -- \SI{2000} {\nm}. 
 The $n$-type buffer layer CdS is on the top of CIGS, which is around \SI{60} {\nm}. The intrinsic zinc oxide ($i$-ZnO) and $n$-type ZnO layer are followed, and it works as window layer. The $i$-ZnO is to 
-avoid the damage of the CIGS and CdS from sputtering damage when depositing the ZnO:Al window layer, and the $n$-type ZnO is dopped by the aluminum (Al) in order to get higher conductivity. 
-This CIGS/CdS/ZnO strucutrure was optimized to improve the cell performance.
+avoid the damage of the CIGS and CdS from sputtering damage when depositing the ZnO:Al window layer, and the $n$-type ZnO is doped by the aluminum (Al) in order to get higher conductivity. 
+This CIGS/CdS/ZnO structure was optimized to improve the cell performance.
 
 
 
@@ -649,8 +649,8 @@ the quantum many-body Schrödinger equation exactly. In this thesis, the time-in
 \end{equation}
 
 
-Here, term with the superscript "$en$" implies that this term is related with electrons and nuclei. ${\Psi^{en}(\{ {\textbf r}_{i}, {\textbf R}_{I} \})}$ is the exact wavefunction, $\textbf{r}_{i}$ 
-and $\textbf{R}_{I}$  stands for coordinators of electron and nucleus, respectively. $E^{en}$ is the system total energy. $H^{en}$ is the Hamiltonian which is defined as
+Here, the superscript "$en$" implies that it is related with electrons and nuclei. ${\Psi^{en}(\{ {\textbf r}_{i}, {\textbf R}_{I} \})}$ is the exact wavefunction, $\textbf{r}_{i}$ 
+and $\textbf{R}_{I}$  stands for coordinators of electron and nucleus, respectively. $E^{en}$ is the system total energy. $H^{en}$ is the Hamiltonian, which is defined as
 
 \begin{equation}\label{th}
 \begin{split}
@@ -671,20 +671,20 @@ constant ($\alpha$ = ${e^2}/{(4 \pi \varepsilon_0 c \hbar)}$). Therefore, the ve
 & + \frac{1}{2} \sum\limits_i^{Ne} \sum\limits_{j \neq i}^{Ne} \frac{1}{ |\textbf{r}_{i}-\textbf{r}_{j}|} + \frac{1}{2} \sum\limits_I^{Nn} \sum\limits_{J \neq I}^{Nn} \frac{Z_{I} Z_{J}\ }{|\textbf{R}_{I}-\textbf{R}_{J}|}.
 \end{split}\end{equation}
 
-Here, $M_I$ is the mass of the $i$:th nucleus in atomic units. The first and second terms are the kinetic energy operator of the electrons and nuclei, respectively.
+Here, $M_I$ is the mass of the $I$:th nucleus in atomic units. The first and second terms are the kinetic energy operator of the electrons and nuclei, respectively.
 The other terms are Coulomb interactions between electrons and nuclei, electrons and electrons and nuclei and nuclei in sequence.
 
-\textbf{Eq. \ref{ssth}} can not be solved exactly at present since there are enormous amount of atoms to calculate in reality. More importantly, the exactly form of the wavefunction is unknown.
-To approximate the exact solution, one divides it into three different levels generally: the first level is the Born-Oppenheimer approximation; the second level is Hartree,
-Hartree-Fock (HF), density functional theory (DFT) and Kohn-Sham (KS) equation; the last level is to solve the secular equation which is an equation that is solved to find the eigenvalue of matrix.
+\textbf{Eq. \ref{ssth}} can not be solved exactly at present since there are enormous number of atoms to calculate in reality. More importantly, the exactly form of the wavefunction is unknown.
+To approximate the exact solution, one divides it into three different levels generally: the first level is the Born-Oppenheimer approximation; the second level is Hartree approximation,
+Hartree-Fock (HF) approximation, density functional theory (DFT) and Kohn-Sham (KS) equation; the last level is to solve the secular equation which is an equation that is solved to find the eigenvalue of matrix.
 
 \subsection{The Born-Oppenheimer approximation}
 \label{ch:boa}
 
-\textbf{Eq. \ref{ssth}} can be approximated in order to solve it. The first attempt is to seperate the wavefunction of electron and nucleus. Because the Schrödinger Hamiltonian in \textbf{Eq. \ref{sth}} has a couple term between the electron and nucleus, 
+\textbf{Eq. \ref{ssth}} should be approximated in order to solve it. The first attempt is to separate the wavefunction of electron and nucleus. Because the Schrödinger Hamiltonian in \textbf{Eq. \ref{sth}} has a couple term between the electron and nucleus, 
 thereby one can not do that simply. On the other hand, there exists a small value ${1}/{M_I}$ in \textbf{Eq. \ref{sth}}, which is part of the nucleus kinetic energy
-operator term. The nuclei are treated as fixed because the mass of nucleus is much larger than that of electron. This indicates that the electrons are seen as interacting under both the external potential caused by nuclei that are fixed in 
-some positions and that of the other electrons. 
+operator term. The nuclei are treated as fixed because the mass of nucleus is much larger than that of electron. This indicates that the electrons are seen as interacting under both the external potential caused by nuclei 
+that are in fixed positions and that of the other electrons. 
 
 The separation of motion between electrons and nuclei is called the Born-Oppenheimer approximation. Since the positions of nuclei are fixed, wavefunction can be written as
 
@@ -693,14 +693,14 @@ The separation of motion between electrons and nuclei is called the Born-Oppenhe
 \end{equation}
 
 Here, ${\Psi(\{\textbf{r}_{i}\}; \{{\textbf R}_{I}\})}$  is the electrons wavefunction in the Born-Oppenheimer approximation. Since the electrons are under the potential of nuclei, and thus the wavefunction of 
-electrons is related with the nucleus postions. 
+electrons is related with the nucleus positions. 
  
 \textbf{Eq. \ref{sth}} can be rewritten as
 
 \begin{equation}\begin{split}\label{nh}
 & {H^{en}} = H + H^n \\
 & {H}\ = \ {U_e} \ + \ {U}_{ext} \ + \ {U}_{int}\  \\
-& {H^n} = - \sum\limits_I \frac{{{\nabla}_{{I}}^{2}}}{2 M{I}} + {{U}_{zz}}.
+& {H^n} = - \sum\limits_I^{Nn} \frac{{{\nabla}_{{I}}^{2}}}{2 M_{I}} + {{U}_{nn}}.
  \end{split}
 \end{equation}
 
@@ -708,9 +708,9 @@ Furthermore, all the unknown terms in \textbf{Eq. \ref{nh}} are defined as
 
 \begin{equation}\begin{split}\label{vext}
 & {U_e} = - \sum\limits_i^{{Ne}}   \frac{{{\nabla}_{{i}}^{2}}}{2} \\
-& U_{ext} = - \sum\limits_i^{{Ne}} \sum\limits_J^{{Nn}} \frac{Z_{I}}{|\textbf{r}_{i}-\textbf{R}_{I}|} \\
+& U_{ext} = - \sum\limits_i^{{Ne}} \sum\limits_I^{{Nn}} \frac{Z_{I}}{|\textbf{r}_{i}-\textbf{R}_{I}|} \\
 & {U}_{int} =  \frac{1}{2} \sum\limits_i^{{Ne}} \sum\limits_{j \neq i}^{{Ne}} \frac{1}{ |\textbf{r}_{i}-\textbf{r}_{j}|} \\
-& {{U}_{zz}} = \frac{1}{2} \sum\limits_I^{{Nn}} \sum\limits_{J \neq I}^{{Nn}} \frac{Z_{I} Z_{J}\ }{|\textbf{R}_{I}-\textbf{R}_{J}|}.
+& {{U}_{nn}} = \frac{1}{2} \sum\limits_I^{{Nn}} \sum\limits_{J \neq I}^{{Nn}} \frac{Z_{I} Z_{J}\ }{|\textbf{R}_{I}-\textbf{R}_{J}|}.
 \end{split}
 \end{equation}
 
@@ -728,42 +728,43 @@ The new Schrödinger equation combined with \textbf{Eq. \ref{nwf}} and \textbf{E
 
 \begin{equation}\begin{split}\label{ise}
 & {H} {\Psi(\{\textbf{r}_{ i}\}; \{{\textbf R}_{ I}\})} = E{(\{\textbf{R}_{ I}\})} {\Psi(\{\textbf{r}_{i}\}; \{{\textbf R}_{I}\})} \\
-& \Big( {U}_{zz1}+{U}_{zz2}+{U}_{zz3}+{U}_{zz}+E(\{{\textbf R}_{I}\}) \Big) {\theta(\{\textbf{R}_{I}\})} = E^{en}(\{{\textbf R}_I\}) {\theta(\{\textbf{R}_{I}\})}.
+& \Big( {U}_{nn1}+{U}_{nn2}+{U}_{nn3}+{U}_{nn}+E(\{{\textbf R}_{I}\}) \Big) {\theta(\{\textbf{R}_{I}\})} = E^{en}(\{{\textbf R}_I\}) {\theta(\{\textbf{R}_{I}\})}.
 \end{split}
 \end{equation}
 
-\noindent Here, $E{(\{\textbf{R}_{I}\})}$ is the total energy of electronic system, which is also ${\textbf R}_I$-dependent because electrons wavefunction indirectly depends on nuclei positions. The ${U}_{zz1}$,
-${U}_{zz2}$, and ${U}_{zz3}$ in \textbf{Eq. \ref{ise}} are derived
+\noindent Here, $E{(\{\textbf{R}_{I}\})}$ is the total energy of electronic system, which is also ${\textbf R}_I$-dependent because electrons wavefunction indirectly depends on nuclei positions. The ${U}_{nn1}$,
+${U}_{nn2}$, and ${U}_{nn3}$ in \textbf{Eq. \ref{ise}} are derived as
 
 \begin{equation}\begin{split}
- &  {U}_{zz1} = - \sum\limits_I^{{Nn}} \frac{{{\nabla}_{{I}}^{2}}}{2 M_{I}}   \\
- &  {U}_{zz2} = - \sum\limits_I^{{Nn}} \frac{1}{M_{I}} {\int {\Psi'(\{\textbf{r}_{{i}}\}; \{\textbf{R}_{I}\})}^{\ast} {{\nabla}_{{I}}} {{\Psi'(\{\textbf{r}_{{i}} \}; \{\textbf{R}_{I}\})}} d {\textbf r }} {{\nabla}_{{I}}}  \\
- &  {U}_{zz3} = - \sum\limits_I^{{Nn}} \frac{1}{M_{I}} {\int {{\Psi'(\{\textbf{r}_{{i}}\}; \{\textbf{R}_{I}\})}}^{\ast} {{\nabla}_{{I}}^{2}} {{\Psi'(\{\textbf{r}_{{i}} \}; \{\textbf{R}_{I}\})}} d {\textbf r }}. 
+ &  {U}_{nn1} = - \sum\limits_I^{{Nn}} \frac{{{\nabla}_{{I}}^{2}}}{2 M_{I}}   \\
+ &  {U}_{nn2} = - \sum\limits_I^{{Nn}} \frac{1}{M_{I}} {\int {\Psi(\{\textbf{r}_{{i}}\}; \{\textbf{R}_{I}\})}^{\ast} {{\nabla}_{{I}}} {{\Psi(\{\textbf{r}_{{i}} \}; \{\textbf{R}_{I}\})}} d {\textbf r }} {{\nabla}_{{I}}}  \\
+ &  {U}_{nn3} = - \sum\limits_I^{{Nn}} \frac{1}{M_{I}} {\int {{\Psi(\{\textbf{r}_{{i}}\}; \{\textbf{R}_{I}\})}}^{\ast} {{\nabla}_{{I}}^{2}} {{\Psi(\{\textbf{r}_{{i}} \}; \{\textbf{R}_{I}\})}} d {\textbf r }}. 
 \end{split}\end{equation}
 
 In \textbf{Eq. \ref{ise}}, one observes that the lattice dynamical properties of certain system within the Born-Oppenheimer approximation can be obtained. To solve this equation,
 the ground state energy $E(\{{{\textbf R}_{I}}\})$ of electronic system is needed. Here, $\{{\textbf R}_{I}\}$ are the parameterized values from the atom position.
  
-In summary, the Schrödinger equations of the electrons and nuclei are derived seperately within the Born-Oppenheimer approximation. When one refers to calculations of the ground state properties,
+In summary, the Schrödinger equations of the electrons and nuclei are derived separately within the Born-Oppenheimer approximation. When one refers to calculations of the ground state properties,
 the Schrödinger equation of the electrons is applied (the first line in \textbf{Eq. \ref{ise}}). The Schrödinger equation of nuclei is employed for the calculation of lattice dynamics 
-($U_{zz2}$ and $U_{zz3}$ are ignored in the second line in \textbf{Eq. \ref{ise}} normally).
+($U_{nn2}$ and $U_{nn3}$ are ignored in the second line in \textbf{Eq. \ref{ise}} normally).
 
 The \textbf{Eq. \ref{ise}} (the first line) is much simpler than \textbf{Eq. \ref{ssth}}. However, it is still not solvable. Further approximations  are needed
 to solve this many-body problem.
 
 \subsection{Hartree, Hartree-Fock approximation and density functional theory}
 
-In previous section, the seperation of wavefunction is given within Born-Oppenheimer approximation. The quantum many-body Schrödinger problem becomes the many-electron 
+In previous section, the separation of wavefunction is given within Born-Oppenheimer approximation. The quantum many-body Schrödinger problem becomes the many-electron 
 Schrödinger problem. There are two major problems from the Born-Oppenheimer approximation: the first problem is that the number of electron is around 10\textsuperscript{23} \si{\per\cubic\centi\metre}, which is a huge numerical 
-problem. However, it is still possible to solve; the second one is that the Hamiltonian includes operators which apply to the single electrons. However, how the wavefunction depends on the single-electron wavefunctions is unknown.
-The latter problem can be solved by one of the following three methods: the first method is to figure out a way to seperate or approximate the wavefunction into single-electron function, such as the Hartree and Hartree-Fock (HF) method;
-the second method is to find the explict relation bewteen total energy and wavefunction, such as density functional theory (DFT). Within DFT, the system total energy is a functional of electron density which can be constructed by 
-wavefunction. Either of these two methods has "pros and cons"; the third one is called Kohn-Sham equation, which is a combination of above two methods. It starts from DFT, however takes advantage of single-electron wavefunctions. 
+problem. However, it is still possible to solve; the second one is that the Hamiltonian includes operators which apply to the single electron. However, how the wavefunction depends on the single-electron wavefunction is unknown.
+The latter problem can be solved by one of the following three methods: the first method is to figure out a way to separate or approximate the wavefunction into single-electron function, such as the Hartree and Hartree-Fock (HF)
+methods; the second method is to find a explicit relation between total energy and wavefunction, such as density functional theory (DFT). Within DFT, the system total energy is a functional of electron density which can be 
+constructed by wavefunctions. Either of these two methods has "pros and cons"; the third one is called Kohn-Sham equation, which is a combination of above two methods. It starts from DFT, however takes advantage of single-electron 
+wavefunction. 
 
 \subsubsection{Hartree approximation}
 \label{ha}
-The simplest approximation of the wavefunction for the many-electron Schrödinger equation is the form of acting like independent
-electrons. The wavefunction with $Ne$ independent electrons is given as
+The simplest approximation of the wavefunction for the many-electron Schrödinger equation is the one acting like independent
+electrons. The wavefunction with $Ne$ independent electrons is defined as
 
 \begin{equation}\label{wfh}
 \wfh = \bwff<1><1> \bwff<2><2> \cdots \bwff<Ne><Ne>. 
@@ -776,20 +777,20 @@ wavefunction since they are in fixed positions. The variables ${\{\textbf{r}_{{i
 E^{{H}} = <\wfh |\ {\hath} \ | \wfh  >.
 \end{equation}
 
-${\hath}$ can be rewritten as
+${\hath}$ in \textbf{Eq. \ref{nh}} can be rewritten as
 \begin{equation}\begin{split}
 &  {\hath} = \sum\limits_i^{{Ne}} \Big( -\frac{{{\nabla}_{{i}}^{2}}}{2} - \sum\limits_I^{{Nn}} \frac{Z_{I}}{|\textbf{r}_{i}-\textbf{R}_{I}|} \Big) +   \frac{1}{2} \sum\limits_i^{{Ne}} \sum\limits_{j \neq i}^{{Ne}} \frac{1}{ |\textbf{r}_{i}-\textbf{r}_{j}|} \\
 & = \sum\limits_i^{{Ne}} h_1(\textbf{r}_{i}) + \frac{1}{2} \sum\limits_i^{{Ne}} \sum\limits_{j \neq i}^{{Ne}} h_2(\textbf{r}_{i},\textbf{r}_{j}).
 \end{split}
 \end{equation}
 
-Therefore, the total energy of system is given by making the substitution using \textbf{Eq. \ref{nh}} and \textbf{Eq. \ref{wfh}} into \textbf{Eq. \ref{teh}}
+Therefore, the system total energy is given as
 \begin{equation}\begin{split}\label{bzd}
 & E^{H} = \sum\limits_i^{{Ne}} <\bwff<i><i> | \  h_1(\textbf{r}_{i}) \ | \bwff<i><i> > \\
 & +\frac{1}{2} \sum\limits_i^{{Ne}} \sum\limits_{j \neq i}^{{Ne}} <\bwff<i><i> \bwff<j><j>|\ h_2(\textbf{r}_{i},\textbf{r}_{j}) \ | \bwff<i><i> \bwff<j><j>>.  
 \end{split}\end{equation}
 
-In order to calculate the stationary state with the lowest energy of the system, the method of Lagrange multipliers is ultilized. Furthermore, the constraint is that the different states of electrons are orthonormalized.
+In order to calculate the stationary state with the lowest energy of the system, the method of Lagrange multipliers is utilized. Furthermore, the constraint is that the different states of electrons are orthonormalized.
 Therefore, the variation with respect to any wavefunction $\phi^*_{k}(\textbf{r})$ and Lagrange multiplier $E_{i,j}^{H}$ is satisfied
 
 \begin{equation}\begin{split}\label{haa}
@@ -798,9 +799,9 @@ Therefore, the variation with respect to any wavefunction $\phi^*_{k}(\textbf{r}
 \end{equation}
 
 
-Here, $ \delta \phi_{k}(\textbf{r})$ also can be utilized, however, variation with respect to $\phi^*_{k}(\textbf{r})$ and $\phi_{k}(\textbf{r})$ are equivalent. The result is more organized using $\phi^*_{k}(\textbf{r})$.
+Here, $ \delta \phi_{k}(\textbf{r})$ also can be utilized. However, variation with respect to $\phi^*_{k}(\textbf{r})$ and $\phi_{k}(\textbf{r})$ are equivalent. The result is more well organized using $\delta \phi^*_{k}(\textbf{r})$.
 
-In comparison with \textbf{Eq. \ref{bzd}}, $\delta E^{{H}}$ in \textbf{Eq. \ref{haa}} can be calculated by two parts. The first part is 
+$\delta E^{{H}}$ in \textbf{Eq. \ref{haa}} can be calculated by two parts. The first part is 
 
 \begin{equation}\begin{split}\label{hartree1}
 &  \delta ( \sum\limits_i^{{Ne}} <\bwff<i><i> |\ h_1(\textbf{r}_{i})  \ | \bwff<i><i> > )  \\
@@ -819,9 +820,9 @@ The second part is
 & + <\bwff<i><i>  \bwff<k><>|\ h_2(\textbf{r}_{i},\textbf{r}) \ | \bwff<i><i> \delta \bwff<k><>> \Big). 
 \end{split}\end{equation}
 
-Here, the factor of $\frac{1}{2}$ cancels because the $2$nd ($3$rd) line is the same with $4$th ($5$th) line in \textbf{Eq. \ref{hartree2}} due to the exchangeable of index of $i$ and $j$. 
+Here, the factor of $\frac{1}{2}$ cancels because the $2$nd ($3$rd) line is the same with $4$th ($5$th) line in \textbf{Eq. \ref{hartree2}} due to the exchangeable of indices of $i$ and $j$. 
 
-To get the final solution, one more calculation is given as 
+To get the final solution, one more calculation is needed 
 
 \begin{equation} \begin{split}\label{xixihaha}
 & \delta \sum\limits_i^{{Ne}} \sum\limits_j^{{Ne}} E_{i,j}^{{H}} \Big(<\phi_{i}(\textbf{r}_{i}) | \phi_{j}(\textbf{r}_{j}) > - \ \delta_{i,j}\Big) \\
@@ -838,7 +839,7 @@ Therefore, \textbf{Eq. \ref{haa}} can be derived as
 \end{equation}
 
 There are many solutions to \textbf{Eq. \ref{hartreq11}}, each corresponding to a different set of $E_{k,i}^{H}$. One can choose to $E_{k,i}^{H}$ which satisfies $E_{k,i}^{H}$ = $\delta_{k,i}\epsilon_k^{{H}}$. The \textbf{Eq. \ref{hartreq11}}
-can be rewriteen as
+can be rewritten as
 
 \begin{equation}\begin{split}\label{hartreq}
 & \Big(-\frac{\nabla^{2}_{k}}{2} + \sum\limits_I^{{Nn}} \frac{Z_{I}}{|\textbf{r}-\textbf{R}_{I}|} + \sum\limits_{j \neq k}^{{Ne}}  <\bwfn<j><'>\ | \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwfn<j><'>>\Big) \bwff<k><> = \epsilon_k^{{H}} \bwff<k><>  \\
@@ -851,14 +852,14 @@ can be rewriteen as
 Here, \textbf{Eq. \ref{hartreq}} is a group of dependent single particle equations. $\epsilon_k^{{H}}$ is identified as the eigenvalue for this single-electron Hartree equation.
 
 \subsubsection{Hartree-Fock approximation}
-Hartree approximation is the simplest approximation, while Hartree-Fock approximation is the method which considers the antisymmetry of the wavefunction. It is shown as
+Hartree approximation is the simplest approximation, while Hartree-Fock approximation is a method which considers the antisymmetry of the wavefunction. It is shown as
 
 \begin{equation}\label{hfwf}
 \Psi^{HF} ( \cdots \textbf{r}_{i} \cdots  \textbf{r}_{j} \cdots ) = - \Psi^{HF} ( \cdots \textbf{r}_{j} \cdots  \textbf{r}_{i} \cdots).
 \end{equation}
 
 Here, each variable ${\textbf{r}_{{i}}}$ includes the coordinates of space and spin. Slater introduced an way to construct the wavefunction subject to \textbf{Eq. \ref{hfwf}}. The wavefunction of the many-electron 
-Schrödinger equation is described in a matrix determinant for the $N$ number of electrons (for aesthetical reason, $N$ implies the number of electrons and not $Ne$ as in previous sections)
+Schrödinger equation is described in a matrix determinant for the $N$ number of electrons (for aesthetic reason, $N$ implies the number of electrons and not $Ne$ as in previous sections)
 
 \begin{equation}\label{hfwfm}
 \Psi^{HF}(\textbf{r}_1, \textbf{r}_2, \ldots, \textbf{r}_N) =
@@ -870,8 +871,8 @@ Schrödinger equation is described in a matrix determinant for the $N$ number of
     \bwff<1><N> & \bwff<2><N> & \cdots & \bwff<N><N>
 \end{matrix} \right|.
 \end{equation}
-\noindent Here, the factor in front ensures normalization, $i$ goes through all the electrons, and $\bwff<i><i>$ implies state of the ($i$):th electron. If two rows in \textbf{Eq. \ref{hfwfm}} are exchanged, the result is agreed 
-with \textbf{Eq. \ref{hfwf}}.
+\noindent Here, the factor in front ensures normalization, $i$ goes through all the electrons, and $\bwff<i><i>$ implies state of the ($i$):th electron. If two rows in \textbf{Eq. \ref{hfwfm}} are exchanged, the result is 
+in agreement with \textbf{Eq. \ref{hfwf}}.
 
 The total energy of Hartree-Fock approximation, which can be determined similarly as in the previous section of Hartree approximation, is given as
 
@@ -884,20 +885,16 @@ The total energy of Hartree-Fock approximation, which can be determined similarl
 Here, there is no contribution to the sum when $i$ = $j$. In the same mathematical way as in previous section but somewhat more complicated, the single particle Hartree-Fock equation can be obtained
 
 \begin{equation}\begin{split}\label{above1}
-& \{ -\frac{\nabla^{2}_{i}}{2} + \sum\limits_I^{{Nn}} \frac{Z_{I}}{|\textbf{r}-\textbf{R}_{I}|} + \sum\limits_{j}^{{N}} <\bwfn<j><'>\ | \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwfn<j><'>> \} \bwff<i><>  \\
-& - \sum\limits_{j}^{{N}}  < \bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwfn<i><'> >) \bwfn<j><>  = \epsilon_{i}^{{HF}} \bwff<i><>.
+& \Big( -\frac{\nabla^{2}_{i}}{2} + \sum\limits_I^{{Nn}} \frac{Z_{I}}{|\textbf{r}-\textbf{R}_{I}|} + \sum\limits_{j}^{{N}} <\bwfn<j><'>\ | \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwfn<j><'>> \Big) \bwff<i><>  \\
+& - \sum\limits_{j}^{{N}}  < \bwfn<j><'>|\ \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwfn<i><'> > \bwfn<j><>  = \epsilon_{i}^{{HF}} \bwff<i><>.
 \end{split}\end{equation}
 
-In comparison with Hartree equation in \textbf{Eq. \ref{hartreq}}, there is an extra term in the \textbf{Eq. \ref{above1}}, which is so called exchange term. In order to show the equation in a more organized way,
+In comparison with Hartree equation in \textbf{Eq. \ref{hartreq}}, there is an extra term in \textbf{Eq. \ref{above1}}, which is so called exchange term. In order to show the equation in a more well organized way,
 \textbf{Eq. \ref{above1}} is equivalent to
 
 \begin{equation}\label{aaaaa}\begin{split}
-\{ -\frac{\nabla^{2}_{i}}{2} +  \sum\limits_I^{{Nn}} \frac{Z_{I}}{|\textbf{r}-\textbf{R}_{I}|} +V_{HF}(\textbf{r}) \}  \bwff<i><>  = \epsilon_{i}^{{HF}}   \bwff<i><>.
-\end{split}\end{equation}
-
-\begin{equation}
-\begin{split}
-&  V_{HF}(\textbf{r})= \int \frac{\rho(\textbf{r}{'}) - \rho_{{i}}^{{HF}}(\textbf{r},\textbf{r}{'})}{|\textbf{r} - \textbf{r}{'} |}  \mathrm{d}\textbf{r}{'} \\
+& \Big( -\frac{\nabla^{2}_{i}}{2} +  \sum\limits_I^{{Nn}} \frac{Z_{I}}{|\textbf{r}-\textbf{R}_{I}|} +V_{HF}(\textbf{r}) \Big)  \bwff<i><>  = \epsilon_{i}^{{HF}}   \bwff<i><> \\
+&  V^{HF}(\textbf{r})= \int \frac{\rho(\textbf{r}{'}) - \rho_{{i}}^{{HF}}(\textbf{r},\textbf{r}{'})}{|\textbf{r} - \textbf{r}{'} |}  \mathrm{d}\textbf{r}{'} \\
 & \rho_{{i}}^{{HF}}(\textbf{r},\textbf{r}{'}) = \sum\limits_j^N \frac{\phi_{i}^{}(\textbf{r}{'}) \phi_{i}^{*}(\textbf{r}{}) \phi_{j}^{}(\textbf{r}{}) \phi_{j}^{*}(\textbf{r}{'})} {\phi_{i}^{}(\textbf{r}) \phi_{i}^{*}(\textbf{r})}  \\
 & \rho(\textbf{r}) = \sum\limits_i^N  {|\bwff<i><>|}^{2}.
 \end{split}
@@ -905,8 +902,8 @@ In comparison with Hartree equation in \textbf{Eq. \ref{hartreq}}, there is an e
 
 
 \subsubsection{Density functional theory}
-The Hartree and Hartree-Fock (HF) methods are very classic methods to solve the many-electron Schrödinger equation. However, the HF method only includes the exchange term and not the electron correlation term. It is not suitable 
-for the solid materials. Apart from the Hartree and HF method, there is a modern method to solve the more complicated calculations of electron system, namely density functional theory (DFT). 
+The Hartree and Hartree-Fock (HF) methods are very classic methods to solve the many-electron Schrödinger equation. However, the HF method only includes the exchange term and not the electron correlation term. Therefore, it is not suitable 
+for the solid materials. Apart from the Hartree and HF methods, there is a modern method to solve the more complicated calculations of electron system, namely density functional theory (DFT). 
 It is introduced by Hohenberg and Kohn in 1964, moreover, Kohn and Pople was awarded Chemistry Nobel Prize in 1998.
 
 The idea of the DFT is to treat the electron density in solid materials instead of using the many-particle wavefunction. One can benefit that the degree of freedom reduces from 3$N$ ($N$ is the number of electrons) to 3. It is apparently less 
@@ -929,7 +926,7 @@ The above theorem also explains the equivalence relation between the electron de
 then the wavefunction is obtained. Therefore the corresponding electron density is determined. Moreover, from the theorem, the external potential is unique decided by electron
 density. Therefore the electron density contains the same information as the wavefunction.
 
-The proof of the theorem is given. Let us assume that there exsits two external potentials named $V_{ext}(\textbf{r})$ and $V'_{ext}(\textbf{r})$ leading to the same ground state 
+The proof of the theorem is given. Let us assume that there exists two external potentials named $V_{ext}(\textbf{r})$ and $V'_{ext}(\textbf{r})$ leading to the same ground state 
 electron density $\rho$. Obviously, this will lead to two different Hamiltonians, that is, ${H}$ and ${H'}$, as well as two different corresponding
 wavefunctions named $\Psi$ and $\Psi'$. Since $\Psi$ are not the ground state wavefunction of ${H'}$, the same rules to $\Psi'$ and ${H}$, two following
 inequality equations are satisfied
@@ -939,23 +936,23 @@ inequality equations are satisfied
 &  E' = \langle \Psi'\ |{H'}|\ \Psi' \rangle  \ < \  \langle \Psi\ |{H'}|\ \Psi \rangle.
 \end{split}\end{equation}
 
-Taking advangtage of the Hamiltonian from \textbf{Eq. \ref{nh}}, the following equation is derived
+Taking advantage of the Hamiltonian from \textbf{Eq. \ref{nh}}, the following equation is derived
 \begin{equation}\label{hkpf2}\begin{split}
 &    \langle \Psi'\ |{H}|\ \Psi' \rangle \\
 &  = \langle \Psi'\ |{H'} + {H} - {H'}|\ \Psi' \rangle \\
 &  = \langle \Psi'\ |{H'} |\Psi' \rangle + \langle \Psi' | {H} - {H'}|\ \Psi' \rangle \\
-&  = E' + \int d \textbf{r} \Big( V_{ext}(\textbf{r}) - V'_{ext}(\textbf{r}) \Big)  \rho(\textbf{r}).
+&  = E' + \int \Big( V_{ext}(\textbf{r}) - V'_{ext}(\textbf{r}) \Big)  \rho(\textbf{r}) d \textbf{r}.
 \end{split}\end{equation}
 
 Using \textbf{Eq. \ref{hkpf1}} and \textbf{Eq. \ref{hkpf2}}, the following relation is given by
 
 \begin{equation}\label{hkpf3}
- E  < \  E' + \int d \textbf{r} \Big( V_{ext}(\textbf{r}) - V'_{ext}(\textbf{r}) \Big)  \rho(\textbf{r}).
+ E  < \  E' + \int \Big( V_{ext}(\textbf{r}) - V'_{ext}(\textbf{r}) \Big)  \rho(\textbf{r}) d \textbf{r} .
 \end{equation}
 
 Another similar inequality equation can be gained if one changes the equation $\langle \Psi\ |{H'}|\ \Psi \rangle$ like \textbf{Eq. \ref{hkpf2}}
 \begin{equation}\label{hkpf44}
-  E'  < \  E + \int d \textbf{r} \Big( V'_{ext}(\textbf{r}) - V_{ext}(\textbf{r}) \Big)  \rho(\textbf{r}).
+  E'  < \  E + \int \Big( V'_{ext}(\textbf{r}) - V_{ext}(\textbf{r}) \Big)  \rho(\textbf{r}) d \textbf{r} .
 \end{equation}
 
 Plus the left side and right side from both \textbf{Eq. \ref{hkpf3}} and \textbf{eq. \ref{hkpf44}}, a contradictory result is given as
@@ -983,23 +980,22 @@ In \textbf{Eq. \ref{hkpf5}}, the term of $F[\rho]$ is the universal functional f
 
 The functional of total energy $E[\rho']$ reach the minimum at the exact ground-state electron density $\rho$
 \begin{equation}\begin{split}
- & E[\rho'] \ =   \ \int \rho'(\textbf{r}) V_{ext}  + \  F[\rho'] > E[\rho]. 
+ & E[\rho'] \ =   \ \int \rho'(\textbf{r}) V_{ext}(\textbf{r}) d \textbf{r}   + \  F[\rho'] > E[\rho]. 
 \end{split}
 \end{equation}
  
-Here, the total energy for the case of exact ground-state electron density is lower than any other cases. Therefore, the exact ground-state electron density by minimizing the total energy can be achived.
+Here, the total energy for the case of exact ground-state electron density is lower than any other cases. Therefore, the exact ground-state electron density by minimizing the total energy can be achieved.
 
-From those two theorems, one knows how to solve Schrödinger equation theoretically. However in practice, $E[\rho]$ is unknown. Therefore, another method is needed to solve it, which is so called Kohn-Sham (KS) equation.
+From those two theorems, one knows how to solve Schrödinger equation theoretically. However, $E[\rho]$ is unknown in practice. Therefore, another method is needed to solve it, which is so called Kohn-Sham (KS) equation.
 
 \subsubsection{Kohn-Sham equation}
 
 The Hartree and Hartree-Fock methods are introduced to solve the many-body problem, both of which are based on the idea of transforming complex 
-many-electron problem to single-electron problem by using different wavefunctions. The DFT only consider to take use of information from Hamiltonian, however not solvable. 
-Therefore, it is best to combine these two ideas together. The DFT is solved by Kohn-Sham equation introduced by Kohn and Sham in 1965,
-which is constructed in the following text (ignoring the interaction between nuclei).
+many-electron problem to single-electron problem by using different wavefunctions. The DFT gives the answer to solve many-electron system, however, it does not give explicit expression.
+The problem in DFT is solved by Kohn-Sham equation that is introduced by Kohn and Sham in 1965. It is demonstrated in the following text (ignoring the interaction between nuclei).
 
-Assume that the exact ground-state density is obtained by the Hartree-like wavefunction $\wfks = \bwf<1><1> \bwf<2><2> \cdots \bwf<N><N>$. Here, $N$ is a number of electrons and $\bwf<i><i>$ is auxiliary independent single-electron wavefuntion,
-and electron density is defined as
+Assume that the exact ground-state density is obtained by the Hartree-like wavefunction $\wfks = \bwf<1><1> \bwf<2><2> \cdots \bwf<N><N>$. Here, $N$ is a number of electrons and $\bwf<i><i>$ is auxiliary independent
+single-electron wavefunctions. The electron density is defined as
 
 \begin{equation}\label{ks1}
  \rho(\textbf{r}) = \sum\limits_i^{N} {\Psi^{{KS}*}_{i}(\textbf{r})} {\Psi^{{KS}}_{i}(\textbf{r})}.
@@ -1022,8 +1018,8 @@ The $T_{0}[\rho]$, $V_{H}[\rho]$, and $V_{ext}[\rho]$ are kinetic energy in the 
 
 \begin{equation}\begin{split}\label{kankan}
 & T_{0}[\rho]\ = \sum\limits_i^{N} \ < \Psi_{i}^{{KS}}(\textbf{r}) \ | -\frac{\nabla^{2}}{2} \ | \Psi_{i}^{{KS}}(\textbf{r}) > \\
-& V_{H}[\rho] \ = \ \frac{1}{2} \int \int \mathrm{d} {\textbf{r}} \mathrm{d}{\textbf{r}'} \frac{\rho({\textbf{r}})\rho(\textbf{r}')}{|{\textbf{r}}-{\textbf{r}}'|} \\
-& V_{ext}[\rho]\ = \ \int \mathrm{d}{\textbf{r}} \rho(\textbf{r}) V_{ext}(\textbf{r}). 
+& V_{H}[\rho] \ = \ \frac{1}{2} \int \int  \frac{\rho({\textbf{r}})\rho(\textbf{r}')}{|{\textbf{r}}-{\textbf{r}}'|} \mathrm{d} {\textbf{r}} \mathrm{d}{\textbf{r}'}\\
+& V_{ext}[\rho]\ = \ \int  \rho(\textbf{r}) V_{ext}(\textbf{r})\mathrm{d}{\textbf{r}}. 
 \end{split}
 \end{equation}
 
@@ -1052,13 +1048,13 @@ Here, $\epsilon^{{KS}}_{{i}}$ is identified as eigenvalue for the Kohn-Sham equa
 \end{split}
 \end{equation}
 
-In \textbf{k}-space, Kohn-Sham equation can be written as
+In \textbf{k}-space, Kohn-Sham equation in \textbf{Eq. \ref{aaa}} can be written as
 \begin{equation}\label{aaa111}
  \Big(-\frac{\nabla^{2}}{2}\ + \ V^{KS}(\textbf{r})\Big) \Psi^{{KS}}_{{i,k}}(\textbf{r}) = \epsilon^{{KS}}_{{i,k}} \Psi^{{KS}}_{{i,k}}(\textbf{r}).
 \end{equation}
 
 
-The total energy is not given in \textbf{Eq. \ref{aaa}}. However, if one changes the \textbf{Eq. \ref{aaa}} as 
+The total energy is not given in \textbf{Eq. \ref{aaa}}. However, if one changes \textbf{Eq. \ref{aaa}} as 
 \begin{equation}\label{bbb}
 \sum\limits_i^N \Psi^{{KS}*}_{{i}}(\textbf{r}) \Big(-\frac{\nabla^{2}}{2}\ + \ V^{KS}(\textbf{r})\Big) \Psi^{{KS}}_{{i}}(\textbf{r}) = \sum\limits_i^N \Psi^{{KS}*}_{{i}}(\textbf{r}) \epsilon^{{KS}}_{{i}}  \Psi^{{KS}}_{{i}}(\textbf{r}).
 \end{equation}
@@ -1071,7 +1067,7 @@ Based on \textbf{Eq. \ref{kankan}} , \textbf{Eq. \ref{kse}} and \textbf{Eq. \ref
 \end{split}
 \end{equation}
 
-So far there are two problems still in the air: one is the exact format of $V_{xc}(\textbf{r})$; the other one is how to solve the Kohn-Sham equation.
+There are two problems still in the air: one is the exact format of $V_{xc}(\textbf{r})$; the other one is how to solve the Kohn-Sham equation.
 
 \subsubsection{The exchange-correlation potential}
 
@@ -1096,7 +1092,7 @@ Here, $N$ is number of electrons within the solid, and $V$ is the volume of soli
 \end{cases} 
 \end{equation}
 
-Here, $r_s = (3 / (4 \pi \rho))^{1/3}$. In the LDA, the idea is that the exchange-correlation energy for an electron in the very tiny small volume in many-particle system is equal to the exchange-correlation for an elecetron 
+Here, $r_s = (3 / (4 \pi \rho))^{1/3}$. In the LDA, the idea is that the exchange-correlation energy for an electron in the very tiny small volume in many-particle system is equal to the exchange-correlation for an electron 
 in the free electron gas with the same density in the volume ($\varepsilon_{xc}^{gas}(\rho(\textbf{r}))$ = $\varepsilon_{xc}^{gas}(\textbf{r})$). The explicit exchange-correlation energy is given as
 
 \begin{equation}
@@ -1108,13 +1104,13 @@ Therefore, the exchange-correlation potential is give as
  V_{xc}^{LDA}(\textbf{r}) = \frac{\delta  E^{LDA}_{xc}[\rho]}{\delta \rho}
 \end{equation}
 
-Today, there exists hundreds of different exchange-correlation potentials. It is stll ongoing development. The advangtage of Kohn-Sham equation is that new potentials are implemented easily. In the same time, the number of potential is huge due to
+Today, there exists hundreds of different exchange-correlation potentials. It is still ongoing development. The advantage of Kohn-Sham equation is that new potentials are implemented easily. In the same time, the number of potential is huge due to
 the simplicity of implementation.
 
 \subsection{Solving the secular equation}
 
-The process for solving Kohn-Sham equation can be achived by iteration. Because potentials in Kohn-Sham equation depends on electron density. However, electron density is calculated by wavefunction which depends on potential. 
-An initial guess of electron density is defined at the beginning of the calculation, then the equation is solved iteratively until the reasonable solution is obtained.
+The process for solving Kohn-Sham equation can be achieved by iteration. Because potentials in Kohn-Sham equation depends on electron density. However, electron density is calculated by wavefunction which depends on potential. 
+An initial guess of electron density is calculated at the beginning of the calculation, then the equation is solved iteratively until the reasonable solution is obtained.
 
 %%%%%%%%%%%%%%%%%%%%figure
 \tikzstyle{decision} = [diamond, draw, fill=white!20,
@@ -1159,42 +1155,42 @@ Here, $\rho^{i}(\textbf{r})$ and $\rho^{i+1}(\textbf{r})$ are the electron densi
 
 \subsection{Eigenvalue problem}
 
-In order to solve \textbf{Eq. \ref{aaa}}, the Kohn-Sham equation can be transformed into the general eigenvalue problem. If the Kohn-Sham equation is given as (ignore the index  in wavefunction compared with \textbf{Eq. \ref{aaa}})
+In order to solve \textbf{Eq. \ref{aaa}}, the Kohn-Sham equation can be transformed into the general eigenvalue problem. If the Kohn-Sham equation is given as (ignore the index $i$ in wavefunction compared with \textbf{Eq. \ref{aaa}})
 
 \begin{equation}\label{ep2}
- \hath \Psi^{KS} (\textbf{r}) = E \Psi^{KS} (\textbf{r}).
+ H^{KS} \Psi^{KS} (\textbf{r}) = \epsilon^{KS} \Psi^{KS} (\textbf{r}).
 \end{equation}
  
 
 The wavefunction is defined as
 
 \begin{equation}\label{ep1}
- \Psi^{KS} (\textbf{r}) = \sum\limits_j^N C_j \Phi_j (\textbf{r}).
+ \Psi^{KS} (\textbf{r}) = \sum\limits_j^N C_j \phi_j (\textbf{r}).
 \end{equation}
  
-Here, $C_j$ is a complex number, and $\Phi_j (\textbf{r})$ is the basis function of wavefunction. 
+Here, $C_j$ is a complex number, and $\phi_j (\textbf{r})$ is the basis function of wavefunction. 
 
 
-If \textbf{Eq. \ref{ep1}} is plugged into \textbf{Eq. \ref{ep2}}, and left multiply $\Phi^*_1, \Phi^*_2, \cdot, \Phi^*_N$ one by one, it ends up with a set of equations
+If \textbf{Eq. \ref{ep1}} is plugged into \textbf{Eq. \ref{ep2}}, and left multiply $\phi^*_1, \phi^*_2, \cdots, \phi^*_N$ in sequence, it ends up with a set of equations
 
 \begin{equation}\begin{split}\label{ep3}
 \left[
 \begin{matrix}
-    \Phi^*_1 \hath \Phi_1 & \Phi^*_1 \hath \Phi_2 & \cdots & \Phi^*_1 \hath \Phi_N \\
-    \Phi^*_2 \hath \Phi_1 & \Phi^*_2 \hath \Phi_2 & \cdots & \Phi^*_2 \hath \Phi_N \\
+    \phi^*_1 \hath \phi_1 & \phi^*_1 \hath \phi_2 & \cdots & \phi^*_1 \hath \phi_N \\
+    \phi^*_2 \hath \phi_1 & \phi^*_2 \hath \phi_2 & \cdots & \phi^*_2 \hath \phi_N \\
     \vdots               & \vdots               &        & \vdots               \\
-    \Phi^*_N \hath \Phi_1 & \Phi^*_N \hath \Phi_2 & \cdots & \Phi^*_N \hath \Phi_N \\
+    \phi^*_N \hath \phi_1 & \phi^*_N \hath \phi_2 & \cdots & \phi^*_N \hath \phi_N \\
 \end{matrix} \right] \left[ \begin{array}{c} C_1 \\ C_2 \\ \vdots \\ C_N\end{array} \right] \\
-= E \left[
+= \epsilon^{KS} \left[
 \begin{matrix}
-    \Phi^*_1 \Phi_1 & \Phi^*_1 \Phi_2 & \cdots & \Phi^*_1 \Phi_N \\
-   \Phi^*_2 \Phi_1 & \Phi^*_2 \Phi_2 & \cdots & \Phi^*_2 \Phi_N \\
+   \phi^*_1 \phi_1 & \phi^*_1 \phi_2 & \cdots & \phi^*_1 \phi_N \\
+   \phi^*_2 \phi_1 & \phi^*_2 \phi_2 & \cdots & \phi^*_2 \phi_N \\
     \vdots               & \vdots               &        & \vdots               \\
-   \Phi^*_N \Phi_1 & \Phi^*_N \Phi_2 & \cdots & \Phi^*_N \Phi_N \\
+   \phi^*_N \phi_1 & \phi^*_N \phi_2 & \cdots & \phi^*_N \phi_N \\
 \end{matrix} \right]\left[ \begin{array}{c} C_1 \\ C_2 \\ \vdots \\ C_N\end{array} \right].
 \end{split}\end{equation}
 
-One defines that $H_{ij} = \Phi^*_i \hath \Phi_j$ and $S_{ij} = \Phi^*_i \Phi_j$. Therefore, \textbf{Eq. \ref{ep3}} becomes
+One defines that $H_{ij} = \phi^*_i \hath \phi_j$ and $S_{ij} = \phi^*_i \phi_j$. Therefore, \textbf{Eq. \ref{ep3}} becomes
 
 \begin{equation}\begin{split}\label{ep467}
 \left[
@@ -1204,7 +1200,7 @@ One defines that $H_{ij} = \Phi^*_i \hath \Phi_j$ and $S_{ij} = \Phi^*_i \Phi_j$
     \vdots               & \vdots               &        & \vdots               \\
      H_{N1} & H_{N2} & \cdots & H_{NN} \\
 \end{matrix} \right] \left[ \begin{array}{c} C_1 \\ C_2 \\ \vdots \\ C_N\end{array} \right] \\
-= E \left[
+= \epsilon^{KS} \left[
 \begin{matrix}
     S_{11} & S_{12} & \cdots & S_{1N} \\
     S_{21} & S_{22} & \cdots & S_{2N} \\
@@ -1213,15 +1209,15 @@ One defines that $H_{ij} = \Phi^*_i \hath \Phi_j$ and $S_{ij} = \Phi^*_i \Phi_j$
 \end{matrix} \right]\left[ \begin{array}{c} C_1 \\ C_2 \\ \vdots \\ C_N\end{array} \right].
 \end{split}\end{equation}
 
-There are left part and right part in \textbf{Eq. \ref{ep467}}. If the right part moves to the left part, and do the substraction. The new equation is given as 
+There are left part and right part in \textbf{Eq. \ref{ep467}}. If the right part moves to the left part, and do the subtraction. The new equation is given as 
 
 \begin{equation}\label{ep44}
 \left[
 \begin{matrix}
-    H_{11} - E S_{11} & H_{12} - E S_{12} & \cdots & H_{1N} - E S_{1N} \\
-   H_{21} - E S_{21} & H_{22} - E S_{22} & \cdots & H_{2N} - E S_{2N} \\
+    H_{11} - \epsilon^{KS}S_{11} & H_{12} - \epsilon^{KS}S_{12} & \cdots & H_{1N} - \epsilon^{KS}S_{1N} \\
+    H_{21} - \epsilon^{KS}S_{21} & H_{22} - \epsilon^{KS}S_{22} & \cdots & H_{2N} - \epsilon^{KS}S_{2N} \\
     \vdots               & \vdots               &        & \vdots               \\
-  H_{N1} - E S_{N1} & H_{N2} - E S_{N2} & \cdots & H_{NN} - E S_{NN} \\
+  H_{N1} - \epsilon^{KS}S_{N1} & H_{N2} - \epsilon^{KS}S_{N2} & \cdots & H_{NN} - \epsilon^{KS}S_{NN} \\
 \end{matrix} \right] \left[ \begin{array}{c} C_1 \\ C_2 \\ \vdots \\ C_N\end{array} \right]
 = \left[ \begin{array}{c} 0 \\ 0 \\ \vdots \\ 0 \end{array} \right].
 \end{equation}
@@ -1231,10 +1227,10 @@ Apparently, \textbf{Eq. \ref{ep44}} is an eigenvalue problem. In order to get th
 \begin{equation}\label{ep4}
 \left|
 \begin{matrix}
-    H_{11} - E S_{11} & H_{12} - E S_{12} & \cdots & H_{1N} - E S_{1N} \\
-   H_{21} - E S_{21} & H_{22} - E S_{22} & \cdots & H_{2N} - E S_{2N} \\
+    H_{11} - \epsilon^{KS}S_{11} & H_{12} - \epsilon^{KS}S_{12} & \cdots & H_{1N} - \epsilon^{KS}S_{1N} \\
+   H_{21} - \epsilon^{KS}S_{21} & H_{22} - \epsilon^{KS}S_{22} & \cdots & H_{2N} - \epsilon^{KS}S_{2N} \\
     \vdots               & \vdots               &        & \vdots               \\
-  H_{N1} - E S_{N1} & H_{N2} - E S_{N2} & \cdots & H_{NN} - E S_{NN} \\
+  H_{N1} - \epsilon^{KS}S_{N1} & H_{N2} - \epsilon^{KS}S_{N2} & \cdots & H_{NN} - \epsilon^{KS}S_{NN} \\
 \end{matrix} \right|
  = 0.
 \end{equation}
@@ -1249,15 +1245,15 @@ One maybe naturally choose a set of plane waves as the wavefunction because of B
 when describing the atomic core region. Because the wavefunction change dramatically in that region, therefore one needs to choose relatively more plane
 waves to approximate it. It implies it will take more time to calculate.
 
-Slater re-considered the way to describe the wavefunction (\textbf{Eq. \ref{ap111}}). The unit cell is splitted into two regions: one is the sphere region which is
+Slater re-considered the way to describe the wavefunction (\textbf{Eq. \ref{ap111}}). The unit cell is divided into two regions: one is the sphere region which is
 defined by the center of atom, but non-overlap each sphere, is called muffin tin (MT) region; the remaining region is called interstitial ($I$)
 region (\textbf{Fig. \ref{ucuc}}). An atomic-like function is defined as the wavefunction in the MT region, this is reason why this method is called augmented plane wave (APW).
 The dual representation of the wavefunction is reasonable, because the wavefunction approaching atomic core is somehow like inside atom; however far away the atomic core, the electron behaves like free electrons,
 therefore plane waves are suitable (\textbf{Eq. \ref{ap111}}). However, the drawback of APW method is the wavefunction is dependent with the energy, which leads to the 
-nonlinear eigenvalue problem (\textbf{Eq. \ref{ap2}}). This method has to decide repeatedly until certain condition is satisfied to achive the exact energy, which is really time-consuming.
+nonlinear eigenvalue problem (\textbf{Eq. \ref{ap2}}). This method has to decide repeatedly until certain condition is satisfied to achieve the exact energy, which is really time-consuming.
 
 In order to find a way out, is it possible to let the wavefunction energy-independent? Andesen, Koelling and Arbman proposed a way to describe it,
-they noticed that the taylor expansion of radial function (\textbf{Eq. \ref{ap3}}). This method is called linearized augmented plane wave (LAPW) method due to make use of the linearized energies in the radial functions. 
+they noticed that the Taylor expansion of radial function (\textbf{Eq. \ref{ap3}}). This method is called linearized augmented plane wave (LAPW) method due to make use of the linearized energies in the radial functions. 
 However, the drawback is that it does not describe the semicore state well, it is corrected by a method named linearized augmented plane wave plus local orbitals (LAPW+LO) which is proposed by Singh (\textbf{Eq. \ref{lap5}}).
 Sjöstedt, Nordström and Singh also give an efficient way to linearize Slater's APW method, named augmented plane wave plus local orbitals (APW+lo) (\textbf{Eq. \ref{lap6}}). Both of above methods consider local orbitals, 
 it is customary to write in different ways as LO and lo, respectively. One can read more information about FPLAPW method from [?,?,?].
@@ -1317,19 +1313,19 @@ After matching those two representations, the following equation is satisfied fo
 A _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G})  u_{{\ell}}^{\alpha}(r_{\alpha},\epsilon_{i,k}^{KS})=  \frac{4 \pi }{\sqrt{\Omega}} e^{i (\textbf {k}+\textbf{G}) \textbf{R}_{\alpha} }  \sum\limits_{{\ell}}^{N_{\ell}} \sum\limits_{{m}}^{N_{m}} i^{\ell} \bessf< |\textbf{k}+\textbf{G}|> Y^{*}_{\ell{m}}(\widehat{\textbf{k}+\textbf{G}}).
 \end{equation}
 
-The main drawbacks about the APW method is that the wavefuntion is energy dependent (\textbf{Eq. \ref{ap2}}). It generates that
+The main drawbacks about the APW method is that the wavefunction is energy dependent (\textbf{Eq. \ref{ap2}}). It generates that
  the code needs to search for the energy in order to calculate the exact energy. Therefore it 
 is really time-consuming. 
 
 \subsubsection{Linearized augmented plane wave method}
-\noindent In order to decouple the energy from the wavefunction, Andesen, Koelling and Arbman found out a way to seperate them, they noticed that the taylor expansion of the radial function
+\noindent In order to decouple the energy from the wavefunction, Andesen, Koelling and Arbman found out a way to separate them, they noticed that the Taylor expansion of the radial function
 on certain energy, which can be given as
 
 \begin{equation}\label{ap3}
  u_{{\ell}}(r_{\alpha}, \epsilon) = u_{{\ell}}(r_{\alpha}, \epsilon_{\ell,\alpha}) + (\epsilon-\epsilon_{\ell,\alpha}) \dot{u}_{{\ell}}(r_{\alpha}, \epsilon_{\ell,\alpha}) + O((\epsilon-\epsilon_{\ell,\alpha})^2).
 \end{equation}
 
-Here, eigenvalue is written without subscript and superscript $\epsilon$. Therefore the basis fucntion is re-defined as 
+Here, eigenvalue is written without subscript and superscript $\epsilon$. Therefore the basis function is re-defined as 
 
 \begin{equation}\label{lap4}
 \phi^{LAPW}_{\textbf{k}+\textbf{G}} (\textbf{r}) = 
@@ -1340,10 +1336,12 @@ Here, eigenvalue is written without subscript and superscript $\epsilon$. Theref
 \end{equation}
 
 Here, $f_{{\ell}{m}} (r_{\alpha},\textbf{k}+\textbf{G}, \epsilon_{\ell,\alpha}) =  A _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G}) u_{{\ell}}(r_{\alpha}, \epsilon_{\ell,\alpha}) + B _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G}) \dot{u}_{{\ell}}(r_{\alpha}, \epsilon_{\ell,\alpha})$
-. $A _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G})$ and $B _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G})$ are the expansion coefficients, and $\dot{u}_{{\ell}}(r_{\alpha}, \epsilon_{\ell,\alpha} )$ is the derivative of the radial function. Energy $\epsilon_{\ell,\alpha}$  is considered as pre-calculated parameter in \textbf{Eq. \ref{lap4}}. Actually, it is chosen by the middle of  each $\ell$-character band, therefore this method is called linearized augmented plane wave (LAPW) method.
+. $A _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G})$ and $B _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G})$ are the expansion coefficients, and $\dot{u}_{{\ell}}(r_{\alpha}, \epsilon_{\ell,\alpha} )$ is the derivative of the radial 
+function. Energy $\epsilon_{\ell,\alpha}$  is considered as pre-calculated parameter in \textbf{Eq. \ref{lap4}}. Actually, it is chosen by the middle of  each $\ell$-character band, therefore this method is called linearized
+augmented plane wave (LAPW) method.
 
 Apparently, LAPW method is more suitable in reality, because the wavefunction is decoupled with energy. However it has to match for two parameters.
-Fortunately, it still take less time comparing with APW method. However, there is one drawback about this method, what if energy in the same $ {\ell} $ charater is different enough, 
+Fortunately, it still take less time comparing with APW method. However, there is one drawback about this method, what if energy in the same $ {\ell} $ is different enough, 
 which $E_{\ell}$ is correct? These states are called as semi-core states which exist in the actinides and the rare earths.
 
 \subsubsection{Linearized augmented plane wave method plus local orbitals}
@@ -1377,7 +1375,7 @@ the other basis function is
 \end{equation}
  
 The value of $A _{{\ell}m}^{\alpha,lo}$ and $B _{{\ell}m}^{\alpha,lo}$ are obtained by normalization and local orbital has zero value at the muffin tin boundary. This method can not solve semicore states like LAPW+LO.
-However, it does increase the efficiency to linearize Slater's APW method. Certainly, it exsits some types of basis function which can mix the advantages from mentioned methods.
+However, it does increase the efficiency to linearize Slater's APW method. Certainly, it exists some types of basis function which can mix the advantages from mentioned methods.
 
 \subsection{Effective potential}
 
@@ -1404,8 +1402,8 @@ Here, $\varepsilon_1(\omega)$ denotes how much the material is polarized when an
 \varepsilon_2^{\alpha\beta} (\omega)= \frac{\hbar e^2}{\pi m^2\omega^2} \sum_{cv} \int d \textbf {k} <\Psi_{c{\textbf k}}|p^\alpha|\Psi_{v{\textbf k}}><\Psi_{v{\textbf k}}|p^\beta|\Psi_{c{\textbf k}}> (f(\varepsilon_{c \textbf k})-f(\varepsilon_{v \textbf k}))\delta(\varepsilon_{c {\textbf k}}-\varepsilon_{c{\textbf k}}-\omega).
 \end{equation}
 
-Here, $f$ is the Fermi distribution function. $c$ and $v$ are the index of conduction band and valence band, respectively. The total imaginary part of dielectric function can be calculated when $c$ and $v$ run over all the conduction bands and valence bands. Similarily, the
-interband contribution can be achived by calculating single conduction band and single valence band.   
+Here, $f$ is the Fermi distribution function. $c$ and $v$ are the index of conduction band and valence band, respectively. The total imaginary part of dielectric function can be calculated when $c$ and $v$ run over all the conduction bands and valence bands. Similarly, the
+interband contribution can be achieved by calculating single conduction band and single valence band.   
 
 The real part of dielectric function can be calculated by Kramers-Kronig relations
 
@@ -1447,13 +1445,13 @@ Here, $\ubloch<n><\bold k>$ is a function which has the same a periodicity as th
 \end{equation}
 
 In \textbf{Eq. \ref{kp1}} equation, the Hamiltonian becomes $H_0 = {\textbf p}^2 / {2m_e} + V({\textbf r })$ when $\textbf k = \textbf 0$, the corresponding eigenvalue is $\epsilon_{n,\textbf{0}}$. 
-Here, $H_0$ can be seen as unpertubation terms, and remaining terms are seen as pertubation terms. From the pertubation theory, the following equation can be obtained  
+Here, $H_0$ can be seen as non-perturbation terms, and remaining terms are seen as perturbation terms. From the perturbation theory, the following equation can be obtained  
 
 \begin{equation}
  \epsilon_{n,\textbf{k}} =  \epsilon_{n,\textbf{0}} + \frac{{\hbar^2 {\textbf k}^2}}{2m_e} + \frac{ \hbar^2}{m_{e}^2} \sum\limits_n^{N} \sum\limits_{n' \neq n}^{N} \frac{|<\ubloch<n><\bold 0>|{\textbf {kp}}|\ubloch<n'><\bold  0>>|^2}{\epsilon_{n,\textbf 0} - \epsilon_{n',\textbf 0}}.
 \end{equation}
 
-In the realistic implmentation, the following derivation is exploited. Assume that the wavefunction and eigenvalue are obtained by some procedures on $\textbf{k}_0$ point. $\wfbloch<n><\bold{k}_0>$ is the wavefunction and 
+In the realistic implementation, the following derivation is exploited. Assume that the wavefunction and eigenvalue are obtained by some procedures on $\textbf{k}_0$ point. $\wfbloch<n><\bold{k}_0>$ is the wavefunction and 
 $\epsilon_{n,\textbf{k}_0}$ is the eigenvalue. Luttinger-Kohn functions are given as
 
 \begin{equation}\label{kp2}
@@ -1481,7 +1479,7 @@ In \textbf{Eq. \ref{kp3}}, the wavefunction can be obtained if the coefficient $
 \end{split}
 \end{equation}
 
-Here, the coefficient $ C_{n,j}^{\bold k}$ and $\epsilon_{n,\textbf{k}}$ can be calculated. Therefore, the wavefunction on ${ \textbf k}$ point can be eobtained.
+Here, the coefficient $ C_{n,j}^{\bold k}$ and $\epsilon_{n,\textbf{k}}$ can be calculated. Therefore, the wavefunction on ${ \textbf k}$ point can be obtained.
 
 
 \section{Spin-orbit coupling}
@@ -1543,10 +1541,10 @@ written with only two terms
 \end{equation}
 
 \noindent Here, $\phi$ includes the two terms of $\phi^{\uparrow}$ and $\phi^{\downarrow}$, and $\chi$ contains  $\chi^{\uparrow}$ and $\chi^{\downarrow}$.
-Under the nonrelativistic limit, $\phi$ is bigger than $\chi$ by the ratio of $v/c$. Here, $v$ and $c$ are speed of particle and light, respectively.
+Under the non-relativistic limit, $\phi$ is bigger than $\chi$ by the ratio of $v/c$. Here, $v$ and $c$ are speed of particle and light, respectively.
 Therefore, the $\phi$ is considered as the large term and $\chi$ is the small one.
 
-\noindent In order to derive the spin-orbit coupling term, we need to take use of the nonrelativistic limit approximation ($v^2/c^2 << 1$). The time-independent Dirac equation is give as
+\noindent In order to derive the spin-orbit coupling term, we need to take use of the non-relativistic limit approximation ($v^2/c^2 << 1$). The time-independent Dirac equation is give as
 
 \begin{equation}\label{diracse}
  E \Psi = (c \boldsymbol{\alpha} \textbf{P} + \boldsymbol{\beta}mc^{2} + V) \Psi.
@@ -1558,7 +1556,7 @@ Therefore, the $\phi$ is considered as the large term and $\chi$ is the small on
 E^{\prime} = E - mc^2.
 \end{equation}
 
-\noindent Here, $E$ is the total energy, $mc^2$ and $E'$ are the rest mass energy and the remaining energy excluding the rest mass energy, respectively. Under the nonrelativistic limit, 
+\noindent Here, $E$ is the total energy, $mc^2$ and $E'$ are the rest mass energy and the remaining energy excluding the rest mass energy, respectively. Under the non-relativistic limit, 
 $E'$ is far smaller than $mc^2$. The following equation is given when \textbf{Eq. \ref{diracwf}} and \textbf{Eq. \ref{dirace}} are put into \textbf{Eq. \ref{diracse}}
 
 \begin{equation}
@@ -1581,7 +1579,7 @@ $E'$ is far smaller than $mc^2$. The following equation is given when \textbf{Eq
 \end{split}
 \end{equation}
 
-The final equation is obtained under the nonrelativistic limit
+The final equation is obtained under the non-relativistic limit
 
 \begin{equation}\label{nonrela1}
 E^{\prime} \phi = \Big(\frac{\textbf{P}^2}{2m} + V - \frac{\textbf{P}^4}{8 {m}^3 {c}^2}-\frac{i\hbar}{4{m}^2 {c}^2} (\nabla{V})\textbf{P}+\frac{\hbar}{4 m^2 c^2} \boldsymbol{\sigma}[\nabla{V} \times \textbf{P}]\Big) \phi.
@@ -1604,22 +1602,29 @@ the spin-orbit coupling which can overcome the mentioned disadvantages.
 
 \textbf{Eq. \ref{soc1212}} can be rewritten as
 
-\begin{equation}\begin{split}
+\begin{equation}\begin{split}\label{soc001}
 & \Big(V + (\boldsymbol{\sigma} \textbf{P}) \Big(\frac{c^2}{2mc^2-V}\Big)\Big(1+\frac{E^{\prime}}{2mc^2-V}\Big)^{-1} (\boldsymbol{\sigma} \textbf{P}) \Big)\phi \\
 & \approx \Big( V + (\boldsymbol{\sigma} \textbf{P}) \Big(\frac{c^2}{2mc^2-V}\Big)(\boldsymbol{\sigma} \textbf{P}) \Big)\phi \\
-& - (\boldsymbol{\sigma} \textbf{P}) \Big(\frac{c^2}{2mc^2-V}\Big)\Big(\frac{E^{\prime}}{2mc^2-V}\Big)^{-1} (\boldsymbol{\sigma} \textbf{P}) \Big)\phi \\
+& - (\boldsymbol{\sigma} \textbf{P}) \Big(\frac{c^2}{2mc^2-V}\Big)\Big(\frac{E^{\prime}}{2mc^2-V}\Big)^{-1} (\boldsymbol{\sigma} \textbf{P}) \Big)\phi + \cdot \\
 & =E^{\prime}\phi.
 \end{split}
 \end{equation}
 
+Here, the Taylor expansion is utilized. The zeroth order regular approximation (ZORA) Hamiltonian is defined as
+\begin{equation}\begin{split}\label{zora1}
+& H^{zora} = V + (\boldsymbol{\sigma} \textbf{P}) \Big(\frac{c^2}{2mc^2-V}\Big)(\boldsymbol{\sigma} \textbf{P}) \\
+& =  V + \textbf{P} \Big(\frac{c^2}{2mc^2-V}\Big)\textbf{P} + \frac{c^2}{(2mc^2-V)^2} \boldsymbol{\sigma}\cdot(\bigtriangledown V\times \textbf{P})
+ \end{split}
+\end{equation}
 
+The last term in \textbf{Eq. \ref{zora1}} is the spin-orbit coupling term.
 
 
 \chapter{Results and discussion}
 
 In this section, the major results for the licentiate thesis are demonstrated. The first one is parameterization of energy bands for CuIn{\textsubscript{1-x}}Ga{\textsubscript{x}}Se\textsubscript{2} (CIGS) 
 where $x$ = 0, 0.5, and 1, as well as indirect results based on the parameterization. The second one is the calculation of the dielectric function spectra for the CuIn{\textsubscript{0.5}}Ga{\textsubscript{0.5}}Se\textsubscript{2} by
-all electron and full-potential linearized augemented plane wave (FPLAPW) method, which is compared with experimental results as well. While the probable electronic orginins of the critical point (CP) features are discussed.
+all electron and full-potential linearized augmented plane wave (FPLAPW) method, which is compared with experimental results as well. While the probable electronic origins of the critical point (CP) features are discussed.
 
 \section{Parameterization of energy bands for CIGS}
 
@@ -1658,7 +1663,7 @@ Unfortunately, these effective masses are only valid around the considered {\tex
 important when one simulates and analyzes the electron transport or band filling for some materials.
 
 In this work, we have parameterized the three uppermost VBs and the lowest CB for the materials $\cigs$ where $x$ = 0, 0.5, and 1, that is, $\mathrm{CuInSe_2}$, $\mathrm{CuIn_{0.5}Ga_{0.5}Se_2}$, and $\mathrm{CuGaSe_2}$. This 
-parameterization is based on the all electron and full-potential linearized augemented plane wave (FPLAPW) calculation. Normally, the \textbf{k $\cdot$ p} method is utilized to parameterize the energy bands. However, the energy
+parameterization is based on the all electron and full-potential linearized augmented plane wave (FPLAPW) calculation. Normally, the \textbf{k $\cdot$ p} method is utilized to parameterize the energy bands. However, the energy
 dispersions of $\cigs$ are rather complex due to the crystal-field interaction and the spin-orbit coupling. Therefore, the regular \textbf{k $\cdot$ p} method is not sufficient to describe the energy bands. We manage to extend the
 \textbf{k $\cdot$ p} expression to higher orders, which is called full band parameterization (fbp) in the following text. Thb fbp is valid around 0.5 eV below VBM and 0.5 eV above conduction band minimum (CBM). The explicit equation 
 is given as
@@ -1757,12 +1762,12 @@ In the \textbf{Fig. \ref{cse}}, 1 meV represents that it is near to $\Gamma$ poi
 One will notice that the pba is proper to describe the energy bands close to the $\Gamma$ point, and it is ellipsoidal shaped sphere. For example,
 for the topmost VB ($v_1$) of $\mathrm{CuInSe_2}$, the constant energy surface is ellipsoidal in the vicinity of the $\Gamma$ point since the effective
 masses are anisotropic ($m_{v1}^{\perp}$ = 0.14$m_0$ and $m_{v1}^{\parallel}$ = 0.66$m_0$ in \textbf{Table \ref{pm1}}). However, the constant energy surface becomes non-ellipsoidal when the energies 
-is far away from $\Gamma$ point. For example, for the same band, the constant energy surface is not ellipoidal shape at all when the energies goes up to 200 meV. It also implies that it is not correct to consider the constant 
+is far away from $\Gamma$ point. For example, for the same band, the constant energy surface is not ellipsoidal shape at all when the energies goes up to 200 meV. It also implies that it is not correct to consider the constant 
 effective mass for simulation. For the CB, the change is relatively small.
 
 \subsection{Application of the full band parameterization}
 
-The parameterized energy bands can be exploited to reveal the detailed information near the VB and CB edged. In this section, the effective masses, density-of-states (DOS), .... are caluclated based on
+The parameterized energy bands can be exploited to reveal the detailed information near the VB and CB edged. In this section, the effective masses, density-of-states (DOS), .... are calculated based on
 this fbp. In comparison with the results based on pba, most of the results are calculated with the pba as well.  
 
 The effective masses are \textbf{k}-independent for the pba, which is not fully correct due to the non-parabolicity and anisotropy of the energy bands.  The effective masses tensors are calculated numerically by
@@ -1797,7 +1802,7 @@ In the case of the pba, the \textbf{Eq. \ref{dosj}} can be written as
  g_j^{pba}(E) = \frac{1}{2\pi^2} \big(\frac{2m_j^{DOS}}{\hbar^2}\big)^{3/2} \sqrt{|E-E_j(\textbf{0})|}.
 \end{equation}
  
-Here, the DOS mass $m_j^{DOS}$ is equal to $\big( m_j^{\perp}m_j^{\perp}m_j^{\parallel} \big)^{1/3}$, which reprents the extent of filling the specific band with free carriers to certain energy. 
+Here, the DOS mass $m_j^{DOS}$ is equal to $\big( m_j^{\perp}m_j^{\perp}m_j^{\parallel} \big)^{1/3}$, which represents the extent of filling the specific band with free carriers to certain energy. 
 In order to take advantage of the simple \textbf{Eq. \ref{dosjp}} for the non-parabolic energy bands, the energy-dependent DOS mass ($m_{v/c}^{DOS}$), which contains the non-parabolicity and anisotropy of the band dispersion, 
 is defined as
 
@@ -1807,9 +1812,9 @@ is defined as
 
 Here, the energy-dependent DOS mass $m_{v/c}^{DOS}(E)$ contains the non-parabolicity and anisotropy of the band dispersion.
 
-The \textbf{Fig. \ref{dost}} (left) demonstartes that the non-parabolicity of the bands strongly affect the DOS dispersions. The difference is remarkable. The fbp always generates larger DOS, the reason is that the non-parabolic 
+The \textbf{Fig. \ref{dost}} (left) demonstrates that the non-parabolicity of the bands strongly affect the DOS dispersions. The difference is remarkable. The fbp always generates larger DOS, the reason is that the non-parabolic 
 energy bands is more flat than parabolic bands. The \textbf{Fig. \ref{dost}} (right) demonstrates that the DOS masses of $\cigs$ is strong energy dependence with the VB DOS mass, which proves further the importance of considering 
-non-parabolicity and anisotropy of the energy bands, especially for the VBs in the case of $\cigs$. For example, the effecive mass of topmost VB for $CuInSe_2$ is around 0.23 $m_0$ close to the $\Gamma$ point, which goes up to
+non-parabolicity and anisotropy of the energy bands, especially for the VBs in the case of $\cigs$. For example, the effective mass of topmost VB for $CuInSe_2$ is around 0.23 $m_0$ close to the $\Gamma$ point, which goes up to
 around 1.00 $m_0$ when $E$ is around 0.1 eV. However, the change in the CB DOS mass is subtle, but also goes up to 2$-$3 times with respect to the value around $\Gamma$ point.
 
 
@@ -1824,8 +1829,8 @@ around 1.00 $m_0$ when $E$ is around 0.1 eV. However, the change in the CB DOS m
 \end{figure}
 
 The number of states with energies up to $E$ is obtained from the total DOS and the constant energy surfaces in \textbf{Fig. }. It shows that the VBs (CB) in Ga rich compounds will be less (more) populated by holes (electrons) for 
-a given quasi-Fermi energy. It also demonstartes that the pba underestimates the band filling in the VBs and the CB strongly. For example, the number of VB states of CuInSe\textsubscript{2} is increased by a factor of around
-18 at the positive energy $|\triangle E| = E_{v1}( \textbf{0})-E_{F,v}^* = 0.1 eV$ when the fba is included. For the CB, the number is incrased by a factor of around 3. At $|\triangle E| = 0.5 eV$, the incrase is as much as around 41
+a given quasi-Fermi energy. It also demonstrates that the pba underestimates the band filling in the VBs and the CB strongly. For example, the number of VB states of CuInSe\textsubscript{2} is increased by a factor of around
+18 at the positive energy $|\triangle E| = E_{v1}( \textbf{0})-E_{F,v}^* = 0.1 eV$ when the fba is included. For the CB, the number is increased by a factor of around 3. At $|\triangle E| = 0.5 eV$, the increment is as much as around 41
 and 8 times, respectively.
 
 
@@ -1853,7 +1858,7 @@ The concentration of free holes $n_v(T)$ and free electrons $n_c(T)$ is calculat
 \end{split}
 \end{equation}
 
-Here, $f(E) = 1/[1+exp{(E-E_F)/k_BT}]$ is the Fermi disctribution function. The intrinsic carrier concentration can be expressed as
+Here, $f(E) = 1/[1+exp{(E-E_F)/k_BT}]$ is the Fermi distribution function. The intrinsic carrier concentration can be expressed as
 
 \begin{equation}\label{cc}
  n_i(T) = \sqrt{n_c(T) \cdot n_v(T)}.
@@ -1882,8 +1887,9 @@ CuIn\textsubscript{1-x}Ga\textsubscript{x}Se\textsubscript{2} where $x$ = 0, 0.5
 for CuInSe\textsubscript{2} and CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2}, the Fermi levels increase somewhat more compared with CuGaSe\textsubscript{2}. This is primarily due to the CB of DOS mass for 
 CuGaSe\textsubscript{2} is almost the same, but the VB of DOS mass for CuGaSe\textsubscript{2} change smaller compared with CuInSe\textsubscript{2} and CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2} which will 
 affect the DOS. As a consequence, the Fermi level is closer to the CB minimum in the In rich compounds. At T = 300 K and 600 K, the band-gap energies and Fermi energy are Eg (300) = 1.02, 1.29, and 1.62 eV, Eg (600) = 0.98, 1.24, 
-and 1.55 eV, $E_F$ (300) = 0.55, 0.69, and 0.84 eV, and $E_F$ (600) = 0.59, 0.71, and 0.84 eV for x = 0, 0.5, and 1 respectively. In the right panel of \textbf{Fig. \ref{icc}}, the intrinsic carrier concentration is increased dramatically with the increasing of temperature for the $\cigs$. For example, in the case of $CuInSe_2$, the carrier concentration is
-increased up to around $10^{5}$ times higher from temperture 300 K to 600 K. One also notice that the intrinsic carrier concentribution for the Si and $CuInSe_2$ are very comparable. The free carrier concentration is increased 
+and 1.55 eV, $E_F$ (300) = 0.55, 0.69, and 0.84 eV, and $E_F$ (600) = 0.59, 0.71, and 0.84 eV for x = 0, 0.5, and 1 respectively. In the right panel of \textbf{Fig. \ref{icc}}, the intrinsic carrier concentration is increased
+dramatically with the increasing of temperature for the $\cigs$. For example, in the case of $CuInSe_2$, the carrier concentration is
+increased up to around $10^{5}$ times higher from temperature 300 K to 600 K. One also notice that the intrinsic carrier concentration for the Si and $CuInSe_2$ are very comparable. The free carrier concentration is increased 
 goes up to 2 $-$ 3 times by taking into account the non-parabolicity of the energy bands. 
 
  \begin{figure}[H]
@@ -1905,7 +1911,7 @@ The calculated Fermi level $E_F^P$ in $p$-type materials is presented in \textbf
 ( $T > 400 K$) and for low acceptor concentrations, the Fermi level of $p$-type CuIn\textsubscript{1-x}Ga\textsubscript{x}Se\textsubscript{2} will reach the Fermi level of corresponding intrinsic compounds. Moreover, 
 although the different compounds have comparable acceptor ionization energies, the Ga rich alloy has lower relative Fermi level; this is a direct consequence of the larger band gap of the Ga rich alloy. By comparing the calculations 
 with the parabolic band approximation (dotted lines in \textbf{Fig. \ref{ptypecc1}} ) and the full band approach (solid lines) for each of the three CuIn\textsubscript{1-x}Ga\textsubscript{x}Se\textsubscript{2} alloys, one can notice
-that the Femi level is similar for the two models only at low and at very high temperatures. In the mid-temperature region the difference is however apparent, especially for the high acceptor concentrations. Assuming parabolic bands
+that the Fermi level is similar for the two models only at low and at very high temperatures. In the mid-temperature region the difference is however apparent, especially for the high acceptor concentrations. Assuming parabolic bands
 yields always a lower Fermi level. The reason for this effect is that the energy dependent effective mass $m_{v/c}^{DOS}(E)$ in the full band parameterization is always larger that the corresponding $\Gamma$-point mass. Although the
 effect on the absolute value of the Fermi level seems to be small, it has an impact on the free carrier concentrations for highly doped materials. 
 
@@ -1941,7 +1947,7 @@ non-parabolic energy bands is required in order to describe the carrier concentr
 
 
 \section{Calculations of dielectric function for CIGS}
-In this work, the dielectric function ($\varepsilon$) spectra of $CuIn_{0.5}Ga_{0.5}Se_2$ is calculated by the full-potential linearizaed augmented plane wave (FPLAPW) method using the generalized gradient approximation (GGA)
+In this work, the dielectric function ($\varepsilon$) spectra of $CuIn_{0.5}Ga_{0.5}Se_2$ is calculated by the full-potential linearized augmented plane wave (FPLAPW) method using the generalized gradient approximation (GGA)
 plus an onsite Coulomb interaction $U$ of the Cu $d$ states. Afterwards, the different contributions to $\varepsilon_2$ (Im$(\varepsilon)$) in terms of the transitions between the valence bands and the conduction bands are identified. At last, 
 the $\textbf{k}$-dependence of the interband critical points (CPs) along the main symmetry directions is analyzed. The result is compared with experimental work ($CuIn_{0.7}Ga_{0.3}Se_2$) at temperature of 40 K and 300 K,
 and they are in a good agreement.
@@ -1970,9 +1976,9 @@ result. First, the contribution to dielectric function between the valence bands
    \label{df2}
 \end{figure}
 
-Here, $v_1$ and $c_1$ represent the topest valence band and lowest conduction band, respectively. From the \textbf{Fig. \ref{df2}} and \textbf{Fig. \ref{df3}}, one will notice that the $E_1$ CP comes from 
+Here, $v_1$ and $c_1$ represent the topmost valence band and lowest conduction band, respectively. From the \textbf{Fig. \ref{df2}} and \textbf{Fig. \ref{df3}}, one will notice that the $E_1$ CP comes from 
 the $v_1 \longrightarrow c_1$
-transition near the P(1/2, 1/2, 1/2) point of the brillouin zone (BZ). The $E_2$ and $E_3$ CPs are corresponding to transition of $v_2 \longrightarrow c_1$ in the P point
+transition near the P(1/2, 1/2, 1/2) point of the Brillouin zone (BZ). The $E_2$ and $E_3$ CPs are corresponding to transition of $v_2 \longrightarrow c_1$ in the P point
 as well in the BZ.
  The $E_2$ and $E_3$ CPs are small peak in the \textbf{Fig. \ref{df2}}. However, the calculation of $CuInSe_2$ indicates that they happens 0.1$-$0.2 eV higher than 
 the $E_1$ CP, which is distinct spectral features (\textbf{Fig. \ref{ccccc}}). The $E_4$ CP comes from the transition of $v_3 \longrightarrow c_1$ at the $M (1,0,0) = M^*(0,0,1)$ point.
@@ -2383,7 +2389,7 @@ In order to solve the Hartree, Hartree-Fock and Kohn-Sham equation, some mathema
 
 \textbf{Lagrange multiplier}
 
-Lagrange multiplier is a method which can maximize or minimize functions with the constraint. In order to maximize or minimize a function $f(x,y,z)$ with constraint $g(x,y,z) = c$,  the generalized format of lagrane multiplier
+Lagrange multiplier is a method which can maximize or minimize functions with the constraint. In order to maximize or minimize a function $f(x,y,z)$ with constraint $g(x,y,z) = c$,  the generalized format of Lagrange multiplier
 method is given as
 
 \begin{equation}
@@ -2427,7 +2433,7 @@ function $F(y_1, y_2, \cdots, y_N)$ by
 \delta F(y_1, y_2, \cdots, y_N) = \sum\limits_{i=1}^N \frac{\partial F(y_1, y_2, \cdots, y_N)}{\partial y_i} {\Big |}_{y_i^0}  \delta {y_i}.
 \end{equation}
 
-A one-to-one map $y_n = g(x_n)$ is defned where $g(x_n)$ has $N$ finite number of variables. In order to be utilized in physics, the $g(x_n)$ can be allowed all the real numbers in certain interval, such as $[x_0, x_N]$, that is,
+A one-to-one map $y_n = g(x_n)$ is defined where $g(x_n)$ has $N$ finite number of variables. In order to be utilized in physics, the $g(x_n)$ can be allowed all the real numbers in certain interval, such as $[x_0, x_N]$, that is,
 $N$ is allowed to be infinite number ($\infty$). 
 
 Assume that $x_n$ is defined within interval $[x_0, x_N]$, and there are $N$ points in this interval, as well as $x_{n+1}-x_{n} = \varepsilon$. Therefore, $x_N-x_0 = N \varepsilon$, that is, $x_n = n \varepsilon + x_0$, 
@@ -2462,7 +2468,7 @@ Therefore, the \textbf{Eq. \ref{functional2}} is equivalence to
 \end{equation}
 
 In order to calculate the derivative of a functional in reality, first, $F[g(x) + \delta g(x)] - F[g(x)]$ is solved using Taylor expansion; 
-Second, the result from first step is compared with $\int \frac{\partial F(g(x))}{\partial g(x)} \delta g(x) dx $. For example, a funcional $F[g(x)] = \int f(g(x)) dx$  is defined, and  
+Second, the result from first step is compared with $\int \frac{\partial F(g(x))}{\partial g(x)} \delta g(x) dx $. For example, a functional $F[g(x)] = \int f(g(x)) dx$  is defined, and  
 
 \begin{equation}
 \begin{split}
