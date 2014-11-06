@@ -499,7 +499,7 @@ $n$-type CdS layer. The conversion efficiency of CIGS reached up to 20\% in the 
 is between 1.0 eV to 1.7 eV for this alloy. CIGS does not contain any toxic element.
 
 \section{CuIn\textsubscript{1-\textit{x}}Ga\textsubscript{\textit{x}}Se\textsubscript{2}(CIGS) materials}
-CIGS material is a chalcopyrite-type material, which is considered to be one of the most promising thin film solar cell material. The direct band-gap is from around 1.0 eV to 1.7 eV by alloying Ga in the CuInSe\textsubscript{2},  and the conversion efficiency in laboratory already surpassed 20\%. 
+CIGS material is a chalcopyrite-type material, which is considered to be one of the most promising thin film solar cell material. The direct band-gap is from around 1.0 eV to 1.7 eV by alloying Ga in the CuInSe\textsubscript{2} (CIS),  and the conversion efficiency in laboratory already surpassed 20\%. 
 CuInSe\textsubscript{2} was first synthesized by Hahn in 1953. It was first exploited as an absorber material in a single crystal solar cell in 1974, which is based on CuInSe\textsubscript{2} and CdS. The conversion efficiency is around 
 5\%. The first thin film solar cells based on CuInSe\textsubscript{2} and CdS was invented by Kazmerski. During 1980s, Boeing Corporation did much research on the thin film polycrystalline CIGS solar cells. 
 To date, the highest conversion efficiency in lab situation for the solar cells based on CIGS is between 20\% and 21\% by alloying with Ga.
@@ -550,7 +550,7 @@ more Ga element in the CIGS material. An overview properties of CIGS material is
 \toprule
 \toprule
 %\rowcolor[gray]{0.7}
-\multicolumn{3}{c}{\large Properties of CuInSe\textsubscript{2} and CuGaSe\textsubscript{2}} \\  
+\multicolumn{3}{c}{\large Properties of CuInSe\textsubscript{2} and CuGaSe\textsubscript{2}}  \\  
 %\midrule
 \cellcolor{blue!25} Properties & \cellcolor{blue!25} CuInSe\textsubscript{2} & \cellcolor{blue!25} CuGaSe\textsubscript{2} \\ 
 %\midrule
@@ -603,7 +603,7 @@ CIGS is a nonstoichiometric compound with the deviations from stoichiometry in s
 The main native defects in CIGS include <2V\textsubscript{Cu}, In\textsubscript{Cu}>, <Cu\textsubscript{In}, In\textsubscript{Cu}>, V\textsubscript{Cu}, In\textsubscript{Cu}, Cu\textsubscript{In} V\textsubscript{Se}
 and Ga\textsubscript{Cu}. V\textsubscript{Cu} is the most important native defects in CIGS due to their low formation energies. Therefore, CIGS can be grown $p$-type easily with the condition of Cu-poor (V\textsubscript{Cu}),
 which can be grown $n$-type under the condition Se-poor or In-rich. There are some extrinsic divalent cation donors as well, such as Zn\textsubscript{Cu}, Cd\textsubscript{Cu} and Cl\textsubscript{Se}. The formation energy 
-for them is relatively low for CIS and CGS. Therefore, CIS is possible to be $n$-type material. However, CGS is not possible to be $n$-type under equilibrium conditions, because the low formation energy of
+for them is relatively low for CIS and CuGaSe\textsubscript{2} (CGS). Therefore, CIS is possible to be $n$-type material. However, CGS is not possible to be $n$-type under equilibrium conditions, because the low formation energy of
 V\textsubscript{Cu} limits the possibility of achieving electronic $n$-type character, especially in Ga-rich CIGS. It is maybe also explained why the best solar cell is with the Ga content of 30\% (x = 0.3), however,
 the band-gap energy of the CIGS suggests that the optimum solar cell conversion efficiency is obtained with between x = 0.5 and x = 0.7.
 
@@ -1770,16 +1770,9 @@ effective mass. For the CB, the change is relatively small.
 The parameterized energy bands can be exploited to reveal the detailed information near the VB and CB edged. In this section, the effective masses, density-of-states (DOS), Fermil level, and carrier concentration are calculated based on
 this fbp. In comparison with the results based on pba, all of the corresponding results are calculated with the pba as well.  
 
-The effective masses are \textbf{k}-independent for the pba, which is not fully correct due to the non-parabolicity and anisotropy of the energy bands.  The effective masses tensors are calculated numerically by
+The effective masses are \textbf{k}-independent for the pba, which is not fully correct due to the non-parabolicity and anisotropy of the energy bands.  The effective masses tensors are calculated numerically by 
+$m_j(\textbf{k}) = \pm \hbar^2/(\partial^2 E_j(\textbf{k})/\partial\textbf{k}^2) \ \textrm{where}\  j = c1, v1, v2, \textrm{and}\  v3.$
 
-\begin{equation}\label{inversemasse}
-m_j(\textbf{k}) = \pm \hbar^2/(\partial^2 E_j(\textbf{k})/\partial\textbf{k}^2) \ \textrm{where}\  j = c1, v1, v2, \textrm{and}\  v3.
-\end{equation}
-
-The results in \textbf{Fig. \ref{inversemessf}} demonstrate that the energy bands of CIGS are strong non-parabolic, since the effective masses should be constant in the pba along each symmetry direction. The effective hole masses of the two 
-topmost VBs are very anisotropy close to the $\Gamma$ point, however, the electron masses of conduction bands are rather isotropic ($m_{c1}^{100}(\textbf{0}) \approx m_{c1}^{110}(\textbf{0}) \approx m_{c1}^{001}(\textbf{0}) 
-\approx m_{c1}^{112}(\textbf{0})$). Hole masses of CuGaSe\textsubscript{2} vary somewhat less compared with those of CuInSe\textsubscript{2} because CuGaSe\textsubscript{2} has larger split between the VBs. In order to better 
-visibility, therefore, the inverse of the mass are presented.
 
 \begin{figure}[H]
     \begin{center}
@@ -1788,6 +1781,13 @@ visibility, therefore, the inverse of the mass are presented.
     \caption{ Inverse of the effective electron and hole masses in the four symmetry directions for the CIGS.}      
     \label{inversemessf}
 \end{figure}
+
+The results in \textbf{Fig. \ref{inversemessf}} demonstrate that the energy bands of CIGS are strong non-parabolic, since the effective masses should be constant in the pba along each symmetry direction. The effective hole masses of the two 
+topmost VBs are very anisotropy close to the $\Gamma$ point, however, the electron masses of conduction bands are rather isotropic ($m_{c1}^{100}(\textbf{0}) \approx m_{c1}^{110}(\textbf{0}) \approx m_{c1}^{001}(\textbf{0}) 
+\approx m_{c1}^{112}(\textbf{0})$). Hole masses of CuGaSe\textsubscript{2} vary somewhat less compared with those of CuInSe\textsubscript{2} because CuGaSe\textsubscript{2} has larger split between the VBs. In order to better 
+visibility, therefore, the inverse of the mass are presented.
+
+
 
 In order to further analyze the impact of non-parabolicity and anisotropy of the energy bands, the DOS is calculated based on fba and pba. The DOS in $j$th band is defined as
 
@@ -1812,34 +1812,27 @@ is defined as
 
 Here, the energy-dependent DOS mass $m_{v/c}^{DOS}(E)$ contains the non-parabolicity and anisotropy of the band dispersion.
 
-Left panel in \textbf{Fig. \ref{dost}} demonstrates that the non-parabolicity of the bands strongly affect the DOS dispersions. The difference is remarkable. The fbp always generates larger DOS, the reason is that the non-parabolic 
-energy bands is more flat than parabolic bands. Right panel in \textbf{Fig. \ref{dost}} demonstrates that the DOS masses of CIGS is strong energy dependence with the VB DOS mass, which proves further the importance of considering 
-non-parabolicity and anisotropy of the energy bands, especially for the VBs in the case of CIGS. For example, the effective mass of topmost VB for CuInSe\textsubscript{2} is around 0.23 $m_0$ close to the $\Gamma$ point, which goes up to
-around 1.00 $m_0$ when $E$ is around 0.1 eV. However, the change in the CB DOS mass is subtle, but also goes up to 2$-$3 times with respect to the value around $\Gamma$ point.
-
 
  \begin{figure}[H]
  \centering
   %\begin{center}
-            \includegraphics[width=0.48\textwidth,clip]{paper2figure4}
-            \includegraphics[width=0.46\textwidth,clip]{paper2figure6}
+            \includegraphics[width=0.7\textwidth,clip]{JAP2}
   %   \end{center}
     \caption{Left: Total DOS of the VBs and CB. The solid lines show the full band parameterization (fbp), and the dashed lines represent the parabolic band approximation (pba). Right: The DOS mass $m_{v/c}^{DOS}$ is 
     calculated from \textbf{Eq. \ref{dosmass}}. }
    \label{dost}
 \end{figure}
 
-The number of states with energies up to $E$ is obtained from the total DOS and the constant energy surfaces in \textbf{Fig. \ref{chen1}}. It shows that the VBs (CB) in Ga rich compounds will be less (more) populated by holes (electrons) for 
-a given quasi-Fermi energy. It also demonstrates that the pba underestimates the band filling in the VBs and the CB strongly. For example, the number of VB states of CuInSe\textsubscript{2} is increased by a factor of around
-18 at the positive energy $|\triangle E| = E_{v1}( \textbf{0})-E_{F,v}^* = 0.1 $ eV when the fba is included. For the CB, the number is increased by a factor of around 3. At $|\triangle E| = 0.5 $ eV, the increment is as much as around 41
-and 8 times, respectively.
 
+Left panel in \textbf{Fig. \ref{dost}} demonstrates that the non-parabolicity of the bands strongly affect the DOS dispersions. The difference is remarkable. The fbp always generates larger DOS, the reason is that the non-parabolic 
+energy bands is more flat than parabolic bands. Right panel in \textbf{Fig. \ref{dost}} demonstrates that the DOS masses of CIGS is strong energy dependence with the VB DOS mass, which proves further the importance of considering 
+non-parabolicity and anisotropy of the energy bands, especially for the VBs in the case of CIGS. For example, the effective mass of topmost VB for CuInSe\textsubscript{2} is around 0.23 $m_0$ close to the $\Gamma$ point, which goes up to
+around 1.00 $m_0$ when $E$ is around 0.1 eV. However, the change in the CB DOS mass is subtle, but also goes up to 2$-$3 times with respect to the value around $\Gamma$ point.
 
  \begin{figure}[H]
  \centering
   %\begin{center}
-            \includegraphics[width=0.48\textwidth,clip]{paper2figure4}
-            \includegraphics[width=0.46\textwidth,clip]{paper2figure6}
+            \includegraphics[width=0.7\textwidth,clip]{paper2fig5}
   %   \end{center}
  %   \caption{Carrier concentration \textit{p} or \textit{n} as functions of the quasi-Fermi energy $E_F^*$ of the VBs $E_{F,v}^*$ and of the CB $E_{F,c}^*$. Left column shows the results for large energy scale up to 0.5 eV, 
  %   and right column displays a close-up for small Fermi energies. In the figure, $|\delta E|$ is the positive energy difference $E_{v1}({0}) - E_{F,v}^*$ for the VBs and $E_{F,c}^* - E_{c1}({0})$ for the CB.The carrier
@@ -1849,6 +1842,15 @@ and 8 times, respectively.
  and right column displays a close-up for small Fermi energies. In the figure, $|\triangle E|$ is the positive energy difference $E_{v1}(\textbf{0})-E_{F,v}^*$ for the VBs and $E_{F,c}^*-E_{c1}(\textbf{0})$ for the CB. The carrier
  concentrations consider external band filling in intrinsic materials at T = 0 K. The results demonstrate that the parabolic band approximation strongly underestimates the band filling of both the VBs and CB.}\label{chen1}
 \end{figure}
+
+
+The number of states with energies up to $E$ is obtained from the total DOS and the constant energy surfaces in \textbf{Fig. \ref{chen1}}. It shows that the VBs (CB) in Ga rich compounds will be less (more) populated by holes (electrons) for 
+a given quasi-Fermi energy. It also demonstrates that the pba underestimates the band filling in the VBs and the CB strongly. For example, the number of VB states of CuInSe\textsubscript{2} is increased by a factor of around
+18 at the positive energy $|\triangle E| = E_{v1}( \textbf{0})-E_{F,v}^* = 0.1 $ eV when the fba is included. For the CB, the number is increased by a factor of around 3. At $|\triangle E| = 0.5 $ eV, the increment is as much as around 41
+and 8 times, respectively.
+
+
+
 
 The concentration of free holes $n_v(T)$ and free electrons $n_c(T)$ can be calculated from the DOS by
 
@@ -1899,6 +1901,7 @@ $b$      [K] &97  &277	&209      \\
 \caption {Parameters of $a$ and $b$ in \textbf{Eq. \ref{bgtd}}}\label{chen2}
 \end{table}
 
+
 In \textbf{Fig. \ref{icc}}, the temperature dependent band-gap and Fermi level (left panel) and intrinsic carrier concentration (right panel) are shown.  In the left panel of \textbf{Fig. \ref{icc}}, the band-gap is 1.04, 1.33,
 and 1.67 eV for CIGS at temperature around 0 K, respectively. Fermi level is exactly the mid-gap energy. The Fermi level changes only slightly with temperature. However, 
 for CuInSe\textsubscript{2} and CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2}, the Fermi levels increase somewhat more compared with CuGaSe\textsubscript{2}. This is primarily because the CB of DOS mass for 
@@ -1923,18 +1926,20 @@ $E_F$ 600 K   [eV] &0.59  &0.71	&0.84     \\
 \caption {Band-gap energies $E_g$ and Fermi energy $E_F$ at 300 K and 600 K, respectively.}\label{chen3}
 \end{table}
 
-In the left panel of \textbf{Fig. \ref{??}}, the Fermi distribution of CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2} is given at 300 K and 600 K, respectively. The probability of occupying the VBM (CBM) by a hole (an electron) is 
-relative increase of around $10^6$ times from 300 K to 600 K. In the right panel of \textbf{Fig. \ref{icc}}, the intrinsic carrier concentration is increased dramatically with the increasing of temperature for the CIGS. For example, in the case of CuInSe\textsuperscript{2}, 
-the carrier concentration is increased up to around $10^{5}$ times higher from temperature 300 K to 600 K. The intrinsic carrier concentration for the Si and CuInSe\textsuperscript{2} are very comparable. The free carrier 
-concentration is increased goes up to 2$-$3 times by taking into account the non-parabolicity of the energy bands
 
  \begin{figure}[H]
     \begin{center}
-            \includegraphics[width=0.5\textwidth,clip]{figure7b_1}
+            \includegraphics[width=1\textwidth,clip]{JAP4}
      \end{center}
     \caption{Intrinsic carrier concentration as function of temperature.}
    \label{icc}
 \end{figure}
+
+
+In the left panel of \textbf{Fig. \ref{icc}}, the Fermi distribution of CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2} is given at 300 K and 600 K, respectively. The probability of occupying the VBM (CBM) by a hole (an electron) is 
+relative increase of around $10^6$ times from 300 K to 600 K. In the right panel of \textbf{Fig. \ref{icc}}, the intrinsic carrier concentration is increased dramatically with the increasing of temperature for the CIGS. For example, in the case of CuInSe\textsuperscript{2}, 
+the carrier concentration is increased up to around $10^{5}$ times higher from temperature 300 K to 600 K. The intrinsic carrier concentration for the Si and CuInSe\textsuperscript{2} are very comparable. The free carrier 
+concentration is increased goes up to 2$-$3 times by taking into account the non-parabolicity of the energy bands
 
 Since as-grown CIGS typically has $p$-type character, the Fermi level and $p$-type carrier concentration of free holes $n_v(T)$ and free electrons $n_c(T)$ is calculated by 
 assuming the presences of the native Cu vacancies as acceptors. 
@@ -1947,7 +1952,7 @@ the fba (solid lines) for each of the three CIGS alloys, one notices that the Fe
 
  \begin{figure}[H]
     \begin{center}
-            \includegraphics[width=1\textwidth,clip]{paper2figure9}
+            \includegraphics[width=1\textwidth,clip]{paper2fig8}
      \end{center}
     \caption{Fermi level as function of the temperature $20 \leq T \leq 600$ of $p$-type CuInSe\textsubscript{2}, CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2}, and CuGaSe\textsubscript{2} for the effective
     doping concentration $N_A$ = $10^{13}$, $10^{14}$, $10^{15}$, $\cdot$, and $10^{19}$ acceptors cm\textsuperscript{$-$3}. The energy scale $E_F^p-E_F$ describes the Fermi energy with respect to the intrinsic $E_F$ (\textbf{Fig. \ref{icc}}).
@@ -1984,7 +1989,7 @@ Moreover, the $\textbf{k}$-dependence of the interband critical points (CPs) alo
 
  \begin{figure}[H]
     \begin{center}
-            \includegraphics[width=1\textwidth]{APL1}
+            \includegraphics[width=0.8\textwidth]{APL1}
      \end{center}
     \caption{Left panel: The real ($\varepsilon_1$) and imaginary ($\varepsilon_2$) part of dielectric function spectra for $CuIn_{0.7}Ga_{0.3}Se_2$ 
 at 40 K (solid blue line) and 300 K (dashed red lines). Four prominent CP features are shown. Right panel: the dielectric function spectra for  $CuIn_{0.5}Ga_{0.5}Se_2$
@@ -1999,8 +2004,7 @@ the calculated result. The contribution to dielectric function between the valen
 
  \begin{figure}[H]
     \begin{center}
-            \includegraphics[width=0.8\textwidth]{APL3}
-            \includegraphics[width=0.8\textwidth]{APL4}
+            \includegraphics[width=0.6\textwidth]{APL34}
      \end{center}
     \caption{Upper panel: Band-to-band analysis of the contribution to the total $\varepsilon_2$ spectrum. The vertical axis is in the log scale. 
               Down panel: The calculated electronic band structure of CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2} where the CPs are identified along the main symmetry directions.}
