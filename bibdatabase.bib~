@@ -1,0 +1,30 @@
+@inproceedings{reshef2009interval,
+  title={Interval Velocity Analysis in Complex Areas--Azimuth Considerations},
+  author={Reshef, M and Lipzer, N and Landa, E},
+  booktitle={71st EAGE Conference \& Exhibition},
+  year={2009}
+}
+
+
+@article{mattheiss1969band,
+  title={Band Structure and Fermi Surface of Re O 3},
+  author={Mattheiss, LF},
+  journal={Physical Review},
+  volume={181},
+  number={3},
+  pages={987},
+  year={1969},
+  publisher={APS}
+}
+
+@article{lichtenstein1998ab,
+  title={Ab initio calculations of quasiparticle band structure in correlated systems: LDA++ approach},
+  author={Lichtenstein, AI and Katsnelson, MI},
+  journal={Physical Review B},
+  volume={57},
+  number={12},
+  pages={6884},
+  year={1998},
+  publisher={APS}
+}
+
