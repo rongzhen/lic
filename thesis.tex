@@ -31,6 +31,7 @@
 \usepackage{siunitx}
 \usepackage{booktabs}
 \usepackage{caption}
+\usepackage{url}
 %\usepackage[width=1.2\textwidth]{caption}
 
 
@@ -117,7 +118,7 @@
 
 
   \vspace{12pt}
-  \textsc{\LARGE{\textbf{{Title}}}}
+  \textsc{\LARGE{\textbf{{Theoretical study of Cu-Based Quaternary Chalcogenide semiconductors}}}}
   \vspace{12pt}
 
   \vspace{5 cm}
@@ -160,13 +161,12 @@ Sweden\\
 
 Akademisk avhandling som med tillstånd av Kungliga Tekniska
 Högskolan framlägges till offentlig granskning för avläggande av
-tenknologie doktorsexamen in materialvetenskap  ???
-2014 kl ???? i ??, Materialvetenskap, Kungliga Tekniska
+{\color{red}???licentiatexamen fredagen den 23 Nov. 2014 kl 10:00 i koenferencerum???}, Materialvetenskap, Kungliga Tekniska
 Högskolan,\linebreak Brinellvägen 23, Stockholm.
 
 \vspace{5mm}
 
-\copyright \hspace{3pt} Rongzhen Chen, ???, 2014
+\copyright \hspace{3pt} {\color{red}Rongzhen Chen, 2014}
 
 \vspace{5mm}
 
@@ -279,34 +279,34 @@ edited by K. Ito ({\textit John Wiley $\&$ Sons}, ??CITY??, 2014??); in preparat
 
 \chapter{Introduction}
 
-With the increasing of energy consumption, more and more energy or power is needed. According to the statistical review of world energy on 2014 (\textbf{Fig. \ref{wpec}}),
+With the increasing of energy consumption, more and more energy or power is needed. According to the statistical review of world energy on 2014 \cite{bp} (\textbf{Fig. \ref{wpec}}),
 the required energy is mainly satisfied by the fossil fuels (mainly coal, petroleum and 
 natural gas), with a market share of around 87\%. The total energy consumption is between 12000 and 13000 million tonnes oil equivalent (MTOE), which is equivalent to around 15 terawatts. 
 Normally light bulbs in our homes consume around between 50 to 100 watts of energy, 1 terawatt implies 10 billion of the 100 watts light bulbs are lighted at the same time. 
-Unfortunately, the fossil fuels is very limited energy and non-renewable resources, one day which is not far from  now it will be dissipated due to the energy consumption growth.\cite{reshef2009interval}
+Unfortunately, the fossil fuels is very limited energy and non-renewable resources, one day which is not far from  now it will be dissipated due to the energy consumption growth.
 
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.4]{energy.eps}
-\caption{Data is from BP statistical review of world energy 2014.}
+\caption{Data is from BP statistical review of world energy 2014 \cite{bp}.}
 \label{wpec}
 \end{figure}
 
-By the year of 2050, the total world energy consumption will double. Therefore, it is urgent to explore more sustainable and environmentally friendly energy sources. From \textbf{Fig. \ref{wpec}},
-one will notice that renewable energy (mainly solar energy, wind power, and geothermal energy) in 2014 accounts for around 2\% of energy consumption globally. It is important to focus on the renewable energy research from a 
+By the year of 2050, the total world energy consumption will double \cite{iea}. Therefore, it is urgent to explore more sustainable and environmentally friendly energy sources. From \textbf{Fig. \ref{wpec}},
+one notices that renewable energy (mainly solar energy, wind power, and geothermal energy) in 2014 accounts for around 2\% of energy consumption globally. It is important to focus on the renewable energy research from a 
 long term point of view. The solar energy technologies are one of the hot topic among the renewable energy research considering the point of CO\textsubscript{2} free, reliable energy supply, no cooling water requirement and
-operation in silence.\cite{mattheiss1969band}
+operation in silence.
 
 The solar energy technologies are the way to produce electricity from the light of the sun. Sunlight is a portion of the radiation by the sun, like infrared, visible,
-and ultraviolet light. The spectrum of the sun is close to the spectrum of black body with a temperature of about 6000 K (\textbf{Fig. \ref{spectrumsun}}). In the field of photovoltaics (PV), solar spectrum is represented
-by air mass (AM) which defines the direct optical path length through the Earth's atmosphere. The AM1.5 and AM0 are important: AM1.5 is the air mass at a solar zenith angle of 48.19 degree, and AM0 mean the solar spectrum 
-outside of the atmosphere. Generally, the AM1.5 is seen as the reference spectrum in PV field. In \textbf{Fig. \ref{spectrumsun}}, the absorption in the atmosphere is quite strong by gases, dust and aerosols, as well as
-the scattering of light from air molecules. \cite{lichtenstein1998ab}
+and ultraviolet light. The spectrum of the sun is close to the spectrum of black body with a temperature of about 6000 K (\textbf{Fig. \ref{spectrumsun}}). In the field of photovoltaics (PV), solar spectrum is established
+by air mass (AM) which defines the direct optical path length through the Earth's atmosphere \cite{smestad2002optoelectronics}. The AM1.5 and AM0 are important: AM1.5 is the air mass at a solar zenith angle of 48.19 degree, and AM0 mean the solar spectrum 
+outside of the atmosphere. Generally, solar spectrum at AM1.5 is used in PV field in order to standard solar cell measurements. In \textbf{Fig. \ref{spectrumsun}}, the absorption in the atmosphere is quite strong by gases,
+dust and aerosols, as well as the scattering of light from air molecules.
 
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.6]{spectrum.eps}
-\caption{Solar irradiance spectrum}
+\caption{Spectral irradiance AM1.5 and AM0.}
 \label{spectrumsun}
 \end{figure}
 
@@ -319,10 +319,12 @@ all the three solar energy technologies are environmentally friendly.\cite{reshe
 
 \section{Solar cells}
 In the worldwide, the conversion efficiency in all different types of solar cell is improved remarkably. From \textbf{Fig. \ref{nrel}}, one can notice that the highest efficiency for multijunction cells, crystalline silicon cells,
-thin-film technologies and new emerging cells are around 44.7\%, 27.6\%, 23.3\% and 19.3\%(??by Yang Yang not this figure so far??), respectively. Therefore, the solar cell is a very important and promising way to produce the
+thin-film technologies and new emerging cells are around 44.7\%, 27.6\%, 23.3\% and 17.9\% (19.3\% by Yang Yang Laboratory team at University of California, May 2014), respectively. Therefore, the solar cell is a very important and promising way to produce the
 renewable energy.
 
+
 \begin{sidewaysfigure}
+\captionsetup{width=1\textwidth}
 \centering
 \includegraphics[scale=0.7]{efficiency_chart.jpg}
 \caption{Best research-cell efficiencies. Figure is from National Renewable Energy Laboratory (NREL), Golden, Colorado.}
@@ -338,19 +340,19 @@ by Amonix and maximum 25.6\% without concentrator by Panasonic in  the \textbf{F
 flexible and resulting in lower weight. The maximum conversion efficiency is lower than crystalline silicon today, which has the maximum conversion efficiency 23.3\% using CIGS with concentrator by NREL and 21.7\% without 
 concentrator by the center for solar energy and hydrogen research (ZSW) in Stuttgart in \textbf{Fig. \ref{nrel}}. The Emerging PV in \textbf{Fig. \ref{nrel}} represents the newest ways to create electricity from
 sunlight and potentially with higher conversion efficiency, such as perovskite cells, for which the maximum conversion efficiency is 19.3\% by the group Yang Yang at the University of California, Los Angeles. 
-(???update the above figure until May, 2014??) Perovskite cells jump into the world of solar cells only in 2009, and the conversion efficiency is improved remarkable within 5 years. Certainly, the search and optimization 
+Perovskite cells jump into the world of solar cells only in 2009, and the conversion efficiency is improved remarkable within 5 years. Certainly, the search and optimization 
 of alternatively solar cell materials is still an ongoing and active area today.
 
 
 \subsection{Single-junction solar cells}
-The $p$-$n$ junction is the fundamental building block of solar cells. The single $p$-$n$ homojunction will be explored in this section.
+The $p$-$n$ junction is the fundamental building block of solar cells. The single $p$-$n$ homojunction will be explored in this section based on Refs. [??,??]
 
 We start from the separate $n$-type material and $p$-type material at room temperature (assume that all the donor (acceptor) atoms are positively (negatively) ionized at room temperature). In \textbf{Fig. \ref{dopedmaterials}},
 the left one shows the $n$-type and $p$-type materials. The $n$-type
 material has many free negatively charged electrons which can move freely in the material, and there are numbers of positively charged immobile donor ions as well. Similarly, the $p$-type material has many free positively
 charged holes which can move freely in the material, and there are numbers of negatively charged immobile acceptor ions as well. However, the material is still neutral in both $n$-type and $p$-type.
-On the right in \textbf{Fig. \ref{dopedmaterials}}, the corresponding Fermi levels are shown. The Fermi level (E\textsubscript{nf}) is closer to conduction band minimum for $n$-type material due to the many free 
-negatively charged electrons. Conversely, the Fermi level of $p$-type material (E\textsubscript{pf}) is closer to the valence band maximum to the free positively charged holes.
+On the right in \textbf{Fig. \ref{dopedmaterials}}, the corresponding Fermi levels are shown. The Fermi level ($E_{nf}$) is closer to conduction band minimum for $n$-type material due to the many free 
+negatively charged electrons. Conversely, the Fermi level of $p$-type material ($E_{pf}$) is closer to the valence band maximum to the free positively charged holes.
 
 \begin{figure}[H]
     \begin{center}
@@ -358,18 +360,18 @@ negatively charged electrons. Conversely, the Fermi level of $p$-type material (
            % \includegraphics[width=0.4\textwidth,clip]{sepratepn1.jpg}
             \includegraphics[width=0.8\textwidth,clip]{sepratepn.eps}
      \end{center}
-    \caption{Left: Doped ($n$-type and $p$-type) materials in dark at room temperature. Right: Energy band diagram of separated $p$-$n$ homojunction in dark at room temperature for two-level model. Assume that all the donor (acceptor) atoms are 
-    positively (negatively) ionized.}      
+    \caption{Left panel: Doped ($n$-type and $p$-type) materials in dark at room temperature. Right panel: Energy band diagram of separated $p$-$n$ homojunction in dark at room temperature for two-level model. Assume that all the donor (acceptor) atoms are 
+    positively (negatively) ionized at room temperatur.}      
     \label{dopedmaterials}
 \end{figure}
 
 If the $n$-type and $p$-type materials are joined, the free electrons (holes) in $n$-type ($p$-type) material will diffuse into $p$-type ($n$-type) material due to the
 lower concentrations of electrons (holes) (\textbf{Fig. \ref{pnjunction}}). In the region which is near the interface between $n$-type and $p$-type materials, the ionized donor and acceptor ions create a
-"build in" electric field which points from the $n$-type material to the $p$-type material. This can cause the drift of carriers in the opposite direction. The "build-in" electric field will force the electrons (holes) back into
+"build in" electric field which points from the $n$-type material to the $p$-type material. This causes the drift of carriers in the opposite direction. The "build-in" electric field will force the electrons (holes) back into
 the $n$-type ($p$-type). At certain point, 
 the whole material will reach a stable equilibrium due to the achieved balance between diffusion and drift. Formation of the "build-in" electric field is rather important for the solar cells, even though there is no current in 
 the material so far. In the following text, the region which forms the "build-in" electric field is also called space charge region (SCR). The different Fermi levels for $n$-type and $p$-type materials are
-equal at the stable equilibrium. Therefore, the energy bands bend over and create a potential barrier near the junction (Right in \textbf{Fig. \ref{pnjunction}}). Finally, there is a internal potential V\textsubscript{bi}
+equal at the stable equilibrium. Therefore, the energy bands bend over and create a potential barrier near the junction (right panel in \textbf{Fig. \ref{pnjunction}}). Finally, there is a internal potential V\textsubscript{bi}
 in the junction, which will block the diffusion.
 
 \begin{figure}[H]
@@ -378,7 +380,7 @@ in the junction, which will block the diffusion.
            % \includegraphics[width=0.5\textwidth,clip]{pnjunction1.jpg}
             \includegraphics[width=0.7\textwidth]{pnjunction.eps}
      \end{center}
-    \caption{Left: The $p$-$n$ homojunction in dark at room temperature. Right: Energy band diagram of a $p$-$n$ homejunction at the equilibrium in dark at room temperature for two-level model. }      
+    \caption{Left panel: The $p$-$n$ homojunction in dark at room temperature. Right panel: Energy band diagram of $p$-$n$ homejunction at the equilibrium in dark at room temperature for two-level model. }      
     \label{pnjunction}
 \end{figure}
 
@@ -393,7 +395,7 @@ will jump down from CBs to VBs again. However, the electron-hole pairs will be s
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.5]{illumination.eps}
-\caption{The $p$-$n$ homejunction under illumination with load at room temperature for two-level model.}
+\caption{The $p$-$n$ homejunction at dark (left panel) and the $p$-$n$ homejunction under illumination (right panel) with load at room temperature for two-level model.}
 \label{illu}
 \end{figure}
 
@@ -408,19 +410,19 @@ The chemical potential $\bigtriangledown \mu = E_{nf} - E_{vf}$ is created, whic
 \end{figure}
 
 
-The I-V characteristics is defined in \textbf{Fig. \ref{ivcharac}} with some important parameters of the solar cells. The $V_{oc}$ and $I_{sc}$ are the open circuit voltage and short circuit current, respectively. 
-They are the maximum voltage and maximum current from the solar cells. The $V_{mp}$ and $I_{mp}$ are the voltage and current which will yield the maximum power. The maximum power generated by the solar cells is $P_{out}=V_{mp} \times I_{mp}$, that is the rectangle bounded by the dashed lines in the 
-\textbf{Fig. \ref{ivcharac}}. 
+The Ccurrent-voltage characteristics is defined in \textbf{Fig. \ref{ivcharac}} with some important parameters of the solar cells. The $V_{oc}$ and $I_{sc}$ are the open circuit voltage and short circuit current, respectively. 
+They are the maximum voltage and maximum current from the solar cells. The $V_{mp}$ and $I_{mp}$ are the voltage and current which will yield the maximum power. The maximum power generated by the solar cells
+is $P_{out}=V_{mp} \times I_{mp}$, that is the rectangle bounded by the dashed lines in \textbf{Fig. \ref{ivcharac}}. 
 
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.5]{IV.eps}
-\caption{I-V characteristics}
+\caption{Current-voltage characteristics of a solar cell under illumination}
 \label{ivcharac}
 \end{figure}
 
 
-The fill factor (FF) and the power conversion efficiency ($\eta$) are often represented the solar cell performance:
+The fill factor (FF) and the power conversion efficiency ($\eta$) are often represented the solar cell performance
 
 \begin{equation}
 FF = \frac{P_{out}}{V_{oc} \cdot I_{sc}} = \frac{V_{mp} \cdot I_{mp}}{V_{oc} \cdot I_{sc}}
@@ -441,12 +443,10 @@ band-gap. There is more detailed analysis of conversion efficiency in the Ref[??
 In 1839,  the French physicist A. E. Becquerel revealed the photovoltaic effect for the first time. Charles Fritts built the first solid state photovoltaic (PV) cell using semiconductor selenium in 1883. It is not until 1941 that
 the first silicon-based solar cell was demonstrated. Today, there are many different types of solar cell materials. The reason why the best solar cell material is not realized yet is that it is expected to be not only high efficiency but 
 also environmentally friendly and low cost. It requires not only that the growth and manufacturing process of solar cell materials shall be cheaper, but also that the devices shall have longer application life, moreover the raw material
-should be abundant and non-toxic as well. In this section, four main solar cell materials are discussed briefly: silicon (Si), gallium arsenide (GaAs), cadmium telluride (CdTe), copper indium gallium diselenide (Cu(In,
-Ga)Se\textsubscript{2}).
+should be abundant and non-toxic as well. In this section, four main solar cell materials are discussed briefly: silicon (Si), gallium arsenide (GaAs), cadmium telluride (CdTe), copper indium gallium diselenide (CIGS).
 
 Potential solar cell materials need to fulfill several properties, such as large absorption coefficient and a band-gap energy between 0.7 to 2.0 eV. Under these conditions, there are quite many materials satisfying the 
-requirements. However, some other properties are needed to be considered as well, such as cost and environmental safety. Thereby, only part of them are suitable to produce in reality. In \textbf{Fig. \ref{lscm}}, several solar cell
-materials are illustrated. 
+requirements. However, some other properties are needed to be considered as well, such as cost and environmental safety. Thereby, only part of them are suitable to produce in reality.
 
 \begin{figure}[H]
 \centering
@@ -456,39 +456,39 @@ materials are illustrated.
 \end{figure}
 
 In \textbf{Fig. \ref{lscm}}, the formation of tetragonal semiconductors is considered as a series of cation mutations where the total number valence electrons is the same and keep the charge neutral. For example, group number
-IV element silicon (level 0) with four 4\textsuperscript{+} ions is equivalent to two 3\textsuperscript{+} ions and two 5\textsuperscript{+} ions, such as GaAs (level 1). It is also equivalent to two 2\textsuperscript{+} ions
-and two 6\textsuperscript{+} ions, such as CdTe (level 1). The Cu(In,Ga)(S,Se)\textsubscript{2} can be generated applying the same process on II element on the level 1. This method was suggested by Goodman and Pamplin. 
+IV element Si (level 0) with four 4\textsuperscript{+} ions is equivalent to two 3\textsuperscript{+} ions and two 5\textsuperscript{+} ions, such as GaAs (level 1). It is also equivalent to two 2\textsuperscript{+} ions
+and two 6\textsuperscript{+} ions, such as CdTe (level 1). The CIGS can be generated applying the same process on II element on the level 1. This method was suggested by Goodman and Pamplin. 
 
 
 
 \subsection{Crystalline silicon solar cells}
-The solar cell based on silicon dominates the solar power world today, which accounts for more than 90\% of the total PV market.
-This kind of solar cell takes advantage of different forms of silicon, that is, monocrystalline silicon and polycrystalline silicon. 
+The solar cell based on Si dominates the solar power world today, which accounts for more than 90\% of the total PV market.
+This kind of solar cell takes advantage of different forms of Si, that is, monocrystalline Si and polycrystalline Si. 
 The success of Si is due to a number of reasons. Over 90\% is composed of silicate minerals in the crust of earth, which also yields huge available Si. Moreover, it has higher conversion efficiency, and it is also proved that 
 it has excellent stability and reliability under the outdoor condition. However, Si also have drawbacks. It has an indirect band-gap and hence it has a lower optical absorption coefficient. In order to absorb the incident sunlight fully, 
 it requires to thicker Si (around \SI{40} {\micro\meter}) to absorb the sunlight. Crystalline Silicon have to be high quality and defect free in order to avoid to lost the carriers before collection. Last but not least, it is expensive to purify the Si from silicate minerals, which
-really limits the cost reduction potential of wafer-based silicon technology. 
+really limits the cost reduction potential of wafer-based Si technology. 
 
-However, the solar cells based crystalline silicon technology is still leading the market of solar cell since many companies are trying to lower the cost of the whole process.
+However, the solar cells based crystalline Si technology is still leading the market of solar cell since many companies are trying to lower the cost of the whole process.
 
 
 
 \subsection{Gallium arsenide}
-Gallium arsenide (GaAs) has a zinc blende crystal structure with a direct band-gap around 1.5 eV at room temperature. Some electronic properties of GaAs are superior to Si, such as higher electron 
+GaAs has a zinc blende crystal structure with a direct band-gap around 1.5 eV at room temperature. Some electronic properties of GaAs are superior to Si, such as higher electron 
 mobility, higher saturated electron velocity, absorb sunlight more efficiently due to the direct band-gap. The optimum band-gap for the single junction solar cell is suggested around 1.3 eV by theoretical calculation 
 from Henry (1980) who modified the original Shockley-Queisser limit. Therefore one of the most applications of GaAs is solar cells. GaAs has been extensively researched since the 1950s, and the first GaAs solar cells were established in
 1970 by the Zhores Alferov's team. Today, the conversion efficiency for single function solar cell based on GaAs is around 28.8\%. However, it is more difficult to grow and the solar cell component has higher price in comparison with Si.
-Many researches are focusing on how to reduce the price, and the main application solar cell based on GaAs is in the space application. At last, the arsenic toxicity should be considered as well. 
+Researches are focusing on how to reduce the price today, and the main application solar cell based on GaAs is in the space application. However, the arsenic toxicity should be considered. 
 
 The conversion efficiency for four-junction GaInP/GaAs//GaInAsP/GaInAs concentrator solar cells is reached 44.7\% by Soitec on March 2014.
 
 \subsection{Thin film materials}
 
 Thin film solar cells have several thin films with the total thickness less than \SI{10} {\micro\meter}. The cost can potentially be lower since the less materials are utilized to make thin film solar cells. The development of thin film
-solar cell was started since 1970s. Currently, the conversion efficiency for the single junction already surpassed 20\%, even though it is still not as high as the solar cells based on crystalline silicon. Three different thin film
+solar cell was started since 1970s. Currently, the conversion efficiency for the single junction already surpassed 20\%, even though it is still not as high as the solar cells based on crystalline Si. Three different thin film
 materials are discussed in this section: amorphous silicon (a-Si), cadmium telluride (CdTe), and copper indium gallium diselenide (CIGS).
 
-Amorphous silicon solar cells are the first thin film solar cell material which reach the large-scale production. It has higher absorption coefficient than crystalline silicon, therefore, the thickness can be less than \SI{1} {\micro\meter}. The 
+A-Si solar cells are the first thin film solar cell material which reach the large-scale production. It has higher absorption coefficient than crystalline Si, therefore, the thickness can be less than \SI{1} {\micro\meter}. The 
 main disadvantages a-Si solar cells is the lower efficiency, the actual conversion efficiency for the commercial single junction solar cells based on a-Si is between 4\% to 8\%. This limits the development of a-Si thin film solar cells.
 A-Si solar cells are suited to the situation which requires low cost over high efficiency. 
 
@@ -496,11 +496,12 @@ CdTe was first reported in the 1960s. However, it is not developed rapidly until
 is very near the optimum value for single-junction solar cells. Moreover, the manufacturing process is easier to control, which results in the cost of manufacturing is low. Moreover, the commercial modules already reach the efficiency of 16\%.
 However, an important question is needed to be considered in order to large-scale CdTe manufacturing: cadmium toxicity and tellurium availability. 
 
-CIGS are direct band-gap semiconductors with high optical absorption coefficients. It is seen as the most promising solar cell material for the near future. It is always employed in a heterojunction structure, mainly it is with the thinner
+CIGS are direct band-gap semiconductors with high optical absorption coefficients. It is seen as one of the most promising solar cell material for the near future. It is always employed in a heterojunction structure, mainly it is with the thinner
 $n$-type CdS layer. The conversion efficiency of CIGS reached up to 20\% in the laboratory cell. The interesting part is that it can be alloyed by the ratio of Ga/(Ga+In), and the band-gap can be tuned along with that. The band-gap 
 is between 1.0 eV to 1.7 eV for this alloy. CIGS does not contain any toxic element.
 
-\section{CuIn\textsubscript{1-\textit{x}}Ga\textsubscript{\textit{x}}Se\textsubscript{2}(CIGS) materials}
+%\section{CuIn\textsubscript{1-\textit{x}}Ga\textsubscript{\textit{x}}Se\textsubscript{2}(CIGS) materials}
+\section{Copper indium gallium diselenide (CIGS) materials}
 CIGS material is a chalcopyrite-type material, which is considered to be one of the most promising thin film solar cell material. The direct band-gap is from around 1.0 eV to 1.7 eV by alloying Ga in the CuInSe\textsubscript{2} (CIS),  and the conversion efficiency in laboratory already surpassed 20\%. 
 CuInSe\textsubscript{2} was first synthesized by Hahn in 1953. It was first exploited as an absorber material in a single crystal solar cell in 1974, which is based on CuInSe\textsubscript{2} and CdS. The conversion efficiency is around 
 5\%. The first thin film solar cells based on CuInSe\textsubscript{2} and CdS was invented by Kazmerski. During 1980s, Boeing Corporation did much research on the thin film polycrystalline CIGS solar cells. 
@@ -508,22 +509,22 @@ To date, the highest conversion efficiency in lab situation for the solar cells 
 
 
 \subsection{Crystal structure}
-The crystal structure of CIGS can be derived from the zinc blende crystal structure of zinc selenide (ZnSe). In the \textbf{Fig. \ref{crystal_cigs}}, the crystal structures of ZnSe and CIGS are presented. 
+The crystal structure of CIGS can be derived from the zinc blende crystal structure of zinc selenide (ZnSe). In \textbf{Fig. \ref{crystal_cigs}}, the crystal structures of ZnSe and CIGS are presented. 
 The elements Zn are replaced by Cu and In or Ga elements in the zinc blende of ZnSe. It requires to double the unit cell in the $z$-direction. Because the bond strength and lengths between
 Cu-Se and In-Se or Ga-Se are different, therefore, the lattice parameter $c$ is not exact 2$a$ normally.
 
-Chalcopyrite CIGS (with $x$ = 0.0 and 1.0) has the space group $D_{2d}^{12}$ ($I\overline{4}2d$; space group no. 122).
+Chalcopyrite CuInSe\textsubscript{2} and CuGaSe\textsubscript{2} have the space group $D_{2d}^{12}$ ($I\overline{4}2d$; space group no. 122).
 The conventional unit cell has four copper atoms on the Wyckoff positions 4$a$, four indium/gallium atoms on position 4$b$, and eight selenium atoms on the 8$d$ position. 
 The cation positions have all $S_4$ point-group symmetry, and Se have $C_2$ symmetry. 
 The Se 8$d$ position is fully defined with the position ($x$, $y$, $z$), and each anion Se-atom has two inequivalent bonds $\delta$X–Se to the cations X = Cu and In/Ga. 
-For the alloy of CIGS (in this work, $x$ = 0.5 with 50\% In and 50\% Ga), the structure is chosen so that each Se atom bonds to two Cu atoms, one In and one Ga atom. The space group is $S_{4}^{2}$ ($I\overline{4}$; space 
+For the alloy of CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2}, the structure is chosen so that each Se atom bonds to two Cu atoms, one In, and one Ga atom. The space group is $S_{4}^{2}$ ($I\overline{4}$; space 
 group no. 82).
 
 
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.4]{structureciise.eps} 
-\caption{}
+\caption{Crystal structures of Zinc blende ZnSe and chalcopyrite CuInSe\textsubscript{2}.}
 \label{crystal_cigs}
 \end{figure}
 
@@ -534,14 +535,14 @@ group no. 82).
 
 \subsection{Optical properties and defects in the CIGS}
 CuInSe\textsubscript{2} has a direct band-gap around 1.0 eV, and the absorption coefficient is relatively higher than Si due to direct band-gap. The quaternary CIGS alloy will be available by alloying Ga element, while the band-gap is tuned as well from 
-1.0 eV to 1.7 eV. The high absorption coefficient makes the CIGS material possible to be an absorber for the thin film solar cells. The band-gap can be approximated by the function of Ga content ($x$):
+1.0 eV to 1.7 eV. The high absorption coefficient makes the CIGS material possible to be an absorber for the thin film solar cells. The band-gap can be approximated by the function of Ga content ($x$)
 
 \begin{equation}
 E_g(x) = 1.0 + 0.564x+0.116x^2
 \end{equation}
 
 Alloying the Ga element will decrease the electron affinity of CIGS, which will make the conduction band upward shift, however, the valence band remain the same position. This also explains the reason why the band-gap increases with 
-more Ga element in the CIGS material. An overview properties of CIGS material is described in \textbf{Table. \ref{kth518}} 
+more Ga element in the CIGS material. An overview properties of CuInSe\textsubscript{2} and CuGaSe\textsubscript{2} materials are described in \textbf{Table. \ref{kth518}} 
 
 
 \vspace{10cm}
@@ -617,13 +618,13 @@ The solar cells device based on CIGS is a heterojunction device, which normally 
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.5]{devicestruc.eps} 
-\caption{Structure of CIGS solar cell device.}
+\caption{Structure of CIGS solar cell device, the TEM figure is from Professor Markika Edoff, Ångström Solar Center, Uppsala University[??].}
 \label{device}
 \end{figure}
 
-Substrate is on the bottom, and there are mainly three kinds of substrate: soda-lime glass, metal and polyimide. The most common substrate is the one based on soda-lime glass containing sodium (Na) with thickness 
+Substrate is on the bottom, and there are mainly three kinds of substrates: soda-lime glass, metal and polyimide. The most common substrate is the one based on soda-lime glass containing sodium (Na) with thickness 
 \SI{1} {\mm} to \SI{3} {\mm}. The Na will improve the efficiency and reliability of the solar cells as well as process tolerance. The molybdenum works as back contact due to its low resistivity and stability at high 
-temperature with thickness around \SI{500} {\nm}. The most important part of the device is the $p$-type absorber layer: CIGS, which is doped by intrinsic defects and around \SI{1500} -- \SI{2000} {\nm}. 
+temperature with thickness around \SI{500} {\nm}. The most important part of the device is the $p$-type absorber layer: CIGS, which is doped by intrinsic defects and around \SI{1500} - \SI{2000} {\nm}. 
 The $n$-type buffer layer CdS is on the top of CIGS, which is around \SI{60} {\nm}. The intrinsic zinc oxide ($i$-ZnO) and $n$-type ZnO layer are followed, and it works as window layer. The $i$-ZnO is to 
 avoid the damage of the CIGS and CdS from sputtering damage when depositing the ZnO:Al window layer, and the $n$-type ZnO is doped by the aluminum (Al) in order to get higher conductivity. 
 This CIGS/CdS/ZnO structure was optimized to improve the cell performance.
@@ -846,7 +847,7 @@ can be rewritten as
 \begin{equation}\begin{split}\label{hartreq}
 & \Big(-\frac{\nabla^{2}_{k}}{2} + \sum\limits_I^{{Nn}} \frac{Z_{I}}{|\textbf{r}-\textbf{R}_{I}|} + \sum\limits_{j \neq k}^{{Ne}}  <\bwfn<j><'>\ | \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwfn<j><'>>\Big) \bwff<k><> = \epsilon_k^{{H}} \bwff<k><>  \\
 &  \qquad \qquad \qquad  \qquad \qquad \qquad \qquad \qquad  \Downarrow  \\
-& \Big(-\frac{\nabla^{2}_{i}}{2} + \sum\limits_I^{{Nn}} \frac{Z_{I}}{|\textbf{r}-\textbf{R}_{I}|} + \sum\limits_{j \neq i}^{{Ne}}  <\bwfn<j><'>\ | \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwfn<j><'>>\Big) \bwff<i><> = \epsilon_i^{{H}} \bwff<i><>  \\
+& \Big(-\frac{\nabla^{2}_{i}}{2} + \sum\limits_I^{{Nn}} \frac{Z_{I}}{|\textbf{r}-\textbf{R}_{I}|} + \sum\limits_{j \neq i}^{{Ne}}  <\bwfn<j><'>\ | \frac{1}{|\textbf{r} - \textbf{r}^{'} |} \ | \bwfn<j><'>>\Big) \bwff<i><> = \epsilon_i^{{H}} \bwff<i><>.  \\
 \end{split}
 \end{equation}
 
@@ -934,7 +935,7 @@ wavefunctions named $\Psi$ and $\Psi'$. Since $\Psi$ are not the ground state wa
 inequality equations are satisfied
 
 \begin{equation}\label{hkpf1}\begin{split}
-&  E = \langle \Psi\ |{H}|\ \Psi \rangle  \ < \  \langle \Psi'\ |{H}|\ \Psi' \rangle,\\
+&  E = \langle \Psi\ |{H}|\ \Psi \rangle  \ < \  \langle \Psi'\ |{H}|\ \Psi' \rangle \\
 &  E' = \langle \Psi'\ |{H'}|\ \Psi' \rangle  \ < \  \langle \Psi\ |{H'}|\ \Psi \rangle.
 \end{split}\end{equation}
 
@@ -1031,7 +1032,7 @@ In order to derive the ground state properties in the many-electron system, one 
 & \frac{ \delta  \Big(E[\rho] - \sum\limits_{i}^{Ne} \sum\limits_{j}^{Ne} E_{i,j}^{H} (<\Psi^{{KS}}_{{i}}(\textbf{r}_i) | \Psi^{{KS}}_{{j}}(\textbf{r}_j)> -\ \delta_{ij})\Big)}{\delta \Psi^{{KS}*}_{{i}}(\textbf{r})}  = 0 \\
 &  \qquad \qquad \qquad  \qquad \qquad \qquad  \Downarrow \\
 & \frac{\delta T_{0}[\rho]}{\Psi^{{KS}*}_{{k}}(\textbf{r})} + \frac{\delta(V_{H}[\rho]  + V_{ext}[\rho] + E_{xc}[\rho])}{\delta \rho(\textbf{r})} \frac{\delta \rho(\textbf{r})}{\Psi^{{KS}*}_{{i}}(\textbf{r})} 
-= \sum\limits_i^{{N}} E_{k,i}^{KS} \Psi^{{KS}}_{{i}}(\textbf{r})
+= \sum\limits_i^{{N}} E_{k,i}^{KS} \Psi^{{KS}}_{{i}}(\textbf{r}).
 \end{split}
 \end{equation}
 
@@ -1624,14 +1625,14 @@ The last term in \textbf{Eq. \ref{zora1}} is the spin-orbit coupling term.
 \chapter{Results and discussion}
 
 In this chapter, the major results for the licentiate thesis are demonstrated. The first one is parameterization of energy bands for CuIn{\textsubscript{1-$x$}}Ga{\textsubscript{$x$}}Se\textsubscript{2}
-where $x$ = 0, 0.5, and 1 (CIGS). The results based on this parameterization are discussed as well. The second one is the calculation of the dielectric function spectra for the
-CuIn{\textsubscript{0.5}}Ga{\textsubscript{0.5}}Se\textsubscript{2} by all electron and full-potential linearized augmented plane wave (FPLAPW) method, which is compared with experimental results as well.
+where $x$ = 0, 0.5, and 1. Results based on this parameterization are discussed as well. The second one is the calculation of the dielectric function spectra for the
+CuIn{\textsubscript{0.5}}Ga{\textsubscript{0.5}}Se\textsubscript{2} by all electron and full-potential linearized augmented plane wave (FPLAPW) method, which is compared with experimental result.
 The probable electronic origins of the critical point (CP) features are discussed as well.
 
 \section{Parameterization of energy bands for CIGS}
 
 \subsection{Parameterization method}
-The curvature of energy bands is often demonstrated by the effective electron and hole masses. Therefore, the parabolic energy dispersion, also named parabolic band approximation (pba),
+The curvature of energy bands is often demonstrated by the effective electron and hole masses. Generally, the parabolic energy dispersion, also named parabolic band approximation (pba),
 is assumed to represent the shape of the energy bands
 
 \begin{equation}\begin{split}\label{parabolic}
@@ -1640,7 +1641,8 @@ is assumed to represent the shape of the energy bands
 \end{split}
 \end{equation}
 
-Here, $m_{j}^{\perp}$ and $m_{j}^{\parallel}$ are transverse electron masses and longitudinal electron masses, respectively.
+Here, $m_{j}^{\perp}$ and $m_{j}^{\parallel}$ are transverse electron masses and longitudinal electron masses, respectively. Parameters of \textbf{Eq. \ref{parabolic}} to describe the parabolic energy dispersions of the lowest
+conduction band (CB) and the three uppermost valence bands (VBs) in the vicinity of the $\Gamma$-point are given in \textbf{Table \ref{pm1}}.
 
 \begin{table}[H]
 \centering
@@ -1652,20 +1654,19 @@ Here, $m_{j}^{\perp}$ and $m_{j}^{\parallel}$ are transverse electron masses and
 \cline{2-13}
  Parameters & $c$1 & $v$1 & $v$2 & $v$3 & $c$1 & $v$1 & $v$2 & $v$3 & $c$1 & $v$1 & $v$2 & $v$3\\
 \hline\hline
-$E_j(\textbf{0})$ [eV]  &0.97	 &0	&0.01	&0.19	&1.2	&0	&0.02	&0.2	&1.47	&0	&0.08	&0.26\\
+$E_j(\textbf{0})$ [eV]    &1.04	 &0	&0.01	&0.19	&1.33	&0	&0.02	&0.2	&1.67	&0	&0.08	&0.26\\
 $m_j^{\bot}$      [$m_0$] &0.08	 &0.14	&0.25	&0.27	&0.1	&0.4	&0.17	&0.29	&0.13	&0.47	&0.2	&0.29 \\
 $m_j^{||}$        [$m_0$] &0.09  &0.66	&0.12	&0.28	&0.11	&0.14	&0.61	&0.4	&0.13	&0.15	&0.61	&0.49 \\
 \hline
 \end{tabular}}
-\caption {Parameters of \textbf{Eq. \ref{parabolic}} to describe the parabolic energy dispersions of the lowest conduction band (CB) and the three uppermost valence bands (VBs) in the vicinity of the $\Gamma$-point. 
-$E_{v1}(\textbf{0})$ is the valence band maximum (VBM) and $E_{c1}(\textbf{0})$ is the fundamental band-gap energy $E_g$.}\label{pm1}
+\caption {Parameters of \textbf{Eq. \ref{parabolic}} for {CuInSe\textsubscript{2}}, {CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2}}, and {CuGaSe\textsubscript{2}}. $E_{v1}(\textbf{0})$ is the valence band maximum (VBM) and $E_{c1}(\textbf{0})$ is the fundamental band-gap energy $E_g$.}\label{pm1}
 \end{table}
 
  
 Unfortunately, these effective masses are only valid around the considered {\textbf k} point, which is not suitable to describe the non-parabolic away from this {\textbf k} point. However, the accurate shape of energy bands is 
 important when one simulates and analyzes the electron transport or band filling.
 
-In this work, we have parameterized the three uppermost VBs and the lowest CB for the materials CIGS, that is, CuInSe\textsubscript2, CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2}, 
+In this work, we have parameterized the three uppermost VBs and the lowest CB for the materials of CuInSe\textsubscript2, CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2}, 
 and CuGaSe\textsubscript{2}. This parameterization is based on results from all electron and full-potential linearized augmented plane wave (FPLAPW) calculations. Normally, the \textbf{k $\cdot$ p} method is utilized to 
 parameterize the energy bands. However, the energy dispersions of CIGS are rather complex due to the crystal-field interaction and the spin-orbit coupling. Therefore, the regular \textbf{k $\cdot$ p} method is not sufficient 
 to describe the energy bands. We manage to extend the \textbf{k $\cdot$ p} expression to higher orders, which is called full band parameterization (fbp) in the following text. The fbp is valid around 0.5 eV below VBM and 0.5 eV 
@@ -1676,7 +1677,7 @@ above the conduction band minimum (CBM). The explicit equation is given as
 & \small E_j(\textbf{k}) = E_{j}^{pb}(\textbf{k}) + E_j^0 + \Delta_{j,1} \left( \delta_{j,1}^2 \left( \frac{\widetilde{\textbf{k}}_{x}^{4}+\widetilde{ \textbf{k}}_{y}^{4}}{m_{0}^{2}} \right) + \delta_{j,2}^2 \left( \frac{\widetilde{\textbf{k}}_{x}^{2}\widetilde{\textbf{k}}_{y}^{2}}{m_{0}^2} \right) + 1 \right)^{1/2} \\
 & \small + \Delta_{j,2} \left( \delta_{j,3}^3 \left( \frac{\widetilde{\textbf{k}}_{x}^{6}+\widetilde{ \textbf{k}}_{y}^{6}}{m_{0}^{3}} \right) + \delta_{j,4}^3 \left( \frac{\widetilde{\textbf{k}}_{x}^{2}\widetilde{\textbf{k}}_{y}^{4} + \widetilde{\textbf{k}}_{x}^{4}\widetilde{\textbf{k}}_{y}^{2}}{m_{0}^3} \right) + 1 \right)^{1/3} \\
 & \small + \Delta_{j,3} \left( \delta_{j,5}^2 \left( \frac{\widetilde{\textbf{k}}_{z}^{4}}{m_0^2} \right) + 1 \right)^{1/2} + \Delta_{j,4} \left( \delta_{j,6}^3 \left( \frac{\widetilde{\textbf{k}}_{z}^{6}}{m_0^3} \right) + 1 \right)^{1/3} \\
-& \small + \Delta_{j,5} \left( \delta_{j,7}^2 \left( \frac{\widetilde{\textbf{k}}_{x}^{2}\widetilde{\textbf{k}}_{z}^{2} + \widetilde{\textbf{k}}_{y}^{2}\widetilde{\textbf{k}}_{z}^{2}}{m_{0}^3} \right) + 1 \right)^{1/2} \\
+& \small + \Delta_{j,5} \left( \delta_{j,7}^2 \left( \frac{\widetilde{\textbf{k}}_{x}^{2}\widetilde{\textbf{k}}_{z}^{2} + \widetilde{\textbf{k}}_{y}^{2}\widetilde{\textbf{k}}_{z}^{2}}{m_{0}^2} \right) + 1 \right)^{1/2} \\
 & \small + \Delta_{j,6} \left( \delta_{j,8}^3 \left( \frac{\widetilde{\textbf{k}}_{x}^{4}\widetilde{\textbf{k}}_{z}^{2} + \widetilde{\textbf{k}}_{y}^{4}\widetilde{\textbf{k}}_{z}^{2}}{m_{0}^3} \right) + \delta_{j,9}^3 \left( \frac{\widetilde{\textbf{k}}_{x}^{2}\widetilde{\textbf{k}}_{z}^{4} + \widetilde{\textbf{k}}_{y}^{2}\widetilde{\textbf{k}}_{z}^{4}}{m_{0}^3} \right) + \delta_{j,10}^3 \left( \frac{\widetilde{\textbf{k}}_{x}^{2}\widetilde{\textbf{k}}_{y}^{2}\widetilde{\textbf{k}}_{z}^{2}}{m_{0}^3} \right) +1 \right)^{1/3}.
 \end{split}\end{equation}
 
@@ -1719,7 +1720,8 @@ bands ($j$ = $c1$, $v1$, $v2$, and $v3$) refers to a spin-independent band index
 
 \subsection{Non-parabolicity properties}
 
-The fbp of CIGS are plotted compared with the pba in \textbf{Eq. \ref{parabolic}} as well as the calculations based on the FPLAPW method .
+The fbp of {CuIn\textsubscript{1-\textit{x}}Ga\textsubscript{\textit{x}}Se\textsubscript{2}} ($x$ = 0, 0.5, and 1) are plotted compared with the pba in \textbf{Eq. \ref{parabolic}} as well as the calculations based 
+on the FPLAPW method.
 
 \begin{figure}[H]
     \begin{center}
@@ -1735,10 +1737,11 @@ In \textbf{Fig. \ref{bandstruct}}, the parameterized energy bands can describe t
 valid below VBM around $-$4, $-$10, and $-$40 meV for the CuInSe\textsubscript2, CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2}, and CuGaSe\textsubscript{2}, respectively. Since the lowest conduction band
 is more parabolic, therefore, the less fitting parameters are expected (see \textbf{Table \ref{nonpara}}).
 
-To further ultilize this parameterization method, the energy dispersions of the lowest CB and the three uppermost VBs are parameterized for kesterite and stannite Cu\textsubscript{2}ZnSn(S,Se)\textsubscript{4} as well. It works as 
-good as CIGS, therefore, this parameterization method can be ultilized to other materials potentially.
+To further utilize this parameterization method, the energy dispersions of the lowest CB and the three uppermost VBs are parameterized for kesterite and stannite Cu\textsubscript{2}ZnSn(S,Se)\textsubscript{4} as well. It works as 
+good as CIGS, therefore, this parameterization method can be utilized to other materials potentially.
 
 \begin{figure}[H]
+ \captionsetup{width=1\textwidth}
     \begin{center}
             \includegraphics[width=1\textwidth,clip]{bandstr}
      \end{center}
@@ -1756,7 +1759,7 @@ In order to demonstrate the anisotropic and non-parabolic of energy bands furthe
            % \includegraphics[width=0.4\textwidth,clip]{fermi_sphere_cig}
             \includegraphics[width=0.4\textwidth,clip]{fermi_sphere_cgg}
      \end{center}
-    \caption{Constant energy surfaces for the three uppermost VBs and the lowest CB for the energies E = 1 meV (left column ellipsoidal) and E = 200 meV (right column).}
+    \caption{Constant energy surfaces for the three uppermost VBs and the lowest CB for the energies E = 1 meV (left panel) and E = 200 meV (right panel).}
     \label{cse}
 \end{figure}
 
@@ -1769,8 +1772,8 @@ effective mass. For the CB, the change is relatively small.
 
 \subsection{Application of the full band parameterization}
 
-The parameterized energy bands can be exploited to reveal the detailed information near the VB and CB edged. In this section, the effective masses, density-of-states (DOS), Fermil level, and carrier concentration are calculated based on
-this fbp. In comparison with the results based on pba, all of the corresponding results are calculated with the pba as well.  
+The parameterized energy bands can be exploited to reveal the detailed information near the VB and CB edged. In this section, the effective masses, density-of-states (DOS), Fermi level, and carrier concentration are calculated based on
+fbp. In comparison with the results based on pba, all of the corresponding results are calculated with the pba as well.  
 
 The effective masses are \textbf{k}-independent for the pba, which is not fully correct due to the non-parabolicity and anisotropy of the energy bands.  The effective masses tensors are calculated numerically by 
 $m_j(\textbf{k}) = \pm \hbar^2/(\partial^2 E_j(\textbf{k})/\partial\textbf{k}^2) \ \textrm{where}\  j = c1, v1, v2, \textrm{and}\  v3.$
@@ -1780,11 +1783,11 @@ $m_j(\textbf{k}) = \pm \hbar^2/(\partial^2 E_j(\textbf{k})/\partial\textbf{k}^2)
     \begin{center}
             \includegraphics[width=0.43\textwidth,clip]{paper1figure3}
      \end{center}
-    \caption{ Inverse of the effective electron and hole masses in the four symmetry directions for the CIGS.}      
+    \caption{ Inverse of the effective electron and hole masses in the four symmetry directions for the {CuIn\textsubscript{1-\textit{x}}Ga\textsubscript{\textit{x}}Se\textsubscript{2}} ($x$ = 0, 0.5, and 1).}      
     \label{inversemessf}
 \end{figure}
 
-The results in \textbf{Fig. \ref{inversemessf}} demonstrate that the energy bands of CIGS are strong non-parabolic, since the effective masses should be constant in the pba along each symmetry direction. The effective hole masses of the two 
+The results in \textbf{Fig. \ref{inversemessf}} demonstrate that the energy bands of {CuIn\textsubscript{1-\textit{x}}Ga\textsubscript{\textit{x}}Se\textsubscript{2}} ($x$ = 0, 0.5, and 1) are strong non-parabolic, since the effective masses should be constant in the pba along each symmetry direction. The effective hole masses of the two 
 topmost VBs are very anisotropy close to the $\Gamma$ point, however, the electron masses of conduction bands are rather isotropic ($m_{c1}^{100}(\textbf{0}) \approx m_{c1}^{110}(\textbf{0}) \approx m_{c1}^{001}(\textbf{0}) 
 \approx m_{c1}^{112}(\textbf{0})$). Hole masses of CuGaSe\textsubscript{2} vary somewhat less compared with those of CuInSe\textsubscript{2} because CuGaSe\textsubscript{2} has larger split between the VBs. In order to better 
 visibility, therefore, the inverse of the mass are presented.
@@ -1820,17 +1823,19 @@ Here, the energy-dependent DOS mass $m_{v/c}^{DOS}(E)$ contains the non-paraboli
   %\begin{center}
             \includegraphics[width=0.7\textwidth,clip]{JAP2}
   %   \end{center}
-    \caption{Left: Total DOS of the VBs and CB. The solid lines show the full band parameterization (fbp), and the dashed lines represent the parabolic band approximation (pba). Right: The DOS mass $m_{v/c}^{DOS}$ is 
+    \caption{Left panel: Total DOS of the VBs and CB. The solid lines show the full band parameterization (fbp), and the dashed lines represent the parabolic band approximation (pba). Right panel: The DOS mass $m_{v/c}^{DOS}$ is 
     calculated from \textbf{Eq. \ref{dosmass}}. }
    \label{dost}
 \end{figure}
 
 
 Left panel in \textbf{Fig. \ref{dost}} demonstrates that the non-parabolicity of the bands strongly affect the DOS dispersions. The difference is remarkable. The fbp always generates larger DOS, the reason is that the non-parabolic 
-energy bands is more flat than parabolic bands. Right panel in \textbf{Fig. \ref{dost}} demonstrates that the DOS masses of CIGS is strong energy dependence with the VB DOS mass, which proves further the importance of considering 
-non-parabolicity and anisotropy of the energy bands, especially for the VBs in the case of CIGS. For example, the effective mass of topmost VB for CuInSe\textsubscript{2} is around 0.23 $m_0$ close to the $\Gamma$ point, which goes up to
+energy bands is more flat than parabolic bands. Right panel in \textbf{Fig. \ref{dost}} demonstrates that the DOS masses of {CuIn\textsubscript{1-\textit{x}}Ga\textsubscript{\textit{x}}Se\textsubscript{2}} ($x$ = 0, 0.5, and 1) is strong energy dependence with the VB DOS mass, which proves further the importance of considering 
+non-parabolicity and anisotropy of the energy bands, especially for the VBs. For example, the effective mass of topmost VB for CuInSe\textsubscript{2} is around 0.23 $m_0$ close to the $\Gamma$ point, which goes up to
 around 1.00 $m_0$ when $E$ is around 0.1 eV. However, the change in the CB DOS mass is subtle, but also goes up to 2$-$3 times with respect to the value around $\Gamma$ point.
 
+
+\begin{comment}
  \begin{figure}[H]
  \centering
   %\begin{center}
@@ -1852,13 +1857,14 @@ a given quasi-Fermi energy. It also demonstrates that the pba underestimates the
 and 8 times, respectively.
 
 
+\end{comment}
 
 
 The concentration of free holes $n_v(T)$ and free electrons $n_c(T)$ can be calculated from the DOS by
 
 \begin{equation}
 \begin{split}
-& n_v(T) = \int \limits_{-\infty}^{E_{v1}(\textbf{0})} g_v(E)(1-f(E))dE,\\
+& n_v(T) = \int \limits_{-\infty}^{E_{v1}(\textbf{0})} g_v(E)(1-f(E))dE\\
 & n_c(T) = \int \limits_{E_{c1}(\textbf{0})}^{\infty} g_c(E)f(E)dE.
 \end{split}
 \end{equation}
@@ -1878,7 +1884,7 @@ n_v(T) = \frac{n_i^2(T)}{n_v(T)} + \sum \limits_{\alpha} \frac{N_{A_{\alpha}}} {
 Here, $N_{A_{\alpha}}$ is the acceptor concentration of the $\alpha$th defect, $\bigtriangleup_{A_{\alpha}}$ implies the energy level of the acceptor state, and the $g_{A_{\alpha}}$
  is the spin degeneracy factor. The measured ionization energies for V\textsubscript{Cu} are utilized from Ref. ??.
 
-The free carrier concentration in intrinsic for CIGS is obtained considering the temperature dependency of the band gaps (\textbf{Eq. \ref{bgtd}}).
+The free carrier concentration in intrinsic for {CuIn\textsubscript{1-\textit{x}}Ga\textsubscript{\textit{x}}Se\textsubscript{2}} ($x$ = 0, 0.5, and 1) is obtained considering the temperature dependency of the band gaps (\textbf{Eq. \ref{bgtd}}).
 The results from the pba for silicon (Si) and gallium arsenide (GaAs) are compared with our calculation as well.
 
 \begin{equation}\label{bgtd}
@@ -1902,6 +1908,17 @@ $b$      [K] &97  &277	&209      \\
 \end{tabular}}
 \caption {Parameters of $a$ and $b$ in \textbf{Eq. \ref{bgtd}}}\label{chen2}
 \end{table}
+
+
+ \begin{figure}[H]
+    \begin{center}
+            \includegraphics[width=1\textwidth,clip]{JAP4}
+     \end{center}
+    \caption{Left panel: Band-gap energy $E_g$ and Fermi energy $E_F$ for $1 \leq T \leq 900$ K of intrinsic CuInSe\textsubscript{2}, CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2}, and CuGaSe\textsubscript{2},
+    determined from the full band parameterization. In this figure, we also present the Fermi distribution $f(E)$ of CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2} for T = 300 K and 600 K. Right panel: 
+    Intrinsic carrier concentration as function of temperature. For comparison, the theoretical result for GaAs and Si using the parabolic band approximation is given.}
+   \label{icc}
+\end{figure}
 
 
 In \textbf{Fig. \ref{icc}}, the temperature dependent band-gap and Fermi level (left panel) and intrinsic carrier concentration (right panel) are shown.  In the left panel of \textbf{Fig. \ref{icc}}, the band-gap is 1.04, 1.33,
@@ -1929,14 +1946,6 @@ $E_F$ 600 K   [eV] &0.59  &0.71	&0.84     \\
 \end{table}
 
 
- \begin{figure}[H]
-    \begin{center}
-            \includegraphics[width=1\textwidth,clip]{JAP4}
-     \end{center}
-    \caption{Intrinsic carrier concentration as function of temperature.}
-   \label{icc}
-\end{figure}
-
 
 In the left panel of \textbf{Fig. \ref{icc}}, the Fermi distribution of CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2} is given at 300 K and 600 K, respectively. The probability of occupying the VBM (CBM) by a hole (an electron) is 
 relative increase of around $10^6$ times from 300 K to 600 K. In the right panel of \textbf{Fig. \ref{icc}}, the intrinsic carrier concentration is increased dramatically with the increasing of temperature for the CIGS. For example, in the case of CuInSe\textsuperscript{2}, 
@@ -1945,12 +1954,6 @@ concentration is increased goes up to 2$-$3 times by taking into account the non
 
 Since as-grown CIGS typically has $p$-type character, the Fermi level and $p$-type carrier concentration of free holes $n_v(T)$ and free electrons $n_c(T)$ is calculated by 
 assuming the presences of the native Cu vacancies as acceptors. 
-
-
-The calculated Fermi level $E_F^P$ in $p$-type materials is presented in \textbf{Fig. \ref{ptypecc1}}, referred to the Fermi level of the intrinsic materials $E_F$ from \textbf{Fig. \ref{icc}}. Only at very high temperatures
-( $T > 400 K$) and for low acceptor concentrations, the Fermi level of $p$-type CIGS will reach the Fermi level of corresponding intrinsic compounds. Moreover, although the different compounds have comparable acceptor ionization
-energies, the Ga rich alloy has lower relative Fermi level; this is a direct consequence of the larger band-gap of the Ga rich alloy. By comparing the calculations with the pba (dotted lines in \textbf{Fig. \ref{ptypecc1}} ) and 
-the fba (solid lines) for each of the three CIGS alloys, one notices that the Fermi level is similar for the two models only at low and at very high temperatures. In the mid-temperature region the difference is however apparent.
 
  \begin{figure}[H]
     \begin{center}
@@ -1965,7 +1968,16 @@ the fba (solid lines) for each of the three CIGS alloys, one notices that the Fe
 
 
 
-The $p$-type carrier concentration (\textbf{Fig. \ref{ptypecc}}) for CIGS is presented using \textbf{Eq. \ref{ecc}}
+The calculated Fermi level $E_F^P$ in $p$-type materials is presented in \textbf{Fig. \ref{ptypecc1}}, referred to the Fermi level of the intrinsic materials $E_F$ from \textbf{Fig. \ref{icc}}. Only at very high temperatures
+( $T > 400 K$) and for low acceptor concentrations, the Fermi level of $p$-type CIGS will reach the Fermi level of corresponding intrinsic compounds. Moreover, although the different compounds have comparable acceptor ionization
+energies, the Ga rich alloy has lower relative Fermi level; this is a direct consequence of the larger band-gap of the Ga rich alloy. By comparing the calculations with the pba (dotted lines in \textbf{Fig. \ref{ptypecc1}} ) and 
+the fba (solid lines) for each of the three CIGS alloys, one notices that the Fermi level is similar for the two models only at low and at very high temperatures. In the mid-temperature region the difference is however apparent.
+
+
+
+
+
+The $p$-type carrier concentration (\textbf{Fig. \ref{ptypecc}}) for {CuIn\textsubscript{1-\textit{x}}Ga\textsubscript{\textit{x}}Se\textsubscript{2}} ($x$ = 0, 0.5, and 1) is presented using \textbf{Eq. \ref{ecc}}
 
  \begin{figure}[H]
     \begin{center}
@@ -1978,15 +1990,15 @@ The $p$-type carrier concentration (\textbf{Fig. \ref{ptypecc}}) for CIGS is pre
 
 In \textbf{Fig. \ref{ptypecc}}, the carrier concentration is recognized by three different regions: the freeze-out region, the extrinsic region and the intrinsic region. The 
 transition from the freeze-out region to the extrinsic region happens below the room temperature except that the uncompensated acceptor concentration is above around 
-$10^{18}$ cm\textsuperscript{$-$3}. The transition from the extrinsic ergion to the intrinsic region for In rich compounds occurs at the lower temperature since they have smaller band gaps.
+$10^{18}$ cm\textsuperscript{$-$3}. The transition from the extrinsic region to the intrinsic region for In rich compounds occurs at the lower temperature since they have smaller band gaps.
 The result based on the pba underestimates the carrier concentration around by the factor of 2 in the both freeze-out and intrinsic regions. Therefore, the 
 non-parabolic energy bands is required in order to describe the carrier concentration more accurately.
 
 
 \section{Calculations of dielectric function for CIGS}
 In this work, the dielectric function ($\varepsilon (\omega)$ = $\varepsilon_1 (\omega)$ + i$\varepsilon_2 (\omega)$) spectra of CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2} is calculated by the all electron
-and full-potential linearized augmented plane wave (FPLAPW) method. The calculated dielectric function is compared with experimental value (CuIn\textsubscript{0.7}Ga\textsubscript{0.3}Se\textsubscript{2}) at temperature 
-of 40 K and 300 K, and they are in a good agreement. The different contributions to $\varepsilon_2(\omega)$ in terms of the transitions between the valence bands and the conduction bands are identified based on the calculation.
+and full-potential linearized augmented plane wave (FPLAPW) method. The calculated dielectric function is compared with experimental values (CuIn\textsubscript{0.7}Ga\textsubscript{0.3}Se\textsubscript{2}) at temperature 
+of 40 K and 300 K, and they are in a good agreement. The different contributions to $\varepsilon_2(\omega)$ in terms of the transitions between the valence bands and the conduction bands are identified based on this calculation.
 Moreover, the $\textbf{k}$-dependence of the interband critical points (CPs) along the main symmetry directions is analyzed as well.
 
  \begin{figure}[H]
@@ -1994,8 +2006,8 @@ Moreover, the $\textbf{k}$-dependence of the interband critical points (CPs) alo
             \includegraphics[width=0.5\textwidth]{APL1b.jpg}
             \includegraphics[width=0.45\textwidth]{APL1a.jpg}
      \end{center}
-    \caption{Left panel: The real ($\varepsilon_1$) and imaginary ($\varepsilon_2$) part of dielectric function spectra for $CuIn_{0.7}Ga_{0.3}Se_2$ 
-at 40 K (solid blue line) and 300 K (dashed red lines). Four prominent CP features are shown. Right panel: the dielectric function spectra for  $CuIn_{0.5}Ga_{0.5}Se_2$
+    \caption{Left panel: The real ($\varepsilon_1$) and imaginary ($\varepsilon_2$) part of dielectric function spectra for CuIn\textsubscript{0.7}Ga\textsubscript{0.3}Se\textsubscript{2} 
+at 40 K (solid blue line) and 300 K (dashed red lines). Four prominent CP features are shown. Right panel: the dielectric function spectra for CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2}
 calculated by FPLAPW method at 0 K. The major CP features are identified. }
    \label{df1}
 \end{figure}
@@ -2007,16 +2019,16 @@ the calculated result. The contribution to dielectric function between the valen
 
  \begin{figure}[H]
     \begin{center}
-            \includegraphics[width=0.6\textwidth]{APL34}
+            \includegraphics[width=0.75\textwidth]{APL34}
      \end{center}
     \caption{Upper panel: Band-to-band analysis of the contribution to the total $\varepsilon_2$ spectrum. The vertical axis is in the log scale. 
               Down panel: The calculated electronic band structure of CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2} where the CPs are identified along the main symmetry directions.}
    \label{df2}
 \end{figure}
 
-Here, $v_1$ and $c_1$ represent the topmost valence band and lowest conduction band, respectively. From the \textbf{Fig. \ref{df2}}, one notices that the $E_1$ CP comes from 
+Here, $v_1$ and $c_1$ represent the topmost valence band and lowest conduction band, respectively. From \textbf{Fig. \ref{df2}}, one notices that the $E_1$ CP comes from 
 the $v_1 \longrightarrow c_1$ transition near the P(1/2, 1/2, 1/2) point of the Brillouin zone (BZ). The $E_2$ and $E_3$ CPs are corresponding to transition of $v_2 \longrightarrow c_1$ in the P point
-as well in the BZ. The $E_2$ and $E_3$ CPs are small peak in the \textbf{Fig. \ref{df2}}. However, the calculation of $CuInSe_2$ indicates that they happens 0.1$-$0.2 eV higher than 
+as well in the BZ. The $E_2$ and $E_3$ CPs are small peak in the \textbf{Fig. \ref{df2}}. However, the calculation of CuInSe\textsubscript{2} indicates that they happens 0.1$-$0.2 eV higher than 
 the $E_1$ CP, which is distinct spectral features (\textbf{Fig. \ref{ccccc}}). The $E_4$ CP comes from the transition of $v_3 \longrightarrow c_1$ at the $M (1,0,0) = M^*(0,0,1)$ point.
 The $E_5$ CP is contributed by the transitions $v_4 \longrightarrow c_1$ at the $N (1/2,0,1/2)$ point and $v_3 \longrightarrow c_1$ at the $M/M^*$ point. The $E_6$ CP feature
 corresponding to the  $v_4 \longrightarrow c_1$ at the $N$ point. The $E_7$ is from the transitions $v_4 \longrightarrow c_2$ at the $\Gamma (0,0,0)$ and N point, the 
@@ -2025,393 +2037,69 @@ corresponding to the  $v_4 \longrightarrow c_1$ at the $N$ point. The $E_7$ is f
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[scale=0.7]{thesis2.eps}
+\includegraphics[scale=0.5]{thesis2.eps}
 \end{center}
-\caption{The $\varepsilon_2(\omega)$ spectra for CuInSe\textsubscript{2} and CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2}. }
+\caption{The $\varepsilon_2$ spectra for CuInSe\textsubscript{2} and CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2}. }
 \label{ccccc}
 \end{figure}
 
 
 \chapter{Summary of the publications}
 
-\begin{comment}
-\section{Methodology and implementation}
+\begin{enumerate}
+\renewcommand{\labelenumi}{\Roman{enumi}}
+%\item{} \textbf{Parameterization of $CuIn_{1−x}Ga_{x}Se_2$ (x = 0, 0.5, and 1) energy bands}
+\item{}  \textbf{Parameterization of $\mathbf {CuIn_{1-x}Ga_{x}Se_2}$ (x = 0, 0.5, and 1) energy bands}
+\\\textbf{R. Chen} and C. Persson, \textit{Thin Solid Films} {\textbf {519}}, 7503 (2011).
 
-\subsection{scalar relativistic approximation}
+The parameterization of the electronic band structure of CuIn\textsubscript{1-\textit{x}}Ga\textsubscript{\textit{x}}Se\textsubscript{2} ($x$ = 0, 0.5, and 1) demonstrates that the energy dispersions of the lowest conduction band
+and three uppermost valence bands are strongly anisotropic and non-parabolic close to the $\Gamma$-point. This anisotropy and non-parabolicity directly affect the effective electron and hole masses.
 
-\subsubsection{Implementation}
-In this section, the Hamiltonian matrix using scalar relativistic approximation (SRA) term in the Pauli Hamiltonian is derived in the muffin tin (MT) 
-region and interstitial region (IR). From the section \ref{srasoc}, the SRA Hamiltonian term is defined:
+\item{}\textbf{Band-edge density-of-states and carrier concentrations in intrinsic and $p$-type $\mathbf {CuIn_{1-x}Ga_{x}Se_2}$}
+\\\textbf{R. Chen} and C. Persson, \textit{J. Appl. Phys.} {\textbf {112}}, 103708 (2012).
 
-\begin{equation}
-  H_{sra} = - \frac{\bigtriangledown^4}{8c^2} + \frac{\bigtriangledown^2 V(r)}{8c^2}.
-\end{equation}
+we have analyzed the energy band dispersion and the carrier concentration in chalcopyrite CuIn\textsubscript{1-\textit{x}}Ga\textsubscript{\textit{x}}Se\textsubscript{2} ($x$ = 0, 0.5, and 1) alloys. The overall results are: 
+(i) the three uppermost valence bands (VBs) are strongly anisotropic and non-parabolic. (ii) The lowest CB becomes non-parabolic for energies 50$-$100 meV above the $\Gamma$-point band minimum. (iii) A constant density-of-states (DOS) mass 
+cannot accurately describe band filling of the valence bands even at low hole concentrations. Instead, we introduce an energy dependent DOS mass that can be utilized to describe the carrier concentration and the Fermi energy using 
+traditional equations for the DOS. (iv) With the full description of the energy dispersion, the hole concentration is improved by a factor of 10$-$50 and the electron concentration is improved by a factor of 2$-$10 depending on
+quasi-Fermi energy. (v) The transition from the freeze-out region to the extrinsic region occurs well below the room temperature for uncompensated acceptor concentration below around 10\textsuperscript{17} cm\textsuperscript{$-$3}, whereas for higher concentrations, not all 
+acceptors are ionized at T = 300 K. Thus, with a more correct description of the energy dispersions, one can better analyze the electron and hole dynamics in the
+CuIn\textsubscript{1-\textit{x}}Ga\textsubscript{\textit{x}}Se\textsubscript{2} ($x$ = 0, 0.5, and 1) alloys, thereby better understand the electrical properties of these compounds. 
 
-The Hamiltonian matrix can be implemented by:
+\item{} \textbf{Dielectric function spectra at 40 K and critical-point energies for $\mathbf {CuIn_{0.7}Ga_{0.3}Se_2}$}
+\\ S.G. Choi, \textbf{R. Chen}, C. Persson, T.J. Kim, S.Y. Hwang, Y. D. Kim, and L. M. Mansfield,
+\textit{Appl. Phys. Lett. } {\textbf {101}}, 261903 (2012).
 
-\begin{equation}
-\label{sra1}
- H_{jj'} = \left  < \phi_{j} | H_{sra} | \phi_{{j'}} \right >,
-\end{equation}
- 
-where $\phi_j$ is the basis function. The basis function will be divided into two types in the Exciting code (FPLAPW method), one is in the muffin tin (MT) region, the other is in the interstitial region. Especially,
-the basis function has two forms in the MT region, one is augemented plane wave, another is local orbitals. 
+The dielectric function spectra of CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2} is calculated by the all electron
+and full-potential linearized augmented plane wave (FPLAPW) method. The calculated dielectric function is compared with experimental values (CuIn\textsubscript{0.7}Ga\textsubscript{0.3}Se\textsubscript{2}) at temperature 
+of 40 K and 300 K, and they are in a good agreement. The different contributions to imaginary part of dielectric function in terms of the transitions between the valence bands and the conduction bands are identified based on this
+calculation. Moreover, the $\textbf{k}$-dependence of the interband critical points (CPs) along the main symmetry directions is analyzed as well.
 
-In the MT region, the basis function is:
-\begin{equation}
-\begin{split}
-& \phi_{{\textbf{G}}}^{APW} = \sumg<\alpha>\sum\limits_{{\ell}m} A _{{\ell}m}^{\alpha} {(\textbf{k+G})} u_{{\ell}}(r_{\alpha}, E_{\ell}) Y_{{\ell}m}(\hat{\textbf{r}}_{\alpha}), \\
-& \phi_{{{p}}}^{lo} = v_p^{\alpha}(r) Y_{{\ell}_p m_p}(\hat{\textbf{r}}_{\alpha} ) = \sum\limits_{j=1}^{M_p^{\alpha}} B _j^{\alpha} w_j(r_\alpha) Y_{{\ell}_p m_p}(\hat{\textbf{r}}_{\alpha} ),
-\end{split}
-\end{equation}
 
-where $\phi_{{\textbf{G}}}^{APW}$ and $\phi_{{{p}}}^{lo}$ are the basis function in the MT region. The $A _{{\ell}m}^{\alpha} {(\textbf{k+G})}$ and $B _j^{\alpha}$ are
-the match coefficient. The $u_{{\ell}}^{\alpha}(r_{\alpha}, E_{\ell})$ and $w_j(r_\alpha)$ are the radial function, the $Y_{{\ell}m}(\hat{\textbf{r}}_{\alpha})$ and $Y_{{\ell}_p m_p}(\hat{\textbf{r}}_{\alpha})$
-are spherical harmonics.
+\end{enumerate}
 
-In the interstitial region, the basis function is:
-\begin{equation}
- \phi_{{\textbf{G}}}^{IR} =  \frac {1}{\sqrt{\Omega}} e^{i({ \textbf {k+G}}) {\textbf r}}. 
-\end{equation}
-
-Therefore the standard Hamiltonian matrix (without considering local orbital) in the MT region  is:
-\begin{equation}
-\label{sra111}
-\begin{split}
-& H_{jj'}^{MT\_{AA}} =  \left  < \phi_{\textbf{G}}^{APW} | H_{sra} | \phi_{\textbf{G'}}^{APW} \right > 
-\end{split}
-\end{equation}
-
-In Eq. \ref{sra111}, the main part is to calculate:
-
-\begin{equation}
-\label{sra222}
-\begin{split}
-& \left  < u_{{\ell}}(r_{\alpha}, E_{\ell}) Y_{{\ell}m}(\hat{\textbf{r}}_{\alpha}) | - \frac{\bigtriangledown^4}{8c^2} + \frac{\bigtriangledown^2 V(r)}{8c^2} | u_{{\ell'}}(r_{\alpha}, E_{\ell'}) Y_{{\ell'}m'}(\hat{\textbf{r}}_{\alpha}) \right > \\
-& = \left  < u_{{\ell}}(r_{\alpha}, E_{\ell}) Y_{{\ell}m}(\hat{\textbf{r}}_{\alpha}) | - \frac{\bigtriangledown^4}{8c^2} | u_{{\ell'}}(r_{\alpha}, E_{\ell'}) Y_{{\ell'}m'}(\hat{\textbf{r}}_{\alpha}) \right > \\ 
-&    + \left  < u_{{\ell}}(r_{\alpha}, E_{\ell}) Y_{{\ell}m}(\hat{\textbf{r}}_{\alpha}) |  \frac{\bigtriangledown^2 V(r)}{8c^2} | u_{{\ell'}}(r_{\alpha}, E_{\ell'}) Y_{{\ell'}m'}(\hat{\textbf{r}}_{\alpha}) \right > \\
-& =- \frac{1}{8c^2} \left  < \bigtriangledown^2 \big (u_{{\ell}}(r_{\alpha}, E_{\ell}) Y_{{\ell}m}(\hat{\textbf{r}}_{\alpha}) \big ) | \bigtriangledown^2 \big ( u_{{\ell'}}(r_{\alpha}, E_{\ell'}) Y_{{\ell'}m'}(\hat{\textbf{r}}_{\alpha}) \big )\right > \\
-&    + \frac{1}{8c^2} C_{\ell m,\ell'm'}^{\ell_\wedge m_\wedge}\int \limits_{0}^{R_{\alpha}} u_{{\ell}}(r_{\alpha}, E_{\ell}) \overline{V}_{l_\wedge m_\wedge} u_{{\ell'}}(r_{\alpha}, E_{\ell'}) d r \\
-& = -\frac{1}{8c^2} \delta_{\ell \ell'}\delta_{m m'} \int \limits_{0}^{R_{\alpha}} \bigtriangledown^2_r u_{{\ell}}(r_{\alpha}, E_{\ell})   \bigtriangledown^2_r u_{{\ell'}}(r_{\alpha}, E_{\ell'}) r_{\alpha}^2 dr \\
-& +  \frac{1}{4c^2} \delta_{\ell \ell'}\delta_{m m'} \ell'(\ell'+1) \int \limits_0^{R_{\alpha}} \bigtriangledown_r u_{{\ell}}(r_{\alpha}, E_{\ell}) \bigtriangledown_r u_{{\ell'}}(r_{\alpha}, E_{\ell'}) d r \\
-& -  \frac{1}{8c^2} \delta_{\ell \ell'}\delta_{m m'} \ell(\ell+1) \ell(\ell+1) \int \limits_0^{R_{\alpha}}  u_{{\ell}}(r_{\alpha}, E_{\ell})  u_{{\ell'}}(r_{\alpha}, E_{\ell'}) \frac{1}{r_{\alpha}^2} d r \\
-& +  \frac{1}{8c^2} C_{\ell m,\ell' m'}^{\ell_\wedge m_\wedge}\int \limits_{0}^{R_{\alpha}} u_{{\ell}}(r_{\alpha}, E_{\ell}) \overline{V}_{l_\wedge m_\wedge} u_{{\ell'}}(r_{\alpha}, E_{\ell'}) r_{\alpha}^2  d r 
-\end{split}
-\end{equation}
-
-where
-
-\begin{equation}
-\begin{split}
-& \bigtriangledown^2 \{ V(r) \} \\
-& = \bigtriangledown^2 \{ \sum \limits_{\ell_\wedge m_\wedge} V_{\ell_\wedge m_\wedge} Y_{{\ell_\wedge } m_\wedge}(\hat{\textbf{r}}_{\alpha})\} \\
-& = \sum \limits_{\ell_\wedge m_\wedge} \overline{V}_{\ell_\wedge m_\wedge} Y_{{\ell_\wedge } m_\wedge}(\hat{\textbf{r}}_{\alpha}),
-\end{split}
-\end{equation}
-
-and $C_{\ell m,\ell' m'}^{\ell_\wedge m_\wedge}$ in equation \ref{sra222} is the Gaunt coefficients.
-
-It is similar to consider the local orbitals:
-
-\begin{equation}
-\begin{split}
-& H_{jj'}^{MT\_{ALo}} =  \left  < \phi_{\textbf{G}}^{APW} | H_{sra} | \phi_{p}^{lo} \right > 
-\end{split}
-\end{equation}
-
-The main part to be calculated is:
-
-\begin{equation}
-\label{sra333}
-\begin{split}
-& \frac{1}{8c^2} \left  < \bigtriangledown^2 \big (u_{{\ell}}(r_{\alpha}, E_{\ell}) Y_{{\ell}m}(\hat{\textbf{r}}_{\alpha}) \big ) | \bigtriangledown^2 \big (w_j(r_\alpha)) Y_{{\ell_p}m_p}(\hat{\textbf{r}}_{\alpha}) \big )\right > \\
-&    + \frac{1}{8c^2} C_{\ell m,\ell_p m_p}^{\ell_\wedge m_\wedge}\int \limits_{0}^{R_{\alpha}} u_{{\ell}}(r_{\alpha}, E_{\ell}) \overline{V}_{l_\wedge m_\wedge} w_j(r_\alpha) d r \\
-& = -\frac{1}{8c^2} \delta_{\ell \ell_p}\delta_{m m_p} \int \limits_{0}^{R_{\alpha}} \bigtriangledown^2_r u_{{\ell}}(r_{\alpha}, E_{\ell})   \bigtriangledown^2_r w_j(r_\alpha) r_{\alpha}^2 dr \\
-& +  \frac{1}{4c^2} \delta_{\ell \ell_p}\delta_{m m_p} \ell_p(\ell_p+1) \int \limits_0^{R_{\alpha}} \bigtriangledown_r u_{{\ell}}(r_{\alpha}, E_{\ell}) \bigtriangledown_r w_j(r_\alpha)   d r \\
-& -  \frac{1}{8c^2} \delta_{\ell \ell_p}\delta_{m m_p} \ell(\ell+1) \ell_p(\ell_p+1) \int \limits_0^{R_{\alpha}}  u_{{\ell}}(r_{\alpha}, E_{\ell}) w_j(r_\alpha) \frac{1}{r_{\alpha}^2} d r \\
-& +  \frac{1}{8c^2} C_{\ell m,\ell_p m_p}^{\ell_\wedge m_\wedge}\int \limits_{0}^{R_{\alpha}} u_{{\ell}}(r_{\alpha}, E_{\ell}) \overline{V}_{l_\wedge m_\wedge} w_j(r_\alpha) r_{\alpha}^2  d r. 
-\end{split}
-\end{equation}
-
-And
-
-\begin{equation}
-\begin{split}
-& H_{jj'}^{MT\_{LoA}} =  \left  < \phi_{p}^{lo}   | H_{sra} | \phi_{\textbf{G}}^{APW} \right > 
-\end{split}
-\end{equation}
-The main part to be calculated is:
-
-\begin{equation}
-\label{sra222}
-\begin{split}
-&  \left  < w_j(r_\alpha) Y_{{\ell_p}m_p}(\hat{\textbf{r}}_{\alpha}) | - \frac{\bigtriangledown^4}{8c^2} | u_{{\ell'}}(r_{\alpha}, E_{\ell'}) Y_{{\ell'}m'}(\hat{\textbf{r}}_{\alpha}) \right > \\ 
-&    + \left  <  w_j(r_\alpha) Y_{{\ell_p}m_p}(\hat{\textbf{r}}_{\alpha}) |  \frac{\bigtriangledown^2 V(r)}{8c^2} | u_{{\ell'}}(r_{\alpha}, E_{\ell'}) Y_{{\ell'}m'}(\hat{\textbf{r}}_{\alpha}) \right > \\
-& = \frac{1}{8c^2} \left  < \bigtriangledown^2 \big ( w_j(r_\alpha) Y_{{\ell_p}m_p}(\hat{\textbf{r}}_{\alpha}) \big ) | \bigtriangledown^2 \big ( u_{{\ell'}}(r_{\alpha}, E_{\ell'}) Y_{{\ell'}m'}(\hat{\textbf{r}}_{\alpha}) \big )\right > \\
-&    + \frac{1}{8c^2} C_{\ell_p m_p,\ell'm'}^{\ell_\wedge m_\wedge}\int \limits_{0}^{R_{\alpha}} w_j(r_\alpha) \overline{V}_{l_\wedge m_\wedge} u_{{\ell'}}(r_{\alpha}, E_{\ell'}) d r \\
-& = - \frac{1}{8c^2} \delta_{\ell_p \ell'}\delta_{m_p m'} \int \limits_{0}^{R_{\alpha}} \bigtriangledown^2_r w_j(r_\alpha)   \bigtriangledown^2_r u_{{\ell'}}(r_{\alpha}, E_{\ell'}) r_{\alpha}^2 dr \\
-& +  \frac{1}{4c^2} \delta_{\ell_p \ell'}\delta_{m_p m'} \ell'(\ell'+1) \int \limits_0^{R_{\alpha}} \bigtriangledown_r w_j(r_\alpha) \bigtriangledown_r u_{{\ell'}}(r_{\alpha}, E_{\ell'}) d r \\
-& -  \frac{1}{8c^2} \delta_{\ell_p \ell'}\delta_{m_p m'} \ell_p(\ell_p+1) \ell'(\ell'+1) \int \limits_0^{R_{\alpha}}  w_j(r_\alpha)  u_{{\ell'}}(r_{\alpha}, E_{\ell'}) \frac{1}{r_{\alpha}^2} d r \\
-& +  \frac{1}{8c^2} C_{\ell_p m_p,\ell' m'}^{\ell_\wedge m_\wedge}\int \limits_{0}^{R_{\alpha}} w_j(r_\alpha) \overline{V}_{l_\wedge m_\wedge} u_{{\ell'}}(r_{\alpha}, E_{\ell'}) r_{\alpha}^2  d r 
-\end{split}
-\end{equation}
-
-And 
-
-\begin{equation}
-\begin{split}
-& H_{jj'}^{MT\_{LoLo}} =  \left  <\phi_{p}^{lo}  | H_{sra} | \phi_{p'}^{lo} \right > 
-\end{split}
-\end{equation}
-The main part to be calculated is:
-
-\begin{equation}
-\label{sra444}
-\begin{split}
-& \frac{1}{8c^2} \left  < \bigtriangledown^2 \big (w_j(r_\alpha) Y_{{\ell_p}m_p}(\hat{\textbf{r}}_{\alpha}) \big ) | \bigtriangledown^2 \big (w_{j'}(r_\alpha)) Y_{{\ell_{p'}}m_{p'}}(\hat{\textbf{r}}_{\alpha}) \big )\right > \\
-&    + \frac{1}{8c^2} C_{\ell_p m_p,\ell_{p'} m_{p'}}^{\ell_\wedge m_\wedge}\int \limits_{0}^{R_{\alpha}} w_j(r_\alpha) \overline{V}_{l_\wedge m_\wedge} w_{j'}(r_\alpha) d r \\
-& = - \frac{1}{8c^2} \delta_{\ell_p \ell_{p'}}\delta_{m_p m_{p'}} \int \limits_{0}^{R_{\alpha}} \bigtriangledown^2_r w_j(r_\alpha)   \bigtriangledown^2_r w_{j'}(r_\alpha) r_{\alpha}^2 dr \\
-& +  \frac{1}{8c^2} \delta_{\ell_p \ell_{p'}}\delta_{m_p m_{p'}} \ell_{p'}(\ell_{p'}+1) \int \limits_0^{R_{\alpha}} \bigtriangledown_r w_j(r_\alpha) \bigtriangledown_r w_{j'}(r_\alpha) d r \\
-& -  \frac{1}{8c^2} \delta_{\ell_p \ell_{p'}}\delta_{m_p m_{p'}} \ell_{p}(\ell_{p}+1) \ell_{p'}(\ell_{p'}+1) \int \limits_0^{R_{\alpha}}  w_j(r_\alpha) w_{j'}(r_\alpha) \frac{1}{r_{\alpha}^2} d r \\
-& +  \frac{1}{8c^2} C_{\ell_p m_p,\ell_{p'} m_{p'}}^{\ell_\wedge m_\wedge}\int \limits_{0}^{R_{\alpha}} w_j(r_\alpha) \overline{V}_{l_\wedge m_\wedge} w_{j'}(r_\alpha) r_{\alpha}^2 d r 
-\end{split}
-\end{equation}
-
-In the interstial region:
-
-\begin{equation}
-\begin{split}
-& H_{jj'}^{IR} =  \left  < \phi_{\textbf{j}}^{IR} | H_{sra} | \phi_{\textbf{j'}}^{IR} \right > \\
-&              = \left  < \phi_{{\textbf{G}}}^{IR}  | H_{sra} | \phi_{{\textbf{G'}}}^{IR} \right > \\
-&              =  \frac{1}{{8 {c}^2 }} \{ -(k+G)^2(k+G')^2 \widetilde{\theta}_{I}(G-G') -  \sumg<G''> V_{G''}(G'')^2 \widetilde{\theta}_{I}(G-G'-G'') \}
-\end{split}
-\end{equation}
-
-where potential is defined in the section \ref{epote}. And if $\theta_{I}(r)$ is the characteristic function of the interstitial region ( $r$ included in MT, $\theta_{I}(r)$ = 0, otherwise it is 1), $\widetilde{\theta}_{I}(r)$ comes from the Fourier transform of $\theta_{I}(r)$:
-\begin{equation}
-\theta_{I}(r) = \sumg<G> \widetilde{\theta}_{I}(G) \expg<G>
-\end{equation}
-
-And $\widetilde{\theta}_{I}(G)$ is defined:
- 
-\begin{equation*}\label{ap1}
-\widetilde{\theta}_{I}(G) =
-\begin{cases}  \delta_{G,0}-\sumg<\alpha> \frac{4 \pi R_{\alpha}^{3}}{\Omega} \frac{j_1(|G|R_{\alpha})}{|G|R_{\alpha}} e^{-iGr_{\alpha}} & \quad \mbox{if $\textbf{G} \leqslant \textbf{G}_{max} $}
-\\
-0  & \quad \mbox{if $\textbf{G} > \textbf{G}_{max} $}\\ 
-\end{cases}
-\end{equation*}
-
-where $R_{\alpha}$ is the radius of the MT, $r_{\alpha}$ is the position refer to the $\alpha$th atom, and $j_1$ is the ${1}$st order Bessel function.
-
-\subsubsection{Results and discusstion}
-It is needed to insert more after getting some results.
-
-\subsection{Scalar relativistic approximation in k $\cdot$ p method}
-\subsubsection{Implementation}
-One can check the section \ref{kpmaa} for the introduction of \textbf{k $\cdot$ p} method. Here the relativistic KS equation for \textbf{k $\cdot$ p} method in atomic units can be expressed as:
-
-\begin{equation}\label{m1}
-\left\{ - \frac{\bigtriangledown^2}{2} + V(r) - \frac{\bigtriangledown^4}{8c^2} + \frac{\bigtriangledown^2 V(r)}{8c^2} \right\} \wfbloch<n>< \bold k> = \ebloch<n><\bold k> \wfbloch<n><\bold k>,
-\end{equation}
-
-where 
-
-\begin{equation}\label{m2}
-\begin{split}
-& \wfbloch<n><\bold k> =  {\sum\limits_{j}} C_{n,j}^{\bold k} \chikp<j><\bold k>, \\
-& \chikp<j><\textbf k> = \expg<(\bold k-\bold {k_0})>  \wfbloch<j><\bold {k_0}>.
-\end{split}
-\end{equation}
-
-One can follow almost the same derivation but with more terms in the section \ref{kpmaa}, which ends up:
-
-\begin{equation}\label{m4}
-{\sum\limits_{j}} C_{n,j}^{\bold {k}} \left \{ H_{j',j}- \ebloch<n><\bold {k}> \delta_{j',j} \right \} =0,
-\end{equation}
-
-where
-\begin{equation} \label{m5}
-\begin{split}
-& H_{j',j} = \left \{  \ebloch<j><\bold {k_0}>  + \frac{1}{2} { (\bold{k}-\bold{k}_0)^2} - \frac{1}{8c^2}(\bold{k}-\bold{k}_0)^4   \right \} \delta_{j',j} + \left \{ {-i(\bold{k}-\bold{k}_0) + \frac{i}{2c^2}(\bold{k}-\bold{k}_0)^3} \right \} {\textbf p_{j',j}} \\
-& \qquad  + \left \{ \frac{3}{4c^2}(\bold{k}-\bold{k}_0)^2  \right \} {\textbf p'_{j',j}} + \left \{ \frac{-i}{2c^2}(\bold{k}-\bold{k}_0) \right \} {\textbf p''_{j',j}}, 
-\end{split}
-\end{equation}
-
-and
-
-\begin{equation} 
-\begin{split}
-& {\textbf p_{j',j}} = \langle \wfbloch<j'>< \bold k_0>| {\bigtriangledown} | \wfbloch<j>< \bold k_0>  \rangle, \\
-& {\textbf p'_{j',j}} = \langle \wfbloch<j'>< \bold k_0>| {\bigtriangledown^2} | \wfbloch<j>< \bold k_0>  \rangle, \\
-& {\textbf p''_{j',j}} = \langle \wfbloch<j'>< \bold k_0>| {\bigtriangledown^3} |\wfbloch<j>< \bold k_0>  \rangle.
-\end{split}
-\end{equation}
-
-From the above Eq. \ref{m4}, the coefficient $ C_{n,j}^{\bold k}$ and $\ebloch<n><\bold {k}>$ are calculated.
-
-\subsubsection{Results and discussion}
-
-It is needed to insert more after getting some results.
-
-\subsection{Spin-orbit coupling}
-
-\subsubsection{Implementation}
-In this section, spin-orbit coupling (SOC) implementation is derived in the muffin tin (MT) region and interstial region (IR). In the MT region, this implementation is compared with 
-the method exsiting in the orignal Exciting code.
-
-First, the way to implemente the SOC in the Exciting code is presented, which is included in second-variational scheme, that means it takes use of the basis function which is expanded from the first variational wavefunction.
-\begin{equation}
-\begin{split}
- & \widehat{H}_{1}   \phi^{i}_{1}  = E^{i}_1  \phi^{i}_{1} \\
- & (\widehat{H}_1+\widehat{H}_{soc})  \Psi  = E \Psi
-\end{split}
-\end{equation}
-\noindent  where $ \widehat{H}_{1}$ and $ \phi^{i}_{1}$ are first variational \hm and wavefunction, respectively, and $\Psi = \sumi<i> c_{i} \phi^{i}_1$.
-If  multiply $\phi^{j}_{1}$ on the left side of the second item of the above equation.
-\begin{equation}
-\begin{split}
- & <  \phi^{j}_1 |(\widehat{H}_1+\widehat{H}_{soc}) | \sumi<i> c_{i} \phi^{i}_1 > = E< \phi^{j}_1 | \sumi<i> c_{i} \phi^{i}_1>
-\end{split}
-\end{equation}
-
-\noindent After some operations, the above equation becomes:
-\begin{equation}
-\begin{split}
- &\sumi<i> c_{i} \{ E^{i}_{1} \delta_{i,j} +<\phi^{j}_1 |\widehat{H}_{soc} | \phi^{i}_1  > \} = \sumi<i> c_{i} E \delta_{i,j}
-\end{split}
-\end{equation}
- 
-\noindent So finally, the above equation becomes the eigenvalue probelm $H_2 C = E C$.
-\begin{equation}\label{ep444}
-H_2=\left[
-\begin{matrix}
-    E_1+H_{11} & H_{12} & \cdots & H_{1N} \\
-    H_{21} & E_2 + H_{22} & \cdots & H_{2N} \\
-    \vdots               & \vdots               &        & \vdots               \\
-     H_{N1} & H_{N2} & \cdots & E_{N}+H_{NN} \\
-\end{matrix} \right],
-C = \left[ \begin{array}{c} c_1 \\ c_2 \\ \vdots \\ c_N\end{array} \right]
-\end{equation}
-
-where $H_{j,j'} = <\phi^{j}_1 |\widehat{H}_{soc} | \phi^{j'}_1  > $. 
-
-In the current Exciting code, the SOC in the MT region is implemented by the term expressed: 
-\begin{equation}
- H_{soc}^{1} = \frac{1}{4M^2c^2} \frac{1}{r} \frac{dV(r)}{dr} \boldsymbol{\sigma}{L},
-\end{equation}
-
-where $M=1-{V(r)}/{(2c^2)}$ and V(r)=$V_{\ell=0,m=0}(r)$. 
-
-In this section, another expression is utilized, 
-\begin{equation}
-\label{socterm}
- H_{soc}^2 = \frac{1}{4 c^2} \boldsymbol{\sigma}[\nabla{V(r)} \times \textbf{P}],
-\end{equation}
-
-where $V(r)$ is general potential, which means that V(r) = $V_{\ell,m}(r)$, here $\ell$ and $m$ could be greater than zero.
-
-
-From Eq. \ref{ep444}, one can notice that the main part is to calculate $H_{j,j'} = <\phi^{j}_1 |\widehat{H}_{soc} | \phi^{j'}_1  > $.
-
-Before going furture derivation, first, some equalities need to be presented:
-
-\begin{equation}
-\begin{split}
-& \sigma \cdot \textbf{h} = \left (  \begin{array}{ccc}
-h_z & h_x-ih_y\\
-h_x+ih_y & -h_z\end{array} \right ), \\
-& \textbf{A} \times \textbf{B} = \left ( A_x B_x, A_y B_y, A_z B_z  \right ).
-\end{split}
-\end{equation}
-
-Also, there is one way to calculate the gradient of muffin-tin function, for example, 
-\begin{equation}
- F(r) = \sum \limits_{\ell m} f_{\ell m}(\textbf{r}) Y_{\ell m} (\textbf{r}_{\alpha}),
-\end{equation}
-
-where $F(r)$ is muffin tin function, then, the gradient of this function could be expressed by: 
-\begin{equation}
- \bigtriangledown F(r) = \sum \limits_{\ell m} \overline{f}_{\ell m}(\textbf{r}) Y_{\ell m} (\textbf{r}_{\alpha}).
-\end{equation}
-
-One will notice that the wavefunction and potential in the MT region here also can be constructed to be similar form like $F(r)$.
-
-Now it is the time to calculate the SOC Hamiltonian matrix (in atomic units):
-
-\begin{equation}
-\label{soc12345}
-\begin{split}
-& H_{j,j'} = <\phi^{j}_1 |\widehat{H}_{soc} | \phi^{j'}_1  > \\
-&          = < \sum \limits_{\ell m} G_{\ell m}^j Y_{\ell m} (\textbf{r}_\alpha)| - \frac{i}{4 c^2} \boldsymbol{\sigma} \cdot [\nabla{V(r)} \times \nabla] | \sum \limits_{\ell' m'} G_{\ell m}^{j'} Y_{\ell' m'} (\textbf{r}_\alpha)> \\
-&          =  - \frac{i}{4 c^2} < \sum \limits_{\ell m} G_{\ell m}^j Y_{\ell m} (\textbf{r}_\alpha)| \boldsymbol{\sigma} \cdot  \nabla \left ( {\sum \limits_{\ell_\wedge m_\wedge}V_{\ell_\wedge m_\wedge} Y_{\ell_\wedge m_\wedge} (r_\alpha)} \right ) \times \nabla \left ( \sum \limits_{\ell' m'} G_{\ell' m'}^{j'} Y_{\ell' m'} (\textbf{r}_\alpha) \right)> \\
-&          = - \frac{i}{4 c^2} \sum \limits_{\ell m, \ell' m'}^{\ell_\wedge m_\wedge} C_{\ell m,\ell' m'}^{\ell_\wedge m_\wedge} < G_{\ell m}^j | \sigma \cdot \overline{V}_{\ell_\wedge m_\wedge} \times   \overline{G}_{\ell' m'}^{j'}> \\
-&          =- \frac{i}{4 c^2} \sum \limits_{\ell m, \ell' m'}^{\ell_\wedge m_\wedge} C_{\ell m,\ell' m'}^{\ell_\wedge m_\wedge} < G_{\ell m}^j | \sigma \cdot \overline{M}_{\ell_\wedge m_\wedge}^{\ell' m'} > \\
-&          = - \frac{i}{4 c^2} \sum \limits_{\ell m, \ell' m'}^{\ell_\wedge m_\wedge} C_{\ell m,\ell' m'}^{\ell_\wedge m_\wedge} < G_{\ell m}^j | \left (  \begin{array}{ccc}
-\overline{M}_z & \overline{M}_x-i\overline{M}_y\\
-\overline{M}_x+i\overline{M}_y & -\overline{M}_z\end{array} \right ) >,
-\end{split}
-\end{equation}
-
-where $\overline{M}_{\ell_\wedge m_\wedge}^{\ell' m'} = \overline{V}_{\ell_\wedge m_\wedge} \times   \overline{G}_{\ell' m'}^{j'}$, and the wavefunction and potential and gradient of them in the MT region are:
-\begin{equation}
-\begin{split}
-& \phi^{j'}_1 = \sum \limits_{\ell' m'} G_{\ell' m'}^{j'} Y_{\ell' m'} (\textbf{r}_\alpha), \\
-& \nabla \phi^{j'}_1 = \sum \limits_{\ell' m'} \overline{G}_{\ell' m'}^{j'} Y_{\ell' m'} (\textbf{r}_\alpha), \\
-& V(r) = {\sum \limits_{\ell_\wedge m_\wedge}V_{\ell_\wedge m_\wedge} Y_{\ell_\wedge m_\wedge} (r_\alpha)}, \\
-& \nabla V(r) = {\sum \limits_{\ell_\wedge m_\wedge} \overline{V}_{\ell_\wedge m_\wedge} Y_{\ell_\wedge m_\wedge} (r_\alpha)}
-\end{split}
-\end{equation}
-
-Since the there are spin up and spin down, therefore, the Hamiltonian matrix is divided by the 2 $\times$ 2 matrix,
- each block of the matrix means the combination matrix from spin up and down :
-
-\begin{equation}\label{block}
- \left( \begin{array}{cc}
-\uparrow \uparrow & \uparrow \downarrow\\
-\downarrow \uparrow & \downarrow \downarrow \end{array} \right)
-\rightarrow \left (  \begin{array}{ccc}
-\overline{M}_z & \overline{M}_x-i\overline{M}_y\\
-\overline{M}_x+i\overline{M}_y & -\overline{M}_z\end{array} \right ) 
-\end{equation}
-
-where $\downarrow$ and $\uparrow$ represent spin down and up, respectively.
-
-Therefore, the Eq. \ref{soc12345} could be further derived:
-
-For the case of spin up to spin up ($\uparrow \uparrow$):
-\begin{equation}
-H_{j,j'} =  - \frac{i}{4 c^2} \sum \limits_{\ell m, \ell' m'}^{\ell_\wedge m_\wedge} C_{\ell m,\ell' m'}^{\ell_\wedge m_\wedge} < G_{\ell m}^j | \overline{M}_z>
-\end{equation}
-
-For the case of spin down to spin down ($\downarrow \downarrow$):
-\begin{equation}
-H_{j,j'} =  - \frac{i}{4 c^2} \sum \limits_{\ell m, \ell' m'}^{\ell_\wedge m_\wedge} C_{\ell m,\ell' m'}^{\ell_\wedge m_\wedge} < G_{\ell m}^j | -\overline{M}_z>
-\end{equation}
-
-For the case of spin up to spin down ($\uparrow \downarrow$):
-\begin{equation}
-H_{j,j'} =  - \frac{i}{4 c^2} \sum \limits_{\ell m, \ell' m'}^{\ell_\wedge m_\wedge} C_{\ell m,\ell' m'}^{\ell_\wedge m_\wedge} < G_{\ell m}^j | \overline{M}_x-i\overline{M}_y>
-\end{equation}
-
-From now on, the SOC implementation in the IR is derived. The Hamiltonian matrix utilizing the SOC term in Eq. \ref{socterm} is not Hermitian matrix. Therefore, here a new 
-method is imported, named ZORA term. It has the following form:
-
-It is not finished yet this part! and the non-hermitian using the SOC term in Eq. \ref{socterm} needs to be tested carefully!!! 
-
-
-
-
-
-\subsubsection{Results and discussion}
-It is needed to insert more after getting some results.
-
-\end{comment}
 
 
 \chapter{Concluding remarks and future work}
+Chalcopyrite copper indium gallium diselenide (CIGS) is seen as one of the most promising solar cell material for the near future. The efficiency of CIGS has been reached up to around 20\% in the laboratory. 
 
-\chapter*{Acknowledgements} \addcontentsline{toc}{chapter}{Acknowledgements}
+In the current work, two major researches are analyzed. (1): Parameterization of energy bands for CuIn{\textsubscript{1-$x$}}Ga{\textsubscript{$x$}}Se\textsubscript{2} where $x$ = 0, 0.5, and 1. With a more correct
+description of the energy dispersions, one can better analyze the electron and hole dynamics in the CuIn\textsubscript{1-\textit{x}}Ga\textsubscript{\textit{x}}Se\textsubscript{2} ($x$ = 0, 0.5, and 1) alloys, thereby better
+understand the electrical properties of these compounds. More importantly, this parameterization method can be utilized to other materials potentially. (2): Calculation of the dielectric function spectra for the
+CuIn{\textsubscript{0.5}}Ga{\textsubscript{0.5}}Se\textsubscript{2} by all electron and full-potential linearized augmented plane wave (FPLAPW) method, which is compared with experimental result. The probable electronic origins of
+the critical point features are discussed as well.
+
+Alternative materials for solar cell are plan to be analyzed in the future work due to the cost and scarcity of Indium in the CIGS. Copper zinc tin selenide/sulfide (CZT(Se,S)) is also a promising solar cell material due to the 
+low cost and non-toxicity elements in these compounds. It has many similarities with CIGS, such as similar device structure, fabrication techniques and tunable band gap. Therefore, it has huge potential for the future to reduce
+the cost of solar cells. Since the intensive research on those materials is relatively short time, therefore the conversion efficiency is only around 10\% in the laboratory. Apparently, the quaternary chalcogenide semiconductor is more 
+complicated compared with other thin film materials, more researches are needed to improve the conversion efficiency.  This research should not be limited only within CZT(Se,S), other compounds are needed to be considered as well such as
+chalcogenide Cu-based compounds with transitional metals, such as CFT(Se,S). There are several layers in solar cell device, and the optical properties in each layer can be calculated by theoretical methods. 
+The model of conversion efficiency in the whole solar cell is planned to analyzed in the future work as well. 
+
+
+
+ 
+
 
 \chapter{Appendices}
 
@@ -2522,6 +2210,25 @@ That is,
 \end{equation}
 
 The result in \textbf{Eq. \ref{functional3}} is useful to derive the solution in Hartree, Hartree Fock and Kohn-Sham equation.
+
+
+\chapter*{Acknowledgements} \addcontentsline{toc}{chapter}{Acknowledgements}
+
+I would like to express my sincere appreciation to my supervisor Prof. Clas Persson for his academic encouragement and professional guidance. He is always showing a great interest to my projects and patient to teach me detailed
+physics, this will be an invaluable asset to my future career.
+
+I am grateful to Prof. Börje Johansson for the acceptance in his research group as a PhD student at KTH Royal Institute of Technology. I also thank Prof. Börje Johansson and Prof. Natalia Skorodumova for being my co-supervisor during my PhD study.
+
+I appreciate Prof. Claudia Draxl to accept me visiting her group to learn Exciting Code at the University of Leoben in Austria and Humboldt University of Berlin in Germany, respectively. I also thank all the people who give me support and
+discuss with during my staying there.
+
+I would like to thank all the group colleagues in Stockholm and Oslo for helpful research discussions and chatting: Maofeng, Hanyue, Shen, Dan, Gustavo, Mukesh, Mathias, Priyadarshini, Tiago, Fabiano, Carlos, Oleksandr, Kristian,  Alexander, Girma, Roger. 
+I also would like to thank Xuemei to help me arrange apartment during staying in University of Oslo. I would like to thank all other people at the Department of Material Sciences and Engineering at KTH for creating a nice working atmosphere,
+especially for Qiang, Huahai, and Song.
+
+The China Scholarship Council, the Swedish Energy Agency, and the Swedish Research Council, Stiftelsen Axel Hultgrens fond,  Olle Erikssons stiftelse för materialteknik, and KTH Computational Science and Engineering Centre (KCSE) 
+are acknowledged for financial support.
+
 
 
 

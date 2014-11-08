@@ -1,30 +1,20 @@
-@inproceedings{reshef2009interval,
-  title={Interval Velocity Analysis in Complex Areas--Azimuth Considerations},
-  author={Reshef, M and Lipzer, N and Landa, E},
-  booktitle={71st EAGE Conference \& Exhibition},
-  year={2009}
+@misc{bp,
+  author = {},
+  title = {},
+  howpublished = {\url{http://www.bp.com/}},
+  year = 2014,
 }
 
-
-@article{mattheiss1969band,
-  title={Band Structure and Fermi Surface of Re O 3},
-  author={Mattheiss, LF},
-  journal={Physical Review},
-  volume={181},
-  number={3},
-  pages={987},
-  year={1969},
-  publisher={APS}
+@misc{iea,
+  author = {},
+  title = {},
+  howpublished = {\url{http://www.iea.org/publications/scenariosandprojections/}},
+  year = 2009,
 }
 
-@article{lichtenstein1998ab,
-  title={Ab initio calculations of quasiparticle band structure in correlated systems: LDA++ approach},
-  author={Lichtenstein, AI and Katsnelson, MI},
-  journal={Physical Review B},
-  volume={57},
-  number={12},
-  pages={6884},
-  year={1998},
-  publisher={APS}
+@book{smestad2002optoelectronics,
+  title={Optoelectronics of solar cells},
+  author={Smestad, Greg P,},
+  publisher={(SPIE press, chen, 2002)}
 }
 

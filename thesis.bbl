@@ -1,19 +1,14 @@
 \begin{thebibliography}{1}
 
-\bibitem{reshef2009interval}
-M~Reshef, N~Lipzer, and E~Landa.
-\newblock Interval velocity analysis in complex areas--azimuth considerations.
-\newblock In {\em 71st EAGE Conference \& Exhibition}, 2009.
+\bibitem{bp}
+\url{http://www.bp.com/}, 2014.
 
-\bibitem{mattheiss1969band}
-LF~Mattheiss.
-\newblock Band structure and fermi surface of re o 3.
-\newblock {\em Physical Review}, 181(3):987, 1969.
+\bibitem{iea}
+\url{http://www.iea.org/publications/scenariosandprojections/}, 2009.
 
-\bibitem{lichtenstein1998ab}
-AI~Lichtenstein and MI~Katsnelson.
-\newblock Ab initio calculations of quasiparticle band structure in correlated
-  systems: Lda++ approach.
-\newblock {\em Physical Review B}, 57(12):6884, 1998.
+\bibitem{smestad2002optoelectronics}
+Greg~P Smestad.
+\newblock {\em Optoelectronics of solar cells}.
+\newblock (SPIE press, chen, 2002).
 
 \end{thebibliography}
