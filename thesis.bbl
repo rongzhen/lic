@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{bp}
 \url{http://www.bp.com/}, 2014.
@@ -7,8 +7,57 @@
 \url{http://www.iea.org/publications/scenariosandprojections/}, 2009.
 
 \bibitem{smestad2002optoelectronics}
-Greg~P Smestad.
-\newblock {\em Optoelectronics of solar cells}.
-\newblock (SPIE press, chen, 2002).
+G.~P. Smestad.
+\newblock SPIE press, 2002.
+
+\bibitem{seinfeld2012atmospheric}
+J.~H. Seinfeld and S.~N. Pandis.
+\newblock John Wiley \& Sons, 2012.
+
+\bibitem{boyle2004renewable}
+G.~Boyle.
+\newblock OXFORD university press, 2004.
+
+\bibitem{XUE1991}
+W.~J. Y. X.~R. XUE.
+\newblock Unknown, 1991.
+
+\bibitem{Chiras201007}
+D.~Chiras.
+\newblock New Society Publishers, 7 2010.
+
+\bibitem{dimroth2014wafer}
+F.~Dimroth, M.~Grave, P.~Beutel, U.~Fiedeler, C.~Karcher, T.~N. Tibbits,
+  E.~Oliva, G.~Siefer, M.~Schachtner, A.~Wekkeli, {\em et~al.} {\em Progress in
+  Photovoltaics: Research and Applications}, vol.~22, no.~3, pp.~277--282,
+  2014.
+
+\bibitem{jones2009new}
+R.~Jones, ``New frontiers in solar cell conversion efficiency,'' {\em
+  Spectrolab, Inc. A Boeing Company. Sylmar, California, Estados Unidos}, 2009.
+
+\bibitem{panasonic}
+\url{http://www.gizmag.com/panasonic-hit-solar-cell-256-efficiency/31573/},
+  2014.
+
+\bibitem{ward2014cu}
+J.~S. Ward, B.~Egaas, R.~Noufi, M.~Contreras, K.~Ramanathan, C.~Osterwald, and
+  K.~Emery in {\em Photovoltaic Specialist Conference (PVSC), 2014 IEEE 40th},
+  pp.~2934--2937, IEEE, 2014.
+
+\bibitem{zsw}
+\url{http://www.zsw-bw.de/uploads/media/pr12-2014-ZSW-WorldrecordCIGS.pdf},
+  2014.
+
+\bibitem{zhou2014interface}
+H.~Zhou, Q.~Chen, G.~Li, S.~Luo, T.-b. Song, H.-S. Duan, Z.~Hong, J.~You,
+  Y.~Liu, and Y.~Yang {\em Science}, vol.~345, no.~6196, pp.~542--546, 2014.
+
+\bibitem{green2014emergence}
+M.~A. Green, A.~Ho-Baillie, and H.~J. Snaith {\em Nature Photonics}, vol.~8,
+  no.~7, pp.~506--514, 2014.
+
+\bibitem{mcgehee2014perovskite}
+M.~D. McGehee {\em Nature materials}, vol.~13, no.~9, pp.~845--846, 2014.
 
 \end{thebibliography}

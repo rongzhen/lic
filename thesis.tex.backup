@@ -50,7 +50,8 @@
 
 \begin{document}
 
-\bibliographystyle{unsrt} 
+
+\bibliographystyle{ieeetr}
 
 \def\hath{{H}}
 \def\wf {\Psi(\{ {\textbf r}_{i}, {\textbf R}_{I} \})}
@@ -118,7 +119,7 @@
 
 
   \vspace{12pt}
-  \textsc{\LARGE{\textbf{{Title}}}}
+  \textsc{\LARGE{\textbf{{Theoretical study of Cu-Based Quaternary Chalcogenide semiconductors}}}}
   \vspace{12pt}
 
   \vspace{5 cm}
@@ -301,7 +302,7 @@ The solar energy technologies are the way to produce electricity from the light 
 and ultraviolet light. The spectrum of the sun is close to the spectrum of black body with a temperature of about 6000 K (\textbf{Fig. \ref{spectrumsun}}). In the field of photovoltaics (PV), solar spectrum is established
 by air mass (AM) which defines the direct optical path length through the Earth's atmosphere \cite{smestad2002optoelectronics}. The AM1.5 and AM0 are important: AM1.5 is the air mass at a solar zenith angle of 48.19 degree, and AM0 mean the solar spectrum 
 outside of the atmosphere. Generally, solar spectrum at AM1.5 is used in PV field in order to standard solar cell measurements. In \textbf{Fig. \ref{spectrumsun}}, the absorption in the atmosphere is quite strong by gases,
-dust and aerosols, as well as the scattering of light from air molecules.
+dust and aerosols, as well as the scattering of light from air molecules \cite{seinfeld2012atmospheric}.
 
 \begin{figure}[H]
 \centering
@@ -310,16 +311,16 @@ dust and aerosols, as well as the scattering of light from air molecules.
 \label{spectrumsun}
 \end{figure}
 
-There are mainly three kinds of solar energy technologies. The first one is solar thermal,which utilizes the flat sunlight collector plates to harness the energy from sunlight to heat water for use in industries, homes, and pools.
+There are mainly three kinds of solar energy technologies \cite{boyle2004renewable,XUE1991,Chiras201007}. The first one is solar thermal,which utilizes the flat sunlight collector plates to harness the energy from sunlight to heat water for use in industries, homes, and pools.
 Therefore, the solar thermal collectors do not convert sunlight to electricity directly, but transfer the energy to heat up the water instead. The advantage is the conversion efficiency is relatively higher. The second one is 
 solar chemical, which takes advantage of solar energy by absorbing sunlight in a chemical reaction. However, the conversion efficiency is quite low. The last one is solar photovoltaics (solar cell), which is the way
 to utilize solar panels to convert sunlight into electricity. The installation is easier, occupy less space and less maintenance compared with solar thermal. The conversion efficiency is higher than solar chemical. However, 
-all the three solar energy technologies are environmentally friendly.\cite{reshef2009interval}
+all the three solar energy technologies are environmentally friendly.
 
 
 \section{Solar cells}
-In the worldwide, the conversion efficiency in all different types of solar cell is improved remarkably. From \textbf{Fig. \ref{nrel}}, one can notice that the highest efficiency for multijunction cells, crystalline silicon cells,
-thin-film technologies and new emerging cells are around 44.7\%, 27.6\%, 23.3\% and 17.9\% (19.3\% by Yang Yang Laboratory team at University of California, May 2014), respectively. Therefore, the solar cell is a very important and promising way to produce the
+In the worldwide, the conversion efficiency in all different types of solar cell is improved remarkably \cite{nerl}. From \textbf{Fig. \ref{nrel}}, the highest efficiency for multijunction cells, crystalline silicon cells,
+thin-film technologies and new emerging cells are around 44.7\%, 27.6\%, 23.3\% and 17.9\% (19.3\% by Yang Yang Laboratory team at University of California, May 2014 []), respectively. Therefore, the solar cell is a very important and promising way to produce the
 renewable energy.
 
 
@@ -333,10 +334,10 @@ renewable energy.
 
 Multijunction cells are the cells which contain multi $p$-$n$ junctions (or subcells) which have different band-gap for each $p$-$n$ junction.
 Therefore, different wavelengths of light from the Sun are absorbed for each of junction. For example, wider band-gap junction is at the front of the cell, which can absorb the photons with high energy; the junction with 
-low band-gap can absorb the photos with lower energy. Therefore, the conversion efficiency is higher than singe $p$-$n$ junction, for example, the maximum conversion efficiency is 44.7\% by Soitec using 
+low band-gap can absorb the photos with lower energy. Therefore, the conversion efficiency is higher than singe $p$-$n$ junction, for example, the maximum conversion efficiency is 44.7\% by Soitec \cite{dimroth2014wafer} using 
 four-junction or more in \textbf{Fig. \ref{nrel}}. Crystalline silicon cells are the most widely utilized in the photovoltaic industries, which built the solar cells using crystalline silicon (c-Si). It has two types in
 the crystalline silicon photovoltaics: mono-crystalline silicon and multi-crystalline silicon. The crystalline silicon cells have high efficiency, for example, the maximum conversion efficiency is 27.6\% with concentrator 
-by Amonix and maximum 25.6\% without concentrator by Panasonic in  the \textbf{Fig. \ref{nrel}}. Thin-Film solar cells are the cells which are made by depositing one or several thin layers, which allows the cells to be rather 
+by Amonix \cite{jones2009new} and maximum 25.6\% without concentrator by Panasonic \cite{panasonic} in  the \textbf{Fig. \ref{nrel}}. Thin-Film solar cells are the cells which are made by depositing one or several thin layers, which allows the cells to be rather 
 flexible and resulting in lower weight. The maximum conversion efficiency is lower than crystalline silicon today, which has the maximum conversion efficiency 23.3\% using CIGS with concentrator by NREL and 21.7\% without 
 concentrator by the center for solar energy and hydrogen research (ZSW) in Stuttgart in \textbf{Fig. \ref{nrel}}. The Emerging PV in \textbf{Fig. \ref{nrel}} represents the newest ways to create electricity from
 sunlight and potentially with higher conversion efficiency, such as perovskite cells, for which the maximum conversion efficiency is 19.3\% by the group Yang Yang at the University of California, Los Angeles. 
@@ -1737,8 +1738,8 @@ In \textbf{Fig. \ref{bandstruct}}, the parameterized energy bands can describe t
 valid below VBM around $-$4, $-$10, and $-$40 meV for the CuInSe\textsubscript2, CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2}, and CuGaSe\textsubscript{2}, respectively. Since the lowest conduction band
 is more parabolic, therefore, the less fitting parameters are expected (see \textbf{Table \ref{nonpara}}).
 
-To further ultilize this parameterization method, the energy dispersions of the lowest CB and the three uppermost VBs are parameterized for kesterite and stannite Cu\textsubscript{2}ZnSn(S,Se)\textsubscript{4} as well. It works as 
-good as CIGS, therefore, this parameterization method can be ultilized to other materials potentially.
+To further utilize this parameterization method, the energy dispersions of the lowest CB and the three uppermost VBs are parameterized for kesterite and stannite Cu\textsubscript{2}ZnSn(S,Se)\textsubscript{4} as well. It works as 
+good as CIGS, therefore, this parameterization method can be utilized to other materials potentially.
 
 \begin{figure}[H]
  \captionsetup{width=1\textwidth}
@@ -1990,7 +1991,7 @@ The $p$-type carrier concentration (\textbf{Fig. \ref{ptypecc}}) for {CuIn\texts
 
 In \textbf{Fig. \ref{ptypecc}}, the carrier concentration is recognized by three different regions: the freeze-out region, the extrinsic region and the intrinsic region. The 
 transition from the freeze-out region to the extrinsic region happens below the room temperature except that the uncompensated acceptor concentration is above around 
-$10^{18}$ cm\textsuperscript{$-$3}. The transition from the extrinsic ergion to the intrinsic region for In rich compounds occurs at the lower temperature since they have smaller band gaps.
+$10^{18}$ cm\textsuperscript{$-$3}. The transition from the extrinsic region to the intrinsic region for In rich compounds occurs at the lower temperature since they have smaller band gaps.
 The result based on the pba underestimates the carrier concentration around by the factor of 2 in the both freeze-out and intrinsic regions. Therefore, the 
 non-parabolic energy bands is required in order to describe the carrier concentration more accurately.
 
@@ -2085,33 +2086,18 @@ Chalcopyrite copper indium gallium diselenide (CIGS) is seen as one of the most 
 
 In the current work, two major researches are analyzed. (1): Parameterization of energy bands for CuIn{\textsubscript{1-$x$}}Ga{\textsubscript{$x$}}Se\textsubscript{2} where $x$ = 0, 0.5, and 1. With a more correct
 description of the energy dispersions, one can better analyze the electron and hole dynamics in the CuIn\textsubscript{1-\textit{x}}Ga\textsubscript{\textit{x}}Se\textsubscript{2} ($x$ = 0, 0.5, and 1) alloys, thereby better
-understand the electrical properties of these compounds. More importantly, this parameterization method can be ultilized to other materials potentially. (2): Calculation of the dielectric function spectra for the
+understand the electrical properties of these compounds. More importantly, this parameterization method can be utilized to other materials potentially. (2): Calculation of the dielectric function spectra for the
 CuIn{\textsubscript{0.5}}Ga{\textsubscript{0.5}}Se\textsubscript{2} by all electron and full-potential linearized augmented plane wave (FPLAPW) method, which is compared with experimental result. The probable electronic origins of
 the critical point features are discussed as well.
 
 Alternative materials for solar cell are plan to be analyzed in the future work due to the cost and scarcity of Indium in the CIGS. Copper zinc tin selenide/sulfide (CZT(Se,S)) is also a promising solar cell material due to the 
 low cost and non-toxicity elements in these compounds. It has many similarities with CIGS, such as similar device structure, fabrication techniques and tunable band gap. Therefore, it has huge potential for the future to reduce
-the cost of solar cells. Since the intensive reseach on those materials is relatively short time, therefore the conversion efficiency is only around 10\% in the laboratory. Apparently, the quaternary chalcogenide semiconductor is more 
-complicated compared with other thin film materials, more reseaches are needed to improve the conversion efficiency.  This research should not be limited only within CZT(Se,S), other compounds are needed to be considered as well such as
+the cost of solar cells. Since the intensive research on those materials is relatively short time, therefore the conversion efficiency is only around 10\% in the laboratory. Apparently, the quaternary chalcogenide semiconductor is more 
+complicated compared with other thin film materials, more researches are needed to improve the conversion efficiency.  This research should not be limited only within CZT(Se,S), other compounds are needed to be considered as well such as
 chalcogenide Cu-based compounds with transitional metals, such as CFT(Se,S). There are several layers in solar cell device, and the optical properties in each layer can be calculated by theoretical methods. 
 The model of conversion efficiency in the whole solar cell is planned to analyzed in the future work as well. 
 
-\chapter*{Acknowledgements} \addcontentsline{toc}{chapter}{Acknowledgements}
 
-I would like to express my sincere appreciation to my supervisor Prof. Clas Persson for his academic encouragement and professional guidance. He is always showing a great interest to my projects and patient to teach me detailed
-physics, this will be an invaluable asset to my future career.
-
-I am grateful to Prof. Börje Johansson for the acceptance in his research group as a PhD student. I also thank Prof. Börje Johansson and Prof. Natalia Skorodumova for being my co-supervisor during my PhD study.
-
-I appreciate Prof. Claudia Draxl to accept me visiting her group to learn Exiciting Code at the Montanuniversität Leoben in Austria and Humboldt-Universität zu Berlin in Germany, respectively. I also thank all the people who give me support and
-discuss with during my staying there.
-
-I would like to thank all the group colleages in Stockholm and Oslo for helpful research discussions and chatting: Maofeng, Hanyue, Shen, Dan, Gustavo, Mukesh, Mathias, Priyadarshini, Tiago, Fabiano, Carlos, Oleksandr, Kristian,  Alexander, Girma, Roger. 
-I also would like to thank Xuemei to help me arrange apartment during staying in University of Oslo. I would like to thank all other people at the Department of Material Sciences and Engineering for creating a nice working atmosphere,
-especially for Qiang, Huahai.
-
-The China Scholarship Council, the Swedish Energy Agency, and the Swedish Research Counci, Stiftelsen Axel Hultgrens fond,  Olle Erikssons stiftelse för materialteknik, and KTH Computational Science and Engineering Centre (KCSE) 
-are acknowledged for financial support.
 
  
 
@@ -2225,6 +2211,25 @@ That is,
 \end{equation}
 
 The result in \textbf{Eq. \ref{functional3}} is useful to derive the solution in Hartree, Hartree Fock and Kohn-Sham equation.
+
+
+\chapter*{Acknowledgements} \addcontentsline{toc}{chapter}{Acknowledgements}
+
+I would like to express my sincere appreciation to my supervisor Prof. Clas Persson for his academic encouragement and professional guidance. He is always showing a great interest to my projects and patient to teach me detailed
+physics, this will be an invaluable asset to my future career.
+
+I am grateful to Prof. Börje Johansson for the acceptance in his research group as a PhD student at KTH Royal Institute of Technology. I also thank Prof. Börje Johansson and Prof. Natalia Skorodumova for being my co-supervisor during my PhD study.
+
+I appreciate Prof. Claudia Draxl to accept me visiting her group to learn Exciting Code at the University of Leoben in Austria and Humboldt University of Berlin in Germany, respectively. I also thank all the people who give me support and
+discuss with during my staying there.
+
+I would like to thank all the group colleagues in Stockholm and Oslo for helpful research discussions and chatting: Maofeng, Hanyue, Shen, Dan, Gustavo, Mukesh, Mathias, Priyadarshini, Tiago, Fabiano, Carlos, Oleksandr, Kristian,  Alexander, Girma, Roger. 
+I also would like to thank Xuemei to help me arrange apartment during staying in University of Oslo. I would like to thank all other people at the Department of Material Sciences and Engineering at KTH for creating a nice working atmosphere,
+especially for Qiang, Huahai, and Song.
+
+The China Scholarship Council, the Swedish Energy Agency, and the Swedish Research Council, Stiftelsen Axel Hultgrens fond,  Olle Erikssons stiftelse för materialteknik, and KTH Computational Science and Engineering Centre (KCSE) 
+are acknowledged for financial support.
+
 
 
 
