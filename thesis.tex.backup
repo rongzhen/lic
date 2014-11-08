@@ -338,15 +338,15 @@ low band-gap can absorb the photos with lower energy. Therefore, the conversion 
 four-junction or more in \textbf{Fig. \ref{nrel}}. Crystalline silicon cells are the most widely utilized in the photovoltaic industries, which built the solar cells using crystalline silicon (c-Si). It has two types in
 the crystalline silicon photovoltaics: mono-crystalline silicon and multi-crystalline silicon. The crystalline silicon cells have high efficiency, for example, the maximum conversion efficiency is 27.6\% with concentrator 
 by Amonix \cite{jones2009new} and maximum 25.6\% without concentrator by Panasonic \cite{panasonic} in  the \textbf{Fig. \ref{nrel}}. Thin-Film solar cells are the cells which are made by depositing one or several thin layers, which allows the cells to be rather 
-flexible and resulting in lower weight. The maximum conversion efficiency is lower than crystalline silicon today, which has the maximum conversion efficiency 23.3\% using CIGS with concentrator by NREL and 21.7\% without 
-concentrator by the center for solar energy and hydrogen research (ZSW) in Stuttgart in \textbf{Fig. \ref{nrel}}. The Emerging PV in \textbf{Fig. \ref{nrel}} represents the newest ways to create electricity from
-sunlight and potentially with higher conversion efficiency, such as perovskite cells, for which the maximum conversion efficiency is 19.3\% by the group Yang Yang at the University of California, Los Angeles. 
-Perovskite cells jump into the world of solar cells only in 2009, and the conversion efficiency is improved remarkable within 5 years. Certainly, the search and optimization 
+flexible and resulting in lower weight. The maximum conversion efficiency is lower than crystalline silicon today, which has the maximum conversion efficiency 23.3\% using CIGS with concentrator by NREL \cite{ward2014cu} and 
+21.7\% without concentrator by the center for solar energy and hydrogen research (ZSW) in Stuttgart \cite{zsw} in \textbf{Fig. \ref{nrel}}. The Emerging PV in \textbf{Fig. \ref{nrel}} represents the newest ways to create electricity from
+sunlight and potentially with higher conversion efficiency, such as perovskite cells, for which the maximum conversion efficiency is 19.3\% by the group Yang Yang at the University of California, Los Angeles \cite{zhou2014interface}. 
+Perovskite cells jump into the world of solar cells only in 2009 \cite{green2014emergence, mcgehee2014perovskite}, and the conversion efficiency is improved remarkable within 5 years. Certainly, the search and optimization 
 of alternatively solar cell materials is still an ongoing and active area today.
 
 
 \subsection{Single-junction solar cells}
-The $p$-$n$ junction is the fundamental building block of solar cells. The single $p$-$n$ homojunction will be explored in this section based on Refs. [??,??]
+The $p$-$n$ junction is the fundamental building block of solar cells. The single $p$-$n$ homojunction will be explored in this section based on Refs. \cite{bok1,sproul2003understanding, neamen2003semiconductor}.
 
 We start from the separate $n$-type material and $p$-type material at room temperature (assume that all the donor (acceptor) atoms are positively (negatively) ionized at room temperature). In \textbf{Fig. \ref{dopedmaterials}},
 the left one shows the $n$-type and $p$-type materials. The $n$-type
@@ -436,13 +436,14 @@ FF = \frac{P_{out}}{V_{oc} \cdot I_{sc}} = \frac{V_{mp} \cdot I_{mp}}{V_{oc} \cd
 Here, $P_{in}$ is the incident photon power per second. The conversion efficiency of the solar cells is proportional to FF, $V_{oc}$, and $I_{sc}$. There are several aspects which will affect
 the conversion efficiency. $V_{oc}$ is directly proportional to the band-gap of the material, $I_{sc}$ is proportional to the number of absorbed photons. When the band-gap is decreased, the more of the spectrum is absorbed. However, 
 the $V_{oc}$ will be reduced in this case, more importantly, the excess energy of photons is lost due to the thermalization in the cells. When the band-gap is increased, transparency losses from the photons with energy lower than
-band-gap. There is more detailed analysis of conversion efficiency in the Ref[?? Principles of solar energy conversion].
+band-gap. There is more detailed analysis of conversion efficiency in the Ref. \cite{bok1}.
 
 
 \section{Solar cell materials}
 
-In 1839,  the French physicist A. E. Becquerel revealed the photovoltaic effect for the first time. Charles Fritts built the first solid state photovoltaic (PV) cell using semiconductor selenium in 1883. It is not until 1941 that
-the first silicon-based solar cell was demonstrated. Today, there are many different types of solar cell materials. The reason why the best solar cell material is not realized yet is that it is expected to be not only high efficiency but 
+In 1839,  the French physicist A. E. Becquerel \cite{Becquerel} revealed the photovoltaic effect for the first time. Charles Fritts built the first solid state photovoltaic (PV) cell using semiconductor selenium in 
+1883 \cite{etgar2013semiconductor,gourdin2007solar}. It is not until 1941 that
+the first silicon-based solar cell was demonstrated \cite{1941ohl1, 1941ohl2}. Today, there are many different types of solar cell materials. The reason why the best solar cell material is not realized yet is that it is expected to be not only high efficiency but 
 also environmentally friendly and low cost. It requires not only that the growth and manufacturing process of solar cell materials shall be cheaper, but also that the devices shall have longer application life, moreover the raw material
 should be abundant and non-toxic as well. In this section, four main solar cell materials are discussed briefly: silicon (Si), gallium arsenide (GaAs), cadmium telluride (CdTe), copper indium gallium diselenide (CIGS).
 
@@ -456,18 +457,18 @@ requirements. However, some other properties are needed to be considered as well
 \label{lscm}
 \end{figure}
 
-In \textbf{Fig. \ref{lscm}}, the formation of tetragonal semiconductors is considered as a series of cation mutations where the total number valence electrons is the same and keep the charge neutral. For example, group number
+In \textbf{Fig. \ref{lscm}}, the formation of tetragonal semiconductors is considered as a series of cation mutations where the total number valence electrons is the same and keep the charge neutral \cite{chen2009electronic, chen2009crystal, walsh2009design}. For example, group number
 IV element Si (level 0) with four 4\textsuperscript{+} ions is equivalent to two 3\textsuperscript{+} ions and two 5\textsuperscript{+} ions, such as GaAs (level 1). It is also equivalent to two 2\textsuperscript{+} ions
 and two 6\textsuperscript{+} ions, such as CdTe (level 1). The CIGS can be generated applying the same process on II element on the level 1. This method was suggested by Goodman and Pamplin. 
 
 
 
 \subsection{Crystalline silicon solar cells}
-The solar cell based on Si dominates the solar power world today, which accounts for more than 90\% of the total PV market.
+The solar cell based on Si dominates the solar power world today, which accounts for more than 90\% of the total PV market \cite{hoffmann2006pv}.
 This kind of solar cell takes advantage of different forms of Si, that is, monocrystalline Si and polycrystalline Si. 
 The success of Si is due to a number of reasons. Over 90\% is composed of silicate minerals in the crust of earth, which also yields huge available Si. Moreover, it has higher conversion efficiency, and it is also proved that 
 it has excellent stability and reliability under the outdoor condition. However, Si also have drawbacks. It has an indirect band-gap and hence it has a lower optical absorption coefficient. In order to absorb the incident sunlight fully, 
-it requires to thicker Si (around \SI{40} {\micro\meter}) to absorb the sunlight. Crystalline Silicon have to be high quality and defect free in order to avoid to lost the carriers before collection. Last but not least, it is expensive to purify the Si from silicate minerals, which
+it requires to thicker Si (wafer) (around \SI{0.2} {\milli\meter}) to absorb the sunlight \cite{brewer2013renewable}. Crystalline Silicon have to be high quality and defect free in order to avoid to lost the carriers before collection. Last but not least, it is expensive to purify the Si from silicate minerals, which
 really limits the cost reduction potential of wafer-based Si technology. 
 
 However, the solar cells based crystalline Si technology is still leading the market of solar cell since many companies are trying to lower the cost of the whole process.
@@ -475,42 +476,45 @@ However, the solar cells based crystalline Si technology is still leading the ma
 
 
 \subsection{Gallium arsenide}
-GaAs has a zinc blende crystal structure with a direct band-gap around 1.5 eV at room temperature. Some electronic properties of GaAs are superior to Si, such as higher electron 
+GaAs has a zinc blende crystal structure with a direct band-gap around 1.5 eV at room temperature \cite{cardona2005fundamentals, madelung1996semiconductors, madelung2004semiconductors}. Some electronic properties of GaAs
+are superior to Si, such as higher electron 
 mobility, higher saturated electron velocity, absorb sunlight more efficiently due to the direct band-gap. The optimum band-gap for the single junction solar cell is suggested around 1.3 eV by theoretical calculation 
-from Henry (1980) who modified the original Shockley-Queisser limit. Therefore one of the most applications of GaAs is solar cells. GaAs has been extensively researched since the 1950s, and the first GaAs solar cells were established in
-1970 by the Zhores Alferov's team. Today, the conversion efficiency for single function solar cell based on GaAs is around 28.8\%. However, it is more difficult to grow and the solar cell component has higher price in comparison with Si.
+from Henry (1980) \cite{henry1980limiting} who modified the original Shockley-Queisser limit \cite{shockley1961detailed}. Therefore one of the most applications of GaAs is solar cells. GaAs has been extensively researched
+since the 1950s, and the first GaAs solar cells were established in
+1970 by the Zhores Alferov's team \cite{alferov2001nobel}. Today, the conversion efficiency for single function solar cell based on GaAs is around 28.8\% \cite{yablonovitch2012opto}. However, it is more difficult to grow and the
+solar cell component has higher price in comparison with Si.
 Researches are focusing on how to reduce the price today, and the main application solar cell based on GaAs is in the space application. However, the arsenic toxicity should be considered. 
 
-The conversion efficiency for four-junction GaInP/GaAs//GaInAsP/GaInAs concentrator solar cells is reached 44.7\% by Soitec on March 2014.
+The conversion efficiency for four-junction GaInP/GaAs//GaInAsP/GaInAs concentrator solar cells is reached 44.7\% by Soitec on March 2014 \cite{dimroth2014wafer}.
 
 \subsection{Thin film materials}
 
-Thin film solar cells have several thin films with the total thickness less than \SI{10} {\micro\meter}. The cost can potentially be lower since the less materials are utilized to make thin film solar cells. The development of thin film
-solar cell was started since 1970s. Currently, the conversion efficiency for the single junction already surpassed 20\%, even though it is still not as high as the solar cells based on crystalline Si. Three different thin film
+Thin film solar cells have several thin films with the total thickness less than \SI{10} {\micro\meter} \cite{maissel1995handbook}. The cost can potentially be lower since the less materials are utilized to make thin film solar cells. The development of thin film
+solar cell was started since 1970s. Currently, the maximum conversion efficiency for thin film is 23.3\% \cite{ward2014cu}. Three different thin film
 materials are discussed in this section: amorphous silicon (a-Si), cadmium telluride (CdTe), and copper indium gallium diselenide (CIGS).
 
-A-Si solar cells are the first thin film solar cell material which reach the large-scale production. It has higher absorption coefficient than crystalline Si, therefore, the thickness can be less than \SI{1} {\micro\meter}. The 
-main disadvantages a-Si solar cells is the lower efficiency, the actual conversion efficiency for the commercial single junction solar cells based on a-Si is between 4\% to 8\%. This limits the development of a-Si thin film solar cells.
+A-Si solar cells are the first thin film solar cell material which reach the large-scale production \cite{carlson1976amorphous, street2000technology, schropp1998amorphous}. It has higher absorption coefficient than crystalline Si, therefore, the thickness can be less than \SI{1} {\micro\meter}. The 
+main disadvantages a-Si solar cells is the lower efficiency, the actual conversion efficiency for the commercial single junction solar cells based on a-Si is between 4\% to 8\% \cite{irena}. This limits the development of a-Si thin film solar cells.
 A-Si solar cells are suited to the situation which requires low cost over high efficiency. 
 
-CdTe was first reported in the 1960s. However, it is not developed rapidly until in the early 1990s. CdTe has a number of advantages as an absorber. It has higher absorption coefficient. The band-gap is around 1.45 eV, which 
-is very near the optimum value for single-junction solar cells. Moreover, the manufacturing process is easier to control, which results in the cost of manufacturing is low. Moreover, the commercial modules already reach the efficiency of 16\%.
+CdTe was first reported in the 1960s \cite{wolden2011photovoltaic}. However, it is not developed rapidly until in the early 1990s. CdTe has a number of advantages as an absorber. It has higher absorption coefficient. The band-gap is around 1.45 eV, which 
+is very near the optimum value for single-junction solar cells. Moreover, the manufacturing process is easier to control, which results in the cost of manufacturing is low \cite{meyers1988design}. Moreover, the commercial modules already reach the efficiency of 16\%.
 However, an important question is needed to be considered in order to large-scale CdTe manufacturing: cadmium toxicity and tellurium availability. 
 
 CIGS are direct band-gap semiconductors with high optical absorption coefficients. It is seen as one of the most promising solar cell material for the near future. It is always employed in a heterojunction structure, mainly it is with the thinner
-$n$-type CdS layer. The conversion efficiency of CIGS reached up to 20\% in the laboratory cell. The interesting part is that it can be alloyed by the ratio of Ga/(Ga+In), and the band-gap can be tuned along with that. The band-gap 
-is between 1.0 eV to 1.7 eV for this alloy. CIGS does not contain any toxic element.
+$n$-type CdS layer \cite{green2007thin}. The conversion efficiency of CIGS reached up to 20\% in the laboratory cell \cite{jackson2011new}. The interesting part is that it can be alloyed by the ratio of Ga/(Ga+In), and the band-gap can be tuned along with that. The band-gap 
+is between 1.0 eV to 1.7 eV for this alloy . CIGS does not contain any toxic element.
 
 %\section{CuIn\textsubscript{1-\textit{x}}Ga\textsubscript{\textit{x}}Se\textsubscript{2}(CIGS) materials}
 \section{Copper indium gallium diselenide (CIGS) materials}
 CIGS material is a chalcopyrite-type material, which is considered to be one of the most promising thin film solar cell material. The direct band-gap is from around 1.0 eV to 1.7 eV by alloying Ga in the CuInSe\textsubscript{2} (CIS),  and the conversion efficiency in laboratory already surpassed 20\%. 
-CuInSe\textsubscript{2} was first synthesized by Hahn in 1953. It was first exploited as an absorber material in a single crystal solar cell in 1974, which is based on CuInSe\textsubscript{2} and CdS. The conversion efficiency is around 
+CuInSe\textsubscript{2} was first synthesized by Hahn in 1953 \cite{ZAAC}. It was first exploited as an absorber material in a single crystal solar cell in 1974 \cite{CuInSe21974}, which is based on CuInSe\textsubscript{2} and CdS. The conversion efficiency is around 
 5\%. The first thin film solar cells based on CuInSe\textsubscript{2} and CdS was invented by Kazmerski. During 1980s, Boeing Corporation did much research on the thin film polycrystalline CIGS solar cells. 
-To date, the highest conversion efficiency in lab situation for the solar cells based on CIGS is between 20\% and 21\% by alloying with Ga.
+To date, the highest conversion efficiency in lab situation for the solar cells based on CIGS is 23.3\%.
 
 
 \subsection{Crystal structure}
-The crystal structure of CIGS can be derived from the zinc blende crystal structure of zinc selenide (ZnSe). In \textbf{Fig. \ref{crystal_cigs}}, the crystal structures of ZnSe and CIGS are presented. 
+The crystal structure of CIGS can be derived from the zinc blende crystal structure of zinc selenide (ZnSe). In \textbf{Fig. \ref{crystal_cigs}}, the crystal structures of ZnSe and CIGS are presented {\color{red} Ref}. 
 The elements Zn are replaced by Cu and In or Ga elements in the zinc blende of ZnSe. It requires to double the unit cell in the $z$-direction. Because the bond strength and lengths between
 Cu-Se and In-Se or Ga-Se are different, therefore, the lattice parameter $c$ is not exact 2$a$ normally.
 

@@ -108,11 +108,418 @@ timestamp={2014.11.08},
 
 
 
-@misc{nrel,
+@misc{zsw,
   author = {},
   title = {},
   howpublished = {\url{http://www.zsw-bw.de/uploads/media/pr12-2014-ZSW-WorldrecordCIGS.pdf}},
   year = 2014,
+}
+
+@article{zhou2014interface,
+  title={},
+  author={Zhou, Huanping and Chen, Qi and Li, Gang and Luo, Song and Song, Tze-bing and Duan, Hsin-Sheng and Hong, Ziruo and You, Jingbi and Liu, Yongsheng and Yang, Yang},
+  journal={Science},
+  volume={345},
+  number={6196},
+  pages={542--546},
+  year={2014},
+  publisher={American Association for the Advancement of Science}
+}
+
+
+@article{green2014emergence,
+  title={},
+  author={Green, Martin A and Ho-Baillie, Anita and Snaith, Henry J},
+  journal={Nature Photonics},
+  volume={8},
+  number={7},
+  pages={506--514},
+  year={2014},
+  publisher={Nature Publishing Group}
+}
+
+@article{mcgehee2014perovskite,
+  title={},
+  author={McGehee, Michael D},
+  journal={Nature materials},
+  volume={13},
+  number={9},
+  pages={845--846},
+  year={2014},
+  publisher={Nature Publishing Group}
+}
+
+
+@book{bok1,
+  title={},
+  author={Editor-in-Chief: Ali Sayigh},
+  year={2012},
+  publisher={Elsevier Science}
+}
+
+@article{sproul2003understanding,
+  title={},
+  author={Sproul, Alistair},
+  journal={Solar Cells: Resource for the Secondary Science Teacher},
+  year={2003}
+}
+
+@book{neamen2003semiconductor,
+  title={},
+  author={Neamen, Donald A and Pevzner, Boris},
+  volume={3},
+  year={2003},
+  publisher={McGraw-Hill New York}
+}
+
+@article{Becquerel,
+  title={},
+  author={A. E. Becquerel},
+  journal={C.R. Acad. Sci.},
+  volume={9},
+  pages={561--567},
+  year={1839}
+}
+
+
+@article{etgar2013semiconductor,
+  title={},
+  author={Etgar, Lioz},
+  journal={Materials},
+  volume={6},
+  number={2},
+  pages={445--459},
+  year={2013},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+
+@article{gourdin2007solar,
+  title={},
+  author={Gourdin, Gerald},
+  journal={Introduction to Green Chemistry Fall},
+  year={2007}
+}
+
+@Patent{1941ohl1,
+ author = {Ohl R S},
+ title = {},
+ year = {1941},
+ month = {03},
+ number = {US Patent 2402622},
+ type = {Patent},
+}     
+
+@Patent{1941ohl2,
+ author = {Ohl R S},
+ title = {},
+ year = {1941},
+ month = {05},
+ number = {US Patent 2443542},
+ type = {Patent},
+}  
+
+
+@article{chen2009electronic,
+  title={},
+  author={Chen, Shiyou and Gong, XG and Walsh, Aron and Wei, Su-Huai},
+  journal={Physical Review B},
+  volume={79},
+  number={16},
+  pages={165211},
+  year={2009},
+  publisher={APS}
+}
+
+@article{chen2009crystal,
+  title={},
+  author={Chen, Shiyou and Gong, XG and Walsh, Aron and Wei, Su-Huai},
+  journal={Applied Physics Letters},
+  volume={94},
+  number={4},
+  pages={041903--041903},
+  year={2009},
+  publisher={AIP}
+}
+
+
+@inproceedings{walsh2009design,
+  title={},
+  author={Walsh, Aron and Wei, Su-Huai and Chen, Shiyou and Gong, XG},
+  booktitle={Photovoltaic Specialists Conference (PVSC), 2009 34th IEEE},
+  pages={001875--001878},
+  year={2009},
+  organization={IEEE}
+}
+
+
+@article{hoffmann2006pv,
+  title={},
+  author={Hoffmann, Winfried},
+  journal={Solar energy materials and solar cells},
+  volume={90},
+  number={18},
+  pages={3285--3311},
+  year={2006},
+  publisher={Elsevier}
+}
+
+@book{brewer2013renewable,
+  title={},
+  author={Brewer, William D and Wengenmayr, Roland and B{\"u}hrke, Thomas},
+  year={2013},
+  publisher={John Wiley \& Sons}
+}
+
+
+@article{siders1999detection,
+  title={},
+  author={Siders, Craig W and Cavalleri, Andrea and Sokolowski-Tinten, Klaus and T{\'o}th, Cs and Guo, Ting and Kammler, Martin and Von Hoegen, M Horn and Wilson, Kent R and von der Linde, Dietrich and Barty, Christopher PJ},
+  journal={Science},
+  volume={286},
+  number={5443},
+  pages={1340--1342},
+  year={1999},
+  publisher={American Association for the Advancement of Science}
+}
+
+@book{cardona2005fundamentals,
+  title={},
+  author={Cardona, Manuel and Peter, Y Yu},
+  year={2005},
+  publisher={Springer}
+}
+
+
+@book{madelung1996semiconductors,
+  title={},
+  author={Madelung, Otfried},
+  year={1996},
+  publisher={Springer Berlin}
+}
+
+@book{madelung2004semiconductors,
+  title={},
+  author={Madelung, Otfried},
+  year={2004},
+  publisher={Springer}
+}
+
+@article{henry1980limiting,
+  title={},
+  author={Henry, Charles H},
+  journal={Journal of applied physics},
+  volume={51},
+  number={8},
+  pages={4494--4500},
+  year={1980},
+  publisher={AIP Publishing}
+}
+
+
+@article{shockley1961detailed,
+  title={},
+  author={Shockley, William and Queisser, Hans J},
+  journal={Journal of applied physics},
+  volume={32},
+  number={3},
+  pages={510--519},
+  year={1961},
+  publisher={AIP Publishing}
+}
+
+
+@article{alferov2001nobel,
+  title={},
+  author={Alferov, Zhores I},
+  journal={Reviews of modern physics},
+  volume={73},
+  number={3},
+  pages={767--782},
+  year={2001},
+  publisher={Minneapolis: American Physical Society,[1930-}
+}
+
+
+@inproceedings{yablonovitch2012opto,
+  title={},
+  author={Yablonovitch, E and Miller, OD and Kurtz, SR},
+  booktitle={Photovoltaic Specialists Conference (PVSC), 2012 38th IEEE},
+  pages={001556--001559},
+  year={2012},
+  organization={IEEE}
+}
+
+
+@article{dimroth2014wafer,
+  title={},
+  author={Dimroth, Frank and Grave, Matthias and Beutel, Paul and Fiedeler, Ulrich and Karcher, Christian and Tibbits, Thomas ND and Oliva, Eduard and Siefer, Gerald and Schachtner, Michael and Wekkeli, Alexander and others},
+  journal={Progress in Photovoltaics: Research and Applications},
+  volume={22},
+  number={3},
+  pages={277--282},
+  year={2014},
+  publisher={Wiley Online Library}
+}
+
+
+@article{maissel1995handbook,
+  title={},
+  author={Maissel, Leon I and Glang, Reinhard},
+  year={1995},
+  publisher={McGraw-Hill}
+}
+
+
+@article{carlson1976amorphous,
+  title={},
+  author={Carlson, David E and Wronski, Cristopher R},
+  journal={Applied Physics Letters},
+  volume={28},
+  number={11},
+  pages={671--673},
+  year={1976},
+  publisher={AIP Publishing}
+}
+
+@book{street2000technology,
+  title={},
+  author={Street, Robert A},
+  volume={37},
+  year={2000},
+  publisher={Springer}
+}
+
+@book{schropp1998amorphous,
+  title={},
+  author={Schropp, Ruud EI and Zeman, Miro},
+  year={1998},
+  publisher={Kluwer Academic Boston}
+}
+
+
+
+
+@misc{irena,
+  author = {},
+  title = {},
+  howpublished = {\url{http://www.irena.org/DocumentDownloads/Publications/RE_Technologies_Cost_Analysis-SOLAR_PV.pdf}},
+  year = 2012,
+}
+
+
+@article{wolden2011photovoltaic,
+  title={},
+  author={Wolden, Colin A and Kurtin, Juanita and Baxter, Jason B and Repins, Ingrid and Shaheen, Sean E and Torvik, John T and Rockett, Angus A and Fthenakis, Vasilis M and Aydil, Eray S},
+  journal={Journal of Vacuum Science \& Technology A},
+  volume={29},
+  number={3},
+  pages={030801},
+  year={2011},
+  publisher={AVS: Science \& Technology of Materials, Interfaces, and Processing}
+}
+
+
+@article{meyers1988design,
+  title={Design of a thin film CdTe solar cell},
+  author={Meyers, Peter V},
+  journal={Solar Cells},
+  volume={23},
+  number={1},
+  pages={59--67},
+  year={1988},
+  publisher={Elsevier}
+}
+
+
+@article{jackson2011new,
+  title={},
+  author={Jackson, Philip and Hariskos, Dimitrios and Lotter, Erwin and Paetel, Stefan and Wuerz, Roland and Menner, Richard and Wischmann, Wiltraud and Powalla, Michael},
+  journal={Progress in Photovoltaics: Research and Applications},
+  volume={19},
+  number={7},
+  pages={894--897},
+  year={2011},
+  publisher={Wiley Online Library}
+}
+
+
+@article{green2007thin,
+  title={},
+  author={Green, Martin A},
+  journal={Journal of Materials Science: Materials in Electronics},
+  volume={18},
+  number={1},
+  pages={15--19},
+  year={2007},
+  publisher={Springer}
+}
+
+@article{kumar2013cation,
+  title={},
+  author={Kumar, Mukesh and Zhao, Hanyue and Persson, Clas},
+  journal={Thin Solid Films},
+  volume={535},
+  pages={318--321},
+  year={2013},
+  publisher={Elsevier}
+}
+
+@article{chen2012band,
+  title={},
+  author={Chen, Rongzhen and Persson, Clas},
+  journal={Journal of Applied Physics},
+  volume={112},
+  number={10},
+  pages={103708},
+  year={2012},
+  publisher={AIP Publishing}
+}
+
+
+@article{chen2011parameterization,
+  title={},
+  author={Chen, Rongzhen and Persson, Clas},
+  journal={Thin Solid Films},
+  volume={519},
+  number={21},
+  pages={7503--7507},
+  year={2011},
+  publisher={Elsevier}
+}
+
+
+@article{persson2009impurity,
+  title={},
+  author={Persson, Clas},
+  journal={Thin Solid Films},
+  volume={517},
+  number={7},
+  pages={2374--2379},
+  year={2009},
+  publisher={Elsevier}
+}
+
+﻿@article {ZAAC,
+title = {},
+author = {Hahn, Harry and Frank, Günter and Klingler, Wilhelm and Meyer, Anne-Dorothee and Störger, Georg},
+journal = {Zeitschrift für anorganische und allgemeine Chemie},
+volume = {271},
+number = {3-4},
+pages = {153--170},
+year = {1953},
+publisher = {WILEY-VCH Verlag},
+}
+
+
+
+@article{CuInSe21974,
+   author = {Wagner, Sigurd and Shay, J. L. and Migliorato, P. and Kasper, H. M.},
+   title = {},
+   journal = {Applied Physics Letters},
+   year = {1974},
+   volume = {25},
+   number = {8}, 
+   pages = {34--435},
 }
 
 

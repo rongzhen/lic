@@ -3,6 +3,14 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 The style file: ieeetr.bst
 Database file #1: bibdatabase.bib
+Warning--entry type for "1941ohl1" isn't style-file defined
+--line 203 of file bibdatabase.bib
+Warning--entry type for "1941ohl2" isn't style-file defined
+--line 212 of file bibdatabase.bib
+Repeated entry---line 353 of file bibdatabase.bib
+ : @article{dimroth2014wafer
+ :                          ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "nerl"
 Warning--empty title in smestad2002optoelectronics
 Warning--empty title in seinfeld2012atmospheric
@@ -14,45 +22,77 @@ Warning--empty title in ward2014cu
 Warning--empty title in zhou2014interface
 Warning--empty title in green2014emergence
 Warning--empty title in mcgehee2014perovskite
-You've used 15 entries,
+Warning--empty title in bok1
+Warning--empty title in sproul2003understanding
+Warning--empty title in neamen2003semiconductor
+Warning--empty title in Becquerel
+Warning--empty title in etgar2013semiconductor
+Warning--empty title in gourdin2007solar
+Warning--empty title in chen2009electronic
+Warning--empty title in chen2009crystal
+Warning--empty title in walsh2009design
+Warning--empty title in hoffmann2006pv
+Warning--empty title in brewer2013renewable
+Warning--empty title in cardona2005fundamentals
+Warning--empty title in madelung1996semiconductors
+Warning--empty title in madelung2004semiconductors
+Warning--empty title in henry1980limiting
+Warning--empty title in shockley1961detailed
+Warning--empty title in alferov2001nobel
+Warning--empty title in yablonovitch2012opto
+Warning--empty title in maissel1995handbook
+Warning--empty journal in maissel1995handbook
+Warning--empty title in carlson1976amorphous
+Warning--empty title in street2000technology
+Warning--empty title in schropp1998amorphous
+Warning--empty title in wolden2011photovoltaic
+Warning--empty title in green2007thin
+Warning--empty title in jackson2011new
+Warning--empty title in kumar2013cation
+Warning--empty title in chen2012band
+Warning--empty title in chen2011parameterization
+Warning--empty title in persson2009impurity
+Warning--empty title in ZAAC
+Warning--empty title in CuInSe21974
+You've used 50 entries,
             1876 wiz_defined-function locations,
-            545 strings with 5143 characters,
-and the built_in function-call counts, 3242 in all, are:
-= -- 305
-> -- 137
+            715 strings with 8323 characters,
+and the built_in function-call counts, 12620 in all, are:
+= -- 1273
+> -- 427
 < -- 0
-+ -- 54
-- -- 39
-* -- 204
-:= -- 444
-add.period$ -- 20
-call.type$ -- 15
-change.case$ -- 1
++ -- 168
+- -- 118
+* -- 806
+:= -- 1664
+add.period$ -- 63
+call.type$ -- 50
+change.case$ -- 2
 chr.to.int$ -- 0
-cite$ -- 25
-duplicate$ -- 161
-empty$ -- 338
-format.name$ -- 39
-if$ -- 793
+cite$ -- 92
+duplicate$ -- 667
+empty$ -- 1251
+format.name$ -- 118
+if$ -- 3118
 int.to.chr$ -- 0
-int.to.str$ -- 15
-missing$ -- 16
-newline$ -- 53
-num.names$ -- 11
-pop$ -- 83
+int.to.str$ -- 50
+missing$ -- 56
+newline$ -- 166
+num.names$ -- 45
+pop$ -- 236
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 96
+skip$ -- 470
 stack$ -- 0
-substring$ -- 168
-swap$ -- 48
+substring$ -- 863
+swap$ -- 271
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 10
-while$ -- 26
-width$ -- 17
-write$ -- 123
-(There were 11 warnings)
+warning$ -- 42
+while$ -- 117
+width$ -- 52
+write$ -- 434
+(There was 1 error message)
