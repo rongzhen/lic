@@ -11,7 +11,15 @@ Repeated entry---line 353 of file bibdatabase.bib
  : @article{dimroth2014wafer
  :                          ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 612 of file bibdatabase.bib
+ : @article{persson2005n
+ :                      ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "nerl"
+Warning--I didn't find a database entry for "lundberg2005effect"
+Warning--I didn't find a database entry for "igalson2009understanding"
+Warning--I didn't find a database entry for "nakada2004novel"
+Warning--I didn't find a database entry for "matsubara2003zno"
 Warning--empty title in smestad2002optoelectronics
 Warning--empty title in seinfeld2012atmospheric
 Warning--empty title in boyle2004renewable
@@ -52,47 +60,56 @@ Warning--empty title in kumar2013cation
 Warning--empty title in chen2012band
 Warning--empty title in chen2011parameterization
 Warning--empty title in persson2009impurity
+Warning--empty title in green2006third
 Warning--empty title in ZAAC
 Warning--empty title in CuInSe21974
-You've used 50 entries,
+Warning--empty title in parlak2006ab
+Warning--empty title in hones2008polarization
+Warning--empty title in persson2008anisotropic
+Warning--empty title in li2011electronic
+Warning--empty title in luque2011handbook
+Warning--empty title in jiang2004does
+Warning--empty title in persson2005n
+Warning--empty title in zhao2004can
+You've used 59 entries,
             1876 wiz_defined-function locations,
-            715 strings with 8323 characters,
-and the built_in function-call counts, 12620 in all, are:
-= -- 1273
-> -- 427
+            752 strings with 9068 characters,
+and the built_in function-call counts, 15443 in all, are:
+= -- 1572
+> -- 517
 < -- 0
-+ -- 168
-- -- 118
-* -- 806
-:= -- 1664
-add.period$ -- 63
-call.type$ -- 50
++ -- 202
+- -- 143
+* -- 987
+:= -- 2022
+add.period$ -- 74
+call.type$ -- 59
 change.case$ -- 2
 chr.to.int$ -- 0
-cite$ -- 92
-duplicate$ -- 667
-empty$ -- 1251
-format.name$ -- 118
-if$ -- 3118
+cite$ -- 110
+duplicate$ -- 827
+empty$ -- 1501
+format.name$ -- 143
+if$ -- 3827
 int.to.chr$ -- 0
-int.to.str$ -- 50
-missing$ -- 56
-newline$ -- 166
-num.names$ -- 45
-pop$ -- 236
+int.to.str$ -- 59
+missing$ -- 67
+newline$ -- 195
+num.names$ -- 54
+pop$ -- 269
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 470
+skip$ -- 606
 stack$ -- 0
-substring$ -- 863
-swap$ -- 271
+substring$ -- 1075
+swap$ -- 358
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 42
-while$ -- 117
-width$ -- 52
-write$ -- 434
-(There was 1 error message)
+warning$ -- 51
+while$ -- 141
+width$ -- 61
+write$ -- 520
+(There were 2 error messages)

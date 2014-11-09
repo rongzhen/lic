@@ -186,6 +186,10 @@ R.~Chen and C.~Persson {\em Thin Solid Films}, vol.~519, no.~21,
 \bibitem{persson2009impurity}
 C.~Persson {\em Thin Solid Films}, vol.~517, no.~7, pp.~2374--2379, 2009.
 
+\bibitem{green2006third}
+M.~A. Green, vol.~12.
+\newblock Springer, 2006.
+
 \bibitem{ZAAC}
 H.~Hahn, G.~Frank, W.~Klingler, A.-D. Meyer, and G.~Störger {\em Zeitschrift
   für anorganische und allgemeine Chemie}, vol.~271, no.~3-4, pp.~153--170,
@@ -194,5 +198,37 @@ H.~Hahn, G.~Frank, W.~Klingler, A.-D. Meyer, and G.~Störger {\em Zeitschrift
 \bibitem{CuInSe21974}
 S.~Wagner, J.~L. Shay, P.~Migliorato, and H.~M. Kasper {\em Applied Physics
   Letters}, vol.~25, no.~8, pp.~34--435, 1974.
+
+\bibitem{parlak2006ab}
+C.~Parlak and R.~Eryi{\u{g}}it {\em Physical Review B}, vol.~73, no.~24,
+  p.~245217, 2006.
+
+\bibitem{hones2008polarization}
+K.~H{\"o}nes, M.~Eickenberg, S.~Siebentritt, and C.~Persson {\em Applied
+  physics letters}, vol.~93, no.~9, p.~092102, 2008.
+
+\bibitem{persson2008anisotropic}
+C.~Persson {\em Applied Physics Letters}, vol.~93, no.~7, pp.~072106--072106,
+  2008.
+
+\bibitem{li2011electronic}
+Z.~B. Li {\em Advanced Materials Research}, vol.~239, pp.~1304--1308, 2011.
+
+\bibitem{luque2011handbook}
+A.~Luque and S.~Hegedus.
+\newblock John Wiley \& Sons, 2011.
+
+\bibitem{jiang2004does}
+C.-S. Jiang, R.~Noufi, K.~Ramanathan, J.~AbuShama, H.~Moutinho, and
+  M.~Al-Jassim {\em Applied physics letters}, vol.~85, no.~13, pp.~2625--2627,
+  2004.
+
+\bibitem{persson2005n}
+C.~Persson, Y.-J. Zhao, S.~Lany, and A.~Zunger {\em Physical Review B},
+  vol.~72, no.~3, p.~035211, 2005.
+
+\bibitem{zhao2004can}
+Y.-J. Zhao, C.~Persson, S.~Lany, and A.~Zunger {\em Applied physics letters},
+  vol.~85, no.~24, pp.~5860--5862, 2004.
 
 \end{thebibliography}
