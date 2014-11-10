@@ -15,10 +15,6 @@ Repeated entry---line 612 of file bibdatabase.bib
  : @article{persson2005n
  :                      ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "nerl"
-Warning--I didn't find a database entry for "lundberg2005effect"
-Warning--I didn't find a database entry for "igalson2009understanding"
-Warning--I didn't find a database entry for "nakada2004novel"
 Warning--I didn't find a database entry for "matsubara2003zno"
 Warning--empty title in smestad2002optoelectronics
 Warning--empty title in seinfeld2012atmospheric
@@ -69,47 +65,95 @@ Warning--empty title in persson2008anisotropic
 Warning--empty title in li2011electronic
 Warning--empty title in luque2011handbook
 Warning--empty title in jiang2004does
+Warning--empty title in rau2006wide
+Warning--empty title in chen2010intrinsic
+Warning--empty title in schuler2004self
+Warning--empty title in lany2008intrinsic
+Warning--empty title in zhang1998defect
+Warning--empty title in neumann1986optical
 Warning--empty title in persson2005n
 Warning--empty title in zhao2004can
-You've used 59 entries,
+Warning--empty title in lundberg2005effect
+Warning--empty title in lundberg2003diffusion
+Warning--empty title in ramanathan2003properties
+Warning--empty title in naghavi2010buffer
+Warning--empty title in niki2010cigs
+Warning--empty title in kessler2001baseline
+Warning--empty title in martin2004electronic
+Warning--empty title in Cottenierwien2k
+Warning--empty title in bornoppenheimer
+Warning--empty title in hartreeapproximation
+Warning--empty title in hartreefockapproximation
+Warning--empty title in hohenberg1964inhomogeneous
+Warning--empty title in kohn1965self
+Warning--empty title in clasdft
+Warning--empty title in bertsekas2003convex
+Warning--empty title in slater1951simplification
+Warning--empty title in von1972local
+Warning--empty title in hedin1971explicit
+Warning--empty title in tozer1998development
+Warning--empty title in hamprecht1998development
+Warning--empty title in grabo1995density
+Warning--empty title in cohen2007development
+Warning--empty title in slater1937wave
+Warning--empty title in loucks1967augmented
+Warning--empty journal in loucks1967augmented
+Warning--empty title in andersen1975linear
+Warning--empty title in koelling1975use
+Warning--empty title in singh1991ground
+Warning--empty title in sjostedt2000alternative
+Warning--empty title in nordstrom2006planewaves
+Warning--empty title in excitingcode
+Warning--empty title in fox2002optical
+Warning--empty title in ambrosch2006linear
+Warning--empty title in voon2009kp
+Warning--empty title in kane1966k
+Warning--empty title in persson2007full
+Warning--empty title in thaller1992dirac
+Warning--empty title in dirac1930principles
+Warning--empty journal in dirac1930principles
+Warning--empty title in van1994relativistic
+Warning--empty title in faas1995zora
+Warning--empty title in van1996zero
+You've used 109 entries,
             1876 wiz_defined-function locations,
-            752 strings with 9068 characters,
-and the built_in function-call counts, 15443 in all, are:
-= -- 1572
-> -- 517
+            964 strings with 13474 characters,
+and the built_in function-call counts, 28848 in all, are:
+= -- 2919
+> -- 1021
 < -- 0
-+ -- 202
-- -- 143
-* -- 987
-:= -- 2022
-add.period$ -- 74
-call.type$ -- 59
-change.case$ -- 2
++ -- 392
+- -- 283
+* -- 1875
+:= -- 3829
+add.period$ -- 133
+call.type$ -- 109
+change.case$ -- 3
 chr.to.int$ -- 0
-cite$ -- 110
-duplicate$ -- 827
-empty$ -- 1501
-format.name$ -- 143
-if$ -- 3827
+cite$ -- 208
+duplicate$ -- 1577
+empty$ -- 2723
+format.name$ -- 283
+if$ -- 7153
 int.to.chr$ -- 0
-int.to.str$ -- 59
-missing$ -- 67
-newline$ -- 195
-num.names$ -- 54
-pop$ -- 269
+int.to.str$ -- 109
+missing$ -- 124
+newline$ -- 354
+num.names$ -- 103
+pop$ -- 460
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 606
+skip$ -- 1166
 stack$ -- 0
-substring$ -- 1075
-swap$ -- 358
+substring$ -- 1855
+swap$ -- 708
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 51
-while$ -- 141
-width$ -- 61
-write$ -- 520
+warning$ -- 99
+while$ -- 265
+width$ -- 112
+write$ -- 984
 (There were 2 error messages)

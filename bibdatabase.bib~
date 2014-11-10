@@ -621,6 +621,544 @@ publisher = {WILEY-VCH Verlag},
 }
 
 
+@article{zhao2004can,
+  title={},
+  author={Zhao, Yu-Jun and Persson, Clas and Lany, Stephan and Zunger, Alex},
+  journal={Applied physics letters},
+  volume={85},
+  number={24},
+  pages={5860--5862},
+  year={2004},
+  publisher={AIP}
+}
+
+@book{rau2006wide,
+  title={},
+  author={Rau, Uwe and Siebentritt, Susanne},
+  year={2006},
+  publisher={Springer}
+}
+@misc{madelung2010springer,
+  title={},
+  author={Madelung, O and R{\"o}ssler, U and Schulz, M},
+  year={2010},
+  publisher={DOI}
+}
+
+@article{neumann1986optical,
+  title={},
+  author={Neumann, H},
+  journal={Solar Cells},
+  volume={16},
+  pages={317--333},
+  year={1986},
+  publisher={Elsevier}
+}
+
+
+@article{chen2010intrinsic,
+  title={},
+author={Chen, Shiyou and Yang, Ji-Hui and Gong, XG and Walsh, Aron and Wei, Su-Huai},
+  journal={Physical Review B},
+  volume={81},
+  number={24},
+  pages={245204},
+  year={2010},
+  publisher={APS}
+}
+
+@article{schuler2004self,
+  title={},
+  author={Schuler, Steffen and Siebentritt, Susanne and Nishiwaki, Shiro and Rega, Niklas and Beckmann, Joerg and Brehme, Stephan and Lux-Steiner, Martha Ch},
+  journal={Physical review B},
+  volume={69},
+  number={4},
+  pages={045210},
+  year={2004},
+  publisher={APS}
+}
+
+
+@article{lany2008intrinsic,
+  title={},
+  author={Lany, Stephan and Zunger, Alex},
+  journal={Physical review letters},
+  volume={100},
+  number={1},
+  pages={016401},
+  year={2008},
+  publisher={APS}
+}
+
+
+@article{zhang1998defect,
+  title={},
+  author={Zhang, SB and Wei, Su-Huai and Zunger, Alex and Katayama-Yoshida, H},
+  journal={Physical Review B},
+  volume={57},
+  number={16},
+  pages={9642},
+  year={1998},
+  publisher={APS}
+}
+
+@article{lundberg2005effect,
+  title={},
+  author={Lundberg, Olle and Edoff, Marika and Stolt, Lars},
+  journal={Thin Solid Films},
+  volume={480},
+  pages={520--525},
+  year={2005},
+  publisher={Elsevier}
+}
+
+@article{lundberg2003diffusion,
+  title={},
+  author={Lundberg, Olle and Lu, Jun and Rockett, Angus and Edoff, Marika and Stolt, Lars},
+  journal={Journal of Physics and Chemistry of Solids},
+  volume={64},
+  number={9},
+  pages={1499--1504},
+  year={2003},
+  publisher={Elsevier}
+}
+
+@article{ramanathan2003properties,
+  title={},
+  author={Ramanathan, Kannan and Contreras, Miguel A and Perkins, Craig L and Asher, Sally and Hasoon, Falah S and Keane, James and Young, David and Romero, Manuel and Metzger, Wyatt and Noufi, Rommel and others},
+  journal={Progress in Photovoltaics: Research and Applications},
+  volume={11},
+  number={4},
+  pages={225--230},
+  year={2003},
+  publisher={Wiley Online Library}
+}
+
+
+@article{naghavi2010buffer,
+  title={},
+  author={Naghavi, N and Abou-Ras, D and Allsop, N and Barreau, N and B{\"u}cheler, S and Ennaoui, A and Fischer, C-H and Guillen, C and Hariskos, D and Herrero, J and others},
+  journal={Progress in Photovoltaics: Research and Applications},
+  volume={18},
+  number={6},
+  pages={411--433},
+  year={2010},
+  publisher={Wiley Online Library}
+}
+
+
+@article{niki2010cigs,
+  title={},
+  author={Niki, Shigeru and Contreras, Miguel and Repins, Ingrid and Powalla, Michael and Kushiya, Katsumi and Ishizuka, Shogo and Matsubara, Koji},
+  journal={Progress in Photovoltaics: Research and Applications},
+  volume={18},
+  number={6},
+  pages={453--466},
+  year={2010},
+  publisher={Wiley Online Library}
+}
+
+@article{kessler2001baseline,
+  title={},
+  author={Kessler, John and Bodeg{\aa}rd, Marika and Hedstr{\"o}m, Jonas and Stolt, Lars},
+  journal={Solar energy materials and solar cells},
+  volume={67},
+  number={1},
+  pages={67--76},
+  year={2001},
+  publisher={Elsevier}
+}
+
+
+@book{martin2004electronic,
+  title={},
+  author={Martin, Richard M},
+  year={2004},
+  publisher={Cambridge university press}
+}
+
+@book{Cottenierwien2k,
+  title={},
+  author={Martin, Richard M},
+  year={2013},
+  publisher={freely available at
+http://www.wien2k.at/reg
+user/textbooks}
+}
+
+
+@article{bornoppenheimer,
+  title={},
+  author={M. Born and J. R. Oppenheimer},
+  journal={Ann. Phys. (Leipzig)},
+  volume={84},
+  number={},
+  pages={457},
+  year={1927},
+}
+
+
+
+@article{hartreeapproximation,
+  title={},
+  author={D. R. Hartree},
+  journal={Proc. R. Soc.},
+  volume={A113},
+  number={},
+  pages={621},
+  year={1982},
+}
+
+
+@article{hartreefockapproximation,
+  title={},
+  author={V. Fock},
+  journal={Z. Phys.},
+  volume={61},
+  number={},
+  pages={126--148},
+  year={1930},
+}
+
+
+@article{hohenberg1964inhomogeneous,
+  title={},
+  author={Hohenberg, Pierre and Kohn, Walter},
+  journal={Physical review},
+  volume={136},
+  number={3B},
+  pages={B864},
+  year={1964},
+  publisher={APS}
+}
+
+
+@article{kohn1965self,
+  title={},
+  author={Kohn, Walter and Sham, Lu Jeu},
+  journal={Physical Review},
+  volume={140},
+  number={4A},
+  pages={A1133},
+  year={1965},
+  publisher={APS}
+}
+
+
+
+@book{clasdft,
+  title={},
+  author={Clas Persson},
+  year={2013},
+  publisher={Lecture notes}
+}
+
+
+@book{bertsekas2003convex,
+  title={},
+  author={Bertsekas, Dimitri P and Nedi{\'c}, Angelia and Ozdaglar, Asuman E},
+  year={2003},
+  publisher={Athena Scientific Belmont}
+}
+
+
+@article{slater1951simplification,
+  title={},
+  author={Slater, John C},
+  journal={Physical Review},
+  volume={81},
+  number={3},
+  pages={385},
+  year={1951},
+  publisher={APS}
+}
+
+
+@article{von1972local,
+  title={},
+  author={von Barth, Ulf and Hedin, Lars},
+  journal={Journal of Physics C: Solid State Physics},
+  volume={5},
+  number={13},
+  pages={1629},
+  year={1972},
+  publisher={IOP Publishing}
+}
+
+
+@article{hedin1971explicit,
+  title={},
+  author={Hedin, Lars and Lundqvist, BI},
+  journal={Journal of Physics C: Solid state physics},
+  volume={4},
+  number={14},
+  pages={2064},
+  year={1971},
+  publisher={IOP Publishing}
+}
+
+
+
+
+
+@article{tozer1998development,
+  title={},
+  author={Tozer, David J and Handy, Nicholas C},
+  journal={The Journal of chemical physics},
+  volume={108},
+  number={6},
+  pages={2545--2555},
+  year={1998},
+  publisher={AIP Publishing}
+}
+
+
+
+
+@article{hamprecht1998development,
+  title={},
+  author={Hamprecht, Fred A and Cohen, Aron J and Tozer, David J and Handy, Nicholas C},
+  journal={The Journal of chemical physics},
+  volume={109},
+  number={15},
+  pages={6264--6271},
+  year={1998},
+  publisher={AIP Publishing}
+}
+
+@article{grabo1995density,
+  title={},
+  author={Grabo, Tobias and Gross, Eberhard KU},
+  journal={Chemical physics letters},
+  volume={240},
+  number={1},
+  pages={141--150},
+  year={1995},
+  publisher={Elsevier}
+}
+
+
+@article{cohen2007development,
+  title={},
+  author={Cohen, Aron J and Mori-S{\'a}nchez, Paula and Yang, Weitao},
+  journal={The Journal of chemical physics},
+  volume={126},
+  number={19},
+  pages={191109},
+  year={2007},
+  publisher={AIP Publishing}
+}
+
+
+@book{kittel1976introduction,
+  title={Introduction to solid state physics},
+  author={Kittel, Charles and McEuen, Paul},
+  volume={8},
+  year={1976},
+  publisher={Wiley New York}
+}
+
+
+@article{slater1937wave,
+  title={},
+  author={Slater, JCp},
+  journal={Physical Review},
+  volume={51},
+  number={10},
+  pages={846},
+  year={1937},
+  publisher={APS}
+}
+
+@article{loucks1967augmented,
+  title={},
+  author={Loucks, Terry L},
+  year={1967},
+  publisher={Benjamin}
+}
+
+
+@article{andersen1975linear,
+  title={},
+  author={Andersen, O Krogh},
+  journal={Physical Review B},
+  volume={12},
+  number={8},
+  pages={3060},
+  year={1975},
+  publisher={APS}
+}
+
+@article{koelling1975use,
+  title={},
+  author={Koelling, DD and Arbman, GO},
+  journal={Journal of Physics F: Metal Physics},
+  volume={5},
+  number={11},
+  pages={2041},
+  year={1975},
+  publisher={IOP Publishing}
+}
+
+
+@book{nordstrom2006planewaves,
+  title={},
+  author={Nordstrom, Lars and Singh, David J},
+  year={2006},
+  publisher={Springer}
+}
+
+
+@article{excitingcode,
+  author={Andris Gulans and Stefan Kontur and Christian Meisenbichler and Dmitrii Nabok and Pasquale Pavone and Santiago
+Rigamonti and Stephan Sagmeister and Ute Werner and Claudia Draxl},
+  title={},
+  journal={Journal of Physics: Condensed Matter},
+  volume={26},
+  number={36},
+  pages={363202},
+  url={http://stacks.iop.org/0953-8984/26/i=36/a=363202},
+  year={2014},
+}
+	
+
+@article{singh1991ground,
+  title={},
+  author={Singh, David},
+  journal={Physical Review B},
+  volume={43},
+  number={8},
+  pages={6388},
+  year={1991},
+  publisher={APS}
+}
+
+@article{sjostedt2000alternative,
+  title={},
+  author={Sj{\"o}stedt, Elisabeth and Nordstr{\"o}m, Lars and Singh, DJ},
+  journal={Solid state communications},
+  volume={114},
+  number={1},
+  pages={15--20},
+  year={2000},
+  publisher={Elsevier}
+}
+
+@article{penn1962wave,
+  title={Wave-number-dependent dielectric function of semiconductors},
+  author={Penn, David R},
+  journal={Physical Review},
+  volume={128},
+  number={5},
+  pages={2093},
+  year={1962},
+  publisher={APS}
+}
+
+
+@article{fox2002optical,
+  title={},
+  author={Fox, Mark and Bertsch, George F},
+  journal={American Journal of Physics},
+  volume={70},
+  number={12},
+  pages={1269--1270},
+  year={2002},
+  publisher={American Association of Physics Teachers}
+}
+
+
+@article{ambrosch2006linear,
+  title={},
+  author={Ambrosch-Draxl, Claudia and Sofo, Jorge O},
+  journal={Computer Physics Communications},
+  volume={175},
+  number={1},
+  pages={1--14},
+  year={2006},
+  publisher={Elsevier}
+}
+
+
+@book{voon2009kp,
+  title={},
+  author={Voon, Lok C Lew Yan and Willatzen, Morten},
+  year={2009},
+  publisher={Springer}
+}
+
+@article{kane1966k,
+  title={},
+  author={Kane, EO},
+  journal={Semiconductors and Semimetals},
+  volume={1},
+  pages={75--100},
+  year={1966},
+  publisher={Elsevier}
+}
+
+
+@article{persson2007full,
+  title={},
+  author={Persson, Clas and Ambrosch-Draxl, Claudia},
+  journal={Computer physics communications},
+  volume={177},
+  number={3},
+  pages={280--287},
+  year={2007},
+  publisher={Elsevier}
+}
+
+@book{thaller1992dirac,
+  title={},
+  author={Thaller, Bernd},
+  volume={31},
+  year={1992},
+  publisher={Springer-Verlag Berlin}
+}
+
+@article{dirac1930principles,
+  title={},
+  author={Dirac, Paul Adrien Maurice},
+  year={1930}
+}
+
+@article{van1994relativistic,
+  title={},
+  author={van Lenthe, Erik and Baerends, Evert-Jan and Snijders, Jaap G},
+  journal={The Journal of chemical physics},
+  volume={101},
+  number={11},
+  pages={9783--9792},
+  year={1994},
+  publisher={AIP Publishing}
+}
+
+@article{faas1995zora,
+  title={},
+  author={Faas, S and Snijders, JG and Van Lenthe, JH and Van Lenthe, E and Baerends, EJ},
+  journal={Chemical physics letters},
+  volume={246},
+  number={6},
+  pages={632--640},
+  year={1995},
+  publisher={Elsevier}
+}
+
+@article{van1996zero,
+  title={},
+  author={Van Lenthe, E and Snijders, JG and Baerends, EJ},
+  journal={The Journal of chemical physics},
+  volume={105},
+  number={15},
+  pages={6505--6516},
+  year={1996},
+  publisher={AIP Publishing}
+}
+
+
+
+
 
 
 

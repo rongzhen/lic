@@ -45,6 +45,5 @@
 \contentsline {section}{\numberline {3.2}Calculations of dielectric function for CIGS}{53}
 \contentsline {chapter}{\chapternumberline {4}Summary of the publications}{56}
 \contentsline {chapter}{\chapternumberline {5}Concluding remarks and future work}{58}
-\contentsline {chapter}{\chapternumberline {6}Appendices}{59}
-\contentsline {chapter}{Acknowledgements}{62}
-\contentsline {chapter}{Bibliography}{63}
+\contentsline {chapter}{Acknowledgements}{59}
+\contentsline {chapter}{Bibliography}{60}

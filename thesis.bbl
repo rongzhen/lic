@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
 \bibitem{bp}
 \url{http://www.bp.com/}, 2014.
@@ -25,6 +25,9 @@ W.~J. Y. X.~R. XUE.
 \bibitem{Chiras201007}
 D.~Chiras.
 \newblock New Society Publishers, 7 2010.
+
+\bibitem{nrel}
+\url{http://www.nrel.gov/ncpv/}, 2014.
 
 \bibitem{dimroth2014wafer}
 F.~Dimroth, M.~Grave, P.~Beutel, U.~Fiedeler, C.~Karcher, T.~N. Tibbits,
@@ -223,6 +226,32 @@ C.-S. Jiang, R.~Noufi, K.~Ramanathan, J.~AbuShama, H.~Moutinho, and
   M.~Al-Jassim {\em Applied physics letters}, vol.~85, no.~13, pp.~2625--2627,
   2004.
 
+\bibitem{rau2006wide}
+U.~Rau and S.~Siebentritt.
+\newblock Springer, 2006.
+
+\bibitem{chen2010intrinsic}
+S.~Chen, J.-H. Yang, X.~Gong, A.~Walsh, and S.-H. Wei {\em Physical Review B},
+  vol.~81, no.~24, p.~245204, 2010.
+
+\bibitem{schuler2004self}
+S.~Schuler, S.~Siebentritt, S.~Nishiwaki, N.~Rega, J.~Beckmann, S.~Brehme, and
+  M.~C. Lux-Steiner {\em Physical review B}, vol.~69, no.~4, p.~045210, 2004.
+
+\bibitem{lany2008intrinsic}
+S.~Lany and A.~Zunger {\em Physical review letters}, vol.~100, no.~1,
+  p.~016401, 2008.
+
+\bibitem{zhang1998defect}
+S.~Zhang, S.-H. Wei, A.~Zunger, and H.~Katayama-Yoshida {\em Physical Review
+  B}, vol.~57, no.~16, p.~9642, 1998.
+
+\bibitem{madelung2010springer}
+O.~Madelung, U.~R{\"o}ssler, and M.~Schulz, 2010.
+
+\bibitem{neumann1986optical}
+H.~Neumann {\em Solar Cells}, vol.~16, pp.~317--333, 1986.
+
 \bibitem{persson2005n}
 C.~Persson, Y.-J. Zhao, S.~Lany, and A.~Zunger {\em Physical Review B},
   vol.~72, no.~3, p.~035211, 2005.
@@ -230,5 +259,169 @@ C.~Persson, Y.-J. Zhao, S.~Lany, and A.~Zunger {\em Physical Review B},
 \bibitem{zhao2004can}
 Y.-J. Zhao, C.~Persson, S.~Lany, and A.~Zunger {\em Applied physics letters},
   vol.~85, no.~24, pp.~5860--5862, 2004.
+
+\bibitem{lundberg2005effect}
+O.~Lundberg, M.~Edoff, and L.~Stolt {\em Thin Solid Films}, vol.~480,
+  pp.~520--525, 2005.
+
+\bibitem{lundberg2003diffusion}
+O.~Lundberg, J.~Lu, A.~Rockett, M.~Edoff, and L.~Stolt {\em Journal of Physics
+  and Chemistry of Solids}, vol.~64, no.~9, pp.~1499--1504, 2003.
+
+\bibitem{ramanathan2003properties}
+K.~Ramanathan, M.~A. Contreras, C.~L. Perkins, S.~Asher, F.~S. Hasoon,
+  J.~Keane, D.~Young, M.~Romero, W.~Metzger, R.~Noufi, {\em et~al.} {\em
+  Progress in Photovoltaics: Research and Applications}, vol.~11, no.~4,
+  pp.~225--230, 2003.
+
+\bibitem{naghavi2010buffer}
+N.~Naghavi, D.~Abou-Ras, N.~Allsop, N.~Barreau, S.~B{\"u}cheler, A.~Ennaoui,
+  C.-H. Fischer, C.~Guillen, D.~Hariskos, J.~Herrero, {\em et~al.} {\em
+  Progress in Photovoltaics: Research and Applications}, vol.~18, no.~6,
+  pp.~411--433, 2010.
+
+\bibitem{niki2010cigs}
+S.~Niki, M.~Contreras, I.~Repins, M.~Powalla, K.~Kushiya, S.~Ishizuka, and
+  K.~Matsubara {\em Progress in Photovoltaics: Research and Applications},
+  vol.~18, no.~6, pp.~453--466, 2010.
+
+\bibitem{kessler2001baseline}
+J.~Kessler, M.~Bodeg{\aa}rd, J.~Hedstr{\"o}m, and L.~Stolt {\em Solar energy
+  materials and solar cells}, vol.~67, no.~1, pp.~67--76, 2001.
+
+\bibitem{martin2004electronic}
+R.~M. Martin.
+\newblock Cambridge university press, 2004.
+
+\bibitem{Cottenierwien2k}
+R.~M. Martin.
+\newblock freely available at http://www.wien2k.at/reg user/textbooks, 2013.
+
+\bibitem{bornoppenheimer}
+M.~Born and J.~R. Oppenheimer {\em Ann. Phys. (Leipzig)}, vol.~84, p.~457,
+  1927.
+
+\bibitem{hartreeapproximation}
+D.~R. Hartree {\em Proc. R. Soc.}, vol.~A113, p.~621, 1982.
+
+\bibitem{hartreefockapproximation}
+V.~Fock {\em Z. Phys.}, vol.~61, pp.~126--148, 1930.
+
+\bibitem{hohenberg1964inhomogeneous}
+P.~Hohenberg and W.~Kohn {\em Physical review}, vol.~136, no.~3B, p.~B864,
+  1964.
+
+\bibitem{kohn1965self}
+W.~Kohn and L.~J. Sham {\em Physical Review}, vol.~140, no.~4A, p.~A1133, 1965.
+
+\bibitem{clasdft}
+C.~Persson.
+\newblock Lecture notes, 2013.
+
+\bibitem{bertsekas2003convex}
+D.~P. Bertsekas, A.~Nedi{\'c}, and A.~E. Ozdaglar.
+\newblock Athena Scientific Belmont, 2003.
+
+\bibitem{slater1951simplification}
+J.~C. Slater {\em Physical Review}, vol.~81, no.~3, p.~385, 1951.
+
+\bibitem{von1972local}
+U.~von Barth and L.~Hedin {\em Journal of Physics C: Solid State Physics},
+  vol.~5, no.~13, p.~1629, 1972.
+
+\bibitem{hedin1971explicit}
+L.~Hedin and B.~Lundqvist {\em Journal of Physics C: Solid state physics},
+  vol.~4, no.~14, p.~2064, 1971.
+
+\bibitem{tozer1998development}
+D.~J. Tozer and N.~C. Handy {\em The Journal of chemical physics}, vol.~108,
+  no.~6, pp.~2545--2555, 1998.
+
+\bibitem{hamprecht1998development}
+F.~A. Hamprecht, A.~J. Cohen, D.~J. Tozer, and N.~C. Handy {\em The Journal of
+  chemical physics}, vol.~109, no.~15, pp.~6264--6271, 1998.
+
+\bibitem{grabo1995density}
+T.~Grabo and E.~K. Gross {\em Chemical physics letters}, vol.~240, no.~1,
+  pp.~141--150, 1995.
+
+\bibitem{cohen2007development}
+A.~J. Cohen, P.~Mori-S{\'a}nchez, and W.~Yang {\em The Journal of chemical
+  physics}, vol.~126, no.~19, p.~191109, 2007.
+
+\bibitem{kittel1976introduction}
+C.~Kittel and P.~McEuen, {\em Introduction to solid state physics}, vol.~8.
+\newblock Wiley New York, 1976.
+
+\bibitem{slater1937wave}
+J.~Slater {\em Physical Review}, vol.~51, no.~10, p.~846, 1937.
+
+\bibitem{loucks1967augmented}
+T.~L. Loucks 1967.
+
+\bibitem{andersen1975linear}
+O.~K. Andersen {\em Physical Review B}, vol.~12, no.~8, p.~3060, 1975.
+
+\bibitem{koelling1975use}
+D.~Koelling and G.~Arbman {\em Journal of Physics F: Metal Physics}, vol.~5,
+  no.~11, p.~2041, 1975.
+
+\bibitem{singh1991ground}
+D.~Singh {\em Physical Review B}, vol.~43, no.~8, p.~6388, 1991.
+
+\bibitem{sjostedt2000alternative}
+E.~Sj{\"o}stedt, L.~Nordstr{\"o}m, and D.~Singh {\em Solid state
+  communications}, vol.~114, no.~1, pp.~15--20, 2000.
+
+\bibitem{nordstrom2006planewaves}
+L.~Nordstrom and D.~J. Singh.
+\newblock Springer, 2006.
+
+\bibitem{excitingcode}
+A.~Gulans, S.~Kontur, C.~Meisenbichler, D.~Nabok, P.~Pavone, S.~Rigamonti,
+  S.~Sagmeister, U.~Werner, and C.~Draxl {\em Journal of Physics: Condensed
+  Matter}, vol.~26, no.~36, p.~363202, 2014.
+
+\bibitem{penn1962wave}
+D.~R. Penn, ``Wave-number-dependent dielectric function of semiconductors,''
+  {\em Physical Review}, vol.~128, no.~5, p.~2093, 1962.
+
+\bibitem{fox2002optical}
+M.~Fox and G.~F. Bertsch {\em American Journal of Physics}, vol.~70, no.~12,
+  pp.~1269--1270, 2002.
+
+\bibitem{ambrosch2006linear}
+C.~Ambrosch-Draxl and J.~O. Sofo {\em Computer Physics Communications},
+  vol.~175, no.~1, pp.~1--14, 2006.
+
+\bibitem{voon2009kp}
+L.~C. L.~Y. Voon and M.~Willatzen.
+\newblock Springer, 2009.
+
+\bibitem{kane1966k}
+E.~Kane {\em Semiconductors and Semimetals}, vol.~1, pp.~75--100, 1966.
+
+\bibitem{persson2007full}
+C.~Persson and C.~Ambrosch-Draxl {\em Computer physics communications},
+  vol.~177, no.~3, pp.~280--287, 2007.
+
+\bibitem{thaller1992dirac}
+B.~Thaller, vol.~31.
+\newblock Springer-Verlag Berlin, 1992.
+
+\bibitem{dirac1930principles}
+P.~A.~M. Dirac 1930.
+
+\bibitem{van1994relativistic}
+E.~van Lenthe, E.-J. Baerends, and J.~G. Snijders {\em The Journal of chemical
+  physics}, vol.~101, no.~11, pp.~9783--9792, 1994.
+
+\bibitem{faas1995zora}
+S.~Faas, J.~Snijders, J.~Van~Lenthe, E.~Van~Lenthe, and E.~Baerends {\em
+  Chemical physics letters}, vol.~246, no.~6, pp.~632--640, 1995.
+
+\bibitem{van1996zero}
+E.~Van~Lenthe, J.~Snijders, and E.~Baerends {\em The Journal of chemical
+  physics}, vol.~105, no.~15, pp.~6505--6516, 1996.
 
 \end{thebibliography}
