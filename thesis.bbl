@@ -274,6 +274,14 @@ K.~Ramanathan, M.~A. Contreras, C.~L. Perkins, S.~Asher, F.~S. Hasoon,
   Progress in Photovoltaics: Research and Applications}, vol.~11, no.~4,
   pp.~225--230, 2003.
 
+\bibitem{kim1997structural}
+K.~H. Kim, K.~C. Park, and D.~Y. Ma {\em Journal of Applied Physics}, vol.~81,
+  no.~12, pp.~7764--7772, 1997.
+
+\bibitem{minami1984highly}
+T.~Minami, H.~Nanto, and S.~Takata {\em Japanese Journal of Applied Physics},
+  vol.~23, no.~5A, p.~L280, 1984.
+
 \bibitem{naghavi2010buffer}
 N.~Naghavi, D.~Abou-Ras, N.~Allsop, N.~Barreau, S.~B{\"u}cheler, A.~Ennaoui,
   C.-H. Fischer, C.~Guillen, D.~Hariskos, J.~Herrero, {\em et~al.} {\em
@@ -423,5 +431,14 @@ S.~Faas, J.~Snijders, J.~Van~Lenthe, E.~Van~Lenthe, and E.~Baerends {\em
 \bibitem{van1996zero}
 E.~Van~Lenthe, J.~Snijders, and E.~Baerends {\em The Journal of chemical
   physics}, vol.~105, no.~15, pp.~6505--6516, 1996.
+
+\bibitem{PIP:PIP936}
+S.~Siebentritt, M.~Igalson, C.~Persson, and S.~Lany {\em Progress in
+  Photovoltaics: Research and Applications}, vol.~18, no.~6, pp.~390--410,
+  2010.
+
+\bibitem{hellwege1967landolt}
+K.-H. Hellwege and L.~C. Green {\em American Journal of Physics}, vol.~35,
+  no.~3, pp.~291--292, 1967.
 
 \end{thebibliography}

@@ -15,7 +15,6 @@ Repeated entry---line 612 of file bibdatabase.bib
  : @article{persson2005n
  :                      ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "matsubara2003zno"
 Warning--empty title in smestad2002optoelectronics
 Warning--empty title in seinfeld2012atmospheric
 Warning--empty title in boyle2004renewable
@@ -76,6 +75,8 @@ Warning--empty title in zhao2004can
 Warning--empty title in lundberg2005effect
 Warning--empty title in lundberg2003diffusion
 Warning--empty title in ramanathan2003properties
+Warning--empty title in kim1997structural
+Warning--empty title in minami1984highly
 Warning--empty title in naghavi2010buffer
 Warning--empty title in niki2010cigs
 Warning--empty title in kessler2001baseline
@@ -115,45 +116,47 @@ Warning--empty journal in dirac1930principles
 Warning--empty title in van1994relativistic
 Warning--empty title in faas1995zora
 Warning--empty title in van1996zero
-You've used 109 entries,
+Warning--empty title in PIP:PIP936
+Warning--empty title in hellwege1967landolt
+You've used 113 entries,
             1876 wiz_defined-function locations,
-            964 strings with 13474 characters,
-and the built_in function-call counts, 28848 in all, are:
-= -- 2919
-> -- 1021
+            982 strings with 13853 characters,
+and the built_in function-call counts, 30179 in all, are:
+= -- 3061
+> -- 1065
 < -- 0
-+ -- 392
-- -- 283
-* -- 1875
-:= -- 3829
-add.period$ -- 133
-call.type$ -- 109
++ -- 408
+- -- 295
+* -- 1972
+:= -- 4003
+add.period$ -- 137
+call.type$ -- 113
 change.case$ -- 3
 chr.to.int$ -- 0
-cite$ -- 208
-duplicate$ -- 1577
-empty$ -- 2723
-format.name$ -- 283
-if$ -- 7153
+cite$ -- 216
+duplicate$ -- 1647
+empty$ -- 2838
+format.name$ -- 295
+if$ -- 7482
 int.to.chr$ -- 0
-int.to.str$ -- 109
-missing$ -- 124
-newline$ -- 354
-num.names$ -- 103
-pop$ -- 460
+int.to.str$ -- 113
+missing$ -- 128
+newline$ -- 366
+num.names$ -- 107
+pop$ -- 469
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1166
+skip$ -- 1225
 stack$ -- 0
-substring$ -- 1855
-swap$ -- 708
+substring$ -- 1967
+swap$ -- 746
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 99
-while$ -- 265
-width$ -- 112
-write$ -- 984
+warning$ -- 103
+while$ -- 279
+width$ -- 116
+write$ -- 1024
 (There were 2 error messages)
