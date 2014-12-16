@@ -29,6 +29,10 @@ D.~Chiras.
 \bibitem{nrel}
 \url{http://www.nrel.gov/ncpv/}, 2014.
 
+\bibitem{zhou2014interface}
+H.~Zhou, Q.~Chen, G.~Li, S.~Luo, T.-b. Song, H.-S. Duan, Z.~Hong, J.~You,
+  Y.~Liu, and Y.~Yang {\em Science}, vol.~345, no.~6196, pp.~542--546, 2014.
+
 \bibitem{dimroth2014wafer}
 F.~Dimroth, M.~Grave, P.~Beutel, U.~Fiedeler, C.~Karcher, T.~N. Tibbits,
   E.~Oliva, G.~Siefer, M.~Schachtner, A.~Wekkeli, {\em et~al.} {\em Progress in
@@ -51,10 +55,6 @@ J.~S. Ward, B.~Egaas, R.~Noufi, M.~Contreras, K.~Ramanathan, C.~Osterwald, and
 \bibitem{zsw}
 \url{http://www.zsw-bw.de/uploads/media/pr12-2014-ZSW-WorldrecordCIGS.pdf},
   2014.
-
-\bibitem{zhou2014interface}
-H.~Zhou, Q.~Chen, G.~Li, S.~Luo, T.-b. Song, H.-S. Duan, Z.~Hong, J.~You,
-  Y.~Liu, and Y.~Yang {\em Science}, vol.~345, no.~6196, pp.~542--546, 2014.
 
 \bibitem{green2014emergence}
 M.~A. Green, A.~Ho-Baillie, and H.~J. Snaith {\em Nature Photonics}, vol.~8,
@@ -100,6 +100,16 @@ S.~Chen, X.~Gong, A.~Walsh, and S.-H. Wei {\em Applied Physics Letters},
 \bibitem{walsh2009design}
 A.~Walsh, S.-H. Wei, S.~Chen, and X.~Gong in {\em Photovoltaic Specialists
   Conference (PVSC), 2009 34th IEEE}, pp.~001875--001878, IEEE, 2009.
+
+\bibitem{goodman1958prediction}
+C.~Goodman, ``The prediction of semiconducting properties in inorganic
+  compounds,'' {\em Journal of Physics and Chemistry of Solids}, vol.~6, no.~4,
+  pp.~305--314, 1958.
+
+\bibitem{pamplin1964systematic}
+B.~Pamplin, ``A systematic method of deriving new semiconducting compounds by
+  structural analogy,'' {\em Journal of Physics and Chemistry of Solids},
+  vol.~25, no.~7, pp.~675--684, 1964.
 
 \bibitem{hoffmann2006pv}
 W.~Hoffmann {\em Solar energy materials and solar cells}, vol.~90, no.~18,
