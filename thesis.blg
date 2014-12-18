@@ -46,7 +46,6 @@ Warning--empty title in shockley1961detailed
 Warning--empty title in alferov2001nobel
 Warning--empty title in yablonovitch2012opto
 Warning--empty title in maissel1995handbook
-Warning--empty journal in maissel1995handbook
 Warning--empty title in carlson1976amorphous
 Warning--empty title in street2000technology
 Warning--empty title in schropp1998amorphous
@@ -72,6 +71,7 @@ Warning--empty title in chen2010intrinsic
 Warning--empty title in schuler2004self
 Warning--empty title in lany2008intrinsic
 Warning--empty title in zhang1998defect
+Warning--empty title in madelung2010springer
 Warning--empty title in neumann1986optical
 Warning--empty title in persson2005n
 Warning--empty title in zhao2004can
@@ -99,9 +99,9 @@ Warning--empty title in tozer1998development
 Warning--empty title in hamprecht1998development
 Warning--empty title in grabo1995density
 Warning--empty title in cohen2007development
+Warning--empty title in kittel1976introduction
 Warning--empty title in slater1937wave
 Warning--empty title in loucks1967augmented
-Warning--empty journal in loucks1967augmented
 Warning--empty title in andersen1975linear
 Warning--empty title in koelling1975use
 Warning--empty title in singh1991ground
@@ -116,7 +116,6 @@ Warning--empty title in kane1966k
 Warning--empty title in persson2007full
 Warning--empty title in thaller1992dirac
 Warning--empty title in dirac1930principles
-Warning--empty journal in dirac1930principles
 Warning--empty title in van1994relativistic
 Warning--empty title in faas1995zora
 Warning--empty title in van1996zero
@@ -124,43 +123,43 @@ Warning--empty title in PIP:PIP936
 Warning--empty title in hellwege1967landolt
 You've used 114 entries,
             1876 wiz_defined-function locations,
-            967 strings with 13484 characters,
-and the built_in function-call counts, 25007 in all, are:
-= -- 2311
+            963 strings with 13513 characters,
+and the built_in function-call counts, 25076 in all, are:
+= -- 2322
 > -- 1069
 < -- 0
 + -- 410
 - -- 296
-* -- 1437
+* -- 1425
 := -- 3452
-add.period$ -- 137
+add.period$ -- 141
 call.type$ -- 114
 change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 221
-duplicate$ -- 1572
-empty$ -- 2387
+cite$ -- 220
+duplicate$ -- 1582
+empty$ -- 2401
 format.name$ -- 296
-if$ -- 6301
+if$ -- 6331
 int.to.chr$ -- 0
 int.to.str$ -- 114
-missing$ -- 128
-newline$ -- 368
+missing$ -- 133
+newline$ -- 372
 num.names$ -- 108
-pop$ -- 583
+pop$ -- 595
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1052
+skip$ -- 1044
 stack$ -- 0
 substring$ -- 608
-swap$ -- 664
+swap$ -- 663
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 107
+warning$ -- 106
 while$ -- 186
 width$ -- 117
-write$ -- 968
+write$ -- 970
 (There were 2 error messages)

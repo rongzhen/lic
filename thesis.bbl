@@ -66,7 +66,7 @@ E.~in~Chief: Ali~Sayigh.
 A.~Sproul {\em Solar Cells: Resource for the Secondary Science Teacher}, 2003.
 
 \bibitem{neamen2003semiconductor}
-D.~A. Neamen and B.~Pevzner, vol.~3.
+D.~A. Neamen and B.~Pevzner.
 \newblock McGraw-Hill New York, 2003.
 
 \bibitem{Becquerel}
@@ -140,14 +140,15 @@ E.~Yablonovitch, O.~Miller, and S.~Kurtz in {\em Photovoltaic Specialists
   Conference (PVSC), 2012 38th IEEE}, p.~001556, IEEE, 2012.
 
 \bibitem{maissel1995handbook}
-L.~I. Maissel and R.~Glang 1995.
+L.~I. Maissel and R.~Glang.
+\newblock McGraw-Hill New York, 1995.
 
 \bibitem{carlson1976amorphous}
 D.~E. Carlson and C.~R. Wronski {\em Applied Physics Letters}, vol.~28, p.~671,
   1976.
 
 \bibitem{street2000technology}
-R.~A. Street, vol.~37.
+R.~A. Street.
 \newblock Springer, 2000.
 
 \bibitem{schropp1998amorphous}
@@ -190,7 +191,7 @@ R.~Chen and C.~Persson {\em Thin Solid Films}, vol.~519, p.~7503, 2011.
 C.~Persson {\em Thin Solid Films}, vol.~517, p.~2374, 2009.
 
 \bibitem{green2006third}
-M.~A. Green, vol.~12.
+M.~A. Green.
 \newblock Springer, 2006.
 
 \bibitem{ZAAC}
@@ -243,7 +244,8 @@ S.~Zhang, S.-H. Wei, A.~Zunger, and H.~Katayama-Yoshida {\em Physical Review
   B}, vol.~57, p.~9642, 1998.
 
 \bibitem{madelung2010springer}
-O.~Madelung, U.~R{\"o}ssler, and M.~Schulz, 2010.
+O.~Madelung, U.~R{\"o}ssler, and M.~Schulz.
+\newblock Springer, 2010.
 
 \bibitem{neumann1986optical}
 H.~Neumann {\em Solar Cells}, vol.~16, p.~317, 1986.
@@ -293,21 +295,22 @@ J.~Kessler, M.~Bodeg{\aa}rd, J.~Hedstr{\"o}m, and L.~Stolt {\em Solar energy
 
 \bibitem{martin2004electronic}
 R.~M. Martin.
-\newblock Cambridge university press, 2004.
+\newblock Cambridge University Press, 2004.
 
 \bibitem{Cottenierwien2k}
 R.~M. Martin.
 \newblock freely available http://www.wien2k.at/reg user/textbooks, 2013.
 
 \bibitem{bornoppenheimer}
-M.~Born and J.~R. Oppenheimer {\em Ann. Phys. (Leipzig)}, vol.~84, p.~457,
-  1927.
+M.~Born and J.~R. Oppenheimer {\em Annalen der Physik (Leipzig)}, vol.~84,
+  p.~457, 1927.
 
 \bibitem{hartreeapproximation}
-D.~R. Hartree {\em Proc. R. Soc.}, vol.~A113, p.~621, 1982.
+D.~R. Hartree {\em Proceedings of the Royal Society of London}, vol.~A113,
+  p.~621, 1982.
 
 \bibitem{hartreefockapproximation}
-V.~Fock {\em Z. Phys.}, vol.~61, pp.~126--148, 1930.
+V.~Fock {\em Zeitschrift für Physik}, vol.~61, pp.~126--148, 1930.
 
 \bibitem{hohenberg1964inhomogeneous}
 P.~Hohenberg and W.~Kohn {\em Physical review}, vol.~136, p.~B864, 1964.
@@ -351,14 +354,15 @@ A.~J. Cohen, P.~Mori-S{\'a}nchez, and W.~Yang {\em The Journal of chemical
   physics}, vol.~126, p.~191109, 2007.
 
 \bibitem{kittel1976introduction}
-C.~Kittel and P.~McEuen, {\em Introduction to solid state physics}, vol.~8.
+C.~Kittel and P.~McEuen.
 \newblock Wiley New York, 1976.
 
 \bibitem{slater1937wave}
 J.~Slater {\em Physical Review}, vol.~51, p.~846, 1937.
 
 \bibitem{loucks1967augmented}
-T.~L. Loucks 1967.
+T.~L. Loucks.
+\newblock W.A. Benjamin, Inc., 1967.
 
 \bibitem{andersen1975linear}
 O.~K. Andersen {\em Physical Review B}, vol.~12, p.~3060, 1975.
@@ -406,11 +410,12 @@ C.~Persson and C.~Ambrosch-Draxl {\em Computer physics communications},
   vol.~177, p.~280, 2007.
 
 \bibitem{thaller1992dirac}
-B.~Thaller, vol.~31.
+B.~Thaller.
 \newblock Springer-Verlag Berlin, 1992.
 
 \bibitem{dirac1930principles}
-P.~A.~M. Dirac 1930.
+P.~A.~M. Dirac.
+\newblock The Clarendon Press, 1930.
 
 \bibitem{van1994relativistic}
 E.~van Lenthe, E.-J. Baerends, and J.~G. Snijders {\em The Journal of chemical
