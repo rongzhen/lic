@@ -311,7 +311,7 @@ dust and aerosols, as well as the scattering of light from air molecules \cite{s
 \label{spectrumsun}
 \end{figure}
 
-There are mainly three kinds of solar energy technologies \cite{boyle2004renewable,XUE1991,Chiras201007}. The first one is solar thermal,which utilizes the flat sunlight collector plates to harness the energy from sunlight to heat water for use in industries, homes, and pools.
+There are mainly three kinds of solar energy technologies \cite{boyle2004renewable,Chiras201007}. The first one is solar thermal,which utilizes the flat sunlight collector plates to harness the energy from sunlight to heat water for use in industries, homes, and pools.
 Therefore, the solar thermal collectors do not convert sunlight to electricity directly, but transfer the energy to heat up the water instead. The advantage is the conversion efficiency is relatively higher. The second one is 
 solar chemical, which takes advantage of solar energy by absorbing sunlight in a chemical reaction. However, the conversion efficiency is quite low. The last one is solar photovoltaics (solar cell), which is the way
 to utilize solar panels to convert sunlight into electricity. The installation is easier, occupy less space and less maintenance compared with solar thermal. The conversion efficiency is higher than solar chemical. However, 
@@ -1680,23 +1680,23 @@ higher order terms describe the larger wave vectors away from $\Gamma$ point. Un
 \cline{2-13}
  Parameters & $c$1 & $v$1 & $v$2 & $v$3 & $c$1 & $v$1 & $v$2 & $v$3 & $c$1 & $v$1 & $v$2 & $v$3\\
 \hline\hline
-$E_j^0$    [eV]            &$-$4.010&$-$5.311&$-$5.242&$-$5.620&$-$4.146&$-$6.210&$-$6.426&$-$5.835&$-$3.927&5.284    &$-$5.789&$-$2.783\\
-$\bigtriangleup_{j,1}$  [eV] &$-$0.295&0.006	 &$-$0.002&$-$0.021&$-$0.230&	0.106&	 1.321&$-$0.026&$-$0.454&0.116    &   1.284&$-$1.194 \\
-$\bigtriangleup_{j,2}$  [eV] &    0	&0.098	 &   0.104&   0.308&   0    &   0.002&   0.096&	  0.386&0       &$-$10.771&$-$0.837&$-$0.024 \\
-$\bigtriangleup_{j,3}$  [eV] &$-$0.242&0.018	 &0.124   &$-$0.025&$-$0.293&	0.937&$-$0.017&$-$0.838&$-$0.419&0.088    &0.347   &$-$0.303 \\
-$\bigtriangleup_{j,4}$  [eV] & 0      &0.188   &0.076	  &   0.238&  0     &   0.021&   0.163&0.789   &0	&0.076    &$-$0.051&   0.608 \\
-$\bigtriangleup_{j,5}$  [eV] &$-$0.016&$-$0.048&0.001   &$-$0.009&$-$0.046&   0.001&	 0.011&	0.37   &$-$0.047&0.022    &0.274   &   0.374 \\
-$\bigtriangleup_{j,6}$  [eV] & 0	&0.037   &$-$0.073&   0.117&	0   &$-$0.022&$-$0.313&$-$0.012&0       &$-$0.111 &$-$0.525&$-$4.362 \\
-$\delta_{j,1}$   [eV\textsuperscript{$-$1}]        & 30.669	&952     &2304.147&  94.139&  27.157&	5.517& 1.029  &  57.007&  11.865&10.526   &9.269   &   3.839 \\
-$\delta_{j,2}$   [eV\textsuperscript{$-$1}]      & 47.374	&1754.386&4587.156& 220.556&  44.506&	13.61&0.413   &153.435 &  20.262&28.545   &21.582  &   6.232 \\
-$\delta_{j,3}$   [eV\textsuperscript{$-$1}]      & 0	&3.97    &72.296  &11.746  &0	    &487.805 &46.95   &8.489   &0	&0.131    &9.116   &  59.625 \\
-$\delta_{j,4}$   [eV\textsuperscript{$-$1}]      & 0	&3.688	 &123.274 &18.078  &0	    &1128.668&72.844  &13.509  &0	&0.126	  &21.328  & 148.516 \\
-$\delta_{j,5}$   [eV\textsuperscript{$-$1}]      & 31.852	&6.041	 &56.004  &64.137  &21.124  &1.314   &247.158 &7.921   &12.978	&7.709	  &12.141  &   8.014 \\
-$\delta_{j,6}$   [eV\textsuperscript{$-$1}]      & 0	&3.134	 &6.1	  &12.031  & 0	    &267.523 &29.076  &8.743   &0	&64.185	  &66.808  &   5.309 \\
-$\delta_{j,7}$   [eV\textsuperscript{$-$1}]      & 222.641&37.004	 &3846.154&206.148 &79.879  &3322.259&212.902 &16.836  &76.319  &236.742  &16.24   &   5.092 \\
-$\delta_{j,8}$   [eV\textsuperscript{$-$1}]      & 0	&12.647	 &16.269  &6.982   &0	    &92.954  &4.885   &57.89   &0	&31.947	  &6.71	   &   1.209 \\
-$\delta_{j,9}$   [eV\textsuperscript{$-$1}]      & 0	&61.565	 &33.169  &34.114  &0	    &118.064 &0	      &273.4   &0       &34.784   &4.831   &   1.394 \\
-$\delta_{j,10}$  [eV\textsuperscript{$-$1}]      & 0	&46.679	 &31.275  &32.237  &0	    &110.327 &6.074   &153.523 &0	&40.765	  &5.243   &   2.124 \\
+$E_j^0$    [eV]              &\ \enspace0.533&$-$0.299  &$-$0.230&$-$0.608&   0.569&$-$1.045&$-$1.261&$-$0.669&   0.920&10.580    &$-$0.492&$-$2.513\\
+$\bigtriangleup_{j,1}$  [eV] &$-$0.295       &\ \enspace0.006	 &$-$0.002&$-$0.021&$-$0.230&	0.106&	 1.321&$-$0.026&$-$0.454&0.116    &   1.284&   1.194 \\
+$\bigtriangleup_{j,2}$  [eV] &\ \enspace0    &\ \enspace0.098	 &   0.104&   0.308&   0    &   0.002&   0.096&	  0.386&0       &$-$10.771&$-$0.837&$-$0.024 \\
+$\bigtriangleup_{j,3}$  [eV] &$-$0.242       &\ \enspace0.018	 &0.124   &$-$0.025&$-$0.293&	0.937&$-$0.017&$-$0.838&$-$0.419&0.088    &0.347   &$-$0.303 \\
+$\bigtriangleup_{j,4}$  [eV] &\ \enspace0    &\ \enspace0.188   &0.076	  &   0.238&  0     &   0.021&   0.163&0.789   &0	&0.076    &$-$0.051&   0.608 \\
+$\bigtriangleup_{j,5}$  [eV] &$-$0.016       &$-$0.048&0.001   &$-$0.009&$-$0.046&   0.001&	 0.011&	0.37   &$-$0.047&0.022    &0.274   &   0.374 \\
+$\bigtriangleup_{j,6}$  [eV] &\ \enspace0    &\ \enspace0.037   &$-$0.073&   0.117&	0   &$-$0.022&$-$0.313&$-$0.012&0       &$-$0.111 &$-$0.525&$-$4.362 \\
+$\delta_{j,1}$   [eV\textsuperscript{$-$1}]      &\ \enspace30.669	&\ \enspace952           &\ \enspace2304.147   &\ \enspace94.139  &\ \enspace27.157   &\ \enspace5.517& 1.029  &  57.007&  11.865&10.526   &9.269   &   3.839 \\
+$\delta_{j,2}$   [eV\textsuperscript{$-$1}]      &\ \enspace47.374	&\ \enspace1754.386      &\ \enspace4587.156   &\ \enspace220.556 &\ \enspace44.506   &\ \enspace13.61&0.413   &153.435 &  20.262&28.545   &21.582  &   6.232 \\
+$\delta_{j,3}$   [eV\textsuperscript{$-$1}]      &\ \enspace0	        &\ \enspace3.97          &\ \enspace72.296     &\ \enspace11.746  &\ \enspace0	      &\ \enspace487.805 &46.95   &8.489   &0	&0.131    &9.116   &  59.625 \\
+$\delta_{j,4}$   [eV\textsuperscript{$-$1}]      &\ \enspace0	        &\ \enspace3.688	 &\ \enspace123.274    &\ \enspace18.078  &\ \enspace0	      &\ \enspace1128.668&72.844  &13.509  &0	&0.126	  &21.328  & 148.516 \\
+$\delta_{j,5}$   [eV\textsuperscript{$-$1}]      &\ \enspace31.852	&\ \enspace6.041	 &\ \enspace56.004     &\ \enspace64.137  &\ \enspace21.124   &\ \enspace1.314   &247.158 &7.921   &12.978	&7.709	  &12.141  &   8.014 \\
+$\delta_{j,6}$   [eV\textsuperscript{$-$1}]      &\ \enspace0	        &\ \enspace3.134	 &\ \enspace6.1	       &\ \enspace12.031  &\ \enspace0	      &\ \enspace267.523 &29.076  &8.743   &0	&64.185	  &66.808  &   5.309 \\
+$\delta_{j,7}$   [eV\textsuperscript{$-$1}]      &\ \enspace222.641     &\ \enspace37.004	 &\ \enspace3846.154   &\ \enspace206.148 &\ \enspace79.879   &\ \enspace3322.259&212.902 &16.836  &76.319  &236.742  &16.24   &   5.092 \\
+$\delta_{j,8}$   [eV\textsuperscript{$-$1}]      &\ \enspace0	        &\ \enspace12.647	 &\ \enspace16.269     &\ \enspace6.982   &\ \enspace0	      &\ \enspace92.954  &4.885   &57.89   &0	&31.947	  &6.71	   &   1.209 \\
+$\delta_{j,9}$   [eV\textsuperscript{$-$1}]      &\ \enspace0	        &\ \enspace61.565	 &\ \enspace33.169     &\ \enspace34.114  &\ \enspace0	      &\ \enspace118.064 &0	      &273.4   &0       &34.784   &4.831   &   1.394 \\
+$\delta_{j,10}$  [eV\textsuperscript{$-$1}]      &\ \enspace0	        &\ \enspace46.679	 &\ \enspace31.275     &\ \enspace32.237  &\ \enspace0	      &\ \enspace110.327 &6.074   &153.523 &0	&40.765	  &5.243   &   2.124 \\
 \hline
 \end{tabular}}
 \caption {Parameters in \textbf{Eq. \ref{nonparabolic}} to describe the non-parabolic contribution to the energy dispersions $E\textsubscript{j}(\textbf{k})$ of the lowest CB and the three uppermost VBs. The notation of the energy 
@@ -1947,7 +1947,7 @@ assuming the presences of the native Cu vacancies as acceptors.
 
  \begin{figure}[H]
     \begin{center}
-            \includegraphics[width=1\textwidth,clip]{paper2fig8}
+            \includegraphics[width=1\textwidth,clip]{paper2fig81}
      \end{center}
     \caption{Fermi level as function of the temperature $20 \leq T \leq 600$ of $p$-type CuInSe\textsubscript{2}, CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2}, and CuGaSe\textsubscript{2} for the effective
     doping concentration $N_A$ = $10^{13}$, $10^{14}$, $10^{15}$, $\cdot$, and $10^{19}$ acceptors cm\textsuperscript{$-$3}. The energy scale $E_F^p-E_F$ describes the Fermi energy with respect to the intrinsic $E_F$ (\textbf{Fig. \ref{icc}}).
@@ -2214,9 +2214,9 @@ I am grateful to Prof. Börje Johansson for the acceptance in his research group
 I appreciate Prof. Claudia Draxl to accept me visiting her group to learn Exciting Code at the University of Leoben in Austria and Humboldt University of Berlin in Germany, respectively. I also thank all the people who give me support and
 discuss with during my staying there.
 
-I would like to thank all the group colleagues in Stockholm and Oslo for helpful research discussions and chatting: Maofeng, Hanyue, Shen, Dan, Gustavo, Mukesh, Mathias, Priyadarshini, Tiago, Fabiano, Carlos, Oleksandr, Kristian,  Alexander, Girma, Roger. 
-I also would like to thank Xuemei to help me arrange apartment during staying in University of Oslo. I would like to thank all other people at the Department of Material Sciences and Engineering at KTH for creating a nice working atmosphere,
-especially for Qiang, Huahai, and Song.
+I would like to thank all the group colleagues in Stockholm and Oslo for helpful research discussions and chatting: Alexander, Carlos, Dan, Fabiano, Girma, Gustavo, Hanyue, Kristian, Mathias, Maofeng, Mukesh, Priya, Roger, Sasha, Shen, Tiago.
+I also would like to thank Xuemei to help me arrange my apartment during staying in University of Oslo. I would like to thank all other people at the Department of Material Sciences and Engineering at KTH for creating a nice working atmosphere,
+especially for Huahai, Qiang and Song (names in alphabetical order).
 
 The China Scholarship Council, the Swedish Energy Agency, and the Swedish Research Council, Stiftelsen Axel Hultgrens fond,  Olle Erikssons stiftelse för materialteknik, and KTH Computational Science and Engineering Centre (KCSE) 
 are acknowledged for financial support.
