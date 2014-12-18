@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.16)  18 DEC 2014 19:36
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.16)  18 DEC 2014 19:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2267,25 +2267,28 @@ File: JAP4-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: JAP4-eps-converted-to.pdf used on input line 1903.
 (pdftex.def)             Requested size: 460.72124pt x 330.9858pt.
  [49] [50 <./JAP4-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <paper2fig8.eps>
-(epstopdf)                    date: 2014-11-06 17:13:04
-(epstopdf)                    size: 355711 bytes
-(epstopdf)             Output file: <paper2fig8-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-11-06 19:30:24
-(epstopdf)                    size: 42937 bytes
-(epstopdf)             Command: <repstopdf --outfile=paper2fig8-eps-converted-t
-o.pdf paper2fig8.eps>
+Package epstopdf Info: Source file: <paper2fig81.eps>
+(epstopdf)                    date: 2014-12-18 18:46:48
+(epstopdf)                    size: 355608 bytes
+(epstopdf)             Output file: <paper2fig81-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=paper2fig81-eps-converted-
+to.pdf paper2fig81.eps>
 (epstopdf)             \includegraphics on input line 1950.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(repstopdf --outfile=paper2fig81-eps-converted-to.pdf paper2fig81.eps)
+...executed safely (allowed).
 
-<paper2fig8-eps-converted-to.pdf, id=975, 588.1975pt x 230.8625pt>
-File: paper2fig8-eps-converted-to.pdf Graphic file (type pdf)
+Package epstopdf Info: Result file: <paper2fig81-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-12-18 19:49:54
+(epstopdf)                    size: 42909 bytes.
 
-<use paper2fig8-eps-converted-to.pdf>
-Package pdftex.def Info: paper2fig8-eps-converted-to.pdf used on input line 195
-0.
-(pdftex.def)             Requested size: 460.72124pt x 180.82939pt.
- [51 <./paper2fig8-eps-converted-to.pdf>]
+<paper2fig81-eps-converted-to.pdf, id=975, 597.23125pt x 221.82875pt>
+File: paper2fig81-eps-converted-to.pdf Graphic file (type pdf)
+
+<use paper2fig81-eps-converted-to.pdf>
+Package pdftex.def Info: paper2fig81-eps-converted-to.pdf used on input line 19
+50.
+(pdftex.def)             Requested size: 460.72124pt x 171.12682pt.
+ [51 <./paper2fig81-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <paper2figure9.eps>
 (epstopdf)                    date: 2014-09-25 15:56:44
 (epstopdf)                    size: 234346 bytes
@@ -2296,8 +2299,7 @@ Package epstopdf Info: Source file: <paper2figure9.eps>
 d-to.pdf paper2figure9.eps>
 (epstopdf)             \includegraphics on input line 1976.
 Package epstopdf Info: Output file is already uptodate.
-
-<paper2figure9-eps-converted-to.pdf, id=988, 586.19pt x 284.06125pt>
+ <paper2figure9-eps-converted-to.pdf, id=988, 586.19pt x 284.06125pt>
 File: paper2figure9-eps-converted-to.pdf Graphic file (type pdf)
 
 <use paper2figure9-eps-converted-to.pdf>
@@ -2422,7 +2424,7 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  27568 strings out of 494989
- 543437 string characters out of 6180577
+ 543442 string characters out of 6180577
  610048 words of memory out of 5000000
  30178 multiletter control sequences out of 15000+600000
  137019 words of font info for 146 fonts, out of 8000000 for 9000
@@ -2450,7 +2452,7 @@ a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on thesis.pdf (71 pages, 11575901 bytes).
+Output written on thesis.pdf (71 pages, 11575866 bytes).
 PDF statistics:
  1155 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
