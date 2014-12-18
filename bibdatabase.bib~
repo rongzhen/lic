@@ -16,7 +16,7 @@
   title={},
   author={Smestad, Greg P},
   year={2002},
-  publisher={SPIE press}
+  publisher={SPIE Press}
 }
 
 
@@ -35,20 +35,11 @@
   title={},
   author={Boyle, Godfrey},
   year={2004},
-  publisher={OXFORD university press}
+  publisher={Oxford University Press}
 }
 
 
 
-@BOOK{XUE1991,
-title={},
-author={WANG JUN YI ?XU REN XUE},
-publisher={Unknown},
-year={1991},
-isbn={9787508249308},
-url={http://amazon.com/o/ASIN/7508249305/},
-timestamp={2014.11.08},
-}
 
 
 @BOOK{Chiras201007,
@@ -56,7 +47,7 @@ title={},
 author={Dan Chiras},
 publisher={New Society Publishers},
 year={2010},
-month={7},
+month={},
 isbn={9780865716186},
 url={http://amazon.com/o/ASIN/0865716188/},
 timestamp={2014.11.08},
@@ -76,14 +67,14 @@ timestamp={2014.11.08},
   author={Dimroth, Frank and Grave, Matthias and Beutel, Paul and Fiedeler, Ulrich and Karcher, Christian and Tibbits, Thomas ND and Oliva, Eduard and Siefer, Gerald and Schachtner, Michael and Wekkeli, Alexander and others},
   journal={Progress in Photovoltaics: Research and Applications},
   volume={22},
-  number={3},
-  pages={277--282},
+  number={},
+  pages={277},
   year={2014},
   publisher={Wiley Online Library}
 }
 
 @article{jones2009new,
-  title={New frontiers in solar cell conversion efficiency},
+  title={},
   author={Jones, Russ},
   journal={Spectrolab, Inc. A Boeing Company. Sylmar, California, Estados Unidos},
   year={2009}
@@ -101,7 +92,7 @@ timestamp={2014.11.08},
   title={},
   author={Ward, James S and Egaas, Brian and Noufi, Rommel and Contreras, Miguel and Ramanathan, Kannan and Osterwald, Carl and Emery, Keith},
   booktitle={Photovoltaic Specialist Conference (PVSC), 2014 IEEE 40th},
-  pages={2934--2937},
+  pages={2934},
   year={2014},
   organization={IEEE}
 }
@@ -117,11 +108,11 @@ timestamp={2014.11.08},
 
 @article{zhou2014interface,
   title={},
-  author={Zhou, Huanping and Chen, Qi and Li, Gang and Luo, Song and Song, Tze-bing and Duan, Hsin-Sheng and Hong, Ziruo and You, Jingbi and Liu, Yongsheng and Yang, Yang},
+  author={Zhou, Huanping and Chen, Qi and Li, Gang and Luo, Song and Song, Tze-Bing and Duan, Hsin-Sheng and Hong, Ziruo and You, Jingbi and Liu, Yongsheng and Yang, Yang},
   journal={Science},
   volume={345},
-  number={6196},
-  pages={542--546},
+  number={},
+  pages={542},
   year={2014},
   publisher={American Association for the Advancement of Science}
 }
@@ -132,8 +123,8 @@ timestamp={2014.11.08},
   author={Green, Martin A and Ho-Baillie, Anita and Snaith, Henry J},
   journal={Nature Photonics},
   volume={8},
-  number={7},
-  pages={506--514},
+  number={},
+  pages={506},
   year={2014},
   publisher={Nature Publishing Group}
 }
@@ -143,8 +134,8 @@ timestamp={2014.11.08},
   author={McGehee, Michael D},
   journal={Nature materials},
   volume={13},
-  number={9},
-  pages={845--846},
+  number={},
+  pages={845},
   year={2014},
   publisher={Nature Publishing Group}
 }
@@ -175,9 +166,9 @@ timestamp={2014.11.08},
 @article{Becquerel,
   title={},
   author={A. E. Becquerel},
-  journal={C.R. Acad. Sci.},
+  journal={Comptes Rendus de l'Académie des Sciences},
   volume={9},
-  pages={561--567},
+  pages={561},
   year={1839}
 }
 
@@ -187,8 +178,8 @@ timestamp={2014.11.08},
   author={Etgar, Lioz},
   journal={Materials},
   volume={6},
-  number={2},
-  pages={445--459},
+  number={},
+  pages={445},
   year={2013},
   publisher={Multidisciplinary Digital Publishing Institute}
 }
@@ -201,7 +192,7 @@ timestamp={2014.11.08},
 }
 
 @Patent{1941ohl1,
- author = {Ohl R S},
+ author = {Russell Shoemaker Ohl},
  title = {},
  year = {1941},
  month = {03},
@@ -210,7 +201,7 @@ timestamp={2014.11.08},
 }     
 
 @Patent{1941ohl2,
- author = {Ohl R S},
+ author = {Russell Shoemaker Ohl},
  title = {},
  year = {1941},
  month = {05},
@@ -224,7 +215,7 @@ timestamp={2014.11.08},
   author={Chen, Shiyou and Gong, XG and Walsh, Aron and Wei, Su-Huai},
   journal={Physical Review B},
   volume={79},
-  number={16},
+  number={},
   pages={165211},
   year={2009},
   publisher={APS}
@@ -235,8 +226,8 @@ timestamp={2014.11.08},
   author={Chen, Shiyou and Gong, XG and Walsh, Aron and Wei, Su-Huai},
   journal={Applied Physics Letters},
   volume={94},
-  number={4},
-  pages={041903--041903},
+  number={},
+  pages={041903},
   year={2009},
   publisher={AIP}
 }
@@ -246,9 +237,9 @@ timestamp={2014.11.08},
   title={},
   author={Walsh, Aron and Wei, Su-Huai and Chen, Shiyou and Gong, XG},
   booktitle={Photovoltaic Specialists Conference (PVSC), 2009 34th IEEE},
-  pages={001875--001878},
+  pages={001875},
   year={2009},
-  organization={IEEE}
+  organization={}
 }
 
 
@@ -257,8 +248,8 @@ timestamp={2014.11.08},
   author={Hoffmann, Winfried},
   journal={Solar energy materials and solar cells},
   volume={90},
-  number={18},
-  pages={3285--3311},
+  number={},
+  pages={3285},
   year={2006},
   publisher={Elsevier}
 }
@@ -276,8 +267,8 @@ timestamp={2014.11.08},
   author={Siders, Craig W and Cavalleri, Andrea and Sokolowski-Tinten, Klaus and T{\'o}th, Cs and Guo, Ting and Kammler, Martin and Von Hoegen, M Horn and Wilson, Kent R and von der Linde, Dietrich and Barty, Christopher PJ},
   journal={Science},
   volume={286},
-  number={5443},
-  pages={1340--1342},
+  number={},
+  pages={1340},
   year={1999},
   publisher={American Association for the Advancement of Science}
 }
@@ -309,8 +300,8 @@ timestamp={2014.11.08},
   author={Henry, Charles H},
   journal={Journal of applied physics},
   volume={51},
-  number={8},
-  pages={4494--4500},
+  number={},
+  pages={4494},
   year={1980},
   publisher={AIP Publishing}
 }
@@ -321,8 +312,8 @@ timestamp={2014.11.08},
   author={Shockley, William and Queisser, Hans J},
   journal={Journal of applied physics},
   volume={32},
-  number={3},
-  pages={510--519},
+  number={},
+  pages={510},
   year={1961},
   publisher={AIP Publishing}
 }
@@ -333,8 +324,8 @@ timestamp={2014.11.08},
   author={Alferov, Zhores I},
   journal={Reviews of modern physics},
   volume={73},
-  number={3},
-  pages={767--782},
+  number={},
+  pages={767},
   year={2001},
   publisher={Minneapolis: American Physical Society,[1930-}
 }
@@ -344,7 +335,7 @@ timestamp={2014.11.08},
   title={},
   author={Yablonovitch, E and Miller, OD and Kurtz, SR},
   booktitle={Photovoltaic Specialists Conference (PVSC), 2012 38th IEEE},
-  pages={001556--001559},
+  pages={001556},
   year={2012},
   organization={IEEE}
 }
@@ -355,8 +346,8 @@ timestamp={2014.11.08},
   author={Dimroth, Frank and Grave, Matthias and Beutel, Paul and Fiedeler, Ulrich and Karcher, Christian and Tibbits, Thomas ND and Oliva, Eduard and Siefer, Gerald and Schachtner, Michael and Wekkeli, Alexander and others},
   journal={Progress in Photovoltaics: Research and Applications},
   volume={22},
-  number={3},
-  pages={277--282},
+  number={},
+  pages={277},
   year={2014},
   publisher={Wiley Online Library}
 }
@@ -375,8 +366,8 @@ timestamp={2014.11.08},
   author={Carlson, David E and Wronski, Cristopher R},
   journal={Applied Physics Letters},
   volume={28},
-  number={11},
-  pages={671--673},
+  number={},
+  pages={671},
   year={1976},
   publisher={AIP Publishing}
 }
@@ -412,7 +403,7 @@ timestamp={2014.11.08},
   author={Wolden, Colin A and Kurtin, Juanita and Baxter, Jason B and Repins, Ingrid and Shaheen, Sean E and Torvik, John T and Rockett, Angus A and Fthenakis, Vasilis M and Aydil, Eray S},
   journal={Journal of Vacuum Science \& Technology A},
   volume={29},
-  number={3},
+  number={},
   pages={030801},
   year={2011},
   publisher={AVS: Science \& Technology of Materials, Interfaces, and Processing}
@@ -420,12 +411,12 @@ timestamp={2014.11.08},
 
 
 @article{meyers1988design,
-  title={Design of a thin film CdTe solar cell},
+  title={},
   author={Meyers, Peter V},
   journal={Solar Cells},
   volume={23},
-  number={1},
-  pages={59--67},
+  number={},
+  pages={59},
   year={1988},
   publisher={Elsevier}
 }
@@ -436,8 +427,8 @@ timestamp={2014.11.08},
   author={Jackson, Philip and Hariskos, Dimitrios and Lotter, Erwin and Paetel, Stefan and Wuerz, Roland and Menner, Richard and Wischmann, Wiltraud and Powalla, Michael},
   journal={Progress in Photovoltaics: Research and Applications},
   volume={19},
-  number={7},
-  pages={894--897},
+  number={},
+  pages={894},
   year={2011},
   publisher={Wiley Online Library}
 }
@@ -448,8 +439,8 @@ timestamp={2014.11.08},
   author={Green, Martin A},
   journal={Journal of Materials Science: Materials in Electronics},
   volume={18},
-  number={1},
-  pages={15--19},
+  number={},
+  pages={15},
   year={2007},
   publisher={Springer}
 }
@@ -459,7 +450,7 @@ timestamp={2014.11.08},
   author={Kumar, Mukesh and Zhao, Hanyue and Persson, Clas},
   journal={Thin Solid Films},
   volume={535},
-  pages={318--321},
+  pages={318},
   year={2013},
   publisher={Elsevier}
 }
@@ -469,7 +460,7 @@ timestamp={2014.11.08},
   author={Chen, Rongzhen and Persson, Clas},
   journal={Journal of Applied Physics},
   volume={112},
-  number={10},
+  number={},
   pages={103708},
   year={2012},
   publisher={AIP Publishing}
@@ -481,8 +472,8 @@ timestamp={2014.11.08},
   author={Chen, Rongzhen and Persson, Clas},
   journal={Thin Solid Films},
   volume={519},
-  number={21},
-  pages={7503--7507},
+  number={},
+  pages={7503},
   year={2011},
   publisher={Elsevier}
 }
@@ -493,8 +484,8 @@ timestamp={2014.11.08},
   author={Persson, Clas},
   journal={Thin Solid Films},
   volume={517},
-  number={7},
-  pages={2374--2379},
+  number={},
+  pages={2374},
   year={2009},
   publisher={Elsevier}
 }
@@ -513,8 +504,8 @@ title = {},
 author = {Hahn, Harry and Frank, Günter and Klingler, Wilhelm and Meyer, Anne-Dorothee and Störger, Georg},
 journal = {Zeitschrift für anorganische und allgemeine Chemie},
 volume = {271},
-number = {3-4},
-pages = {153--170},
+number = {},
+pages = {153},
 year = {1953},
 publisher = {WILEY-VCH Verlag},
 }
@@ -527,8 +518,8 @@ publisher = {WILEY-VCH Verlag},
    journal = {Applied Physics Letters},
    year = {1974},
    volume = {25},
-   number = {8}, 
-   pages = {34--435},
+   number = {}, 
+   pages = {34},
 }
 
 
@@ -537,7 +528,7 @@ publisher = {WILEY-VCH Verlag},
   author={Parlak, Cihan and Eryi{\u{g}}it, Resul},
   journal={Physical Review B},
   volume={73},
-  number={24},
+  number={},
   pages={245217},
   year={2006},
   publisher={APS}
@@ -548,7 +539,7 @@ publisher = {WILEY-VCH Verlag},
   author={H{\"o}nes, Katja and Eickenberg, Michael and Siebentritt, Susanne and Persson, Clas},
   journal={Applied physics letters},
   volume={93},
-  number={9},
+  number={},
   pages={092102},
   year={2008},
   publisher={AIP Publishing}
@@ -559,8 +550,8 @@ publisher = {WILEY-VCH Verlag},
   author={Persson, Clas},
   journal={Applied Physics Letters},
   volume={93},
-  number={7},
-  pages={072106--072106},
+  number={},
+  pages={072106},
   year={2008},
   publisher={AIP}
 }
@@ -570,7 +561,7 @@ publisher = {WILEY-VCH Verlag},
   author={Li, Zong Bao},
   journal={Advanced Materials Research},
   volume={239},
-  pages={1304--1308},
+  pages={1304},
   year={2011},
   publisher={Trans Tech Publ}
 }
@@ -591,8 +582,8 @@ publisher = {WILEY-VCH Verlag},
   author={Jiang, C-S and Noufi, R and Ramanathan, K and AbuShama, JA and Moutinho, HR and Al-Jassim, MM},
   journal={Applied physics letters},
   volume={85},
-  number={13},
-  pages={2625--2627},
+  number={},
+  pages={2625},
   year={2004},
   publisher={AIP Publishing}
 }
@@ -602,7 +593,7 @@ publisher = {WILEY-VCH Verlag},
   author={Persson, Clas and Zhao, Yu-Jun and Lany, Stephan and Zunger, Alex},
   journal={Physical Review B},
   volume={72},
-  number={3},
+  number={},
   pages={035211},
   year={2005},
   publisher={APS}
@@ -614,7 +605,7 @@ publisher = {WILEY-VCH Verlag},
   author={Persson, Clas and Zhao, Yu-Jun and Lany, Stephan and Zunger, Alex},
   journal={Physical Review B},
   volume={72},
-  number={3},
+  number={},
   pages={035211},
   year={2005},
   publisher={APS}
@@ -626,8 +617,8 @@ publisher = {WILEY-VCH Verlag},
   author={Zhao, Yu-Jun and Persson, Clas and Lany, Stephan and Zunger, Alex},
   journal={Applied physics letters},
   volume={85},
-  number={24},
-  pages={5860--5862},
+  number={},
+  pages={5860},
   year={2004},
   publisher={AIP}
 }
@@ -650,7 +641,7 @@ publisher = {WILEY-VCH Verlag},
   author={Neumann, H},
   journal={Solar Cells},
   volume={16},
-  pages={317--333},
+  pages={317},
   year={1986},
   publisher={Elsevier}
 }
@@ -661,7 +652,7 @@ publisher = {WILEY-VCH Verlag},
 author={Chen, Shiyou and Yang, Ji-Hui and Gong, XG and Walsh, Aron and Wei, Su-Huai},
   journal={Physical Review B},
   volume={81},
-  number={24},
+  number={},
   pages={245204},
   year={2010},
   publisher={APS}
@@ -672,7 +663,7 @@ author={Chen, Shiyou and Yang, Ji-Hui and Gong, XG and Walsh, Aron and Wei, Su-H
   author={Schuler, Steffen and Siebentritt, Susanne and Nishiwaki, Shiro and Rega, Niklas and Beckmann, Joerg and Brehme, Stephan and Lux-Steiner, Martha Ch},
   journal={Physical review B},
   volume={69},
-  number={4},
+  number={},
   pages={045210},
   year={2004},
   publisher={APS}
@@ -684,7 +675,7 @@ author={Chen, Shiyou and Yang, Ji-Hui and Gong, XG and Walsh, Aron and Wei, Su-H
   author={Lany, Stephan and Zunger, Alex},
   journal={Physical review letters},
   volume={100},
-  number={1},
+  number={},
   pages={016401},
   year={2008},
   publisher={APS}
@@ -696,7 +687,7 @@ author={Chen, Shiyou and Yang, Ji-Hui and Gong, XG and Walsh, Aron and Wei, Su-H
   author={Zhang, SB and Wei, Su-Huai and Zunger, Alex and Katayama-Yoshida, H},
   journal={Physical Review B},
   volume={57},
-  number={16},
+  number={},
   pages={9642},
   year={1998},
   publisher={APS}
@@ -707,7 +698,7 @@ author={Chen, Shiyou and Yang, Ji-Hui and Gong, XG and Walsh, Aron and Wei, Su-H
   author={Lundberg, Olle and Edoff, Marika and Stolt, Lars},
   journal={Thin Solid Films},
   volume={480},
-  pages={520--525},
+  pages={520},
   year={2005},
   publisher={Elsevier}
 }
@@ -717,8 +708,8 @@ author={Chen, Shiyou and Yang, Ji-Hui and Gong, XG and Walsh, Aron and Wei, Su-H
   author={Lundberg, Olle and Lu, Jun and Rockett, Angus and Edoff, Marika and Stolt, Lars},
   journal={Journal of Physics and Chemistry of Solids},
   volume={64},
-  number={9},
-  pages={1499--1504},
+  number={},
+  pages={1499},
   year={2003},
   publisher={Elsevier}
 }
@@ -728,8 +719,8 @@ author={Chen, Shiyou and Yang, Ji-Hui and Gong, XG and Walsh, Aron and Wei, Su-H
   author={Ramanathan, Kannan and Contreras, Miguel A and Perkins, Craig L and Asher, Sally and Hasoon, Falah S and Keane, James and Young, David and Romero, Manuel and Metzger, Wyatt and Noufi, Rommel and others},
   journal={Progress in Photovoltaics: Research and Applications},
   volume={11},
-  number={4},
-  pages={225--230},
+  number={},
+  pages={225},
   year={2003},
   publisher={Wiley Online Library}
 }
@@ -739,8 +730,8 @@ author={Chen, Shiyou and Yang, Ji-Hui and Gong, XG and Walsh, Aron and Wei, Su-H
   author={Kim, Kun Ho and Park, Ki Cheol and Ma, Dae Young},
   journal={Journal of Applied Physics},
   volume={81},
-  number={12},
-  pages={7764--7772},
+  number={},
+  pages={7764},
   year={1997},
   publisher={AIP}
 }
@@ -750,7 +741,7 @@ author={Chen, Shiyou and Yang, Ji-Hui and Gong, XG and Walsh, Aron and Wei, Su-H
   author={Minami, Tadatsugu and Nanto, Hidehito and Takata, Shinzo},
   journal={Japanese Journal of Applied Physics},
   volume={23},
-  number={5A},
+  number={},
   pages={L280},
   year={1984},
   publisher={IOP Publishing}
@@ -763,8 +754,8 @@ author={Chen, Shiyou and Yang, Ji-Hui and Gong, XG and Walsh, Aron and Wei, Su-H
   author={Naghavi, N and Abou-Ras, D and Allsop, N and Barreau, N and B{\"u}cheler, S and Ennaoui, A and Fischer, C-H and Guillen, C and Hariskos, D and Herrero, J and others},
   journal={Progress in Photovoltaics: Research and Applications},
   volume={18},
-  number={6},
-  pages={411--433},
+  number={},
+  pages={411},
   year={2010},
   publisher={Wiley Online Library}
 }
@@ -775,8 +766,8 @@ author={Chen, Shiyou and Yang, Ji-Hui and Gong, XG and Walsh, Aron and Wei, Su-H
   author={Niki, Shigeru and Contreras, Miguel and Repins, Ingrid and Powalla, Michael and Kushiya, Katsumi and Ishizuka, Shogo and Matsubara, Koji},
   journal={Progress in Photovoltaics: Research and Applications},
   volume={18},
-  number={6},
-  pages={453--466},
+  number={},
+  pages={453},
   year={2010},
   publisher={Wiley Online Library}
 }
@@ -786,8 +777,8 @@ author={Chen, Shiyou and Yang, Ji-Hui and Gong, XG and Walsh, Aron and Wei, Su-H
   author={Kessler, John and Bodeg{\aa}rd, Marika and Hedstr{\"o}m, Jonas and Stolt, Lars},
   journal={Solar energy materials and solar cells},
   volume={67},
-  number={1},
-  pages={67--76},
+  number={},
+  pages={67},
   year={2001},
   publisher={Elsevier}
 }
@@ -804,7 +795,7 @@ author={Chen, Shiyou and Yang, Ji-Hui and Gong, XG and Walsh, Aron and Wei, Su-H
   title={},
   author={Martin, Richard M},
   year={2013},
-  publisher={freely available at
+  publisher={freely available
 http://www.wien2k.at/reg
 user/textbooks}
 }
@@ -849,7 +840,7 @@ user/textbooks}
   author={Hohenberg, Pierre and Kohn, Walter},
   journal={Physical review},
   volume={136},
-  number={3B},
+  number={},
   pages={B864},
   year={1964},
   publisher={APS}
@@ -861,7 +852,7 @@ user/textbooks}
   author={Kohn, Walter and Sham, Lu Jeu},
   journal={Physical Review},
   volume={140},
-  number={4A},
+  number={},
   pages={A1133},
   year={1965},
   publisher={APS}
@@ -890,7 +881,7 @@ user/textbooks}
   author={Slater, John C},
   journal={Physical Review},
   volume={81},
-  number={3},
+  number={},
   pages={385},
   year={1951},
   publisher={APS}
@@ -902,7 +893,7 @@ user/textbooks}
   author={von Barth, Ulf and Hedin, Lars},
   journal={Journal of Physics C: Solid State Physics},
   volume={5},
-  number={13},
+  number={},
   pages={1629},
   year={1972},
   publisher={IOP Publishing}
@@ -914,7 +905,7 @@ user/textbooks}
   author={Hedin, Lars and Lundqvist, BI},
   journal={Journal of Physics C: Solid state physics},
   volume={4},
-  number={14},
+  number={},
   pages={2064},
   year={1971},
   publisher={IOP Publishing}
@@ -929,8 +920,8 @@ user/textbooks}
   author={Tozer, David J and Handy, Nicholas C},
   journal={The Journal of chemical physics},
   volume={108},
-  number={6},
-  pages={2545--2555},
+  number={},
+  pages={2545},
   year={1998},
   publisher={AIP Publishing}
 }
@@ -943,8 +934,8 @@ user/textbooks}
   author={Hamprecht, Fred A and Cohen, Aron J and Tozer, David J and Handy, Nicholas C},
   journal={The Journal of chemical physics},
   volume={109},
-  number={15},
-  pages={6264--6271},
+  number={},
+  pages={6264},
   year={1998},
   publisher={AIP Publishing}
 }
@@ -954,8 +945,8 @@ user/textbooks}
   author={Grabo, Tobias and Gross, Eberhard KU},
   journal={Chemical physics letters},
   volume={240},
-  number={1},
-  pages={141--150},
+  number={},
+  pages={141},
   year={1995},
   publisher={Elsevier}
 }
@@ -966,7 +957,7 @@ user/textbooks}
   author={Cohen, Aron J and Mori-S{\'a}nchez, Paula and Yang, Weitao},
   journal={The Journal of chemical physics},
   volume={126},
-  number={19},
+  number={},
   pages={191109},
   year={2007},
   publisher={AIP Publishing}
@@ -987,7 +978,7 @@ user/textbooks}
   author={Slater, JCp},
   journal={Physical Review},
   volume={51},
-  number={10},
+  number={},
   pages={846},
   year={1937},
   publisher={APS}
@@ -1006,7 +997,7 @@ user/textbooks}
   author={Andersen, O Krogh},
   journal={Physical Review B},
   volume={12},
-  number={8},
+  number={},
   pages={3060},
   year={1975},
   publisher={APS}
@@ -1017,7 +1008,7 @@ user/textbooks}
   author={Koelling, DD and Arbman, GO},
   journal={Journal of Physics F: Metal Physics},
   volume={5},
-  number={11},
+  number={},
   pages={2041},
   year={1975},
   publisher={IOP Publishing}
@@ -1038,7 +1029,7 @@ Rigamonti and Stephan Sagmeister and Ute Werner and Claudia Draxl},
   title={},
   journal={Journal of Physics: Condensed Matter},
   volume={26},
-  number={36},
+  number={},
   pages={363202},
   url={http://stacks.iop.org/0953-8984/26/i=36/a=363202},
   year={2014},
@@ -1050,7 +1041,7 @@ Rigamonti and Stephan Sagmeister and Ute Werner and Claudia Draxl},
   author={Singh, David},
   journal={Physical Review B},
   volume={43},
-  number={8},
+  number={},
   pages={6388},
   year={1991},
   publisher={APS}
@@ -1061,8 +1052,8 @@ Rigamonti and Stephan Sagmeister and Ute Werner and Claudia Draxl},
   author={Sj{\"o}stedt, Elisabeth and Nordstr{\"o}m, Lars and Singh, DJ},
   journal={Solid state communications},
   volume={114},
-  number={1},
-  pages={15--20},
+  number={},
+  pages={15},
   year={2000},
   publisher={Elsevier}
 }
@@ -1072,7 +1063,7 @@ Rigamonti and Stephan Sagmeister and Ute Werner and Claudia Draxl},
   author={Penn, David R},
   journal={Physical Review},
   volume={128},
-  number={5},
+  number={},
   pages={2093},
   year={1962},
   publisher={APS}
@@ -1084,8 +1075,8 @@ Rigamonti and Stephan Sagmeister and Ute Werner and Claudia Draxl},
   author={Fox, Mark and Bertsch, George F},
   journal={American Journal of Physics},
   volume={70},
-  number={12},
-  pages={1269--1270},
+  number={},
+  pages={1269},
   year={2002},
   publisher={American Association of Physics Teachers}
 }
@@ -1096,8 +1087,8 @@ Rigamonti and Stephan Sagmeister and Ute Werner and Claudia Draxl},
   author={Ambrosch-Draxl, Claudia and Sofo, Jorge O},
   journal={Computer Physics Communications},
   volume={175},
-  number={1},
-  pages={1--14},
+  number={},
+  pages={1},
   year={2006},
   publisher={Elsevier}
 }
@@ -1115,7 +1106,7 @@ Rigamonti and Stephan Sagmeister and Ute Werner and Claudia Draxl},
   author={Kane, EO},
   journal={Semiconductors and Semimetals},
   volume={1},
-  pages={75--100},
+  pages={75},
   year={1966},
   publisher={Elsevier}
 }
@@ -1126,8 +1117,8 @@ Rigamonti and Stephan Sagmeister and Ute Werner and Claudia Draxl},
   author={Persson, Clas and Ambrosch-Draxl, Claudia},
   journal={Computer physics communications},
   volume={177},
-  number={3},
-  pages={280--287},
+  number={},
+  pages={280},
   year={2007},
   publisher={Elsevier}
 }
@@ -1151,8 +1142,8 @@ Rigamonti and Stephan Sagmeister and Ute Werner and Claudia Draxl},
   author={van Lenthe, Erik and Baerends, Evert-Jan and Snijders, Jaap G},
   journal={The Journal of chemical physics},
   volume={101},
-  number={11},
-  pages={9783--9792},
+  number={},
+  pages={9783},
   year={1994},
   publisher={AIP Publishing}
 }
@@ -1162,8 +1153,8 @@ Rigamonti and Stephan Sagmeister and Ute Werner and Claudia Draxl},
   author={Faas, S and Snijders, JG and Van Lenthe, JH and Van Lenthe, E and Baerends, EJ},
   journal={Chemical physics letters},
   volume={246},
-  number={6},
-  pages={632--640},
+  number={},
+  pages={632},
   year={1995},
   publisher={Elsevier}
 }
@@ -1173,8 +1164,8 @@ Rigamonti and Stephan Sagmeister and Ute Werner and Claudia Draxl},
   author={Van Lenthe, E and Snijders, JG and Baerends, EJ},
   journal={The Journal of chemical physics},
   volume={105},
-  number={15},
-  pages={6505--6516},
+  number={},
+  pages={6505},
   year={1996},
   publisher={AIP Publishing}
 }
@@ -1184,12 +1175,12 @@ author = {Siebentritt, Susanne and Igalson, Malgorzata and Persson, Clas and Lan
 title = {},
 journal = {Progress in Photovoltaics: Research and Applications},
 volume = {18},
-number = {6},
+number = {},
 publisher = {John Wiley & Sons, Ltd.},
 issn = {1099-159X},
 url = {http://dx.doi.org/10.1002/pip.936},
 doi = {10.1002/pip.936},
-pages = {390--410},
+pages = {390},
 keywords = {chalcopyrites, electronic structure, defects, metastabilities, grain boundaries},
 year = {2010},
 }
@@ -1200,30 +1191,30 @@ year = {2010},
   author={Hellwege, Karl-Heinz and Green, Louis C},
   journal={American Journal of Physics},
   volume={35},
-  number={3},
-  pages={291--292},
+  number={},
+  pages={291},
   year={1967},
   publisher={American Association of Physics Teachers}
 }
 
 @article{goodman1958prediction,
-  title={The prediction of semiconducting properties in inorganic compounds},
+  title={},
   author={Goodman, CHL},
   journal={Journal of Physics and Chemistry of Solids},
   volume={6},
-  number={4},
-  pages={305--314},
+  number={},
+  pages={305},
   year={1958},
   publisher={Elsevier}
 }
 
 @article{pamplin1964systematic,
-  title={A systematic method of deriving new semiconducting compounds by structural analogy},
+  title={},
   author={Pamplin, BR},
   journal={Journal of Physics and Chemistry of Solids},
   volume={25},
-  number={7},
-  pages={675--684},
+  number={},
+  pages={675},
   year={1964},
   publisher={Elsevier}
 }

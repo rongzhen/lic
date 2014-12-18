@@ -119,7 +119,7 @@
 
 
   \vspace{12pt}
-  \textsc{\LARGE{\textbf{{Theoretical study of Cu-Based Quaternary Chalcogenide semiconductors}}}}
+  \textsc{\LARGE{\textbf{{??Theoretical study of Cu-Based Quaternary Chalcogenide semiconductors??}}}}
   \vspace{12pt}
 
   \vspace{5 cm}
@@ -515,7 +515,7 @@ To date, the highest conversion efficiency in lab situation for the solar cells 
 
 
 \subsection{Crystal structure}
-The crystal structure of CIGS can be derived from the zinc blende crystal structure of zinc selenide (ZnSe). In \textbf{Fig. \ref{crystal_cigs}}, the crystal structures of ZnSe and CuInSe\textsubscript{2} are presented {\color{red} Ref}. 
+The crystal structure of CIGS can be derived from the zinc blende crystal structure of zinc selenide (ZnSe). In \textbf{Fig. \ref{crystal_cigs}}, the crystal structures of ZnSe and CuInSe\textsubscript{2} are presented. 
 The elements Zn are replaced by Cu and In or Ga elements in the zinc blende of ZnSe. It requires to double the unit cell in the $z$-direction. Because the bond strength and lengths between
 Cu-Se and In-Se or Ga-Se are different. Therefore, the lattice parameter $c$ is not exact 2$a$ normally \cite{chen2009crystal}.
 
@@ -602,9 +602,9 @@ Thermal conductivity& 0.086 \cite{neumann1986optical} & 0.129 \cite{madelung2004
 %The main native defects in CIGS \cite{chen2010intrinsic, schuler2004self, lany2008intrinsic, zhang1998defect} include <2V\textsubscript{Cu}, In\textsubscript{Cu}>, <Cu\textsubscript{In}, In\textsubscript{Cu}>, V\textsubscript{Cu}, In\textsubscript{Cu}, Cu\textsubscript{In} V\textsubscript{Se} and Ga\textsubscript{Cu}.
 
 CIGS is a nonstoichiometric compound with the deviations from stoichiometry in several percentage range. The high quality thin film solar cells mainly employ Cu-poor (Cu: 22.5$-$24.5\%) high offstoichiometric CIGS absorber.
-V\textsubscript{Cu} is the most important native defects in CIGS due to their low formation energies. Therefore, CIGS can be grown $p$-type easily with the condition of Cu-poor (V\textsubscript{Cu}),
-which can be grown $n$-type under the condition Se-poor or In-rich. There are some extrinsic divalent cation donors as well, such as Zn\textsubscript{Cu}, Cd\textsubscript{Cu} and Cl\textsubscript{Se}. The formation energy 
-for them is relatively low for CIS and CuGaSe\textsubscript{2} (CGS). Therefore, CIS is possible to be $n$-type material. However, CGS is not possible to be $n$-type under equilibrium conditions, because the low formation energy of
+V\textsubscript{Cu} is the most important native defects in CIGS due to their low formation energies. Therefore, CIGS can be grown $p$-type easily with the condition of Cu-poor (V\textsubscript{Cu}).
+There are some extrinsic divalent cation donors as well, such as Zn\textsubscript{Cu}, Cd\textsubscript{Cu} and Cl\textsubscript{Se}. The formation energy 
+for them is relatively low for CIS and CuGaSe\textsubscript{2} (CGS). In face, CIS is possbile to be $n$-type material. However, CGS is not possible to be $n$-type under equilibrium conditions. The reason is that the low formation energy of
 V\textsubscript{Cu} limits the possibility of achieving electronic $n$-type character, especially in Ga-rich CIGS \cite{persson2005n, zhao2004can}. It is maybe also explained why the best solar cell is with the Ga content of 30\% (x = 0.3), however,
 the band-gap energy of the CIGS suggests that the optimum solar cell conversion efficiency is obtained with between x = 0.5 and x = 0.7.
 
@@ -642,41 +642,28 @@ This CIGS/CdS/ZnO structure was optimized to improve the cell performance. The d
 \subsection{The quantum many-body problem}
 \label{ch:mb}
 
-\noindent A solid material contains a huge number of atoms (around 10\textsuperscript{23} \si{\per\cubic\centi\metre} ), and each atom is constructed by a nucleus and electron(s). 
-According to the quantum mechanics principles, all the properties of any system are known if one can figure out a way to solve 
-the quantum many-body Schrödinger equation exactly. In this thesis, the time-independent many-body Schrödinger equation is only considered, which is given as
+\noindent A solid material contains a huge number of atoms (around 10\textsuperscript{23} \si{\per\cubic\centi\metre} ), and each atom consists of a nucleus surrounded by one or more electrons. 
+According to the principles of quantum mechanics, all the properties of a system are known if one can figure out a way to solve 
+the quantum many-body Schrödinger equation. In this thesis, the time-independent many-body Schrödinger equation is only considered, which is given as
 
 \begin{equation}\label{ssth}
  H^{en} {\Psi^{en}(\{ {\textbf r}_{i}, {\textbf R}_{I} \})} = {E^{en}} {\Psi^{en}(\{ {\textbf r}_{i}, {\textbf R}_{I} \})}.
 \end{equation}
 
 
-Here, the superscript "$en$" implies that it is related with electrons and nuclei. ${\Psi^{en}(\{ {\textbf r}_{i}, {\textbf R}_{I} \})}$ is the exact wavefunction, $\textbf{r}_{i}$ 
-and $\textbf{R}_{I}$  stands for coordinators of electron and nucleus, respectively. $E^{en}$ is the system total energy. $H^{en}$ is the Hamiltonian \cite{martin2004electronic}, which is defined as
-
-\begin{equation}\label{th}
-\begin{split}
-& H^{en} = - \sum\limits_i^{Ne} {\frac{\hbar^{2}}{2 m_{e}}}   \nablaia<i> - \sum\limits_I^{Nn} {\frac{\hbar^{2}}{2 m_{I}}} \nablaia<I>  - \sum\limits_i^{Ne} \sum\limits_I^{Nn} \frac{Z_{I}\ e^2}{4 \pi \varepsilon_0 |\textbf{r}_{i}-\textbf{R}_{I}|} \\
-& + \frac{1}{2} \sum\limits_i^{Ne} \sum\limits_{j \neq i}^{Ne} \frac{ e^2}{4 \pi \varepsilon_0 |\textbf{r}_{i}-\textbf{r}_{j}|} + \frac{1}{2} \sum\limits_I^{Nn} \sum\limits_{J \neq I}^{Nn} \frac{Z_{I} Z_{J}\  e^2}{4 \pi \varepsilon_0 |\textbf{R}_{I}-\textbf{R}_{J}|}.
-\end{split}
-\end{equation}
-
-Here, the indices $i$ and $j$ are used for the electrons, and $I$, $J$ are used for atomic nuclei. $Z_I$ implies the charge of the $I$:th nucleus.
-$m_I$ denotes the nuclear mass, $m_e$ is the electron mass, and $\varepsilon_0$ is vacuum permittivity.
-
-In atomic units, the reduced Planck constant $\hbar$, the electron mass $m_e$, the Bohr radius $a_0$, and the electron charge
-$e$ are equal to 1. The Bohr radius is given by the formula $a_0$ = ${\hbar} / {(mc\alpha)}$. Here, $\alpha$ is the fine structure
-constant ($\alpha$ = ${e^2}/{(4 \pi \varepsilon_0 c \hbar)}$). Therefore, the velocity of light in atomic units is $c$ = $1/{\alpha}$ and ${e^2}/{(4 \pi \varepsilon_0)}$ = 1. In atomic units, \textbf{Eq. \ref{th}} is given as 
+Here, the superscript "$en$" implies that it is related with electrons and nuclei. ${\Psi^{en}(\{ {\textbf r}_{i}, {\textbf R}_{I} \})}$ is the many-particle wavefunction, $\textbf{r}_{i}$ 
+and $\textbf{R}_{I}$  stands for coordinators of electron and nucleus. $E^{en}$ is total energy of system. $H^{en}$ is the Hamiltonian \cite{martin2004electronic}, which is defined in atomic units as
 
 \begin{equation}\label{sth}\begin{split}
 & H^{en} = - \sum\limits_i^{Ne}   \frac{{{\nabla}_{{i}}^{2}}}{2} - \sum\limits_I^{Nn} \frac{{{\nabla}_{{I}}^{2}}}{2 M_{I}}  - \sum\limits_i^{Ne} \sum\limits_I^{Nn} \frac{Z_{I}}{|\textbf{r}_{i}-\textbf{R}_{I}|} \\
 & + \frac{1}{2} \sum\limits_i^{Ne} \sum\limits_{j \neq i}^{Ne} \frac{1}{ |\textbf{r}_{i}-\textbf{r}_{j}|} + \frac{1}{2} \sum\limits_I^{Nn} \sum\limits_{J \neq I}^{Nn} \frac{Z_{I} Z_{J}\ }{|\textbf{R}_{I}-\textbf{R}_{J}|}.
 \end{split}\end{equation}
 
-Here, $M_I$ is the mass of the $I$:th nucleus in atomic units. The first and second terms are the kinetic energy operator of the electrons and nuclei, respectively.
+Here, the indices $i$ and $j$ are used for the electrons, and $I$, $J$ are used for atomic nuclei. $Z_I$ implies the charge of the $I$:th nucleus.
+$M_I$ is the mass of the $I$:th nucleus in atomic units. The first and second terms are the kinetic energy operator of the electrons and nuclei.
 The other terms are Coulomb interactions between electrons and nuclei, electrons and electrons and nuclei and nuclei in sequence.
 
-\textbf{Eq. \ref{ssth}} can not be solved exactly at present since there are enormous number of atoms to calculate in reality. More importantly, the exactly form of the wavefunction is unknown.
+\textbf{Eq. \ref{ssth}} can not be solved exactly since there are enormous number of atoms to calculate in reality. More importantly, the exact form of the wavefunction is unknown.
 To approximate the exact solution, one divides it into three different levels generally \cite{martin2004electronic, Cottenierwien2k}: the first level is the Born-Oppenheimer approximation \cite{bornoppenheimer}; the second
 level is Hartree approximation \cite{hartreeapproximation},
 Hartree-Fock (HF) approximation \cite{hartreefockapproximation}, density functional theory (DFT) \cite{hohenberg1964inhomogeneous} and Kohn-Sham (KS) equation \cite{kohn1965self}; the last level is to solve the secular 
@@ -685,18 +672,16 @@ equation which is an equation that is solved to find the eigenvalue of matrix \c
 \subsection{The Born-Oppenheimer approximation}
 \label{ch:boa}
 
-\textbf{Eq. \ref{ssth}} should be approximated in order to solve it. The first attempt is to separate the wavefunction of electron and nucleus. Because the Schrödinger Hamiltonian in \textbf{Eq. \ref{sth}} has a couple term between the electron and nucleus, 
-thereby one can not do that simply. On the other hand, there exists a small value ${1}/{M_I}$ in \textbf{Eq. \ref{sth}}, which is part of the nucleus kinetic energy
-operator term. The nuclei are treated as fixed because the mass of nucleus is much larger than that of electron. This indicates that the electrons are seen as interacting under both the external potential caused by nuclei 
-that are in fixed positions and that of the other electrons. 
-
-The separation of motion between electrons and nuclei is called the Born-Oppenheimer approximation \cite{bornoppenheimer}. Since the positions of nuclei are fixed, wavefunction can be written as
+\textbf{Eq. \ref{ssth}} should be approximated in order to solve it. A first step is to separate the wavefunction of electron and nucleus. Because the Schrödinger Hamiltonian in \textbf{Eq. \ref{sth}} has a coupling term between
+the electron and nucleus, thereby one can not do that simply. The nuclei can be treated as fixed because the mass of nucleus is much larger than that of electron. This indicates that the electrons are seen as interacting under
+both the external potential caused by nuclei that are in fixed positions and that of the other electrons. The separation of motion between electrons and nuclei is called the Born-Oppenheimer approximation \cite{bornoppenheimer}.
+Since the positions of nuclei are fixed, wavefunction can be written as
 
 \begin{equation}\label{nwf}
 {\Psi^{en}(\{ {\textbf r}_{i}, {\textbf R}_{I} \})} \   {\approx} \  {\theta(\{{\textbf R}_{I}\})} {\Psi(\{\textbf{r}_{i}\}; \{{\textbf R}_{I}\})}.
 \end{equation}
 
-Here, ${\Psi(\{\textbf{r}_{i}\}; \{{\textbf R}_{I}\})}$  is the electrons wavefunction in the Born-Oppenheimer approximation. Since the electrons are under the potential of nuclei, and thus the wavefunction of 
+Here, ${\Psi(\{\textbf{r}_{i}\}; \{{\textbf R}_{I}\})}$  is the electrons wavefunction in the Born-Oppenheimer approximation. Since the electrons are under the potential of nuclei, thus the wavefunction of 
 electrons is related with the nucleus positions. 
  
 \textbf{Eq. \ref{sth}} can be rewritten as
@@ -758,12 +743,12 @@ to solve this many-body problem.
 \subsection{Hartree, Hartree-Fock approximation and density functional theory}
 
 In previous section, the separation of wavefunction is given within Born-Oppenheimer approximation. The quantum many-body Schrödinger problem becomes the many-electron 
-Schrödinger problem. There are two major problems from the Born-Oppenheimer approximation: the first problem is that the number of electron is around 10\textsuperscript{23} \si{\per\cubic\centi\metre}, which is a huge numerical 
-problem. However, it is still possible to solve; the second one is that the Hamiltonian includes operators which apply to the single electron. However, how the wavefunction depends on the single-electron wavefunction is unknown.
-The latter problem can be solved by one of the following three methods: the first method is to figure out a way to separate or approximate the wavefunction into single-electron function, such as the Hartree and Hartree-Fock (HF)
-methods \cite{hartreeapproximation,hartreefockapproximation}; the second method is to find a explicit relation between total energy and wavefunction, such as density functional theory (DFT) \cite{hohenberg1964inhomogeneous}. Within DFT, the system total energy is a functional of electron density which can be 
-constructed by wavefunctions. Either of these two methods has "pros and cons"; the third one is called Kohn-Sham equation \cite{kohn1965self}, which is a combination of above two methods. It starts from DFT, however takes advantage of single-electron 
-wavefunction.
+Schrödinger problem. There are two major problems from the Born-Oppenheimer approximation: the first problem is that the number of electron is around in the order of 10\textsuperscript{24} \si{\per\cubic\centi\metre} in most
+of the cases, which is a huge numerical problem. However, it is still possible to solve; the second one is that the Hamiltonian includes operators which apply to the single electron. However, how the wavefunction depends on
+the single-electron wavefunction is unknown. The latter problem can be solved by one of the following three methods: the first method is to figure out a way to separate or approximate the wavefunction into single-electron function,
+such as the Hartree and Hartree-Fock (HF) methods \cite{hartreeapproximation,hartreefockapproximation}; the second method is to find a explicit relation between total energy and wavefunction, such as density functional theory (DFT)
+\cite{hohenberg1964inhomogeneous}. Within DFT, the system total energy is a functional of electron density. Either of these two methods has "pros and cons"; the third one is called Kohn-Sham
+equation \cite{kohn1965self}, which is a combination of above two methods. It starts from DFT, and takes advantage of single-electron wavefunction.
 
 \subsubsection{Hartree approximation}
 \label{ha}
@@ -774,7 +759,7 @@ electrons. The wavefunction with $Ne$ independent electrons is defined as
 \wfh = \bwff<1><1> \bwff<2><2> \cdots \bwff<Ne><Ne>. 
 \end{equation}
 
-Here, $i$ goes through all the electrons. $\bwff<i><i>$ implies state of the $i$:th electron, where the different states of electrons are orthonormalized. From here and following text, the $\{{\textbf R}_I\}$ are suppressed in the
+Here, $i$ goes through the coordinators of all electrons. $\bwff<i><i>$ implies state of the $i$:th electron, where the different states of electrons are orthonormalized. From here on, the $\{{\textbf R}_I\}$ are suppressed in the
 wavefunction since they are in fixed positions. The variables ${\{\textbf{r}_{{i}}}\}$ include the coordinates of space and spin. The total energy of the electronic system can be written as
 
 \begin{equation}\label{teh}
@@ -794,7 +779,7 @@ Therefore, the system total energy is given as
 & +\frac{1}{2} \sum\limits_i^{{Ne}} \sum\limits_{j \neq i}^{{Ne}} <\bwff<i><i> \bwff<j><j>|\ h_2(\textbf{r}_{i},\textbf{r}_{j}) \ | \bwff<i><i> \bwff<j><j>>.  
 \end{split}\end{equation}
 
-In order to calculate the stationary state with the lowest energy of the system, the method of Lagrange multipliers is utilized. Furthermore, the constraint is that the different states of electrons are orthonormalized.
+In order to calculate the stationary state with the lowest energy of the system, the method of Lagrange multipliers can be utilized. Furthermore, the constraint is that the different states of electrons are orthonormalized.
 Therefore, the variation with respect to any wavefunction $\phi^*_{k}(\textbf{r})$ and Lagrange multiplier $E_{i,j}^{H}$ is satisfied \cite{clasdft,bertsekas2003convex}
 
 \begin{equation}\begin{split}\label{haa}
@@ -803,7 +788,7 @@ Therefore, the variation with respect to any wavefunction $\phi^*_{k}(\textbf{r}
 \end{equation}
 
 
-Here, $ \delta \phi_{k}(\textbf{r})$ also can be utilized. However, variation with respect to $\phi^*_{k}(\textbf{r})$ and $\phi_{k}(\textbf{r})$ are equivalent. The result is more well organized using $\delta \phi^*_{k}(\textbf{r})$.
+Here, $ \delta \phi_{k}(\textbf{r})$ also can be utilized. However, variation with respect to $\phi^*_{k}(\textbf{r})$ and $\phi_{k}(\textbf{r})$ are equivalent. It is convenient to use $\delta \phi^*_{k}(\textbf{r})$.
 
 $\delta E^{{H}}$ in \textbf{Eq. \ref{haa}} can be calculated by two parts. The first part is 
 
@@ -824,7 +809,7 @@ The second part is
 & + <\bwff<i><i>  \bwff<k><>|\ h_2(\textbf{r}_{i},\textbf{r}) \ | \bwff<i><i> \delta \bwff<k><>> \Big). 
 \end{split}\end{equation}
 
-Here, the factor of $\frac{1}{2}$ cancels because the $2$nd ($3$rd) line is the same with $4$th ($5$th) line in \textbf{Eq. \ref{hartree2}} due to the exchangeable of indices of $i$ and $j$. 
+Here, the factor of $\frac{1}{2}$ cancels because the $2$nd ($3$rd) line is the same with $4$th ($5$th) line in \textbf{Eq. \ref{hartree2}} due to the exchangeable indices of $i$ and $j$. 
 
 To get the final solution, one more calculation is needed 
 
@@ -856,7 +841,7 @@ can be rewritten as
 Here, \textbf{Eq. \ref{hartreq}} is a group of dependent single particle equations. $\epsilon_k^{{H}}$ is identified as the eigenvalue for this single-electron Hartree equation.
 
 \subsubsection{Hartree-Fock approximation}
-Hartree approximation is the simplest approximation, while Hartree-Fock approximation is a method which considers the antisymmetry of the wavefunction. It is shown as
+Hartree approximation is a simple approximation, Hartree-Fock approximation is a method which considers the antisymmetry of the wavefunction. It is shown as
 
 \begin{equation}\label{hfwf}
 \Psi^{HF} ( \cdots \textbf{r}_{i} \cdots  \textbf{r}_{j} \cdots ) = - \Psi^{HF} ( \cdots \textbf{r}_{j} \cdots  \textbf{r}_{i} \cdots).
@@ -906,9 +891,9 @@ In comparison with Hartree equation in \textbf{Eq. \ref{hartreq}}, there is an e
 
 
 \subsubsection{Density functional theory}
-The Hartree and Hartree-Fock (HF) methods are very classic methods to solve the many-electron Schrödinger equation. However, the HF method only includes the exchange term and not the electron correlation term. Therefore, it is not suitable 
-for the solid materials. Apart from the Hartree and HF methods, there is a modern method to solve the more complicated calculations of electron system, namely density functional theory (DFT). 
-It is introduced by Hohenberg and Kohn in 1964 \cite{hohenberg1964inhomogeneous}, moreover, Kohn and Pople was awarded Chemistry Nobel Prize in 1998.
+The Hartree and HF methods are very classic methods to solve the many-electron Schrödinger equation. However, the HF method only includes the exchange term and not the electron correlation term. Therefore, it is not suitable 
+for the solid materials. Apart from the Hartree and HF methods, there is a modern method to solve the more complicated calculations of electronic system, namely density functional theory (DFT). 
+It is introduced by Hohenberg and Kohn in 1964 \cite{hohenberg1964inhomogeneous}, Kohn and Pople was awarded Chemistry Nobel Prize in 1998.
 
 The idea of the DFT is to treat the electron density in solid materials instead of using the many-particle wavefunction. One can benefit that the degree of freedom reduces from 3$N$ ($N$ is the number of electrons) to 3. It is apparently less 
 complicate than those of Hartree and HF methods. 
@@ -1092,7 +1077,7 @@ Here, $N$ is number of electrons within the solid, and $V$ is the volume of soli
  \varepsilon_{xc}^{gas}(\rho) = -\frac{3}{4}\cdot(\frac{3}{\pi})^{1/3}\cdot{\rho}^{1/3} + 
  \begin{cases} A\ln{r_s}+B+C{r_s}\ln{r_s}+D{r_s} & \quad \mbox{if ${r_s} \leq 1 $} 
 \\
- \gamma / (1+\beta_1 \sqrt{{r_s}}+ \beta_2 {r_s}) & \quad \mbox{if ${r_s} > 1$ }\\ 
+ \gamma / (1+\beta_1 \sqrt{{r_s}}+ \beta_2 {r_s}) & \quad \mbox{if ${r_s} > 1$ }.\\ 
 \end{cases} 
 \end{equation}
 
@@ -1105,7 +1090,7 @@ in the free electron gas with the same density in the volume ($\varepsilon_{xc}^
 
 Therefore, the exchange-correlation potential is give as
 \begin{equation}
- V_{xc}^{LDA}(\textbf{r}) = \frac{\delta  E^{LDA}_{xc}[\rho]}{\delta \rho}
+ V_{xc}^{LDA}(\textbf{r}) = \frac{\delta  E^{LDA}_{xc}[\rho]}{\delta \rho}.
 \end{equation}
 
 Today, there exists hundreds of different exchange-correlation potentials \cite{tozer1998development, hamprecht1998development, grabo1995density, cohen2007development}. It is still ongoing development. The advantage of Kohn-Sham equation is that new potentials are implemented easily. In the same time, the number of potential is huge due to
@@ -1242,25 +1227,25 @@ Apparently, \textbf{Eq. \ref{ep44}} is an eigenvalue problem. In order to get th
 \section{Full-potential linearized augmented plane wave method}
 \subsection{Introduction}
 
-One knows how to solve the Kohn-Sham equation in previous section. However, there are still two more questions, what is the exact form of 
+One knows how to solve the Kohn-Sham equation from previous sections. However, there are still two more questions, what is the exact form of 
 wavefunction and potential in the realistic calculations?  
 
 One maybe naturally choose a set of plane waves as the wavefunction because of Bloch theory \cite{kittel1976introduction}. There is a drawback about the plane waves as wavefunction
 when describing the atomic core region. Because the wavefunction change dramatically in that region, therefore one needs to choose relatively more plane
-waves to approximate it. It implies it will take more time to calculate.
+waves to approximate it. It implies that it takes more time to calculate.
 
 Slater re-considered the way to describe the wavefunction (\textbf{Eq. \ref{ap111}}). The unit cell is divided into two regions \cite{slater1937wave,loucks1967augmented}: one is the sphere region which is
 defined by the center of atom, but non-overlap each sphere, is called muffin tin (MT) region; the remaining region is called interstitial ($I$)
 region (\textbf{Fig. \ref{ucuc}}). An atomic-like function is defined as the wavefunction in the MT region, this is reason why this method is called augmented plane wave (APW).
-The dual representation of the wavefunction is reasonable, because the wavefunction approaching atomic core is somehow like inside atom; however far away the atomic core, the electron behaves like free electrons,
-therefore plane waves are suitable (\textbf{Eq. \ref{ap111}}). However, the drawback of APW method is that the wavefunction is dependent with the energy, which leads to the 
+The dual representation of the wavefunction is reasonable, because the wavefunction approaching atomic core is somehow like inside atom. However, the electron behaves like free electrons far away the atomic core.
+Therefore plane waves are suitable (\textbf{Eq. \ref{ap111}}). The drawback of APW method is that the wavefunction is dependent with the energy, which leads to the 
 nonlinear eigenvalue problem (\textbf{Eq. \ref{ap2}}). This method has to decide repeatedly until certain condition is satisfied to achieve the exact energy, which is really time-consuming.
 
 In order to find a way out, Andesen \cite{andersen1975linear}, Koelling and Arbman \cite{koelling1975use} proposed a way to describe the wavefunction energy-independent.
 They noticed that the Taylor expansion of radial function (\textbf{Eq. \ref{ap3}}). This method is called linearized augmented plane wave (LAPW) method due to make use of the linearized energies in the radial functions. 
-However, the drawback is that it does not describe the semicore state well, it is corrected by a method named linearized augmented plane wave plus local orbitals (LAPW+LO) which is proposed by Singh (\textbf{Eq. \ref{lap5}}) \cite{singh1991ground}.
-Sjöstedt, Nordström and Singh also give an efficient way to linearize Slater's APW method, named augmented plane wave plus local orbitals (APW+lo) (\textbf{Eq. \ref{lap6}}) \cite{sjostedt2000alternative}. Both of above methods consider local orbitals, 
-it is customary to write in different ways as LO and lo, respectively. One can read more information about FPLAPW method from \cite{nordstrom2006planewaves, excitingcode}.
+However, the drawback is that it does not describe the semicore state well. It is corrected by a method named linearized augmented plane wave plus local orbitals (LAPW+LO) which is proposed by Singh (\textbf{Eq. \ref{lap5}}) \cite{singh1991ground}.
+Sjöstedt, Nordström and Singh  \cite{sjostedt2000alternative} also give an efficient way to linearize Slater's APW method, named augmented plane wave plus local orbitals (APW+lo) (\textbf{Eq. \ref{lap6}}). Both of above methods consider local orbitals, 
+it is customary to write in different ways as LO and lo, respectively. One can read more information about FPLAPW method from Refs \cite{nordstrom2006planewaves, excitingcode}.
 
 \subsection{Wavefunction}
 \subsubsection{Augmented plane wave method}
@@ -1317,19 +1302,18 @@ After matching those two representations, the following equation is satisfied fo
 A _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G})  u_{{\ell}}^{\alpha}(r_{\alpha})=  \frac{4 \pi }{\sqrt{\Omega}} e^{i (\textbf {k}+\textbf{G}) \textbf{R}_{\alpha} }  \sum\limits_{{\ell}}^{N_{\ell}} \sum\limits_{{m}}^{N_{m}} i^{\ell} \bessf< |\textbf{k}+\textbf{G}|> Y^{*}_{\ell{m}}(\widehat{\textbf{k}+\textbf{G}}).
 \end{equation}
 
-The main drawbacks about the APW method is that the wavefunction is energy dependent (\textbf{Eq. \ref{ap2}}). It generates that
- the code needs to search for the energy in order to calculate the exact energy. Therefore it 
+The main drawbacks about the APW method is that the wavefunction is energy dependent (\textbf{Eq. \ref{ap2}}). The calculation needs to search for the energy in order to calculate the exact energy. Therefore it 
 is really time-consuming. 
 
 \subsubsection{Linearized augmented plane wave method}
-\noindent In order to decouple the energy from the wavefunction, Andesen, Koelling and Arbman found out a way to separate them, they noticed that the Taylor expansion of the radial function
+\noindent In order to decouple the energy from the wavefunction, Andesen, Koelling and Arbman found out a way to separate them. They noticed that the Taylor expansion of the radial function
 on certain energy, which can be given as
 
 \begin{equation}\label{ap3}
  u_{{\ell}}(r_{\alpha}, \epsilon) = u_{{\ell}}(r_{\alpha}, \epsilon_{\ell,\alpha}) + (\epsilon-\epsilon_{\ell,\alpha}) \dot{u}_{{\ell}}(r_{\alpha}, \epsilon_{\ell,\alpha}) + O((\epsilon-\epsilon_{\ell,\alpha})^2).
 \end{equation}
 
-Here, eigenvalue is written without subscript and superscript $\epsilon$. Therefore the basis function is re-defined as 
+Here, eigenvalue is written without subscript and superscript $\epsilon$. Thus, the basis function is re-defined as 
 
 \begin{equation}\label{lap4}
 \phi^{LAPW}_{\textbf{k}+\textbf{G}} (\textbf{r}) = 
@@ -1341,7 +1325,7 @@ Here, eigenvalue is written without subscript and superscript $\epsilon$. Theref
 
 Here, $f_{{\ell}{m}} (r_{\alpha},\textbf{k}+\textbf{G}, \epsilon_{\ell,\alpha}) =  A _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G}) u_{{\ell}}(r_{\alpha}, \epsilon_{\ell,\alpha}) + B _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G}) \dot{u}_{{\ell}}(r_{\alpha}, \epsilon_{\ell,\alpha})$
 . $A _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G})$ and $B _{{\ell}m}^{\alpha} (\textbf {k}+\textbf{G})$ are the expansion coefficients, and $\dot{u}_{{\ell}}(r_{\alpha}, \epsilon_{\ell,\alpha} )$ is the derivative of the radial 
-function. Energy $\epsilon_{\ell,\alpha}$  is considered as pre-calculated parameter in \textbf{Eq. \ref{lap4}}. Actually, it is chosen by the middle of  each $\ell$-character band, therefore this method is called linearized
+function. Energy $\epsilon_{\ell,\alpha}$  is considered as pre-calculated parameter in \textbf{Eq. \ref{lap4}}. Actually, it is chosen by the middle of  each $\ell$-character band. Therefore this method is called linearized
 augmented plane wave (LAPW) method.
 
 Apparently, LAPW method is more suitable in reality, because the wavefunction is decoupled with energy. However it has to match for two parameters.
@@ -1406,16 +1390,16 @@ Here, $\varepsilon_1(\omega)$ denotes how much the material is polarized when an
 \varepsilon_2^{\alpha\beta} (\omega)= \frac{\hbar e^2}{\pi m^2\omega^2} \sum_{cv} \int d \textbf {k} <\Psi_{c{\textbf k}}|p^\alpha|\Psi_{v{\textbf k}}><\Psi_{v{\textbf k}}|p^\beta|\Psi_{c{\textbf k}}> (f(\varepsilon_{c \textbf k})-f(\varepsilon_{v \textbf k}))\delta(\varepsilon_{c {\textbf k}}-\varepsilon_{c{\textbf k}}-\omega).
 \end{equation}
 
-Here, $f$ is the Fermi distribution function. $c$ and $v$ are the indices of conduction band and valence band, respectively. The total imaginary part of dielectric function can be calculated when $c$ and $v$ run over all the conduction bands and valence bands. Similarly, the
+Here, $f$ is the Fermi distribution function,  $c$ and $v$ are the indices of conduction band and valence band. The total imaginary part of dielectric function can be calculated when $c$ and $v$ run over all the conduction bands and valence bands. Similarly, the
 interband contribution can be achieved by calculating single conduction band and single valence band.   
 
 The real part of dielectric function can be calculated by Kramers-Kronig relations
 
 \begin{equation}
- \varepsilon_1^{\alpha\beta} (\omega)= \delta_{\alpha\beta}+\frac{2}{\pi}P\int^{\infty}_{0} \frac{\omega'\varepsilon_2^{\alpha\beta}(\omega')}{\omega'^{2}-\omega^{2}} d\omega'.
+ \varepsilon_1^{\alpha\beta} (\omega)= \delta_{\alpha\beta}+\frac{2}{\pi}\textbf{P}\int^{\infty}_{0} \frac{\omega'\varepsilon_2^{\alpha\beta}(\omega')}{\omega'^{2}-\omega^{2}} d\omega'.
 \end{equation}
 
-Here, $P$ the Cauchy principal value. The absorption coefficient can be obtained by the real part and imaginary part of dielectric function
+Here, $\textbf{P}$ the Cauchy principal value. The absorption coefficient can be obtained by the real part and imaginary part of dielectric function
 \begin{equation}
  \alpha^{ii}(\omega) = \frac{\sqrt{2}\omega}{c} \left[ \sqrt{{\varepsilon^{ii}_1(\omega)}^2+{\varepsilon^{ii}_2(\omega)}^2}-{\varepsilon^{ii}_1(\omega)} \right]^{1/2}.
 \end{equation}
@@ -1448,7 +1432,7 @@ Here, $\ubloch<n><\bold k>$ is a function which has the same a periodicity as th
  \Big(  \frac{{\textbf p}^2}{2m_e} + V({\textbf r }) + \frac{{\hbar^2 {\textbf k}^2}}{2m_e} + \frac{{\hbar \textbf {kp}}}{m_e} \Big) \ubloch<n><\bold  k>  =  \epsilon_{n,\textbf{k}} \ubloch<n><\bold  k>.
 \end{equation}
 
-In \textbf{Eq. \ref{kp1}} equation, the Hamiltonian becomes $H_0 = {\textbf p}^2 / {2m_e} + V({\textbf r })$ when $\textbf k = \textbf 0$, the corresponding eigenvalue is $\epsilon_{n,\textbf{0}}$. 
+In \textbf{Eq. \ref{kp1}}, the Hamiltonian becomes $H_0 = {\textbf p}^2 / {2m_e} + V({\textbf r })$ when $\textbf k = \textbf 0$, the corresponding eigenvalue is $\epsilon_{n,\textbf{0}}$. 
 Here, terms in $H_0$ can be seen as non-perturbation terms, and remaining terms are seen as perturbation terms. From the perturbation theory, the following equation can be obtained  
 
 \begin{equation}
@@ -1625,10 +1609,10 @@ The last term in \textbf{Eq. \ref{zora1}} is the spin-orbit coupling term.
 
 \chapter{Results and discussion}
 
-In this chapter, the major results for the licentiate thesis are demonstrated. The first one is parameterization of energy bands for CuIn{\textsubscript{1-$x$}}Ga{\textsubscript{$x$}}Se\textsubscript{2}
-where $x$ = 0, 0.5, and 1. Results based on this parameterization are discussed as well. The second one is the calculation of the dielectric function spectra for the
-CuIn{\textsubscript{0.5}}Ga{\textsubscript{0.5}}Se\textsubscript{2} by all electron and full-potential linearized augmented plane wave (FPLAPW) method, which is compared with experimental result.
-The probable electronic origins of the critical point (CP) features are discussed as well.
+In this chapter, the major results for the licentiate thesis are discussed. The first one is parameterization of energy bands for CuIn{\textsubscript{1-$x$}}Ga{\textsubscript{$x$}}Se\textsubscript{2}
+where $x$ = 0, 0.5, and 1. The second one is the calculation of the dielectric function spectra for the
+CuIn{\textsubscript{0.5}}Ga{\textsubscript{0.5}}Se\textsubscript{2} by all electron and full-potential linearized augmented plane wave (FPLAPW) method, which is compared with experimental results.
+Moreover, the probable electronic origins of the critical point (CP) features are discussed as well.
 
 \section{Parameterization of energy bands for CIGS}
 
@@ -1642,7 +1626,7 @@ is assumed to represent the shape of the energy bands
 \end{split}
 \end{equation}
 
-Here, $m_{j}^{\perp}$ and $m_{j}^{\parallel}$ are transverse electron masses and longitudinal electron masses, respectively. Parameters of \textbf{Eq. \ref{parabolic}} to describe the parabolic energy dispersions of the lowest
+Here, $m_{j}^{\perp}$ and $m_{j}^{\parallel}$ are transverse electron masses and longitudinal electron masses, respectively. Parameters in \textbf{Eq. \ref{parabolic}} to describe the parabolic energy dispersions of the lowest
 conduction band (CB) and the three uppermost valence bands (VBs) in the vicinity of the $\Gamma$-point are given in \textbf{Table \ref{pm1}}.
 
 \begin{table}[H]
@@ -1656,11 +1640,11 @@ conduction band (CB) and the three uppermost valence bands (VBs) in the vicinity
  Parameters & $c$1 & $v$1 & $v$2 & $v$3 & $c$1 & $v$1 & $v$2 & $v$3 & $c$1 & $v$1 & $v$2 & $v$3\\
 \hline\hline
 $E_j(\textbf{0})$ [eV]    &1.04	 &0	&0.01	&0.19	&1.33	&0	&0.02	&0.2	&1.67	&0	&0.08	&0.26\\
-$m_j^{\bot}$      [$m_0$] &0.08	 &0.14	&0.25	&0.27	&0.1	&0.4	&0.17	&0.29	&0.13	&0.47	&0.2	&0.29 \\
-$m_j^{||}$        [$m_0$] &0.09  &0.66	&0.12	&0.28	&0.11	&0.14	&0.61	&0.4	&0.13	&0.15	&0.61	&0.49 \\
+$m_j^{\bot}$      [$m_0$] &0.08	 &0.14	&0.25	&0.27	&0.10	&0.40	&0.17	&0.29	&0.13	&0.47	&0.20	&0.29 \\
+$m_j^{||}$        [$m_0$] &0.09  &0.66	&0.12	&0.28	&0.11	&0.14	&0.61	&0.40	&0.13	&0.15	&0.61	&0.49 \\
 \hline
 \end{tabular}}
-\caption {Parameters of \textbf{Eq. \ref{parabolic}} for {CuInSe\textsubscript{2}}, {CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2}}, and {CuGaSe\textsubscript{2}}. $E_{v1}(\textbf{0})$ is the valence band maximum (VBM) and $E_{c1}(\textbf{0})$ is the fundamental band-gap energy $E_g$.}\label{pm1}
+\caption {Parameters in \textbf{Eq. \ref{parabolic}} for {CuInSe\textsubscript{2}}, {CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2}}, and {CuGaSe\textsubscript{2}}. $E_{v1}(\textbf{0})$ is the valence band maximum (VBM) and $E_{c1}(\textbf{0})$ is the fundamental band-gap energy $E_g$.}\label{pm1}
 \end{table}
 
  
@@ -1668,8 +1652,9 @@ Unfortunately, these effective masses are only valid around the considered {\tex
 important when one simulates and analyzes the electron transport or band filling.
 
 In this work, we have parameterized the three uppermost VBs and the lowest CB for the materials of CuInSe\textsubscript2, CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2}, 
-and CuGaSe\textsubscript{2}. This parameterization is based on results from all electron and full-potential linearized augmented plane wave (FPLAPW) calculations. Normally, the \textbf{k $\cdot$ p} method is utilized to 
-parameterize the energy bands. However, the energy dispersions of CIGS are rather complex due to the crystal-field interaction and the spin-orbit coupling. Therefore, the regular \textbf{k $\cdot$ p} method is not sufficient 
+and CuGaSe\textsubscript{2}. This parameterization is based on results from FPLAPW calculations. Normally, the \textbf{k $\cdot$ p} method is utilized to 
+parameterize the energy bands. However, the energy dispersions of CuIn{\textsubscript{1-$x$}}Ga{\textsubscript{$x$}}Se\textsubscript{2}
+where $x$ = 0, 0.5, and 1 are rather complex due to the crystal-field interaction and the spin-orbit coupling. Therefore, the regular \textbf{k $\cdot$ p} method is not sufficient 
 to describe the energy bands. We manage to extend the \textbf{k $\cdot$ p} expression to higher orders, which is called full band parameterization (fbp) in the following text. The fbp is valid around 0.5 eV below VBM and 0.5 eV 
 above the conduction band minimum (CBM). The explicit equation is given as
 
@@ -1683,7 +1668,7 @@ above the conduction band minimum (CBM). The explicit equation is given as
 \end{split}\end{equation}
 
 Here,  $E_j^0$, $\Delta_{j,n}$, and $\delta_{j,m}$ are fitting parameters (see \textbf{Table. \ref{nonpara}}), ${m_0}$ is the electron rest mass. In \textbf{Eq. \ref{nonparabolic}}, each term represents one parabolic dispersion, the
-higher order terms describe the larger wave vectors away from $\Gamma$ point. Unfortunately, the complex energy dispersions of CIGS requires many fitting parameters. However, the conduction band need less fitting parameters.
+higher order terms describe the larger wave vectors away from $\Gamma$ point. Unfortunately, the complex energy dispersions requires many fitting parameters. However, the conduction band needs less fitting parameters.
 
 
  \begin{sidewaystable}
@@ -1714,14 +1699,14 @@ $\delta_{j,9}$   [eV\textsuperscript{$-$1}]      & 0	&61.565	 &33.169  &34.114  
 $\delta_{j,10}$  [eV\textsuperscript{$-$1}]      & 0	&46.679	 &31.275  &32.237  &0	    &110.327 &6.074   &153.523 &0	&40.765	  &5.243   &   2.124 \\
 \hline
 \end{tabular}}
-\caption {Parameters of \textbf{Eq. \ref{nonparabolic}} to describe the non-parabolic contribution to the energy dispersions $E\textsubscript{j}(\textbf{k})$ of the lowest CB and the three uppermost VBs. The notation of the energy 
-bands ($j$ = $c1$, $v1$, $v2$, and $v3$) refers to a spin-independent band indexing, where $c1$ represents the bottommost CB and $v1$ represents the topmost valence band (VB) (\textbf{Fig. \ref{bandstruct}}.)}\label{nonpara}
+\caption {Parameters in \textbf{Eq. \ref{nonparabolic}} to describe the non-parabolic contribution to the energy dispersions $E\textsubscript{j}(\textbf{k})$ of the lowest CB and the three uppermost VBs. The notation of the energy 
+bands ($j$ = $c1$, $v1$, $v2$, and $v3$) refers to a spin-independent band indexing, where $c1$ represents the bottommost CB and $v1$ represents the topmost valence band (VB).}\label{nonpara}
 \end{sidewaystable}
 
 
 \subsection{Non-parabolicity properties}
 
-The fbp of {CuIn\textsubscript{1-\textit{x}}Ga\textsubscript{\textit{x}}Se\textsubscript{2}} ($x$ = 0, 0.5, and 1) are plotted compared with the pba in \textbf{Eq. \ref{parabolic}} as well as the calculations based 
+The fbp of {CuIn\textsubscript{1-\textit{x}}Ga\textsubscript{\textit{x}}Se\textsubscript{2}} where $x$ = 0, 0.5, and 1 are plotted compared with the pba (\textbf{Eq. \ref{parabolic}}) as well as the calculations based 
 on the FPLAPW method.
 
 \begin{figure}[H]
@@ -1734,20 +1719,20 @@ on the FPLAPW method.
     \label{bandstruct}
 \end{figure}
 
-In \textbf{Fig. \ref{bandstruct}}, the parameterized energy bands can describe the energy below VBM around 0.5 eV accurately, and around 0.5 eV above the CB minimum (CBM) as well. However, the pba is only
+In \textbf{Fig. \ref{bandstruct}}, the fbp can describe the energy below VBM around 0.5 eV accurately, and around 0.5 eV above the CB minimum (CBM) as well. However, the pba is only
 valid below VBM around $-$4, $-$10, and $-$40 meV for the CuInSe\textsubscript2, CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2}, and CuGaSe\textsubscript{2}, respectively. Since the lowest conduction band
 is more parabolic, therefore, the less fitting parameters are expected (see \textbf{Table \ref{nonpara}}).
 
-To further utilize this parameterization method, the energy dispersions of the lowest CB and the three uppermost VBs are parameterized for kesterite and stannite Cu\textsubscript{2}ZnSn(S,Se)\textsubscript{4} as well. It works as 
-good as CIGS, therefore, this parameterization method can be utilized to other materials potentially.
+To further utilize this parameterization method, the energy dispersions of the lowest CB and the three uppermost VBs are parameterized for kesterite and stannite Cu\textsubscript{2}ZnSnS\textsubscript{4}
+and Cu\textsubscript{2}ZnSnSe\textsubscript{4} as well. It works as good as CuInSe\textsubscript2, CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2}, and CuGaSe\textsubscript{2}. Therefore, this parameterization method
+can be utilized to other materials potentially.
 
 \begin{figure}[H]
  \captionsetup{width=1\textwidth}
     \begin{center}
             \includegraphics[width=1\textwidth,clip]{bandstr}
      \end{center}
-    \caption{ Electronic band structure of the kesterite and stannite structures of Cu\textsubscript{2}ZnSnS\textsubscript{4} and Cu\textsubscript{2}ZnSnSe\textsubscript{4} along the symmetry directions (kx, ky, kz) = (010), (112),
-              (110), and (001). The circles are the results of the full band parameterization (fbp), and the dotted lines represent the parabolic band approximation (pba). }      
+    \caption{Left panel: electronic band structure for the kesterite structures of Cu\textsubscript{2}ZnSnS\textsubscript{4} and Cu\textsubscript{2}ZnSnSe\textsubscript{4}. Right panel: electronic band structure of the stannite structures of Cu\textsubscript{2}ZnSnS\textsubscript{4} and Cu\textsubscript{2}ZnSnSe\textsubscript{4}. The circles are the results based on the fbp, and the dotted lines represent results based on the pba. }      
     \label{bandstruct1}
 \end{figure}
 
@@ -1760,16 +1745,17 @@ In order to demonstrate the anisotropic and non-parabolic of energy bands furthe
            % \includegraphics[width=0.4\textwidth,clip]{fermi_sphere_cig}
             \includegraphics[width=0.4\textwidth,clip]{fermi_sphere_cgg}
      \end{center}
-    \caption{Constant energy surfaces for the three uppermost VBs and the lowest CB for the energies E = 1 meV (left panel) and E = 200 meV (right panel).}
+    \caption{Left panel: constant energy surfaces for the three uppermost VBs and the lowest CB for the energies E = 1 meV. Right panel: constant energy surfaces for the three uppermost
+    VBs and the lowest CB for the energies E = 200 meV.}
     \label{cse}
 \end{figure}
 
-In \textbf{Fig. \ref{cse}}, 1 meV represents that it is near to $\Gamma$ point; 200 meV represents that it is far away the $\Gamma$ point.
+In \textbf{Fig. \ref{cse}}, it is near to $\Gamma$ point when it refers to 1 meV; it is far away the $\Gamma$ point when it refers to 200 meV.
 One notices that the pba is proper to describe the energy bands close to the $\Gamma$ point, and it is ellipsoidal shaped sphere. For example,
 for the topmost VB ($v_1$) of CuInSe\textsubscript{2}, the constant energy surface is ellipsoidal in the vicinity of the $\Gamma$ point since the effective
 masses are anisotropic ($m_{v1}^{\perp}$ = 0.14$m_0$ and $m_{v1}^{\parallel}$ = 0.66$m_0$ in \textbf{Table \ref{pm1}}). However, the constant energy surface becomes non-ellipsoidal when the energies 
 is far away from $\Gamma$ point. For example, for the same band, the constant energy surface is not ellipsoidal shape at all when the energies goes up to 200 meV. It also implies that it is not correct to consider the constant 
-effective mass. For the CB, the change is relatively small.
+effective mass. The change is relatively small for the CB.
 
 \subsection{Application of the full band parameterization}
 
@@ -1788,10 +1774,10 @@ $m_j(\textbf{k}) = \pm \hbar^2/(\partial^2 E_j(\textbf{k})/\partial\textbf{k}^2)
     \label{inversemessf}
 \end{figure}
 
-The results in \textbf{Fig. \ref{inversemessf}} demonstrate that the energy bands of {CuIn\textsubscript{1-\textit{x}}Ga\textsubscript{\textit{x}}Se\textsubscript{2}} ($x$ = 0, 0.5, and 1) are strong non-parabolic, since the effective masses should be constant in the pba along each symmetry direction. The effective hole masses of the two 
-topmost VBs are very anisotropy close to the $\Gamma$ point, however, the electron masses of conduction bands are rather isotropic ($m_{c1}^{100}(\textbf{0}) \approx m_{c1}^{110}(\textbf{0}) \approx m_{c1}^{001}(\textbf{0}) 
-\approx m_{c1}^{112}(\textbf{0})$). Hole masses of CuGaSe\textsubscript{2} vary somewhat less compared with those of CuInSe\textsubscript{2} because CuGaSe\textsubscript{2} has larger split between the VBs. In order to better 
-visibility, therefore, the inverse of the mass are presented.
+In \textbf{Fig. \ref{inversemessf}}, it demonstrates that the energy bands of {CuIn\textsubscript{1-\textit{x}}Ga\textsubscript{\textit{x}}Se\textsubscript{2}} ($x$ = 0, 0.5, and 1) are strong non-parabolic, since the effective masses should be constant in the pba along each symmetry direction. The effective hole masses of the two 
+topmost VBs are strong anisotropy close to the $\Gamma$ point. However, the electron masses of conduction bands are rather isotropic ($m_{c1}^{100}(\textbf{0}) \approx m_{c1}^{110}(\textbf{0}) \approx m_{c1}^{001}(\textbf{0}) 
+\approx m_{c1}^{112}(\textbf{0})$). Hole masses of CuGaSe\textsubscript{2} vary somewhat less compared with those of CuInSe\textsubscript{2} because CuGaSe\textsubscript{2} has larger split between the VBs. The inverse of the mass 
+are presented in order to better visibility.
 
 
 
@@ -1824,16 +1810,16 @@ Here, the energy-dependent DOS mass $m_{v/c}^{DOS}(E)$ contains the non-paraboli
   %\begin{center}
             \includegraphics[width=0.7\textwidth,clip]{JAP2}
   %   \end{center}
-    \caption{Left panel: Total DOS of the VBs and CB. The solid lines show the full band parameterization (fbp), and the dashed lines represent the parabolic band approximation (pba). Right panel: The DOS mass $m_{v/c}^{DOS}$ is 
+    \caption{Left panel: total DOS of the VBs and CB. The solid lines show the results based on the fbp, and the dashed lines represent the results based on the pba. Right panel: The DOS mass $m_{v/c}^{DOS}$ is 
     calculated from \textbf{Eq. \ref{dosmass}}. }
    \label{dost}
 \end{figure}
 
 
 Left panel in \textbf{Fig. \ref{dost}} demonstrates that the non-parabolicity of the bands strongly affect the DOS dispersions. The difference is remarkable. The fbp always generates larger DOS, the reason is that the non-parabolic 
-energy bands is more flat than parabolic bands. Right panel in \textbf{Fig. \ref{dost}} demonstrates that the DOS masses of {CuIn\textsubscript{1-\textit{x}}Ga\textsubscript{\textit{x}}Se\textsubscript{2}} ($x$ = 0, 0.5, and 1) is strong energy dependence with the VB DOS mass, which proves further the importance of considering 
+energy bands are more flat than parabolic bands. Right panel in \textbf{Fig. \ref{dost}} demonstrates that the DOS masses of {CuIn\textsubscript{1-\textit{x}}Ga\textsubscript{\textit{x}}Se\textsubscript{2}} ($x$ = 0, 0.5, and 1) is strong energy dependence with the VB DOS mass, which proves further the importance of considering 
 non-parabolicity and anisotropy of the energy bands, especially for the VBs. For example, the effective mass of topmost VB for CuInSe\textsubscript{2} is around 0.23 $m_0$ close to the $\Gamma$ point, which goes up to
-around 1.00 $m_0$ when $E$ is around 0.1 eV. However, the change in the CB DOS mass is subtle, but also goes up to 2$-$3 times with respect to the value around $\Gamma$ point.
+around 1.00 $m_0$ when $E$ is around 0.1 eV. \  However, the change in the CB DOS mass is subtle, but also goes up to 2$-$3 times with respect to the value around $\Gamma$ point.
 
 
 \begin{comment}
@@ -1917,14 +1903,15 @@ $b$      [K] &97  &277	&209      \\
             \includegraphics[width=1\textwidth,clip]{JAP4}
      \end{center}
     \caption{Left panel: Band-gap energy $E_g$ and Fermi energy $E_F$ for $1 \leq T \leq 900$ K of intrinsic CuInSe\textsubscript{2}, CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2}, and CuGaSe\textsubscript{2},
-    determined from the full band parameterization. In this figure, we also present the Fermi distribution $f(E)$ of CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2} for T = 300 K and 600 K. Right panel: 
-    Intrinsic carrier concentration as function of temperature. For comparison, the theoretical result for GaAs and Si using the parabolic band approximation is given.}
+    determined from the fbp. In this figure, we also present the Fermi distribution $f(E)$ of CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2} for T = 300 K and 600 K. Right panel: 
+    Intrinsic carrier concentration as function of temperature. For comparison, the theoretical results for GaAs and Si using the pba are given.}
    \label{icc}
 \end{figure}
 
 
 In \textbf{Fig. \ref{icc}}, the temperature dependent band-gap and Fermi level (left panel) and intrinsic carrier concentration (right panel) are shown.  In the left panel of \textbf{Fig. \ref{icc}}, the band-gap is 1.04, 1.33,
-and 1.67 eV for CIGS at temperature around 0 K, respectively. Fermi level is exactly the mid-gap energy. The Fermi level changes only slightly with temperature. However, 
+and 1.67 eV for the CuIn{\textsubscript{1-$x$}}Ga{\textsubscript{$x$}}Se\textsubscript{2}
+where $x$ = 0, 0.5, and 1 at temperature around 0 K, respectively. Fermi level is exactly the mid-gap energy. The Fermi level changes only slightly with temperature. However, 
 for CuInSe\textsubscript{2} and CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2}, the Fermi levels increase somewhat more compared with CuGaSe\textsubscript{2}. This is primarily because the CB of DOS mass for 
 CuGaSe\textsubscript{2} is almost the same, but the VB of DOS mass for CuGaSe\textsubscript{2} change smaller compared with CuInSe\textsubscript{2} and CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2} which will 
 affect the DOS. As a consequence, the Fermi level is closer to the CB minimum in the In rich compounds. At T = 300 K and 600 K, the band-gap energies $E_g$ and Fermi energy $E_F$ are given in \textbf{Table \ref{chen3}}
@@ -1950,11 +1937,12 @@ $E_F$ 600 K   [eV] &0.59  &0.71	&0.84     \\
 
 
 In the left panel of \textbf{Fig. \ref{icc}}, the Fermi distribution of CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2} is given at 300 K and 600 K, respectively. The probability of occupying the VBM (CBM) by a hole (an electron) is 
-relative increase of around $10^6$ times from 300 K to 600 K. In the right panel of \textbf{Fig. \ref{icc}}, the intrinsic carrier concentration is increased dramatically with the increasing of temperature for the CIGS. For example, in the case of CuInSe\textsuperscript{2}, 
-the carrier concentration is increased up to around $10^{5}$ times higher from temperature 300 K to 600 K. The intrinsic carrier concentration for the Si and CuInSe\textsuperscript{2} are very comparable. The free carrier 
-concentration is increased goes up to 2$-$3 times by taking into account the non-parabolicity of the energy bands
+relative increase of around $10^6$ times from 300 K to 600 K. In the right panel of \textbf{Fig. \ref{icc}}, the intrinsic carrier concentration is increased dramatically with the increasing of temperature for
+the CuIn{\textsubscript{1-$x$}}Ga{\textsubscript{$x$}}Se\textsubscript{2} where $x$ = 0, 0.5, and 1. For example, in the case of CuInSe\textsubscript{2}, 
+the carrier concentration is increased up to around $10^{5}$ times higher from temperature 300 K to 600 K. The intrinsic carrier concentration for the Si and CuInSe\textsubscript{2} are rather comparable. The free carrier 
+concentration is increased goes up to 2$-$3 times by taking into account the non-parabolicity of the energy bands.
 
-Since as-grown CIGS typically has $p$-type character, the Fermi level and $p$-type carrier concentration of free holes $n_v(T)$ and free electrons $n_c(T)$ is calculated by 
+Since as-grown CIGS typically has $p$-type character, the Fermi level and $p$-type carrier concentration of free holes $n_v(T)$ and free electrons $n_c(T)$ are calculated by 
 assuming the presences of the native Cu vacancies as acceptors. 
 
  \begin{figure}[H]
@@ -1971,9 +1959,11 @@ assuming the presences of the native Cu vacancies as acceptors.
 
 
 The calculated Fermi level $E_F^P$ in $p$-type materials is presented in \textbf{Fig. \ref{ptypecc1}}, referred to the Fermi level of the intrinsic materials $E_F$ from \textbf{Fig. \ref{icc}}. Only at very high temperatures
-( $T > 400 K$) and for low acceptor concentrations, the Fermi level of $p$-type CIGS will reach the Fermi level of corresponding intrinsic compounds. Moreover, although the different compounds have comparable acceptor ionization
+( $T > 400 K$) and for low acceptor concentrations, the Fermi level of $p$-type CuIn{\textsubscript{1-$x$}}Ga{\textsubscript{$x$}}Se\textsubscript{2}
+where $x$ = 0, 0.5, and 1 can reach the Fermi level of corresponding intrinsic compounds. Moreover, although the different compounds have comparable acceptor ionization
 energies, the Ga rich alloy has lower relative Fermi level; this is a direct consequence of the larger band-gap of the Ga rich alloy. By comparing the calculations with the pba (dotted lines in \textbf{Fig. \ref{ptypecc1}} ) and 
-the fba (solid lines) for each of the three CIGS alloys, one notices that the Fermi level is similar for the two models only at low and at very high temperatures. In the mid-temperature region the difference is however apparent.
+the fba (solid lines) for each of the three CuIn{\textsubscript{1-$x$}}Ga{\textsubscript{$x$}}Se\textsubscript{2}
+where $x$ = 0, 0.5, and 1 alloys. One notices that the Fermi level is similar for the two models only at low and at very high temperatures. In the mid-temperature region the difference is however apparent.
 
 
 
@@ -1997,10 +1987,10 @@ The result based on the pba underestimates the carrier concentration around by t
 non-parabolic energy bands is required in order to describe the carrier concentration more accurately.
 
 
-\section{Calculations of dielectric function for CIGS}
-In this work, the dielectric function ($\varepsilon (\omega)$ = $\varepsilon_1 (\omega)$ + i$\varepsilon_2 (\omega)$) spectra of CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2} is calculated by the all electron
+\section{Dielectric function for CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2}}
+The dielectric function ($\varepsilon (\omega)$ = $\varepsilon_1 (\omega)$ + i$\varepsilon_2 (\omega)$) spectra of CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2} is calculated by the all electron
 and full-potential linearized augmented plane wave (FPLAPW) method. The calculated dielectric function is compared with experimental values (CuIn\textsubscript{0.7}Ga\textsubscript{0.3}Se\textsubscript{2}) at temperature 
-of 40 K and 300 K, and they are in a good agreement. The different contributions to $\varepsilon_2(\omega)$ in terms of the transitions between the valence bands and the conduction bands are identified based on this calculation.
+of 40 K and 300 K. They are in a good agreement. The different contributions to $\varepsilon_2(\omega)$ in terms of the transitions between the valence bands and the conduction bands are identified based on this calculation.
 Moreover, the $\textbf{k}$-dependence of the interband critical points (CPs) along the main symmetry directions is analyzed as well.
 
  \begin{figure}[H]
@@ -2016,15 +2006,15 @@ calculated by FPLAPW method at 0 K. The major CP features are identified. }
 
 In \textbf{Fig. \ref{df1}}, the general shape between experimental and calculated dielectric function is relatively similar. The calculation indicates that there is no big difference in the optical properties for those 
 two materials, except the shift of CP energies. The analysis based on experimental work indicates that there are twelve CPs from 2.5 eV to 6.4 eV. Therefore, the electronic origin for each CP is analyzed based on 
-the calculated result. The contribution to dielectric function between the valence bands and conduction bands is presented in \textbf{Fig. \ref{df2}}.
+the calculated results. The contribution to dielectric function between the valence bands and conduction bands is presented as well in \textbf{Fig. \ref{df2}}.
 
 
  \begin{figure}[H]
     \begin{center}
             \includegraphics[width=0.75\textwidth]{APL34}
      \end{center}
-    \caption{Upper panel: Band-to-band analysis of the contribution to the total $\varepsilon_2$ spectrum. The vertical axis is in the log scale. 
-              Down panel: The calculated electronic band structure of CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2} where the CPs are identified along the main symmetry directions.}
+    \caption{Upper panel: band-to-band analysis of the contribution to the total $\varepsilon_2$ spectrum. The vertical axis is in the log scale. 
+              lower panel: the calculated electronic band structure of CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2} where the CPs are identified along the main symmetry directions.}
    \label{df2}
 \end{figure}
 
@@ -2054,7 +2044,7 @@ corresponding to the  $v_4 \longrightarrow c_1$ at the $N$ point. The $E_7$ is f
 \item{}  \textbf{Parameterization of $\mathbf {CuIn_{1-x}Ga_{x}Se_2}$ (x = 0, 0.5, and 1) energy bands}
 \\\textbf{R. Chen} and C. Persson, \textit{Thin Solid Films} {\textbf {519}}, 7503 (2011).
 
-The parameterization of the electronic band structure of CuIn\textsubscript{1-\textit{x}}Ga\textsubscript{\textit{x}}Se\textsubscript{2} ($x$ = 0, 0.5, and 1) demonstrates that the energy dispersions of the lowest conduction band
+We have parameterized the electronic band structure of CuIn\textsubscript{1-\textit{x}}Ga\textsubscript{\textit{x}}Se\textsubscript{2} ($x$ = 0, 0.5, and 1). It demonstrates that the energy dispersions of the lowest conduction band
 and three uppermost valence bands are strongly anisotropic and non-parabolic close to the $\Gamma$-point. This anisotropy and non-parabolicity directly affect the effective electron and hole masses.
 
 \item{}\textbf{Band-edge density-of-states and carrier concentrations in intrinsic and $p$-type $\mathbf {CuIn_{1-x}Ga_{x}Se_2}$}
@@ -2072,7 +2062,7 @@ CuIn\textsubscript{1-\textit{x}}Ga\textsubscript{\textit{x}}Se\textsubscript{2} 
 \\ S.G. Choi, \textbf{R. Chen}, C. Persson, T.J. Kim, S.Y. Hwang, Y. D. Kim, and L. M. Mansfield,
 \textit{Appl. Phys. Lett. } {\textbf {101}}, 261903 (2012).
 
-The dielectric function spectra of CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2} is calculated by the all electron
+We have calculated the dielectric function spectra of CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2} by the all electron
 and full-potential linearized augmented plane wave (FPLAPW) method. The calculated dielectric function is compared with experimental values (CuIn\textsubscript{0.7}Ga\textsubscript{0.3}Se\textsubscript{2}) at temperature 
 of 40 K and 300 K, and they are in a good agreement. The different contributions to imaginary part of dielectric function in terms of the transitions between the valence bands and the conduction bands are identified based on this
 calculation. Moreover, the $\textbf{k}$-dependence of the interband critical points (CPs) along the main symmetry directions is analyzed as well.
@@ -2083,20 +2073,19 @@ calculation. Moreover, the $\textbf{k}$-dependence of the interband critical poi
 
 
 \chapter{Concluding remarks and future work}
-Chalcopyrite copper indium gallium diselenide (CIGS) is seen as one of the most promising solar cell material for the near future. The efficiency of CIGS has been reached up to around 20\% in the laboratory. 
-
-In the current work, two major researches are analyzed. (1): Parameterization of energy bands for CuIn{\textsubscript{1-$x$}}Ga{\textsubscript{$x$}}Se\textsubscript{2} where $x$ = 0, 0.5, and 1. With a more correct
+Chalcopyrite copper indium gallium diselenide (CIGS) is seen as one of the most promising solar cell material for the near future. 
+The maximum conversion efficiency of CIGS had reached 23.3\% in the laboratory. In the current work, two major researches are analyzed. (1): Parameterization of energy bands for CuIn{\textsubscript{1-$x$}}Ga{\textsubscript{$x$}}Se\textsubscript{2} where $x$ = 0, 0.5, and 1. With a more correct
 description of the energy dispersions, one can better analyze the electron and hole dynamics in the CuIn\textsubscript{1-\textit{x}}Ga\textsubscript{\textit{x}}Se\textsubscript{2} ($x$ = 0, 0.5, and 1) alloys, thereby better
-understand the electrical properties of these compounds. More importantly, this parameterization method can be utilized to other materials potentially. (2): Calculation of the dielectric function spectra for the
-CuIn{\textsubscript{0.5}}Ga{\textsubscript{0.5}}Se\textsubscript{2} by all electron and full-potential linearized augmented plane wave (FPLAPW) method, which is compared with experimental result. The probable electronic origins of
+understand the electrical properties of these compounds. More importantly, this parameterization method can be utilized to other materials potentially. (2): The dielectric function spectra for the
+CuIn{\textsubscript{0.5}}Ga{\textsubscript{0.5}}Se\textsubscript{2} is calculated by all electron and full-potential linearized augmented plane wave (FPLAPW) method, which is compared with experimental result. The probable electronic origins of
 the critical point features are discussed as well.
 
-Alternative materials for solar cell are plan to be analyzed in the future work due to the cost and scarcity of Indium in the CIGS. Copper zinc tin selenide/sulfide (CZT(Se,S)) is also a promising solar cell material due to the 
+Alternative materials for solar cell are planning to be analyzed in the future work due to the cost and scarcity of indium in the CIGS. Copper zinc tin selenide (CZTSe) and copper zinc tin sulfide (CZTS) are also  promising solar cell materials due to the 
 low cost and non-toxicity elements in these compounds. It has many similarities with CIGS, such as similar device structure, fabrication techniques and tunable band gap. Therefore, it has huge potential for the future to reduce
-the cost of solar cells. Since the intensive research on those materials is relatively short time, therefore the conversion efficiency is only around 10\% in the laboratory. Apparently, the quaternary chalcogenide semiconductor is more 
-complicated compared with other thin film materials, more researches are needed to improve the conversion efficiency.  This research should not be limited only within CZT(Se,S), other compounds are needed to be considered as well such as
-chalcogenide Cu-based compounds with transitional metals, such as CFT(Se,S). There are several layers in solar cell device, and the optical properties in each layer can be calculated by theoretical methods. 
-The model of conversion efficiency in the whole solar cell is planned to analyzed in the future work as well. 
+the cost of solar cells. Since the intensive research on those materials is relatively in a short time, therefore the conversion efficiency is only around 10\% in the laboratory. Apparently, the quaternary chalcogenide semiconductor is more 
+complicated compared with other thin film materials, more studies are needed in order to improve the conversion efficiency.  This research should not be limited only within CZT(Se,S), other compounds are needed to be considered as well such as
+chalcogenide Cu-based compounds with transitional metals, such as CFT(Se,S). Also, it would be very useful to calculate conversion efficiency only based on the optical calculations based on DFT. Therefore, the model of conversion
+efficiency in multilayers solar cell device is planning to be calculated and analyzed in the future work as well. 
 
 
 
@@ -2218,7 +2207,7 @@ The result in \textbf{Eq. \ref{functional3}} is useful to derive the solution in
 \chapter*{Acknowledgements} \addcontentsline{toc}{chapter}{Acknowledgements}
 
 I would like to express my sincere appreciation to my supervisor Prof. Clas Persson for his academic encouragement and professional guidance. He is always showing a great interest to my projects and patient to teach me detailed
-physics, this will be an invaluable asset to my future career.
+material physics, which will be an invaluable asset to my future career.
 
 I am grateful to Prof. Börje Johansson for the acceptance in his research group as a PhD student at KTH Royal Institute of Technology. I also thank Prof. Börje Johansson and Prof. Natalia Skorodumova for being my co-supervisor during my PhD study.
 
