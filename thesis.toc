@@ -1,49 +1,48 @@
 \select@language {english}
+\contentsline {chapter}{Abstract}{iii}
 \contentsline {chapter}{Preface}{v}
-\contentsline {chapter}{Contents}{vii}
-\contentsline {chapter}{\chapternumberline {1}Introduction}{1}
+\contentsline {chapter}{Table of Contents}{vii}
+\contentsline {chapter}{\chapternumberline {I}INTRODUCTION}{1}
 \contentsline {section}{\numberline {1.1}Solar cells}{3}
 \contentsline {subsection}{\numberline {1.1.1}Single-junction solar cells}{3}
 \contentsline {section}{\numberline {1.2}Solar cell materials}{8}
 \contentsline {subsection}{\numberline {1.2.1}Crystalline silicon solar cells}{9}
 \contentsline {subsection}{\numberline {1.2.2}Gallium arsenide}{10}
 \contentsline {subsection}{\numberline {1.2.3}Thin film materials}{10}
-\contentsline {section}{\numberline {1.3}Copper indium gallium diselenide (CIGS) materials}{11}
+\contentsline {section}{\numberline {1.3}Copper indium gallium diselenide (CIGS)}{11}
 \contentsline {subsection}{\numberline {1.3.1}Crystal structure}{11}
 \contentsline {subsection}{\numberline {1.3.2}Optical properties and defects in the CIGS}{12}
-\contentsline {subsection}{\numberline {1.3.3}CIGS solar cell structure}{13}
-\contentsline {chapter}{\chapternumberline {2}Theory}{15}
-\contentsline {section}{\numberline {2.1}Electronic structure calculations }{15}
-\contentsline {subsection}{\numberline {2.1.1}The quantum many-body problem}{15}
-\contentsline {subsection}{\numberline {2.1.2}The Born-Oppenheimer approximation}{16}
-\contentsline {subsection}{\numberline {2.1.3}Hartree, Hartree-Fock approximation and density functional theory}{18}
-\contentsline {subsubsection}{\numberline {2.1.3.1}Hartree approximation}{18}
-\contentsline {subsubsection}{\numberline {2.1.3.2}Hartree-Fock approximation}{21}
-\contentsline {subsubsection}{\numberline {2.1.3.3}Density functional theory}{22}
-\contentsline {subsubsection}{\numberline {2.1.3.4}Kohn-Sham equation}{24}
-\contentsline {subsubsection}{\numberline {2.1.3.5}The exchange-correlation potential}{26}
-\contentsline {subsection}{\numberline {2.1.4}Solving the secular equation}{27}
-\contentsline {subsection}{\numberline {2.1.5}Eigenvalue problem}{29}
-\contentsline {section}{\numberline {2.2}Full-potential linearized augmented plane wave method}{30}
-\contentsline {subsection}{\numberline {2.2.1}Introduction}{30}
-\contentsline {subsection}{\numberline {2.2.2}Wavefunction}{31}
-\contentsline {subsubsection}{\numberline {2.2.2.1}Augmented plane wave method}{31}
-\contentsline {subsubsection}{\numberline {2.2.2.2}Linearized augmented plane wave method}{32}
-\contentsline {subsubsection}{\numberline {2.2.2.3}Linearized augmented plane wave method plus local orbitals}{33}
-\contentsline {subsubsection}{\numberline {2.2.2.4}Augmented plane wave method plus local orbitals}{33}
-\contentsline {subsection}{\numberline {2.2.3}Effective potential}{34}
-\contentsline {section}{\numberline {2.3}Dielectric function}{34}
-\contentsline {section}{\numberline {2.4}k $\cdot $ p method}{35}
-\contentsline {section}{\numberline {2.5}Spin-orbit coupling}{36}
-\contentsline {subsection}{\numberline {2.5.1}Dirac equation}{36}
-\contentsline {subsection}{\numberline {2.5.2}Derivation of spin-orbit coupling}{37}
-\contentsline {chapter}{\chapternumberline {3}Results and discussion}{40}
-\contentsline {section}{\numberline {3.1}Parameterization of energy bands for CIGS}{40}
-\contentsline {subsection}{\numberline {3.1.1}Parameterization method}{40}
-\contentsline {subsection}{\numberline {3.1.2}Non-parabolicity properties}{42}
-\contentsline {subsection}{\numberline {3.1.3}Application of the full band parameterization}{46}
-\contentsline {section}{\numberline {3.2}Dielectric function for CuIn\textsubscript {0.5}Ga\textsubscript {0.5}Se\textsubscript {2}}{53}
-\contentsline {chapter}{\chapternumberline {4}Summary of the publications}{56}
-\contentsline {chapter}{\chapternumberline {5}Concluding remarks and future work}{58}
-\contentsline {chapter}{Acknowledgements}{59}
-\contentsline {chapter}{Bibliography}{60}
+\contentsline {subsection}{\numberline {1.3.3}CIGS solar cell structure}{14}
+\contentsline {section}{\numberline {1.4}Theory}{15}
+\contentsline {subsection}{\numberline {1.4.1}The quantum many-body problem}{15}
+\contentsline {subsection}{\numberline {1.4.2}The Born-Oppenheimer approximation}{15}
+\contentsline {subsection}{\numberline {1.4.3}Hartree, Hartree-Fock approximation and density functional theory}{17}
+\contentsline {subsubsection}{\numberline {1.4.3.1}Hartree approximation}{18}
+\contentsline {subsubsection}{\numberline {1.4.3.2}Hartree-Fock approximation}{21}
+\contentsline {subsubsection}{\numberline {1.4.3.3}Density functional theory}{22}
+\contentsline {subsubsection}{\numberline {1.4.3.4}Kohn-Sham equation}{25}
+\contentsline {subsubsection}{\numberline {1.4.3.5}The exchange-correlation potential}{27}
+\contentsline {subsection}{\numberline {1.4.4}Solving the secular equation}{28}
+\contentsline {subsection}{\numberline {1.4.5}Eigenvalue problem}{29}
+\contentsline {section}{\numberline {1.5}Full-potential linearized augmented plane wave method}{30}
+\contentsline {subsection}{\numberline {1.5.1}Introduction}{30}
+\contentsline {subsection}{\numberline {1.5.2}Wavefunction}{31}
+\contentsline {subsubsection}{\numberline {1.5.2.1}Augmented plane wave method}{31}
+\contentsline {subsubsection}{\numberline {1.5.2.2}Linearized augmented plane wave method}{32}
+\contentsline {subsubsection}{\numberline {1.5.2.3}Linearized augmented plane wave method plus local orbitals}{33}
+\contentsline {subsubsection}{\numberline {1.5.2.4}Augmented plane wave method plus local orbitals}{33}
+\contentsline {subsection}{\numberline {1.5.3}Effective potential}{34}
+\contentsline {section}{\numberline {1.6}Dielectric function}{34}
+\contentsline {section}{\numberline {1.7}\textbf {k} $\cdot $ \textbf {p} method}{35}
+\contentsline {section}{\numberline {1.8}Spin-orbit coupling}{36}
+\contentsline {subsection}{\numberline {1.8.1}Dirac equation}{36}
+\contentsline {subsection}{\numberline {1.8.2}Derivation of spin-orbit coupling}{37}
+\contentsline {chapter}{\chapternumberline {II}SHORT SUMMARY OF THE PAPERS}{40}
+\contentsline {section}{\numberline {2.1}Summary of the papers}{40}
+\contentsline {section}{\numberline {2.2}Concluding remarks and future perspectives}{41}
+\contentsline {chapter}{Acknowledgements}{42}
+\contentsline {chapter}{Bibliography}{43}
+\contentsline {chapter}{\chapternumberline {III}COMPILATION OF SCIENTIFIC PAPERS}{49}
+\contentsline {section}{\numberline {3.1}Paper I: "Parameterization of CuIn\textsubscript {1-x}Ga\textsubscript {x}Se\textsubscript {2} (x = 0, 0.5, and 1) energy bands"}{49}
+\contentsline {section}{\numberline {3.2}Paper II: "Band-edge density-of-states and carrier concentrations in intrinsic and $p$-type CuIn\textsubscript {1-x}Ga\textsubscript {x}Se\textsubscript {2}"}{55}
+\contentsline {section}{\numberline {3.3}Paper III: "Dielectric function spectra at 40 K and critical-point energies for CuIn\textsubscript {0.7}Ga\textsubscript {0.3}Se\textsubscript {2}"}{67}

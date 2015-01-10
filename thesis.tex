@@ -32,12 +32,12 @@
 \usepackage{booktabs}
 \usepackage{caption}
 \usepackage{url}
+\usepackage{pdfpages}
 %\usepackage[width=1.2\textwidth]{caption}
 
 
 
- 
- 
+\renewcommand{\thechapter}{\Roman{chapter}} 
  
 \setlength{\parskip}{6pt}  % 12 pt = hopp mellan stycken
 \setlength{\parindent}{0pt} % 0 pt  = indrag
@@ -46,9 +46,16 @@
 \newcommand{\Rmnum}[1]{\expandafter\@slowromancap\romannumeral #1@}
 \makeatother
 
+\usepackage{titlesec}
+\titleformat{\chapter}[hang] 
+{\normalfont\LARGE\bfseries}{\chaptertitlename\ \thechapter}{1em}{}
+
+
 %And here the document begins!
 
 \begin{document}
+
+
 
 
 \bibliographystyle{ieeetr}
@@ -119,7 +126,7 @@
 
 
   \vspace{12pt}
-  \textsc{\LARGE{\textbf{{??TITLE??}}}}
+  \textsc{\LARGE{\textbf{{{\color{red}??Theoretical Investigations of CIGS thin films??}}}}}
   \vspace{12pt}
 
   \vspace{5 cm}
@@ -152,8 +159,8 @@
 \begin{flushright}
  Materialvetenskap\\
  KTH\\
-ISRN KTH/MSE--12/09--SE+AMFY/AVH
- \hfill SE-100 44 Stockholm\\ ISBN 978-91-7501-313-8  \hfill
+{\color{red}ISRN KTH/MSE--12/09--SE+AMFY/AVH
+ \hfill SE-100 44 Stockholm\\ ISBN 978-91-7501-313-8  \hfill}
 Sweden\\
 \end{flushright}
 
@@ -162,12 +169,12 @@ Sweden\\
 
 Akademisk avhandling som med tillstånd av Kungliga Tekniska
 Högskolan framlägges till offentlig granskning för avläggande av
-{\color{red}???licentiatexamen fredagen den 23 Nov. 2014 kl 10:00 i koenferencerum???}, Materialvetenskap, Kungliga Tekniska
+{\color{red}???licentiatexamen fredagen den 23 Nov. 2015 kl 10:00 i koenferencerum???}, Materialvetenskap, Kungliga Tekniska
 Högskolan,\linebreak Brinellvägen 23, Stockholm.
 
 \vspace{5mm}
 
-\copyright \hspace{3pt} {\color{red}Rongzhen Chen, 2014}
+\copyright \hspace{3pt} {\color{red}Rongzhen Chen, 2015}
 
 \vspace{5mm}
 
@@ -177,7 +184,8 @@ Tryck: Universitetsservice US AB
 
 
 \begin{abstract}
-
+ \addcontentsline{toc}{chapter}{Abstract}
+\begin{comment}
 In order to reduce the high dependence on fossil fuels and oil, solar energy is one of the alternatives. Thin film photovoltaic (PV) technology is one of the solar energy,  and there are several rather important absorber materials in the PV technology, such as the cadmium
 telluride (CdTe) and chalcopyrite copper indium gallium diselenide (CIGS). The maximum conversion efficiency of CIGS had reached 23.3\% in the National Renewable Energy Laboratory, Golden, Colorado, U.S.A. Therefore,
 the accurate information for this kind of absorber materials is of great importance in order to design the photovoltaic materials. 
@@ -199,6 +207,21 @@ concentrations are calculated and analyzed based on this parameterization as wel
 It shows a good agreement with the result from spectroscopic ellipsometry, which illustrates the results of CuIn\textsubscript{0.7}Ga\textsubscript{0.3}Se\textsubscript{2} at 40 K and 300 K. Furthermore, 
 the probable electronic origins of observed interband critical points are discussed. The band to band analysis
 of the contribution to the total imaginary part of dielectric function spectrum is explored as well.
+\end{comment}
+
+Chalcopyrite copper indium gallium diselenide (CIGS) is interesting both from a scientifically point of view and today also commercially for thin-film solar cell technology.
+
+
+In the licentiate thesis, details in the electronic structure of CuIn\textsubscript{1-x}Ga\textsubscript{x}Se\textsubscript{2} alloy (x = 0.0, 0.5 and 1.0) and its optical response are explored by means of the all-electron and full-potential
+linearized augmented plane wave calculations in conjunction with the density functional theory. The energy band dispersion are parameterized for the uppermost three valence bands (VBs) and the lowest conduction band (CB), based on 
+the $\bold k \cdot \bold p$ method but expanded up to high order. It is demonstrated that the VBs and CB are anisotropic at the G-point, and even more anisotropic and non-parabolic away from the G-point. The effect originates from
+the crystal-field and the spin-orbit split-off energies. This implies that the G-point effective mass is not suitable to describe the materials properties such as band filling and strong excitation effects. Instead, the thesis 
+provides the effective electron and hole mass tensors, which are obtained in four symmetry directions at the G-points. A energy dependent effective mass that can be utilized in further analyses is calculated, both experimentally 
+and theoretically. Based on the parametrized energy bands, the density-of-states as well as the temperature dependent Fermi energy and carrier concentrations are calculated, and the results are compared with corresponding results
+for the parabolic band energy approximation. To illustrate the non-parabolic, the constant energy surface are presented for the three topmost VBs as well as the lowest CB. Furthermore, the dielectric function of
+CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2} is calculated, and the band-to band optical transitions are analyzed. The electronic origin of the observed interband critical points of the  optical response are discussed. 
+The theoretical results is compared with the experiment data based on CuIn\textsubscript{0.7}Ga\textsubscript{0.3}Se\textsubscript{2} at 40 K and 300 K, demonstrating that the overall shape of the calculated and measured dielectric function
+spectra are in good agreement. We find that the{\color{red} v?-c? and v?-c? transitions in the Brillouin zone edge are responsible for the main absorption peaks at ?? and ?? eV}.
 
 
 \newpage
@@ -244,7 +267,7 @@ the manuscript was written jointly.\\
 \subsubsection*{Book chapter:}
 \item{}\textbf{Electronic structure and optical properties from first-principles modeling} \\
 C. Persson, \textbf{R. Chen}, H. Zhao, M. Kumar, and D. Huang, Chapter in “Copper zinc tin sulphide-based thin film solar cells”,
-edited by K. Ito ({\textit John Wiley $\&$ Sons}, ??Hoboken??, 2014).
+edited by K. Ito ({\textit John Wiley $\&$ Sons}, 2014).
 
 
 %\end{enumerate}
@@ -271,14 +294,23 @@ edited by K. Ito ({\textit John Wiley $\&$ Sons}, ??Hoboken??, 2014).
 \setcounter{page}{7}
 \setcounter{secnumdepth}{3}
 \setcounter{tocdepth}{3}
+\renewcommand\contentsname{Table of Contents}
+
 \tableofcontents
+
+
 
 \newpage
 \pagenumbering{arabic}
+\renewcommand{\thesection}{\arabic{chapter}.\arabic{section}}  
+\renewcommand{\thetable}{\arabic{chapter}.\arabic{table}}  
+\renewcommand{\thefigure}{\arabic{chapter}.\arabic{figure}} 
+\renewcommand{\theequation}{\arabic{chapter}.\arabic{equation}} 
+\renewcommand{\chaptername}{}
 
 
 
-\chapter{Introduction}
+\chapter{INTRODUCTION}
 
 With the increasing of energy consumption, more and more energy or power is needed. According to the statistical review of world energy on 2014 \cite{bp} (\textbf{Fig. \ref{wpec}}),
 the required energy is mainly satisfied by the fossil fuels (mainly coal, petroleum and 
@@ -507,7 +539,7 @@ $n$-type CdS layer \cite{green2007thin}. The conversion efficiency of CIGS reach
 is between 1.0 eV to 1.7 eV for this alloy \cite{kumar2013cation, chen2012band, chen2011parameterization, persson2009impurity, green2006third}. CIGS does not contain any toxic element.
 
 %\section{CuIn\textsubscript{1-\textit{x}}Ga\textsubscript{\textit{x}}Se\textsubscript{2}(CIGS) materials}
-\section{Copper indium gallium diselenide (CIGS) materials}
+\section{Copper indium gallium diselenide (CIGS)}
 CIGS material is a chalcopyrite-type material, which is considered to be one of the most promising thin film solar cell material. The direct band-gap is from around 1.0 eV to 1.7 eV by alloying Ga in the CuInSe\textsubscript{2} (CIS),  and the conversion efficiency in laboratory already surpassed 20\%. 
 CuInSe\textsubscript{2} was first synthesized by Hahn in 1953 \cite{ZAAC}. It was first exploited as an absorber material in a single crystal solar cell in 1974 \cite{CuInSe21974}, which is based on CuInSe\textsubscript{2} and CdS. The conversion efficiency is around 
 5\%. The first thin film solar cells based on CuInSe\textsubscript{2} and CdS was invented by Kazmerski. During 1980s, Boeing Corporation did much research on the thin film polycrystalline CIGS solar cells. 
@@ -547,7 +579,7 @@ Alloying the Ga element will decrease the electron affinity of CIGS, which will 
 more Ga element in the CIGS material. An overview properties of CuInSe\textsubscript{2} and CuGaSe\textsubscript{2} materials are described in \textbf{Table. \ref{kth518}} 
 
 
-\vspace{10cm}
+\vspace{0cm}
 
 \begin {table}[!htb]
 \centering
@@ -634,9 +666,7 @@ This CIGS/CdS/ZnO structure was optimized to improve the cell performance. The d
 
 
 
-\chapter{Theory}
-
-\section{Electronic structure calculations }
+\section{Theory}
 \label{ch:dft}
 
 \subsection{The quantum many-body problem}
@@ -1409,7 +1439,7 @@ Here, the equation is only valid for the diagonal of the tensor.
 In this section, only some basic equations are covered when it is related to calculate the dielectric function. If someone is interested in this topic, one can find more detailed in Ref. \cite{ambrosch2006linear}.
 
 
-\section{k $\cdot$ p method}
+\section{\textbf{k} $\cdot$ \textbf{p} method}
 \label{kpmaa}
 
 The energy band dispersion can be obtained exactly by using the $\bold k \cdot \bold p$ method in principle. The basic idea of this method is explained in this section \cite{voon2009kp, kane1966k}.
@@ -1607,6 +1637,8 @@ Here, the Taylor expansion is utilized. The zeroth order regular approximation (
 The last term in \textbf{Eq. \ref{zora1}} is the spin-orbit coupling term.
 
 
+
+\begin{comment}
 \chapter{Results and discussion}
 
 In this chapter, the major results for the licentiate thesis are discussed. The first one is parameterization of energy bands for CuIn{\textsubscript{1-$x$}}Ga{\textsubscript{$x$}}Se\textsubscript{2}
@@ -1844,7 +1876,7 @@ a given quasi-Fermi energy. It also demonstrates that the pba underestimates the
 and 8 times, respectively.
 
 
-\end{comment}
+
 
 
 The concentration of free holes $n_v(T)$ and free electrons $n_c(T)$ can be calculated from the DOS by
@@ -2035,9 +2067,12 @@ corresponding to the  $v_4 \longrightarrow c_1$ at the $N$ point. The $E_7$ is f
 \label{ccccc}
 \end{figure}
 
+\end{comment}
 
-\chapter{Summary of the publications}
 
+\chapter{SHORT SUMMARY OF THE PAPERS}
+
+\section{Summary of the papers}
 \begin{enumerate}
 \renewcommand{\labelenumi}{\Roman{enumi}}
 %\item{} \textbf{Parameterization of $CuIn_{1−x}Ga_{x}Se_2$ (x = 0, 0.5, and 1) energy bands}
@@ -2072,7 +2107,7 @@ calculation. Moreover, the $\textbf{k}$-dependence of the interband critical poi
 
 
 
-\chapter{Concluding remarks and future work}
+\section{Concluding remarks and future perspectives}
 Chalcopyrite copper indium gallium diselenide (CIGS) is seen as one of the most promising solar cell material for the near future. 
 The maximum conversion efficiency of CIGS had reached 23.3\% in the laboratory. In the current work, two major researches are analyzed. (1): Parameterization of energy bands for CuIn{\textsubscript{1-$x$}}Ga{\textsubscript{$x$}}Se\textsubscript{2} where $x$ = 0, 0.5, and 1. With a more correct
 description of the energy dispersions, one can better analyze the electron and hole dynamics in the CuIn\textsubscript{1-\textit{x}}Ga\textsubscript{\textit{x}}Se\textsubscript{2} ($x$ = 0, 0.5, and 1) alloys, thereby better
@@ -2226,5 +2261,36 @@ are acknowledged for financial support.
 
 \bibliography{bibdatabase}
 
+
+\chapter{COMPILATION OF SCIENTIFIC PAPERS}
+
+\section{Paper I: "Parameterization of CuIn\textsubscript{1-x}Ga\textsubscript{x}Se\textsubscript{2} (x = 0, 0.5, and 1) energy bands"}
+\textbf{R. Chen} and C. Persson, \textit{Thin Solid Films} {\textbf {519}}, 7503 (2011).
+
+
+
+\newpage
+\includepdf[pages=-,templatesize={145mm}{200mm},noautoscale=true,offset=-97 40, pagecommand={}]{paper1new11.pdf}
+\includepdf[pages=-,templatesize={145mm}{200mm},noautoscale=true,offset=-97 -100, pagecommand={}]{paper1new111.pdf}
+
+
+\section{Paper II: "Band-edge density-of-states and carrier concentrations in intrinsic and $p$-type CuIn\textsubscript{1-x}Ga\textsubscript{x}Se\textsubscript{2}"}
+\textbf{R. Chen} and C. Persson, \textit{J. Appl. Phys.} {\textbf {112}}, 103708 (2012).
+
+
+
+\newpage
+\includepdf[pages=-,templatesize={145mm}{200mm},noautoscale=true,offset=-97 -100, pagecommand={}]{paper2new11.pdf}
+\includepdf[pages=-,templatesize={145mm}{200mm},noautoscale=true,offset=-97 -150, pagecommand={}]{paper2new111.pdf}
+
+\section{Paper III: "Dielectric function spectra at 40 K and critical-point energies for CuIn\textsubscript{0.7}Ga\textsubscript{0.3}Se\textsubscript{2}"}
+S.G. Choi, \textbf{R. Chen}, C. Persson, T.J. Kim, S.Y. Hwang, Y. D. Kim, and L. M. Mansfield,
+\textit{Appl. Phys. Lett. } {\textbf {101}}, 261903 (2012).
+
+
+
+\newpage
+\includepdf[pages=-,templatesize={145mm}{200mm},noautoscale=true,offset=-97 -100, pagecommand={}]{paper3new11.pdf}
+\includepdf[pages=-,templatesize={145mm}{200mm},noautoscale=true,offset=-97 -150, pagecommand={}]{paper3new111.pdf}
 
 \end{document}
