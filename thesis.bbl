@@ -3,6 +3,10 @@
 \bibitem{bp}
 \url{http://www.bp.com/}, 2014.
 
+\bibitem{xie2014creating}
+X.~Xie and E.~Bakker {\em Physical Chemistry Chemical Physics}, vol.~16,
+  p.~19781, 2014.
+
 \bibitem{iea}
 \url{http://www.iea.org/publications/scenariosandprojections/}, 2009.
 
@@ -25,10 +29,6 @@ D.~Chiras.
 \bibitem{nrel}
 \url{http://www.nrel.gov/ncpv/}, 2014.
 
-\bibitem{zhou2014interface}
-H.~Zhou, Q.~Chen, G.~Li, S.~Luo, T.-B. Song, H.-S. Duan, Z.~Hong, J.~You,
-  Y.~Liu, and Y.~Yang {\em Science}, vol.~345, p.~542, 2014.
-
 \bibitem{dimroth2014wafer}
 F.~Dimroth, M.~Grave, P.~Beutel, U.~Fiedeler, C.~Karcher, T.~N. Tibbits,
   E.~Oliva, G.~Siefer, M.~Schachtner, A.~Wekkeli, {\em et~al.} {\em Progress in
@@ -38,14 +38,18 @@ F.~Dimroth, M.~Grave, P.~Beutel, U.~Fiedeler, C.~Karcher, T.~N. Tibbits,
 R.~Jones {\em Spectrolab, Inc. A Boeing Company. Sylmar, California, Estados
   Unidos}, 2009.
 
-\bibitem{panasonic}
-\url{http://www.gizmag.com/panasonic-hit-solar-cell-256-efficiency/31573/},
-  2014.
-
 \bibitem{ward2014cu}
 J.~S. Ward, B.~Egaas, R.~Noufi, M.~Contreras, K.~Ramanathan, C.~Osterwald, and
   K.~Emery in {\em Photovoltaic Specialist Conference (PVSC), 2014 IEEE 40th},
   p.~2934, IEEE, 2014.
+
+\bibitem{green2015solar}
+M.~A. Green, K.~Emery, Y.~Hishikawa, W.~Warta, and E.~D. Dunlop {\em Progress
+  in Photovoltaics: Research and Applications}, vol.~23, p.~1, 2015.
+
+\bibitem{panasonic}
+\url{http://www.gizmag.com/panasonic-hit-solar-cell-256-efficiency/31573/},
+  2014.
 
 \bibitem{zsw}
 \url{http://www.zsw-bw.de/uploads/media/pr12-2014-ZSW-WorldrecordCIGS.pdf},
@@ -428,13 +432,5 @@ S.~Faas, J.~Snijders, J.~Van~Lenthe, E.~Van~Lenthe, and E.~Baerends {\em
 \bibitem{van1996zero}
 E.~Van~Lenthe, J.~Snijders, and E.~Baerends {\em The Journal of chemical
   physics}, vol.~105, p.~6505, 1996.
-
-\bibitem{PIP:PIP936}
-S.~Siebentritt, M.~Igalson, C.~Persson, and S.~Lany {\em Progress in
-  Photovoltaics: Research and Applications}, vol.~18, p.~390, 2010.
-
-\bibitem{hellwege1967landolt}
-K.-H. Hellwege and L.~C. Green {\em American Journal of Physics}, vol.~35,
-  p.~291, 1967.
 
 \end{thebibliography}

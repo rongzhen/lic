@@ -15,14 +15,15 @@ Repeated entry---line 603 of file bibdatabase.bib
  : @article{persson2005n
  :                      ,
 I'm skipping whatever remains of this entry
+Warning--empty title in xie2014creating
 Warning--empty title in smestad2002optoelectronics
 Warning--empty title in seinfeld2012atmospheric
 Warning--empty title in boyle2004renewable
 Warning--empty title in Chiras201007
-Warning--empty title in zhou2014interface
 Warning--empty title in dimroth2014wafer
 Warning--empty title in jones2009new
 Warning--empty title in ward2014cu
+Warning--empty title in green2015solar
 Warning--empty title in green2014emergence
 Warning--empty title in mcgehee2014perovskite
 Warning--empty title in bok1
@@ -119,47 +120,45 @@ Warning--empty title in dirac1930principles
 Warning--empty title in van1994relativistic
 Warning--empty title in faas1995zora
 Warning--empty title in van1996zero
-Warning--empty title in PIP:PIP936
-Warning--empty title in hellwege1967landolt
-You've used 114 entries,
+You've used 113 entries,
             1876 wiz_defined-function locations,
-            963 strings with 13513 characters,
-and the built_in function-call counts, 25076 in all, are:
-= -- 2322
-> -- 1069
+            956 strings with 13308 characters,
+and the built_in function-call counts, 24759 in all, are:
+= -- 2300
+> -- 1040
 < -- 0
-+ -- 410
-- -- 296
-* -- 1425
-:= -- 3452
-add.period$ -- 141
-call.type$ -- 114
++ -- 400
+- -- 287
+* -- 1397
+:= -- 3400
+add.period$ -- 140
+call.type$ -- 113
 change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 220
-duplicate$ -- 1582
-empty$ -- 2401
-format.name$ -- 296
-if$ -- 6331
+cite$ -- 218
+duplicate$ -- 1567
+empty$ -- 2380
+format.name$ -- 287
+if$ -- 6259
 int.to.chr$ -- 0
-int.to.str$ -- 114
-missing$ -- 133
-newline$ -- 372
-num.names$ -- 108
-pop$ -- 595
+int.to.str$ -- 113
+missing$ -- 132
+newline$ -- 369
+num.names$ -- 107
+pop$ -- 591
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1044
+skip$ -- 1034
 stack$ -- 0
-substring$ -- 608
-swap$ -- 663
+substring$ -- 602
+swap$ -- 656
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 106
-while$ -- 186
-width$ -- 117
-write$ -- 970
+warning$ -- 105
+while$ -- 184
+width$ -- 116
+write$ -- 961
 (There were 2 error messages)
