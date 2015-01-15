@@ -19,29 +19,29 @@
 \contentsline {subsection}{\numberline {1.4.3}Solving the many-body problem}{17}
 \contentsline {subsubsection}{\numberline {1.4.3.1}Hartree approximation}{18}
 \contentsline {subsubsection}{\numberline {1.4.3.2}Hartree-Fock approximation}{20}
-\contentsline {subsubsection}{\numberline {1.4.3.3}Density functional theory}{22}
+\contentsline {subsubsection}{\numberline {1.4.3.3}Density functional theory}{21}
 \contentsline {subsubsection}{\numberline {1.4.3.4}Kohn-Sham equation}{24}
 \contentsline {subsubsection}{\numberline {1.4.3.5}The exchange-correlation potential}{26}
 \contentsline {subsection}{\numberline {1.4.4}Solving the secular equation}{27}
-\contentsline {subsection}{\numberline {1.4.5}Eigenvalue problem}{29}
-\contentsline {section}{\numberline {1.5}Full-potential linearized augmented plane wave method}{30}
-\contentsline {subsection}{\numberline {1.5.1}Introduction}{30}
-\contentsline {subsection}{\numberline {1.5.2}Wavefunction}{31}
-\contentsline {subsubsection}{\numberline {1.5.2.1}Augmented plane wave method}{31}
-\contentsline {subsubsection}{\numberline {1.5.2.2}Linearized augmented plane wave method}{32}
-\contentsline {subsubsection}{\numberline {1.5.2.3}Local orbitals}{33}
-\contentsline {subsection}{\numberline {1.5.3}Effective potential}{34}
-\contentsline {section}{\numberline {1.6}Dielectric function}{34}
-\contentsline {section}{\numberline {1.7}\textbf {k} $\cdot $ \textbf {p} method}{35}
-\contentsline {section}{\numberline {1.8}Spin-orbit coupling}{36}
-\contentsline {subsection}{\numberline {1.8.1}Dirac equation}{36}
-\contentsline {subsection}{\numberline {1.8.2}Derivation of spin-orbit coupling}{37}
-\contentsline {chapter}{\chapternumberline {II}SHORT SUMMARY OF THE PAPERS}{40}
-\contentsline {section}{\numberline {2.1}Summary of the papers}{40}
-\contentsline {section}{\numberline {2.2}Concluding remarks and future perspectives}{43}
-\contentsline {chapter}{Acknowledgements}{44}
-\contentsline {chapter}{Bibliography}{45}
-\contentsline {chapter}{\chapternumberline {III}COMPILATION OF SCIENTIFIC PAPERS}{51}
-\contentsline {section}{\numberline {3.1}Paper I: "Parameterization of CuIn\textsubscript {1-x}Ga\textsubscript {x}Se\textsubscript {2} (x = 0, 0.5, and 1) energy bands"}{51}
-\contentsline {section}{\numberline {3.2}Paper II: "Band-edge density-of-states and carrier concentrations in intrinsic and $p$-type CuIn\textsubscript {1-x}Ga\textsubscript {x}Se\textsubscript {2}"}{57}
-\contentsline {section}{\numberline {3.3}Paper III: "Dielectric function spectra at 40 K and critical-point energies for CuIn\textsubscript {0.7}Ga\textsubscript {0.3}Se\textsubscript {2}"}{69}
+\contentsline {subsection}{\numberline {1.4.5}Eigenvalue problem}{28}
+\contentsline {section}{\numberline {1.5}Full-potential linearized augmented plane wave method}{29}
+\contentsline {subsection}{\numberline {1.5.1}Introduction}{29}
+\contentsline {subsection}{\numberline {1.5.2}Wavefunction}{30}
+\contentsline {subsubsection}{\numberline {1.5.2.1}Augmented plane wave method}{30}
+\contentsline {subsubsection}{\numberline {1.5.2.2}Linearized augmented plane wave method}{31}
+\contentsline {subsubsection}{\numberline {1.5.2.3}Local orbitals}{32}
+\contentsline {subsection}{\numberline {1.5.3}Effective potential}{33}
+\contentsline {section}{\numberline {1.6}Dielectric function}{33}
+\contentsline {section}{\numberline {1.7}\textbf {k} $\cdot $ \textbf {p} method}{34}
+\contentsline {section}{\numberline {1.8}Spin-orbit coupling}{35}
+\contentsline {subsection}{\numberline {1.8.1}Dirac equation}{35}
+\contentsline {subsection}{\numberline {1.8.2}Derivation of spin-orbit coupling}{36}
+\contentsline {chapter}{\chapternumberline {II}SHORT SUMMARY OF THE PAPERS}{39}
+\contentsline {section}{\numberline {2.1}Summary of the papers}{39}
+\contentsline {section}{\numberline {2.2}Concluding remarks and future perspectives}{42}
+\contentsline {chapter}{Acknowledgements}{43}
+\contentsline {chapter}{Bibliography}{44}
+\contentsline {chapter}{\chapternumberline {III}COMPILATION OF SCIENTIFIC PAPERS}{50}
+\contentsline {section}{\numberline {3.1}Paper I: "Parameterization of CuIn\textsubscript {1-x}Ga\textsubscript {x}Se\textsubscript {2} (x = 0, 0.5, and 1) energy bands"}{50}
+\contentsline {section}{\numberline {3.2}Paper II: "Band-edge density-of-states and carrier concentrations in intrinsic and $p$-type CuIn\textsubscript {1-x}Ga\textsubscript {x}Se\textsubscript {2}"}{56}
+\contentsline {section}{\numberline {3.3}Paper III: "Dielectric function spectra at 40 K and critical-point energies for CuIn\textsubscript {0.7}Ga\textsubscript {0.3}Se\textsubscript {2}"}{68}
