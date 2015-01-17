@@ -336,8 +336,8 @@ long term point of view. The solar energy technologies are one of the hot topics
 operation in silence.
 
 The solar energy technologies are a way to produce electricity from sunlight. Sunlight is a portion of the radiation by the sun, like ultraviolet, visible,
-and infrared light. The spectrum of the sun is close to the spectrum of black body with a temperature of about 6000 K (\textbf{Fig. \ref{spectrumsun}}). In the field of photovoltaics (PV), solar spectrum is established
-by air mass (AM), which defines a direct optical path length through the Earth's atmosphere \cite{smestad2002optoelectronics}. The AM1.5 and AM0 are important: AM1.5 is the air mass at a solar zenith angle of 48.19 degree, and AM0
+and infrared light. The spectrum of the sun is close to the spectrum of black body with a temperature of about 6000 K (\textbf{Fig. \ref{spectrumsun}}). Solar spectrum is established
+by air mass (AM) in the photovoltaics (PV), which defines a direct optical path length through the Earth's atmosphere \cite{smestad2002optoelectronics}. The AM1.5 and AM0 are important: AM1.5 is the air mass at a solar zenith angle of 48.19 degree, and AM0
 means the solar spectrum outside of the atmosphere. Generally, solar spectrum at AM1.5 is used in PV field in order to standardize solar cell measurements. In \textbf{Fig. \ref{spectrumsun}}, the absorption in the atmosphere is quite strong by gases,
 dust, and aerosols, as well as the scattering of light from air molecules \cite{seinfeld2012atmospheric}.
 
@@ -352,7 +352,7 @@ There are three kinds of solar energy technologies \cite{boyle2004renewable,Chir
 The advantage of solar thermal technology is the conversion efficiency is relatively higher. The second one is 
 solar chemical technology, which takes advantage of solar energy by absorbing sunlight in a chemical reaction. However, the conversion efficiency of this technology is quite low. The last one is solar photovoltaics (solar cell), which is the way
 to utilize solar panels to convert sunlight into electricity. The installation of solar panel is easier, and it occupies less space and needs less maintenance compared with solar thermal technology.
-The conversion efficiency is higher than the one of solar chemical tehnology. However, all the three solar energy technologies are environmentally friendly.
+The conversion efficiency is higher than the one of solar chemical technology. However, all the three solar energy technologies are environmentally friendly.
 
 
 \section{Solar cells}
@@ -417,7 +417,7 @@ in the junction, which can block the diffusion.
            % \includegraphics[width=0.5\textwidth,clip]{pnjunction1.jpg}
             \includegraphics[width=0.7\textwidth]{pnjunction.eps}
      \end{center}
-    \caption{Left panel: The $p$-$n$ homojunction in dark at room temperature. Right panel: Energy band diagram of $p$-$n$ homejunction at the equilibrium in dark at room temperature for two-level model. }      
+    \caption{Left panel: The $p$-$n$ homojunction in dark at room temperature. Right panel: Energy band diagram of $p$-$n$ homojunction at the equilibrium in dark at room temperature for two-level model. }      
     \label{pnjunction}
 \end{figure}
 
@@ -894,7 +894,7 @@ Schrödinger equation is described in a matrix determinant for the $N$ number of
     \bwff<1><N> & \bwff<2><N> & \cdots & \bwff<N><N>
 \end{matrix} \right|.
 \end{equation}
-\noindent Here, the factor in front ensures normalization, and $\bwff<i><i>$ implies state of the ($i$):th electron. textbf{Eq. \ref{hfwfm}} is in agreement with textbf{Eq. \ref{hfwf}}.
+\noindent Here, the factor in front ensures normalization, and $\bwff<i><i>$ implies state of the ($i$):th electron. \textbf{Eq. \ref{hfwfm}} is in agreement with \textbf{Eq. \ref{hfwf}}.
 
 The total energy of Hartree-Fock approximation, which can be determined similarly as in the previous section of Hartree approximation, is given as
 
@@ -1235,7 +1235,7 @@ If \textbf{Eq. \ref{ep1}} is plugged into \textbf{Eq. \ref{ep2}}, and $\phi^*_1,
 
 Here, $H_{ij} = \phi^*_i \hath \phi_j$ and $S_{ij} = \phi^*_i \phi_j$.
 
-There are left part and right part in \textbf{Eq. \ref{ep467}}. If the right part moves to the left part, and do the subtraction. The \textbf{Eq. ep467} is derived as 
+There are left part and right part in \textbf{Eq. \ref{ep467}}. If the right part moves to the left part, and do the subtraction. The \textbf{Eq. \ref{ep467}} is derived as 
 
 \begin{equation}\label{ep44}
 \left[
@@ -1549,7 +1549,7 @@ i & 0\end{array} \right),
 
 \subsection{Derivation of spin-orbit coupling}
 
-\noindent  Assume that $\Psi$ is the wavefunction of Hamiltonian in \textbf {Eq. \ref{dirac}}, which has four components \cite{thaller1992dirac, dirac1930principles}. However, it can be 
+\noindent  Assume that $\Psi$ is the wavefunction of Hamiltonian in \textbf{Eq. \ref{dirac}}, which has four components \cite{thaller1992dirac, dirac1930principles}. However, it can be 
 written with only two terms
 \begin{equation}\label{diracwf}
 \Psi = \left( \begin{array}{c}
