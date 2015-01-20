@@ -319,9 +319,9 @@ edited by K. Ito ({\textit John Wiley $\&$ Sons}, 2014).
 \chapter{INTRODUCTION}
 
 With the increasing energy consumption, more and more energy or power is needed. According to the statistical review of world energy on 2014 \cite{bp} (\textbf{Fig. \ref{wpec}}),
-the required energy is mainly satisfied by the fossil fuels (mainly coal, petroleum, and natural gas), with a market share of around 87\%. The total energy consumption is between 12000 and 13000 million tonnes oil
-equivalent (MTOE), which is equivalent to around 15 terawatts\cite{xie2014creating}. Normally, light bulbs at our homes consume between 50 to 100 watts of energy, 1 terawatt implies 10 billion of the 100 watts light bulbs are lighted at the
-same time. Unfortunately, the fossil fuels is very limited energy and non-renewable resources. One day, which is not far from now, it will be dissipated due to the energy consumption growth.
+the required energy is mainly satisfied by fossil fuels (mainly coal, petroleum, and natural gas), with a market share of around 87\%. The total energy consumption is between 12000 and 13000 million tonnes oil
+equivalent (MTOE), which is equivalent to around 15 terawatts\cite{xie2014creating}. Normally, light bulbs at our homes consume between 50 to 100 watts of energy, and 1 terawatt implies 10 billion of 100 watts light bulbs are lighted at the
+same time. Unfortunately, fossil fuels are very limited energy and non-renewable resources. One day, which is not far from now, they will be dissipated due to the energy consumption growth.
 
 \begin{figure}[H]
 \centering
@@ -331,15 +331,14 @@ same time. Unfortunately, the fossil fuels is very limited energy and non-renewa
 \end{figure}
 
 By the year of 2050, the total world energy consumption will double \cite{iea}. Therefore, it is urgent to explore more sustainable and environmentally friendly energy sources. In \textbf{Fig. \ref{wpec}},
-renewable energy (mainly solar energy, wind power, and geothermal energy) in 2014 accounts for around 2\% of energy consumption globally. It is important to focus on the renewable energy research from a 
-long term point of view. The solar energy technologies are one of the hot topics among the renewable energy research considering the point of CO\textsubscript{2} free, reliable energy supply, no cooling water requirement and
-operation in silence.
+renewable energy (mainly solar energy, wind power, and geothermal energy) in 2013 accounts for around 2\% of the energy consumption globally. It is important to focus on renewable energy research from a 
+long term point of view. Solar energy technologies are one of the hot topics among renewable energy research considering the point of CO\textsubscript{2} free, reliable energy supply, and operation in silence.
 
-The solar energy technologies are a way to produce electricity from sunlight. Sunlight is a portion of the radiation by the sun, like ultraviolet, visible,
-and infrared light. The spectrum of the sun is close to the spectrum of black body with a temperature of about 6000 K (\textbf{Fig. \ref{spectrumsun}}). Solar spectrum is established
-by air mass (AM) in the photovoltaics (PV), which defines a direct optical path length through the Earth's atmosphere \cite{smestad2002optoelectronics}. The AM1.5 and AM0 are important: AM1.5 is the air mass at a solar zenith angle of 48.19 degree, and AM0
-means the solar spectrum outside of the atmosphere. Generally, solar spectrum at AM1.5 is used in PV field in order to standardize solar cell measurements. In \textbf{Fig. \ref{spectrumsun}}, the absorption in the atmosphere is quite strong by gases,
-dust, and aerosols, as well as the scattering of light from air molecules \cite{seinfeld2012atmospheric}.
+Solar energy technologies are a way to produce electricity from sunlight. Sunlight is a portion of the radiation by the sun, like ultraviolet, visible,
+and infrared light. Spectrum of the sun is close to spectrum of black body with a temperature of about 6000 K (\textbf{Fig. \ref{spectrumsun}}). Solar spectrum is established
+by air mass (AM) at the the photovoltaic (PV) industry, which defines a direct optical path length through the Earth's atmosphere \cite{smestad2002optoelectronics}. AM1.5 and AM0 are two important references of spectra:
+AM1.5 is the air mass at a solar zenith angle of 48.19 degree, and AM0 is the solar spectrum outside of the atmosphere. Generally, solar spectrum at AM1.5 is used in PV field in order to standardize solar cell measurements. 
+In \textbf{Fig. \ref{spectrumsun}}, absorption in the atmosphere is quite strong by gases, dust, and aerosols, as well as scattering light from air molecules \cite{seinfeld2012atmospheric}.
 
 \begin{figure}[H]
 \centering
@@ -348,48 +347,49 @@ dust, and aerosols, as well as the scattering of light from air molecules \cite{
 \label{spectrumsun}
 \end{figure}
 
-There are three kinds of solar energy technologies \cite{boyle2004renewable,Chiras201007}. The first one is solar thermal technology, which utilizes the flat sunlight collector plates to harness the energy from sunlight to heat water for use in industries, homes, and pools.
-The advantage of solar thermal technology is the conversion efficiency is relatively higher. The second one is 
+There are three kinds of solar energy technologies \cite{boyle2004renewable,Chiras201007}. The first one is solar thermal technology, which utilizes flat sunlight collector plates to harness energy from sunlight to heat water
+for use in industries, homes, and pools. The advantage of solar thermal technology is that the conversion efficiency is relatively higher compared with other solar energy technologies. The second one is 
 solar chemical technology, which takes advantage of solar energy by absorbing sunlight in a chemical reaction. However, the conversion efficiency of this technology is quite low. The last one is solar photovoltaics (solar cell), which is the way
 to utilize solar panels to convert sunlight into electricity. The installation of solar panel is easier, and it occupies less space and needs less maintenance compared with solar thermal technology.
-The conversion efficiency is higher than the one of solar chemical technology. However, all the three solar energy technologies are environmentally friendly.
+The conversion efficiency of solar cell is higher than the one of solar chemical technology. However, all the three solar energy technologies are environmentally friendly.
 
 
 \section{Solar cells}
 In the worldwide, the conversion efficiencies in all different types of solar cells are improved remarkably \cite{nrel}. From \textbf{Fig. \ref{nrel}}, the highest efficiency for multijunction cells, crystalline silicon cells,
-thin-film technologies, and new emerging cells are around 44.7\%, 27.6\%, 23.3\%, and 20.1\% \cite{dimroth2014wafer, jones2009new, ward2014cu, green2015solar}. Therefore, the solar cell is a very important and promising way to produce the renewable energy.
+thin-film technologies, and new emerging cells are 44.7\%, 27.6\%, 23.3\%, and 20.1\% \cite{dimroth2014wafer, jones2009new, ward2014cu, green2015solar}. Therefore, solar cell is a very important and promising way to produce the renewable energy.
 
 
 \begin{sidewaysfigure}
 \captionsetup{width=1\textwidth}
 \centering
 \includegraphics[scale=0.7]{efficiency_chart.jpg}
-\caption{Best research-cell efficiencies. Figure is from National Renewable Energy Laboratory (NREL), U.S.A. \cite{nrel}}
+\caption{Best research-cell efficiencies. Figure is from national renewable energy laboratory (NREL), U.S.A. \cite{nrel}}
 \label{nrel}
 \end{sidewaysfigure}
 
-Multijunction cells are the cells which contain multi $p$-$n$ junctions (or subcells), which have different band-gap for each $p$-$n$ junction.
-Therefore, different wavelengths of sunlight are absorbed for each junction. For example, wider band-gap junction is at the front of the cell, which can absorb the photons with high energy; the junction with 
-low band-gap can absorb the photons with relatively low energy. Therefore, the conversion efficiency is higher than single $p$-$n$ junction, for example, the maximum conversion efficiency is 44.7\% by Soitec \cite{dimroth2014wafer} using 
+Multijunction cells are the cells which contain multi $p$-$n$ junctions (or subcells). They have different band-gap for each $p$-$n$ junction.
+Therefore, different wavelengths of sunlight are absorbed for each junction. For example, wider band-gap junction is at the front of the cell, which absorbs photons with high energy; the junction with 
+low band-gap absorbs photons with relatively low energy. In this configuration, the conversion efficiency is higher than the one of single $p$-$n$ junction, for example, the maximum conversion efficiency is 44.7\% by Soitec \cite{dimroth2014wafer} using 
 four-junction or more in \textbf{Fig. \ref{nrel}}. Crystalline silicon cells are the most widely utilized in the photovoltaic industries. It has two types in
-the crystalline silicon photovoltaics: mono-crystalline silicon and multi-crystalline silicon. The crystalline silicon cells have high efficiency, for example, the maximum conversion efficiency is 27.6\% with concentrator 
-by Amonix \cite{jones2009new} and maximum 25.6\% without concentrator by Panasonic \cite{panasonic} in \textbf{Fig. \ref{nrel}}. Thin-Film solar cells are the cells which are made by depositing one or several thin layers, which allows the cells to be rather 
-flexible and results in lower weight. The maximum conversion efficiency for thin-film solar cells is lower than that for crystalline silicon today, which has the maximum conversion efficiency of 23.3\% using copper indium gallium selenide (CIGS) with concentrator by NREL \cite{ward2014cu} and 
-of 21.7\% without concentrator by the center for solar energy and hydrogen research (ZSW) in Stuttgart \cite{zsw} in \textbf{Fig. \ref{nrel}}. The Emerging PV represents the newest ways to create electricity from
-sunlight and potentially with higher conversion efficiency, such as perovskite cells \textbf{Fig. \ref{nrel}}. The maximum conversion efficiency of perovskite cells already reached 20.1\% in Korea Research Institute of Chemical Technology (KRICT)\cite{green2015solar}. 
-Perovskite cells jump into the world of solar cells only in 2009 \cite{green2014emergence, mcgehee2014perovskite}, and the conversion efficiency is improved remarkable within 5 years. Certainly, the search and optimization 
-of alternatively solar cell materials is still an ongoing research and active area today.
+crystalline silicon photovoltaics: mono-crystalline silicon and multi-crystalline silicon. Crystalline silicon cells have high efficiency, for example, the maximum conversion efficiency is 27.6\% with concentrator 
+by Amonix \cite{jones2009new} and maximum 25.6\% without concentrator by Panasonic \cite{panasonic} in \textbf{Fig. \ref{nrel}}. Thin-film solar cells are the cells which are made by depositing one or several thin layers. 
+They allow cells to be rather 
+flexible and result in lower weight. The maximum conversion efficiency for thin-film solar cells is lower than that for crystalline silicon today, which is 23.3\% using copper indium gallium selenide (CIGS) with concentrator by NREL \cite{ward2014cu} and 
+is 21.7\% without concentrator by the center for solar energy and hydrogen research (ZSW) in Stuttgart \cite{zsw} in \textbf{Fig. \ref{nrel}}. The Emerging PV represents the newest ways to create electricity from
+sunlight and potentially with higher conversion efficiency, such as perovskite cells in \textbf{Fig. \ref{nrel}}. The maximum conversion efficiency of perovskite cells already reached 20.1\% in korea research institute of chemical technology (KRICT)\cite{green2015solar}. 
+Perovskite cells jump into the world of solar cells only from 2009 \cite{green2014emergence, mcgehee2014perovskite}, and the conversion efficiency is improved remarkably within 5 years. Certainly, search and optimization 
+of alternatively solar cell materials are still an ongoing active area today.
 
 
 \subsection{Single-junction solar cells}
-The $p$-$n$ junction is the fundamental building block of solar cells. The single $p$-$n$ homojunction will be explored in this section. The more detailed information can be found in Refs. \cite{bok1,sproul2003understanding, neamen2003semiconductor}.
+$p$-$n$ junction is a fundamental building block of solar cells. Single $p$-$n$ homojunction will be explored in this section. The more detailed information about this topic can be found in Refs. \cite{bok1,sproul2003understanding, neamen2003semiconductor}.
 
-We start from the separate $n$- and $p$-type materials at room temperature (assume that all the donor (acceptor) atoms are positively (negatively) ionized at room temperature). In \textbf{Fig. \ref{dopedmaterials}},
+We start from separate $n$- and $p$-type materials at room temperature (assume that all the donor (acceptor) atoms are positively (negatively) ionized at room temperature). In \textbf{Fig. \ref{dopedmaterials}},
 the left panel shows illustration of $n$- and $p$-type materials. $n$-type
-material has many free negatively charged electrons moving freely inside a material, and there are numbers of positively charged immobile donor ions as well. Similarly, a $p$-type material has many free positively
+material has many free negatively charged electrons moving freely inside the material, and there are numbers of positively charged immobile donor ions as well. Similarly, a $p$-type material has many free positively
 charged holes moving freely in the material, and there are numbers of negatively charged immobile acceptor ions as well. However, both $n$- and $p$-type materials are still neutral.
 The corresponding Fermi levels are shown on the right panel. The Fermi level ($E_{nf}$) is closer to conduction band minimum for $n$-type material due to the many free 
-negatively charged electrons. Conversely, the Fermi level of $p$-type material ($E_{pf}$) is closer to the valence band maximum to the free positively charged holes.
+negatively charged electrons. Conversely, the Fermi level of $p$-type material ($E_{pf}$) is closer to the valence band maximum due to the many free positively charged holes.
 
 \begin{figure}[H]
     \begin{center}
@@ -405,10 +405,10 @@ negatively charged electrons. Conversely, the Fermi level of $p$-type material (
 If the $n$-type and $p$-type materials are joined, the free electrons (holes) in $n$-type ($p$-type) material will diffuse into $p$-type ($n$-type) material due to the
 lower concentrations of electrons (holes) in the $p$-type material (\textbf{Fig. \ref{pnjunction}}). In the region, which is near the interface between $n$- and $p$-type materials, the ionized donor and acceptor ions create a
 "build in" electric field which points from the $n$-type material to the $p$-type material. This causes the drift of carriers in the opposite direction. The "build-in" electric field forces the electrons (holes) back into
-the $n$-type ($p$-type). At certain point, 
-the whole material can reach a stable equilibrium due to the achieved balance between diffusion and drift. Formation of the "build-in" electric field is rather important for the solar cells, even though there is no current in 
+the $n$-type ($p$-type) material. At certain point, 
+the whole material can reach a stable equilibrium due to the achieved balance between diffusion and drift. Formation of the "build-in" electric field is rather important for solar cells, even though there is no current in 
 the material so far. In the following text, the region which forms the "build-in" electric field is also called space charge region (SCR). The different Fermi levels for $n$-type and $p$-type materials become
-equal at the stable equilibrium. Therefore, the energy bands bend over and create a potential barrier near the junction (right panel in \textbf{Fig. \ref{pnjunction}}). Finally, there is a internal potential V\textsubscript{bi}
+equal at the stable equilibrium. Therefore, the energy bands bend over and create a potential barrier near the junction (right panel in \textbf{Fig. \ref{pnjunction}}). Finally, there is an internal potential V\textsubscript{bi}
 in the junction, which can block the diffusion.
 
 \begin{figure}[H]
@@ -421,18 +421,18 @@ in the junction, which can block the diffusion.
     \label{pnjunction}
 \end{figure}
 
-The $p$-$n$ junction cell with and without the illumination are discussed in \textbf{Fig. \ref{illu}} and \textbf{Fig. \ref{illu1}}. If there was a wire with certain resistance connecting 
+$p$-$n$ junction cell with and without illumination are discussed in \textbf{Fig. \ref{illu}} and \textbf{Fig. \ref{illu1}}. If there was a wire with certain resistance connecting 
 the $n$- and $p$-type materials, there is no current in the wire under the condition of dark (no illumination). However, if the light shines on the cell or component, a current can be generated from the $p$-type
-to the $n$-type side (conventional current). The reason is that pairs of electron-hole are generated inside the $p$-$n$ junction cell. At the same time, the recombination of paired electron-hole occurs. The rate of paired
-electron-hole generation is faster that of recombination for paired electron-hole. Therefore, net current occurs. Apparently, there are three regions in the whole junction cell where the electrons goes from VBs to CBs, the $n$-type region, the $p$-$n$
+to the $n$-type side (conventional current). The reason is that pairs of electron-hole are generated inside the $p$-$n$ junction cell. At the same time, recombination of the paired electron-hole occurs. The rate of paired
+electron-hole generation is faster than that of recombination for paired electron-hole. Therefore, net current occurs. Apparently, there are three regions in the whole junction cell where the electrons goes from VBs to CBs, the $n$-type region, the $p$-$n$
 junction, and the $p$-type region. In the either $n$- or $p$-type region (especially, region which is far away SCR), the electron–hole pairs only exist for a short time,  and it is most probable that electrons
-will jump down from CBs to VBs again. However, the electron-hole pairs can be separated in the $p$-$n$ junction region due to the "build-in" electric field. Therefore, the current is generated. Actually, the electron-hole pairs in
-the either n- and p-type (especially, for them which are near SCR) also have the chance to diffuse into the SCR, which can contribute to generation of current or to reduce the current as well.
+will jump down from CBs to VBs again. However, the electron-hole pairs can be separated in the $p$-$n$ junction region due to the "build-in" electric field. Therefore, current is generated. Actually, the electron-hole pairs in
+the either n- and p-type material (especially, for them which are near SCR) also have the chance to diffuse into the SCR, which can contribute to generate current or to reduce current.
 
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.5]{illumination.eps}
-\caption{Left panel: the $p$-$n$ homejunction at dark with load. Right panel: the $p$-$n$ homejunction under illumination with load at room temperature for two-level model.}
+\caption{Left panel: the $p$-$n$ homojunction at dark with load. Right panel: the $p$-$n$ homojunction under illumination with load at room temperature.}
 \label{illu}
 \end{figure}
 
@@ -442,24 +442,24 @@ The chemical potential ($\bigtriangledown \mu$) is created, which is considered 
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.5]{illumination1.eps}
-\caption{Energy band diagram of a $p$-$n$ homojunction under illumination with load.}
+\caption{Energy band diagram of a $p$-$n$ homojunction under illumination with load for two-level model.}
 \label{illu1}
 \end{figure}
 
 
-The current-voltage characteristics is defined in \textbf{Fig. \ref{ivcharac}} with some important parameters of the solar cells. The $V_{oc}$ and $I_{sc}$ are the open circuit voltage (the maximum voltage) and short circuit current
-(maximum current), respectively. The $V_{mp}$ and $I_{mp}$ are the voltage and current, respectively,  which yields the maximum power. The maximum power generated by the solar cells
-is $P_{out}=V_{mp} \times I_{mp}$. That is the rectangle bounded by the dashed lines in \textbf{Fig. \ref{ivcharac}}. 
+Current-voltage characteristic is defined in \textbf{Fig. \ref{ivcharac}} with some important parameters of solar cells. $V_{oc}$ and $I_{sc}$ are the open circuit voltage (the maximum voltage) and short circuit current
+(maximum current), respectively. $V_{mp}$ and $I_{mp}$ are the voltage and current, respectively,  which yield the maximum power. The maximum power generated by solar cells
+is $P_{out}=V_{mp} \times I_{mp}$. That is the rectangle bounded by dashed lines in \textbf{Fig. \ref{ivcharac}}. 
 
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.5]{IV.eps}
-\caption{Current-voltage characteristics of a solar cell under illumination.}
+\caption{Current-voltage characteristic of a solar cell under illumination.}
 \label{ivcharac}
 \end{figure}
 
 
-The fill factor ($FF$) and the power conversion efficiency ($\eta$) are often represented the solar cell performance
+Solar cell performance are often represented by the fill factor ($FF$) and the power conversion efficiency ($\eta$):
 
 \begin{equation}
 FF = \frac{P_{out}}{V_{oc} \cdot I_{sc}} = \frac{V_{mp} \cdot I_{mp}}{V_{oc} \cdot I_{sc}}
@@ -469,95 +469,98 @@ FF = \frac{P_{out}}{V_{oc} \cdot I_{sc}} = \frac{V_{mp} \cdot I_{mp}}{V_{oc} \cd
 \eta = \frac{P_{out}}{P_{in}} = \frac{FF \cdot V_{oc} \cdot I_{sc}}{P_{in}}.
 \end{equation}
 
-Here, $P_{in}$ is the incident photon power per second. The conversion efficiency of the solar cells is proportional to $FF$, $V_{oc}$, and $I_{sc}$. There are several aspects affecting
-the conversion efficiency. $V_{oc}$ is directly proportional to the band-gap of the material, $I_{sc}$ is proportional to the number of absorbed photons. When the band-gap is decreased, more of the spectrum is absorbed. However, 
-the $V_{oc}$ will be reduced in this case. More importantly, the excess energy of photons is lost due to the thermalization in the cells. When the band-gap is increased, transparency losses from the photons with energy lower than
-band-gap. There is more detailed analysis of conversion efficiency in Ref. \cite{bok1}.
+
+Here, $P_{in}$ is incident photon power per second. Conversion efficiency of solar cells is proportional to the $FF$, $V_{oc}$, and $I_{sc}$. There are several aspects affecting
+the conversion efficiency. The $V_{oc}$ is directly proportional to band-gap of a material, and the $I_{sc}$ is proportional to number of absorbed photons. When band-gap is decreased, more spectrum of sunlight can be absorbed.
+However, the $V_{oc}$ will be reduced in this case. More importantly, excess energy of photons is lost due to the thermalization in solar cells. When band-gap is increased, more transparency loss from photons with energy lower than
+the band-gap occurs. There is more detailed analysis of conversion efficiency in Ref. \cite{bok1}.
 
 
 \section{Solar cell materials}
 
-In 1839,  the French physicist A. E. Becquerel \cite{Becquerel} revealed the photovoltaic effect for the first time. Charles Fritts built the first solid state photovoltaic (PV) cell using semiconductor selenium in 
+In 1839, French physicist A. E. Becquerel \cite{Becquerel} revealed the photovoltaic effect for the first time. Charles Fritts built the first solid state photovoltaic (PV) cell using semiconductor selenium in 
 1883 \cite{etgar2013semiconductor,gourdin2007solar}. It is not until 1941 that
 the first silicon-based solar cell was demonstrated \cite{1941ohl1, 1941ohl2}. Today, there are many different types of solar cell materials. The reason why the best solar cell material is not realized yet is that it is expected to be not only high efficiency but 
-also environmentally friendly and low cost. It requires not only that the growth and manufacturing process of solar cell materials shall be cheaper, but also that the devices shall have longer application life. Moreover the raw material
+also environmentally friendly and low cost. It requires not only that the growth and manufacturing process of solar cell materials shoud be cheaper, but also that the devices should have longer application life. Moreover, the raw material
 should be abundant and non-toxic as well. In this section, four main solar cell materials are discussed briefly: silicon (Si), gallium arsenide (GaAs), cadmium telluride (CdTe), copper indium gallium selenide (CIGS).
 
-Potential solar cell materials need to fulfill several properties, such as large absorption coefficient and a band-gap energy between 0.7 to 2.0 eV. Under these conditions, there are quite many materials satisfying the 
-requirements. However, some other properties are needed to be considered as well, such as cost and environmental safety. Thereby, only part of them are suitable to produce in reality.
+Potential solar cell materials need to fulfill several properties, such as large absorption coefficient and a band-gap energy between 0.7 to 2.0 eV. Under these conditions, there are still many materials to be decided.
+However, other properties are needed to be considered as well, such as cost and environmental safety. Thereby, only part of them are suitable to be utilized in reality.
 
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.5]{tree.eps} 
-\caption{Tree of tetragonal bonded semiconductor, the roman numerals mean the group numbers in the chemical element periodic table, and the subscript implies the number of elements.}
+\caption{Tree of tetragonal bonded semiconductor, the roman numerals mean group numbers in the chemical element periodic table, and the subscript implies number of elements.}
 \label{lscm}
 \end{figure}
 
-In \textbf{Fig. \ref{lscm}}, the formation of tetragonal semiconductors is considered as a series of cation mutations where the total number valence electrons is the same and keep the charge neutral \cite{chen2009electronic, chen2009crystal, walsh2009design}. For example, group number
+In \textbf{Fig. \ref{lscm}}, formation of tetragonal semiconductors is considered as a series of cation mutations where total number of valence electrons is the same and it keeps the charge neutral in the compound \cite{chen2009electronic, chen2009crystal, walsh2009design}. For example, group number
 IV element Si (level 0) with four 4\textsuperscript{+} ions is equivalent to two 3\textsuperscript{+} ions and two 5\textsuperscript{+} ions, such as GaAs (level 1). It is also equivalent to two 2\textsuperscript{+} ions
-and two 6\textsuperscript{+} ions, such as CdTe (level 1). The CIGS can be generated applying the same process on II element on the level 1 in \textbf{Fig. \ref{lscm}}. This method was suggested by Goodman and Pamplin 
+and two 6\textsuperscript{+} ions, such as CdTe (level 1). The CIGS can be derived applying the same process on II element on the level 1 in \textbf{Fig. \ref{lscm}}. This method was suggested by Goodman and Pamplin 
 \cite{goodman1958prediction, pamplin1964systematic}. 
 
 
 
 \subsection{Crystalline silicon solar cells}
-The solar cell based on Si dominates the solar power world today, which accounts for more than 90\% of the total PV market \cite{hoffmann2006pv}.
-This kind of solar cell takes advantage of different forms of Si, that is, monocrystalline Si and polycrystalline Si. 
-The success of Si is due to a number of reasons. Over 90\% in the crust of earth is composed of silicate minerals, which yields huge available Si. Moreover, it has higher conversion efficiency, and it is also proved that 
-it has excellent stability and reliability under the outdoor condition. However, Si also have drawbacks. It has an indirect band-gap and hence it has a lower optical absorption coefficient. In order to absorb the incident sunlight fully, 
-it requires to thicker Si (wafer) (around \SI{0.2} {\milli\meter}) to absorb the sunlight \cite{brewer2013renewable}. Crystalline Si have to be high quality and defect free in order to avoid to lost the carriers before collection. Last but not least, it is expensive to purify the Si from silicate minerals, which
-really limits the cost reduction potential of wafer-based Si technology. 
+Solar cells based on Si dominate solar power world today, which account for more than 90\% of total PV market \cite{hoffmann2006pv}.
+Different forms of Si are used in this kind of solar cells, that is, monocrystalline Si and polycrystalline Si. 
+The success of Si is due to a number of reasons. For example, over 90\% in the crust of earth is composed of silicate minerals, which yields huge available Si. Moreover, it has higher conversion efficiency, and it is also proved that 
+it has excellent stability and reliability under outdoor conditions. However, Si also has drawbacks. It has an indirect band-gap, hence it has a lower optical absorption coefficient. In order to absorb incident sunlight fully, 
+Thicker Si (wafer) (around \SI{0.2} {\milli\meter}) is required \cite{brewer2013renewable}. Crystalline Si has to be high quality and defect free in order to avoid losting the carriers before collection. Last but not least, it is expensive to purify the Si from silicate minerals, which
+limits the cost reduction of wafer-based Si technology. 
 
-However, the solar cells based crystalline Si technology is still leading the market of solar cell since many companies are trying to lower the cost of the whole process.
+However, solar cells based crystalline Si technology are still leading the market of solar cells since many companies are trying to lower the cost in the whole manufacture.
 
 
 
 \subsection{Gallium arsenide}
 GaAs has a zinc blende crystal structure with a direct band-gap around 1.5 eV at room temperature \cite{cardona2005fundamentals, madelung1996semiconductors, madelung2004semiconductors}. Some electronic properties of GaAs
 are superior to Si, such as higher electron 
-mobility, higher saturated electron velocity, absorb sunlight more efficiently due to the direct band-gap. The optimum band-gap for the single junction solar cell is suggested around 1.3 eV by theoretical calculation 
-from Henry (1980) \cite{henry1980limiting} who modified the original Shockley-Queisser limit \cite{shockley1961detailed}. Therefore one of the most applications of GaAs is solar cells. GaAs has been extensively researched
-since the 1950s, and the first GaAs solar cells were established in
-1970 by the Zhores Alferov's team \cite{alferov2001nobel}. Today, the conversion efficiency for single function solar cell based on GaAs is around 28.8\% \cite{yablonovitch2012opto}. However, it is more difficult to grow and the
-solar cell component has higher price in comparison with Si.
-Researches are focusing on how to reduce the price today, and the main application solar cell based on GaAs is in the space application. However, the arsenic toxicity should be considered. 
+mobility, higher saturated electron velocity, absorb sunlight more efficiently due to the direct band-gap. The optimum band-gap for a single junction solar cells is suggested around 1.3 eV by theoretical calculation 
+from Henry (1980) \cite{henry1980limiting}, who modified the original Shockley-Queisser limit \cite{shockley1961detailed}. Therefore, one of the applications of GaAs is solar cells. GaAs has been extensively researched
+since 1950s, and the first GaAs solar cell was established in
+1970 by Zhores Alferov's team \cite{alferov2001nobel}. Today, the conversion efficiency for single function solar cells based on GaAs is around 28.8\% \cite{yablonovitch2012opto}. However, it is difficult to grow, and the
+price of solar cells based on GaAs is more expensive in comparison with the price of solar cells based on Si.
+Researches are focusing on how to reduce the price today, and the main application of solar cells based on GaAs is in the space application. However, the arsenic toxicity should be considered as the main disadvantage of this kind of 
+solar cells. 
 
-The conversion efficiency for four-junction GaInP/GaAs//GaInAsP/GaInAs concentrator solar cells is reached 44.7\% by Soitec on March 2014 \cite{dimroth2014wafer}.
+The conversion efficiency for four-junction GaInP/GaAs/GaInAsP/GaInAs concentrator solar cells is reached 44.7\% by Soitec on March 2014 \cite{dimroth2014wafer}.
 
 \subsection{Thin-film materials}
 
-Thin-film solar cells have several layers of thin-film with the total thickness less than \SI{10} {\micro\meter} \cite{maissel1995handbook}. The cost can potentially be lower since the less materials are utilized to make thin-film solar cells. The development of thin-film
-solar cell was started since 1970s. Currently, the maximum conversion efficiency for thin-film is 23.3\% \cite{ward2014cu}. Three different thin-film
+Thin-film solar cells have several layers of thin-film with total thickness less than \SI{10} {\micro\meter} \cite{maissel1995handbook}. The cost can potentially be lower since less materials are utilized to make thin-film solar cells. The development of thin-film
+solar cells was started since 1970s. Currently, the maximum conversion efficiency for thin-film is 23.3\% \cite{ward2014cu}. Three different thin-film
 materials are discussed in this section: amorphous silicon (a-Si), cadmium telluride (CdTe), and copper indium gallium selenide (CIGS).
 
-A-Si solar cells are the first thin-film solar cell material which reach the large-scale production \cite{carlson1976amorphous, street2000technology, schropp1998amorphous}. It has higher absorption coefficient than crystalline Si. Therefore, the thickness can be less than \SI{1} {\micro\meter}. The 
-main disadvantages a-Si solar cells is the lower efficiency, the actual conversion efficiency for the commercial single junction solar cells based on a-Si is between 4\% to 8\% \cite{irena}. This limits the development of a-Si thin-film solar cells.
-A-Si solar cells are suited to the situation which requires low cost over high efficiency. 
+a-Si solar cells are the first thin-film solar cell material which reach the large-scale production \cite{carlson1976amorphous, street2000technology, schropp1998amorphous}. It has higher absorption coefficient than that of crystalline Si. Therefore, the thickness can be less than \SI{1} {\micro\meter}. The 
+main disadvantages a-Si solar cells is the lower conversion efficiency, the actual conversion efficiency for commercial single junction solar cells based on a-Si is between 4\% to 8\% \cite{irena}. This limits the development of a-Si thin-film solar cells.
+a-Si solar cells are suited to the situations which require low cost over high efficiency. 
 
-CdTe was first reported in the 1960s \cite{wolden2011photovoltaic}. However, it is not developed rapidly until in the early 1990s. CdTe has a number of advantages as an absorber. It has higher absorption coefficient. The band-gap is around 1.45 eV, which 
-is very near the optimum value for single-junction solar cells. The manufacturing process is easier to control, which results in the cost of manufacturing is low \cite{meyers1988design}. Moreover, the commercial modules already reach the efficiency of 16\%.
+CdTe was first reported in the 1960s \cite{wolden2011photovoltaic}. However, it was not developed rapidly until in the early 1990s. CdTe has a number of advantages as an absorber. It has higher absorption coefficient. The band-gap is around 1.45 eV, which 
+is very near the optimum value for single-junction solar cells. The manufacturing process is easier to control, which results in the cost of manufacture is low \cite{meyers1988design}. Moreover, the conversion efficiency of 
+commercial modules already reached 16\%.
 However, an important question is needed to be considered in order to large-scale CdTe manufacturing: cadmium toxicity and tellurium availability. 
 
-CIGS are direct band-gap semiconductors with high optical absorption coefficients. It is seen as one of the most promising solar cell material for the near future. It is always employed in a heterojunction structure, mainly it is with the thinner
-$n$-type CdS layer \cite{green2007thin}. The conversion efficiency of CIGS reached up to 23.3\% in the laboratory cell \cite{jackson2011new}. The interesting part is that it can be alloyed by the ratio of Ga/(Ga+In), and the band-gap can be tuned along with that. The band-gap 
+CIGS is a direct band-gap semiconductor with high optical absorption coefficients. It is seen as one of the most promising solar cell materials for the near future. It is always employed in a heterojunction structure, mainly it is with the thinner
+$n$-type CdS layer \cite{green2007thin}. The conversion efficiency of CIGS already reached up to 23.3\% in the laboratory cell \cite{jackson2011new}. The interesting part is that it can be alloyed by the ratio of Ga/(Ga+In), and the band-gap can be tuned along with that. The band-gap 
 is between 1.0 eV to 1.7 eV for this alloy \cite{kumar2013cation, chen2012band, chen2011parameterization, persson2009impurity, green2006third}. CIGS does not contain any toxic element.
 
 %\section{CuIn\textsubscript{1-\textit{x}}Ga\textsubscript{\textit{x}}Se\textsubscript{2}(CIGS) materials}
 \section{Copper indium gallium selenide (CIGS)}
-CIGS material is a chalcopyrite-type material, which is considered to be one of the most promising thin film solar cell material. 
-CuInSe\textsubscript{2} was first synthesized by Hahn in 1953 \cite{ZAAC}. It was first exploited as an absorber material in a single crystal solar cell in 1974 \cite{CuInSe21974}, which is based on CuInSe\textsubscript{2} and CdS. The conversion efficiency is around 
-5\%. The first thin film solar cells based on CuInSe\textsubscript{2} and CdS was invented by Kazmerski. During 1980s, Boeing Corporation did much research on the thin film polycrystalline CIGS solar cells. 
-To date, the highest conversion efficiency in lab situation for the solar cells based on CIGS is 23.3\% \cite{ward2014cu}.
+CIGS is a chalcopyrite-type material, which is considered to be one of the most promising thin-film solar cell material. 
+CuInSe\textsubscript{2} was first synthesized by Hahn in 1953 \cite{ZAAC}. It was first exploited as an absorber material in a single crystal solar cell in 1974 \cite{CuInSe21974}. The conversion efficiency is around 
+5\%. The first thin-film solar cells based on CuInSe\textsubscript{2} and CdS was invented by Kazmerski \cite{kazmerski1976thin}. During 1980s, Boeing Corporation did much research on the thin-film polycrystalline CIGS solar cells. 
+To date, the highest conversion efficiency in laboratory situation for the solar cells based on CIGS is 23.3\% \cite{ward2014cu}.
 
 
 \subsection{Crystal structure}
-The crystal structure of CIGS can be derived from the zinc blende crystal structure of zinc selenide (ZnSe). In \textbf{Fig. \ref{crystal_cigs}}, the crystal structures of ZnSe and CuInSe\textsubscript{2} are presented. 
-The elements Zn are replaced by Cu and In or Ga elements in the zinc blende of ZnSe. It requires to double the unit cell in the $z$-direction. Because the bond strength and lengths between
+Crystal structure of CIGS can be derived from zinc blende crystal structure of zinc selenide (ZnSe). In \textbf{Fig. \ref{crystal_cigs}}, the crystal structures of ZnSe and CuInSe\textsubscript{2} are presented. 
+Atoms Zn are replaced by atoms Cu and In or Ga in the zinc blende of ZnSe. It requires to double the unit cell of ZnSe in the $z$-direction. Because bond strength and lengths between
 Cu-Se and In-Se or Ga-Se are different. Therefore, the lattice parameter $c$ is not exact 2$a$ normally \cite{chen2009crystal}.
 
-Chalcopyrite CuInSe\textsubscript{2} and CuGaSe\textsubscript{2} have the space group $D_{2d}^{12}$ ($I\overline{4}2d$; space group no. 122).
-The conventional unit cell has four copper atoms on the Wyckoff positions 4$a$, four indium/gallium atoms on position 4$b$, and eight selenium atoms on the 8$d$ position. 
-The cation positions have all $S_4$ point-group symmetry, and Se have $C_2$ symmetry. 
+Chalcopyrite CuInSe\textsubscript{2} and CuGaSe\textsubscript{2} have space group $D_{2d}^{12}$ ($I\overline{4}2d$; space group no. 122).
+The conventional unit cell has four copper atoms on Wyckoff position 4$a$, four indium/gallium atoms are on position 4$b$, and eight selenium atoms are on 8$d$ position. 
+The cation positions have all $S_4$ point-group symmetry, and Se atoms have $C_2$ symmetry. 
 The Se 8$d$ position is fully defined with the position ($x$, $y$, $z$), and each anion Se-atom has two inequivalent bonds $\delta$X–Se to the cations X = Cu and In/Ga \cite{parlak2006ab, hones2008polarization,persson2008anisotropic}. 
 For the alloy of CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2}, the structure is chosen so that each Se atom bonds to two Cu atoms, one In, and one Ga atom. The space group is $S_{4}^{2}$ ($I\overline{4}$; space 
 group no. 82) \cite{li2011electronic}.
@@ -572,15 +575,15 @@ group no. 82) \cite{li2011electronic}.
 
 
 \subsection{Optical properties and defects in the CIGS}
-CuInSe\textsubscript{2} has a direct band-gap around 1.0 eV, and the absorption coefficient is relatively higher than Si due to direct band-gap. The quaternary CIGS alloy will be available by alloying Ga element, while the band-gap is tuned as well from 
-1.0 eV to 1.7 eV. The high absorption coefficient makes the CIGS material possible to be an absorber for the thin film solar cells. The band-gap can be approximated by the function of Ga content ($x$) \cite{luque2011handbook}
+CuInSe\textsubscript{2} has a direct band-gap around 1.0 eV, and the absorption coefficients are relatively higher than that of Si due to the direct band-gap. The quaternary CIGS alloy will be available by alloying Ga element, while the band-gap is tuned as well from 
+1.0 eV to 1.7 eV. The high absorption coefficients make the CIGS possible to be an absorber for the thin-film solar cells. The band-gap can be approximated by the function of Ga content ($x$) \cite{luque2011handbook}
 
 \begin{equation}
 E_g(x) = 1.0 + 0.564x+0.116x^2
 \end{equation}
 
-Alloying the Ga element will decrease the electron affinity of CIGS, which will make the conduction band upward shift. However, the valence band remain the same position \cite{jiang2004does}. This also explains the reason why the band-gap increases with 
-more Ga element in the CIGS material. An overview properties of CuInSe\textsubscript{2} and CuGaSe\textsubscript{2} materials are described in \textbf{Table. \ref{kth518}} 
+Alloying the Ga element will decrease the electron affinity of CIGS, which will make conduction bands upward shift. However, the valence bands remain the same positions \cite{jiang2004does}. This also explains the reason why the band-gap increases with 
+more Ga element in the CIGS. An overview properties of CuInSe\textsubscript{2} and CuGaSe\textsubscript{2} are described in \textbf{Table. \ref{kth518}} 
 
 
 \vspace{0cm}
@@ -637,10 +640,10 @@ Thermal conductivity& 0.086 \cite{neumann1986optical} & 0.129 \cite{madelung2004
 
 %The main native defects in CIGS \cite{chen2010intrinsic, schuler2004self, lany2008intrinsic, zhang1998defect} include <2V\textsubscript{Cu}, In\textsubscript{Cu}>, <Cu\textsubscript{In}, In\textsubscript{Cu}>, V\textsubscript{Cu}, In\textsubscript{Cu}, Cu\textsubscript{In} V\textsubscript{Se} and Ga\textsubscript{Cu}.
 
-CIGS is a nonstoichiometric compound with the deviations from stoichiometry in several percentage range. The high quality thin film solar cells mainly employ Cu-poor (Cu: 22.5$-$24.5\%) high offstoichiometric CIGS absorber.
+CIGS is a non-stoichiometric compound with the deviations from stoichiometry in several percentage range. The high quality thin film solar cells mainly employ Cu-poor (Cu: 22.5$-$24.5\%) high off-stoichiometric CIGS absorber.
 V\textsubscript{Cu} is the most important native defects in CIGS due to their low formation energies. Therefore, CIGS can be grown $p$-type easily with the condition of Cu-poor (V\textsubscript{Cu}).
 There are some extrinsic divalent cation donors as well, such as Zn\textsubscript{Cu}, Cd\textsubscript{Cu} and Cl\textsubscript{Se}. The formation energy 
-for them is relatively low for CIS and CuGaSe\textsubscript{2} (CGS). In fact, CIS is possbile to be $n$-type material. However, CGS is not possible to be $n$-type under equilibrium conditions. The reason is that the low formation energy of
+for them is relatively low for CIS and CuGaSe\textsubscript{2} (CGS). In fact, CIS is possible to be $n$-type material. However, CGS is not possible to be $n$-type under equilibrium conditions. The reason is that the low formation energy of
 V\textsubscript{Cu} limits the possibility of achieving electronic $n$-type character, especially in Ga-rich CIGS \cite{persson2005n, zhao2004can}. It is maybe also explained why the best solar cell is with the Ga content of 30\% (x = 0.3), however,
 the band-gap energy of the CIGS suggests that the optimum solar cell conversion efficiency is obtained with between x = 0.5 and x = 0.7.
 
@@ -1280,7 +1283,7 @@ nonlinear eigenvalue problem (\textbf{Eq. \ref{ap2}}). To achieve the exact ener
 
 In order to solve the problem in APW, Andesen \cite{andersen1975linear}, Koelling and Arbman \cite{koelling1975use} proposed a way to describe the energy-independent wavefunction.
 They noticed that the Taylor expansion of radial function (\textbf{Eq. \ref{ap3}}). This method is called linearized augmented plane wave (LAPW) method due to make use of the linearized energies in the radial functions. 
-However, the drawback is that it does not describe the semicore state well. It is corrected by a method named linearized augmented plane wave plus local orbitals (LAPW+LO) which was proposed by Singh (\textbf{Eq. \ref{lap5}}) \cite{singh1991ground}.
+However, the drawback is that it does not describe the semicore states well. It is corrected by a method named linearized augmented plane wave plus local orbitals (LAPW+LO) which was proposed by Singh (\textbf{Eq. \ref{lap5}}) \cite{singh1991ground}.
 Sjöstedt, Nordström and Singh  \cite{sjostedt2000alternative} also gave an efficient way to linearize Slater's APW method, named augmented plane wave plus local orbitals (APW+lo) (\textbf{Eq. \ref{lap6}}). Both of above methods consider local orbitals, 
 it is customary to write in different ways as LO and lo, respectively. One can read more information about FPLAPW method in Refs. \cite{nordstrom2006planewaves, excitingcode}.
 

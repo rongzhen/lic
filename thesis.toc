@@ -38,10 +38,10 @@
 \contentsline {subsection}{\numberline {1.8.2}Derivation of spin-orbit coupling}{36}
 \contentsline {chapter}{\chapternumberline {II}SHORT SUMMARY OF THE PAPERS}{39}
 \contentsline {section}{\numberline {2.1}Summary of the papers}{39}
-\contentsline {section}{\numberline {2.2}Concluding remarks and future perspectives}{42}
-\contentsline {chapter}{Acknowledgements}{43}
-\contentsline {chapter}{Bibliography}{44}
-\contentsline {chapter}{\chapternumberline {III}COMPILATION OF SCIENTIFIC PAPERS}{50}
-\contentsline {section}{\numberline {3.1}Paper I: "Parameterization of CuIn\textsubscript {1-x}Ga\textsubscript {x}Se\textsubscript {2} (x = 0, 0.5, and 1) energy bands"}{50}
-\contentsline {section}{\numberline {3.2}Paper II: "Band-edge density-of-states and carrier concentrations in intrinsic and $p$-type CuIn\textsubscript {1-x}Ga\textsubscript {x}Se\textsubscript {2}"}{56}
-\contentsline {section}{\numberline {3.3}Paper III: "Dielectric function spectra at 40 K and critical-point energies for CuIn\textsubscript {0.7}Ga\textsubscript {0.3}Se\textsubscript {2}"}{68}
+\contentsline {section}{\numberline {2.2}Concluding remarks and future perspectives}{44}
+\contentsline {chapter}{Acknowledgements}{47}
+\contentsline {chapter}{Bibliography}{48}
+\contentsline {chapter}{\chapternumberline {III}COMPILATION OF SCIENTIFIC PAPERS}{54}
+\contentsline {section}{\numberline {3.1}Paper I: "Parameterization of CuIn\textsubscript {1-x}Ga\textsubscript {x}Se\textsubscript {2} (x = 0, 0.5, and 1) energy bands"}{54}
+\contentsline {section}{\numberline {3.2}Paper II: "Band-edge density-of-states and carrier concentrations in intrinsic and $p$-type CuIn\textsubscript {1-x}Ga\textsubscript {x}Se\textsubscript {2}"}{60}
+\contentsline {section}{\numberline {3.3}Paper III: "Dielectric function spectra at 40 K and critical-point energies for CuIn\textsubscript {0.7}Ga\textsubscript {0.3}Se\textsubscript {2}"}{72}

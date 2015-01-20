@@ -15,6 +15,7 @@ Repeated entry---line 603 of file bibdatabase.bib
  : @article{persson2005n
  :                      ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "ep2"
 Warning--empty title in xie2014creating
 Warning--empty title in smestad2002optoelectronics
 Warning--empty title in seinfeld2012atmospheric
@@ -61,6 +62,7 @@ Warning--empty title in persson2009impurity
 Warning--empty title in green2006third
 Warning--empty title in ZAAC
 Warning--empty title in CuInSe21974
+Warning--empty title in kazmerski1976thin
 Warning--empty title in parlak2006ab
 Warning--empty title in hones2008polarization
 Warning--empty title in persson2008anisotropic
@@ -120,45 +122,45 @@ Warning--empty title in dirac1930principles
 Warning--empty title in van1994relativistic
 Warning--empty title in faas1995zora
 Warning--empty title in van1996zero
-You've used 113 entries,
+You've used 114 entries,
             1876 wiz_defined-function locations,
-            956 strings with 13308 characters,
-and the built_in function-call counts, 24759 in all, are:
-= -- 2300
-> -- 1040
+            960 strings with 13373 characters,
+and the built_in function-call counts, 24998 in all, are:
+= -- 2322
+> -- 1051
 < -- 0
-+ -- 400
-- -- 287
-* -- 1397
-:= -- 3400
-add.period$ -- 140
-call.type$ -- 113
++ -- 404
+- -- 290
+* -- 1413
+:= -- 3434
+add.period$ -- 141
+call.type$ -- 114
 change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 218
-duplicate$ -- 1567
-empty$ -- 2380
-format.name$ -- 287
-if$ -- 6259
+cite$ -- 220
+duplicate$ -- 1582
+empty$ -- 2401
+format.name$ -- 290
+if$ -- 6319
 int.to.chr$ -- 0
-int.to.str$ -- 113
-missing$ -- 132
-newline$ -- 369
-num.names$ -- 107
-pop$ -- 591
+int.to.str$ -- 114
+missing$ -- 133
+newline$ -- 372
+num.names$ -- 108
+pop$ -- 595
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1034
+skip$ -- 1044
 stack$ -- 0
-substring$ -- 602
-swap$ -- 656
+substring$ -- 608
+swap$ -- 663
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 105
-while$ -- 184
-width$ -- 116
-write$ -- 961
+warning$ -- 106
+while$ -- 186
+width$ -- 117
+write$ -- 970
 (There were 2 error messages)
