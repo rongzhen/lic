@@ -1246,3 +1246,85 @@ year = {2010},
 
 
 
+@article{kazmerski1976thin,
+  title={},
+  author={Kazmerski, LL and White, FR and Morgan, GK},
+  journal={Applied Physics Letters},
+  volume={29},
+  number={},
+  pages={268},
+  year={1976},
+  publisher={AIP Publishing}
+}
+
+
+@article{paier2006screened,
+  title={},
+  author={Paier, Joachim and Marsman, Martijn and Hummer, K and Kresse, Georg and Gerber, Iann C and {\'A}ngy{\'a}n, J{\'a}nos G},
+  journal={The Journal of chemical physics},
+  volume={124},
+  number={},
+  pages={154709},
+  year={2006},
+  publisher={AIP Publishing}
+}
+
+@article{wang2014device,
+  title={},
+  author={Wang, Wei and Winkler, Mark T and Gunawan, Oki and Gokmen, Tayfun and Todorov, Teodor K and Zhu, Yu and Mitzi, David B},
+  journal={Advanced Energy Materials},
+  volume={4},
+  number={},
+  pages={1301465},
+  year={2014},
+  publisher={Wiley Online Library}
+}
+
+
+@article{RevModPhys5141,
+  title = {},
+  author = {Grondahl, L. O.},
+  journal = {Rev. Mod. Phys.},
+  volume = {5},
+  pages = {141},
+  year = {1933},
+  publisher = {American Physical Society},
+}
+
+@article{persson1997relativistic,
+  title={},
+  author={Persson, C and Lindefelt, Ulf},
+  journal={Journal of applied physics},
+  volume={82},
+  number={},
+  pages={5496},
+  year={1997},
+  publisher={AIP Publishing}
+}
+
+
+@article{neumann1978electrical,
+  title={},
+  author={Neumann, H and Van Nam, Nguyen and H{\"o}bler, H-J and K{\"u}hn, G},
+  journal={Solid State Communications},
+  volume={25},
+  number={},
+  pages={899},
+  year={1978},
+  publisher={Elsevier}
+}
+
+@incollection{X,
+  author      = "Persson, C and Chen, R and Zhao, H and Kumar, M and Huang, D",
+  title       = "",
+  editor      = "K. Ito",
+  booktitle   = "",
+  publisher   = "John Wiley \& Sons",
+  address     = "",
+  year        = 2014,
+}
+
+
+
+
+
