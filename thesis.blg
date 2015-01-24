@@ -15,7 +15,6 @@ Repeated entry---line 603 of file bibdatabase.bib
  : @article{persson2005n
  :                      ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "ep2"
 Warning--empty title in xie2014creating
 Warning--empty title in smestad2002optoelectronics
 Warning--empty title in seinfeld2012atmospheric
@@ -54,7 +53,6 @@ Warning--empty title in schropp1998amorphous
 Warning--empty title in wolden2011photovoltaic
 Warning--empty title in meyers1988design
 Warning--empty title in green2007thin
-Warning--empty title in jackson2011new
 Warning--empty title in kumar2013cation
 Warning--empty title in chen2012band
 Warning--empty title in chen2011parameterization
@@ -131,43 +129,43 @@ Warning--empty title in wang2014device
 Warning--empty title in RevModPhys5141
 You've used 120 entries,
             1876 wiz_defined-function locations,
-            987 strings with 14014 characters,
-and the built_in function-call counts, 26622 in all, are:
-= -- 2466
-> -- 1137
+            984 strings with 13918 characters,
+and the built_in function-call counts, 26407 in all, are:
+= -- 2454
+> -- 1112
 < -- 0
-+ -- 435
-- -- 315
-* -- 1519
-:= -- 3661
++ -- 427
+- -- 307
+* -- 1494
+:= -- 3619
 add.period$ -- 147
 call.type$ -- 120
 change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 233
-duplicate$ -- 1684
-empty$ -- 2538
-format.name$ -- 315
-if$ -- 6722
+cite$ -- 232
+duplicate$ -- 1673
+empty$ -- 2532
+format.name$ -- 307
+if$ -- 6678
 int.to.chr$ -- 0
 int.to.str$ -- 120
-missing$ -- 139
+missing$ -- 138
 newline$ -- 390
-num.names$ -- 114
-pop$ -- 623
+num.names$ -- 113
+pop$ -- 625
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1120
+skip$ -- 1114
 stack$ -- 0
-substring$ -- 654
-swap$ -- 714
+substring$ -- 648
+swap$ -- 707
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 113
-while$ -- 197
+warning$ -- 112
+while$ -- 195
 width$ -- 123
-write$ -- 1022
+write$ -- 1019
 (There were 2 error messages)
