@@ -1,7 +1,7 @@
 \begin{thebibliography}{100}
 
 \bibitem{bp}
-{British Petroleum}, {\em Statistical review of world energy}.
+{British Petroleum}, {\em Statistical Review of World Energy}.
 \newblock London: British Petroleum, 2014.
 
 \bibitem{xie2014creating}
@@ -13,16 +13,16 @@ N.~S. Lewis and D.~G. Nocera {\em Proceedings of the National Academy of
   Sciences}, vol.~103, p.~15729, 2006.
 
 \bibitem{smestad2002optoelectronics}
-G.~P. Smestad, {\em Optoelectronics of solar cells}.
+G.~P. Smestad, {\em Optoelectronics of Solar Cells}.
 \newblock SPIE Press, 2002.
 
 \bibitem{seinfeld2012atmospheric}
-J.~H. Seinfeld and S.~N. Pandis, {\em Atmospheric chemistry and physics: from
-  air pollution to climate change}.
+J.~H. Seinfeld and S.~N. Pandis, {\em Atmospheric Chemistry and Physics: from
+  Air Pollution to Climate Change}.
 \newblock John Wiley \& Sons, 2012.
 
 \bibitem{boyle2004renewable}
-G.~Boyle, {\em Renewable energy}.
+G.~Boyle, {\em Renewable Energy}.
 \newblock Oxford University Press, 2004.
 
 \bibitem{Chiras201007}
@@ -31,7 +31,7 @@ D.~Chiras, {\em Solar Electricity Basics: A Green Energy Guide}.
 
 \bibitem{nrel}
 {National Renewable Energy Laboratory}, {\em Best Research-Cell Efficiencies}.
-\newblock USA: National Renewable Energy Laboratory, 2014.
+\newblock United States of America: National Renewable Energy Laboratory, 2014.
 
 \bibitem{dimroth2014wafer}
 F.~Dimroth, M.~Grave, P.~Beutel, U.~Fiedeler, C.~Karcher, T.~N. Tibbits,
@@ -42,8 +42,8 @@ F.~Dimroth, M.~Grave, P.~Beutel, U.~Fiedeler, C.~Karcher, T.~N. Tibbits,
   2014.
 
 \bibitem{jones2009new}
-R.~Jones {\em Spectrolab, Inc. A Boeing Company. Sylmar, California, Estados
-  Unidos}, 2009.
+A.~Slade and V.~Garboushian in {\em Technical Digest, 15th International
+  Photovoltaic Science and Engineering Conference, Beijing}, 2005.
 
 \bibitem{ward2014cu}
 J.~S. Ward, B.~Egaas, R.~Noufi, M.~Contreras, K.~Ramanathan, C.~Osterwald, and
@@ -55,13 +55,13 @@ M.~A. Green, K.~Emery, Y.~Hishikawa, W.~Warta, and E.~D. Dunlop {\em Progress
   in Photovoltaics: Research and Applications}, vol.~23, p.~1, 2015.
 
 \bibitem{panasonic}
-{Panasonic Corporation}, {\em Panasonic's HIT solar cell hits record 25.6
-  percent conversion efficiency}.
+{Panasonic Corporation}, {\em Panasonic's HIT Solar Cell Hits Record 25.6
+  Percent Conversion Efficiency}.
 \newblock Japan: Panasonic Corporation, 2014.
 
 \bibitem{zsw}
-{Zentrum für Sonnenenergie- und Wasserstoff-Forschung}, {\em New best mark in
-  thin-film solar performance with 21.7 percent efficiency}.
+{Zentrum für Sonnenenergie- und Wasserstoff-Forschung}, {\em New Best Mark in
+  Thin-film Solar Performance with 21.7 Percent Efficiency}.
 \newblock Germany: Zentrum für Sonnenenergie- und Wasserstoff-Forschung, 2014.
 
 \bibitem{green2014emergence}
@@ -69,7 +69,7 @@ M.~A. Green, A.~Ho-Baillie, and H.~J. Snaith {\em Nature Photonics}, vol.~8,
   p.~506, 2014.
 
 \bibitem{mcgehee2014perovskite}
-M.~D. McGehee {\em Nature materials}, vol.~13, p.~845, 2014.
+M.~D. McGehee {\em Nature Materials}, vol.~13, p.~845, 2014.
 
 \bibitem{bok1}
 E.~in~Chief: Ali~Sayigh, {\em Comprehensive Renewable Energy}.
@@ -79,8 +79,8 @@ E.~in~Chief: Ali~Sayigh, {\em Comprehensive Renewable Energy}.
 A.~Sproul {\em Solar Cells: Resource for the Secondary Science Teacher}, 2003.
 
 \bibitem{neamen2003semiconductor}
-D.~A. Neamen and B.~Pevzner, {\em Semiconductor physics and devices : basic
-  principles}.
+D.~A. Neamen and B.~Pevzner, {\em Semiconductor Physics and Devices : Basic
+  Principles}.
 \newblock McGraw-Hill New York, 2003.
 
 \bibitem{Becquerel}
@@ -91,7 +91,8 @@ A.~E. Becquerel {\em Comptes Rendus de l'Académie des Sciences}, vol.~9,
 L.~Etgar {\em Materials}, vol.~6, p.~445, 2013.
 
 \bibitem{gourdin2007solar}
-G.~Gourdin {\em Introduction to Green Chemistry Fall}, 2007.
+G.~Gourdin, {\em Introduction to Green Chemistry}.
+\newblock Lecture notes, 2007.
 
 \bibitem{1941ohl1}
 R.~S. Ohl, {\em US Patent 2402622}.
@@ -122,7 +123,7 @@ B.~Pamplin {\em Journal of Physics and Chemistry of Solids}, vol.~25, p.~675,
   1964.
 
 \bibitem{hoffmann2006pv}
-W.~Hoffmann {\em Solar energy materials and solar cells}, vol.~90, p.~3285,
+W.~Hoffmann {\em Solar Energy Materials and Solar Cells}, vol.~90, p.~3285,
   2006.
 
 \bibitem{brewer2013renewable}
@@ -139,21 +140,21 @@ O.~Madelung, {\em Semiconductors: Data Handbook}.
 \newblock Springer, 2004.
 
 \bibitem{henry1980limiting}
-C.~H. Henry {\em Journal of applied physics}, vol.~51, p.~4494, 1980.
+C.~H. Henry {\em Journal of Applied Physics}, vol.~51, p.~4494, 1980.
 
 \bibitem{shockley1961detailed}
-W.~Shockley and H.~J. Queisser {\em Journal of applied physics}, vol.~32,
+W.~Shockley and H.~J. Queisser {\em Journal of Applied Physics}, vol.~32,
   p.~510, 1961.
 
 \bibitem{alferov2001nobel}
-Z.~I. Alferov {\em Reviews of modern physics}, vol.~73, p.~767, 2001.
+Z.~I. Alferov {\em Reviews of Modern Physics}, vol.~73, p.~767, 2001.
 
 \bibitem{yablonovitch2012opto}
 E.~Yablonovitch, O.~Miller, and S.~Kurtz in {\em Photovoltaic Specialists
   Conference (PVSC), 2012 38th IEEE}, p.~001556, IEEE, 2012.
 
 \bibitem{maissel1995handbook}
-L.~I. Maissel and R.~Glang, {\em Handbook of thin film technology}.
+L.~I. Maissel and R.~Glang, {\em Handbook of Thin Film Technology}.
 \newblock McGraw-Hill, 1995.
 
 \bibitem{carlson1976amorphous}
@@ -161,7 +162,7 @@ D.~E. Carlson and C.~R. Wronski {\em Applied Physics Letters}, vol.~28, p.~671,
   1976.
 
 \bibitem{street2000technology}
-R.~A. Street, {\em Technology and applications of amorphous silicon}.
+R.~A. Street, {\em Technology and Applications of Amorphous Silicon}.
 \newblock Springer, 2000.
 
 \bibitem{schropp1998amorphous}
@@ -184,7 +185,9 @@ C.~A. Wolden, J.~Kurtin, J.~B. Baxter, I.~Repins, S.~E. Shaheen, J.~T. Torvik,
 P.~V. Meyers {\em Solar Cells}, vol.~23, p.~59, 1988.
 
 \bibitem{firstsolarcdte}
-\url{http://investor.firstsolar.com/releasedetail.cfm?ReleaseID=833971}, 2014.
+{First Solar, Inc.}, {\em First Solar Sets Thin-Film Module Efficiency World
+  Record of 17.0 Percent}.
+\newblock United States of America: First Solar, Inc., 2014.
 
 \bibitem{green2007thin}
 M.~A. Green {\em Journal of Materials Science: Materials in Electronics},
@@ -211,7 +214,7 @@ M.~A. Green, {\em Third Generation Photovoltaics: Advanced Solar Energy
 
 \bibitem{ZAAC}
 H.~Hahn, G.~Frank, W.~Klingler, A.-D. Meyer, and G.~Störger {\em Zeitschrift
-  für anorganische und allgemeine Chemie}, vol.~271, p.~153, 1953.
+  für Anorganische und Allgemeine Chemie}, vol.~271, p.~153, 1953.
 
 \bibitem{CuInSe21974}
 S.~Wagner, J.~L. Shay, P.~Migliorato, and H.~M. Kasper {\em Applied Physics
@@ -227,7 +230,7 @@ C.~Parlak and R.~Eryi{\u{g}}it {\em Physical Review B}, vol.~73, p.~245217,
 
 \bibitem{hones2008polarization}
 K.~H{\"o}nes, M.~Eickenberg, S.~Siebentritt, and C.~Persson {\em Applied
-  physics letters}, vol.~93, p.~092102, 2008.
+  Physics Letters}, vol.~93, p.~092102, 2008.
 
 \bibitem{persson2008anisotropic}
 C.~Persson {\em Applied Physics Letters}, vol.~93, p.~072106, 2008.
@@ -242,7 +245,7 @@ A.~Luque and S.~Hegedus, {\em Handbook of Photovoltaic Science and
 
 \bibitem{jiang2004does}
 C.-S. Jiang, R.~Noufi, K.~Ramanathan, J.~AbuShama, H.~Moutinho, and
-  M.~Al-Jassim {\em Applied physics letters}, vol.~85, p.~2625, 2004.
+  M.~Al-Jassim {\em Applied Physics Letters}, vol.~85, p.~2625, 2004.
 
 \bibitem{rau2006wide}
 U.~Rau and S.~Siebentritt, {\em Wide-Gap Chalcopyrites}.
@@ -254,17 +257,17 @@ S.~Chen, J.-H. Yang, X.~Gong, A.~Walsh, and S.-H. Wei {\em Physical Review B},
 
 \bibitem{schuler2004self}
 S.~Schuler, S.~Siebentritt, S.~Nishiwaki, N.~Rega, J.~Beckmann, S.~Brehme, and
-  M.~C. Lux-Steiner {\em Physical review B}, vol.~69, p.~045210, 2004.
+  M.~C. Lux-Steiner {\em Physical Review B}, vol.~69, p.~045210, 2004.
 
 \bibitem{lany2008intrinsic}
-S.~Lany and A.~Zunger {\em Physical review letters}, vol.~100, p.~016401, 2008.
+S.~Lany and A.~Zunger {\em Physical Review Letters}, vol.~100, p.~016401, 2008.
 
 \bibitem{zhang1998defect}
 S.~Zhang, S.-H. Wei, A.~Zunger, and H.~Katayama-Yoshida {\em Physical Review
   B}, vol.~57, p.~9642, 1998.
 
 \bibitem{madelung2010springer}
-O.~Madelung, U.~R{\"o}ssler, and M.~Schulz, {\em SpringerMaterials}.
+O.~Madelung, U.~R{\"o}ssler, and M.~Schulz, {\em Springer Materials}.
 \newblock Springer, 2010.
 
 \bibitem{neumann1986optical}
@@ -275,7 +278,7 @@ C.~Persson, Y.-J. Zhao, S.~Lany, and A.~Zunger {\em Physical Review B},
   vol.~72, p.~035211, 2005.
 
 \bibitem{zhao2004can}
-Y.-J. Zhao, C.~Persson, S.~Lany, and A.~Zunger {\em Applied physics letters},
+Y.-J. Zhao, C.~Persson, S.~Lany, and A.~Zunger {\em Applied Physics Letters},
   vol.~85, p.~5860, 2004.
 
 \bibitem{lundberg2005effect}
@@ -288,8 +291,9 @@ O.~Lundberg, J.~Lu, A.~Rockett, M.~Edoff, and L.~Stolt {\em Journal of Physics
 
 \bibitem{ramanathan2003properties}
 K.~Ramanathan, M.~A. Contreras, C.~L. Perkins, S.~Asher, F.~S. Hasoon,
-  J.~Keane, D.~Young, M.~Romero, W.~Metzger, R.~Noufi, {\em et~al.} {\em
-  Progress in Photovoltaics: Research and Applications}, vol.~11, p.~225, 2003.
+  J.~Keane, D.~Young, M.~Romero, W.~Metzger, R.~Noufi, J.~Ward, and A.~Duda
+  {\em Progress in Photovoltaics: Research and Applications}, vol.~11, p.~225,
+  2003.
 
 \bibitem{kim1997structural}
 K.~H. Kim, K.~C. Park, and D.~Y. Ma {\em Journal of Applied Physics}, vol.~81,
@@ -310,16 +314,16 @@ S.~Niki, M.~Contreras, I.~Repins, M.~Powalla, K.~Kushiya, S.~Ishizuka, and
   vol.~18, p.~453, 2010.
 
 \bibitem{kessler2001baseline}
-J.~Kessler, M.~Bodeg{\aa}rd, J.~Hedstr{\"o}m, and L.~Stolt {\em Solar energy
-  materials and solar cells}, vol.~67, p.~67, 2001.
+J.~Kessler, M.~Bodeg{\aa}rd, J.~Hedstr{\"o}m, and L.~Stolt {\em Solar Energy
+  Materials and Solar Cells}, vol.~67, p.~67, 2001.
 
 \bibitem{martin2004electronic}
 R.~M. Martin, {\em Electronic Structure: Basic Theory and Practical Methods}.
 \newblock Cambridge University Press, 2004.
 
 \bibitem{Cottenierwien2k}
-S.~Cottenier, {\em Density Functional Theory and the family of (L)APW-methods:
-  a step-by-step introduction}.
+S.~Cottenier, {\em Density Functional Theory and the Family of (L)APW-methods:
+  A Step-by-step Introduction}.
 \newblock freely available http://www.wien2k.at/reg user/textbooks, 2013.
 
 \bibitem{bornoppenheimer}
@@ -331,10 +335,10 @@ D.~R. Hartree {\em Proceedings of the Royal Society of London}, vol.~A113,
   p.~621, 1982.
 
 \bibitem{hartreefockapproximation}
-V.~Fock {\em Zeitschrift für Physik}, vol.~61, pp.~126--148, 1930.
+V.~Fock {\em Zeitschrift für Physik}, vol.~61, p.~126, 1930.
 
 \bibitem{hohenberg1964inhomogeneous}
-P.~Hohenberg and W.~Kohn {\em Physical review}, vol.~136, p.~B864, 1964.
+P.~Hohenberg and W.~Kohn {\em Physical Review}, vol.~136, p.~B864, 1964.
 
 \bibitem{kohn1965self}
 W.~Kohn and L.~J. Sham {\em Physical Review}, vol.~140, p.~A1133, 1965.
@@ -356,27 +360,27 @@ U.~von Barth and L.~Hedin {\em Journal of Physics C: Solid State Physics},
   vol.~5, p.~1629, 1972.
 
 \bibitem{hedin1971explicit}
-L.~Hedin and B.~Lundqvist {\em Journal of Physics C: Solid state physics},
+L.~Hedin and B.~Lundqvist {\em Journal of Physics C: Solid State Physics},
   vol.~4, p.~2064, 1971.
 
 \bibitem{tozer1998development}
-D.~J. Tozer and N.~C. Handy {\em The Journal of chemical physics}, vol.~108,
+D.~J. Tozer and N.~C. Handy {\em The Journal of Chemical Physics}, vol.~108,
   p.~2545, 1998.
 
 \bibitem{hamprecht1998development}
 F.~A. Hamprecht, A.~J. Cohen, D.~J. Tozer, and N.~C. Handy {\em The Journal of
-  chemical physics}, vol.~109, p.~6264, 1998.
+  Chemical Physics}, vol.~109, p.~6264, 1998.
 
 \bibitem{grabo1995density}
-T.~Grabo and E.~K. Gross {\em Chemical physics letters}, vol.~240, p.~141,
+T.~Grabo and E.~K. Gross {\em Chemical Physics Letters}, vol.~240, p.~141,
   1995.
 
 \bibitem{cohen2007development}
-A.~J. Cohen, P.~Mori-S{\'a}nchez, and W.~Yang {\em The Journal of chemical
-  physics}, vol.~126, p.~191109, 2007.
+A.~J. Cohen, P.~Mori-S{\'a}nchez, and W.~Yang {\em The Journal of Chemical
+  Physics}, vol.~126, p.~191109, 2007.
 
 \bibitem{kittel1976introduction}
-C.~Kittel and P.~McEuen, {\em Introduction to solid state physics}.
+C.~Kittel and P.~McEuen, {\em Introduction to Solid State Physics}.
 \newblock Wiley New York, 1976.
 
 \bibitem{slater1937wave}
@@ -384,7 +388,7 @@ J.~Slater {\em Physical Review}, vol.~51, p.~846, 1937.
 
 \bibitem{loucks1967augmented}
 T.~L. Loucks, {\em Augmented Plane Wave Method}.
-\newblock W.A. Benjamin, Inc., 1967.
+\newblock W.A. Benjamin, 1967.
 
 \bibitem{andersen1975linear}
 O.~K. Andersen {\em Physical Review B}, vol.~12, p.~3060, 1975.
@@ -397,8 +401,8 @@ D.~Koelling and G.~Arbman {\em Journal of Physics F: Metal Physics}, vol.~5,
 D.~Singh {\em Physical Review B}, vol.~43, p.~6388, 1991.
 
 \bibitem{sjostedt2000alternative}
-E.~Sj{\"o}stedt, L.~Nordstr{\"o}m, and D.~Singh {\em Solid state
-  communications}, vol.~114, p.~15, 2000.
+E.~Sj{\"o}stedt, L.~Nordstr{\"o}m, and D.~Singh {\em Solid State
+  Communications}, vol.~114, p.~15, 2000.
 
 \bibitem{nordstrom2006planewaves}
 L.~Nordstrom and D.~J. Singh, {\em Planewaves, Pseudopotentials, and the LAPW
@@ -429,7 +433,7 @@ L.~C. L.~Y. Voon and M.~Willatzen, {\em The kp Method}.
 E.~Kane {\em Semiconductors and Semimetals}, vol.~1, p.~75, 1966.
 
 \bibitem{persson2007full}
-C.~Persson and C.~Ambrosch-Draxl {\em Computer physics communications},
+C.~Persson and C.~Ambrosch-Draxl {\em Computer Physics Communications},
   vol.~177, p.~280, 2007.
 
 \bibitem{thaller1992dirac}
@@ -441,19 +445,19 @@ P.~A.~M. Dirac, {\em The Principals of Quantum Mechanics}.
 \newblock The Clarendon Press, 1930.
 
 \bibitem{van1994relativistic}
-E.~van Lenthe, E.-J. Baerends, and J.~G. Snijders {\em The Journal of chemical
-  physics}, vol.~101, p.~9783, 1994.
+E.~van Lenthe, E.-J. Baerends, and J.~G. Snijders {\em The Journal of Chemical
+  Physics}, vol.~101, p.~9783, 1994.
 
 \bibitem{faas1995zora}
 S.~Faas, J.~Snijders, J.~Van~Lenthe, E.~Van~Lenthe, and E.~Baerends {\em
-  Chemical physics letters}, vol.~246, p.~632, 1995.
+  Chemical Physics Letters}, vol.~246, p.~632, 1995.
 
 \bibitem{van1996zero}
-E.~Van~Lenthe, J.~Snijders, and E.~Baerends {\em The Journal of chemical
-  physics}, vol.~105, p.~6505, 1996.
+E.~Van~Lenthe, J.~Snijders, and E.~Baerends {\em The Journal of Chemical
+  Physics}, vol.~105, p.~6505, 1996.
 
 \bibitem{persson1997relativistic}
-C.~Persson and U.~Lindefelt {\em Journal of applied physics}, vol.~82, p.~5496,
+C.~Persson and U.~Lindefelt {\em Journal of Applied Physics}, vol.~82, p.~5496,
   1997.
 
 \bibitem{neumann1978electrical}
@@ -462,12 +466,13 @@ H.~Neumann, N.~Van~Nam, H.-J. H{\"o}bler, and G.~K{\"u}hn {\em Solid State
 
 \bibitem{X}
 C.~Persson, R.~Chen, H.~Zhao, M.~Kumar, and D.~Huang, ``Electronic structure
-  and optical properties from first-principles modeling,'' John Wiley \& Sons,
+  and optical properties from first-principles modeling,'' in {\em Copper zinc
+  tin sulphide-based thin film solar cells} (K.~Ito, ed.), John Wiley \& Sons,
   2014.
 
 \bibitem{paier2006screened}
 J.~Paier, M.~Marsman, K.~Hummer, G.~Kresse, I.~C. Gerber, and J.~G.
-  {\'A}ngy{\'a}n {\em The Journal of chemical physics}, vol.~124, p.~154709,
+  {\'A}ngy{\'a}n {\em The Journal of Chemical Physics}, vol.~124, p.~154709,
   2006.
 
 \bibitem{wang2014device}
@@ -475,6 +480,6 @@ W.~Wang, M.~T. Winkler, O.~Gunawan, T.~Gokmen, T.~K. Todorov, Y.~Zhu, and D.~B.
   Mitzi {\em Advanced Energy Materials}, vol.~4, p.~1301465, 2014.
 
 \bibitem{RevModPhys5141}
-L.~O. Grondahl {\em Rev. Mod. Phys.}, vol.~5, p.~141, 1933.
+L.~O. Grondahl {\em Reviews of Modern Physics}, vol.~5, p.~141, 1933.
 
 \end{thebibliography}

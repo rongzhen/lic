@@ -41,7 +41,7 @@
 \contentsline {section}{\numberline {2.2}Concluding remarks and future perspectives}{44}
 \contentsline {chapter}{Acknowledgements}{47}
 \contentsline {chapter}{Bibliography}{49}
-\contentsline {chapter}{\chapternumberline {III}COMPILATION OF SCIENTIFIC PAPERS}{56}
-\contentsline {section}{\numberline {3.1}Paper I: "Parameterization of CuIn\textsubscript {1-x}Ga\textsubscript {x}Se\textsubscript {2} (x = 0, 0.5, and 1) energy bands"}{56}
-\contentsline {section}{\numberline {3.2}Paper II: "Band-edge density-of-states and carrier concentrations in intrinsic and $p$-type CuIn\textsubscript {1-x}Ga\textsubscript {x}Se\textsubscript {2}"}{62}
-\contentsline {section}{\numberline {3.3}Paper III: "Dielectric function spectra at 40 K and critical-point energies for CuIn\textsubscript {0.7}Ga\textsubscript {0.3}Se\textsubscript {2}"}{74}
+\contentsline {chapter}{\chapternumberline {III}COMPILATION OF SCIENTIFIC PAPERS}{57}
+\contentsline {section}{\numberline {3.1}Paper I: "Parameterization of CuIn\textsubscript {1-x}Ga\textsubscript {x}Se\textsubscript {2} (x = 0, 0.5, and 1) energy bands"}{57}
+\contentsline {section}{\numberline {3.2}Paper II: "Band-edge density-of-states and carrier concentrations in intrinsic and $p$-type CuIn\textsubscript {1-x}Ga\textsubscript {x}Se\textsubscript {2}"}{63}
+\contentsline {section}{\numberline {3.3}Paper III: "Dielectric function spectra at 40 K and critical-point energies for CuIn\textsubscript {0.7}Ga\textsubscript {0.3}Se\textsubscript {2}"}{75}

@@ -3,13 +3,9 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 The style file: ieeetr.bst
 Database file #1: bibdatabase.bib
-Repeated entry---line 610 of file bibdatabase.bib
+Repeated entry---line 615 of file bibdatabase.bib
  : @article{persson2005n
  :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1347 of file bibdatabase.bib
- : @book{firstsolarcdte
- :                     ,
 I'm skipping whatever remains of this entry
 Warning--empty title in xie2014creating
 Warning--empty title in iea
@@ -22,7 +18,6 @@ Warning--empty title in mcgehee2014perovskite
 Warning--empty title in sproul2003understanding
 Warning--empty title in Becquerel
 Warning--empty title in etgar2013semiconductor
-Warning--empty title in gourdin2007solar
 Warning--empty publisher in 1941ohl1
 Warning--empty publisher in 1941ohl2
 Warning--empty title in chen2009electronic
@@ -94,49 +89,48 @@ Warning--empty title in faas1995zora
 Warning--empty title in van1996zero
 Warning--empty title in persson1997relativistic
 Warning--empty title in neumann1978electrical
-Warning--empty booktitle in X
 Warning--empty title in paier2006screened
 Warning--empty title in wang2014device
 Warning--empty title in RevModPhys5141
 You've used 119 entries,
             1876 wiz_defined-function locations,
-            1022 strings with 15781 characters,
-and the built_in function-call counts, 26991 in all, are:
-= -- 2516
-> -- 1166
+            1016 strings with 15778 characters,
+and the built_in function-call counts, 27055 in all, are:
+= -- 2512
+> -- 1180
 < -- 0
-+ -- 444
-- -- 325
-* -- 1552
-:= -- 3770
-add.period$ -- 152
++ -- 448
+- -- 329
+* -- 1557
+:= -- 3788
+add.period$ -- 154
 call.type$ -- 119
 change.case$ -- 1
 chr.to.int$ -- 0
-cite$ -- 206
-duplicate$ -- 1714
-empty$ -- 2553
-format.name$ -- 325
-if$ -- 6818
+cite$ -- 204
+duplicate$ -- 1722
+empty$ -- 2562
+format.name$ -- 329
+if$ -- 6834
 int.to.chr$ -- 0
 int.to.str$ -- 119
-missing$ -- 151
-newline$ -- 393
-num.names$ -- 118
-pop$ -- 564
+missing$ -- 154
+newline$ -- 395
+num.names$ -- 121
+pop$ -- 569
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1105
+skip$ -- 1100
 stack$ -- 0
-substring$ -- 658
+substring$ -- 632
 swap$ -- 751
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 87
+warning$ -- 85
 while$ -- 201
 width$ -- 122
-write$ -- 1060
-(There were 2 error messages)
+write$ -- 1066
+(There was 1 error message)
