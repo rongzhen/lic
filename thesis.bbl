@@ -1,7 +1,8 @@
 \begin{thebibliography}{100}
 
 \bibitem{bp}
-\url{http://www.bp.com/}, 2014.
+{British Petroleum}, {\em Statistical review of world energy}.
+\newblock London: British Petroleum, 2014.
 
 \bibitem{xie2014creating}
 X.~Xie and E.~Bakker {\em Physical Chemistry Chemical Physics}, vol.~16,
@@ -29,7 +30,8 @@ D.~Chiras, {\em Solar Electricity Basics: A Green Energy Guide}.
 \newblock New Society Publishers, 2010.
 
 \bibitem{nrel}
-\url{http://www.nrel.gov/ncpv/}, 2014.
+{National Renewable Energy Laboratory}, {\em Best Research-Cell Efficiencies}.
+\newblock USA: National Renewable Energy Laboratory, 2014.
 
 \bibitem{dimroth2014wafer}
 F.~Dimroth, M.~Grave, P.~Beutel, U.~Fiedeler, C.~Karcher, T.~N. Tibbits,
@@ -53,12 +55,14 @@ M.~A. Green, K.~Emery, Y.~Hishikawa, W.~Warta, and E.~D. Dunlop {\em Progress
   in Photovoltaics: Research and Applications}, vol.~23, p.~1, 2015.
 
 \bibitem{panasonic}
-\url{http://www.gizmag.com/panasonic-hit-solar-cell-256-efficiency/31573/},
-  2014.
+{Panasonic Corporation}, {\em Panasonic's HIT solar cell hits record 25.6
+  percent conversion efficiency}.
+\newblock Japan: Panasonic Corporation, 2014.
 
 \bibitem{zsw}
-\url{http://www.zsw-bw.de/uploads/media/pr12-2014-ZSW-WorldrecordCIGS.pdf},
-  2014.
+{Zentrum für Sonnenenergie- und Wasserstoff-Forschung}, {\em New best mark in
+  thin-film solar performance with 21.7 percent efficiency}.
+\newblock Germany: Zentrum für Sonnenenergie- und Wasserstoff-Forschung, 2014.
 
 \bibitem{green2014emergence}
 M.~A. Green, A.~Ho-Baillie, and H.~J. Snaith {\em Nature Photonics}, vol.~8,

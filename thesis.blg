@@ -4,14 +4,14 @@ The top-level auxiliary file: thesis.aux
 The style file: ieeetr.bst
 Database file #1: bibdatabase.bib
 Warning--entry type for "1941ohl1" isn't style-file defined
---line 201 of file bibdatabase.bib
+--line 212 of file bibdatabase.bib
 Warning--entry type for "1941ohl2" isn't style-file defined
---line 210 of file bibdatabase.bib
-Repeated entry---line 351 of file bibdatabase.bib
+--line 221 of file bibdatabase.bib
+Repeated entry---line 362 of file bibdatabase.bib
  : @article{dimroth2014wafer
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 610 of file bibdatabase.bib
+Repeated entry---line 621 of file bibdatabase.bib
  : @article{persson2005n
  :                      ,
 I'm skipping whatever remains of this entry
@@ -126,43 +126,43 @@ Warning--empty title in wang2014device
 Warning--empty title in RevModPhys5141
 You've used 120 entries,
             1876 wiz_defined-function locations,
-            992 strings with 14389 characters,
-and the built_in function-call counts, 26745 in all, are:
-= -- 2476
-> -- 1155
+            1000 strings with 14688 characters,
+and the built_in function-call counts, 26973 in all, are:
+= -- 2492
+> -- 1167
 < -- 0
-+ -- 441
-- -- 321
-* -- 1531
-:= -- 3685
-add.period$ -- 147
++ -- 445
+- -- 325
+* -- 1547
+:= -- 3741
+add.period$ -- 151
 call.type$ -- 120
 change.case$ -- 0
 chr.to.int$ -- 0
 cite$ -- 229
-duplicate$ -- 1688
-empty$ -- 2540
-format.name$ -- 321
-if$ -- 6750
+duplicate$ -- 1708
+empty$ -- 2560
+format.name$ -- 325
+if$ -- 6798
 int.to.chr$ -- 0
 int.to.str$ -- 120
-missing$ -- 139
-newline$ -- 390
-num.names$ -- 114
+missing$ -- 147
+newline$ -- 394
+num.names$ -- 118
 pop$ -- 615
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1127
+skip$ -- 1115
 stack$ -- 0
 substring$ -- 658
-swap$ -- 722
+swap$ -- 726
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 109
-while$ -- 197
+while$ -- 201
 width$ -- 123
-write$ -- 1026
+write$ -- 1038
 (There were 2 error messages)
