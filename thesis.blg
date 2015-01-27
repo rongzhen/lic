@@ -4,22 +4,19 @@ The top-level auxiliary file: thesis.aux
 The style file: ieeetr.bst
 Database file #1: bibdatabase.bib
 Warning--entry type for "1941ohl1" isn't style-file defined
---line 194 of file bibdatabase.bib
+--line 201 of file bibdatabase.bib
 Warning--entry type for "1941ohl2" isn't style-file defined
---line 203 of file bibdatabase.bib
-Repeated entry---line 344 of file bibdatabase.bib
+--line 210 of file bibdatabase.bib
+Repeated entry---line 351 of file bibdatabase.bib
  : @article{dimroth2014wafer
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 603 of file bibdatabase.bib
+Repeated entry---line 610 of file bibdatabase.bib
  : @article{persson2005n
  :                      ,
 I'm skipping whatever remains of this entry
 Warning--empty title in xie2014creating
-Warning--empty title in smestad2002optoelectronics
-Warning--empty title in seinfeld2012atmospheric
-Warning--empty title in boyle2004renewable
-Warning--empty title in Chiras201007
+Warning--empty title in iea
 Warning--empty title in dimroth2014wafer
 Warning--empty title in jones2009new
 Warning--empty title in ward2014cu
@@ -129,43 +126,43 @@ Warning--empty title in wang2014device
 Warning--empty title in RevModPhys5141
 You've used 120 entries,
             1876 wiz_defined-function locations,
-            984 strings with 13918 characters,
-and the built_in function-call counts, 26407 in all, are:
-= -- 2454
-> -- 1112
+            992 strings with 14389 characters,
+and the built_in function-call counts, 26745 in all, are:
+= -- 2476
+> -- 1155
 < -- 0
-+ -- 427
-- -- 307
-* -- 1494
-:= -- 3619
++ -- 441
+- -- 321
+* -- 1531
+:= -- 3685
 add.period$ -- 147
 call.type$ -- 120
 change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 232
-duplicate$ -- 1673
-empty$ -- 2532
-format.name$ -- 307
-if$ -- 6678
+cite$ -- 229
+duplicate$ -- 1688
+empty$ -- 2540
+format.name$ -- 321
+if$ -- 6750
 int.to.chr$ -- 0
 int.to.str$ -- 120
-missing$ -- 138
+missing$ -- 139
 newline$ -- 390
-num.names$ -- 113
-pop$ -- 625
+num.names$ -- 114
+pop$ -- 615
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1114
+skip$ -- 1127
 stack$ -- 0
-substring$ -- 648
-swap$ -- 707
+substring$ -- 658
+swap$ -- 722
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 112
-while$ -- 195
+warning$ -- 109
+while$ -- 197
 width$ -- 123
-write$ -- 1019
+write$ -- 1026
 (There were 2 error messages)
