@@ -72,14 +72,15 @@ M.~A. Green, A.~Ho-Baillie, and H.~J. Snaith {\em Nature Photonics}, vol.~8,
 M.~D. McGehee {\em Nature materials}, vol.~13, p.~845, 2014.
 
 \bibitem{bok1}
-E.~in~Chief: Ali~Sayigh.
+E.~in~Chief: Ali~Sayigh, {\em Comprehensive Renewable Energy}.
 \newblock Elsevier Science, 2012.
 
 \bibitem{sproul2003understanding}
 A.~Sproul {\em Solar Cells: Resource for the Secondary Science Teacher}, 2003.
 
 \bibitem{neamen2003semiconductor}
-D.~A. Neamen and B.~Pevzner.
+D.~A. Neamen and B.~Pevzner, {\em Semiconductor physics and devices : basic
+  principles}.
 \newblock McGraw-Hill New York, 2003.
 
 \bibitem{Becquerel}
@@ -93,10 +94,12 @@ L.~Etgar {\em Materials}, vol.~6, p.~445, 2013.
 G.~Gourdin {\em Introduction to Green Chemistry Fall}, 2007.
 
 \bibitem{1941ohl1}
-R.~S. Ohl, 03 1941.
+R.~S. Ohl, {\em US Patent 2402622}.
+\newblock 1941.
 
 \bibitem{1941ohl2}
-R.~S. Ohl, 05 1941.
+R.~S. Ohl, {\em US Patent 2443542}.
+\newblock 1941.
 
 \bibitem{chen2009electronic}
 S.~Chen, X.~Gong, A.~Walsh, and S.-H. Wei {\em Physical Review B}, vol.~79,
@@ -123,19 +126,16 @@ W.~Hoffmann {\em Solar energy materials and solar cells}, vol.~90, p.~3285,
   2006.
 
 \bibitem{brewer2013renewable}
-W.~D. Brewer, R.~Wengenmayr, and T.~B{\"u}hrke.
+W.~D. Brewer, R.~Wengenmayr, and T.~B{\"u}hrke, {\em Renewable Energy:
+  Sustainable Concepts for the Energy Change}.
 \newblock John Wiley \& Sons, 2013.
 
 \bibitem{cardona2005fundamentals}
-M.~Cardona and Y.~Y. Peter.
+M.~Cardona and Y.~Y. Peter, {\em Fundamentals of Semiconductors}.
 \newblock Springer, 2005.
 
-\bibitem{madelung1996semiconductors}
-O.~Madelung.
-\newblock Springer Berlin, 1996.
-
 \bibitem{madelung2004semiconductors}
-O.~Madelung.
+O.~Madelung, {\em Semiconductors: Data Handbook}.
 \newblock Springer, 2004.
 
 \bibitem{henry1980limiting}
@@ -153,24 +153,27 @@ E.~Yablonovitch, O.~Miller, and S.~Kurtz in {\em Photovoltaic Specialists
   Conference (PVSC), 2012 38th IEEE}, p.~001556, IEEE, 2012.
 
 \bibitem{maissel1995handbook}
-L.~I. Maissel and R.~Glang.
-\newblock McGraw-Hill New York, 1995.
+L.~I. Maissel and R.~Glang, {\em Handbook of thin film technology}.
+\newblock McGraw-Hill, 1995.
 
 \bibitem{carlson1976amorphous}
 D.~E. Carlson and C.~R. Wronski {\em Applied Physics Letters}, vol.~28, p.~671,
   1976.
 
 \bibitem{street2000technology}
-R.~A. Street.
+R.~A. Street, {\em Technology and applications of amorphous silicon}.
 \newblock Springer, 2000.
 
 \bibitem{schropp1998amorphous}
-R.~E. Schropp and M.~Zeman.
+R.~E. Schropp and M.~Zeman, {\em Amorphous and Microcrystalline Silicon Solar
+  Cells: Modeling, Materials and Device Technology}.
 \newblock Kluwer Academic Boston, 1998.
 
 \bibitem{irena}
-\url{http://www.irena.org/DocumentDownloads/Publications/RE_Technologies_Cost_Analysis-SOLAR_PV.pdf},
-  2012.
+{International Renewable Energy Agency Innovation Technology Centre}, {\em
+  Renewable Energy Technologies: Cost Analysis Series-Solar Photovoltaics}.
+\newblock Germany: International Renewable Energy Agency Innovation Technology
+  Centre, 2012.
 
 \bibitem{wolden2011photovoltaic}
 C.~A. Wolden, J.~Kurtin, J.~B. Baxter, I.~Repins, S.~E. Shaheen, J.~T. Torvik,
@@ -202,7 +205,8 @@ R.~Chen and C.~Persson {\em Thin Solid Films}, vol.~519, p.~7503, 2011.
 C.~Persson {\em Thin Solid Films}, vol.~517, p.~2374, 2009.
 
 \bibitem{green2006third}
-M.~A. Green.
+M.~A. Green, {\em Third Generation Photovoltaics: Advanced Solar Energy
+  Conversion}.
 \newblock Springer, 2006.
 
 \bibitem{ZAAC}
@@ -232,7 +236,8 @@ C.~Persson {\em Applied Physics Letters}, vol.~93, p.~072106, 2008.
 Z.~B. Li {\em Advanced Materials Research}, vol.~239, p.~1304, 2011.
 
 \bibitem{luque2011handbook}
-A.~Luque and S.~Hegedus.
+A.~Luque and S.~Hegedus, {\em Handbook of Photovoltaic Science and
+  Engineering}.
 \newblock John Wiley \& Sons, 2011.
 
 \bibitem{jiang2004does}
@@ -240,7 +245,7 @@ C.-S. Jiang, R.~Noufi, K.~Ramanathan, J.~AbuShama, H.~Moutinho, and
   M.~Al-Jassim {\em Applied physics letters}, vol.~85, p.~2625, 2004.
 
 \bibitem{rau2006wide}
-U.~Rau and S.~Siebentritt.
+U.~Rau and S.~Siebentritt, {\em Wide-Gap Chalcopyrites}.
 \newblock Springer, 2006.
 
 \bibitem{chen2010intrinsic}
@@ -259,7 +264,7 @@ S.~Zhang, S.-H. Wei, A.~Zunger, and H.~Katayama-Yoshida {\em Physical Review
   B}, vol.~57, p.~9642, 1998.
 
 \bibitem{madelung2010springer}
-O.~Madelung, U.~R{\"o}ssler, and M.~Schulz.
+O.~Madelung, U.~R{\"o}ssler, and M.~Schulz, {\em SpringerMaterials}.
 \newblock Springer, 2010.
 
 \bibitem{neumann1986optical}
@@ -309,11 +314,12 @@ J.~Kessler, M.~Bodeg{\aa}rd, J.~Hedstr{\"o}m, and L.~Stolt {\em Solar energy
   materials and solar cells}, vol.~67, p.~67, 2001.
 
 \bibitem{martin2004electronic}
-R.~M. Martin.
+R.~M. Martin, {\em Electronic Structure: Basic Theory and Practical Methods}.
 \newblock Cambridge University Press, 2004.
 
 \bibitem{Cottenierwien2k}
-R.~M. Martin.
+S.~Cottenier, {\em Density Functional Theory and the family of (L)APW-methods:
+  a step-by-step introduction}.
 \newblock freely available http://www.wien2k.at/reg user/textbooks, 2013.
 
 \bibitem{bornoppenheimer}
@@ -334,11 +340,12 @@ P.~Hohenberg and W.~Kohn {\em Physical review}, vol.~136, p.~B864, 1964.
 W.~Kohn and L.~J. Sham {\em Physical Review}, vol.~140, p.~A1133, 1965.
 
 \bibitem{clasdft}
-C.~Persson.
+C.~Persson, {\em Brief Introduction to the Density Functional Theory}.
 \newblock Lecture notes, 2013.
 
 \bibitem{bertsekas2003convex}
-D.~P. Bertsekas, A.~Nedi{\'c}, and A.~E. Ozdaglar.
+D.~P. Bertsekas, A.~Nedi{\'c}, and A.~E. Ozdaglar, {\em Convex Analysis and
+  Optimization}.
 \newblock Athena Scientific Belmont, 2003.
 
 \bibitem{slater1951simplification}
@@ -369,14 +376,14 @@ A.~J. Cohen, P.~Mori-S{\'a}nchez, and W.~Yang {\em The Journal of chemical
   physics}, vol.~126, p.~191109, 2007.
 
 \bibitem{kittel1976introduction}
-C.~Kittel and P.~McEuen.
+C.~Kittel and P.~McEuen, {\em Introduction to solid state physics}.
 \newblock Wiley New York, 1976.
 
 \bibitem{slater1937wave}
 J.~Slater {\em Physical Review}, vol.~51, p.~846, 1937.
 
 \bibitem{loucks1967augmented}
-T.~L. Loucks.
+T.~L. Loucks, {\em Augmented Plane Wave Method}.
 \newblock W.A. Benjamin, Inc., 1967.
 
 \bibitem{andersen1975linear}
@@ -394,7 +401,8 @@ E.~Sj{\"o}stedt, L.~Nordstr{\"o}m, and D.~Singh {\em Solid state
   communications}, vol.~114, p.~15, 2000.
 
 \bibitem{nordstrom2006planewaves}
-L.~Nordstrom and D.~J. Singh.
+L.~Nordstrom and D.~J. Singh, {\em Planewaves, Pseudopotentials, and the LAPW
+  Method}.
 \newblock Springer, 2006.
 
 \bibitem{excitingcode}
@@ -414,7 +422,7 @@ C.~Ambrosch-Draxl and J.~O. Sofo {\em Computer Physics Communications},
   vol.~175, p.~1, 2006.
 
 \bibitem{voon2009kp}
-L.~C. L.~Y. Voon and M.~Willatzen.
+L.~C. L.~Y. Voon and M.~Willatzen, {\em The kp Method}.
 \newblock Springer, 2009.
 
 \bibitem{kane1966k}
@@ -425,11 +433,11 @@ C.~Persson and C.~Ambrosch-Draxl {\em Computer physics communications},
   vol.~177, p.~280, 2007.
 
 \bibitem{thaller1992dirac}
-B.~Thaller.
+B.~Thaller, {\em The Dirac Equation}.
 \newblock Springer-Verlag Berlin, 1992.
 
 \bibitem{dirac1930principles}
-P.~A.~M. Dirac.
+P.~A.~M. Dirac, {\em The Principals of Quantum Mechanics}.
 \newblock The Clarendon Press, 1930.
 
 \bibitem{van1994relativistic}
@@ -453,7 +461,9 @@ H.~Neumann, N.~Van~Nam, H.-J. H{\"o}bler, and G.~K{\"u}hn {\em Solid State
   Communications}, vol.~25, p.~899, 1978.
 
 \bibitem{X}
-C.~Persson, R.~Chen, H.~Zhao, M.~Kumar, and D.~Huang John Wiley \& Sons, 2014.
+C.~Persson, R.~Chen, H.~Zhao, M.~Kumar, and D.~Huang, ``Electronic structure
+  and optical properties from first-principles modeling,'' John Wiley \& Sons,
+  2014.
 
 \bibitem{paier2006screened}
 J.~Paier, M.~Marsman, K.~Hummer, G.~Kresse, I.~C. Gerber, and J.~G.

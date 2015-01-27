@@ -131,12 +131,12 @@
 
 
   \vspace{12pt}
-  \textsc{\LARGE{\textbf{Exploring the electronic and optical properties of Cu(In,Ga)Se\textsubscript{2} }}}
+  {\LARGE{\textbf{Exploring the Electronic and Optical Properties of Cu(In,Ga)Se\textsubscript{2} }}}
   \vspace{12pt}
 
   \vspace{5 cm}
 
-  \textsc{\large{Rongzhen Chen}}
+  {\large{Rongzhen Chen}}
 
 
   \vfill 
@@ -164,7 +164,7 @@
 \begin{flushright}
  Materialvetenskap\\
  KTH\\
-{\color{red} \hfill SE-100 44 Stockholm\\ ISBN 978-91-7501-313-8  \hfill}
+\hfill SE-100 44 Stockholm\\ ISBN 978-91-7501-323-8  \hfill
 Sweden\\
 \end{flushright}
 
@@ -173,7 +173,7 @@ Sweden\\
 
 Akademisk avhandling som med tillstånd av Kungliga Tekniska
 Högskolan framlägges till offentlig granskning för avläggande av
-licentiatexamen {\color{red} fredagen den 13rd March 2015 kl 10:00 i konferensrummet, Materialvetenskap}, Kungliga Tekniska
+licentiatexamen fredagen den 16th March 2015 kl 10:00 i konferensrummet, Materialvetenskap, Kungliga Tekniska
 Högskolan,\linebreak Brinellvägen 23, Stockholm.
 
 \vspace{5mm}
@@ -213,11 +213,11 @@ the probable electronic origins of observed interband critical points are discus
 of the contribution to the total imaginary part of dielectric function spectrum is explored as well.
 \end{comment}
 
-\noindent Chalcopyrite copper indium gallium diselenide (CuIn\textsubscript{1-x}Ga\textsubscript{x}Se\textsubscript{2})
+\noindent Chalcopyrite copper indium gallium diselenide (Cu(In, Ga)Se\textsubscript{2} $\equiv$ CuIn\textsubscript{1-x}Ga\textsubscript{x}Se\textsubscript{2})
 is today a commercially important material in the thin-film solar cell technology, and it is also in many aspects a very interesting material from a scientifically point of view.
 
-\noindent In this licentiate thesis, details in the electronic structure of CuIn\textsubscript{1-x}Ga\textsubscript{x}Se\textsubscript{2} alloy ($x$ = 0.0, 0.5 and 1.0) and its optical response are explored by means of the all-electron and full-potential linearized augmented plane wave method in conjunction with the density functional theory. 
-The energy band dispersions are parameterized for the three uppermost valence bands (VBs;  $v$1 to $v$3) and the lowest conduction band (CB; $c$1), based on the $\mathbf k \cdot \mathbf p$ method but expanded up to high order. 
+\noindent In this licentiate thesis, details in the electronic structure of CuIn\textsubscript{1-x}Ga\textsubscript{x}Se\textsubscript{2} alloy ($x$ = 0.0, 0.5, and 1.0) and its optical response are explored by means of the all-electron and full-potential linearized augmented plane wave method in conjunction with the density functional theory. 
+The energy band dispersions are parameterized for the three uppermost valence bands (VBs; $v$1, $v$2, and $v$3 where $v$1 is the topmost band) and the lowest conduction band (CB; $c$1), based on the $\mathbf k \cdot \mathbf p$ method but expanded up to high order. 
 To illustrate the non-parabolic, the constant energy surfaces are presented for the three topmost VBs as well as for the lowest CB. 
 
 It is demonstrated that the VBs and CB are anisotropic at the $\Gamma$-point, and even more anisotropic and non-parabolic away from the $\Gamma$-point. The effect originates from the crystal-field and the spin-orbit split-off energies. This implies that the $\Gamma$-point effective mass is not suitable to describe the materials properties such as band filling and strong excitation effects. 
@@ -225,16 +225,16 @@ Instead, the thesis provides the effective electron and hole mass tensors at the
 but also an energy-dependent effective mass which can better describe both the transport and band filling effect
 in further experimental and theoretical analyses of the materials.  
 
-Based on the parametrized energy bands, the density-of-states as well as temperature dependence of the Fermi energy and carrier concentrations are determined for intrinsic and $p$-type CuIn\textsubscript{1-x}Ga\textsubscript{x}Se, 
-and the results are compared with corresponding results for the commonly used parabolic approximation of the bands. 
+Based on the parametrized energy bands, the density-of-states as well as the temperature dependence of the Fermi energy level and carrier concentrations are determined for intrinsic and $p$-type
+CuIn\textsubscript{1-x}Ga\textsubscript{x}Se\textsubscript{2}. The results are compared with corresponding results for the commonly used parabolic approximation of the bands. 
 
 
 
 Furthermore, the dielectric function of CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2} 
 is calculated, and the band-to-band optical transitions are analyzed. The electronic origins of the observed interband critical points of the  optical response are discussed. 
 The theoretical results are compared with the experiment data based on CuIn\textsubscript{0.7}Ga\textsubscript{0.3}Se\textsubscript{2} at the temperatures 40 and 300 K, demonstrating that the overall shapes of the calculated and measured dielectric function spectra are in good agreement. 
-We find that $v$1$-c$1 and $v$2$-c$1 transitions in the Brillouin zone edge are responsible for the main absorption peaks
-at 3.00 and 3.09 eV, where $v$1 and $v$2 represent the first uppermost valence band and the second uppermost valence band, respectively. However, also the energetically lower VBs contribute to the high absorption coefficient. 
+We find that $v$1 $\longrightarrow$ $c$1 and $v$2 $\longrightarrow$ $c$1 transitions in the Brillouin zone edge are responsible for the main absorption peaks
+at 3.0 and 3.1 eV. However, also the energetically lower VBs contribute significantly to the high absorption coefficient. 
 
 \newpage
 \end{abstract}
@@ -328,13 +328,13 @@ edited by K. Ito ({\textit John Wiley $\&$ Sons}, 2014).
 
 With the increasing energy consumption, more and more energy or power is needed. According to the statistical review of world energy on 2014 \cite{bp} (\textbf{Fig. \ref{wpec}}),
 the required energy is mainly satisfied by fossil fuels (mainly coal, petroleum, and natural gas), with a market share of around 87\%. The total energy consumption is between 12000 and 13000 million tonnes oil
-equivalent (MTOE), which is equivalent to around 15 terawatts\cite{xie2014creating}. Normally, one light bulb at our homes consumes between 50 and 100 watts of energy, and 1 terawatt implies 10 billion of 100 watts light bulbs are lighted at the
+equivalent (MTOE), which is equivalent to around 15 terawatts \cite{xie2014creating}. Normally, one light bulb at our homes consumes between 50 and 100 watts of energy, and 1 terawatt implies 10 billion of 100 watts light bulbs are lighted at the
 same time. Unfortunately, fossil fuels are very limited energy and non-renewable resources. One day, which is not far from now, they will be dissipated due to the energy consumption growth.
 
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.4]{energy.eps}
-\caption{Data is from BP statistical review of world energy 2014 \cite{bp}.}
+\caption{Primary energy world consumption in 2014 \cite{bp}.}
 \label{wpec}
 \end{figure}
 
@@ -370,7 +370,7 @@ thin-film technologies, and new emerging cells are 44.7\%, 27.6\%, 23.3\%, and 2
 \begin{sidewaysfigure}
 \captionsetup{width=1\textwidth}
 \centering
-\includegraphics[scale=0.7]{efficiency_chart.jpg}
+\includegraphics[scale=0.6]{efficiency_chart.jpg}
 \caption{Best research-cell efficiencies. Figure is from national renewable energy laboratory (NREL), U.S.A. \cite{nrel}.}
 \label{nrel}
 \end{sidewaysfigure}
@@ -382,9 +382,9 @@ four-junction or more in \textbf{Fig. \ref{nrel}}. Solar cells based on c-Si are
 c-Si photovoltaics: monocrystalline silicon and multicrystalline silicon. Solar cells based on c-Si have high efficiency, for example, the maximum conversion efficiency is 27.6\% with concentrator 
 by Amonix \cite{jones2009new} and maximum 25.6\% without concentrator by Panasonic \cite{panasonic} in \textbf{Fig. \ref{nrel}}. Thin-film solar cells are the cells which are made by depositing one or several thin layers. 
 They allow cells to be rather 
-flexible and result in lower weight. The maximum conversion efficiency for thin-film solar cells is lower than that for c-Si today, which is 23.3\% using copper indium gallium diselenide (CIGS) with concentrator by NREL \cite{ward2014cu} and 
+flexible and result in lower weight. The maximum conversion efficiency for thin-film solar cells is lower than that for c-Si today, which is 23.3\% using copper indium gallium diselenide (CIGS $\equiv$ CuIn\textsubscript{1-x}Ga\textsubscript{x}Se\textsubscript{2}) with concentrator by national renewable energy laboratory (NREL) \cite{ward2014cu} and 
 is 21.7\% without concentrator by the center for solar energy and hydrogen research (ZSW) in Stuttgart \cite{zsw} in \textbf{Fig. \ref{nrel}}. The Emerging PV represents the newest ways to create electricity from
-sunlight and potentially with higher conversion efficiency, such as perovskite cells in \textbf{Fig. \ref{nrel}}. The maximum conversion efficiency of perovskite cells already reached 20.1\% in korea research institute of chemical technology (KRICT)\cite{green2015solar}. 
+sunlight and potentially with higher conversion efficiency, such as perovskite cells in \textbf{Fig. \ref{nrel}}. The maximum conversion efficiency of perovskite cells already reached 20.1\% in Korea research institute of chemical technology (KRICT)\cite{green2015solar}. 
 Perovskite cells jump into the world of solar cells only from 2009 \cite{green2014emergence, mcgehee2014perovskite}, and the conversion efficiency is improved remarkably within 5 years. Certainly, search and optimization 
 of alternatively solar cell materials are still an ongoing active area today.
 
@@ -489,7 +489,7 @@ the band-gap occurs. One can find more detailed analysis of conversion efficienc
 In 1839, French physicist A. E. Becquerel \cite{Becquerel} revealed the photovoltaic effect for the first time. Charles Fritts built the first solid state photovoltaic (PV) cell using semiconductor selenium in 
 1883 \cite{etgar2013semiconductor,gourdin2007solar}. It is not until 1941 that
 the first silicon-based solar cell was demonstrated \cite{1941ohl1, 1941ohl2}. Today, there are many different types of solar cell materials. The reason why the best solar cell material is not found yet is that it is expected to be not only high efficiency but 
-also environmentally friendly, and low cost. It requires not only that the growth and manufacturing process of solar cell materials shoud be cheaper, but also that the devices should have longer application life. Moreover, the raw material
+also environmentally friendly, and low cost. It requires not only that the growth and manufacturing process of solar cell materials should be cheaper, but also that the devices should have longer application life. Moreover, the raw material
 should be abundant and non-toxic as well. In this section, four main solar cell materials are discussed briefly: silicon (Si), gallium arsenide (GaAs), cadmium telluride (CdTe), copper indium gallium diselenide (CIGS).
 
 Potential solar cell materials need to fulfill several properties, such as large absorption coefficient and a band-gap energy between 0.7 to 2.0 eV. Under these conditions, many materials can be found.
@@ -522,7 +522,7 @@ However, solar cells based c-Si technology are still leading the market of solar
 
 
 \subsection{Gallium arsenide}
-GaAs has a zinc blende crystal structure with a direct band-gap around 1.5 eV at room temperature \cite{cardona2005fundamentals, madelung1996semiconductors, madelung2004semiconductors}. Some electronic properties of GaAs
+GaAs has a zinc blende crystal structure with a direct band-gap around 1.5 eV at room temperature \cite{cardona2005fundamentals, madelung2004semiconductors}. Some electronic properties of GaAs
 are superior to Si, such as higher electron 
 mobility, higher saturated electron velocity, and absorb sunlight more efficiently due to the direct band-gap. The optimum band-gap for a single junction solar cells is suggested around 1.3 eV by theoretical calculation 
 from Henry (1980) \cite{henry1980limiting}, who modified the original Shockley-Queisser limit \cite{shockley1961detailed}. Therefore, one of the applications of GaAs is solar cells. GaAs has been extensively researched
@@ -1296,7 +1296,7 @@ nonlinear eigenvalue problem (\textbf{Eq. \ref{ap2}}). To achieve the exact ener
 
 In order to solve the problem in APW, Andesen \cite{andersen1975linear}, Koelling and Arbman \cite{koelling1975use} proposed a way to describe the energy-independent wavefunction.
 They noticed that the Taylor expansion of radial function (\textbf{Eq. \ref{ap3}}). This method is called linearized augmented plane wave (LAPW) method due to make use of the linearized energies in the radial functions. 
-However, the drawback is that it does not describe the semicore states well. It is corrected by a method named linearized augmented plane wave plus local orbitals (LAPW+LO) which was proposed by Singh (\textbf{Eq. \ref{lap5}}) \cite{singh1991ground}.
+However, the drawback is that it does not describe the semi-core states well. It is corrected by a method named linearized augmented plane wave plus local orbitals (LAPW+LO) which was proposed by Singh (\textbf{Eq. \ref{lap5}}) \cite{singh1991ground}.
 Sjöstedt, Nordström and Singh  \cite{sjostedt2000alternative} also gave an efficient way to linearize Slater's APW method, named augmented plane wave plus local orbitals (APW+lo) (\textbf{Eq. \ref{lap6}}). Both of above methods consider local orbitals, 
 it is customary to write in different ways as LO and lo, respectively. One can read more information about FPLAPW method in Refs. \cite{nordstrom2006planewaves, excitingcode}.
 
@@ -1644,7 +1644,7 @@ the spin-orbit coupling, which can overcome the mentioned disadvantages.
 \begin{equation}\begin{split}\label{soc001}
 & \Big(V + (\boldsymbol{\sigma} \textbf{P}) \Big(\frac{c^2}{2m_ec^2-V}\Big)\Big(1+\frac{E^{\prime}}{2m_ec^2-V}\Big)^{-1} (\boldsymbol{\sigma} \textbf{P}) \Big)\phi \\
 & \approx \Big( V + (\boldsymbol{\sigma} \textbf{P}) \Big(\frac{c^2}{2m_ec^2-V}\Big)(\boldsymbol{\sigma} \textbf{P}) \Big)\phi \\
-& - (\boldsymbol{\sigma} \textbf{P}) \Big(\frac{c^2}{2m_ec^2-V}\Big)\Big(\frac{E^{\prime}}{2m_ec^2-V}\Big)^{-1} (\boldsymbol{\sigma} \textbf{P}) \Big)\phi + \cdot \\
+& - (\boldsymbol{\sigma} \textbf{P}) \Big(\frac{c^2}{2m_ec^2-V}\Big)\Big(\frac{E^{\prime}}{2m_ec^2-V}\Big)^{-1} (\boldsymbol{\sigma} \textbf{P}) \Big)\phi + \cdots \\
 & =E^{\prime}\phi.
 \end{split}
 \end{equation}
@@ -1652,7 +1652,7 @@ the spin-orbit coupling, which can overcome the mentioned disadvantages.
 Here, the Taylor expansion is utilized. The zeroth order regular approximation (ZORA) Hamiltonian \cite{van1994relativistic, faas1995zora, van1996zero} is defined as
 \begin{equation}\begin{split}\label{zora1}
 & H^{zora} = V + (\boldsymbol{\sigma} \textbf{P}) \Big(\frac{c^2}{2m_ec^2-V}\Big)(\boldsymbol{\sigma} \textbf{P}) \\
-& =  V + \textbf{P} \Big(\frac{c^2}{2m_ec^2-V}\Big)\textbf{P} + \frac{c^2}{(2m_ec^2-V)^2} \boldsymbol{\sigma}\cdot(\bigtriangledown V\times \textbf{P})
+& =  V + \textbf{P} \Big(\frac{c^2}{2m_ec^2-V}\Big)\textbf{P} + \frac{c^2}{(2m_ec^2-V)^2} \boldsymbol{\sigma}\cdot(\bigtriangledown V\times \textbf{P}).
  \end{split}
 \end{equation}
 
@@ -2099,8 +2099,6 @@ corresponding to the  $v_4 \longrightarrow c_1$ at the $N$ point. The $E_7$ is f
 I \textbf{Parameterization of $\mathbf {CuIn_{1-x}Ga_{x}Se_2}$ (x = 0, 0.5, and 1) energy bands}
 \\\textbf{R. Chen} and C. Persson, \textit{Thin Solid Films} {\textbf {519}}, 7503 (2011).
 
-\noindent 
-
 The most fundamental property of a material is the energy of the electrons. That is determined by solving the Kohn-Sham equation (see \textbf{Eq. \ref{aaa111}}). By understanding the electronic properties of the electrons one 
 can understand many of the fundamental material properties. During the last two decades the electronic structure of CIGS has been explored, however the motivation of the present study is that much of the earlier studies describe 
 the electronic structure and the corresponding density-of-states (DOS) on a wider energy scale, typically from 5$-$10 eV below valence bands maximum (VBM) to 5$-$10 eV above conduction band minimum (CBM). With that perspective one
@@ -2250,7 +2248,7 @@ The research is presented in Paper III.
 
 Overall, we find that it is important to consider the full band description of the material to understand the
 fundamental properties of the electronic structure and the optical activity. Especially, the energetically high
-lying Cu $d$-states in CIGS plays a significant role since they hybridized with the In/Ga and Se states near the VBM and some 2$-$5 eV below the VBM.  Cu $d$-states form flat energy bands in the VB that contribute to a
+lying Cu $d$-states in CIGS plays a significant role since they hybridized with the In or Ga and Se states near the VBM and some 2$-$5 eV below the VBM.  Cu $d$-states form flat energy bands in the VB that contribute to a
 high optical efficiency of the compound. This hybridization makes the VBs very non-parabolic, also for the uppermost VBs at least away from the $\Gamma$-point of the Brillouin zone. Therefore, a parameterization of the bands is
 rather complex. Moreover, we find that it is crucial to include the spin-orbit interaction when analyzing details in the electronic structure. Both the spin-orbit split-off and the crystal-field split-off make the uppermost VBs
 strongly non-parabolic also close to the $\Gamma$-point. The impacts of the spin-orbit interaction and the crystal-field are less important when studying properties related to total energy, like ion relaxation, defect formation 
@@ -2258,10 +2256,10 @@ energies, etc, but in studies related to excitation, band filling, and carrier t
 
 
 \noindent 
-For future perspective and from a theoretical point of view, improved analysis can be done when better computational methods are developed. The LDA and GGA are fairly accurate methods, but have limitations 
+For future perspective and from a theoretical point of view, improved analyses can be done when better computational methods are developed. The LDA and GGA are fairly accurate methods, but have limitations 
 in terms of inaccurate band-gap energies and localization of $d$- and $f$-states. The GW approach that we employ today is very time-consuming and it does not generate total energies; that limits the usability of the approach. 
-Hybrid functionals (like HSE \cite{paier2006screened}) can give better band gap energies, but this approach is as time-consuming as the GW approach which is a limitation for extensive research of complex materials. Moreover, there are discussions how
-accurate the approach is to model details in for instance defect transition energies. 
+Hybrid functionals (like HSE \cite{paier2006screened}) can give better band-gap energies, but this approach is as time-consuming as the GW approach which is a limitation for extensive research of complex materials. Moreover, there are discussions how
+the approach is to model details in accurately for instance defect transition energies. 
 That is, further development of computational methods will help improving the results, however it is not certain that
 it will reveal very much new physics. Already with LDA and GGA we have reasonable understanding of the materials.    
 
@@ -2274,18 +2272,18 @@ The cost and scarcity of indium in the CIGS device is a problem, and  copper zin
 copper zinc tin sulfide (Cu\textsubscript{2}ZnSnS\textsubscript{4}) 
 can therefore be alternative to CIGS due to the low cost and non-toxicity elements. 
 Cu\textsubscript{2}ZnSn(S,Se)\textsubscript{4} has many similarities with CIGS, such as comparable crystal structure and 
-tunable band gap via anion alloying, as well as similar solar cell device structure and fabrication techniques. 
+tunable band-gap via anion alloying, as well as similar solar cell device structure and fabrication techniques. 
 Since the research on those materials is relatively young, the solar-cell conversion efficiency
 is only around 12.6\% in the laboratory \cite{wang2014device}. The disadvantage is however that  these quaternary 
 chalcogenide semiconductors are more complicated compared with the more traditional thin-film materials, 
 and the materials have more complex native defects. 
 
 One can also speculate if there are other similar materials that are of interest. CIGS and CZTS can be 
-considered to be in a class denoted as Cu-XY-chalcogenide, where X and Y are two cation elements that replaces the 
-group-III In/Ga in CIGS. From the present study, we understand the advantage of having Cu as an element in the 
+considered to be in a class denoted as Cu-XY-chalcogenide, where X and Y are two cation elements that replace the 
+group-III In or Ga in CIGS. From the present study, we understand the advantage of having Cu as an element in the 
 compound, but with choosing proper element for additional cation element one can maybe find optimal material 
 with higher absorption coefficient.  
-For instance, there are interesting papers describing Cu(Sb,Bi)(S,Se)x indicating very high absorption coefficient. 
+For instance, there are interesting papers describing Cu(Sb,Bi)(S,Se)\textsubscript{2} indicating very high absorption coefficient. 
 Of course, Sb or Bi is not the best element to replace In or Ga, but by understanding the electronic and optical 
 properties of these materials one can further understand the Cu-XY-chalcogenide type compounds.    
 Cu\textsubscript{2}O is studied as an absorber material for solar cells quite earlier \cite{RevModPhys5141}, and this material is still considered as an interesting solar cell material if one can stabilize the structure.
@@ -2409,6 +2407,12 @@ That is,
 The result in \textbf{Eq. \ref{functional3}} is useful to derive the solution in Hartree, Hartree Fock and Kohn-Sham equation.
 \end{comment}
 
+\newpage
+\blankpage
+
+
+\setcounter{page}{47}
+
 
 \chapter*{Acknowledgements} \addcontentsline{toc}{chapter}{Acknowledgements}
 
@@ -2417,17 +2421,22 @@ material physics, which will be an invaluable asset to my future career.
 
 I am grateful to Prof. Börje Johansson for the acceptance in his research group as a PhD student at KTH Royal Institute of Technology. I also thank Prof. Börje Johansson and Prof. Natalia Skorodumova for being my co-supervisor during my PhD study.
 
-I appreciate Prof. Claudia Draxl to accept me visiting her group to learn Exciting Code at the University of Leoben in Austria and Humboldt University of Berlin in Germany, respectively. I also thank all the people who give me support and
+I appreciate Prof. Claudia Draxl to accept me visiting her group to learn the exciting code at the University of Leoben in Austria and Humboldt University of Berlin in Germany, respectively. I also thank all the people who give me support and
 discuss with during my staying there.
 
 I would like to thank all the group colleagues in Stockholm and Oslo for helpful research discussions and chatting: Alexander, Carlos, Dan, Fabiano, Girma, Gustavo, Hanyue, Kristian, Mathias, Maofeng, Mukesh, Priya, Roger, Sasha, Shen, Tiago.
 I also would like to thank Xuemei to help me arrange my apartment during staying in University of Oslo. I would like to thank all other people at the Department of Material Sciences and Engineering at KTH for creating a nice working atmosphere,
 especially for Huahai, Qiang and Song (names in alphabetical order).
 
-The China Scholarship Council, the Swedish Energy Agency, and the Swedish Research Council, Stiftelsen Axel Hultgrens fond,  Olle Erikssons stiftelse för materialteknik, and KTH Computational Science and Engineering Centre (KCSE) 
+The China Scholarship Council, the Swedish Energy Agency, the Swedish Research Council, Stiftelsen Axel Hultgrens fond,  Olle Erikssons stiftelse för materialteknik, and KTH Computational Science and Engineering Centre (KCSE) 
 are acknowledged for financial support.
 
 
+\newpage
+\blankpage
+
+
+\setcounter{page}{49}
 
 
 \bibliography{bibdatabase}

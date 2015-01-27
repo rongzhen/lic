@@ -3,17 +3,13 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 The style file: ieeetr.bst
 Database file #1: bibdatabase.bib
-Warning--entry type for "1941ohl1" isn't style-file defined
---line 212 of file bibdatabase.bib
-Warning--entry type for "1941ohl2" isn't style-file defined
---line 221 of file bibdatabase.bib
-Repeated entry---line 362 of file bibdatabase.bib
- : @article{dimroth2014wafer
- :                          ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 621 of file bibdatabase.bib
+Repeated entry---line 610 of file bibdatabase.bib
  : @article{persson2005n
  :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1347 of file bibdatabase.bib
+ : @book{firstsolarcdte
+ :                     ,
 I'm skipping whatever remains of this entry
 Warning--empty title in xie2014creating
 Warning--empty title in iea
@@ -23,30 +19,23 @@ Warning--empty title in ward2014cu
 Warning--empty title in green2015solar
 Warning--empty title in green2014emergence
 Warning--empty title in mcgehee2014perovskite
-Warning--empty title in bok1
 Warning--empty title in sproul2003understanding
-Warning--empty title in neamen2003semiconductor
 Warning--empty title in Becquerel
 Warning--empty title in etgar2013semiconductor
 Warning--empty title in gourdin2007solar
+Warning--empty publisher in 1941ohl1
+Warning--empty publisher in 1941ohl2
 Warning--empty title in chen2009electronic
 Warning--empty title in chen2009crystal
 Warning--empty title in walsh2009design
 Warning--empty title in goodman1958prediction
 Warning--empty title in pamplin1964systematic
 Warning--empty title in hoffmann2006pv
-Warning--empty title in brewer2013renewable
-Warning--empty title in cardona2005fundamentals
-Warning--empty title in madelung1996semiconductors
-Warning--empty title in madelung2004semiconductors
 Warning--empty title in henry1980limiting
 Warning--empty title in shockley1961detailed
 Warning--empty title in alferov2001nobel
 Warning--empty title in yablonovitch2012opto
-Warning--empty title in maissel1995handbook
 Warning--empty title in carlson1976amorphous
-Warning--empty title in street2000technology
-Warning--empty title in schropp1998amorphous
 Warning--empty title in wolden2011photovoltaic
 Warning--empty title in meyers1988design
 Warning--empty title in green2007thin
@@ -54,7 +43,6 @@ Warning--empty title in kumar2013cation
 Warning--empty title in chen2012band
 Warning--empty title in chen2011parameterization
 Warning--empty title in persson2009impurity
-Warning--empty title in green2006third
 Warning--empty title in ZAAC
 Warning--empty title in CuInSe21974
 Warning--empty title in kazmerski1976thin
@@ -62,14 +50,11 @@ Warning--empty title in parlak2006ab
 Warning--empty title in hones2008polarization
 Warning--empty title in persson2008anisotropic
 Warning--empty title in li2011electronic
-Warning--empty title in luque2011handbook
 Warning--empty title in jiang2004does
-Warning--empty title in rau2006wide
 Warning--empty title in chen2010intrinsic
 Warning--empty title in schuler2004self
 Warning--empty title in lany2008intrinsic
 Warning--empty title in zhang1998defect
-Warning--empty title in madelung2010springer
 Warning--empty title in neumann1986optical
 Warning--empty title in persson2005n
 Warning--empty title in zhao2004can
@@ -81,15 +66,11 @@ Warning--empty title in minami1984highly
 Warning--empty title in naghavi2010buffer
 Warning--empty title in niki2010cigs
 Warning--empty title in kessler2001baseline
-Warning--empty title in martin2004electronic
-Warning--empty title in Cottenierwien2k
 Warning--empty title in bornoppenheimer
 Warning--empty title in hartreeapproximation
 Warning--empty title in hartreefockapproximation
 Warning--empty title in hohenberg1964inhomogeneous
 Warning--empty title in kohn1965self
-Warning--empty title in clasdft
-Warning--empty title in bertsekas2003convex
 Warning--empty title in slater1951simplification
 Warning--empty title in von1972local
 Warning--empty title in hedin1971explicit
@@ -97,72 +78,65 @@ Warning--empty title in tozer1998development
 Warning--empty title in hamprecht1998development
 Warning--empty title in grabo1995density
 Warning--empty title in cohen2007development
-Warning--empty title in kittel1976introduction
 Warning--empty title in slater1937wave
-Warning--empty title in loucks1967augmented
 Warning--empty title in andersen1975linear
 Warning--empty title in koelling1975use
 Warning--empty title in singh1991ground
 Warning--empty title in sjostedt2000alternative
-Warning--empty title in nordstrom2006planewaves
 Warning--empty title in excitingcode
 Warning--empty title in penn1962wave
 Warning--empty title in fox2002optical
 Warning--empty title in ambrosch2006linear
-Warning--empty title in voon2009kp
 Warning--empty title in kane1966k
 Warning--empty title in persson2007full
-Warning--empty title in thaller1992dirac
-Warning--empty title in dirac1930principles
 Warning--empty title in van1994relativistic
 Warning--empty title in faas1995zora
 Warning--empty title in van1996zero
 Warning--empty title in persson1997relativistic
 Warning--empty title in neumann1978electrical
-Warning--empty title in X
 Warning--empty booktitle in X
 Warning--empty title in paier2006screened
 Warning--empty title in wang2014device
 Warning--empty title in RevModPhys5141
-You've used 120 entries,
+You've used 119 entries,
             1876 wiz_defined-function locations,
-            1000 strings with 14688 characters,
-and the built_in function-call counts, 26973 in all, are:
-= -- 2492
-> -- 1167
+            1022 strings with 15781 characters,
+and the built_in function-call counts, 26991 in all, are:
+= -- 2516
+> -- 1166
 < -- 0
-+ -- 445
++ -- 444
 - -- 325
-* -- 1547
-:= -- 3741
-add.period$ -- 151
-call.type$ -- 120
-change.case$ -- 0
+* -- 1552
+:= -- 3770
+add.period$ -- 152
+call.type$ -- 119
+change.case$ -- 1
 chr.to.int$ -- 0
-cite$ -- 229
-duplicate$ -- 1708
-empty$ -- 2560
+cite$ -- 206
+duplicate$ -- 1714
+empty$ -- 2553
 format.name$ -- 325
-if$ -- 6798
+if$ -- 6818
 int.to.chr$ -- 0
-int.to.str$ -- 120
-missing$ -- 147
-newline$ -- 394
+int.to.str$ -- 119
+missing$ -- 151
+newline$ -- 393
 num.names$ -- 118
-pop$ -- 615
+pop$ -- 564
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1115
+skip$ -- 1105
 stack$ -- 0
 substring$ -- 658
-swap$ -- 726
+swap$ -- 751
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 109
+warning$ -- 87
 while$ -- 201
-width$ -- 123
-write$ -- 1038
+width$ -- 122
+write$ -- 1060
 (There were 2 error messages)
