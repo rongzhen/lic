@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.16)  27 JAN 2015 21:18
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.16)  28 JAN 2015 17:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2122,40 +2122,40 @@ lus lo-cal or-bitals (APW+lo),
  []
 
 [32] [33]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 1465.
-
-
-Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instea
-d on input line 1468.
-
-[34]
-Overfull \hbox (5.7372pt too wide) in paragraph at lines 1531--1533
+Overfull \hbox (5.7372pt too wide) in paragraph at lines 1469--1471
 \T1/ppl/m/n/12 Non-relativistic quan-tum me-chan-ics has broad ap-pli-ca-tion. 
 How-ever, the non-relativistic
  []
 
-[35]
-Overfull \hbox (0.96107pt too wide) in paragraph at lines 1587--1588
+[34]
+Overfull \hbox (0.96107pt too wide) in paragraph at lines 1525--1526
 \T1/ppl/m/n/12 In or-der to de-rive the spin-orbit cou-pling term, we need to t
 ake use of the non-relativistic
  []
 
-[36] [37] [38] [39
+[35]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <17.28> on input line 1603.
 
-] [40] [41]
-Overfull \hbox (4.0218pt too wide) in paragraph at lines 2187--2194
+
+Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instea
+d on input line 1606.
+
+[36] [37] [38] [39] [40] [41
+
+] [42] [43]
+Overfull \hbox (4.0218pt too wide) in paragraph at lines 2273--2280
 \T1/ppl/m/n/12 In de-tails, the over-all re-sults are: (i) the three up-per-mos
 t va-lence bands (VBs) are strongly
  []
 
-[42] [43] [44]
-Overfull \hbox (3.42172pt too wide) in paragraph at lines 2268--2271
+[44] [45] [46]
+Overfull \hbox (3.42172pt too wide) in paragraph at lines 2354--2357
 []\T1/ppl/m/n/12 By un-der-stand-ing the elec-tronic and op-ti-cal prop-er-ties
  of CIGS, we have the ba-sic knowl-
  []
 
-[45] [45] [47
+[47] [47] [47
 
 ] [47] (./thesis.bbl
 bibitemlist
@@ -2173,10 +2173,10 @@ l/m/n/12 .  Ger-many: Zen-trum für
 
 pdfTeX warning: /usr/bin/pdflatex (file ./paper1new11.pdf): PDF inclusion: foun
 d PDF version <1.6>, but at most version <1.4> allowed
-<paper1new11.pdf, id=886, 597.50829pt x 574.0346pt>
+<paper1new11.pdf, id=893, 597.50829pt x 574.0346pt>
 File: paper1new11.pdf Graphic file (type pdf)
  <use paper1new11.pdf>
-Package pdftex.def Info: paper1new11.pdf used on input line 2462.
+Package pdftex.def Info: paper1new11.pdf used on input line 2548.
 (pdftex.def)             Requested size: 597.50682pt x 574.0332pt.
 
 
@@ -2184,7 +2184,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./paper1new11.pdf): PDF inclusion: foun
 d PDF version <1.6>, but at most version <1.4> allowed
 File: paper1new11.pdf Graphic file (type pdf)
 <use paper1new11.pdf>
-Package pdftex.def Info: paper1new11.pdf used on input line 2462.
+Package pdftex.def Info: paper1new11.pdf used on input line 2548.
 (pdftex.def)             Requested size: 597.50682pt x 574.0332pt.
 
 
@@ -2194,29 +2194,29 @@ d PDF version <1.6>, but at most version <1.4> allowed
 
 pdfTeX warning: /usr/bin/pdflatex (file ./paper1new11.pdf): PDF inclusion: foun
 d PDF version <1.6>, but at most version <1.4> allowed
-<paper1new11.pdf, id=889, page=1, 597.50829pt x 574.0346pt>
+<paper1new11.pdf, id=896, page=1, 597.50829pt x 574.0346pt>
 File: paper1new11.pdf Graphic file (type pdf)
 
 <use paper1new11.pdf, page 1>
-Package pdftex.def Info: paper1new11.pdf, page1 used on input line 2462.
+Package pdftex.def Info: paper1new11.pdf, page1 used on input line 2548.
 (pdftex.def)             Requested size: 597.50682pt x 574.0332pt.
 File: paper1new11.pdf Graphic file (type pdf)
  <use paper1new11.pdf, page 1>
-Package pdftex.def Info: paper1new11.pdf, page1 used on input line 2462.
+Package pdftex.def Info: paper1new11.pdf, page1 used on input line 2548.
 (pdftex.def)             Requested size: 597.50682pt x 574.0332pt.
 File: paper1new11.pdf Graphic file (type pdf)
 
 <use paper1new11.pdf, page 1>
-Package pdftex.def Info: paper1new11.pdf, page1 used on input line 2462.
+Package pdftex.def Info: paper1new11.pdf, page1 used on input line 2548.
 (pdftex.def)             Requested size: 597.50682pt x 574.0332pt.
  [58 <./paper1new11.pdf>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./paper1new111.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.4> allowed
-<paper1new111.pdf, id=967, 597.50829pt x 709.54085pt>
+<paper1new111.pdf, id=974, 597.50829pt x 709.54085pt>
 File: paper1new111.pdf Graphic file (type pdf)
  <use paper1new111.pdf>
-Package pdftex.def Info: paper1new111.pdf used on input line 2463.
+Package pdftex.def Info: paper1new111.pdf used on input line 2549.
 (pdftex.def)             Requested size: 597.50682pt x 709.53911pt.
 
 
@@ -2224,7 +2224,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./paper1new111.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.4> allowed
 File: paper1new111.pdf Graphic file (type pdf)
 <use paper1new111.pdf>
-Package pdftex.def Info: paper1new111.pdf used on input line 2463.
+Package pdftex.def Info: paper1new111.pdf used on input line 2549.
 (pdftex.def)             Requested size: 597.50682pt x 709.53911pt.
 
 
@@ -2234,86 +2234,86 @@ nd PDF version <1.6>, but at most version <1.4> allowed
 
 pdfTeX warning: /usr/bin/pdflatex (file ./paper1new111.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.4> allowed
-<paper1new111.pdf, id=970, page=1, 597.50829pt x 709.54085pt>
+<paper1new111.pdf, id=977, page=1, 597.50829pt x 709.54085pt>
 File: paper1new111.pdf Graphic file (type pdf)
 
 <use paper1new111.pdf, page 1>
-Package pdftex.def Info: paper1new111.pdf, page1 used on input line 2463.
+Package pdftex.def Info: paper1new111.pdf, page1 used on input line 2549.
 (pdftex.def)             Requested size: 597.50682pt x 709.53911pt.
 File: paper1new111.pdf Graphic file (type pdf)
  <use paper1new111.pdf, page 1>
-Package pdftex.def Info: paper1new111.pdf, page1 used on input line 2463.
+Package pdftex.def Info: paper1new111.pdf, page1 used on input line 2549.
 (pdftex.def)             Requested size: 597.50682pt x 709.53911pt.
 File: paper1new111.pdf Graphic file (type pdf)
 
 <use paper1new111.pdf, page 1>
-Package pdftex.def Info: paper1new111.pdf, page1 used on input line 2463.
+Package pdftex.def Info: paper1new111.pdf, page1 used on input line 2549.
 (pdftex.def)             Requested size: 597.50682pt x 709.53911pt.
  [59 <./paper1new111.pdf>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./paper1new111.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.4> allowed
-<paper1new111.pdf, id=1048, page=2, 597.50829pt x 709.54085pt>
+<paper1new111.pdf, id=1054, page=2, 597.50829pt x 709.54085pt>
 File: paper1new111.pdf Graphic file (type pdf)
 
 <use paper1new111.pdf, page 2>
-Package pdftex.def Info: paper1new111.pdf, page2 used on input line 2463.
+Package pdftex.def Info: paper1new111.pdf, page2 used on input line 2549.
 (pdftex.def)             Requested size: 597.50682pt x 709.53911pt.
 File: paper1new111.pdf Graphic file (type pdf)
  <use paper1new111.pdf, page 2>
-Package pdftex.def Info: paper1new111.pdf, page2 used on input line 2463.
+Package pdftex.def Info: paper1new111.pdf, page2 used on input line 2549.
 (pdftex.def)             Requested size: 597.50682pt x 709.53911pt.
 File: paper1new111.pdf Graphic file (type pdf)
 
 <use paper1new111.pdf, page 2>
-Package pdftex.def Info: paper1new111.pdf, page2 used on input line 2463.
+Package pdftex.def Info: paper1new111.pdf, page2 used on input line 2549.
 (pdftex.def)             Requested size: 597.50682pt x 709.53911pt.
  [60 <./paper1new111.pdf>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./paper1new111.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.4> allowed
-<paper1new111.pdf, id=1067, page=3, 597.50829pt x 709.54085pt>
+<paper1new111.pdf, id=1073, page=3, 597.50829pt x 709.54085pt>
 File: paper1new111.pdf Graphic file (type pdf)
 
 <use paper1new111.pdf, page 3>
-Package pdftex.def Info: paper1new111.pdf, page3 used on input line 2463.
+Package pdftex.def Info: paper1new111.pdf, page3 used on input line 2549.
 (pdftex.def)             Requested size: 597.50682pt x 709.53911pt.
 File: paper1new111.pdf Graphic file (type pdf)
  <use paper1new111.pdf, page 3>
-Package pdftex.def Info: paper1new111.pdf, page3 used on input line 2463.
+Package pdftex.def Info: paper1new111.pdf, page3 used on input line 2549.
 (pdftex.def)             Requested size: 597.50682pt x 709.53911pt.
 File: paper1new111.pdf Graphic file (type pdf)
 
 <use paper1new111.pdf, page 3>
-Package pdftex.def Info: paper1new111.pdf, page3 used on input line 2463.
+Package pdftex.def Info: paper1new111.pdf, page3 used on input line 2549.
 (pdftex.def)             Requested size: 597.50682pt x 709.53911pt.
  [61 <./paper1new111.pdf>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./paper1new111.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.4> allowed
-<paper1new111.pdf, id=1081, page=4, 597.50829pt x 709.54085pt>
+<paper1new111.pdf, id=1087, page=4, 597.50829pt x 709.54085pt>
 File: paper1new111.pdf Graphic file (type pdf)
 
 <use paper1new111.pdf, page 4>
-Package pdftex.def Info: paper1new111.pdf, page4 used on input line 2463.
+Package pdftex.def Info: paper1new111.pdf, page4 used on input line 2549.
 (pdftex.def)             Requested size: 597.50682pt x 709.53911pt.
 File: paper1new111.pdf Graphic file (type pdf)
  <use paper1new111.pdf, page 4>
-Package pdftex.def Info: paper1new111.pdf, page4 used on input line 2463.
+Package pdftex.def Info: paper1new111.pdf, page4 used on input line 2549.
 (pdftex.def)             Requested size: 597.50682pt x 709.53911pt.
 File: paper1new111.pdf Graphic file (type pdf)
 
 <use paper1new111.pdf, page 4>
-Package pdftex.def Info: paper1new111.pdf, page4 used on input line 2463.
+Package pdftex.def Info: paper1new111.pdf, page4 used on input line 2549.
 (pdftex.def)             Requested size: 597.50682pt x 709.53911pt.
  [62 <./paper1new111.pdf>] [63]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./paper2new11.pdf): PDF inclusion: foun
 d PDF version <1.6>, but at most version <1.4> allowed
-<paper2new11.pdf, id=1096, 614.295pt x 704.60439pt>
+<paper2new11.pdf, id=1103, 614.295pt x 704.60439pt>
 File: paper2new11.pdf Graphic file (type pdf)
  <use paper2new11.pdf>
-Package pdftex.def Info: paper2new11.pdf used on input line 2472.
+Package pdftex.def Info: paper2new11.pdf used on input line 2558.
 (pdftex.def)             Requested size: 614.29349pt x 704.60266pt.
 
 
@@ -2321,7 +2321,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./paper2new11.pdf): PDF inclusion: foun
 d PDF version <1.6>, but at most version <1.4> allowed
 File: paper2new11.pdf Graphic file (type pdf)
 <use paper2new11.pdf>
-Package pdftex.def Info: paper2new11.pdf used on input line 2472.
+Package pdftex.def Info: paper2new11.pdf used on input line 2558.
 (pdftex.def)             Requested size: 614.29349pt x 704.60266pt.
 
 
@@ -2331,29 +2331,29 @@ d PDF version <1.6>, but at most version <1.4> allowed
 
 pdfTeX warning: /usr/bin/pdflatex (file ./paper2new11.pdf): PDF inclusion: foun
 d PDF version <1.6>, but at most version <1.4> allowed
-<paper2new11.pdf, id=1099, page=1, 614.295pt x 704.60439pt>
+<paper2new11.pdf, id=1106, page=1, 614.295pt x 704.60439pt>
 File: paper2new11.pdf Graphic file (type pdf)
 
 <use paper2new11.pdf, page 1>
-Package pdftex.def Info: paper2new11.pdf, page1 used on input line 2472.
+Package pdftex.def Info: paper2new11.pdf, page1 used on input line 2558.
 (pdftex.def)             Requested size: 614.29349pt x 704.60266pt.
 File: paper2new11.pdf Graphic file (type pdf)
  <use paper2new11.pdf, page 1>
-Package pdftex.def Info: paper2new11.pdf, page1 used on input line 2472.
+Package pdftex.def Info: paper2new11.pdf, page1 used on input line 2558.
 (pdftex.def)             Requested size: 614.29349pt x 704.60266pt.
 File: paper2new11.pdf Graphic file (type pdf)
 
 <use paper2new11.pdf, page 1>
-Package pdftex.def Info: paper2new11.pdf, page1 used on input line 2472.
+Package pdftex.def Info: paper2new11.pdf, page1 used on input line 2558.
 (pdftex.def)             Requested size: 614.29349pt x 704.60266pt.
  [64 <./paper2new11.pdf>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./paper2new111.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.4> allowed
-<paper2new111.pdf, id=1142, 614.295pt x 758.80688pt>
+<paper2new111.pdf, id=1149, 614.295pt x 758.80688pt>
 File: paper2new111.pdf Graphic file (type pdf)
  <use paper2new111.pdf>
-Package pdftex.def Info: paper2new111.pdf used on input line 2473.
+Package pdftex.def Info: paper2new111.pdf used on input line 2559.
 (pdftex.def)             Requested size: 614.29349pt x 758.80504pt.
 
 
@@ -2361,7 +2361,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./paper2new111.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.4> allowed
 File: paper2new111.pdf Graphic file (type pdf)
 <use paper2new111.pdf>
-Package pdftex.def Info: paper2new111.pdf used on input line 2473.
+Package pdftex.def Info: paper2new111.pdf used on input line 2559.
 (pdftex.def)             Requested size: 614.29349pt x 758.80504pt.
 
 
@@ -2371,200 +2371,200 @@ nd PDF version <1.6>, but at most version <1.4> allowed
 
 pdfTeX warning: /usr/bin/pdflatex (file ./paper2new111.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.4> allowed
-<paper2new111.pdf, id=1145, page=1, 614.295pt x 758.80688pt>
+<paper2new111.pdf, id=1152, page=1, 614.295pt x 758.80688pt>
 File: paper2new111.pdf Graphic file (type pdf)
 
 <use paper2new111.pdf, page 1>
-Package pdftex.def Info: paper2new111.pdf, page1 used on input line 2473.
+Package pdftex.def Info: paper2new111.pdf, page1 used on input line 2559.
 (pdftex.def)             Requested size: 614.29349pt x 758.80504pt.
 File: paper2new111.pdf Graphic file (type pdf)
  <use paper2new111.pdf, page 1>
-Package pdftex.def Info: paper2new111.pdf, page1 used on input line 2473.
+Package pdftex.def Info: paper2new111.pdf, page1 used on input line 2559.
 (pdftex.def)             Requested size: 614.29349pt x 758.80504pt.
 File: paper2new111.pdf Graphic file (type pdf)
 
 <use paper2new111.pdf, page 1>
-Package pdftex.def Info: paper2new111.pdf, page1 used on input line 2473.
+Package pdftex.def Info: paper2new111.pdf, page1 used on input line 2559.
 (pdftex.def)             Requested size: 614.29349pt x 758.80504pt.
  [65 <./paper2new111.pdf>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./paper2new111.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.4> allowed
-<paper2new111.pdf, id=1192, page=2, 614.295pt x 758.80688pt>
+<paper2new111.pdf, id=1198, page=2, 614.295pt x 758.80688pt>
 File: paper2new111.pdf Graphic file (type pdf)
 
 <use paper2new111.pdf, page 2>
-Package pdftex.def Info: paper2new111.pdf, page2 used on input line 2473.
+Package pdftex.def Info: paper2new111.pdf, page2 used on input line 2559.
 (pdftex.def)             Requested size: 614.29349pt x 758.80504pt.
 File: paper2new111.pdf Graphic file (type pdf)
  <use paper2new111.pdf, page 2>
-Package pdftex.def Info: paper2new111.pdf, page2 used on input line 2473.
+Package pdftex.def Info: paper2new111.pdf, page2 used on input line 2559.
 (pdftex.def)             Requested size: 614.29349pt x 758.80504pt.
 File: paper2new111.pdf Graphic file (type pdf)
 
 <use paper2new111.pdf, page 2>
-Package pdftex.def Info: paper2new111.pdf, page2 used on input line 2473.
+Package pdftex.def Info: paper2new111.pdf, page2 used on input line 2559.
 (pdftex.def)             Requested size: 614.29349pt x 758.80504pt.
  [66 <./paper2new111.pdf>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./paper2new111.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.4> allowed
-<paper2new111.pdf, id=1203, page=3, 614.295pt x 758.80688pt>
+<paper2new111.pdf, id=1209, page=3, 614.295pt x 758.80688pt>
 File: paper2new111.pdf Graphic file (type pdf)
 
 <use paper2new111.pdf, page 3>
-Package pdftex.def Info: paper2new111.pdf, page3 used on input line 2473.
+Package pdftex.def Info: paper2new111.pdf, page3 used on input line 2559.
 (pdftex.def)             Requested size: 614.29349pt x 758.80504pt.
 File: paper2new111.pdf Graphic file (type pdf)
  <use paper2new111.pdf, page 3>
-Package pdftex.def Info: paper2new111.pdf, page3 used on input line 2473.
+Package pdftex.def Info: paper2new111.pdf, page3 used on input line 2559.
 (pdftex.def)             Requested size: 614.29349pt x 758.80504pt.
 File: paper2new111.pdf Graphic file (type pdf)
 
 <use paper2new111.pdf, page 3>
-Package pdftex.def Info: paper2new111.pdf, page3 used on input line 2473.
+Package pdftex.def Info: paper2new111.pdf, page3 used on input line 2559.
 (pdftex.def)             Requested size: 614.29349pt x 758.80504pt.
  [67 <./paper2new111.pdf>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./paper2new111.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.4> allowed
-<paper2new111.pdf, id=1216, page=4, 614.295pt x 758.80688pt>
+<paper2new111.pdf, id=1222, page=4, 614.295pt x 758.80688pt>
 File: paper2new111.pdf Graphic file (type pdf)
 
 <use paper2new111.pdf, page 4>
-Package pdftex.def Info: paper2new111.pdf, page4 used on input line 2473.
+Package pdftex.def Info: paper2new111.pdf, page4 used on input line 2559.
 (pdftex.def)             Requested size: 614.29349pt x 758.80504pt.
 File: paper2new111.pdf Graphic file (type pdf)
  <use paper2new111.pdf, page 4>
-Package pdftex.def Info: paper2new111.pdf, page4 used on input line 2473.
+Package pdftex.def Info: paper2new111.pdf, page4 used on input line 2559.
 (pdftex.def)             Requested size: 614.29349pt x 758.80504pt.
 File: paper2new111.pdf Graphic file (type pdf)
 
 <use paper2new111.pdf, page 4>
-Package pdftex.def Info: paper2new111.pdf, page4 used on input line 2473.
+Package pdftex.def Info: paper2new111.pdf, page4 used on input line 2559.
 (pdftex.def)             Requested size: 614.29349pt x 758.80504pt.
  [68 <./paper2new111.pdf>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./paper2new111.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.4> allowed
-<paper2new111.pdf, id=1222, page=5, 614.295pt x 758.80688pt>
+<paper2new111.pdf, id=1228, page=5, 614.295pt x 758.80688pt>
 File: paper2new111.pdf Graphic file (type pdf)
 
 <use paper2new111.pdf, page 5>
-Package pdftex.def Info: paper2new111.pdf, page5 used on input line 2473.
+Package pdftex.def Info: paper2new111.pdf, page5 used on input line 2559.
 (pdftex.def)             Requested size: 614.29349pt x 758.80504pt.
 File: paper2new111.pdf Graphic file (type pdf)
  <use paper2new111.pdf, page 5>
-Package pdftex.def Info: paper2new111.pdf, page5 used on input line 2473.
+Package pdftex.def Info: paper2new111.pdf, page5 used on input line 2559.
 (pdftex.def)             Requested size: 614.29349pt x 758.80504pt.
 File: paper2new111.pdf Graphic file (type pdf)
 
 <use paper2new111.pdf, page 5>
-Package pdftex.def Info: paper2new111.pdf, page5 used on input line 2473.
+Package pdftex.def Info: paper2new111.pdf, page5 used on input line 2559.
 (pdftex.def)             Requested size: 614.29349pt x 758.80504pt.
  [69 <./paper2new111.pdf>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./paper2new111.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.4> allowed
-<paper2new111.pdf, id=1228, page=6, 614.295pt x 758.80688pt>
+<paper2new111.pdf, id=1235, page=6, 614.295pt x 758.80688pt>
 File: paper2new111.pdf Graphic file (type pdf)
 
 <use paper2new111.pdf, page 6>
-Package pdftex.def Info: paper2new111.pdf, page6 used on input line 2473.
+Package pdftex.def Info: paper2new111.pdf, page6 used on input line 2559.
 (pdftex.def)             Requested size: 614.29349pt x 758.80504pt.
 File: paper2new111.pdf Graphic file (type pdf)
  <use paper2new111.pdf, page 6>
-Package pdftex.def Info: paper2new111.pdf, page6 used on input line 2473.
+Package pdftex.def Info: paper2new111.pdf, page6 used on input line 2559.
 (pdftex.def)             Requested size: 614.29349pt x 758.80504pt.
 File: paper2new111.pdf Graphic file (type pdf)
 
 <use paper2new111.pdf, page 6>
-Package pdftex.def Info: paper2new111.pdf, page6 used on input line 2473.
+Package pdftex.def Info: paper2new111.pdf, page6 used on input line 2559.
 (pdftex.def)             Requested size: 614.29349pt x 758.80504pt.
  [70 <./paper2new111.pdf>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./paper2new111.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.4> allowed
-<paper2new111.pdf, id=1234, page=7, 614.295pt x 758.80688pt>
+<paper2new111.pdf, id=1241, page=7, 614.295pt x 758.80688pt>
 File: paper2new111.pdf Graphic file (type pdf)
 
 <use paper2new111.pdf, page 7>
-Package pdftex.def Info: paper2new111.pdf, page7 used on input line 2473.
+Package pdftex.def Info: paper2new111.pdf, page7 used on input line 2559.
 (pdftex.def)             Requested size: 614.29349pt x 758.80504pt.
 File: paper2new111.pdf Graphic file (type pdf)
  <use paper2new111.pdf, page 7>
-Package pdftex.def Info: paper2new111.pdf, page7 used on input line 2473.
+Package pdftex.def Info: paper2new111.pdf, page7 used on input line 2559.
 (pdftex.def)             Requested size: 614.29349pt x 758.80504pt.
 File: paper2new111.pdf Graphic file (type pdf)
 
 <use paper2new111.pdf, page 7>
-Package pdftex.def Info: paper2new111.pdf, page7 used on input line 2473.
+Package pdftex.def Info: paper2new111.pdf, page7 used on input line 2559.
 (pdftex.def)             Requested size: 614.29349pt x 758.80504pt.
  [71 <./paper2new111.pdf>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./paper2new111.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.4> allowed
-<paper2new111.pdf, id=1241, page=8, 614.295pt x 758.80688pt>
+<paper2new111.pdf, id=1247, page=8, 614.295pt x 758.80688pt>
 File: paper2new111.pdf Graphic file (type pdf)
 
 <use paper2new111.pdf, page 8>
-Package pdftex.def Info: paper2new111.pdf, page8 used on input line 2473.
+Package pdftex.def Info: paper2new111.pdf, page8 used on input line 2559.
 (pdftex.def)             Requested size: 614.29349pt x 758.80504pt.
 File: paper2new111.pdf Graphic file (type pdf)
  <use paper2new111.pdf, page 8>
-Package pdftex.def Info: paper2new111.pdf, page8 used on input line 2473.
+Package pdftex.def Info: paper2new111.pdf, page8 used on input line 2559.
 (pdftex.def)             Requested size: 614.29349pt x 758.80504pt.
 File: paper2new111.pdf Graphic file (type pdf)
 
 <use paper2new111.pdf, page 8>
-Package pdftex.def Info: paper2new111.pdf, page8 used on input line 2473.
+Package pdftex.def Info: paper2new111.pdf, page8 used on input line 2559.
 (pdftex.def)             Requested size: 614.29349pt x 758.80504pt.
  [72 <./paper2new111.pdf>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./paper2new111.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.4> allowed
-<paper2new111.pdf, id=1247, page=9, 614.295pt x 758.80688pt>
+<paper2new111.pdf, id=1253, page=9, 614.295pt x 758.80688pt>
 File: paper2new111.pdf Graphic file (type pdf)
 
 <use paper2new111.pdf, page 9>
-Package pdftex.def Info: paper2new111.pdf, page9 used on input line 2473.
+Package pdftex.def Info: paper2new111.pdf, page9 used on input line 2559.
 (pdftex.def)             Requested size: 614.29349pt x 758.80504pt.
 File: paper2new111.pdf Graphic file (type pdf)
  <use paper2new111.pdf, page 9>
-Package pdftex.def Info: paper2new111.pdf, page9 used on input line 2473.
+Package pdftex.def Info: paper2new111.pdf, page9 used on input line 2559.
 (pdftex.def)             Requested size: 614.29349pt x 758.80504pt.
 File: paper2new111.pdf Graphic file (type pdf)
 
 <use paper2new111.pdf, page 9>
-Package pdftex.def Info: paper2new111.pdf, page9 used on input line 2473.
+Package pdftex.def Info: paper2new111.pdf, page9 used on input line 2559.
 (pdftex.def)             Requested size: 614.29349pt x 758.80504pt.
  [73 <./paper2new111.pdf>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./paper2new111.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.4> allowed
-<paper2new111.pdf, id=1253, page=10, 614.295pt x 758.80688pt>
+<paper2new111.pdf, id=1259, page=10, 614.295pt x 758.80688pt>
 File: paper2new111.pdf Graphic file (type pdf)
 
 <use paper2new111.pdf, page 10>
-Package pdftex.def Info: paper2new111.pdf, page10 used on input line 2473.
+Package pdftex.def Info: paper2new111.pdf, page10 used on input line 2559.
 (pdftex.def)             Requested size: 614.29349pt x 758.80504pt.
 File: paper2new111.pdf Graphic file (type pdf)
  <use paper2new111.pdf, page 10>
-Package pdftex.def Info: paper2new111.pdf, page10 used on input line 2473.
+Package pdftex.def Info: paper2new111.pdf, page10 used on input line 2559.
 (pdftex.def)             Requested size: 614.29349pt x 758.80504pt.
 File: paper2new111.pdf Graphic file (type pdf)
 
 <use paper2new111.pdf, page 10>
-Package pdftex.def Info: paper2new111.pdf, page10 used on input line 2473.
+Package pdftex.def Info: paper2new111.pdf, page10 used on input line 2559.
 (pdftex.def)             Requested size: 614.29349pt x 758.80504pt.
  [74 <./paper2new111.pdf>] [75]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./paper3new11.pdf): PDF inclusion: foun
 d PDF version <1.6>, but at most version <1.4> allowed
-<paper3new11.pdf, id=1260, 614.295pt x 713.63812pt>
+<paper3new11.pdf, id=1267, 614.295pt x 713.63812pt>
 File: paper3new11.pdf Graphic file (type pdf)
  <use paper3new11.pdf>
-Package pdftex.def Info: paper3new11.pdf used on input line 2482.
+Package pdftex.def Info: paper3new11.pdf used on input line 2568.
 (pdftex.def)             Requested size: 614.29349pt x 713.63638pt.
 
 
@@ -2572,7 +2572,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./paper3new11.pdf): PDF inclusion: foun
 d PDF version <1.6>, but at most version <1.4> allowed
 File: paper3new11.pdf Graphic file (type pdf)
 <use paper3new11.pdf>
-Package pdftex.def Info: paper3new11.pdf used on input line 2482.
+Package pdftex.def Info: paper3new11.pdf used on input line 2568.
 (pdftex.def)             Requested size: 614.29349pt x 713.63638pt.
 
 
@@ -2582,29 +2582,29 @@ d PDF version <1.6>, but at most version <1.4> allowed
 
 pdfTeX warning: /usr/bin/pdflatex (file ./paper3new11.pdf): PDF inclusion: foun
 d PDF version <1.6>, but at most version <1.4> allowed
-<paper3new11.pdf, id=1263, page=1, 614.295pt x 713.63812pt>
+<paper3new11.pdf, id=1270, page=1, 614.295pt x 713.63812pt>
 File: paper3new11.pdf Graphic file (type pdf)
 
 <use paper3new11.pdf, page 1>
-Package pdftex.def Info: paper3new11.pdf, page1 used on input line 2482.
+Package pdftex.def Info: paper3new11.pdf, page1 used on input line 2568.
 (pdftex.def)             Requested size: 614.29349pt x 713.63638pt.
 File: paper3new11.pdf Graphic file (type pdf)
  <use paper3new11.pdf, page 1>
-Package pdftex.def Info: paper3new11.pdf, page1 used on input line 2482.
+Package pdftex.def Info: paper3new11.pdf, page1 used on input line 2568.
 (pdftex.def)             Requested size: 614.29349pt x 713.63638pt.
 File: paper3new11.pdf Graphic file (type pdf)
 
 <use paper3new11.pdf, page 1>
-Package pdftex.def Info: paper3new11.pdf, page1 used on input line 2482.
+Package pdftex.def Info: paper3new11.pdf, page1 used on input line 2568.
 (pdftex.def)             Requested size: 614.29349pt x 713.63638pt.
  [76 <./paper3new11.pdf>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./paper3new111.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.4> allowed
-<paper3new111.pdf, id=1298, 614.295pt x 767.84064pt>
+<paper3new111.pdf, id=1305, 614.295pt x 767.84064pt>
 File: paper3new111.pdf Graphic file (type pdf)
  <use paper3new111.pdf>
-Package pdftex.def Info: paper3new111.pdf used on input line 2483.
+Package pdftex.def Info: paper3new111.pdf used on input line 2569.
 (pdftex.def)             Requested size: 614.29349pt x 767.83878pt.
 
 
@@ -2612,7 +2612,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./paper3new111.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.4> allowed
 File: paper3new111.pdf Graphic file (type pdf)
 <use paper3new111.pdf>
-Package pdftex.def Info: paper3new111.pdf used on input line 2483.
+Package pdftex.def Info: paper3new111.pdf used on input line 2569.
 (pdftex.def)             Requested size: 614.29349pt x 767.83878pt.
 
 
@@ -2622,58 +2622,58 @@ nd PDF version <1.6>, but at most version <1.4> allowed
 
 pdfTeX warning: /usr/bin/pdflatex (file ./paper3new111.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.4> allowed
-<paper3new111.pdf, id=1301, page=1, 614.295pt x 767.84064pt>
+<paper3new111.pdf, id=1308, page=1, 614.295pt x 767.84064pt>
 File: paper3new111.pdf Graphic file (type pdf)
 
 <use paper3new111.pdf, page 1>
-Package pdftex.def Info: paper3new111.pdf, page1 used on input line 2483.
+Package pdftex.def Info: paper3new111.pdf, page1 used on input line 2569.
 (pdftex.def)             Requested size: 614.29349pt x 767.83878pt.
 File: paper3new111.pdf Graphic file (type pdf)
  <use paper3new111.pdf, page 1>
-Package pdftex.def Info: paper3new111.pdf, page1 used on input line 2483.
+Package pdftex.def Info: paper3new111.pdf, page1 used on input line 2569.
 (pdftex.def)             Requested size: 614.29349pt x 767.83878pt.
 File: paper3new111.pdf Graphic file (type pdf)
 
 <use paper3new111.pdf, page 1>
-Package pdftex.def Info: paper3new111.pdf, page1 used on input line 2483.
+Package pdftex.def Info: paper3new111.pdf, page1 used on input line 2569.
 (pdftex.def)             Requested size: 614.29349pt x 767.83878pt.
  [77 <./paper3new111.pdf>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./paper3new111.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.4> allowed
-<paper3new111.pdf, id=1341, page=2, 614.295pt x 767.84064pt>
+<paper3new111.pdf, id=1347, page=2, 614.295pt x 767.84064pt>
 File: paper3new111.pdf Graphic file (type pdf)
 
 <use paper3new111.pdf, page 2>
-Package pdftex.def Info: paper3new111.pdf, page2 used on input line 2483.
+Package pdftex.def Info: paper3new111.pdf, page2 used on input line 2569.
 (pdftex.def)             Requested size: 614.29349pt x 767.83878pt.
 File: paper3new111.pdf Graphic file (type pdf)
  <use paper3new111.pdf, page 2>
-Package pdftex.def Info: paper3new111.pdf, page2 used on input line 2483.
+Package pdftex.def Info: paper3new111.pdf, page2 used on input line 2569.
 (pdftex.def)             Requested size: 614.29349pt x 767.83878pt.
 File: paper3new111.pdf Graphic file (type pdf)
 
 <use paper3new111.pdf, page 2>
-Package pdftex.def Info: paper3new111.pdf, page2 used on input line 2483.
+Package pdftex.def Info: paper3new111.pdf, page2 used on input line 2569.
 (pdftex.def)             Requested size: 614.29349pt x 767.83878pt.
  [78 <./paper3new111.pdf>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./paper3new111.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.4> allowed
-<paper3new111.pdf, id=1361, page=3, 614.295pt x 767.84064pt>
+<paper3new111.pdf, id=1367, page=3, 614.295pt x 767.84064pt>
 File: paper3new111.pdf Graphic file (type pdf)
 
 <use paper3new111.pdf, page 3>
-Package pdftex.def Info: paper3new111.pdf, page3 used on input line 2483.
+Package pdftex.def Info: paper3new111.pdf, page3 used on input line 2569.
 (pdftex.def)             Requested size: 614.29349pt x 767.83878pt.
 File: paper3new111.pdf Graphic file (type pdf)
  <use paper3new111.pdf, page 3>
-Package pdftex.def Info: paper3new111.pdf, page3 used on input line 2483.
+Package pdftex.def Info: paper3new111.pdf, page3 used on input line 2569.
 (pdftex.def)             Requested size: 614.29349pt x 767.83878pt.
 File: paper3new111.pdf Graphic file (type pdf)
 
 <use paper3new111.pdf, page 3>
-Package pdftex.def Info: paper3new111.pdf, page3 used on input line 2483.
+Package pdftex.def Info: paper3new111.pdf, page3 used on input line 2569.
 (pdftex.def)             Requested size: 614.29349pt x 767.83878pt.
  [79 <./paper3new111.pdf>]
 \tf@toc=\write5
@@ -2681,15 +2681,15 @@ Package pdftex.def Info: paper3new111.pdf, page3 used on input line 2483.
 
  (./thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 28540 strings out of 494989
- 558613 string characters out of 6180577
+ 28548 strings out of 494989
+ 558695 string characters out of 6180577
  614965 words of memory out of 5000000
- 31147 multiletter control sequences out of 15000+600000
+ 31155 multiletter control sequences out of 15000+600000
  137819 words of font info for 147 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  53i,23n,60p,10419b,748s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share
-/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dv
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/tex
+mf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dv
 ips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/
 texmf/fonts/enc/dvips/lm/lm-mathex.enc}</usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10
@@ -2710,9 +2710,9 @@ a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on thesis.pdf (87 pages, 8824523 bytes).
+Output written on thesis.pdf (89 pages, 8834174 bytes).
 PDF statistics:
- 1460 PDF objects out of 1728 (max. 8388607)
+ 1466 PDF objects out of 1728 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  274 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -82,55 +82,57 @@ Warning--empty title in excitingcode
 Warning--empty title in penn1962wave
 Warning--empty title in fox2002optical
 Warning--empty title in ambrosch2006linear
-Warning--empty title in kane1966k
-Warning--empty title in persson2007full
 Warning--empty title in van1994relativistic
 Warning--empty title in faas1995zora
 Warning--empty title in van1996zero
+Warning--empty title in kane1966k
+Warning--empty title in persson2007full
+Warning--empty title in suzuki1995first
+Warning--empty title in dresselhaus1955cyclotron
 Warning--empty title in persson1997relativistic
 Warning--empty title in neumann1978electrical
 Warning--empty title in paier2006screened
 Warning--empty title in wang2014device
 Warning--empty title in RevModPhys5141
-You've used 119 entries,
+You've used 122 entries,
             1876 wiz_defined-function locations,
-            1016 strings with 15778 characters,
-and the built_in function-call counts, 27055 in all, are:
-= -- 2512
-> -- 1180
+            1028 strings with 16033 characters,
+and the built_in function-call counts, 27717 in all, are:
+= -- 2574
+> -- 1210
 < -- 0
-+ -- 448
-- -- 329
-* -- 1557
-:= -- 3788
-add.period$ -- 154
-call.type$ -- 119
++ -- 459
+- -- 337
+* -- 1596
+:= -- 3881
+add.period$ -- 158
+call.type$ -- 122
 change.case$ -- 1
 chr.to.int$ -- 0
-cite$ -- 204
-duplicate$ -- 1722
-empty$ -- 2562
-format.name$ -- 329
-if$ -- 6834
+cite$ -- 209
+duplicate$ -- 1763
+empty$ -- 2625
+format.name$ -- 337
+if$ -- 7002
 int.to.chr$ -- 0
-int.to.str$ -- 119
-missing$ -- 154
-newline$ -- 395
-num.names$ -- 121
-pop$ -- 569
+int.to.str$ -- 122
+missing$ -- 158
+newline$ -- 405
+num.names$ -- 124
+pop$ -- 583
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1100
+skip$ -- 1125
 stack$ -- 0
-substring$ -- 632
-swap$ -- 751
+substring$ -- 646
+swap$ -- 768
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 85
-while$ -- 201
-width$ -- 122
-write$ -- 1066
+warning$ -- 87
+while$ -- 206
+width$ -- 125
+write$ -- 1093
 (There was 1 error message)

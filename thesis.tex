@@ -1461,68 +1461,6 @@ Here, \textbf{Eq. \ref{czr852}} equation is only valid for the diagonal of the t
 
 In this section, only some basic equations are covered when it is related to calculate the dielectric function. One can find more detailed description in Ref. \cite{ambrosch2006linear}.
 
-
-\section{\textbf{k} $\cdot$ \textbf{p} method}
-\label{kpmaa}
-
-The energy band dispersion can be obtained exactly by using the $\bold k \cdot \bold p$ method in principle. The basic idea of this method is explained in this section based on Refs. \cite{voon2009kp, kane1966k}.
-
-The non-relativistic Kohn-Sham equation (not in atomic units) is give as
-
-\begin{equation}\label{kpse}
-\Big( \frac {{\textbf p}^2} {2m_e} + V({\textbf r}) \Big) \wfbloch<n>< \bold k> = \epsilon_{n,\textbf{k}} \wfbloch<n><\bold k>.
-\end{equation}
-
-Here, $\textbf p$ is momentum operator, and the superscript "$KS$" is ignored compared with \textbf{Eq. \ref{aaa111}}. According to the Bloch theory, the wavefunction can be written as
-
-\begin{equation}\label{1}
- \wfbloch<n><\bold k> = \expg<k> \ubloch<n><\bold k>.
-\end{equation}
-
-Here, $\ubloch<n><\bold k>$ is a function, which has the same periodicity as the potential. If substituting \textbf{Eq. \ref{1}} to \textbf{Eq. \ref{kpse}}, a new equation is derived as
-
-\begin{equation}\label{kp1}
- \Big(  \frac{{\textbf p}^2}{2m_e} + V({\textbf r }) + \frac{{\hbar^2 {\textbf k}^2}}{2m_e} + \frac{{\hbar \textbf {kp}}}{m_e} \Big) \ubloch<n><\bold  k>  =  \epsilon_{n,\textbf{k}} \ubloch<n><\bold  k>.
-\end{equation}
-
-In \textbf{Eq. \ref{kp1}}, the Hamiltonian becomes $H_0 = {\textbf p}^2 / {2m_e} + V({\textbf r })$ when $\textbf k = \textbf 0$, the corresponding eigenvalue is $\epsilon_{n,\textbf{0}}$. 
-Here, terms in $H_0$ can be seen as non-perturbation terms, and remaining terms are seen as perturbation terms. From the perturbation theory, the following equation can be obtained  
-
-\begin{equation}
- \epsilon_{n,\textbf{k}} =  \epsilon_{n,\textbf{0}} + \frac{{\hbar^2 {\textbf k}^2}}{2m_e} + \frac{ \hbar^2}{m_{e}^2} \sum\limits_n^{N} \sum\limits_{n' \neq n}^{N} \frac{|<\ubloch<n><\bold 0>|{\textbf {kp}}|\ubloch<n'><\bold  0>>|^2}{\epsilon_{n,\textbf 0} - \epsilon_{n',\textbf 0}}.
-\end{equation}
-
-In the realistic implementation, the following derivation is exploited \cite{persson2007full}. Assume that the wavefunction and eigenvalue are obtained by some procedures on $\textbf{k}_0$ point. $\wfbloch<n><\bold{k}_0>$ is the corresponding wavefunction
-and $\epsilon_{n,\textbf{k}_0}$ is the corresponding eigenvalue. Luttinger-Kohn function is given as
-
-\begin{equation}\label{kp2}
-\chikp<n><\textbf k> = \expg<(\bold k-\bold {k_0})>  \wfbloch<n><\textbf{k}_0>.
-\end{equation}
-
-The wavefunction on ${ \textbf k}$ point can be expanded by $\chikp<n><\textbf k> $, which is given as
-\begin{equation}\label{kp3}
-\wfbloch<n><\bold k> =  {\sum\limits_{j}^{N}} C_{n,j}^{\bold k} \chikp<j><\bold k>. 
-\end{equation}
-
-In \textbf{Eq. \ref{kp3}}, the wavefunction can be obtained if the coefficient $C_{n,j}^{\bold k}$ is obtained. Based on \textbf{Eq. \ref{kp3}} and  \textbf{Eq. \ref{kpse}}, the following equation is derived
-
-\begin{equation}\begin{split}\label{5}
-& {\sum\limits_{j}^{N}}  C_{n,j}^{\bold k} \left(  \Big(  \epsilon_{n,\textbf{k}_0} -  \epsilon_{n,\textbf{k}}  + \frac{{\hbar}^2}{2m_e} { (\bold {k}^2- \bold {k}_0^2)}    \Big) \delta_{j',j} + \frac{\hbar}{m_e} {(\bold {k}-\bold{k}_0)} {\overline{\textbf{p}}_{j',j}} \right ) = 0 \\
-& {\overline{\textbf{p}}_{j',j}} = \langle \ubloch<j'><\textbf{k}_0>| {\textbf p} | \ubloch<j><\textbf{k}_0>  \rangle.
-\end{split}
-\end{equation}
-
-\textbf{Eq. \ref{5}} can be simplified as
- 
-\begin{equation}\begin{split}\label{6}
-& {\sum\limits_{j}} C_{n,j}^{\bold {k}} \left ( H_{j',j}-  \epsilon_{n,\textbf{k}} \delta_{j',j} \right ) =0 \\
-& H_{j',j} = \Big(   \epsilon_{n,\textbf{k}_0}  + \frac{{\hbar}^2}{2m_e} { (\bold{k}^2-\bold{k}_0^2)}    \Big) \delta_{j',j} + \frac{\hbar}{m_e} {(\bold{k}-\bold{k}_0)} {\overline{\textbf{p}}_{j',j}}.
-\end{split}
-\end{equation}
-
-Here, the coefficient $ C_{n,j}^{\bold k}$ and $\epsilon_{n,\textbf{k}}$ can be calculated. Therefore, the wavefunction on any ${ \textbf k}$ point can be obtained.
-
-
 \section{Spin-orbit coupling}
 \label{srasoc}
 
@@ -1628,7 +1566,7 @@ E^{\prime} \phi = \Big(\frac{\textbf{P}^2}{2m_e} + V - \frac{\textbf{P}^4}{8 {m_
 
 Furthermore, we can approximate the above equation to the simpler expression under spherical symmetry potential
 
-\begin{equation}
+\begin{equation}\label{socequ}
  E^{\prime} \phi = \Big(\frac{\textbf{P}^2}{2m_e} +V - \frac{\textbf{P}^4}{8 {m_e}^3 {c}^2}-\frac{i\hbar}{4{m_e}^2 {c}^2} (\nabla{V})\textbf{P}+\frac{1}{2 m_e^2 c^2} \frac{1}{R} \frac{dV}{dR}\textbf{S}\textbf{L}\Big) \phi.
 \end{equation}
 
@@ -1659,6 +1597,154 @@ Here, the Taylor expansion is utilized. The zeroth order regular approximation (
 \end{equation}
 
 The last term in \textbf{Eq. \ref{zora1}} is the spin-orbit coupling term.
+
+
+
+\section{\textbf{k} $\cdot$ \textbf{p} method}
+\label{kpmaa}
+
+The energy band dispersion can be obtained exactly by using the $\bold k \cdot \bold p$ method in principle. The basic idea of this method is explained in this section based on Refs. \cite{voon2009kp, kane1966k}.
+
+The non-relativistic Kohn-Sham equation (not in atomic units) is give as
+
+\begin{equation}\label{kpse}
+\Big( \frac {{\textbf p}^2} {2m_e} + V({\textbf r}) \Big) \wfbloch<n>< \bold k> = \epsilon_{n,\textbf{k}} \wfbloch<n><\bold k>.
+\end{equation}
+
+Here, $\textbf p$ is momentum operator, and the superscript "$KS$" is ignored compared with \textbf{Eq. \ref{aaa111}}. According to the Bloch theory, the wavefunction can be written as
+
+\begin{equation}\label{1}
+ \wfbloch<n><\bold k> = \expg<k> \ubloch<n><\bold k>.
+\end{equation}
+
+Here, $\ubloch<n><\bold k>$ is a function, which has the same periodicity as the potential. If substituting \textbf{Eq. \ref{1}} to \textbf{Eq. \ref{kpse}}, a new equation is derived as
+
+\begin{equation}\label{kp1}
+ \Big(  \frac{{\textbf p}^2}{2m_e} + V({\textbf r }) + \frac{{\hbar^2 {\textbf k}^2}}{2m_e} + \frac{{\hbar \textbf {kp}}}{m_e} \Big) \ubloch<n><\bold  k>  =  \epsilon_{n,\textbf{k}} \ubloch<n><\bold  k>.
+\end{equation}
+
+In \textbf{Eq. \ref{kp1}}, the Hamiltonian becomes $H_0 = {\textbf p}^2 / {2m_e} + V({\textbf r })$ when $\textbf k = \textbf 0$, the corresponding eigenvalue is $\epsilon_{n,\textbf{0}}$. 
+Here, terms in $H_0$ can be seen as non-perturbation terms, and remaining terms are seen as perturbation terms. From the perturbation theory, the following equation can be obtained  
+
+\begin{equation}
+ \epsilon_{n,\textbf{k}} =  \epsilon_{n,\textbf{0}} + \frac{{\hbar^2 {\textbf k}^2}}{2m_e} + \frac{ \hbar^2}{m_{e}^2} \sum\limits_n^{N} \sum\limits_{n' \neq n}^{N} \frac{|<\ubloch<n><\bold 0>|{\textbf {kp}}|\ubloch<n'><\bold  0>>|^2}{\epsilon_{n,\textbf 0} - \epsilon_{n',\textbf 0}}.
+\end{equation}
+
+In the realistic implementation, the following derivation is exploited \cite{persson2007full}. Assume that the wavefunction and eigenvalue are obtained by some procedures on $\textbf{k}_0$ point. $\wfbloch<n><\bold{k}_0>$ is the corresponding wavefunction
+and $\epsilon_{n,\textbf{k}_0}$ is the corresponding eigenvalue. Luttinger-Kohn function is given as
+
+\begin{equation}\label{kp2}
+\chikp<n><\textbf k> = \expg<(\bold k-\bold {k_0})>  \wfbloch<n><\textbf{k}_0>.
+\end{equation}
+
+The wavefunction on ${ \textbf k}$ point can be expanded by $\chikp<n><\textbf k> $, which is given as
+\begin{equation}\label{kp3}
+\wfbloch<n><\bold k> =  {\sum\limits_{j}^{N}} C_{n,j}^{\bold k} \chikp<j><\bold k>. 
+\end{equation}
+
+In \textbf{Eq. \ref{kp3}}, the wavefunction can be obtained if the coefficient $C_{n,j}^{\bold k}$ is obtained. Based on \textbf{Eq. \ref{kp3}} and  \textbf{Eq. \ref{kpse}}, the following equation is derived
+
+\begin{equation}\begin{split}\label{5}
+& {\sum\limits_{j}^{N}}  C_{n,j}^{\bold k} \left(  \Big(  \epsilon_{n,\textbf{k}_0} -  \epsilon_{n,\textbf{k}}  + \frac{{\hbar}^2}{2m_e} { (\bold {k}^2- \bold {k}_0^2)}    \Big) \delta_{j',j} + \frac{\hbar}{m_e} {(\bold {k}-\bold{k}_0)} {\overline{\textbf{p}}_{j',j}} \right ) = 0 \\
+& {\overline{\textbf{p}}_{j',j}} = \langle \ubloch<j'><\textbf{k}_0>| {\textbf p} | \ubloch<j><\textbf{k}_0>  \rangle.
+\end{split}
+\end{equation}
+
+\textbf{Eq. \ref{5}} can be simplified as
+ 
+\begin{equation}\begin{split}\label{6}
+& {\sum\limits_{j}} C_{n,j}^{\bold {k}} \left ( H_{j',j}-  \epsilon_{n,\textbf{k}} \delta_{j',j} \right ) =0 \\
+& H_{j',j} = \Big(   \epsilon_{n,\textbf{k}_0}  + \frac{{\hbar}^2}{2m_e} { (\bold{k}^2-\bold{k}_0^2)}    \Big) \delta_{j',j} + \frac{\hbar}{m_e} {(\bold{k}-\bold{k}_0)} {\overline{\textbf{p}}_{j',j}}.
+\end{split}
+\end{equation}
+
+Here, the coefficient $ C_{n,j}^{\bold k}$ and $\epsilon_{n,\textbf{k}}$ can be calculated. Therefore, the wavefunction on any ${ \textbf k}$ point can be obtained.
+
+To utilize the $\bold k \cdot \bold p$ method, top valence band dispersions near a degenerate extremum are derived briefly for zinc blende type semiconductors. Spin-orbit interaction is considered. The detailed 
+derivation can be found in Refs. \cite{fospamp2010, suzuki1995first, dresselhaus1955cyclotron, persson1997relativistic}.
+
+
+The top valence bands are with $\varGamma_4$ symmetry for zin blende structure .Wavefunctions of these valence bands are \textit{p}-like which can be represented by the eigenstates $|X>$,$|Y>$, and $|Z>$. 
+The orbital angular momentum $l$ is equal to 1 and have three degenerate states for \textit{p}-like wavefunction. The three degenerate states can be determined from magnetic quantum numbers $m_l$ (1, 0, and $-$1).
+
+\begin{equation}\begin{split}\label{77}
+& | 1, 1 > = - \frac{(|X>+i|Y>)}{\sqrt{2}} \\
+& | 1, 0 > =  |Z> \\
+& | 1, -1 > = - \frac{(|X>-i|Y>)}{\sqrt{2}}.
+\end{split}
+\end{equation}
+
+The spin-orbit coupling Hamiltonian can be given as (see \textbf{Eq. \ref{socequ}})
+
+\begin{equation}\label{88}
+H_{SO}=\frac{1}{2 m_e^2 c^2} \frac{1}{R} \frac{dV}{dR}\textbf{S}\textbf{L} = \lambda \textbf{S}\textbf{L}.
+\end{equation}
+
+The eigenfunctions of this Hamiltonian can be determined by the eigenstates of the total angular momentum (\textbf{j} = \textbf{l} + \textbf{s}) and $j_z$. In the case of $l$ = 1 and s=$\frac{1}{2}$,  $j$ is either equal to $\frac{3}{2}$
+or $\frac{1}{2}$, and $j_z$ can be decided from values $j$, $j-1$, $\cdots$, $-j$. Therefore, the eigenfunctions of spin-orbit coupling Hamiltonian can be given as 
+
+\begin{equation}\begin{split}\label{99}
+& | \frac{3}{2}, \frac{3}{2} > = |1,1> \alpha \\
+& | \frac{3}{2}, \frac{1}{2} > = \frac{|1,1> \beta + \sqrt{2} |1,0>\alpha}{\sqrt{3}} \\
+& | \frac{3}{2}, -\frac{1}{2} > = \frac{|1,-1> \alpha + \sqrt{2} |1,0>\beta}{\sqrt{3}} \\
+& | \frac{3}{2}, -\frac{3}{2} > = |1,-1> \beta \\
+& | \frac{1}{2}, \frac{1}{2} > = \frac{|1,0> \alpha - \sqrt{2} |1,1>\beta}{\sqrt{3}} \\
+& | \frac{1}{2}, -\frac{1}{2} > = \frac{|1,0> \beta - \sqrt{2} |1,-1>\alpha}{\sqrt{3}}. 
+\end{split}
+\end{equation}
+
+
+Here, $\alpha$ denotes spin-up, and $\beta$ denotes spin-down.
+
+Typically, the low conduction bands are with $\varGamma_1$ and $\varGamma_4$ symmetries. There are 14 unperturbed wavefunctions considering the valence and conduction bands. However, the 6 $\varGamma$ valence bands are of 
+interest. The interaction between valence bands and conduction bands is considered as pertubation, the effective matrix element in 6$\times$6 matrix is defined as
+
+\begin{equation} 
+ H_{ij}^{'} = H_{ij}+\sum\limits_{k \neq valence bands} \frac{H_{ik}H_{kj}}{E_i-E_k}.
+\end{equation}
+
+
+Taking advantage of valence band wavefunctions (\textbf{Eq. \ref{99}}) and conduction band wavefunctions, the matrix {$H_{ij}^{'}$} can be calculated. Assume that $k$ is so small enough that $H_{15}^{'}$, $H_{16}^{'}$,
+and $H_{25}^{'}$ can be ignored. In this case, the 6$\times$6 matrix can be further divided into a 4$\times$4 matrix and a 2$\times$2 matrix. The 2$\times$2 matrix can be treated as the case of degenerate $j$ = $\frac{1}{2}$, and 
+the energy dispersion can be derived as
+
+\begin{equation}
+ E_{v3} = -\varDelta_{SO} + \frac{\hbar^2 k^2}{2m_0} \{ 1 - \frac{2}{3} (\frac{P^2}{m(E_0 + \varDelta_{SO})} + \frac{2Q^2}{m(E_0^{'} + \varDelta_{SO})})  \}.
+\end{equation}
+
+Here, $\varDelta_{SO}$ is the spin-orbit splitting energy of the valence band. $E_0$ is the energy difference between the valence bands with $j$=$\frac{3}{2}$ and the conduction bands with symmetry $\varGamma_1$. 
+ $E_0$ is the energy difference between the valence bands with $j$=$\frac{3}{2}$ and the conduction bands with symmetry $\varGamma_4$. 
+
+The energy dispersion of the $j$ = $\frac{3}{2}$ can be calculated by diagonalizeing the 4$\times$4 matrix, which is derived as
+
+\begin{equation} \begin{split}
+& E_{v1} = -AK^2+[B^2k^4 + C^2 (k_x^{2}k_y^{2} + k_y^{2}k_z^{2} +k_z^{2}k_x^{2} )] \\
+& E_{v2} = -AK^2-[B^2k^4 + C^2 (k_x^{2}k_y^{2} + k_y^{2}k_z^{2} +k_z^{2}k_x^{2} )]
+ \end{split}
+\end{equation}
+
+Here A, B, and C are given as
+
+\begin{equation}\begin{split}\label{1010}
+ & A = \frac{\hbar^2}{2m} \{ 1 - \frac{2}{3}(\frac{P^2}{m{E_0}} + \frac{2Q^2}{m{E_0^{'}}}) \} \\
+ & B = \frac{\hbar^2}{3m} \{ \frac{-P^2}{m{E_0}} + \frac{2Q^2}{m{E_0^{'}}} \} \\
+ & C^2 = \frac{8P^2Q^2}{3m^3E_0E_0^{'}}
+ \end{split}
+\end{equation}
+
+The average effective hold masses in \textbf{Eq. \ref{1010}} can be calculated by 
+
+\begin{equation}\begin{split}
+&  m_{hh}^{-1} = \frac{1}{\hbar^2} [ -2A + 2B (1+ \frac{2|C|^2}{15B^2})] \\
+&  m_{lh}^{-1} = \frac{1}{\hbar^2} [ -2A - 2B (1+ \frac{2|C|^2}{15B^2})]
+ \end{split}
+\end{equation}
+
+
+The top valence band dispersion and effective masses can be determined if the constants A, B, and C are known. In realistic application, they are the fitting parameters. 
+
+
+
 
 
 

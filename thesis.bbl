@@ -425,17 +425,6 @@ M.~Fox and G.~F. Bertsch {\em American Journal of Physics}, vol.~70, p.~1269,
 C.~Ambrosch-Draxl and J.~O. Sofo {\em Computer Physics Communications},
   vol.~175, p.~1, 2006.
 
-\bibitem{voon2009kp}
-L.~C. L.~Y. Voon and M.~Willatzen, {\em The kp Method}.
-\newblock Springer, 2009.
-
-\bibitem{kane1966k}
-E.~Kane {\em Semiconductors and Semimetals}, vol.~1, p.~75, 1966.
-
-\bibitem{persson2007full}
-C.~Persson and C.~Ambrosch-Draxl {\em Computer Physics Communications},
-  vol.~177, p.~280, 2007.
-
 \bibitem{thaller1992dirac}
 B.~Thaller, {\em The Dirac Equation}.
 \newblock Springer-Verlag Berlin, 1992.
@@ -455,6 +444,30 @@ S.~Faas, J.~Snijders, J.~Van~Lenthe, E.~Van~Lenthe, and E.~Baerends {\em
 \bibitem{van1996zero}
 E.~Van~Lenthe, J.~Snijders, and E.~Baerends {\em The Journal of Chemical
   Physics}, vol.~105, p.~6505, 1996.
+
+\bibitem{voon2009kp}
+L.~C. L.~Y. Voon and M.~Willatzen, {\em The kp Method}.
+\newblock Springer, 2009.
+
+\bibitem{kane1966k}
+E.~Kane {\em Semiconductors and Semimetals}, vol.~1, p.~75, 1966.
+
+\bibitem{persson2007full}
+C.~Persson and C.~Ambrosch-Draxl {\em Computer Physics Communications},
+  vol.~177, p.~280, 2007.
+
+\bibitem{fospamp2010}
+Y.~Peter and C.~Manuel, {\em Fundamentals of Semiconductors: Physics and
+  Materials Properties}.
+\newblock Springer, 2010.
+
+\bibitem{suzuki1995first}
+M.~Suzuki, T.~Uenoyama, and A.~Yanase {\em Physical Review B}, vol.~52,
+  p.~8132, 1995.
+
+\bibitem{dresselhaus1955cyclotron}
+G.~Dresselhaus, A.~Kip, and C.~Kittel {\em Physical Review}, vol.~98, p.~368,
+  1955.
 
 \bibitem{persson1997relativistic}
 C.~Persson and U.~Lindefelt {\em Journal of Applied Physics}, vol.~82, p.~5496,

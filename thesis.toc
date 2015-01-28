@@ -32,13 +32,13 @@
 \contentsline {subsubsection}{\numberline {1.5.2.3}Local orbitals}{32}
 \contentsline {subsection}{\numberline {1.5.3}Effective potential}{33}
 \contentsline {section}{\numberline {1.6}Dielectric function}{33}
-\contentsline {section}{\numberline {1.7}\textbf {k} $\cdot $ \textbf {p} method}{34}
-\contentsline {section}{\numberline {1.8}Spin-orbit coupling}{35}
-\contentsline {subsection}{\numberline {1.8.1}Dirac equation}{35}
-\contentsline {subsection}{\numberline {1.8.2}Derivation of spin-orbit coupling}{36}
-\contentsline {chapter}{\chapternumberline {II}SHORT SUMMARY OF THE PAPERS}{39}
-\contentsline {section}{\numberline {2.1}Summary of the papers}{39}
-\contentsline {section}{\numberline {2.2}Concluding remarks and future perspectives}{44}
+\contentsline {section}{\numberline {1.7}Spin-orbit coupling}{34}
+\contentsline {subsection}{\numberline {1.7.1}Dirac equation}{34}
+\contentsline {subsection}{\numberline {1.7.2}Derivation of spin-orbit coupling}{35}
+\contentsline {section}{\numberline {1.8}\textbf {k} $\cdot $ \textbf {p} method}{37}
+\contentsline {chapter}{\chapternumberline {II}SHORT SUMMARY OF THE PAPERS}{41}
+\contentsline {section}{\numberline {2.1}Summary of the papers}{41}
+\contentsline {section}{\numberline {2.2}Concluding remarks and future perspectives}{46}
 \contentsline {chapter}{Acknowledgements}{47}
 \contentsline {chapter}{Bibliography}{49}
 \contentsline {chapter}{\chapternumberline {III}COMPILATION OF SCIENTIFIC PAPERS}{57}
