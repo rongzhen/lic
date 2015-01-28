@@ -1630,7 +1630,7 @@ Here, terms in $H_0$ can be seen as non-perturbation terms, and remaining terms 
  \epsilon_{n,\textbf{k}} =  \epsilon_{n,\textbf{0}} + \frac{{\hbar^2 {\textbf k}^2}}{2m_e} + \frac{ \hbar^2}{m_{e}^2} \sum\limits_n^{N} \sum\limits_{n' \neq n}^{N} \frac{|<\ubloch<n><\bold 0>|{\textbf {kp}}|\ubloch<n'><\bold  0>>|^2}{\epsilon_{n,\textbf 0} - \epsilon_{n',\textbf 0}}.
 \end{equation}
 
-In the realistic implementation, the following derivation is exploited \cite{persson2007full}. Assume that the wavefunction and eigenvalue are obtained by some procedures on $\textbf{k}_0$ point. $\wfbloch<n><\bold{k}_0>$ is the corresponding wavefunction
+In the realistic code implementation, the following derivation is exploited \cite{persson2007full}. Assume that the wavefunction and eigenvalue are obtained by some procedures on $\textbf{k}_0$ point. $\wfbloch<n><\bold{k}_0>$ is the corresponding wavefunction
 and $\epsilon_{n,\textbf{k}_0}$ is the corresponding eigenvalue. Luttinger-Kohn function is given as
 
 \begin{equation}\label{kp2}
@@ -1660,7 +1660,7 @@ In \textbf{Eq. \ref{kp3}}, the wavefunction can be obtained if the coefficient $
 
 Here, the coefficient $ C_{n,j}^{\bold k}$ and $\epsilon_{n,\textbf{k}}$ can be calculated. Therefore, the wavefunction on any ${ \textbf k}$ point can be obtained.
 
-To utilize the $\bold k \cdot \bold p$ method, top valence band dispersions near a degenerate extremum are derived briefly for zinc blende type semiconductors. Spin-orbit interaction is considered. The detailed 
+To utilize the $\bold k \cdot \bold p$ method for a concrete example, top valence band dispersions near a degenerate extremum are derived briefly for zinc blende type semiconductors. Spin-orbit interaction is considered. The detailed 
 derivation can be found in Refs. \cite{fospamp2010, suzuki1995first, dresselhaus1955cyclotron, persson1997relativistic}.
 
 
@@ -1712,6 +1712,9 @@ the energy dispersion can be derived as
  E_{v3} = -\varDelta_{SO} + \frac{\hbar^2 k^2}{2m_0} \{ 1 - \frac{2}{3} (\frac{P^2}{m(E_0 + \varDelta_{SO})} + \frac{2Q^2}{m(E_0^{'} + \varDelta_{SO})})  \}.
 \end{equation}
 
+Here, $\varDelta_{SO}$ is the spin-orbit splitting energy of the valence band. $E_0$ is the energy difference between the valence bands with $j$=$\frac{3}{2}$ and the conduction bands with symmetry $\varGamma_1$. 
+ $E_0$ is the energy difference between the valence bands with $j$=$\frac{3}{2}$ and the conduction bands with symmetry $\varGamma_4$. 
+
 The energy dispersion of the $j$ = $\frac{3}{2}$ can be calculated by diagonalizeing the 4$\times$4 matrix, which is derived as
 
 \begin{equation} \begin{split}
@@ -1738,7 +1741,7 @@ The average effective hold masses in \textbf{Eq. \ref{1010}} can be calculated b
 \end{equation}
 
 
-
+The top valence band dispersion and effective masses can be determined if the constants A, B, and C are known. In realistic application, they are the fitting parameters. 
 
 
 
