@@ -1664,7 +1664,7 @@ To utilize the $\bold k \cdot \bold p$ method for a concrete example, valence ba
 Spin-orbit interaction is considered. The detailed derivation can be found in Refs. \cite{fospamp2010, suzuki1995first, dresselhaus1955cyclotron, persson1997relativistic}.
 
 
-The highest energy valence bands are with $\varGamma_4$ symmetry for zinc blende structure. Wavefunctions of these valence bands are \textit{p}-like, which can be represented by the eigenstates $|X\rangle$,$|Y\rangle$, and $|Z\rangle$. 
+The highest energy valence bands are with $\varGamma_4$ symmetry for zinc blende structure. Wavefunctions of these valence bands are \textit{p}-like, which can be represented by the eigenstates $|X\rangle$, $|Y\rangle$, and $|Z\rangle$. 
 The \textit{p}-like wavefunction has three degenerate states and corresponds to the orbital angular momentum $l$ is equal to 1. The three degenerate states can be expressed from $l$ and magnetic quantum numbers $m_l$ (1, 0, and $-$1) by
 
 \begin{equation}\begin{split}\label{77}
@@ -1674,11 +1674,13 @@ The \textit{p}-like wavefunction has three degenerate states and corresponds to 
 \end{split}
 \end{equation}
 
-The spin-orbit coupling Hamiltonian can be given as (see \textbf{Eq. \ref{socequ}})
+The spin-orbit coupling Hamiltonian is given as (see \textbf{Eq. \ref{socequ}})
 
 \begin{equation}\label{88}
-H_{SO}=\frac{1}{2 m_e^2 c^2} \frac{1}{R} \frac{dV}{dR}\textbf{S}\textbf{L} = \lambda \textbf{S}\textbf{L}.
+H_{SO}=\frac{1}{2 m_e^2 c^2} \frac{1}{R} \frac{dV}{dR}\textbf{s}\cdot\textbf{l} = \lambda\cdot \textbf{s}\cdot\textbf{l}.
 \end{equation}
+
+Here, $\lambda$ is constant, and Pauli spinor and the orbital angular momentum operator are written by lowercase letters here.
 
 The eigenfunctions of this Hamiltonian can be determined by the eigenstates of the total angular momentum (\textbf{j} = \textbf{l} + \textbf{s}) and $j_z$. In the case of $l$ = 1 and s=$\frac{1}{2}$,  $j$ is either equal
 to $\frac{3}{2}$ or $\frac{1}{2}$, and $j_z$ can be decided from values $j$, $j-1$, $\cdots$, $-j$. Therefore, the eigenfunctions of spin-orbit coupling Hamiltonian can be given as 
@@ -1696,16 +1698,16 @@ to $\frac{3}{2}$ or $\frac{1}{2}$, and $j_z$ can be decided from values $j$, $j-
 
 Here, $\alpha$ denotes spin-up, and $\beta$ denotes spin-down.
 
-Typically, the low conduction bands are with $\varGamma_1$ and $\varGamma_4$ symmetries. Therefore, there are total 14 unperturbed wavefunctions considering the valence and conduction bands. However, the 6 $\varGamma_4$ valence bands are of 
+Typically, the low conduction bands are with $\varGamma_1$ and $\varGamma_4$ symmetries. Therefore, there are 14 unperturbed wavefunctions considering both the valence and conduction bands. However, the 6 $\varGamma_4$ valence bands are of 
 interest in most of cases. In this case, the interaction between valence bands and conduction bands is considered as perturbation, and the effective matrix element is a 6$\times$6 matrix, which is defined as
 
 \begin{equation} 
  H_{ij}^{'} = H_{ij}+\sum\limits_{k \notin {VBs}} \frac{H_{ik}H_{kj}}{\epsilon_i-\epsilon_k}.
 \end{equation}
 
-Here, $H_{ij}$ is the remaining terms in \textbf{Eq. \ref{kp1}}.
+Here, $H_{ij}$ is the remaining terms in \textbf{Eq. \ref{kp1}}, and the 6$\times$6 matrix \{$H_{ij}^{'}$\} is a Hermitian matrix.
 
-Taking advantage of valence band wavefunctions (\textbf{Eq. \ref{99}}) and conduction band wavefunctions, the 6$\times$6 matrix \{$H_{ij}^{'}$\} can be calculated. Assume that $k$ is so small enough that $H_{15}^{'}$, $H_{16}^{'}$,
+Taking advantage of valence band wavefunctions (\textbf{Eq. \ref{99}}) and conduction band wavefunctions, the 6$\times$6 matrix \{$H_{ij}^{'}$\} can be calculated. Assume that $k$ is so small that $H_{15}^{'}$, $H_{16}^{'}$,
 and $H_{25}^{'}$ can be ignored. In this case, the 6$\times$6 matrix can be further divided into a 4$\times$4 matrix and a 2$\times$2 matrix. The 2$\times$2 matrix can be treated as the case of degenerate $j$ = $\frac{1}{2}$, and 
 the energy dispersion can be derived as
 
@@ -1718,7 +1720,7 @@ Here, $\varDelta_{SO}$ is the spin-orbit splitting energy of the valence band. $
 
 The energy dispersion of the $j$ = $\frac{3}{2}$ can be calculated by diagonalizing the 4$\times$4 matrix, which is derived as
 
-\begin{equation} \begin{split}
+\begin{equation} \begin{split}\label{8652}
 & \epsilon_{hh} = -Ak^2-[B^2k^4 + C^2 (k_x^{2}k_y^{2} + k_y^{2}k_z^{2} +k_z^{2}k_x^{2} )] \\
 & \epsilon_{lh} = -Ak^2+[B^2k^4 + C^2 (k_x^{2}k_y^{2} + k_y^{2}k_z^{2} +k_z^{2}k_x^{2} )].
  \end{split}
@@ -1733,7 +1735,7 @@ Here $A$, $B$, and $C$ are given as
  \end{split}
 \end{equation}
 
-Assume that the valence band masses are isotropic, the average heavy hole mass ($m_{hh}$) and light hole mass ($m_{lh}$) in \textbf{Eq. \ref{1010}} can be calculated by 
+Assume that the valence band masses are isotropic, the average heavy hole mass ($m_{hh}$) and light hole mass ($m_{lh}$) can be calculated from  \textbf{Eq. \ref{8652}} 
 
 \begin{equation}\begin{split}
 &  m_{hh}^{-1} = \frac{1}{\hbar^2} \Big[ -2A + 2B \big(1+ \frac{2|C|^2}{15B^2}\big)\Big] \\
