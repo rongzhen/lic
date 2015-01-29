@@ -36,9 +36,9 @@
 \contentsline {subsection}{\numberline {1.7.1}Dirac equation}{34}
 \contentsline {subsection}{\numberline {1.7.2}Derivation of spin-orbit coupling}{35}
 \contentsline {section}{\numberline {1.8}\textbf {k} $\cdot $ \textbf {p} method}{37}
-\contentsline {chapter}{\chapternumberline {II}SHORT SUMMARY OF THE PAPERS}{41}
-\contentsline {section}{\numberline {2.1}Summary of the papers}{41}
-\contentsline {section}{\numberline {2.2}Concluding remarks and future perspectives}{46}
+\contentsline {chapter}{\chapternumberline {II}SHORT SUMMARY OF THE PAPERS}{44}
+\contentsline {section}{\numberline {2.1}Summary of the papers}{44}
+\contentsline {section}{\numberline {2.2}Concluding remarks and future perspectives}{49}
 \contentsline {chapter}{Acknowledgements}{49}
 \contentsline {chapter}{Bibliography}{51}
 \contentsline {chapter}{\chapternumberline {III}COMPILATION OF SCIENTIFIC PAPERS}{59}
