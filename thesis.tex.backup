@@ -1662,6 +1662,7 @@ Here, the coefficient $ C_{n,j}^{\bold k}$ and $\epsilon_{n,\textbf{k}}$ can be 
 
 
 
+\begin{comment}
 To utilize the $\bold k \cdot \bold p$ method for a concrete example, band dispersions and average effective masses of the valence band edges are derived briefly for zinc blende type semiconductors.
 Spin-orbit coupling (SOC) is considered in the derivation.
 
@@ -1672,7 +1673,7 @@ They are 6-fold degenerate considering spin-orbit interaction.
 \centering
 %\includegraphics[scale=0.5]{devicestruc.eps} 
 \includegraphics[scale=0.8]{bands.eps} 
-\caption{Band degeneracy near the valence band edges with and without spin-orbit coupling (SOC) for most of zinc blende type semiconductors.}
+\caption{Band degeneracy of the valence band edges without and with spin-orbit coupling (SOC) for most of zinc blende type semiconductors.}
 \label{device}
 \end{figure}
 
@@ -1711,7 +1712,7 @@ Here, $\uparrow$ denotes spin-up, and $\downarrow$ denotes spin-down.
 
 
 If the spin-orbit interaction is considered as perturbation, a 6$\times$6 matrix can be calculated. Approximately,  the 6$\times$6 matrix can be further divided into a 4$\times$4 matrix and a 2$\times$2 matrix. The energy dispersion
-of the $J$ = $\frac{3}{2}$ can be calculated by diagonalizing the 4$\times$4 matrix, which is derived as
+of the $J$ = $\frac{3}{2}$ can be calculated by diagonalizing the 4$\times$4 matrix around $\Gamma$ point, which is derived as
 
 \begin{equation} \begin{split}\label{8652}
 \epsilon_{v1, v2} (\textbf{k}) = \frac{\hbar^2}{2m_0}\Big\{Ak^2\pm[B^2k^4 + C^2 (k_x^{2}k_y^{2} + k_y^{2}k_z^{2} +k_z^{2}k_x^{2} )]^{\frac{1}{2}}\Big\}.
@@ -1720,7 +1721,7 @@ of the $J$ = $\frac{3}{2}$ can be calculated by diagonalizing the 4$\times$4 mat
 
 Here, $A$, $B$, and $C$ are the fitting parameters in the realistic application.
 
-The average heavy hole mass ($m_{hh}$) and light hole mass ($m_{lh}$) can be calculated from  \textbf{Eq. \ref{8652}} 
+The average heavy hole mass ($m_{hh}$) and light hole mass ($m_{lh}$) around $\Gamma$ point can be calculated from  \textbf{Eq. \ref{8652}} 
 
 \begin{equation}\begin{split}
 m_{hh,lh}^{-1} = -{m_0^{-1}} \Big[A \pm \sqrt{B^2+C^2/5} \Big].
@@ -1728,13 +1729,13 @@ m_{hh,lh}^{-1} = -{m_0^{-1}} \Big[A \pm \sqrt{B^2+C^2/5} \Big].
 \end{equation}
 
 
-The 2$\times$2 matrix can be treated as the case of degenerate $J$ = $\frac{1}{2}$, and the energy dispersion can be derived as
+The 2$\times$2 matrix can be treated as the case of degenerate $J$ = $\frac{1}{2}$, and the energy dispersion around $\Gamma$ point can be derived as
 
-\begin{equation}
+\begin{equation}\label{9054}
  \epsilon_{SO} (\textbf{k}) = -\varDelta_{SO} + A \frac{\hbar^2 {k}^2}{2m_0}.
 \end{equation}
 
-Here, $\varDelta_{SO}$ is the spin-orbit splitting energy of the valence band. The average effective mass $m_{SO}$ can be calculated from  \textbf{Eq. \ref{8652}} 
+Here, $\varDelta_{SO}$ is the spin-orbit splitting energy of the valence band. The average effective mass $m_{SO}$ around $\Gamma$ point can be calculated from  \textbf{Eq. \ref{9054}} 
 
 \begin{equation}\begin{split}
 m_{SO}^{-1} = {m_0^{-1}}A.
@@ -1744,85 +1745,30 @@ m_{SO}^{-1} = {m_0^{-1}}A.
 
  The derivation is brief, and the detailed derivation can be found in Refs. \cite{fospamp2010, suzuki1995first, dresselhaus1955cyclotron, persson1997relativistic}.
 
-
-\begin{comment}
-To utilize the $\bold k \cdot \bold p$ method for a concrete example, band dispersions of the valence band edges of silicon (diamond strucutre) are derived briefly.
-Spin-orbit interaction is considered in the derivation. 
-
-Valence band edge occurs at \textbf{k}=0 in the Brillouin zone for silicon.  Wavefunctions of these valence bands are \textit{p}-like. 
-The \textit{p}-like wavefunction has three degenerate states if the spin-orbit interaction is not considered, which can be represented by the eigenstates $|X\rangle$, $|Y\rangle$, and $|Z\rangle$.
-The \textit{p}-like wavefunction corresponds to the orbital angular momentum is equal to 1. The three degenerate states can be expressed from the orbital angular momentum (1) and magnetic quantum numbers (1, 0, and $-$1) by
-
-\begin{equation}\begin{split}\label{77}
-& | 1, 1 \rangle = - \frac{|X\rangle+i|Y\rangle}{\sqrt{2}} \\
-& | 1, 0 \rangle =  |Z\rangle \\
-& | 1, -1 \rangle = - \frac{|X\rangle-i|Y\rangle}{\sqrt{2}}.
-\end{split}
-\end{equation}
-
-The spin-orbit coupling Hamiltonian is given as (see \textbf{Eq. \ref{socequ}})
-
-\begin{equation}\label{88}
-H_{SO}=\frac{1}{2 m_e^2 c^2} \frac{1}{R} \frac{dV}{dR}\textbf{S}\cdot\textbf{L} = \lambda\cdot \textbf{S}\cdot\textbf{L}.
-\end{equation}
-
-Here, $\lambda$ is constant. The eigenfunctions of this Hamiltonian can be determined by the eigenstates of the total angular momentum (\textbf{J} = \textbf{L} + \textbf{S}) and $z$ component of $J$ ($J_z$). In the case of $L$ = 1 and S=$\frac{1}{2}$,
-$J$ is either equal to $\frac{3}{2}$ or $\frac{1}{2}$, and $J_z$ can be decided from values $J$, $J-1$, $\cdots$, $-J$. Therefore, the eigenfunctions of spin-orbit coupling Hamiltonian can be given as 
-
-\begin{equation}\begin{split}\label{99}
-& \Big| \frac{3}{2}, \frac{3}{2} \Big\rangle = |1,1\rangle \uparrow \\
-& \Big| \frac{3}{2}, \frac{1}{2} \Big\rangle = \frac{|1,1\rangle \downarrow + \sqrt{2} |1,0\rangle\uparrow}{\sqrt{3}} \\
-& \Big| \frac{3}{2}, -\frac{1}{2} \Big\rangle = \frac{|1,-1\rangle \uparrow + \sqrt{2} |1,0\rangle\downarrow}{\sqrt{3}} \\
-& \Big| \frac{3}{2}, -\frac{3}{2} \Big\rangle = |1,-1\rangle \downarrow \\
-& \Big| \frac{1}{2}, \frac{1}{2} \Big\rangle = \frac{|1,0\rangle \uparrow - \sqrt{2} |1,1\rangle\downarrow}{\sqrt{3}} \\
-& \Big| \frac{1}{2}, -\frac{1}{2} \Big\rangle = \frac{|1,0\rangle \downarrow - \sqrt{2} |1,-1\rangle\uparrow}{\sqrt{3}}. 
-\end{split}
-\end{equation}
-
-
-Here, $\uparrow$ denotes spin-up, and $\downarrow$ denotes spin-down. 
-
-If the spin-orbit interaction is considered as perturbation, a 6$\times$6 matrix can be calculated. Approximately,  the 6$\times$6 matrix can be further divided into a 4$\times$4 matrix and a 2$\times$2 matrix. The energy dispersion
-of the $J$ = $\frac{3}{2}$ can be calculated by diagonalizing the 4$\times$4 matrix, which is derived as
-
-\begin{equation} \begin{split}\label{8652}
-\epsilon_{v1, v2} = Ak^2\pm[B^2k^4 + C^2 (k_x^{2}k_y^{2} + k_y^{2}k_z^{2} +k_z^{2}k_x^{2} )]^{\frac{1}{2}}.
- \end{split}
-\end{equation}
-
-Here $A$, $B$, and $C$ are given as
-
-\begin{equation}\begin{split}\label{1010}
- & A = \frac{\hbar^2}{2m_e} + \frac{1}{3}(L+2M) \\
- & B = \frac{1}{3}(L-M) \\
- & C^2 = \frac{1}{3}[N^2-(L-M)^2].
- \end{split}
-\end{equation}
-
-Here, $L$, $M$, and $N$ are electron momentum matrix elements. Actually, they are not important in the realistic application because only  $A$, $B$, and $C$ are the fitting parameters.
-
-The 2$\times$2 matrix can be treated as the case of degenerate $J$ = $\frac{1}{2}$, and the energy dispersion can be derived as
-
-\begin{equation}
- \epsilon_{SO} = -\varDelta_{SO} + Ak^2.
-\end{equation}
-
-Here, $\varDelta_{SO}$ is the spin-orbit splitting energy of the valence band.
-
-
-From the band dispersion, effective masses and many other properties can be obtained. The derivation is brief, and the detailed derivation can be found in Refs. \cite{fospamp2010, suzuki1995first, dresselhaus1955cyclotron, persson1997relativistic}.
 \end{comment}
 
-\begin{comment}
 
-To utilize the $\bold k \cdot \bold p$ method for a concrete example, band dispersions of the valence band edges of silicon (diamond strucutre) are derived briefly.
-Spin-orbit interaction is considered in the derivation. 
 
-Valence band edge occurs at \textbf{k}=0 in the Brillouin zone for silicon.  Wavefunctions of these valence bands are \textit{p}-like. 
-The \textit{p}-like wavefunction has three degenerate states if the spin-orbit interaction is not considered.
 
-The arbitrary choice of a basis for the representation $\varGamma_{25}^{+}$ at \textbf{k}=0, and Hamiltonian $\hbar\textbf{kp}/m_e$ is considered as perturbation. The following perturbation matrix is derived without consideration 
-spin-orbit interaction
+ 
+ To utilize the $\bold k \cdot \bold p$ method for a concrete example, band dispersions and average effective masses of the valence band edges are derived briefly for zinc blende type semiconductors.
+Spin-orbit coupling (SOC) is considered in the derivation.
+
+For most of zinc blende type semiconductors, valence bands of the valence band edges are 3-fold degenerate (6-fold degenerate if one considers spin) at the $\Gamma$ point in the Brillouin zone without considering spin-orbit interaction.
+They are 6-fold degenerate considering spin-orbit interaction.
+
+\begin{figure}[H]
+\centering
+%\includegraphics[scale=0.5]{devicestruc.eps} 
+\includegraphics[scale=0.8]{bands.eps} 
+\caption{Band degeneracy of the valence band edges without and with spin-orbit coupling (SOC) for most of zinc blende type semiconductors.}
+\label{device}
+\end{figure}
+
+
+Wavefunctions of these valence bands are \textit{p}-like. The \textit{p}-like wavefunction has three degenerate states if the spin-orbit interaction is not considered. The arbitrary choice of a basis at \textbf{k}=0,
+and Hamiltonian $\hbar\textbf{kp}/m_e$ is considered as perturbation. The following perturbation equation is derived without considering spin-orbit interaction
+
 
 \begin{equation}\label{kpmatrix1}
 \left|
@@ -1834,7 +1780,10 @@ spin-orbit interaction
  = 0.
 \end{equation}
 
-Here, $L$, $M$, and $N$ are electron momentum matrix elements. The energy dispersion can be obtained from $\lambda$ by
+
+
+
+Here, $L$, $M$, and $N$ are electron momentum matrix elements, and the corresponding 3$\times$3 matrix in \textbf{Eq. \ref{kpmatrix1}} is written as $Y$. The energy dispersion around $\Gamma$ point can be obtained from $\lambda$ by
 
 \begin{equation}
  \epsilon = \frac{\hbar^2\textbf{k}^2}{2m_e}+\lambda.
@@ -1852,38 +1801,51 @@ In the case of spin-orbit interaction, a 6$\times$6 matrix can be expressed by t
 \end{equation}
 
 If the spin-orbit interaction (see \textbf{Eq. \ref{nonrela1}}) is considered as perturbation, a 6$\times$6 matrix can be calculated. Approximately, the 6$\times$6 matrix can be further divided into a 4$\times$4 matrix and a 2$\times$2 matrix.
-The energy dispersion can be calculated by diagonalizing the 4$\times$4 matrix, which is derived as
+The 4-fold degenerate energy dispersions around $\Gamma$ point can be calculated by diagonalizing the 4$\times$4 matrix, which is derived as
 
 \begin{equation} \begin{split}\label{8652}
-\epsilon_{v1, v2} = Ak^2\pm[B^2k^4 + C^2 (k_x^{2}k_y^{2} + k_y^{2}k_z^{2} +k_z^{2}k_x^{2} )]^{\frac{1}{2}}.
+\epsilon_{v1, v2} (\textbf{k}) = \frac{\hbar^2}{2m_0}\Big\{Ak^2\pm[B^2k^4 + C^2 (k_x^{2}k_y^{2} + k_y^{2}k_z^{2} +k_z^{2}k_x^{2} )]^{\frac{1}{2}}\Big\}.
  \end{split}
 \end{equation}
 
-Here $A$, $B$, and $C$ are given as
+Here, $A$, $B$, and $C$ are given as
+\begin{equation}\begin{split}
+& A=\frac{1}{3}(L+2M)+\frac{\hbar^2}{2m_e} \\
+& B=\frac{1}{3}(L-M) \\
+& C^2=\frac{1}{3}[N^2-(L-M)^2].
+\end{split}
+\end{equation}
 
-\begin{equation}\begin{split}\label{1010}
- & A = \frac{\hbar^2}{2m_e} + \frac{1}{3}(L+2M) \\
- & B = \frac{1}{3}(L-M) \\
- & C^2 = \frac{1}{3}[N^2-(L-M)^2].
+
+Actually, $A$, $B$, and $C$ are the fitting parameters in realistic application, and $L$, $M$, and $N$ do not need to be calculated.
+
+The average heavy hole mass ($m_{hh}$) and light hole mass ($m_{lh}$) around $\Gamma$ point can be calculated from  \textbf{Eq. \ref{8652}} 
+
+\begin{equation}\begin{split}
+m_{hh,lh}^{-1} = -{m_0^{-1}} \Big[A \pm \sqrt{B^2+C^2/5} \Big].
  \end{split}
 \end{equation}
 
-Here, $A$, $B$, and $C$ are the fitting parameters in realistic application.
 
-The energy dispersion can be derived by diagonalizing the 2$\times$2 matrix, which is derived as
+The 2-fold degenerate energy dispersion around $\Gamma$ point can be derived by diagonalizing the 2$\times$2 matrix, which is derived as
 
-\begin{equation}
- \epsilon_{SO} = -\varDelta_{SO} + Ak^2.
+\begin{equation}\label{9054}
+ \epsilon_{SO} (\textbf{k}) = -\varDelta_{SO} + A \frac{\hbar^2 {k}^2}{2m_0}.
 \end{equation}
 
-Here, $\varDelta_{SO}$ is the spin-orbit splitting energy of the valence band.
+Here, $\varDelta_{SO}$ is the spin-orbit splitting energy of the valence band. The average effective mass $m_{SO}$ around $\Gamma$ point can be calculated from  \textbf{Eq. \ref{9054}} 
+
+\begin{equation}\begin{split}
+m_{SO}^{-1} = {m_0^{-1}}A.
+ \end{split}
+\end{equation}
 
 
-From the band dispersion, effective masses and many other properties can be obtained. The derivation is brief, and the detailed derivation can be found in Refs. \cite{fospamp2010, suzuki1995first, dresselhaus1955cyclotron, persson1997relativistic}.
-
-\end{comment}
+The derivation is brief, and the detailed derivation can be found in Refs. \cite{fospamp2010, suzuki1995first, dresselhaus1955cyclotron, persson1997relativistic}.
 
 
+
+ 
 
 
 

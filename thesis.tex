@@ -1661,6 +1661,8 @@ In \textbf{Eq. \ref{kp3}}, the wavefunction can be obtained if the coefficient $
 Here, the coefficient $ C_{n,j}^{\bold k}$ and $\epsilon_{n,\textbf{k}}$ can be calculated. Therefore, the wavefunction on any ${ \textbf k}$ point can be obtained.
 
 
+
+\begin{comment}
 To utilize the $\bold k \cdot \bold p$ method for a concrete example, band dispersions and average effective masses of the valence band edges are derived briefly for zinc blende type semiconductors.
 Spin-orbit coupling (SOC) is considered in the derivation.
 
@@ -1743,17 +1745,17 @@ m_{SO}^{-1} = {m_0^{-1}}A.
 
  The derivation is brief, and the detailed derivation can be found in Refs. \cite{fospamp2010, suzuki1995first, dresselhaus1955cyclotron, persson1997relativistic}.
 
+\end{comment}
 
 
 
 
- \begin{comment}
  
  To utilize the $\bold k \cdot \bold p$ method for a concrete example, band dispersions and average effective masses of the valence band edges are derived briefly for zinc blende type semiconductors.
 Spin-orbit coupling (SOC) is considered in the derivation.
 
-For most of zinc blende type semiconductors, valence bands of the valence band edges are 3-fold degenerate (6-fold degenerate if one considers spin) at $\Gamma$ point in the Brillouin zone without considering spin-orbit interaction.
-They are 6-fold degenerate considering spin-orbit interaction.
+For most of zinc blende type semiconductors, valence bands of the valence band edges are 3-fold degenerate at the $\Gamma$ point in the Brillouin zone without considering spin. However,
+they are 6-fold degenerate considering spin. In of case of SOC, it splits the 6-fold degeneracy into higher energy 4-fold bands (heavy hole (HH) and light hole (LH) bands) and lower energy 2-fold bands (Splitting-Off (SO) bands).
 
 \begin{figure}[H]
 \centering
@@ -1767,6 +1769,7 @@ They are 6-fold degenerate considering spin-orbit interaction.
 Wavefunctions of these valence bands are \textit{p}-like. The \textit{p}-like wavefunction has three degenerate states if the spin-orbit interaction is not considered. The arbitrary choice of a basis at \textbf{k}=0,
 and Hamiltonian $\hbar\textbf{kp}/m_e$ is considered as perturbation. The following perturbation equation is derived without considering spin-orbit interaction
 
+
 \begin{equation}\label{kpmatrix1}
 \left|
 \begin{matrix}
@@ -1777,7 +1780,10 @@ and Hamiltonian $\hbar\textbf{kp}/m_e$ is considered as perturbation. The follow
  = 0.
 \end{equation}
 
-Here, $L$, $M$, and $N$ are electron momentum matrix elements, and the corresponding 3$\times$3 matrix in \textbf{Eq. \ref{kpmatrix1}} is written as $Y$. The energy dispersion around $\Gamma$ point can be obtained from $\lambda$ by
+
+
+
+Here, $L$, $M$, and $N$ are electron momentum matrix elements, and the corresponding 3$\times$3 matrix in \textbf{Eq. \ref{kpmatrix1}} is written as $Y$. The energy dispersion around the $\Gamma$ point can be obtained from $\lambda$ by
 
 \begin{equation}
  \epsilon = \frac{\hbar^2\textbf{k}^2}{2m_e}+\lambda.
@@ -1795,16 +1801,25 @@ In the case of spin-orbit interaction, a 6$\times$6 matrix can be expressed by t
 \end{equation}
 
 If the spin-orbit interaction (see \textbf{Eq. \ref{nonrela1}}) is considered as perturbation, a 6$\times$6 matrix can be calculated. Approximately, the 6$\times$6 matrix can be further divided into a 4$\times$4 matrix and a 2$\times$2 matrix.
-The 4-fold degenerate energy dispersions around $\Gamma$ point can be calculated by diagonalizing the 4$\times$4 matrix, which is derived as
+The 4-fold degenerate energy dispersions around the $\Gamma$ point can be calculated by diagonalizing the 4$\times$4 matrix, which is derived as
 
 \begin{equation} \begin{split}\label{8652}
 \epsilon_{v1, v2} (\textbf{k}) = \frac{\hbar^2}{2m_0}\Big\{Ak^2\pm[B^2k^4 + C^2 (k_x^{2}k_y^{2} + k_y^{2}k_z^{2} +k_z^{2}k_x^{2} )]^{\frac{1}{2}}\Big\}.
  \end{split}
 \end{equation}
 
-Here, $A$, $B$, and $C$ are the fitting parameters in realistic application.
+Here, $A$, $B$, and $C$ are given as
+\begin{equation}\begin{split}
+& A=\frac{1}{3}(L+2M)+\frac{\hbar^2}{2m_e} \\
+& B=\frac{1}{3}(L-M) \\
+& C^2=\frac{1}{3}[N^2-(L-M)^2].
+\end{split}
+\end{equation}
 
-The average heavy hole mass ($m_{hh}$) and light hole mass ($m_{lh}$) around $\Gamma$ point can be calculated from  \textbf{Eq. \ref{8652}} 
+
+Actually, $L$, $M$, and $N$ do not need to be calculated becaues $A$, $B$, and $C$ are the only fitting parameters in realistic application. .
+
+The average heavy hole mass ($m_{hh}$) and light hole mass ($m_{lh}$) around the $\Gamma$ point can be calculated from  \textbf{Eq. \ref{8652}} 
 
 \begin{equation}\begin{split}
 m_{hh,lh}^{-1} = -{m_0^{-1}} \Big[A \pm \sqrt{B^2+C^2/5} \Big].
@@ -1812,13 +1827,13 @@ m_{hh,lh}^{-1} = -{m_0^{-1}} \Big[A \pm \sqrt{B^2+C^2/5} \Big].
 \end{equation}
 
 
-The 2-fold degenerate energy dispersion around $\Gamma$ point can be derived by diagonalizing the 2$\times$2 matrix, which is derived as
+The 2-fold degenerate energy dispersion around the $\Gamma$ point can be derived by diagonalizing the 2$\times$2 matrix, which is derived as
 
 \begin{equation}\label{9054}
  \epsilon_{SO} (\textbf{k}) = -\varDelta_{SO} + A \frac{\hbar^2 {k}^2}{2m_0}.
 \end{equation}
 
-Here, $\varDelta_{SO}$ is the spin-orbit splitting energy of the valence band. The average effective mass $m_{SO}$ around $\Gamma$ point can be calculated from  \textbf{Eq. \ref{9054}} 
+Here, $\varDelta_{SO}$ is the spin-orbit splitting energy of the valence band. The average effective mass $m_{SO}$ around the $\Gamma$ point can be calculated from  \textbf{Eq. \ref{9054}} 
 
 \begin{equation}\begin{split}
 m_{SO}^{-1} = {m_0^{-1}}A.
@@ -1828,7 +1843,7 @@ m_{SO}^{-1} = {m_0^{-1}}A.
 
 The derivation is brief, and the detailed derivation can be found in Refs. \cite{fospamp2010, suzuki1995first, dresselhaus1955cyclotron, persson1997relativistic}.
 
-\end{comment}
+
 
  
 
