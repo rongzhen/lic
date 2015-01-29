@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.16)  29 JAN 2015 14:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.16)  29 JAN 2015 15:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2147,15 +2147,18 @@ d on input line 1606.
 
 [36] [37]
 Package epstopdf Info: Source file: <bands.eps>
-(epstopdf)                    date: 2015-01-29 13:19:03
-(epstopdf)                    size: 354142 bytes
+(epstopdf)                    date: 2015-01-29 14:02:55
+(epstopdf)                    size: 354145 bytes
 (epstopdf)             Output file: <bands-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-01-29 14:22:07
-(epstopdf)                    size: 28381 bytes
 (epstopdf)             Command: <repstopdf --outfile=bands-eps-converted-to.pdf
  bands.eps>
 (epstopdf)             \includegraphics on input line 1760.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(repstopdf --outfile=bands-eps-converted-to.pdf bands.eps)...executed 
+safely (allowed).
+
+Package epstopdf Info: Result file: <bands-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-01-29 15:05:33
+(epstopdf)                    size: 28400 bytes.
  <bands-eps-converted-to.pdf, id=823, 424.58624pt x 216.81pt>
 File: bands-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2736,7 +2739,7 @@ re/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
 rw/palatino/uplri8a.pfb>
-Output written on thesis.pdf (89 pages, 8857291 bytes).
+Output written on thesis.pdf (89 pages, 8857311 bytes).
 PDF statistics:
  1480 PDF objects out of 1728 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
