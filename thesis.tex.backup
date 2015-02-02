@@ -34,6 +34,12 @@
 \usepackage{url}
 \usepackage{pdfpages}
 \usepackage{afterpage}
+\usepackage{tocloft}
+\usepackage{regexpatch}% http://ctan.org/pkg/regexpatch
+\makeatletter
+\newcommand{\patchlchapter}{%
+  \xpatchcmd{\l@chapter}{##1}{Chapter~##1}{}{}%
+}
 %\usepackage[width=1.2\textwidth]{caption}
 \newcommand\blankpage{%
     \null
@@ -41,8 +47,29 @@
     \addtocounter{page}{-1}%
     \newpage}
 
+\long\def \mypart#1{%
+\cleardoublepage
+\addcontentsline{toc}{part}{#1}
+\part*{#1}
 
-\renewcommand{\thechapter}{\Roman{chapter}} 
+}
+
+
+\long\def \mychapter#1{%
+\cleardoublepage
+\addcontentsline{toc}{chapter}{#1}
+\chapter*{#1}
+
+}
+
+\long\def \mymychapter#1{%
+\cleardoublepage
+\addcontentsline{toc}{chapter}{#1}
+\chapter{#1}
+
+}
+
+%\renewcommand{\thechapter}{\Roman{chapter}} 
  
 \setlength{\parskip}{6pt}  % 12 pt = hopp mellan stycken
 \setlength{\parindent}{0pt} % 0 pt  = indrag
@@ -51,9 +78,11 @@
 \newcommand{\Rmnum}[1]{\expandafter\@slowromancap\romannumeral #1@}
 \makeatother
 
+
 \usepackage{titlesec}
 \titleformat{\chapter}[hang] 
 {\normalfont\LARGE\bfseries}{\chaptertitlename\ \thechapter}{1em}{}
+
 
 
 %And here the document begins!
@@ -173,7 +202,7 @@ Sweden\\
 
 Akademisk avhandling som med tillstånd av Kungliga Tekniska
 Högskolan framlägges till offentlig granskning för avläggande av
-licentiatexamen fredagen den 13rd March 2015 kl 10:00 i konferensrummet, Materialvetenskap, Kungliga Tekniska
+licentiatexamen fredagen den 6 Mars 2015 kl 10:00 i konferensrummet, Materialvetenskap, Kungliga Tekniska
 Högskolan,\linebreak Brinellvägen 23, Stockholm.
 
 \vspace{5mm}
@@ -189,29 +218,6 @@ Tryck: Universitetsservice US AB
 
 \begin{abstract}
  \addcontentsline{toc}{chapter}{Abstract}
-\begin{comment}
-In order to reduce the high dependence on fossil fuels and oil, solar energy is one of the alternatives. Thin film photovoltaic (PV) technology is one of the solar energy,  and there are several rather important absorber materials in the PV technology, such as the cadmium
-telluride (CdTe) and chalcopyrite copper indium gallium diselenide (CIGS). The maximum conversion efficiency of CIGS had reached 23.3\% in the National Renewable Energy Laboratory, Golden, Colorado, U.S.A. Therefore,
-the accurate information for this kind of absorber materials is of great importance in order to design the photovoltaic materials. 
-
-In the licentiate thesis, two researches are investigated for CIGS. (1) Parameterization of the band dispersion for the uppermost three valence bands (VBs) and the lowest conduction
-band (CB) for CuInSe\textsubscript{2}, CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2}, and CuGaSe\textsubscript{2} is modeled, which is based on the $\textbf{k} \cdot \textbf{p}$ method, but extended it up to high order.
-It demonstrates that the VBs and CB are quite non-parabolic away from the $\Gamma$ point, which implies that the effective mass on $\Gamma$ point is not suitable to describe the materials properties such as 
-band filling and strong excitation effects. (2) The dielectric function spectra of CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript2 is calculated. It is compared with the
-experiment result based on CuIn\textsubscript{0.7}Ga\textsubscript{0.3}Se\textsubscript{2} at 40 K and 300 K, which demonstrates that the overall shape of dielectric function spectra is in good agreement for both of calculation and 
-experiment.
-
-\noindent Three uppermost VBs and the lowest CB of CIGS are parameterized in order to better understand and describe the anisotropy and non-parabolic of the energy dispersion.
-In order to illustrate the non-parabolic of the band dispersion, the effective electron and hole mass tensors are obtained in four symmetry directions. To further illustrate
-the non-parabolic, the constant energy surface are calculated for the three topmost VBs as well as the lowest CB. The density-of-states (DOS), Fermi energy and the carrier
-concentrations are calculated and analyzed based on this parameterization as well. The results are compared with the parabolic band energy approximation. 
-
-
-\noindent The dielectric function spectra of CuIn\textsubscript{0.5}Ga\textsubscript{0.5}Se\textsubscript{2} is determined by the all electron and full-potential linearized augmented plane wave calculations (FPLAPW). 
-It shows a good agreement with the result from spectroscopic ellipsometry, which illustrates the results of CuIn\textsubscript{0.7}Ga\textsubscript{0.3}Se\textsubscript{2} at 40 K and 300 K. Furthermore, 
-the probable electronic origins of observed interband critical points are discussed. The band to band analysis
-of the contribution to the total imaginary part of dielectric function spectrum is explored as well.
-\end{comment}
 
 \noindent Chalcopyrite copper indium gallium diselenide (Cu(In, Ga)Se\textsubscript{2} $\equiv$ CuIn\textsubscript{1-x}Ga\textsubscript{x}Se\textsubscript{2})
 is today a commercially important material in the thin-film solar cell technology, and it is also in many aspects a very interesting material from a scientifically point of view.
@@ -306,8 +312,8 @@ edited by K. Ito ({\textit John Wiley $\&$ Sons}, 2014).
 
 \newpage
 \setcounter{page}{7}
-\setcounter{secnumdepth}{3}
-\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{2}
+\setcounter{tocdepth}{2}
 \renewcommand\contentsname{Table of Contents}
 
 \tableofcontents
@@ -316,15 +322,14 @@ edited by K. Ito ({\textit John Wiley $\&$ Sons}, 2014).
 
 \newpage
 \pagenumbering{arabic}
-\renewcommand{\thesection}{\arabic{chapter}.\arabic{section}}  
-\renewcommand{\thetable}{\arabic{chapter}.\arabic{table}}  
-\renewcommand{\thefigure}{\arabic{chapter}.\arabic{figure}} 
-\renewcommand{\theequation}{\arabic{chapter}.\arabic{equation}} 
-\renewcommand{\chaptername}{}
 
 
+\mypart{INTRODUCTION}
+%\part*{INTRODUCTION} \addcontentsline{toc}{part}{INTRODUCTION}
+%\addtocontents{toc}{\protect\patchlchapter}
+\chapter{Solar cell physics}
 
-\chapter{INTRODUCTION}
+\section{Solar energy}
 
 With the increasing energy consumption, more and more energy or power is needed. According to the statistical review of world energy on 2014 \cite{bp} (\textbf{Fig. \ref{wpec}}),
 the required energy is mainly satisfied by fossil fuels (mainly coal, petroleum, and natural gas), with a market share of around 87\%. The total energy consumption is between 12000 and 13000 million tonnes oil
@@ -364,7 +369,7 @@ The conversion efficiency of solar cell is higher than the one of solar chemical
 
 
 \section{Solar cells}
-In the worldwide, the conversion efficiencies in all different types of solar cells are improved remarkably \cite{nrel}. From \textbf{Fig. \ref{nrel}}, the highest efficiency for multijunction cells, crystalline silicon (c-Si) cells,
+In the worldwide, the solar cell conversion efficiencies in all different types of solar cells are improved remarkably \cite{nrel}. From \textbf{Fig. \ref{nrel}}, the highest efficiency for multijunction cells, crystalline silicon (c-Si) cells,
 thin-film technologies, and new emerging cells are 44.7\%, 27.6\%, 23.3\%, and 20.1\% \cite{dimroth2014wafer, jones2009new, ward2014cu, green2015solar}. Therefore, solar cell is a very important and promising way to produce renewable energy.
 
 
@@ -376,7 +381,7 @@ thin-film technologies, and new emerging cells are 44.7\%, 27.6\%, 23.3\%, and 2
 \label{nrel}
 \end{sidewaysfigure}
 
-Multijunction cells are the cells which contain multi $p$-$n$ junctions (or subcells). They have different band-gap for each $p$-$n$ junction.
+Multijunction cells are the cells which contain several $p$-$n$ junctions (or subcells). They have different band-gap for each $p$-$n$ junction.
 Therefore, different wavelengths of sunlight are absorbed for each junction. For example, wider band-gap junction is at the front of the cell, which absorbs photons with high energy; the junction with 
 low band-gap absorbs photons with relatively low energy. In this configuration, the conversion efficiency is higher than the one of single $p$-$n$ junction, for example, the maximum conversion efficiency is 44.7\% by Soitec \cite{dimroth2014wafer} using 
 four-junction or more in \textbf{Fig. \ref{nrel}}. Solar cells based on c-Si are the most widely utilized in the PV industries. It has two types in
@@ -384,13 +389,13 @@ c-Si photovoltaics: monocrystalline silicon and multicrystalline silicon. Solar 
 by Amonix \cite{jones2009new} and maximum 25.6\% without concentrator by Panasonic \cite{panasonic} in \textbf{Fig. \ref{nrel}}. Thin-film solar cells are the cells which are made by depositing one or several thin layers. 
 They allow cells to be rather 
 flexible and result in lower weight. The maximum conversion efficiency for thin-film solar cells is lower than that for c-Si today, which is 23.3\% using copper indium gallium diselenide (CIGS $\equiv$ CuIn\textsubscript{1-x}Ga\textsubscript{x}Se\textsubscript{2}) with concentrator by national renewable energy laboratory (NREL) \cite{ward2014cu} and 
-is 21.7\% without concentrator by the center for solar energy and hydrogen research (ZSW) in Stuttgart \cite{zsw} in \textbf{Fig. \ref{nrel}}. The Emerging PV represents the newest ways to create electricity from
+is 21.7\% without concentrator by the center for solar energy and hydrogen research (ZSW) in Stuttgart \cite{zsw} in \textbf{Fig. \ref{nrel}}. The emerging PV represents the newest ways to create electricity from
 sunlight and potentially with higher conversion efficiency, such as perovskite cells in \textbf{Fig. \ref{nrel}}. The maximum conversion efficiency of perovskite cells already reached 20.1\% in Korea research institute of chemical technology (KRICT)\cite{green2015solar}. 
 Perovskite cells jump into the world of solar cells only from 2009 \cite{green2014emergence, mcgehee2014perovskite}, and the conversion efficiency is improved remarkably within 5 years. Certainly, search and optimization 
 of alternatively solar cell materials are still an ongoing active area today.
 
 
-\subsection{Single-junction solar cells}
+\section{Single-junction}
 The $p$-$n$ junction is a fundamental building block of solar cells. Single $p$-$n$ homojunction will be explored in this section. The more detailed information about this topic can be found in Refs. \cite{bok1,sproul2003understanding, neamen2003semiconductor}.
 
 We start from separate pieces of $n$- and $p$-type materials at room temperature (assume that all the donor (acceptor) atoms are positively (negatively) ionized at room temperature). In \textbf{Fig. \ref{dopedmaterials}},
@@ -555,7 +560,9 @@ $n$-type CdS layer \cite{green2007thin}. The 23.3\% CIGS world record conversion
 is between 1.0 eV and 1.7 eV for this kind of alloy \cite{kumar2013cation, chen2012band, chen2011parameterization, persson2009impurity, green2006third}. CIGS does not contain any toxic element.
 
 %\section{CuIn\textsubscript{1-\textit{x}}Ga\textsubscript{\textit{x}}Se\textsubscript{2}(CIGS) materials}
-\section{Copper indium gallium diselenide (CIGS)}
+
+
+\chapter{Copper indium gallium diselenide (CIGS)}
 CIGS is a chalcopyrite-type material, which is considered as one of the most promising thin-film solar cell materials. 
 CuInSe\textsubscript{2} was first synthesized by Hahn in 1953 \cite{ZAAC}. It was first exploited as an absorber material in a single crystal solar cell in 1974 \cite{CuInSe21974}, and the conversion efficiency is around 
 5\%. The first thin-film solar cell based on CuInSe\textsubscript{2} and CdS was invented by Kazmerski \cite{kazmerski1976thin}. During the 1980s, Boeing Corporation did much research on the thin-film polycrystalline CIGS solar cells. 
@@ -563,7 +570,7 @@ To date, the highest conversion efficiency in laboratory situation for the solar
 30\% Ga, that is Cu\textsubscript{2}In\textsubscript{0.7}Ga\textsubscript{0.3}Se\textsubscript{2}.
 
 
-\subsection{Crystal structure}
+\section{Crystal structure}
 Crystal structure of CIGS can be derived from zinc blende crystal structure of zinc selenide (ZnSe). In \textbf{Fig. \ref{crystal_cigs}}, the crystal structures of ZnSe and CuInSe\textsubscript{2} are presented. 
 Atoms Zn are replaced by atoms Cu and In or Ga in the zinc blende of ZnSe. It requires to double the unit cell of ZnSe in the $z$-direction. The lattice parameter $c$ for CIGS is not exact 2$a$ normally, because bond 
 strength and lengths between Cu-Se and In-Se or Ga-Se are different \cite{chen2009crystal}.
@@ -585,7 +592,7 @@ group no. 82) \cite{li2011electronic}.
 \end{figure}
 
 
-\subsection{Optical properties and defects in the CIGS}
+\section{Optical properties and defects in the CIGS}
 CuInSe\textsubscript{2} has a direct band-gap around 1.0 eV, and the absorption coefficient is relatively higher than that of c-Si due to the direct band-gap. The quaternary CIGS alloy will be available by alloying Ga element, while the band-gap is tuned as well from 
 1.0 eV to 1.7 eV. The CIGS can be applied as an absorber layer for the thin-film solar cells due to the high absorption coefficient. The band-gap can be approximated by the function of Ga content ($x$) \cite{luque2011handbook}
 
@@ -660,7 +667,7 @@ the Ga content of 30\% (x = 0.3), however,
 the band-gap energy of the CIGS suggests that the optimum solar cell conversion efficiency is obtained with x between 0.5 and 0.7.
 
 
-\subsection{CIGS solar cell structure}
+\section{CIGS solar cell structure}
 
 The solar cells device based on CIGS is a heterojunction device, which normally has five thin-film layers with different functional properties \cite{lundberg2005effect, lundberg2003diffusion, ramanathan2003properties}.
 A schematic of conventional device structure is shown in  \textbf{Fig. \ref{device}}
@@ -686,10 +693,10 @@ This CIGS/CdS/ZnO structure is optimized to improve the cell performance. The de
 
 
 
-\section{Theory}
+\chapter{Computational methods}
 \label{ch:dft}
 
-\subsection{The quantum many-body problem}
+\section{The quantum many-body problem}
 \label{ch:mb}
 
 \noindent A solid material contains a huge number of atoms (around 10\textsuperscript{23} \si{\per\cubic\centi\metre} ), and each atom consists of a nucleus surrounded by one or more electrons. 
@@ -719,7 +726,7 @@ level is Hartree approximation \cite{hartreeapproximation},
 Hartree-Fock (HF) approximation \cite{hartreefockapproximation}, density functional theory (DFT) \cite{hohenberg1964inhomogeneous}, and Kohn-Sham (KS) equation \cite{kohn1965self}; the last level is to solve the secular 
 equation, which is an equation solved to find eigenvalue of a matrix \cite{martin2004electronic, Cottenierwien2k}.
 
-\subsection{The Born-Oppenheimer approximation}
+\section{The Born-Oppenheimer approximation}
 \label{ch:boa}
 
 \textbf{Eq. \ref{ssth}} should be approximated in order to solve it. A first step is to separate the wavefunction of electron and nucleus. The Schrödinger Hamiltonian in \textbf{Eq. \ref{sth}} has a coupling term between
@@ -791,7 +798,7 @@ the Schrödinger equation of the electrons is applied (the first line in \textbf
 The \textbf{Eq. \ref{ise}} (the first line) is much simpler than \textbf{Eq. \ref{ssth}}. However, it is still not solvable. Further approximations  are needed
 to solve this many-body problem.
 
-\subsection{Solving the many-body problem}
+\section{Solving the many-body problem}
 
 In previous section, the separation of wavefunction is proposed within Born-Oppenheimer approximation. The quantum many-body Schrödinger problem becomes the many-electron 
 Schrödinger problem. There are two major problems from the Born-Oppenheimer approximation: the first problem is that the number of electron is around in the order of 10\textsuperscript{24} \si{\per\cubic\centi\metre} in most
@@ -801,7 +808,7 @@ such as the Hartree and Hartree-Fock (HF) methods \cite{hartreeapproximation,har
 \cite{hohenberg1964inhomogeneous}. Within DFT, the system total energy is a functional of electron density. Either of these two methods has "pros and cons"; the third one is called Kohn-Sham
 equation \cite{kohn1965self}, which is a combination of above two methods. It starts from DFT, and takes advantage of single-electron wavefunction.
 
-\subsubsection{Hartree approximation}
+\subsection{Hartree approximation}
 \label{ha}
 The simplest approximation of wavefunction for many-electron Schrödinger equation is the one acting like independent
 electrons. The wavefunction with $Ne$ independent electrons is defined as
@@ -891,7 +898,7 @@ There are many solutions in \textbf{Eq. \ref{hartreq11}}, and each corresponds t
 
 Here, \textbf{Eq. \ref{hartreq}} is a group of dependent single particle equations. $\epsilon_k^{{H}}$ is identified as the eigenvalue for this single-electron Hartree equation.
 
-\subsubsection{Hartree-Fock approximation}
+\subsection{Hartree-Fock approximation}
 Hartree approximation is a simple approximation. Hartree-Fock (HF) approximation is a method which considers antisymmetry of wavefunction. It is shown as
 
 \begin{equation}\label{hfwf}
@@ -940,7 +947,7 @@ In comparison with Hartree equation in \textbf{Eq. \ref{hartreq}}, there is an e
 \end{equation}
 
 
-\subsubsection{Density functional theory}
+\subsection{Density functional theory}
 The Hartree and HF methods are very classic methods solving the many-electron Schrödinger equation. However, the HF method only includes the exchange term and not the electron correlation term. Therefore, it is not suitable 
 for solid materials. Apart from the Hartree and HF methods, there is a modern method solving the more complicated calculations of many-electron system, namely density functional theory (DFT). 
 It is introduced by Hohenberg and Kohn in 1964 \cite{hohenberg1964inhomogeneous}. Kohn and Pople were awarded Chemistry Nobel Prize in 1998.
@@ -1027,7 +1034,7 @@ Here, the total energy for the case of exact ground-state electron density is lo
 
 From those two theorems, one knows how to solve Schrödinger equation theoretically. However, $E[\rho]$ is unknown in practice. Therefore, another method is needed to solve this problem, which is so called Kohn-Sham (KS) equation.
 
-\subsubsection{Kohn-Sham equation}
+\subsection{Kohn-Sham equation}
 
 The Hartree and HF methods are introduced to solve the many-body problem, both of which are based on the idea of transforming complex 
 many-electron problem to single-electron problem by using different wavefunctions. The DFT gives the answer to solve many-electron system, however, it does not give explicit expression.
@@ -1108,7 +1115,7 @@ Based on \textbf{Eq. \ref{kankan}} , \textbf{Eq. \ref{kse}}, and \textbf{Eq. \re
 
 There are two problems still in the air: one is the exact format of $V_{xc}(\textbf{r})$; the other one is how to solve the KS equation.
 
-\subsubsection{The exchange-correlation potential}
+\subsection{The exchange-correlation potential}
 
 The exchange-correlation potential is the most difficult part during the process of solving the KS equation, because the exact form is still unknown today. Therefore, there
  are varies of approximations about it, such as the local density approximation (LDA) \cite{martin2004electronic, Cottenierwien2k, kohn1965self, von1972local, hedin1971explicit}.
@@ -1147,7 +1154,7 @@ Today, there exists hundreds of different exchange-correlation potentials \cite{
 The advantage of KS equation is that new potentials are implemented easily. In the same time, it has many potentials due to
 the simplicity of implementation.
 
-\subsection{Solving the secular equation}
+\section{Solving the secular equation}
 
 The process for solving KS equation can be achieved by iteration \cite{martin2004electronic, Cottenierwien2k, clasdft}. Potential in KS equation depends on electron density.
 However, electron density is calculated by wavefunction, which depends on the potential. 
@@ -1194,7 +1201,7 @@ Here, $\rho^{i}(\textbf{r})$ and $\rho^{i+1}(\textbf{r})$ are the electron densi
 
 \vspace{100cm}
 
-\subsection{Eigenvalue problem}
+\section{Eigenvalue problem}
 
 In order to solve \textbf{Eq. \ref{aaa}}, the KS equation can be transformed into the general eigenvalue problem \cite{martin2004electronic, Cottenierwien2k}.
 If the KS equation is given as (the index $i$ is ignored in wavefunction in comparison with \textbf{Eq. \ref{aaa}})
@@ -1754,20 +1761,20 @@ m_{SO}^{-1} = {m_0^{-1}}A.
  To utilize the $\bold k \cdot \bold p$ method for a concrete example, band dispersions and average effective masses of the valence band edges are derived briefly for zinc blende type semiconductors.
 Spin-orbit coupling (SOC) is considered in the derivation.
 
-For most of zinc blende type semiconductors, valence bands of the valence band edges are 3-fold degenerate (6-fold degenerate if one considers spin) at the $\Gamma$ point in the Brillouin zone without considering spin-orbit interaction.
-They are 6-fold degenerate considering spin-orbit interaction.
+For most of zinc blende type semiconductors, energy bands of the valence band edges are 3-fold degenerate at the $\Gamma$ point in the Brillouin zone without considering spin. However,
+they are 6-fold degenerate considering spin. In the case of SOC, it splits the 6-fold degeneracy into higher energy 4-fold bands (heavy hole (HH) and light hole (LH) bands) and lower energy 2-fold bands (split-off (SO) bands).
 
 \begin{figure}[H]
 \centering
 %\includegraphics[scale=0.5]{devicestruc.eps} 
 \includegraphics[scale=0.8]{bands.eps} 
-\caption{Band degeneracy of the valence band edges without and with spin-orbit coupling (SOC) for most of zinc blende type semiconductors.}
+\caption{Band degeneracy of the valence band edges without spin and with spin-orbit coupling (SOC) for most of zinc blende type semiconductors.}
 \label{device}
 \end{figure}
 
 
-Wavefunctions of these valence bands are \textit{p}-like. The \textit{p}-like wavefunction has three degenerate states if the spin-orbit interaction is not considered. The arbitrary choice of a basis at \textbf{k}=0,
-and Hamiltonian $\hbar\textbf{kp}/m_e$ is considered as perturbation. The following perturbation equation is derived without considering spin-orbit interaction
+Wavefunctions of these valence bands are \textit{p}-like. The \textit{p}-like wavefunction has three degenerate states if the spin is not considered. The arbitrary choice of a basis at \textbf{k}=0,
+and Hamiltonian $\hbar\textbf{kp}/m_e$ is considered as perturbation. The following perturbation equation is derived without considering spin
 
 
 \begin{equation}\label{kpmatrix1}
@@ -1783,7 +1790,7 @@ and Hamiltonian $\hbar\textbf{kp}/m_e$ is considered as perturbation. The follow
 
 
 
-Here, $L$, $M$, and $N$ are electron momentum matrix elements, and the corresponding 3$\times$3 matrix in \textbf{Eq. \ref{kpmatrix1}} is written as $Y$. The energy dispersion around $\Gamma$ point can be obtained from $\lambda$ by
+Here, $L$, $M$, and $N$ are electron momentum matrix elements, and the corresponding 3$\times$3 matrix in \textbf{Eq. \ref{kpmatrix1}} is written as $Y$. The energy dispersion around the $\Gamma$ point can be obtained from $\lambda$ by
 
 \begin{equation}
  \epsilon = \frac{\hbar^2\textbf{k}^2}{2m_e}+\lambda.
@@ -1797,11 +1804,11 @@ In the case of spin-orbit interaction, a 6$\times$6 matrix can be expressed by t
 \begin{matrix}
     Y  & 0 \\
     0  & Y \\
-\end{matrix} \right)
+\end{matrix} \right).
 \end{equation}
 
 If the spin-orbit interaction (see \textbf{Eq. \ref{nonrela1}}) is considered as perturbation, a 6$\times$6 matrix can be calculated. Approximately, the 6$\times$6 matrix can be further divided into a 4$\times$4 matrix and a 2$\times$2 matrix.
-The 4-fold degenerate energy dispersions around $\Gamma$ point can be calculated by diagonalizing the 4$\times$4 matrix, which is derived as
+The 4-fold degenerate energy dispersions around the $\Gamma$ point can be calculated by diagonalizing the 4$\times$4 matrix, which is derived as
 
 \begin{equation} \begin{split}\label{8652}
 \epsilon_{v1, v2} (\textbf{k}) = \frac{\hbar^2}{2m_0}\Big\{Ak^2\pm[B^2k^4 + C^2 (k_x^{2}k_y^{2} + k_y^{2}k_z^{2} +k_z^{2}k_x^{2} )]^{\frac{1}{2}}\Big\}.
@@ -1817,9 +1824,9 @@ Here, $A$, $B$, and $C$ are given as
 \end{equation}
 
 
-Actually, $A$, $B$, and $C$ are the fitting parameters in realistic application, and $L$, $M$, and $N$ do not need to be calculated.
+Actually, $L$, $M$, and $N$ do not need to be calculated becaues $A$, $B$, and $C$ are the only fitting parameters in realistic application. .
 
-The average heavy hole mass ($m_{hh}$) and light hole mass ($m_{lh}$) around $\Gamma$ point can be calculated from  \textbf{Eq. \ref{8652}} 
+The average heavy hole mass ($m_{hh}$) and light hole mass ($m_{lh}$) around the $\Gamma$ point can be calculated from  \textbf{Eq. \ref{8652}} 
 
 \begin{equation}\begin{split}
 m_{hh,lh}^{-1} = -{m_0^{-1}} \Big[A \pm \sqrt{B^2+C^2/5} \Big].
@@ -1827,13 +1834,13 @@ m_{hh,lh}^{-1} = -{m_0^{-1}} \Big[A \pm \sqrt{B^2+C^2/5} \Big].
 \end{equation}
 
 
-The 2-fold degenerate energy dispersion around $\Gamma$ point can be derived by diagonalizing the 2$\times$2 matrix, which is derived as
+The 2-fold degenerate energy dispersion around the $\Gamma$ point can be derived by diagonalizing the 2$\times$2 matrix, which is derived as
 
 \begin{equation}\label{9054}
  \epsilon_{SO} (\textbf{k}) = -\varDelta_{SO} + A \frac{\hbar^2 {k}^2}{2m_0}.
 \end{equation}
 
-Here, $\varDelta_{SO}$ is the spin-orbit splitting energy of the valence band. The average effective mass $m_{SO}$ around $\Gamma$ point can be calculated from  \textbf{Eq. \ref{9054}} 
+Here, $\varDelta_{SO}$ is the spin-orbit splitting energy. The average effective mass $m_{SO}$ around the $\Gamma$ point can be calculated from  \textbf{Eq. \ref{9054}} 
 
 \begin{equation}\begin{split}
 m_{SO}^{-1} = {m_0^{-1}}A.
@@ -2281,12 +2288,23 @@ corresponding to the  $v_4 \longrightarrow c_1$ at the $N$ point. The $E_7$ is f
 \end{comment}
 
 
-\chapter{SHORT SUMMARY OF THE PAPERS}
+\newpage
+\blankpage
+
+
+\setcounter{page}{45}
+
+\mypart{SHORT SUMMARY OF THE PAPERS}
+%addcontentsline{toc}{part}{SHORT SUMMARY OF THE PAPERS}
+
+\chapter{Concluding remarks}
 
 \section{Summary of the papers}
 
 I \textbf{Parameterization of $\mathbf {CuIn_{1-x}Ga_{x}Se_2}$ (x = 0, 0.5, and 1) energy bands}
 \\\textbf{R. Chen} and C. Persson, \textit{Thin Solid Films} {\textbf {519}}, 7503 (2011).
+
+\vspace{15px}
 
 The most fundamental property of a material is the energy of the electrons. That is determined by solving the Kohn-Sham equation (see \textbf{Eq. \ref{aaa111}}). By understanding the electronic properties of the electrons one 
 can understand many of the fundamental material properties. During the last two decades the electronic structure of CIGS has been explored, however the motivation of the present study is that much of the earlier studies describe 
@@ -2331,13 +2349,28 @@ the effective electron masses are similar while it differs much more for the eff
 This is a direct consequence of the different spin-orbit split-off and the crystal-field split-off energies. These splits directly affect the band curvatures and therefore the effective masses. This is discussed in the paper. Moreover, in the figure one can see that the effective mass is very anisotropic, that is, different 
 in different $\mathbf{k}$ directions; this is most obvious for the holes in the VBs. That means that carrier transport will be different in different $\textbf{k}$ directions.  
 
+\noindent In short, the main conclusions are:
+
+\vspace{-5mm}
+
+\begin{enumerate}
+  \itemsep-0.2em 
+%\renewcommand{\labelenumi}{\Roman{enumi}}
+\item{}  The energy dispersions of the three uppermost VBs are strongly anisotropic and non-parabolic even very close to the $\Gamma$-point VBM.
+\item{}  The lowest CB is anisotropic and non-parabolic for energies around 50 meV above the band-gap energy.
+\item{}  The effective hole masses of the two topmost VBs are very strong anisotropy at the $\Gamma$-point.
+\item{}  All the three CuIn\textsubscript{1-x}Ga\textsubscript{x}Se\textsubscript{2} ($x$ = 0, 0.5, and 1.0) compositions show comparable \textbf{k}-dependency of their effective hole masses.
+\end{enumerate}
+
+\vspace{15px}
 
 
 II \textbf{Band-edge density-of-states and carrier concentrations in intrinsic and $p$-type
 \\$\mathbf {CuIn_{1-x}Ga_{x}Se_2}$}
 \\\textbf{R. Chen} and C. Persson, \textit{Journal of Applied Physics} {\textbf {112}}, 103708 (2012).
 
-\noindent 
+\vspace{10px}
+
 When a solar cell is under operation, the sunlight  strongly excites electrons up to the CB and
 thereby also creating holes in the VBs. Then, one has quasi Fermi levels for the CB and the VBs.  
 Also, with illumination, the device operation is in the order of 25 degrees Celsius and the temperature 
@@ -2371,17 +2404,30 @@ We also model the temperature-dependent Fermi levels and carrier concentrations 
 since the material is used as $p$-type absorber layer in solar cells. Thus, an accurate description of the temperature dependences are important in analyses and simulations of the material and devices. Here, we find that there 
 is a large difference for the full band description compared with the parabolic approximation. The difference is explained by the non-parabolicity and anisotropy of the energy bands.  
 
-\noindent In details, the overall results are: 
-(i) the three uppermost valence bands (VBs) are strongly anisotropic and non-parabolic. (ii) The lowest CB becomes non-parabolic for energies 50$-$100 meV above the $\Gamma$-point band minimum. (iii) A constant
-density-of-states (DOS) mass cannot accurately describe band filling of the valence bands even at low hole concentrations. Instead, we introduce an energy-dependent DOS mass that can be utilized to describe the carrier concentration 
-and the Fermi energy using traditional equations for the DOS. (iv) With the full description of the energy dispersion, the hole concentration is improved by a factor of 10$-$50 and the electron concentration is improved by a factor
-of 2$-$10 depending on quasi-Fermi energy. (v) The transition from the freeze-out region to the extrinsic region occurs well below the room temperature for uncompensated acceptor concentration below 
+\noindent In short, the main conclusions are:
+
+\vspace{-5mm}
+
+\begin{enumerate}
+\itemsep-0.2em 
+%\renewcommand{\labelenumi}{\Roman{enumi}}
+\item{}  The three uppermost VBs are strongly anisotropic and non-parabolic.
+\item{}  The lowest CB becomes non-parabolic for energies 50$-$100 meV above the $\Gamma$-point band minimum.
+\item{}  A constant density-of-states (DOS) mass cannot accurately describe band filling of the valence bands even at low hole concentrations. Instead, we introduce an energy-dependent DOS mass that can be utilized to describe
+the carrier concentration and the Fermi energy using traditional equations for the DOS.
+\item{}  With the full description of the energy dispersion, the hole concentration is improved by a factor of 10$-$50 and the electron concentration is improved by a factor of 2$-$10 depending on quasi-Fermi energy.
+\item{}  The transition from the freeze-out region to the extrinsic region occurs well below the room temperature for uncompensated acceptor concentration below 
 around 10\textsuperscript{17} cm\textsuperscript{$-$3}, whereas for higher concentrations, not all acceptors are ionized at \textit{T} = 300 K. Thus, with a more correct description of the energy dispersions, one can better analyze the
 electron and hole dynamics in the CuIn\textsubscript{1-\textit{x}}Ga\textsubscript{\textit{x}}Se\textsubscript{2} ($x$ = 0, 0.5, and 1) alloys, thereby better understand the electrical properties of these compounds. 
+\end{enumerate}
+
+\vspace{15px}
 
 III \textbf{Dielectric function spectra at 40 K and critical-point energies for $\mathbf {CuIn_{0.7}Ga_{0.3}Se_2}$}
 S.G. Choi, \textbf{R. Chen}, C. Persson, T.J. Kim, S.Y. Hwang, Y. D. Kim, and L. M. Mansfield,
 \textit{Applied Physics Letters} {\textbf {101}}, 261903 (2012).
+
+\vspace{10px}
 
 The most important optical property of a solar cell material is how the material absorbs the sunlight efficiently. The absorption coefficient $\alpha(\omega)$ describes this efficiency in units of 1/length.
 That is, if the absorption coefficient is large, the thickness of the material can be thinner but still the material absorbs the same amount of sunlight. The absorption coefficient is related to the dielectric function through
@@ -2411,10 +2457,24 @@ The calculated dielectric function is compared with experimental data (CuIn\text
 calculation. Moreover, the $\textbf{k}$-dependence of the interband critical points along the main symmetry directions are analyzed as well. With these results, we can better understand and explain the dielectric function spectra obtained
 by experimentalist. The surprising conclusion is that there are different band-to-band transitions that are important and that several low-lying states in the VBs that strongly contribute to the total dielectric function. That is, a full band description is needed to accurately describe the optical activity of these materials.
 
+\noindent In short, the main conclusions are:
 
 
 
-\section{Concluding remarks and future perspectives}
+\vspace{-5mm}
+
+
+\begin{enumerate}
+\itemsep-0.2em 
+%\renewcommand{\labelenumi}{\Roman{enumi}}
+\item{}  The dielectric function calculated by our theoretical method shows a good agreement with the result of experiment.
+\item{}  Electronic origins of the observed critical-point (CP) features are discussed based on our theoretical calculations.
+\item{}  The pairs of valence and conduction bands along the main symmetry directions of Brillouin zone are suggested for the major CP features based on our theoretical calculations.
+\end{enumerate}
+
+\vspace{15px}
+
+\section{Conclusions and future perspectives}
 
 \noindent Chalcopyrite CIGS is seen as one of the most promising materials for the near future 
 thin-film solar-cell technology. The maximum conversion efficiency of 23.3\% for the CIGS was achieved in the 
@@ -2600,10 +2660,11 @@ The result in \textbf{Eq. \ref{functional3}} is useful to derive the solution in
 \blankpage
 
 
-\setcounter{page}{49}
+\setcounter{page}{55}
 
 
-\chapter*{Acknowledgements} \addcontentsline{toc}{chapter}{Acknowledgements}
+%\chapter*{Acknowledgements} \addcontentsline{toc}{chapter}{Acknowledgements}
+\mychapter{Acknowledgements}
 
 I would like to express my sincere appreciation to my supervisor Prof. Clas Persson for his academic encouragement and professional guidance. He is always showing a great interest to my projects and patient to teach me detailed
 material physics, which will be an invaluable asset to my future career.
@@ -2625,7 +2686,7 @@ are acknowledged for financial support.
 \blankpage
 
 
-\setcounter{page}{51}
+\setcounter{page}{57}
 
 
 \bibliography{bibdatabase}
@@ -2636,9 +2697,12 @@ are acknowledged for financial support.
 \blankpage
 
 
-\setcounter{page}{59}
+\setcounter{page}{65}
 
-\chapter{COMPILATION OF SCIENTIFIC PAPERS}
+\mypart{COMPILATION OF SCIENTIFIC PAPERS}
+%\addcontentsline{toc}{part}{COMPILATION OF SCIENTIFIC PAPERS}
+
+\chapter{Work presented in scientific journals}
 
 \section{Paper I: "Parameterization of CuIn\textsubscript{1-x}Ga\textsubscript{x}Se\textsubscript{2} (x = 0, 0.5, and 1) energy bands"}
 \textbf{R. Chen} and C. Persson, \textit{Thin Solid Films} {\textbf {519}}, 7503 (2011).

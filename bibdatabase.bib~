@@ -1376,5 +1376,37 @@ year = {2010},
 }
 
 
+@book{FujifilmCorp,
+  title={High-durability Dye Improves Efficiency of Dye-sensitized Solar Cells},
+  author={{Fujifilm Corp}},
+  year={2013},
+  publisher={Japan: Fujifilm Corp}
+}
+
+
+@book{MitsubishiChemicalCorp,
+  title={Mitsubishi Chemical Claims Efficiency Record for Organic Thin-film PV Cell},
+  author={{Mitsubishi Chemical Corp}},
+  year={2012},
+  publisher={Japan: Mitsubishi Chemical Corp}
+}
+
+
+
+@article{doi:10.1021/nl504086v,
+author = {Labelle, André J. and Thon, Susanna M. and Masala, Silvia and Adachi, Michael M. and Dong, Haopeng and Farahani, Maryam and Ip, Alexander H. and Fratalocchi, Andrea and Sargent, Edward H.},
+title = {},
+journal = {Nano Letters},
+year = {2014},
+}
+
+
+
+
+
+
+
+
+
 
 
