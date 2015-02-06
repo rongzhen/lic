@@ -25,19 +25,18 @@
 \contentsline {subsection}{\numberline {3.3.4}Kohn-Sham equation}{27}
 \contentsline {subsection}{\numberline {3.3.5}The exchange-correlation potential}{29}
 \contentsline {section}{\numberline {3.4}Solving the secular equation}{30}
-\contentsline {section}{\numberline {3.5}Eigenvalue problem}{31}
-\contentsline {section}{\numberline {3.6}Full-potential linearized augmented plane wave method}{32}
-\contentsline {subsection}{\numberline {3.6.1}Introduction}{32}
-\contentsline {subsection}{\numberline {3.6.2}Wavefunction}{33}
+\contentsline {section}{\numberline {3.5}Full-potential linearized augmented plane wave method}{32}
+\contentsline {subsection}{\numberline {3.5.1}Introduction}{32}
+\contentsline {subsection}{\numberline {3.5.2}Wavefunction}{33}
 \contentsline {subsubsection}{Augmented plane wave method}{33}
 \contentsline {subsubsection}{Linearized augmented plane wave method}{34}
 \contentsline {subsubsection}{Local orbitals}{35}
-\contentsline {subsection}{\numberline {3.6.3}Effective potential}{36}
-\contentsline {section}{\numberline {3.7}Dielectric function}{36}
-\contentsline {section}{\numberline {3.8}Spin-orbit coupling}{37}
-\contentsline {subsection}{\numberline {3.8.1}Dirac equation}{37}
-\contentsline {subsection}{\numberline {3.8.2}Derivation of spin-orbit coupling}{38}
-\contentsline {section}{\numberline {3.9}\textbf {k} $\cdot $ \textbf {p} method}{40}
+\contentsline {subsection}{\numberline {3.5.3}Effective potential}{36}
+\contentsline {section}{\numberline {3.6}Dielectric function}{36}
+\contentsline {section}{\numberline {3.7}Spin-orbit coupling}{37}
+\contentsline {subsection}{\numberline {3.7.1}Dirac equation}{37}
+\contentsline {subsection}{\numberline {3.7.2}Derivation of spin-orbit coupling}{38}
+\contentsline {section}{\numberline {3.8}\textbf {k} $\cdot $ \textbf {p} method}{40}
 \contentsline {part}{SHORT SUMMARY OF THE PAPERS}{45}
 \contentsline {chapter}{\chapternumberline {4}Concluding remarks}{46}
 \contentsline {section}{\numberline {4.1}Summary of the papers}{46}
